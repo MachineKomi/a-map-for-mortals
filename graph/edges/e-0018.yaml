@@ -1,0 +1,11 @@
+id: e-0018
+type: REFINES
+from: c-0002
+to: c-0001
+origin: inferred
+confidence: high
+method: "proposed by claude-code:s4-skeleton-v1; adversarial second pass pending (fresh-context subagent, shared weights disclosed)"
+prov:
+  minted_by: "claude-code:s4-skeleton-v1"
+  date: 2026-07-07
+notes: "The judgment-mechanism claim refines the dichotomy of control by supplying its engine: what makes externals bearable is the withdrawal of the judgment."

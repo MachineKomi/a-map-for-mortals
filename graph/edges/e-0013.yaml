@@ -1,0 +1,11 @@
+id: e-0013
+type: QUALIFIES
+from: c-0031
+to: c-0008
+origin: inferred
+confidence: high
+method: "proposed by claude-code:s4-skeleton-v1; adversarial second pass pending (fresh-context subagent, shared weights disclosed)"
+prov:
+  minted_by: "claude-code:s4-skeleton-v1"
+  date: 2026-07-07
+notes: "Resilience-is-modal qualifies suffering-strengthens: the typical post-adversity trajectory is return to baseline, not growth. Strengthening is the exception Nietzsche's own conditionality anticipated."

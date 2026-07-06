@@ -1,0 +1,14 @@
+id: e-0002
+type: CONVERGES_WITH
+from: c-0001
+to: c-0010
+origin: inferred
+confidence: moderate
+method: "proposed by claude-code:s4-skeleton-v1 from cross-report analysis (COVERAGE-INDEX clusters + unit evidence); adversarial second pass pending (fresh-context subagent, shared weights disclosed)"
+independence_basis:
+  grade: partial
+  evidence: "R. Tarfon (fl. c. 70-135 CE) was an exact contemporary of Epictetus under shared Greco-Roman rule in Palestine; Hellenistic influence on tannaitic literature is documented in general but not for this mishnah; no textual dependence shown."
+prov:
+  minted_by: "claude-code:s4-skeleton-v1"
+  date: 2026-07-07
+notes: "Stoic control converging with Avot's duty-to-persist-without-owning-completion."

@@ -1,0 +1,11 @@
+id: e-0011
+type: QUALIFIES
+from: c-0026
+to: c-0013
+origin: inferred
+confidence: high
+method: "proposed by claude-code:s4-skeleton-v1; adversarial second pass pending (fresh-context subagent, shared weights disclosed)"
+prov:
+  minted_by: "claude-code:s4-skeleton-v1"
+  date: 2026-07-07
+notes: "Money-tracks-experienced-well-being qualifies happiness-from-what-one-is: the Schopenhauer claim survives only in a weakened, both-and form. The book must print the qualifier with the claim."

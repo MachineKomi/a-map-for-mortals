@@ -1,0 +1,11 @@
+id: e-0009
+type: IN_TENSION_WITH
+from: c-0022
+to: c-0021
+origin: inferred
+confidence: high
+method: "proposed by claude-code:s4-skeleton-v1; adversarial second pass pending (fresh-context subagent, shared weights disclosed)"
+prov:
+  minted_by: "claude-code:s4-skeleton-v1"
+  date: 2026-07-07
+notes: "Faustian never-rest vs readiness-and-acceptance. The Building Years altitude of the corpus's master fork (effort vs acceptance): keep striving, or consent to what the hour brings."

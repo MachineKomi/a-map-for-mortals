@@ -1,0 +1,11 @@
+id: e-0016
+type: SUPPORTED_BY
+from: c-0019
+to: c-0033
+origin: inferred
+confidence: moderate
+method: "proposed by claude-code:s4-skeleton-v1; adversarial second pass pending (fresh-context subagent, shared weights disclosed)"
+prov:
+  minted_by: "claude-code:s4-skeleton-v1"
+  date: 2026-07-07
+notes: "Outward-directed purpose supports Russell's claim in tendency: low purpose predicts ~2.4x mortality. Observational — supports the association, not the prescription's causal efficacy."

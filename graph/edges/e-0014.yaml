@@ -1,0 +1,11 @@
+id: e-0014
+type: UNDERMINED_BY
+from: c-0023
+to: c-0030
+origin: inferred
+confidence: moderate
+method: "proposed by claude-code:s4-skeleton-v1; adversarial second pass pending (fresh-context subagent, shared weights disclosed)"
+prov:
+  minted_by: "claude-code:s4-skeleton-v1"
+  date: 2026-07-07
+notes: "Pathei mathos is partially undermined by the PTG measurement critique: retrospective 'suffering taught me' reports track distress, not measured growth. Partial undermining — the critique targets self-report, not the possibility of learning."

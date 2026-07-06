@@ -1,0 +1,14 @@
+id: e-0003
+type: CONVERGES_WITH
+from: c-0001
+to: c-0021
+origin: inferred
+confidence: moderate
+method: "proposed by claude-code:s4-skeleton-v1 from cross-report analysis (COVERAGE-INDEX clusters + unit evidence); adversarial second pass pending (fresh-context subagent, shared weights disclosed)"
+independence_basis:
+  grade: weak
+  evidence: "Renaissance Neo-Stoicism: Senecan drama and Florio's 1603 Montaigne (itself Stoic-saturated) demonstrably reached Shakespeare; transmission is likely rather than merely possible, so independence is graded weak."
+prov:
+  minted_by: "claude-code:s4-skeleton-v1"
+  date: 2026-07-07
+notes: "Stoic acceptance converging with Edgar's 'ripeness is all'. The play COMPLICATES the claim (endorsement on u-0021) — the map should show the fraying, not just the meeting."
