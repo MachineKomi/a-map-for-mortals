@@ -18,7 +18,6 @@ Depth: `none` · `survey` (breadth pass) · `deep` (focused extraction).
 | Methodology / data science | — | `01-methodology.md` | not a corpus area; validated: prescribes git+YAML-compatible pipeline, no contradictions with METHODOLOGY v0.3 |
 | Greco-Roman & classical | survey | `02-greco-roman.md` | validated: ~39 units, all 6 sections, excellent locators (Stephanus/Bekker/DK); 13-quote misattribution watchlist; depth queries queued for Epictetus, Aristotle |
 | Nietzsche & approved precursors | survey | `03-nietzsche.md` | validated: ~18 units; Förster-Nietzsche/*Will to Power* forgery quarantined; Kaufmann translations in-copyright — PD alternatives (Common/Ludovici) flagged; overlap w/ 06 — merge downstream |
-| **Eastern (Chinese/Indian/Buddhist/Japanese)** | **none** | **— MISSING** | **expected as `04-eastern.md`, never landed — top wave-2 priority** |
 | Abrahamic & Near-Eastern wisdom | survey | `05-near-eastern-abrahamic.md` | validated: ~34 units (14 Hebrew, 7 ANE, 7 Christian, 6 Islamic/Sufi); claim types kept honest; Rumi/Hafiz fake-quote hazard walled off; thin: Qur'anic doctrinal wisdom, Talmudic reasoning |
 | Moralists / Enlightenment / modern West | survey | `06-modern-west.md` | validated: ~50 units; exemplary copyright tracking (incl. Russell US-PD Jan 2026 note); thin: German Idealism, Rousseau; parenthood/elder stages light |
 | Literary wisdom | survey | `07-literary.md` | validated: ~20 units with `endorsement` + `dramatic_context` fields properly used (irony not flattened); Hugo/Kretzmer 1985 lyric caught; zero non-Western literature, zero 20th-century — named gaps |
@@ -31,12 +30,6 @@ Depth: `none` · `survey` (breadth pass) · `deep` (focused extraction).
 | Practical/strategic — wave-2 | survey | `wave-2/07-practical-strategic.md` | validated: 24 units; realpolitik cautionary/descriptive never endorsed; Hippocratic counter-pole first-class; watchlist traces "ends justify means"→Ovid, "first do no harm"→19th c. |
 | World folk & proverbial — wave-2 | survey | `wave-2/08-folk-proverbial.md` | validated: 10 units + 6 contradicting pairs as first-class forks + 6 independence-GRADED convergences (transmitted-by-default discipline); "interesting times" & "two wolves" debunked with sources |
 | Empirical evidence base | survey | `08-empirical.md` | validated: 26 graded findings (A–E rubric) + mapping table; replication-crisis-aware (ego depletion, marshmallow, positivity ratio foregrounded as failed/contested); causal honesty good; WEIRD skew flagged not quantified |
-| _African (Ubuntu, proverbs)_ | none | — | **P1 gap** |
-| _Indigenous / First Nations oral_ | none | — | **P1 gap (epistemic care)** |
-| _Persian / Zoroastrian / Mid-East_ | none | — | **P2 gap** |
-| _Practical / strategic_ | none | — | **P2 gap** |
-| _Women's voices (corrective)_ | none | — | **P1 gap** |
-| _World folk & proverbial_ | none | — | **P2 gap** |
 
 ## 2 · Coverage by life-stage & domain (the book's spine)
 
@@ -70,10 +63,10 @@ Flag thin cells — the book is ordered by life-stage (SPEC §8), so each stage 
 | Priority | Gap | Why it matters | Status |
 |---|---|---|---|
 | ~~P0~~ | ~~Eastern traditions~~ | **FED by wave-2/01** (25 units, all four target streams + Japanese) | closed 2026-07-08 |
-| P1 | African & Indigenous wisdom | corpus must not skew literate/recent/Western (a stated honesty commitment) | queued (wave 2) |
-| P1 | Women's voices across eras | corrects the male/literate skew (wave-1 women: Austen, Eliot, Dickinson, Weil, Arendt only) | queued (wave 2) |
-| P1 | Child + elder life-stages | every content report leans adult/midlife; the book's spine needs its first and last chapters fed (read-aloud childhood material; facing-the-end material) | queued (wave 2) |
-| P2 | Persian/Zoroastrian; practical/strategic; world proverbs | breadth | queued |
+| ~~P1~~ | ~~African & Indigenous wisdom~~ | FED by wave-2/02 + wave-2/03 (Indigenous units publish only after the consent/CARE gate) | closed 2026-07-08 |
+| ~~P1~~ | ~~Women's voices across eras~~ | FED by wave-2/04 (28 units); residual thinness: Mirabai, Edith Stein, elder voices | closed 2026-07-08 |
+| P1→P2 | Child + elder life-stages | partially FED by wave-2/05 (5 read-aloud child + 8 elder units); still the thinnest stages — keep feeding via depth passes (Confucian filial piety, more read-aloud material) | reduced 2026-07-08 |
+| ~~P2~~ | ~~Persian/Zoroastrian; practical/strategic; world proverbs~~ | FED by wave-2/06, /07, /08 | closed 2026-07-08 |
 | P2 | Non-Western + 20th-century literature | 07-literary is canon-Western, pre-1900 | queued |
 | P2 | Islamic doctrinal & Talmudic reasoning depth | 05 leans Sufi-poetic; jurisprudential ethics and disputational wisdom absent | queued |
 | P2 | Depth passes (Epictetus, Analects, Gita, Shakespeare…) | surveys aren't the digging | from reports' §C/§G |
