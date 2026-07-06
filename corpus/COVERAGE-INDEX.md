@@ -2,10 +2,10 @@
 
 **The master tracker.** Updated by Claude Code after every wave (Runbook P2, and again each wave in P5). This is the source of coordination truth — it lives in the repo, not in any chat. *(Template below; replace the example rows as real data lands.)*
 
-- **Last updated:** _YYYY-MM-DD_
-- **Current wave:** _1_
-- **Saturation status:** _not yet assessed_
-- **Reports held:** _0_ · **Canonical claims (deduped):** _0_ · **Dilemmas:** _0_
+- **Last updated:** 2026-07-06 (P1 landing validated; P2 synthesis pending)
+- **Current wave:** 1
+- **Saturation status:** not yet assessed
+- **Reports held:** 7 (of nominal 8 — `04-eastern` never landed) · **Canonical claims (deduped):** 0 (pre-ingestion) · **Dilemmas:** ~30 named across reports (pre-merge)
 
 ---
 
@@ -15,14 +15,14 @@ Depth: `none` · `survey` (breadth pass) · `deep` (focused extraction).
 
 | Tradition / source area | Depth | Report(s) | Notes |
 |---|---|---|---|
-| Methodology / data science | — | `01-methodology.md` | not a corpus area |
-| Greco-Roman & classical | survey | `02-greco-roman.md` | depth queries queued for Epictetus, Aristotle |
-| Nietzsche & approved precursors | survey | `03-nietzsche.md` | overlap w/ moralists — merge downstream |
-| Eastern (Chinese/Indian/Buddhist/Japanese) | survey | `04-eastern.md` | |
-| Abrahamic & Near-Eastern wisdom | survey | `05-abrahamic.md` | |
-| Moralists / Enlightenment / modern West | survey | `06-modern-west.md` | |
-| Literary wisdom | survey | `07-literary.md` | |
-| Empirical evidence base | survey | `08-empirical.md` | feeds analysis, not a tradition |
+| Methodology / data science | — | `01-methodology.md` | not a corpus area; validated: prescribes git+YAML-compatible pipeline, no contradictions with METHODOLOGY v0.3 |
+| Greco-Roman & classical | survey | `02-greco-roman.md` | validated: ~39 units, all 6 sections, excellent locators (Stephanus/Bekker/DK); 13-quote misattribution watchlist; depth queries queued for Epictetus, Aristotle |
+| Nietzsche & approved precursors | survey | `03-nietzsche.md` | validated: ~18 units; Förster-Nietzsche/*Will to Power* forgery quarantined; Kaufmann translations in-copyright — PD alternatives (Common/Ludovici) flagged; overlap w/ 06 — merge downstream |
+| **Eastern (Chinese/Indian/Buddhist/Japanese)** | **none** | **— MISSING** | **expected as `04-eastern.md`, never landed — top wave-2 priority** |
+| Abrahamic & Near-Eastern wisdom | survey | `05-near-eastern-abrahamic.md` | validated: ~34 units (14 Hebrew, 7 ANE, 7 Christian, 6 Islamic/Sufi); claim types kept honest; Rumi/Hafiz fake-quote hazard walled off; thin: Qur'anic doctrinal wisdom, Talmudic reasoning |
+| Moralists / Enlightenment / modern West | survey | `06-modern-west.md` | validated: ~50 units; exemplary copyright tracking (incl. Russell US-PD Jan 2026 note); thin: German Idealism, Rousseau; parenthood/elder stages light |
+| Literary wisdom | survey | `07-literary.md` | validated: ~20 units with `endorsement` + `dramatic_context` fields properly used (irony not flattened); Hugo/Kretzmer 1985 lyric caught; zero non-Western literature, zero 20th-century — named gaps |
+| Empirical evidence base | survey | `08-empirical.md` | validated: 26 graded findings (A–E rubric) + mapping table; replication-crisis-aware (ego depletion, marshmallow, positivity ratio foregrounded as failed/contested); causal honesty good; WEIRD skew flagged not quantified |
 | _African (Ubuntu, proverbs)_ | none | — | **P1 gap** |
 | _Indigenous / First Nations oral_ | none | — | **P1 gap (epistemic care)** |
 | _Persian / Zoroastrian / Mid-East_ | none | — | **P2 gap** |
@@ -54,10 +54,17 @@ Flag thin cells — the book is ordered by life-stage (SPEC §8), so each stage 
 
 | Priority | Gap | Why it matters | Status |
 |---|---|---|---|
+| **P0** | **Eastern traditions (Confucian, Daoist, Buddhist, Hindu, Japanese)** | **expected wave-1 report never landed; without it the corpus is Western + Near-Eastern only — the single largest skew** | **queued (wave 2, first)** |
 | P1 | African & Indigenous wisdom | corpus must not skew literate/recent/Western (a stated honesty commitment) | queued (wave 2) |
-| P1 | Women's voices across eras | corrects the male/literate skew | queued (wave 2) |
+| P1 | Women's voices across eras | corrects the male/literate skew (wave-1 women: Austen, Eliot, Dickinson, Weil, Arendt only) | queued (wave 2) |
+| P1 | Child + elder life-stages | every content report leans adult/midlife; the book's spine needs its first and last chapters fed (read-aloud childhood material; facing-the-end material) | queued (wave 2) |
 | P2 | Persian/Zoroastrian; practical/strategic; world proverbs | breadth | queued |
+| P2 | Non-Western + 20th-century literature | 07-literary is canon-Western, pre-1900 | queued |
+| P2 | Islamic doctrinal & Talmudic reasoning depth | 05 leans Sufi-poetic; jurisprudential ethics and disputational wisdom absent | queued |
 | P2 | Depth passes (Epictetus, Analects, Gita, Shakespeare…) | surveys aren't the digging | from reports' §C/§G |
+
+### P1 validation log (2026-07-06)
+All 7 landed reports passed shape validation (independent fresh-context review per report; method disclosed: reviewer shares model weights with pipeline). Common findings: all six expected sections present in every content report; misattribution watchlists uniformly strong (13 Greco-Roman, 10 Nietzsche, 7 Abrahamic, 10 modern-West, 8 literary cases); no fabricated citations detected on sampling (empirical report's 5 most-load-bearing citations verified against originals); locator quality high (standard scholarly numbering throughout). Recurring caveats to carry into ingestion (S1/S2): (1) reports' own "verified" labels are **claims, not verifications** — everything enters `attested` per METHODOLOGY §2 regardless of report labels; (2) several units flagged by the reports themselves as needing primary-text confirmation (e.g. 4 Ludovici-translation Nietzsche quotes, Wordsworth + Grand Inquisitor units in 07); (3) translation copyright must be tracked at unit level (Kaufmann, P&V, Fagles, Nicholson etc. in copyright; PD alternatives named per report); (4) all content reports lean adult/midlife — child/elder chapters underfed.
 
 ---
 
