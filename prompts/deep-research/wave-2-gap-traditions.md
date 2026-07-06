@@ -2,7 +2,7 @@
 
 Ready-to-run breadth queries for the biggest gaps in Wave 1. Each block fills the **ROLE / FOCUS / ALREADY-COVERED** slots of `wave-N-template.md`.
 
-**To run:** copy the `SHARED RESEARCH CONTRACT … OUTPUT` body from `wave-N-template.md`, then drop one block below into its slots — or just tell Claude Code "assemble the Wave-2 gap prompts" and it will merge them and pre-fill the do-not-duplicate notes from `COVERAGE-INDEX.md`. Run each as a **fresh** deep-research chat; save to `corpus/reports/wave-2/`.
+**To run:** ➜ **assembled, ready-to-paste versions of all eight prompts are in `wave-2/`** (with do-not-duplicate notes pre-filled from the 2026-07-06 COVERAGE-INDEX and stale cross-references corrected) — use those. The blocks below remain the editable source. Run each as a **fresh** deep-research chat; save outputs to `corpus/reports/wave-2/`.
 
 The `DO-NOT-DUPLICATE` notes below are seeds — confirm against the live index before running.
 
