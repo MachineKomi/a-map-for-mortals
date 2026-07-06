@@ -3,7 +3,7 @@
 **Read me at the start of every session. Update me before every commit that changes status.** The repo is your memory; the context window is not.
 
 ## Current phase
-**P3 in progress — S1+S2 done (32/33 verified)** — walking-skeleton chapter is **The Building Years** (SPEC stage 5). Next: S3 clustering. Wave-2 landed in parallel (8/8 reports, renamed, shape-checked — deep validation deferred until P3 ships).
+**P3 COMPLETE — publish package #1 proposed; PAUSED for Jason's review.** The Building Years chapter is rendered and page-QA'd (`book/renders/building-years-v0.1.0.pdf`, 9 pages). Full pipeline proven: S1 33 units → S2 32/33 verified → S3 33 claims adjudicated → S4 23 edges adjudicated → S5 25 profiles → S6 9 page-specs → S7 render, every page viewed. **Review: `ops/publish-packages/package-01.md`.** Wave-2 landed (8/8, unprocessed) — processing it is the next non-blocked work.
 
 ### S2 status — COMPLETE for the skeleton (2026-07-07)
 - **verified-primary (24):** u-0001–u-0018 (except u-0019 n/a here), u-0021–u-0025 — precisely: u-0001–u-0008, u-0009–u-0018, u-0021–u-0025. Every one carries matched text + URL in `verification.checked_against`.
@@ -42,21 +42,21 @@
 - **Unprobed; probe only if/when heavy compute is actually needed.** (`python tools/fetch_weasyprint.py` + `pip install pyyaml pypdfium2` should be the whole base setup on any new machine.)
 
 ## Next actions (ordered)
-1. P3·S3: cluster the 33 units to claims (Claude adjudication + adversarial second pass; c-#### files).
-2. P3·S4 edges (argued convergence on fork 1 with independence_basis; genuine tension on fork 2). S5 robustness profiles.
-3. P3·S6/S7: page-specs for The Building Years (journey-map opener + ≥4 distinct forms) → production generator from prototype (discrete font weights; charset meta) → render → view every page → **publish package #1** for Jason.
-4. After P3 ships: wave-2 P1/P2 (deep-validate the 8 landed reports, extract, rebuild COVERAGE-INDEX, wave metrics vs saturation heuristic).
-5. Then P4 scale ingestion (remaining ~150 wave-1 units + wave-2, batches of ~25).
+1. **Jason: review publish package #1** (`ops/publish-packages/package-01.md` + the PDF). Feedback lands before P4 scaling — course-correction is cheap here.
+2. Meanwhile (not blocked): wave-2 P1/P2 — deep-validate the 8 landed reports, extract to `corpus/synthesis/wave-2/`, rebuild COVERAGE-INDEX with wave metrics vs the saturation heuristic.
+3. After sign-off: P4 scale ingestion (remaining ~150 wave-1 units + wave-2, batches of ~25; S2 checks mandatory on every print candidate — the translation-attribution lesson).
+4. Backlog: u-0019 Russell PD text retry; u-0008 German vs Nietzsche Source; original-language capture where still null (u-0001 Greek, u-0023 Greek).
 
 ## Blockers / waiting on Jason
-- None currently.
+- **Publish package #1 review** (pauses P4 scaling only; wave-2 processing continues).
 
 ## Publish packages
 | # | Contents | Proposed | Status |
 |---|---|---|---|
-| 1 | Walking-skeleton chapter (P3) | — | not yet |
+| 1 | The Building Years chapter + provenance + escalations + limits (`ops/publish-packages/package-01.md`) | 2026-07-07 | **awaiting Jason** |
 
 ## Session log (newest first)
+- 2026-07-07 (P3 S3–S7, overnight run) · laptop: S3 33 claims (1:1, merges deferred); S4 23 edges; adversarial pass on both (24 concur / 9 diverge, all adopted — 3 convergences retyped as lineage, Faust endorsement discipline enforced, field drift batch-aligned; record in ops/adjudications/). S5 25 profiles, provisional-by-design. Production generator built; print gate refused a copyright-unknown Seneca quote and validated ellipsis excerpts verbatim. First render 12 pages → per-page QA found 3 overflow defects → fixed → 9 pages, every page viewed clean. Publish package #1 proposed; P3 paused for Jason.
 - 2026-07-07 (P3·S2 finish) · laptop: completed the 10 queued verifications directly (curl + char-matching, no subagents — spend economy). Five more report errors caught (Carter→Higginson, spliced Marcus, Basore wording, non-Conington crib, Basore→Stewart) and Kaufmann replaced with verified Ludovici PD text. u-0019 Russell honestly left attested (no fetchable text yet). S2 pattern logged: translation attributions are the reports' weak layer.
 - 2026-07-07 (P3·S2 + wave-2 landing) · laptop: six S2 verifier agents dispatched; three completed (14 verified-primary incl. three real corrections — Avot/Taylor, Garnett wording, Touger→Meszler licence swap; 8 empirical verified-secondary with a title and an HR figure corrected against the journals). Three agents killed by the monthly spend limit mid-run — their orphaned edits audited: u-0013–u-0018 verifications independently re-matched against source texts and accepted; u-0001 partial edit reverted (no trail). 10 units still queued. Wave-2 arrived complete (8/8): renamed to convention, section shape checked; deep validation deferred until P3 ships. Escalation E-0002 added (Maimonides translation choice).
 - 2026-07-06 (P3·S1) · laptop: wave-2 prompts assembled ready-to-paste (Jason running them). SPEC read; skeleton chapter fixed = The Building Years, 5 forks, 33 units selected across all 6 reports. Six minting agents produced u-0001..u-0033 (validator clean; everything attested + pending-primary regardless of report labels; labels re-derived; honest flags: P&V-not-Garnett wording on u-0024, Darussalam translation in-copyright on u-0009, supplied paper titles marked for DOI check on empirical units). 15% spot-check passed. Fonts fetched + render-verified (`tools/fetch_fonts.py`; discrete weights needed under WeasyPrint v69).
