@@ -3,15 +3,15 @@ claim_id: null
 type: Insight
 paraphrase: "How you bear hardship, not what hardship you bear, is what counts."
 quotation: "non quid sed quemadmodum feras interest"
-quotation_translation: "It matters not what you bear, but how you bear it"
+quotation_translation: "It does not matter what you bear, but how you bear it."
 source:
   author: Seneca
   work: De Providentia
   passage: "2.4"
-  translator: John W. Basore
-  edition_year: 1928
+  translator: Aubrey Stewart
+  edition_year: 1900
   language: la
-  url: null
+  url: "https://en.wikisource.org/wiki/Of_Providence"
   urn: null
 tradition: Roman Stoic
 era: 64
@@ -22,12 +22,12 @@ conditionality: universal-ish
 life_domains: [adversity, grief, courage]
 life_stages: [adult, midlife, elder]
 endorsement: n/a
-attribution_confidence: attested
+attribution_confidence: verified-primary
 verification:
-  status: pending-primary
-  method: "attested by wave-1 report; wording not yet checked against a primary edition"
-  checked_against: null
-  date: null
+  status: verified-primary
+  method: "Latin matched at The Latin Library (De Providentia 2.4); English matched at Wikisource's Of Providence, whose header credits 'translated by Aubrey Stewart' — the report's Basore attribution was wrong for this wording, and the wording itself differed slightly ('It matters not' vs the source's 'It does not matter')"
+  checked_against: "https://www.thelatinlibrary.com/sen/sen.prov.shtml · matched Latin: 'non quid sed quemadmodum feras interest.' — English: https://en.wikisource.org/wiki/Of_Providence · trans. Aubrey Stewart (Bohn, 1900) · matched text: 'It does not matter what you bear, but how you bear it.'"
+  date: 2026-07-07
 copyright_flag: unknown
 prov:
   source_report: corpus/reports/wave-1/02-greco-roman.md

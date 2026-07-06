@@ -2,16 +2,16 @@ id: u-0003
 claim_id: null
 type: Insight
 paraphrase: "Life is not given short; much of it is wasted — used well, it is long enough."
-quotation: null   # original Latin not held by the report; capture at primary verification
-quotation_translation: "It is not that we have a short time to live, but that we waste much of it."
+quotation: "Non exiguum temporis habemus, sed multum perdidimus."
+quotation_translation: "It is not that we have a short space of time, but that we waste much of it."
 source:
   author: Seneca
   work: De Brevitate Vitae
-  passage: "1"
+  passage: "1.3"
   translator: John W. Basore
   edition_year: 1932
   language: la
-  url: null
+  url: "https://www.thelatinlibrary.com/sen/sen.brevita.shtml"
   urn: null
 tradition: Roman Stoic
 era: 49
@@ -22,12 +22,12 @@ conditionality: universal-ish
 life_domains: [death, work, aging, self]
 life_stages: [young-adult, adult, midlife, elder]
 endorsement: n/a
-attribution_confidence: attested
+attribution_confidence: verified-primary
 verification:
-  status: pending-primary
-  method: "attested by wave-1 report; wording not yet checked against a primary edition"
-  checked_against: null
-  date: null
+  status: verified-primary
+  method: "Latin matched at The Latin Library (De Brevitate Vitae 1.3); English matched against the Wikisource transcription, whose header credits John W. Basore. Held wording said 'short time to live' — corrected to the transcription's 'short space of time'"
+  checked_against: "https://www.thelatinlibrary.com/sen/sen.brevita.shtml · matched Latin: 'Non exiguum temporis habemus, sed multum perdidimus.' — English: https://en.wikisource.org/wiki/On_the_shortness_of_life/Chapter_I · trans. John W. Basore · matched text: 'It is not that we have a short space of time, but that we waste much of it.'"
+  date: 2026-07-07
 copyright_flag: unknown
 prov:
   source_report: corpus/reports/wave-1/02-greco-roman.md

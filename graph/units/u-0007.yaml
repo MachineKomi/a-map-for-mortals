@@ -3,15 +3,15 @@ claim_id: null
 type: Insight
 paraphrase: "Greatness consists in amor fati — wanting nothing in one's life, forward or backward, to be different, and loving, not merely bearing, what is necessary."
 quotation: null   # German original not held in the wave-1 report; capture at primary verification
-quotation_translation: "My formula for greatness in a human being is amor fati: that one wants nothing to be different, not forward, not backward, not in all eternity. Not merely bear what is necessary, still less conceal it... but love it."
+quotation_translation: "My formula for greatness in man is amor fati: the fact that a man wishes nothing to be different, either in front of him or behind him, or for all eternity. Not only must the necessary be borne, and on no account concealed, — all idealism is falsehood in the face of necessity, — but it must also be loved..."
 source:
   author: Friedrich Nietzsche
   work: Ecce Homo
   passage: "Why I Am So Clever, §10"
-  translator: Walter Kaufmann
-  edition_year: null   # report names Kaufmann as translator but gives no edition year; fix at S2
+  translator: Anthony M. Ludovici
+  edition_year: 1911
   language: de
-  url: null
+  url: "https://www.gutenberg.org/ebooks/52190"
   urn: null
 tradition: German philosophy
 era: 1908
@@ -22,13 +22,13 @@ conditionality: universal-ish
 life_domains: [meaning, adversity, self]
 life_stages: [adult, midlife, elder]
 endorsement: n/a
-attribution_confidence: attested
+attribution_confidence: verified-primary
 verification:
-  status: pending-primary
-  method: "attested by wave-1 report; wording not yet checked against a primary edition"
-  checked_against: null
-  date: null
-copyright_flag: in-copyright
+  status: verified-primary
+  method: "fetched the full Project Gutenberg plain text of the Ludovici translation and matched the amor fati formula (Why I Am So Clever, closing section); the previously held Kaufmann wording (in copyright) was replaced with Ludovici's public-domain text. Source prints a footnote marker after 'is'; em-dash spacing normalised from the plain text's double-hyphens"
+  checked_against: "https://www.gutenberg.org/cache/epub/52190/pg52190.txt · Ecce Homo, trans. Anthony M. Ludovici, Project Gutenberg #52190 · matched text: 'My formula for greatness in man is amor fati: the fact that a man wishes nothing to be different, either in front of him or behind him, or for all eternity. Not only must the necessary be borne, and on no account concealed, -- all idealism is falsehood in the face of necessity, -- but it must also be loved....'"
+  date: 2026-07-07
+copyright_flag: public-domain
 prov:
   source_report: corpus/reports/wave-1/03-nietzsche.md
   extracted_by: "claude-code:s1-skeleton-v1"

@@ -3,15 +3,15 @@ claim_id: null
 type: Insight
 paraphrase: "The complaint lies in our judgment about a thing, not in the thing itself; withdraw the judgment and the complaint goes with it."
 quotation: null   # report holds Greek only for the parallel at 2.15 (πᾶν ὑπόληψις), not for this 4.3 wording
-quotation_translation: "Take away the opinion, and there is taken away the complaint... All is as thinking makes it so."
+quotation_translation: "Take away thy opinion, and then there is taken away the complaint, \"I have been harmed.\" Take away the complaint, \"I have been harmed,\" and the harm is taken away."
 source:
   author: Marcus Aurelius
   work: Meditations
-  passage: "4.3"
+  passage: "4.7 (cf. 4.3: 'The universe is transformation: life is opinion')"
   translator: George Long
   edition_year: 1862
   language: grc
-  url: null
+  url: "https://www.gutenberg.org/ebooks/15877"
   urn: null
 tradition: Roman Stoic
 era: 175
@@ -22,12 +22,12 @@ conditionality: conditional
 life_domains: [anxiety, adversity, anger]
 life_stages: [adult, midlife, elder]
 endorsement: n/a
-attribution_confidence: attested
+attribution_confidence: verified-primary
 verification:
-  status: pending-primary
-  method: "attested by wave-1 report; wording not yet checked against a primary edition"
-  checked_against: null
-  date: null
+  status: verified-primary
+  method: "fetched the full Project Gutenberg plain text of Long's translation; matched both sentences character-for-character (Book IV, 7; the 4.3 coda also matched). The previously held wording was a splice of 4.7 with a non-Long rendering — corrected"
+  checked_against: "https://www.gutenberg.org/cache/epub/15877/pg15877.txt · Thoughts of Marcus Aurelius Antoninus, trans. George Long, Project Gutenberg #15877 · matched text: 'Take away thy opinion, and then there is taken away the complaint, I have been harmed. Take away the complaint, I have been harmed, and the harm is taken away.' and 'The universe is transformation: life is opinion.'"
+  date: 2026-07-07
 copyright_flag: public-domain
 prov:
   source_report: corpus/reports/wave-1/02-greco-roman.md

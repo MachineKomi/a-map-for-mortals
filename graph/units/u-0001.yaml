@@ -2,16 +2,16 @@ id: u-0001
 claim_id: null
 type: Insight
 paraphrase: "Some things — our judgments, impulses, desires, aversions — are within our power and others are not; direct effort at the former and accept the latter."
-quotation: null   # original Greek not held by the report; capture at primary verification
-quotation_translation: "Some things are up to us and some are not. Up to us are opinion, impulse, desire, aversion — in short, whatever is our own doing."
+quotation: null   # Greek to be captured at a Perseus/TLG check (Perseus fetch failed this session)
+quotation_translation: "There are things which are within our power, and there are things which are beyond our power. Within our power are opinion, aim, desire, aversion, and, in one word, whatever affairs are our own."
 source:
   author: Epictetus (recorded by Arrian)
   work: Enchiridion
   passage: "1"
-  translator: Elizabeth Carter
-  edition_year: 1758
+  translator: Thomas Wentworth Higginson
+  edition_year: 1865
   language: grc
-  url: null
+  url: "https://www.gutenberg.org/ebooks/45109"
   urn: null
 tradition: Hellenistic/Roman Stoic
 era: 108
@@ -22,16 +22,16 @@ conditionality: contested
 life_domains: [anxiety, adversity, work, politics, grief]
 life_stages: [young-adult, adult, midlife, elder]
 endorsement: n/a
-attribution_confidence: attested
+attribution_confidence: verified-primary
 verification:
-  status: pending-primary
-  method: "attested by wave-1 report; wording not yet checked against a primary edition"
-  checked_against: null
-  date: null
+  status: verified-primary
+  method: "fetched the full Project Gutenberg plain text and matched the opening of Enchiridion I; translator credit on title page: 'Translated by THOMAS W. HIGGINSON'"
+  checked_against: "https://www.gutenberg.org/cache/epub/45109/pg45109.txt · The Enchiridion, trans. Thomas Wentworth Higginson (1865), Project Gutenberg #45109 · matched text: 'There are things which are within our power, and there are things which are beyond our power. Within our power are opinion, aim, desire, aversion, and, in one word, whatever affairs are our own.'"
+  date: 2026-07-07
 copyright_flag: public-domain
 prov:
   source_report: corpus/reports/wave-1/02-greco-roman.md
   extracted_by: "claude-code:s1-skeleton-v1"
   pass: 1
   date: 2026-07-06
-notes: "Strong book candidate; the dichotomy of control. Report grades: verified; the report itself flags the strict binary as contested (Irvine's 'trichotomy of control'). Watchlist: the apocryphal Marcus quote 'You have power over your mind...' paraphrases this idea. The quoted English reads more modern than Carter's 1758 phrasing — confirm translator match at S2."
+notes: "S2 CORRECTION: the report credited Elizabeth Carter (1758) but its English matched no fetched edition; wording replaced with Higginson's 1865 PD text, verified. Strong book candidate; the dichotomy of control. Report grades: verified; the report itself flags the strict binary as contested (Irvine's 'trichotomy of control'). Watchlist: the apocryphal Marcus quote 'You have power over your mind...' paraphrases this idea. The quoted English reads more modern than Carter's 1758 phrasing — confirm translator match at S2."

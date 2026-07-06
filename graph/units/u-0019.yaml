@@ -25,7 +25,7 @@ endorsement: n/a
 attribution_confidence: attested
 verification:
   status: pending-primary
-  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  method: "S2 attempts 2026-07-07: Project Gutenberg search (no entry yet despite US-PD since 1 Jan 2026), Standard Ebooks (404), gutendex API (403), archive.org (borrow-only scan, no fetchable text). Wording remains report-attested; retry in a later batch"
   checked_against: null
   date: null
 copyright_flag: in-copyright

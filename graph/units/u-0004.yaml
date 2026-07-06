@@ -3,7 +3,7 @@ claim_id: null
 type: Insight
 paraphrase: "Pluck the day as it comes, trusting as little as possible to tomorrow."
 quotation: "carpe diem, quam minimum credula postero"
-quotation_translation: "pluck the day, trusting as little as possible in the next"
+quotation_translation: "In the moment of our talking, envious time has ebb'd away. Seize the present; trust to-morrow e'en as little as you may."
 source:
   author: Horace
   work: Odes (Carmina)
@@ -11,7 +11,7 @@ source:
   translator: John Conington
   edition_year: 1882
   language: la
-  url: null
+  url: "https://www.thelatinlibrary.com/horace/carm1.shtml"
   urn: null
 tradition: Augustan poetry (Epicurean-tinged)
 era: -23
@@ -22,12 +22,12 @@ conditionality: conditional
 life_domains: [death, desire, aging, anxiety]
 life_stages: [young-adult, adult, midlife, elder]
 endorsement: n/a
-attribution_confidence: attested
+attribution_confidence: verified-primary
 verification:
-  status: pending-primary
-  method: "attested by wave-1 report; wording not yet checked against a primary edition"
-  checked_against: null
-  date: null
+  status: verified-primary
+  method: "Latin matched at The Latin Library (Carmina 1.11, comma as printed); Conington's actual verse rendering matched in the Project Gutenberg text of his translation — the previously held literal crib was not Conington's and has been replaced (crib preserved in notes as a project gloss)"
+  checked_against: "https://www.thelatinlibrary.com/horace/carm1.shtml · matched Latin: 'carpe diem, quam minimum credula postero.' — English: https://www.gutenberg.org/cache/epub/5432/pg5432.txt · The Odes and Carmen Saeculare of Horace, trans. John Conington, Project Gutenberg #5432 · matched text: 'In the moment of our talking, envious time has ebb'd away. Seize the present; trust to-morrow e'en as little as you may.'"
+  date: 2026-07-07
 copyright_flag: public-domain
 prov:
   source_report: corpus/reports/wave-1/02-greco-roman.md

@@ -2,8 +2,8 @@ id: u-0005
 claim_id: null
 type: Insight
 paraphrase: "More things frighten us than actually harm us; we suffer more often in anticipation than in reality."
-quotation: null   # original Latin not held by the report; capture at primary verification
-quotation_translation: "There are more things likely to frighten us than to crush us; we suffer more often in imagination than in reality."
+quotation: "Plura sunt, Lucili, quae nos terrent quam quae premunt, et saepius opinione quam re laboramus."
+quotation_translation: "There are more things, Lucilius, likely to frighten us than there are to crush us; we suffer more often in imagination than in reality."
 source:
   author: Seneca
   work: Epistulae Morales ad Lucilium
@@ -11,7 +11,7 @@ source:
   translator: Richard M. Gummere
   edition_year: 1917
   language: la
-  url: null
+  url: "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_13"
   urn: null
 tradition: Roman Stoic
 era: 64
@@ -22,12 +22,12 @@ conditionality: conditional
 life_domains: [anxiety, adversity, death]
 life_stages: [adult, midlife, elder]
 endorsement: n/a
-attribution_confidence: attested
+attribution_confidence: verified-primary
 verification:
-  status: pending-primary
-  method: "attested by wave-1 report; wording not yet checked against a primary edition"
-  checked_against: null
-  date: null
+  status: verified-primary
+  method: "Latin matched at The Latin Library (Ep. 13.4); Gummere's English matched at Wikisource — full sentence including the vocative 'Lucilius' the report had dropped"
+  checked_against: "https://www.thelatinlibrary.com/sen/seneca.ep2.shtml · matched Latin: 'Plura sunt, Lucili, quae nos terrent quam quae premunt, et saepius opinione quam re laboramus.' — English: https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_13 · trans. Richard M. Gummere (Loeb 1917) · matched text: 'There are more things, Lucilius, likely to frighten us than there are to crush us; we suffer more often in imagination than in reality.'"
+  date: 2026-07-07
 copyright_flag: public-domain
 prov:
   source_report: corpus/reports/wave-1/02-greco-roman.md

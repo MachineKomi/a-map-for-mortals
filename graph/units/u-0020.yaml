@@ -11,7 +11,7 @@ source:
   translator: null
   edition_year: 1790
   language: en
-  url: null
+  url: "https://www.gutenberg.org/ebooks/58559"
   urn: null
 tradition: Scottish Enlightenment
 era: 1790
@@ -22,12 +22,12 @@ conditionality: conditional
 life_domains: [solitude, society, self]
 life_stages: [adult]
 endorsement: n/a
-attribution_confidence: attested
+attribution_confidence: verified-primary
 verification:
-  status: pending-primary
-  method: "attested by wave-1 report; wording not yet checked against a primary edition"
-  checked_against: null
-  date: null
+  status: verified-primary
+  method: "fetched the full Project Gutenberg plain text (The Essays of Adam Smith, which contains the Theory of Moral Sentiments) and matched the sentence character-for-character in Part III, ch. 3; in the source the sentence continues with a colon ('...the real spectator: and it is always from that spectator...')"
+  checked_against: "https://www.gutenberg.org/cache/epub/58559/pg58559.txt · The Essays of Adam Smith (incl. The Theory of Moral Sentiments), Project Gutenberg #58559 · matched text: 'The man within the breast, the abstract and ideal spectator of our sentiments and conduct, requires often to be awakened and put in mind of his duty, by the presence of the real spectator'"
+  date: 2026-07-07
 copyright_flag: public-domain
 prov:
   source_report: corpus/reports/wave-1/06-modern-west.md
