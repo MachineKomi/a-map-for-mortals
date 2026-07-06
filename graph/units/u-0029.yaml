@@ -22,16 +22,16 @@ conditionality: conditional
 life_domains: [self, work, health]
 life_stages: [young-adult, adult, midlife, elder]
 endorsement: n/a
-attribution_confidence: attested
+attribution_confidence: verified-secondary
 verification:
-  status: pending-primary
-  method: "citation attested by wave-1 report (P1 spot-check passed for F1); DOI-level check pending"
-  checked_against: null
-  date: null
+  status: verified-secondary
+  method: "citation + abstract checked against Advances in Experimental Social Psychology vol. 38 (Crossref DOI record + Semantic Scholar abstract)"
+  checked_against: "https://doi.org/10.1016/S0065-2601(06)38002-1 · 'Implementation Intentions and Goal Achievement: A Meta-analysis of Effects and Processes' · key figure matched: 'a positive effect of medium-to-large magnitude (d = .65) on goal attainment' across 94 independent tests"
+  date: 2026-07-06
 copyright_flag: unknown   # no verbatim quotation held; paraphrase only
 prov:
   source_report: corpus/reports/wave-1/08-empirical.md
   extracted_by: "claude-code:s1-skeleton-v1"
   pass: 1
   date: 2026-07-06
-notes: "Report finding F12. Evidence grade B/A (meta-analysis of 94 independent tests, >8,000 participants). Replication status: robust meta-analytic base; later health-behaviour meta-analyses report smaller effects (d ~= 0.14-0.37 for objectively assessed behaviour). Effect size as reported: d = 0.65, 95% CI 0.60-0.70. Caveat: most studies compared against goal-intention controls rather than no-treatment. Western samples (WEIRD flagged in report). Paper title and volume supplied from standard bibliographic knowledge (report cites author-year only); confirm at DOI-level check. No verbatim quotation held; paraphrase only."
+notes: "Report finding F12. Evidence grade B/A (meta-analysis of 94 independent tests, >8,000 participants). Replication status: robust meta-analytic base; later health-behaviour meta-analyses report smaller effects (d ~= 0.14-0.37 for objectively assessed behaviour). Effect size as reported: d = 0.65, 95% CI 0.60-0.70. Caveat: most studies compared against goal-intention controls rather than no-treatment. Western samples (WEIRD flagged in report). Paper title and volume confirmed at DOI level 2026-07-06 (Crossref: Adv Exp Soc Psychol 38, 69-119) — match as minted; d = .65 and 94 tests confirmed from abstract. The 95% CI 0.60-0.70 and >8,000 participants are in-text figures carried from the wave-1 report, not independently re-checked (abstract does not state them). No verbatim quotation held; paraphrase only."

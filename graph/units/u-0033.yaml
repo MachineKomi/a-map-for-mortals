@@ -1,7 +1,7 @@
 id: u-0033
 claim_id: null
 type: Consequence
-paraphrase: "Among US adults over 50, those in the lowest life-purpose category had roughly double the all-cause mortality of those in the highest, after adjusting for sociodemographics, health behaviours, and baseline health — observational: purpose correlates with SES, health, and social ties, and causality is not established."
+paraphrase: "Among US adults over 50, those in the lowest life-purpose category had roughly two-and-a-half times the all-cause mortality of those in the highest (HR 2.43), after adjusting for sociodemographics, health behaviours, and baseline health — observational: purpose correlates with SES, health, and social ties, and causality is not established."
 quotation: null
 quotation_translation: null
 source:
@@ -22,16 +22,16 @@ conditionality: conditional
 life_domains: [meaning, health]
 life_stages: [midlife, elder]
 endorsement: n/a
-attribution_confidence: attested
+attribution_confidence: verified-secondary
 verification:
-  status: pending-primary
-  method: "citation attested by wave-1 report (P1 spot-check passed for F1); DOI-level check pending"
-  checked_against: null
-  date: null
+  status: verified-secondary
+  method: "citation + abstract checked against JAMA Network Open (Crossref DOI record + PMC full text PMC6632139)"
+  checked_against: "https://doi.org/10.1001/jamanetworkopen.2019.4270 · 'Association Between Life Purpose and Mortality Among US Adults Older Than 50 Years' · key figure matched: all-cause mortality HR 2.43 (95% CI 1.57-3.75), lowest vs highest life-purpose category; 6,985 Health and Retirement Study participants"
+  date: 2026-07-06
 copyright_flag: unknown   # no verbatim quotation held; paraphrase only
 prov:
   source_report: corpus/reports/wave-1/08-empirical.md
   extracted_by: "claude-code:s1-skeleton-v1"
   pass: 1
   date: 2026-07-06
-notes: "Report finding F14. Evidence grade C ('robust association across cohorts, but purpose correlates with SES, health, and social ties; an E-value analysis suggests an unmeasured confounder would need RR ~= 3 on both sides to nullify'). Replication status: replicated across cohorts (Hill & Turiano 2014; Kim/Shiba research programmes). Effect size as reported: roughly 2x all-cause mortality in the lowest vs highest life-purpose category; no CI given in the report. Sample: 6,985 US adults >50 (Health and Retirement Study) — US-only, older adults (WEIRD); life_stages restricted to midlife/elder accordingly. URL from report (PubMed Central). Paper title supplied from standard bibliographic knowledge (report cites author-year + journal only); confirm at DOI-level check. No verbatim quotation held; paraphrase only."
+notes: "Report finding F14. Evidence grade C ('robust association across cohorts, but purpose correlates with SES, health, and social ties; an E-value analysis suggests an unmeasured confounder would need RR ~= 3 on both sides to nullify'). Replication status: replicated across cohorts (Hill & Turiano 2014; Kim/Shiba research programmes). Effect size as published: HR 2.43 (95% CI 1.57-3.75) for all-cause mortality, lowest vs highest life-purpose category. DISCREPANCY NOTED at DOI-level check 2026-07-06: the wave-1 report gave 'roughly 2x' with no CI — the published HR is 2.43, so the paraphrase was tightened from 'roughly double' to 'roughly two-and-a-half times (HR 2.43)'; a rounding-down imprecision in the report, not a wrong citation. Sample: 6,985 US adults >50 (Health and Retirement Study) — US-only, older adults (WEIRD); life_stages restricted to midlife/elder accordingly. URL from report (PubMed Central). Paper title confirmed at DOI level 2026-07-06 (JAMA Netw Open 2(5): e194270; Crossref + PMC) — matches as minted. No verbatim quotation held; paraphrase only."

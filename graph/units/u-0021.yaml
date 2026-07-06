@@ -2,16 +2,16 @@ id: u-0021
 claim_id: null
 type: Insight
 paraphrase: "Counsel against despair: death's timing, like birth's, must be endured rather than chosen — readiness, not control over the hour, is what matters."
-quotation: "Men must endure / Their going hence even as their coming hither. / Ripeness is all."
+quotation: "Men must endure / Their going hence, even as their coming hither; / Ripeness is all: come on."
 quotation_translation: null
 source:
   author: William Shakespeare
   work: King Lear
-  passage: "Act 5, Scene 2"
+  passage: "Act 5, Scene 2 (Edgar to Gloucester)"
   translator: null
-  edition_year: null   # report cites Folger / MIT (Globe text), public-domain; fix a specific printing at primary verification
+  edition_year: 1866   # Globe text (Clark & Wright), as digitised in the Complete Moby Shakespeare hosted by MIT
   language: en
-  url: null
+  url: "https://shakespeare.mit.edu/lear/lear.5.2.html"
   urn: null
 tradition: English literature
 era: 1606
@@ -22,16 +22,16 @@ conditionality: contested
 life_domains: [death, adversity]
 life_stages: [adult, elder]
 endorsement: complicated
-attribution_confidence: attested
+attribution_confidence: verified-primary
 verification:
-  status: pending-primary
-  method: "attested by wave-1 report; wording not yet checked against a primary edition"
-  checked_against: null
-  date: null
+  status: verified-primary
+  method: "fetched the MIT Shakespeare scene page (Globe text via the Complete Moby Shakespeare, public domain) and matched wording character-for-character; speaker heading EDGAR confirmed directly above the lines, GLOUCESTER replies 'And that's true too.'"
+  checked_against: "https://shakespeare.mit.edu/lear/lear.5.2.html · The Complete Moby Shakespeare (Globe text, Clark & Wright 1866), MIT Shakespeare, public domain · matched text: 'EDGAR — What, in ill thoughts again? Men must endure / Their going hence, even as their coming hither; / Ripeness is all: come on.'"
+  date: 2026-07-06
 copyright_flag: public-domain
 prov:
   source_report: corpus/reports/wave-1/07-literary.md
   extracted_by: "claude-code:s1-skeleton-v1"
   pass: 1
   date: 2026-07-06
-notes: "Speaker: EDGAR (disguised), consoling his blinded, suicidal father Gloucester just after Lear and Cordelia are captured — Gloucester has said 'a man may rot even here' and refuses to move. Commonly misattributed to Lear himself; the report confirmed the speaker is Edgar against Folger, MIT and Perseus texts. Endorsement 'complicated' per report: the counsel is spoken by a son to a despairing father moments before further catastrophe, and the play's bleak ending (Cordelia's needless death) tests whether 'ripeness' is genuine consolation or stoic whistling in the dark — do not flatten into free-standing aphorism. Report gave attribution_confidence 'verified'; recorded here as 'attested' pending our own primary-edition check. Work date c.1605-06 (era set to 1606)."
+notes: "Speaker: EDGAR (disguised), consoling his blinded, suicidal father Gloucester just after Lear and Cordelia are captured — Gloucester has said 'a man may rot even here' and refuses to move. Commonly misattributed to Lear himself; the report confirmed the speaker is Edgar against Folger, MIT and Perseus texts. Endorsement 'complicated' per report: the counsel is spoken by a son to a despairing father moments before further catastrophe, and the play's bleak ending (Cordelia's needless death) tests whether 'ripeness' is genuine consolation or stoic whistling in the dark — do not flatten into free-standing aphorism. Work date c.1605-06 (era set to 1606). S2 PRIMARY VERIFICATION (2026-07-06): matched against the Globe (1866) text at MIT Shakespeare; speaker EDGAR confirmed. Wording corrected to the Globe punctuation — comma after 'hence', semicolon after 'hither', and the line ends 'Ripeness is all: come on.' (the unit previously trimmed at 'Ripeness is all.'); the full speech opens 'What, in ill thoughts again?'. Note the Folger text was NOT checked — edition_year 1866 refers to the Globe text actually verified."

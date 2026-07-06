@@ -2,8 +2,8 @@ id: u-0015
 claim_id: null
 type: Danger
 paraphrase: "We never actually live; we only hope to live, perpetually deferring life and happiness to the future."
-quotation: "Ainsi nous ne vivons jamais, mais nous espérons de vivre."
-quotation_translation: null   # report holds no PD English wording; do not compose one — capture Trotter (1904) at primary verification
+quotation: "Ainsi nous ne vivons jamais, mais nous espérons de vivre ; et, nous disposant toujours à être heureux, il est inévitable que nous ne le soyons jamais."
+quotation_translation: "So we never live, but we hope to live; and, as we are always preparing to be happy, it is inevitable we should never be so."
 source:
   author: Blaise Pascal
   work: Pensées
@@ -11,7 +11,7 @@ source:
   translator: W. F. Trotter
   edition_year: 1904
   language: fr
-  url: null
+  url: "https://www.gutenberg.org/ebooks/18269"
   urn: null
 tradition: French moralists
 era: 1670
@@ -22,16 +22,16 @@ conditionality: universal-ish
 life_domains: [self, anxiety, happiness]
 life_stages: [adult]
 endorsement: n/a
-attribution_confidence: attested
+attribution_confidence: verified-primary
 verification:
-  status: pending-primary
-  method: "attested by wave-1 report; wording not yet checked against a primary edition"
-  checked_against: null
-  date: null
+  status: verified-primary
+  method: "downloaded the full Project Gutenberg plain text of the Trotter translation and matched the English sentence character-for-character under the pensée numbered 172 (Brunschvicg numbering, confirming Br. 172 as held); French wording matched character-for-character against the Wikisource transcription of the Brunschvicg edition, same pensée (Brunschvicg's footnote markers removed)"
+  checked_against: "https://www.gutenberg.org/cache/epub/18269/pg18269.txt · Pascal's Pensées, trans. W. F. Trotter, Project Gutenberg #18269, pensée 172 · matched text: 'So we never live, but we hope to live; and, as we are always preparing to be happy, it is inevitable we should never be so.' — French against https://fr.wikisource.org/wiki/Pensées_(Pascal,_éd._Brunschvicg)/Pensées/Section_II-2 · Pensées, éd. Brunschvicg, Section II · matched text: 'Ainsi nous ne vivons jamais, mais nous espérons de vivre ; et, nous disposant toujours à être heureux, il est inévitable que nous ne le soyons jamais.'"
+  date: 2026-07-06
 copyright_flag: public-domain
 prov:
   source_report: corpus/reports/wave-1/06-modern-west.md
   extracted_by: "claude-code:s1-skeleton-v1"
   pass: 1
   date: 2026-07-06
-notes: "Report attribution label: 'verified' (held at 'attested' pending primary check per S1 policy). Pensée numbering per report: Lafuma 47 / Sellier 80 / Brunschvicg 172 — all three systems stored; Sellier is the current scholarly standard (report source inventory). French wording held from the report; quotation_translation left null rather than composing an uncredited English rendering — Trotter (1904) is the designated PD English translation, Brunschvicg (1897) the PD French text; modern Lafuma/Sellier French texts and the Krailsheimer translation are in copyright. Pensées published posthumously, 1670. Pascal writes within Jansenist Christianity, but this unit's claim is observational moral psychology, not a religious claim. Re-derivation: type Danger, observational, cautionary, universal-ish retained ('nous ne vivons jamais' is asserted without qualification); life_domains re-derived as [self, anxiety, happiness] (report: anxiety, self, ambition) — the sentence concerns deferred living and happiness, not ambition per se."
+notes: "Report attribution label: 'verified' (held at 'attested' pending primary check per S1 policy). Pensée numbering per report: Lafuma 47 / Sellier 80 / Brunschvicg 172 — all three systems stored; Sellier is the current scholarly standard (report source inventory). French wording held from the report; quotation_translation left null rather than composing an uncredited English rendering — Trotter (1904) is the designated PD English translation, Brunschvicg (1897) the PD French text; modern Lafuma/Sellier French texts and the Krailsheimer translation are in copyright. Pensées published posthumously, 1670. Pascal writes within Jansenist Christianity, but this unit's claim is observational moral psychology, not a religious claim. Re-derivation: type Danger, observational, cautionary, universal-ish retained ('nous ne vivons jamais' is asserted without qualification); life_domains re-derived as [self, anxiety, happiness] (report: anxiety, self, ambition) — the sentence concerns deferred living and happiness, not ambition per se. S2 PRIMARY VERIFICATION (2026-07-06): held French was cut at 'de vivre.' — extended to the full sentence per the Brunschvicg text ('…et, nous disposant toujours à être heureux, il est inévitable que nous ne le soyons jamais.'), whose second clause directly carries the paraphrase's deferred-happiness point; Trotter's PD English captured into quotation_translation (previously null). Pensée numbered 172 in both sources checked (Brunschvicg numbering), matching the held Brunschvicg 172. The Gutenberg e-text carries T. S. Eliot's introduction (1931) but the translation text is Trotter's (first publ. 1904) — edition_year 1904 retained for the translation."

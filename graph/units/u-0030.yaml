@@ -22,16 +22,16 @@ conditionality: contested
 life_domains: [adversity, self]
 life_stages: [young-adult, adult]
 endorsement: n/a
-attribution_confidence: attested
+attribution_confidence: verified-secondary
 verification:
-  status: pending-primary
-  method: "citation attested by wave-1 report (P1 spot-check passed for F1); DOI-level check pending"
-  checked_against: null
-  date: null
+  status: verified-secondary
+  method: "citation + abstract checked against Psychological Science (Crossref DOI record + PubMed abstract, PMID 19515115)"
+  checked_against: "https://pubmed.ncbi.nlm.nih.gov/19515115/ · 'Does Self-Reported Posttraumatic Growth Reflect Genuine Positive Change?' · key finding matched: 'PTGI scores generally were unrelated to actual growth in PTG-related domains'; 'perceived growth was associated with increased distress ... whereas actual growth was related to decreased distress' (n = 122 trauma-exposed between waves)"
+  date: 2026-07-06
 copyright_flag: unknown   # no verbatim quotation held; paraphrase only
 prov:
   source_report: corpus/reports/wave-1/08-empirical.md
   extracted_by: "claude-code:s1-skeleton-v1"
   pass: 1
   date: 2026-07-06
-notes: "Report finding F19. Evidence grade B/C (prospective longitudinal + meta-analysis — per report 'the measurement critique is strong'). Replication status: contested literature — the report's What-We-Do-Not-Know list includes 'whether post-traumatic growth is real'; the measurement critique is corroborated by Gower et al. 2022 meta-analysis, which attributes the mismatch to cognitive biases. Effect size as reported: perceived growth did not correspond to actual pre-to-post change (no numeric ES/CI given); perceived growth associated with increased distress, actual growth with decreased distress. Sample: ~1,500 US students, 122 experiencing trauma between waves (US students; WEIRD flagged). Type set to Danger rather than Consequence: the unit functions as a bias warning — retrospective PTGI-style self-report is an epistemic trap that inflates 'suffering makes you grow'. Distinguish from genuine resilience (see u-0031). Paper title supplied from standard bibliographic knowledge; confirm at DOI-level check. No verbatim quotation held; paraphrase only."
+notes: "Report finding F19. Evidence grade B/C (prospective longitudinal + meta-analysis — per report 'the measurement critique is strong'). Replication status: contested literature — the report's What-We-Do-Not-Know list includes 'whether post-traumatic growth is real'; the measurement critique is corroborated by Gower et al. 2022 meta-analysis, which attributes the mismatch to cognitive biases. Effect size as reported: perceived growth did not correspond to actual pre-to-post change (no numeric ES/CI given); perceived growth associated with increased distress, actual growth with decreased distress. Sample: ~1,500 US students, 122 experiencing trauma between waves (US students; WEIRD flagged). Type set to Danger rather than Consequence: the unit functions as a bias warning — retrospective PTGI-style self-report is an epistemic trap that inflates 'suffering makes you grow'. Distinguish from genuine resilience (see u-0031). Paper title confirmed at DOI level 2026-07-06 (Psychol Sci 20(7): 912-919; Crossref + PubMed) — matches as minted; n = 122 confirmed in abstract. The '~1,500 US students' baseline figure is carried from the wave-1 report (abstract states only 'undergraduate students'), not independently re-checked. No verbatim quotation held; paraphrase only."

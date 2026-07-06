@@ -2,17 +2,17 @@ id: u-0023
 claim_id: null
 type: Insight
 paraphrase: "The chorus asserts, as a law fixed by Zeus, that mortals come to wisdom through suffering."
-quotation: null   # Greek text not held by the report (only the tag 'pathei mathos'); capture at primary verification
-quotation_translation: "Zeus, who sets mortals on the path to understanding, Zeus, who has established as a fixed law that 'wisdom comes by suffering.'"
+quotation: "τὸν φρονεῖν βροτοὺς ὁδώσαντα, τὸν πάθει μάθος θέντα κυρίως ἔχειν. στάζει δ᾽ ἔν θ᾽ ὕπνῳ πρὸ καρδίας μνησιπήμων πόνος: καὶ παρ᾽ ἄκοντας ἦλθε σωφρονεῖν. δαιμόνων δέ που χάρις βίαιος σέλμα σεμνὸν ἡμένων."
+quotation_translation: "Zeus, who sets mortals on the path to understanding, Zeus, who has established as a fixed law that “wisdom comes by suffering.” But even as trouble, bringing memory of pain, drips over the mind in sleep, so wisdom comes to men, whether they want it or not. Harsh, it seems to me, is the grace of gods enthroned upon their awful seats."
 source:
   author: Aeschylus
   work: "Agamemnon (Oresteia)"
-  passage: "choral ode to Zeus, ~lines 176–183"
+  passage: "choral ode to Zeus ('Hymn to Zeus'), lines 176–183"
   translator: Herbert Weir Smyth
   edition_year: 1926
   language: grc
-  url: null
-  urn: null
+  url: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0003%3Acard%3D176"
+  urn: "urn:cts:greekLit:tlg0085.tlg005.perseus-grc1:176-183"
 tradition: Greek tragedy
 era: -458   # 458 BCE
 register: principle
@@ -22,16 +22,16 @@ conditionality: contested
 life_domains: [adversity, grief, self]
 life_stages: [adult]
 endorsement: ambiguous
-attribution_confidence: attested
+attribution_confidence: verified-primary
 verification:
-  status: pending-primary
-  method: "attested by wave-1 report; wording not yet checked against a primary edition"
-  checked_against: null
-  date: null
+  status: verified-primary
+  method: "Greek fetched from Perseus (Smyth's 1926 edition, card 176 = lines 176–183) and transcribed exactly, with two verse-end word-division hyphens joined (ὁδώ-/σαντα, ἄ-/κοντας) and the high stop after πόνος kept as Perseus renders it (':'); Smyth's 1926 Loeb English fetched from the parallel Perseus text (card 176) and matched character-for-character; speaker Χορός confirmed in the Greek page heading. Note: Smyth's 'Zeus, who...' carries the invocation over from the preceding strophe — the Greek at 176 opens mid-sentence with τὸν φρονεῖν."
+  checked_against: "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0003%3Acard%3D176 · Aeschylus, Agamemnon, ed. Herbert Weir Smyth (Loeb, 1926), Perseus Digital Library, urn:cts:greekLit:tlg0085.tlg005.perseus-grc1:176-183 · matched text: 'τὸν φρονεῖν βροτοὺς ὁδώ- / σαντα, τὸν πάθει μάθος / θέντα κυρίως ἔχειν.' — and https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0004%3Acard%3D176 · Aeschylus, with an English translation by Herbert Weir Smyth (Loeb, 1926), Perseus, urn:cts:greekLit:tlg0085.tlg005.perseus-eng1:176-183 · matched text: 'Zeus, who sets mortals on the path to understanding, Zeus, who has established as a fixed law that “wisdom comes by suffering.”'"
+  date: 2026-07-06
 copyright_flag: public-domain
 prov:
   source_report: corpus/reports/wave-1/07-literary.md
   extracted_by: "claude-code:s1-skeleton-v1"
   pass: 1
   date: 2026-07-06
-notes: "Speaker: the CHORUS of Argive elders, reflecting on Agamemnon's sacrifice of Iphigenia and the moral order of Zeus, early in the play. Greek tag: 'pathei mathos'. Endorsement 'ambiguous' per report: across the trilogy suffering does NOT reliably produce wisdom — the vengeance cycle continues — and translation is disputed (Ewans and others argue 'learn from experience' is closer than 'learn by suffering', warning against importing Christian redemptive overtones). Conditionality re-derived as 'contested' (report said 'conditional'): the chorus states it as fixed universal law, but the claim is contested both within the trilogy's action and among translators. English shown is Smyth (Loeb 1926, public-domain per report); Morshead (1881) is an alternative PD translation; Fagles (1975), Ewans and Carson are in-copyright. Report gave attribution_confidence 'verified'; recorded here as 'attested' pending our own primary-edition check."
+notes: "Speaker: the CHORUS of Argive elders, reflecting on Agamemnon's sacrifice of Iphigenia and the moral order of Zeus, early in the play. Greek tag: 'pathei mathos'. Endorsement 'ambiguous' per report: across the trilogy suffering does NOT reliably produce wisdom — the vengeance cycle continues — and translation is disputed (Ewans and others argue 'learn from experience' is closer than 'learn by suffering', warning against importing Christian redemptive overtones). Conditionality re-derived as 'contested' (report said 'conditional'): the chorus states it as fixed universal law, but the claim is contested both within the trilogy's action and among translators. English shown is Smyth (Loeb 1926, public-domain); Morshead (1881) is an alternative PD translation; Fagles (1975), Ewans and Carson are in-copyright. S2 PRIMARY VERIFICATION (2026-07-06): Greek (πάθει μάθος passage, lines 176–183) captured from Perseus and Smyth's English matched verbatim; translation extended from the first sentence to the full 176–183 passage. Speaker Χορός confirmed."

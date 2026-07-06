@@ -11,7 +11,7 @@ source:
   translator: null
   edition_year: 1841
   language: en
-  url: null
+  url: "https://www.gutenberg.org/ebooks/2944"
   urn: null
 tradition: American Transcendentalism
 era: 1841
@@ -22,16 +22,16 @@ conditionality: contested
 life_domains: [adversity, money, ambition, self]
 life_stages: [adult, elder]
 endorsement: n/a
-attribution_confidence: attested
+attribution_confidence: verified-primary
 verification:
-  status: pending-primary
-  method: "attested by wave-1 report; wording not yet checked against a primary edition"
-  checked_against: null
-  date: null
+  status: verified-primary
+  method: "downloaded the full Project Gutenberg plain text and matched the sentence character-for-character; located inside the essay 'Compensation' (COMPENSATION heading confirmed before the passage, next essay heading SPIRITUAL LAWS falls after it)"
+  checked_against: "https://www.gutenberg.org/cache/epub/2944/pg2944.txt · Essays — First Series, Ralph Waldo Emerson, Project Gutenberg #2944 · matched text: 'For every thing you have missed, you have gained something else; and for every thing you gain, you lose something.'"
+  date: 2026-07-06
 copyright_flag: public-domain
 prov:
   source_report: corpus/reports/wave-1/06-modern-west.md
   extracted_by: "claude-code:s1-skeleton-v1"
   pass: 1
   date: 2026-07-06
-notes: "Report attribution label: 'verified' (held at 'attested' pending primary check per S1 policy). Re-derivation: claim_type kept metaphysical — the sentence in isolation could read as observational, but it asserts an exceptionless universal balance ('for every thing…') that the essay grounds in a cosmic law of compensation; treating it as mere observation would misstate its scope (claim-type discipline per report caveats). Polarity descriptive; conditionality 'contested' (strong universal claim, widely disputed). Not a misattribution-watchlist item (unlike Emerson's 'foolish consistency' line)."
+notes: "Report attribution label: 'verified' (held at 'attested' pending primary check per S1 policy). Re-derivation: claim_type kept metaphysical — the sentence in isolation could read as observational, but it asserts an exceptionless universal balance ('for every thing…') that the essay grounds in a cosmic law of compensation; treating it as mere observation would misstate its scope (claim-type discipline per report caveats). Polarity descriptive; conditionality 'contested' (strong universal claim, widely disputed). Not a misattribution-watchlist item (unlike Emerson's 'foolish consistency' line). S2 PRIMARY VERIFICATION (2026-07-06): exact character-for-character match in 'Compensation', Gutenberg #2944; no wording change. Caveat: Gutenberg #2944 does not state which print edition it transcribes (Essays: First Series was revised in 1847); edition_year 1841 retained as the work's first publication year, not a claim about the transcribed printing."

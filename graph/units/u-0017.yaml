@@ -2,7 +2,7 @@ id: u-0017
 claim_id: null
 type: Insight
 paraphrase: "The true cost of a thing is the amount of life that must be exchanged for it, immediately or in the long run."
-quotation: "The cost of a thing is the amount of what I will call life which is required to be exchanged for it, immediately or in the long run."
+quotation: "the cost of a thing is the amount of what I will call life which is required to be exchanged for it, immediately or in the long run."
 quotation_translation: null   # English original; no translation applicable
 source:
   author: Henry David Thoreau
@@ -11,7 +11,7 @@ source:
   translator: null
   edition_year: 1854
   language: en
-  url: null
+  url: "https://www.gutenberg.org/ebooks/205"
   urn: null
 tradition: American Transcendentalism
 era: 1854
@@ -22,16 +22,16 @@ conditionality: universal-ish
 life_domains: [money, work, self]
 life_stages: [adult]
 endorsement: n/a
-attribution_confidence: attested
+attribution_confidence: verified-primary
 verification:
-  status: pending-primary
-  method: "attested by wave-1 report; wording not yet checked against a primary edition"
-  checked_against: null
-  date: null
+  status: verified-primary
+  method: "downloaded the full Project Gutenberg plain text and matched the passage character-for-character; located within the first chapter (heading 'Economy' confirmed). The passage is mid-sentence in the source — it follows '…it must be shown that it has produced better dwellings without making them more costly; and'"
+  checked_against: "https://www.gutenberg.org/cache/epub/205/pg205.txt · Walden, and On The Duty Of Civil Disobedience, Project Gutenberg #205 · matched text: 'it must be shown that it has produced better dwellings without making them more costly; and the cost of a thing is the amount of what I will call life which is required to be exchanged for it, immediately or in the long run.'"
+  date: 2026-07-06
 copyright_flag: public-domain
 prov:
   source_report: corpus/reports/wave-1/06-modern-west.md
   extracted_by: "claude-code:s1-skeleton-v1"
   pass: 1
   date: 2026-07-06
-notes: "Report attribution label: 'verified' (held at 'attested' pending primary check per S1 policy). Re-derivation: claim_type kept prudential — the sentence is a definitional reframe whose force is evaluative guidance (price purchases in life, not money); polarity kept cautionary (guards against mispricing life); conditionality universal-ish ('a thing', 'immediately or in the long run'). life_domains re-derived as [money, work, self] (report: money, work, ambition) — what is exchanged is one's own life, so self is more directly implicated than ambition."
+notes: "Report attribution label: 'verified' (held at 'attested' pending primary check per S1 policy). Re-derivation: claim_type kept prudential — the sentence is a definitional reframe whose force is evaluative guidance (price purchases in life, not money); polarity kept cautionary (guards against mispricing life); conditionality universal-ish ('a thing', 'immediately or in the long run'). life_domains re-derived as [money, work, self] (report: money, work, ambition) — what is exchanged is one's own life, so self is more directly implicated than ambition. S2 PRIMARY VERIFICATION (2026-07-06): wording verified verbatim in the 'Economy' chapter of Gutenberg #205 except initial capitalisation — the passage is mid-sentence in the source (after '…more costly; and'), so the held capital 'The' has been corrected to lowercase 'the'; wording otherwise unchanged. Quote as a mid-sentence extract (or with bracketed '[T]he') if presented sentence-initially."

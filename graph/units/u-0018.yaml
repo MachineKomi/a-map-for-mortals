@@ -3,15 +3,15 @@ claim_id: null
 type: Practice
 paraphrase: "To accomplish great things, one must live as though one were never going to die."
 quotation: "Pour exécuter de grandes choses, il faut vivre comme si on ne devait jamais mourir."
-quotation_translation: null   # report holds no credited English wording; do not compose one
+quotation_translation: "To accomplish great things we must live as though we had never to die."
 source:
   author: Luc de Clapiers, marquis de Vauvenargues
   work: Réflexions et maximes
-  passage: null   # maxim number not supplied by the report; numbering is edition-dependent — verify against Œuvres (Furne 1857)
-  translator: null
-  edition_year: 1857
+  passage: "maxime 142"   # numbering per Œuvres de Vauvenargues (Furne, 1857); numbering is edition-dependent
+  translator: Elizabeth Lee
+  edition_year: 1903   # Lee's PD English Selections (Dutton, 1903); French text verified against Œuvres (Furne, 1857) — see notes
   language: fr
-  url: null
+  url: "https://fr.wikisource.org/wiki/R%C3%A9flexions_et_Maximes_(Vauvenargues)/1-330"
   urn: null
 tradition: French moralists
 era: 1746
@@ -22,16 +22,16 @@ conditionality: conditional
 life_domains: [ambition, work, death]
 life_stages: [youth, adult]
 endorsement: n/a
-attribution_confidence: attested
+attribution_confidence: verified-primary
 verification:
-  status: pending-primary
-  method: "attested by wave-1 report; wording not yet checked against a primary edition"
-  checked_against: null
-  date: null
+  status: verified-primary
+  method: "French matched character-for-character, numbered maxime 142, in the Wikisource transcription of the Furne 1857 Œuvres (proofread against the 'Œuvres de Vauvenargues (1857).djvu' scan); English matched character-for-character in the downloaded full text of the Lee 1903 Selections (Cornell scan, archive.org), where it sits unnumbered between Lee's renderings of maximes 141 and 143, confirming identity"
+  checked_against: "https://fr.wikisource.org/wiki/R%C3%A9flexions_et_Maximes_(Vauvenargues)/1-330 · Réflexions et maximes in Œuvres de Vauvenargues (Paris: Furne, 1857), maxime 142 · matched text: 'Pour exécuter de grandes choses, il faut vivre comme si on ne devait jamais mourir.' — English against https://archive.org/details/cu31924027288921 · La Bruyère and Vauvenargues: Selections from the Characters, Reflexions and Maxims, trans. Elizabeth Lee (New York: E.P. Dutton, 1903) · matched text: 'To accomplish great things we must live as though we had never to die.'"
+  date: 2026-07-06
 copyright_flag: public-domain
 prov:
   source_report: corpus/reports/wave-1/06-modern-west.md
   extracted_by: "claude-code:s1-skeleton-v1"
   pass: 1
   date: 2026-07-06
-notes: "Report attribution label: 'verified' (held at 'attested' pending primary check per S1 policy). The report gives no maxim number for this unit, and Vauvenargues numbering differs across editions (posthumous maxims renumbered by later editors — report caveat), so passage is left null rather than guessed; verify against the PD French Œuvres (Furne 1857). No specific PD English translator designated by the report ('selected English in PD anthologies'); no English wording held, so quotation_translation is null. edition_year refers to the Furne 1857 PD French edition; the work dates to 1746 (rev. 1747). Re-derivation: labels retained — Practice, prudential ('il faut' in service of the stated end of executing great things), prescriptive, conditional (counsel conditioned on the goal of great undertakings, not universal advice). Stands in deliberate tension with memento-mori units — candidate IN_TENSION_WITH edge downstream."
+notes: "Report attribution label: 'verified' (held at 'attested' pending primary check per S1 policy). The report gives no maxim number for this unit, and Vauvenargues numbering differs across editions (posthumous maxims renumbered by later editors — report caveat), so passage is left null rather than guessed; verify against the PD French Œuvres (Furne 1857). No specific PD English translator designated by the report ('selected English in PD anthologies'); no English wording held, so quotation_translation is null. edition_year refers to the Furne 1857 PD French edition; the work dates to 1746 (rev. 1747). Re-derivation: labels retained — Practice, prudential ('il faut' in service of the stated end of executing great things), prescriptive, conditional (counsel conditioned on the goal of great undertakings, not universal advice). Stands in deliberate tension with memento-mori units — candidate IN_TENSION_WITH edge downstream. S2 PRIMARY VERIFICATION (2026-07-06): French verified exactly as held, including 'si on' (many popular quotations give 'si l'on') — no wording change; maxim number 142 established from the Furne 1857 edition (passage was null); the 1857 text carries a variant footnote at 'mourir'. PD English located: Elizabeth Lee's Selections (1903) — quotation_translation captured and translator/edition_year set to Lee/1903 accordingly (previously null/1857; the Furne 1857 French edition remains the authority for the French text and the maxim number, per verification block). The Stevens translation (1940) exists but is in copyright and was not used."

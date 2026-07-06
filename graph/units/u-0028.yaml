@@ -22,16 +22,16 @@ conditionality: conditional
 life_domains: [self, health]
 life_stages: [young-adult, adult, midlife, elder]
 endorsement: n/a
-attribution_confidence: attested
+attribution_confidence: verified-secondary
 verification:
-  status: pending-primary
-  method: "citation attested by wave-1 report (P1 spot-check passed for F1); DOI-level check pending"
-  checked_against: null
-  date: null
+  status: verified-secondary
+  method: "citation + abstract checked against European Journal of Social Psychology (Crossref DOI record); median figure cross-checked against Singh et al. 2024 meta-analysis (PMC)"
+  checked_against: "https://doi.org/10.1002/ejsp.674 · 'How are habits formed: Modelling habit formation in the real world' · key figure matched: abstract confirms range 18-254 days to reach 95% of automaticity asymptote (96 volunteers); median 66 days confirmed via Singh et al. 2024 (https://pmc.ncbi.nlm.nih.gov/articles/PMC11641623/: 'the median time to reach 95% automaticity was 66 days (range: 18 to 254 days)')"
+  date: 2026-07-06
 copyright_flag: unknown   # no verbatim quotation held; paraphrase only
 prov:
   source_report: corpus/reports/wave-1/08-empirical.md
   extracted_by: "claude-code:s1-skeleton-v1"
   pass: 1
   date: 2026-07-06
-notes: "Report finding F11. Evidence grade C (small original observational study; meta-analytic synthesis). Replication status: original's exact procedure not directly replicated; broadly corroborated by Singh et al. 2024 systematic review/meta-analysis (20 studies, 2,601 participants — medians 59-66 days, means 106-154 days, individual variability 4-335 days; report links https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11641623/). Effect size as reported: median 66 days to reach 95% of the automaticity asymptote, range 18-254 days (96 volunteers, 82 analysable, model fit for 62); no CI given. Caveats: the real finding is high variability, not the point estimate; contradicts the '21 days' myth. UK/Western sample (WEIRD). Paper title and journal supplied from standard bibliographic knowledge (report cites author-year only); confirm at DOI-level check. No verbatim quotation held; paraphrase only."
+notes: "Report finding F11. Evidence grade C (small original observational study; meta-analytic synthesis). Replication status: original's exact procedure not directly replicated; broadly corroborated by Singh et al. 2024 systematic review/meta-analysis (20 studies, 2,601 participants — medians 59-66 days, means 106-154 days, individual variability 4-335 days; report links https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11641623/). Effect size as reported: median 66 days to reach 95% of the automaticity asymptote, range 18-254 days (96 volunteers, 82 analysable, model fit for 62); no CI given. Caveats: the real finding is high variability, not the point estimate; contradicts the '21 days' myth. UK/Western sample (WEIRD). Paper title and journal confirmed at DOI level 2026-07-06 (Crossref: Eur J Soc Psychol 40, 998-1009; online-first 2009, print issue 40(6) 2010 — cited as 2010 per convention) — match as minted. Singh et al. 2024 corroboration figures also confirmed against PMC11641623 (Healthcare (Basel); 20 studies, 2,601 participants, medians 59-66 days, means 106-154 days, variability 4-335 days). No verbatim quotation held; paraphrase only."

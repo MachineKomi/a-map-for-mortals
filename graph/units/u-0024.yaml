@@ -1,17 +1,17 @@
 id: u-0024
 claim_id: null
 type: Insight
-paraphrase: "Counsel to a would-be lover of humanity: love in practice is harsh, laborious and persevering, unlike love in dreams, which craves quick, admired self-sacrifice."
-quotation: null   # original Russian not held by the report; capture at primary verification
-quotation_translation: "Active love is a harsh and fearful thing compared with love in dreams. Love in dreams thirsts for immediate action ... whereas active love is labour and perseverance."
+paraphrase: "Counsel to a would-be lover of humanity: love in action is harsh and dreadful compared with love in dreams — labour and fortitude, not the quick, admired self-sacrifice that love in dreams craves."
+quotation: null   # original Russian not held; capture from a Russian primary edition in a later pass
+quotation_translation: "I am sorry I can say nothing more consoling to you, for love in action is a harsh and dreadful thing compared with love in dreams. Love in dreams is greedy for immediate action, rapidly performed and in the sight of all. Men will even give their lives if only the ordeal does not last long but is soon over, with all looking on and applauding as though on the stage. But active love is labor and fortitude, and for some people too, perhaps, a complete science."
 source:
   author: Fyodor Dostoevsky
   work: The Brothers Karamazov
-  passage: "Book II (Zosima to Madame Khokhlakova)"
+  passage: "Book II, ch. 4 'A Lady of Little Faith' (Zosima to Madame Khokhlakova; Garnett spells her 'Hohlakov')"
   translator: Constance Garnett
   edition_year: 1912
   language: ru
-  url: null
+  url: "https://www.gutenberg.org/ebooks/28054"
   urn: null
 tradition: Russian literature
 era: 1880
@@ -22,16 +22,16 @@ conditionality: universal-ish
 life_domains: [love, family, friendship]
 life_stages: [adult]
 endorsement: endorsed
-attribution_confidence: attested
+attribution_confidence: verified-primary
 verification:
-  status: pending-primary
-  method: "attested by wave-1 report; wording not yet checked against a primary edition"
-  checked_against: null
-  date: null
+  status: verified-primary
+  method: "fetched the full Project Gutenberg #28054 text (Constance Garnett's translation) and located the passage — it occurs exactly once in the novel, in Book II ('An Unfortunate Gathering'), Chapter IV 'A Lady Of Little Faith'; wording matched character-for-character; speaker confirmed as 'the elder' (Zosima) counselling Madame Hohlakov (Lise's mother), who has just confessed she could not bear ingratitude. The previously held wording was P&V-style and was replaced (see notes). Verification covers the Garnett English only; the Russian original remains uncaptured."
+  checked_against: "https://www.gutenberg.org/cache/epub/28054/pg28054.txt · Project Gutenberg #28054, The Brothers Karamazov, trans. Constance Garnett (public domain) · matched text: 'I am sorry I can say nothing more consoling to you, for love in action is a harsh and dreadful thing compared with love in dreams. Love in dreams is greedy for immediate action, rapidly performed and in the sight of all. Men will even give their lives if only the ordeal does not last long but is soon over, with all looking on and applauding as though on the stage. But active love is labor and fortitude, and for some people too, perhaps, a complete science.'"
+  date: 2026-07-06
 copyright_flag: public-domain
 prov:
   source_report: corpus/reports/wave-1/07-literary.md
   extracted_by: "claude-code:s1-skeleton-v1"
   pass: 1
   date: 2026-07-06
-notes: "Speaker: Elder ZOSIMA, counselling Madame Khokhlakova, who confesses she dreams of loving humanity but could not bear ingratitude. Endorsement 'endorsed' per report — the novel endorses the teaching but dramatises its difficulty through characters who fail at it. WORDING CAVEAT (from the report's own tension note): the English shown follows Pevear & Volokhonsky phrasing (in-copyright, BK ©1990); the public-domain citation target is Garnett (1912), whose exact wording must be substituted at primary verification — do NOT print this wording as Garnett's. copyright_flag reflects the Garnett edition named by the report, not the wording as held. Report gave attribution_confidence 'verified'; recorded here as 'attested' pending our own primary-edition check."
+notes: "Speaker: Elder ZOSIMA, counselling Madame Khokhlakova, who confesses she dreams of loving humanity but could not bear ingratitude. Endorsement 'endorsed' per report — the novel endorses the teaching but dramatises its difficulty through characters who fail at it. WORDING CORRECTED AT S2 PRIMARY VERIFICATION (2026-07-06): the unit previously held P&V-style phrasing ('Active love is a harsh and fearful thing ... love in dreams thirsts for immediate action ... active love is labour and perseverance') mislabelled against a Garnett citation; it has been replaced with Garnett's exact wording from PG #28054. Note the differences: Garnett's famous first clause reads 'love in action is a harsh and dreadful thing' (not 'active love ... fearful'), and her later sentence reads 'active love is labor and fortitude' (PG #28054 prints the American spelling 'labor'; not 'labour and perseverance'). LOCATOR CONFIRMED/REFINED: the passage occurs exactly once in the novel, in Book II, ch. 4 'A Lady of Little Faith' — spoken by Zosima to Mme Khokhlakova, as the report's scene description said; a Book VI (Zosima's exhortations) citation would be wrong for these words. copyright_flag reflects the verified Garnett text, which is public-domain."

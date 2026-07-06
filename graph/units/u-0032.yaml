@@ -22,16 +22,16 @@ conditionality: conditional
 life_domains: [relationships, health]
 life_stages: [young-adult, adult, midlife, elder]
 endorsement: n/a
-attribution_confidence: attested
+attribution_confidence: verified-secondary
 verification:
-  status: pending-primary
-  method: "citation attested by wave-1 report (P1 spot-check passed for F1); DOI-level check pending"
-  checked_against: null
-  date: null
+  status: verified-secondary
+  method: "citation + abstract checked against PLoS Medicine (Crossref DOI record + journals.plos.org article page)"
+  checked_against: "https://doi.org/10.1371/journal.pmed.1000316 · 'Social Relationships and Mortality Risk: A Meta-analytic Review' · key figure matched: OR 1.50 (95% CI 1.42-1.59), 148 studies, 308,849 participants; complex social integration OR 1.91 (1.63-2.23); living alone OR 1.19 (0.99-1.44); effect 'comparable with well-established risk factors' and exceeds obesity and physical inactivity"
+  date: 2026-07-06
 copyright_flag: unknown   # no verbatim quotation held; paraphrase only
 prov:
   source_report: corpus/reports/wave-1/08-empirical.md
   extracted_by: "claude-code:s1-skeleton-v1"
   pass: 1
   date: 2026-07-06
-notes: "Report finding F1 — the report's headline result. Evidence grade C ('strong and consistent but observational; reverse causation and confounding by baseline health remain'). Replication status: consistent across 148 prospective studies (308,849 participants). Effect size as reported: random-effects weighted OR = 1.50, 95% CI 1.42-1.59; strongest for complex social-integration measures (OR = 1.91, 95% CI 1.63-2.23), weakest for binary living-alone indicators (OR = 1.19, 95% CI 0.99-1.44); magnitude comparable to stopping smoking and exceeding obesity and physical inactivity. Sample: mixed/global but mostly Western (WEIRD flagged). Causal direction listed in the report's What-We-Do-Not-Know section, but the association itself is not contested — hence conditionality: conditional. Paper title supplied from standard bibliographic knowledge (report cites author-year + journal only); confirm at DOI-level check. No verbatim quotation held; paraphrase only."
+notes: "Report finding F1 — the report's headline result. Evidence grade C ('strong and consistent but observational; reverse causation and confounding by baseline health remain'). Replication status: consistent across 148 prospective studies (308,849 participants). Effect size as reported: random-effects weighted OR = 1.50, 95% CI 1.42-1.59; strongest for complex social-integration measures (OR = 1.91, 95% CI 1.63-2.23), weakest for binary living-alone indicators (OR = 1.19, 95% CI 0.99-1.44); magnitude comparable to stopping smoking and exceeding obesity and physical inactivity. Sample: mixed/global but mostly Western (WEIRD flagged). Causal direction listed in the report's What-We-Do-Not-Know section, but the association itself is not contested — hence conditionality: conditional. Paper title confirmed at DOI level 2026-07-06 (PLoS Med 7(7): e1000316; Crossref + PLOS article page) — matches as minted; all headline and subgroup ORs confirmed. Smoking-cessation comparison is presented graphically (Figure 6) rather than as an in-text number. No verbatim quotation held; paraphrase only."

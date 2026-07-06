@@ -2,8 +2,8 @@ id: u-0010
 claim_id: null
 type: Insight
 paraphrase: "One is not obliged to complete the work, but neither is one free to desist from it."
-quotation: null   # original Hebrew not given in the report; to be captured at primary verification
-quotation_translation: "It is not thy duty to complete the work, but neither art thou free to desist from it."
+quotation: "לֹא עָלֶיךָ הַמְּלָאכָה לִגְמֹר, וְלֹא אַתָּה בֶן חוֹרִין לִבָּטֵל מִמֶּנָּה"   # Hebrew per Sefaria's Torat Emet 357 digital edition (Public Domain)
+quotation_translation: "It is not for thee to finish the work, nor art thou free to desist therefrom"
 source:
   author: "Rabbi Tarfon"
   work: "Pirkei Avot (Mishnah)"
@@ -11,7 +11,7 @@ source:
   translator: "Charles Taylor (Sayings of the Jewish Fathers)"
   edition_year: 1897
   language: he
-  url: null
+  url: "https://www.sefaria.org/Pirkei_Avot.2.16"
   urn: null
 tradition: Judaism
 era: 200
@@ -22,12 +22,12 @@ conditionality: universal-ish
 life_domains: [work, justice]
 life_stages: [adult, midlife]
 endorsement: n/a
-attribution_confidence: attested
+attribution_confidence: verified-primary
 verification:
-  status: pending-primary
-  method: "report cites Taylor 1897 (PD) via a secondary web source; wording NOT yet checked against the Taylor edition by this project"
-  checked_against: null
-  date: null
+  status: verified-primary
+  method: "S2 primary pass: Hebrew fetched from the Sefaria API (Pirkei Avot 2:16; heVersion 'Torat Emet 357', licence Public Domain); English checked against the full text of Taylor's Sayings of the Jewish Fathers, 2nd ed. 1897, on archive.org (identifier sayingsofjewish00tayl, OCR full text). Previous held wording was not Taylor's and has been replaced (see notes)."
+  checked_against: "https://www.sefaria.org/Pirkei_Avot.2.16 · Torat Emet 357 (Public Domain) · matched text: 'לֹא עָלֶיךָ הַמְּלָאכָה לִגְמֹר, וְלֹא אַתָּה בֶן חוֹרִין לִבָּטֵל מִמֶּנָּה' — and — https://archive.org/details/sayingsofjewish00tayl · Taylor, Sayings of the Jewish Fathers, 2nd ed., Cambridge 1897 (saying numbered II.19 there) · matched text: 'It is not for thee to finish the work, nor art thou free to desist therefrom'"
+  date: 2026-07-06
 copyright_flag: public-domain
 prov:
   source_report: corpus/reports/wave-1/05-near-eastern-abrahamic.md
@@ -44,3 +44,15 @@ notes: >-
   Era 200 approximates the Mishnah's redaction per the report ('tannaitic, ~200 CE
   redaction'); R. Tarfon was active late 1st–early 2nd c. CE. Report life_stages
   'adult' mapped to [adult, midlife] under the schema's finer-grained enum.
+  S2 primary verification (2026-07-06): WORDING CORRECTED. The previously held
+  English ('It is not thy duty to complete the work, but neither art thou free to
+  desist from it.') is NOT Taylor's — it is the later popular rendering (cf. Hertz's
+  Sayings of the Fathers, in-copyright); the report mis-credited it. Taylor 1897
+  (2nd ed.) actually reads 'It is not for thee to finish the work, nor art thou
+  free to desist therefrom; if thou hast learned much Thorah, they give thee much
+  reward…' — the held quotation_translation is now Taylor's exact clause.
+  Numbering across checked editions: Sefaria numbers the saying 2:16 (passage field
+  follows this); Taylor's own edition numbers it II.19 (page header 'II. 18, 19').
+  Hebrew held from Sefaria's Torat Emet 357 (Public Domain); the full mishnah
+  continues with the reward clauses, English 'He [Rabbi Tarfon] used to say'
+  context per Sefaria's Kulp translation (CC-BY, not held).

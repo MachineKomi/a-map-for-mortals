@@ -2,7 +2,7 @@ id: u-0011
 claim_id: null
 type: Insight
 paraphrase: "Since striving is fleeting, there is nothing better than to eat, drink, and find honest enjoyment in one's labour."
-quotation: null   # original Hebrew not given in the report; to be captured at primary verification
+quotation: "אֵֽין־ט֤וֹב בָּאָדָם֙ שֶׁיֹּאכַ֣ל וְשָׁתָ֔ה וְהֶרְאָ֧ה אֶת־נַפְשׁ֛וֹ ט֖וֹב בַּעֲמָל֑וֹ גַּם־זֹה֙ רָאִ֣יתִי אָ֔נִי כִּ֛י מִיַּ֥ד הָאֱלֹהִ֖ים הִֽיא׃"   # full verse, Sefaria 'Miqra according to the Masorah' (digital edition CC-BY-SA; underlying Masoretic text PD)
 quotation_translation: "There is nothing better for a man, than that he should eat and drink, and that he should make his soul enjoy good in his labour."
 source:
   author: "Qoheleth (anonymous; traditionally attributed to Solomon)"
@@ -11,7 +11,7 @@ source:
   translator: "King James Version translators"
   edition_year: 1611
   language: he
-  url: null
+  url: "https://www.gutenberg.org/ebooks/10"
   urn: null
 tradition: Judaism
 era: -250
@@ -22,12 +22,12 @@ conditionality: conditional
 life_domains: [work, money, joy, family]
 life_stages: [adult, midlife]
 endorsement: n/a
-attribution_confidence: attested
+attribution_confidence: verified-primary
 verification:
-  status: pending-primary
-  method: "report cites KJV 1611 (PD); wording NOT yet checked against a KJV edition by this project"
-  checked_against: null
-  date: null
+  status: verified-primary
+  method: "S2 primary pass: KJV wording matched verbatim against the plain text of Project Gutenberg ebook #10 (The King James Version of the Bible), Ecclesiastes 2:24, fetched 2026-07-06; Hebrew fetched from the Sefaria API (heVersion 'Miqra according to the Masorah')."
+  checked_against: "https://www.gutenberg.org/cache/epub/10/pg10.txt · Project Gutenberg ebook #10, KJV, Ecclesiastes ch. 2 · matched text: '2:24 There is nothing better for a man, than that he should eat and drink, and that he should make his soul enjoy good in his labour. This also I saw, that it was from the hand of God.' — and — https://www.sefaria.org/Ecclesiastes.2.24 · Miqra according to the Masorah (CC-BY-SA) · matched text: 'אֵֽין־ט֤וֹב בָּאָדָם֙ שֶׁיֹּאכַ֣ל וְשָׁתָ֔ה וְהֶרְאָ֧ה אֶת־נַפְשׁ֛וֹ ט֖וֹב בַּעֲמָל֑וֹ'"
+  date: 2026-07-06
 copyright_flag: public-domain
 prov:
   source_report: corpus/reports/wave-1/05-near-eastern-abrahamic.md
@@ -46,3 +46,10 @@ notes: >-
   same impermanence datum yields opposite prescriptions elsewhere (FORK-3). Report
   life_stages 'adult' mapped to [adult, midlife] under the schema's finer-grained
   enum.
+  S2 primary verification (2026-07-06): held English matched the Gutenberg KJV text
+  character-for-character; wording unchanged. The held translation is the first
+  sentence of the verse only — the verse continues 'This also I saw, that it was
+  from the hand of God.' Hebrew (full verse) now held from Sefaria; note the
+  underlying Masoretic text is PD while Sefaria's pointed/cantillated digital
+  edition ('Miqra according to the Masorah') is CC-BY-SA — attribution required if
+  that exact pointed transcription is printed.

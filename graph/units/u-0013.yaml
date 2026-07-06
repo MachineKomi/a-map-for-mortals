@@ -2,16 +2,16 @@ id: u-0013
 claim_id: null
 type: Insight
 paraphrase: "Happiness rests far more on what one is — character, health, cast of mind — than on what one has or how one appears; its two constant foes are pain and boredom."
-quotation: null   # German original not held by the report; capture at primary verification
-quotation_translation: "The most general survey shows us that the two foes of human happiness are pain and boredom."
+quotation: null   # German original still not held — the verified Saunders volume is English-only; capture from a PD German Parerga edition if needed
+quotation_translation: "We have already seen, in general, that what a man is contributes much more to his happiness than what he has, or how he is regarded by others. […] The most general survey shows us that the two foes of human happiness are pain and boredom."
 source:
   author: Arthur Schopenhauer
   work: "Aphorisms on the Wisdom of Life (Parerga und Paralipomena)"
-  passage: "ch. 2, 'Of What One Is'"
+  passage: "ch. 2, 'Personality, or What a Man Is'"
   translator: T. Bailey Saunders
   edition_year: 1890
   language: de
-  url: null
+  url: "https://www.gutenberg.org/ebooks/10741"
   urn: null
 tradition: German pessimism
 era: 1851
@@ -22,16 +22,16 @@ conditionality: contested
 life_domains: [happiness, self, health, money]
 life_stages: [adult, elder]
 endorsement: n/a
-attribution_confidence: attested
+attribution_confidence: verified-primary
 verification:
-  status: pending-primary
-  method: "attested by wave-1 report; wording not yet checked against a primary edition"
-  checked_against: null
-  date: null
+  status: verified-primary
+  method: "downloaded the full Project Gutenberg plain text and matched both sentences character-for-character inside ch. II (heading 'CHAPTER II. / PERSONALITY, OR WHAT A MAN IS.' confirmed at the passage's chapter)"
+  checked_against: "https://www.gutenberg.org/cache/epub/10741/pg10741.txt · The Essays of Arthur Schopenhauer: The Wisdom of Life, trans. T. Bailey Saunders, Project Gutenberg #10741 · matched text: 'We have already seen, in general, that what a man _is_ contributes much more to his happiness than what he _has_, or how he is regarded by others.' (opening sentence of ch. II) and 'The most general survey shows us that the two foes of human happiness are pain and boredom.' (same chapter)"
+  date: 2026-07-06
 copyright_flag: public-domain
 prov:
   source_report: corpus/reports/wave-1/06-modern-west.md
   extracted_by: "claude-code:s1-skeleton-v1"
   pass: 1
   date: 2026-07-06
-notes: "Report attribution label: 'verified' (held at 'attested' pending primary check per S1 policy). Re-derivation: claim_type changed to observational (report: prudential) — the held sentence is a survey-style generalisation ('the most general survey shows us…'), not advice; the prudential programme belongs to the surrounding chapter. Quotation held only in Saunders's English; German original not captured. Report caveat: Saunders rearranged Parerga into thematic volumes — cite the Saunders volume, not a Parerga section number, for Saunders wording. The chapter's thesis is that happiness rests on what one is rather than what one has or represents; the held sentence carries the pessimist half (pain and boredom as the two foes) — paraphrase keeps both, unsoftened. Conditionality 'contested': Schopenhauer's pessimism is directly opposed by the affirmation pole (Spinoza, Emerson, Camus) per report section F."
+notes: "Report attribution label: 'verified' (held at 'attested' pending primary check per S1 policy). Re-derivation: claim_type changed to observational (report: prudential) — the held sentence is a survey-style generalisation ('the most general survey shows us…'), not advice; the prudential programme belongs to the surrounding chapter. Quotation held only in Saunders's English; German original not captured. Report caveat: Saunders rearranged Parerga into thematic volumes — cite the Saunders volume, not a Parerga section number, for Saunders wording. The chapter's thesis is that happiness rests on what one is rather than what one has or represents; the held sentence carries the pessimist half (pain and boredom as the two foes) — paraphrase keeps both, unsoftened. Conditionality 'contested': Schopenhauer's pessimism is directly opposed by the affirmation pole (Spinoza, Emerson, Camus) per report section F. S2 PRIMARY VERIFICATION (2026-07-06): both the pain-and-boredom line and the chapter thesis verified verbatim in the Saunders PD volume (Gutenberg #10741), ch. II. quotation_translation expanded to two sentences (thesis + pain-and-boredom, non-contiguous in the source, separated by […]) so the quotation supports the paraphrase. The Gutenberg transcription marks Saunders's italics with underscores (what a man _is_ … what he _has_) — markers removed here, exact wording otherwise unchanged. passage retitled to Saunders's own chapter title 'Personality, or What a Man Is' (previously 'Of What One Is', a rendering of the Parerga chapter title) per the report caveat to cite the Saunders volume. Gutenberg #10741 does not print the edition year; 1890 (first Saunders edition) retained as attested. German original still not captured — quotation stays null."

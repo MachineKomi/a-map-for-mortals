@@ -2,16 +2,16 @@ id: u-0012
 claim_id: null
 type: Insight
 paraphrase: "The highest degree of tzedakah strengthens the poor person — by gift, loan, partnership, or work — so that they no longer need to ask for alms."
-quotation: null   # original Hebrew not given in the report; to be captured at primary verification
-quotation_translation: "so that his hand will be fortified so that he will not have to ask others [for alms]"
+quotation: "שְׁמוֹנֶה מַעֲלוֹת יֵשׁ בַּצְּדָקָה זוֹ לְמַעְלָה מִזּוֹ. מַעֲלָה גְּדוֹלָה שֶׁאֵין לְמַעְלָה מִמֶּנָּה זֶה הַמַּחֲזִיק בְּיַד יִשְׂרָאֵל שֶׁמָּךְ וְנוֹתֵן לוֹ מַתָּנָה אוֹ הַלְוָאָה אוֹ עוֹשֶׂה עִמּוֹ שֻׁתָּפוּת אוֹ מַמְצִיא לוֹ מְלָאכָה כְּדֵי לְחַזֵּק אֶת יָדוֹ עַד שֶׁלֹּא יִצְטָרֵךְ לַבְּרִיּוֹת לִשְׁאל"   # Hebrew per Sefaria's Torat Emet 363 digital edition (Public Domain); closing Lev. 25:35 prooftext not held
+quotation_translation: "There are eight levels of tzedakah, each one greater than the other. The greatest level, higher than all the rest, is to fortify a fellow Jew and give him a gift, a loan, form with him a partnership, or find work for him, until he is strong enough so that he does not need to ask others [for sustenance]."
 source:
   author: "Maimonides (Moses ben Maimon)"
   work: "Mishneh Torah, Hilkhot Mattenot Aniyim"
   passage: "10:7"
-  translator: null   # report cites/paraphrases without naming the translator; modern translations vary
-  edition_year: null
+  translator: "Joseph B. Meszler (Gifts for the Poor, Williamsburg VA, 2003; via Sefaria, licence CC-BY)"
+  edition_year: 2003
   language: he
-  url: null
+  url: "https://www.sefaria.org/Mishneh_Torah,_Gifts_to_the_Poor.10.7"
   urn: null
 tradition: Judaism
 era: 1180
@@ -22,13 +22,13 @@ conditionality: universal-ish
 life_domains: [money, justice, friendship]
 life_stages: [adult, midlife]
 endorsement: n/a
-attribution_confidence: attested
+attribution_confidence: verified-primary
 verification:
-  status: pending-primary
-  method: "report gives a paraphrase with one short embedded quotation, translator unnamed; wording NOT yet checked against any edition by this project"
-  checked_against: null
-  date: null
-copyright_flag: unknown
+  status: verified-primary
+  method: "S2 primary pass: Hebrew and all English versions fetched from the Sefaria API (2026-07-06); Hebrew held from heVersion 'Torat Emet 363' (Public Domain); previously held unattributed English snippet identified as the Touger translation (matched word-for-word, licence CC-BY-NC) and replaced with the Meszler translation (CC-BY) for print-gate compatibility (see notes)."
+  checked_against: "https://www.sefaria.org/Mishneh_Torah,_Gifts_to_the_Poor.10.7 · Torat Emet 363 (Public Domain) · matched text: 'מַעֲלָה גְּדוֹלָה שֶׁאֵין לְמַעְלָה מִמֶּנָּה זֶה הַמַּחֲזִיק בְּיַד יִשְׂרָאֵל שֶׁמָּךְ וְנוֹתֵן לוֹ מַתָּנָה אוֹ הַלְוָאָה אוֹ עוֹשֶׂה עִמּוֹ שֻׁתָּפוּת אוֹ מַמְצִיא לוֹ מְלָאכָה' · held English matched against Sefaria version 'Gifts for the Poor, Trans. by Joseph B. Meszler, Williamsburg, Virginia, 2003' (licence CC-BY): 'The greatest level, higher than all the rest, is to fortify a fellow Jew and give him a gift, a loan, form with him a partnership, or find work for him, until he is strong enough so that he does not need to ask others [for sustenance].'"
+  date: 2026-07-06
+copyright_flag: in-copyright   # held English is CC-BY: in copyright but freely licensed (print-usable with attribution — the print gate's 'or licensed' clause); Hebrew original PD; CC0 alternative in notes
 prov:
   source_report: corpus/reports/wave-1/05-near-eastern-abrahamic.md
   extracted_by: "claude-code:s1-skeleton-v1"
@@ -36,14 +36,24 @@ prov:
   date: 2026-07-06
 notes: >-
   Report unit HW-13; report label attribution_confidence 'verified (paraphrase;
-  primary is PD)', normalised to 'attested'. The quotation_translation is only the
-  short quotation embedded in the report's paraphrase: Maimonides ranks eight
-  degrees of tzedakah and the highest is to strengthen a poor person with a gift,
-  loan, partnership, or work. Copyright: the Hebrew original is PD per the report,
-  but the English rendering is unattributed and modern translations vary, so
-  copyright_flag is 'unknown' pending identification of a PD translation for print.
-  Claim_type re-derived from quoted evidence: normative (a ranking of charitable
-  duty within religious law, prescribing the highest form; not empirical) — concurs
-  with report. Full ranking spans Hilkhot Mattenot Aniyim 10:7–14; the highest
-  degree is at 10:7. Report life_stages 'adult' mapped to [adult, midlife] under
-  the schema's finer-grained enum.
+  primary is PD)', normalised to 'attested'. Maimonides ranks eight degrees of
+  tzedakah and the highest is to strengthen a poor person with a gift, loan,
+  partnership, or work. Claim_type re-derived from quoted evidence: normative (a
+  ranking of charitable duty within religious law, prescribing the highest form;
+  not empirical) — concurs with report. Full ranking spans Hilkhot Mattenot Aniyim
+  10:7–14; the highest degree is at 10:7. Report life_stages 'adult' mapped to
+  [adult, midlife] under the schema's finer-grained enum.
+  S2 primary verification (2026-07-06): Hebrew captured from Sefaria (Torat Emet
+  363, Public Domain); quotation holds the halakhah minus the closing Leviticus
+  25:35 prooftext. TRANSLATION IDENTIFIED AND REPLACED: the previously held
+  unattributed snippet ('so that his hand will be fortified so that he will not
+  have to ask others [for alms]') matches word-for-word the Eliyahu Touger
+  translation (Moznaim, c1986–c2007) on Sefaria, licence CC-BY-NC — non-commercial,
+  so not print-usable for a commercial book. quotation_translation now holds the
+  Joseph B. Meszler 2003 translation exactly as on Sefaria (licence CC-BY —
+  licensed; print-eligible with attribution). A CC0 (public-domain-dedication)
+  alternative also exists on Sefaria (Sefaria Community Translation: 'The greatest
+  level that has nothing above it is to strengthen the hand of a Jew who has become
+  poor and give him a gift or loan or create a partnership with him or make up some
+  work for him…' — contains minor typos in situ); curation may prefer it if strict
+  PD wording is required. Sefaria also lists Birnbaum 1967 (licence unknown).
