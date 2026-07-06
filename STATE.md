@@ -10,7 +10,7 @@
 - Corpus: Wave-1 landed — 7 of the nominal 8 reports. **04-eastern never landed** (no Eastern-traditions report: Confucian, Daoist, Buddhist, Hindu all missing from wave-1) — top gap for wave-2. All 7 present reports validated (see `corpus/COVERAGE-INDEX.md`): shape complete, misattribution watchlists strong, no fabricated citations detected by review; per-report gaps logged.
 - Graph: empty except normative example files (`example: true`). Validator clean on examples (2 files, 0 errors).
 - Git: remote connected and pushed 2026-07-06 — `https://github.com/MachineKomi/a-map-for-mortals` (public). Claude Code manages the repo.
-- Licence: **decided 2026-07-06** (delegated by Jason) — MIT for code, CC-BY 4.0 for graph/docs/original content with third-party-quote carve-out, all-rights-reserved for the book's rendered expression. See `LICENSE.md` + `ops/DECISIONS.md`.
+- Licence: **decided 2026-07-06** (delegated by Jason; adversarially reviewed) — MIT for code; graph/book/docs all rights reserved **for now**, revisit at edition 1 with presumption toward opening the graph; corpus reports unlicensed, audit-only. See `LICENSE.md` + `ops/DECISIONS.md`.
 
 ## Machines & compute strategy
 - **Laptop (this machine) is primary** — Jason expects most or all of the project to run here. Low/mid-spec; prefer light tooling.
@@ -43,6 +43,6 @@
 | 1 | Walking-skeleton chapter (P3) | — | not yet |
 
 ## Session log (newest first)
-- 2026-07-06 (later) · laptop: remote `github.com/MachineKomi/a-map-for-mortals` connected & pushed. Corrected machine labels (this machine is the laptop, not the PC; tower = optional compute). Licence decided under delegation (E-0001 → closed; D-0002). P1 done: reports renamed to convention (04 kept vacant — eastern report missing), 7 parallel fresh-context reviews ran shape/citation/red-flag checks; all usable; findings logged in COVERAGE-INDEX.
+- 2026-07-06 (later) · laptop: remote `github.com/MachineKomi/a-map-for-mortals` connected & pushed. Corrected machine labels (this machine is the laptop, not the PC; tower = optional compute). Licence decided under delegation after adversarial review (E-0001 → closed; `LICENSE.md`; reasoning in `ops/DECISIONS.md`). P1 done: reports renamed to convention (04 kept vacant — eastern report missing), 7 parallel fresh-context reviews ran shape/citation/red-flag checks; all usable; findings logged in COVERAGE-INDEX.
 - 2026-07-06 · laptop (Claude Code): P0 complete. Probed environment (see capabilities); pip weasyprint unrenderable on Windows → adopted official standalone exe + wrote `tools/fetch_weasyprint.py`; pdftoppm absent → wrote `tools/pdf_to_png.py` (pypdfium2); full render→rasterise→view loop verified with evidence (test page viewed; charset mojibake caught and documented). Validator clean on examples. Git initialised; first commit. Found wave-1 reports already landed (7). Flagged missing GitHub remote to Jason.
 - 2026-07-03 · Claude chat: v0.3 scaffold built; critical review applied (harness-native stack, verification tiers + print gate, STATE ledger, cross-model fallback ladder, numeric targets, walking-skeleton phase). Handed off to Claude Code.

@@ -12,7 +12,10 @@ Root: `CLAUDE.md` (agent operating manual) · `STATE.md` (living ledger) · the 
 Claude Code executes `runbook/PRODUCTION-RUNBOOK.md` autonomously — ingestion, verification, graph-building, curation, rendering — with an adjudication protocol at every interpretive gate and an escalation queue for the genuinely contestable. Jason runs deep-research waves in Claude chat and reviews publish packages. Ship gate: `A-Map-for-Mortals-METHODOLOGY.md §8`.
 
 ## Status
-Production build. Wave-1 research complete; graph construction beginning. **Licence: TBD** (see `ops/ESCALATIONS.md` E-0001) — decide before wide sharing.
+Production build. Wave-1 research landed and validated; graph construction beginning.
+
+## Licence
+Three regimes, deliberately (see `LICENSE.md`): **code MIT** · **graph & book all rights reserved for now** (the book is generated from the graph, so opening the graph is opening the book — that irrevocable step waits until edition 1, with a declared presumption toward opening) · **corpus reports unlicensed, published for audit only**. Everything is publicly readable — auditability is the point.
 
 ---
 *Convergence is robustness, not truth. Recurrence is resonance, not proof.*
