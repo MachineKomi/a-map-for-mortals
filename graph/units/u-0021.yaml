@@ -1,0 +1,37 @@
+id: u-0021
+claim_id: null
+type: Insight
+paraphrase: "Counsel against despair: death's timing, like birth's, must be endured rather than chosen — readiness, not control over the hour, is what matters."
+quotation: "Men must endure / Their going hence even as their coming hither. / Ripeness is all."
+quotation_translation: null
+source:
+  author: William Shakespeare
+  work: King Lear
+  passage: "Act 5, Scene 2"
+  translator: null
+  edition_year: null   # report cites Folger / MIT (Globe text), public-domain; fix a specific printing at primary verification
+  language: en
+  url: null
+  urn: null
+tradition: English literature
+era: 1606
+register: aphorism
+claim_type: prudential
+polarity: prescriptive
+conditionality: contested
+life_domains: [death, adversity]
+life_stages: [adult, elder]
+endorsement: complicated
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-1/07-literary.md
+  extracted_by: "claude-code:s1-skeleton-v1"
+  pass: 1
+  date: 2026-07-06
+notes: "Speaker: EDGAR (disguised), consoling his blinded, suicidal father Gloucester just after Lear and Cordelia are captured — Gloucester has said 'a man may rot even here' and refuses to move. Commonly misattributed to Lear himself; the report confirmed the speaker is Edgar against Folger, MIT and Perseus texts. Endorsement 'complicated' per report: the counsel is spoken by a son to a despairing father moments before further catastrophe, and the play's bleak ending (Cordelia's needless death) tests whether 'ripeness' is genuine consolation or stoic whistling in the dark — do not flatten into free-standing aphorism. Report gave attribution_confidence 'verified'; recorded here as 'attested' pending our own primary-edition check. Work date c.1605-06 (era set to 1606)."

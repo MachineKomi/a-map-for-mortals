@@ -1,0 +1,37 @@
+id: u-0025
+claim_id: null
+type: Insight
+paraphrase: "The growing good of the world depends partly on unhistoric acts — on the many who live faithfully in hidden, unremembered lives."
+quotation: "for the growing good of the world is partly dependent on unhistoric acts; and that things are not so ill with you and me as they might have been, is half owing to the number who lived faithfully a hidden life, and rest in unvisited tombs."
+quotation_translation: null
+source:
+  author: George Eliot
+  work: Middlemarch
+  passage: "Finale (final sentence)"
+  translator: null
+  edition_year: 1872   # first edition 1871–72; Standard Ebooks text also public-domain
+  language: en
+  url: null
+  urn: null
+tradition: English literature
+era: 1872
+register: principle
+claim_type: observational
+polarity: descriptive
+conditionality: universal-ish
+life_domains: [work, self]
+life_stages: [adult, elder]
+endorsement: endorsed
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-1/07-literary.md
+  extracted_by: "claude-code:s1-skeleton-v1"
+  pass: 1
+  date: 2026-07-06
+notes: "Speaker: the NARRATOR, closing the novel's account of Dorothea Brooke, whose idealism never found an 'epic' outlet. Endorsement 'endorsed' per report, but its tension note preserves real ambiguity: the melancholy of 'unvisited tombs' and the Finale's earlier lament that Dorothea's 'full nature ... spent itself in channels which had no great name on the earth' leave the sentence poised between consolation and quiet protest at a society that wasted her — Eliot preserves both; keep that double reading. Claim_type/polarity re-derived as observational/descriptive (report said normative/prescriptive): the sentence is a hedged causal claim ('partly dependent', 'half owing'), not a command — its normative force is implied, not stated. Report gave attribution_confidence 'verified'; recorded here as 'attested' pending our own primary-edition check."

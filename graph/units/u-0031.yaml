@@ -1,0 +1,37 @@
+id: u-0031
+claim_id: null
+type: Consequence
+paraphrase: "Across longitudinal trajectory studies, stable healthy functioning (resilience) is the most common response to adverse events — about two-thirds of people on average — followed by recovery, chronicity, and delayed onset; observational trajectory data."
+quotation: null
+quotation_translation: null
+source:
+  author: "Galatzer-Levy, Huang & Bonanno"
+  work: "Trajectories of resilience and dysregulation following potential trauma: A review and statistical evaluation (Clinical Psychology Review)"
+  passage: null
+  translator: null
+  edition_year: 2018
+  language: en
+  url: null
+  urn: null
+tradition: empirical
+era: 2018
+register: null   # empirical finding; no register in the form library fits
+claim_type: empirical
+polarity: descriptive
+conditionality: conditional
+life_domains: [adversity, self]
+life_stages: [young-adult, adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "citation attested by wave-1 report (P1 spot-check passed for F1); DOI-level check pending"
+  checked_against: null
+  date: null
+copyright_flag: unknown   # no verbatim quotation held; paraphrase only
+prov:
+  source_report: corpus/reports/wave-1/08-empirical.md
+  extracted_by: "claude-code:s1-skeleton-v1"
+  pass: 1
+  date: 2026-07-06
+notes: "Report finding F20b. Evidence grade B/C (statistical review of longitudinal trajectory studies). Replication status: consistent across the 54 studies reviewed. Effect size as reported: resilience was the modal trajectory, average 65.7% across populations, 95% CI 0.616-0.698; recovery 20.8%, chronicity 10.6%, delayed onset 8.9%. Caveat: resilience (stable functioning) must be distinguished from post-traumatic 'growth', much of which may be illusory (see u-0030/F19). Sample: mixed populations. Paper title supplied from standard bibliographic knowledge (report cites author-year + journal only); confirm at DOI-level check. No verbatim quotation held; paraphrase only."

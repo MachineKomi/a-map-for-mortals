@@ -1,0 +1,37 @@
+id: u-0005
+claim_id: null
+type: Insight
+paraphrase: "More things frighten us than actually harm us; we suffer more often in anticipation than in reality."
+quotation: null   # original Latin not held by the report; capture at primary verification
+quotation_translation: "There are more things likely to frighten us than to crush us; we suffer more often in imagination than in reality."
+source:
+  author: Seneca
+  work: Epistulae Morales ad Lucilium
+  passage: "13.4"
+  translator: Richard M. Gummere
+  edition_year: 1917
+  language: la
+  url: null
+  urn: null
+tradition: Roman Stoic
+era: 64
+register: principle
+claim_type: observational
+polarity: cautionary
+conditionality: conditional
+life_domains: [anxiety, adversity, death]
+life_stages: [adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-1/02-greco-roman.md
+  extracted_by: "claude-code:s1-skeleton-v1"
+  pass: 1
+  date: 2026-07-06
+notes: "Book candidate. Report grades: verified; watchlist #6 rates the popular one-line form 'verified as a close rendering' of Gummere (1917, PD), Letter 13.4 'On Groundless Fears'. Claim is a tendency ('more often'), not a universal — keep the qualifier."

@@ -1,0 +1,37 @@
+id: u-0023
+claim_id: null
+type: Insight
+paraphrase: "The chorus asserts, as a law fixed by Zeus, that mortals come to wisdom through suffering."
+quotation: null   # Greek text not held by the report (only the tag 'pathei mathos'); capture at primary verification
+quotation_translation: "Zeus, who sets mortals on the path to understanding, Zeus, who has established as a fixed law that 'wisdom comes by suffering.'"
+source:
+  author: Aeschylus
+  work: "Agamemnon (Oresteia)"
+  passage: "choral ode to Zeus, ~lines 176–183"
+  translator: Herbert Weir Smyth
+  edition_year: 1926
+  language: grc
+  url: null
+  urn: null
+tradition: Greek tragedy
+era: -458   # 458 BCE
+register: principle
+claim_type: metaphysical
+polarity: descriptive
+conditionality: contested
+life_domains: [adversity, grief, self]
+life_stages: [adult]
+endorsement: ambiguous
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-1/07-literary.md
+  extracted_by: "claude-code:s1-skeleton-v1"
+  pass: 1
+  date: 2026-07-06
+notes: "Speaker: the CHORUS of Argive elders, reflecting on Agamemnon's sacrifice of Iphigenia and the moral order of Zeus, early in the play. Greek tag: 'pathei mathos'. Endorsement 'ambiguous' per report: across the trilogy suffering does NOT reliably produce wisdom — the vengeance cycle continues — and translation is disputed (Ewans and others argue 'learn from experience' is closer than 'learn by suffering', warning against importing Christian redemptive overtones). Conditionality re-derived as 'contested' (report said 'conditional'): the chorus states it as fixed universal law, but the claim is contested both within the trilogy's action and among translators. English shown is Smyth (Loeb 1926, public-domain per report); Morshead (1881) is an alternative PD translation; Fagles (1975), Ewans and Carson are in-copyright. Report gave attribution_confidence 'verified'; recorded here as 'attested' pending our own primary-edition check."

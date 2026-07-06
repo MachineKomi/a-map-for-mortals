@@ -1,0 +1,37 @@
+id: u-0019
+claim_id: null
+type: Practice
+paraphrase: "Happiness comes largely from living objectively — directing free affections and wide interests outward rather than dwelling on oneself."
+quotation: "The happy man is the man who lives objectively, who has free affections and wide interests."
+quotation_translation: null   # English original; no translation applicable
+source:
+  author: Bertrand Russell
+  work: The Conquest of Happiness
+  passage: "ch. 17"
+  translator: null
+  edition_year: 1930
+  language: en
+  url: null
+  urn: null
+tradition: Modern British philosophy
+era: 1930
+register: argument
+claim_type: prudential
+polarity: prescriptive
+conditionality: conditional
+life_domains: [happiness, self, work, anxiety]
+life_stages: [adult]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-1/06-modern-west.md
+  extracted_by: "claude-code:s1-skeleton-v1"
+  pass: 1
+  date: 2026-07-06
+notes: "Report attribution label: 'verified' (held at 'attested' pending primary check per S1 policy). COPYRIGHT split status: The Conquest of Happiness (1930) entered US public domain on 1 Jan 2026 (per Duke CSPD; Gutenberg #77894), but Russell d. 1970, so the work remains in copyright in life+70 jurisdictions until 2041 — flag held at in-copyright as the conservative global position (the book sells worldwide). Russell's later essays (e.g. In Praise of Idleness, 1935) remain in US copyright to 2030 (renewal R320904) per the report. Re-derivation: labels retained — Practice, prudential, prescriptive per the book's advisory purpose, though the held sentence is cast in descriptive form ('The happy man is the man who…'); conditionality conditional ('largely', one contributor among several)."

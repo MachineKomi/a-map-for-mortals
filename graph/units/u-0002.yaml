@@ -1,0 +1,37 @@
+id: u-0002
+claim_id: null
+type: Insight
+paraphrase: "The complaint lies in our judgment about a thing, not in the thing itself; withdraw the judgment and the complaint goes with it."
+quotation: null   # report holds Greek only for the parallel at 2.15 (πᾶν ὑπόληψις), not for this 4.3 wording
+quotation_translation: "Take away the opinion, and there is taken away the complaint... All is as thinking makes it so."
+source:
+  author: Marcus Aurelius
+  work: Meditations
+  passage: "4.3"
+  translator: George Long
+  edition_year: 1862
+  language: grc
+  url: null
+  urn: null
+tradition: Roman Stoic
+era: 175
+register: principle
+claim_type: prudential
+polarity: prescriptive
+conditionality: conditional
+life_domains: [anxiety, adversity, anger]
+life_stages: [adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-1/02-greco-roman.md
+  extracted_by: "claude-code:s1-skeleton-v1"
+  pass: 1
+  date: 2026-07-06
+notes: "Report grades: verified. Genuine kernel behind two watchlist fakes ('You have power over your mind...' and 'Everything we hear is an opinion...'). Parallels at 2.15 (πᾶν ὑπόληψις), 12.8, 12.22, 12.26. The kernel is an observational psychological claim deployed here as counsel."

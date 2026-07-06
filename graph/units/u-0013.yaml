@@ -1,0 +1,37 @@
+id: u-0013
+claim_id: null
+type: Insight
+paraphrase: "Happiness rests far more on what one is — character, health, cast of mind — than on what one has or how one appears; its two constant foes are pain and boredom."
+quotation: null   # German original not held by the report; capture at primary verification
+quotation_translation: "The most general survey shows us that the two foes of human happiness are pain and boredom."
+source:
+  author: Arthur Schopenhauer
+  work: "Aphorisms on the Wisdom of Life (Parerga und Paralipomena)"
+  passage: "ch. 2, 'Of What One Is'"
+  translator: T. Bailey Saunders
+  edition_year: 1890
+  language: de
+  url: null
+  urn: null
+tradition: German pessimism
+era: 1851
+register: argument
+claim_type: observational
+polarity: descriptive
+conditionality: contested
+life_domains: [happiness, self, health, money]
+life_stages: [adult, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-1/06-modern-west.md
+  extracted_by: "claude-code:s1-skeleton-v1"
+  pass: 1
+  date: 2026-07-06
+notes: "Report attribution label: 'verified' (held at 'attested' pending primary check per S1 policy). Re-derivation: claim_type changed to observational (report: prudential) — the held sentence is a survey-style generalisation ('the most general survey shows us…'), not advice; the prudential programme belongs to the surrounding chapter. Quotation held only in Saunders's English; German original not captured. Report caveat: Saunders rearranged Parerga into thematic volumes — cite the Saunders volume, not a Parerga section number, for Saunders wording. The chapter's thesis is that happiness rests on what one is rather than what one has or represents; the held sentence carries the pessimist half (pain and boredom as the two foes) — paraphrase keeps both, unsoftened. Conditionality 'contested': Schopenhauer's pessimism is directly opposed by the affirmation pole (Spinoza, Emerson, Camus) per report section F."

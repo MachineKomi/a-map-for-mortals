@@ -1,0 +1,37 @@
+id: u-0006
+claim_id: null
+type: Insight
+paraphrase: "How you bear hardship, not what hardship you bear, is what counts."
+quotation: "non quid sed quemadmodum feras interest"
+quotation_translation: "It matters not what you bear, but how you bear it"
+source:
+  author: Seneca
+  work: De Providentia
+  passage: "2.4"
+  translator: John W. Basore
+  edition_year: 1928
+  language: la
+  url: null
+  urn: null
+tradition: Roman Stoic
+era: 64
+register: aphorism
+claim_type: prudential
+polarity: prescriptive
+conditionality: universal-ish
+life_domains: [adversity, grief, courage]
+life_stages: [adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: unknown
+prov:
+  source_report: corpus/reports/wave-1/02-greco-roman.md
+  extracted_by: "claude-code:s1-skeleton-v1"
+  pass: 1
+  date: 2026-07-06
+notes: "Report grades: verified. Watchlist #7: genuine Seneca but commonly misfiled under the Letters to Lucilius — correct locus is De Providentia 2.4. Basore (Loeb 1928, LCL 214) is not marked PD by the report, so copyright_flag stays unknown; the Latin original is PD."

@@ -1,0 +1,37 @@
+id: u-0026
+claim_id: null
+type: Consequence
+paraphrase: "Experienced well-being rises roughly log-linearly with income for most people, with no plateau at $75k — observational survey data with diminishing proportional returns; the causal reading is contested."
+quotation: null
+quotation_translation: null
+source:
+  author: "Killingsworth, Kahneman & Mellers"
+  work: "Income and emotional well-being: A conflict resolved (PNAS)"
+  passage: null
+  translator: null
+  edition_year: 2023
+  language: en
+  url: null
+  urn: null
+tradition: empirical
+era: 2023
+register: null   # empirical finding; no register in the form library fits
+claim_type: empirical
+polarity: descriptive
+conditionality: contested
+life_domains: [money, self]
+life_stages: [young-adult, adult, midlife]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "citation attested by wave-1 report (P1 spot-check passed for F1); DOI-level check pending"
+  checked_against: null
+  date: null
+copyright_flag: unknown   # no verbatim quotation held; paraphrase only
+prov:
+  source_report: corpus/reports/wave-1/08-empirical.md
+  extracted_by: "claude-code:s1-skeleton-v1"
+  pass: 1
+  date: 2026-07-06
+notes: "Report finding F4. Evidence grade B (adversarial-collaboration reanalysis; per report 'among the more credible work in the field'). Replication status: KKM 2023 reconciles Kahneman & Deaton 2010 and Killingsworth 2021 — both partly right about different people. Effect size as reported: rising slope of experienced well-being with log-income; flattening confined to roughly the unhappiest 15-20% above ~$100k; no CI given for the slope. Caveats: causal assumptions challenged (Rohrer & Wenz 2024, PNAS); log-linear means diminishing absolute returns; Easterlin paradox (macro level) unresolved. US sample (WEIRD). Paper title supplied from standard bibliographic knowledge (report cites author-year + journal only); confirm at DOI-level check. No verbatim quotation held; paraphrase only. Conditionality set to contested per report's 'What We Do Not Know' item 2 (how much money matters, and for whom, is unsettled)."

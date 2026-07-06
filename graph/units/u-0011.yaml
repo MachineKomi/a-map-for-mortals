@@ -1,0 +1,48 @@
+id: u-0011
+claim_id: null
+type: Insight
+paraphrase: "Since striving is fleeting, there is nothing better than to eat, drink, and find honest enjoyment in one's labour."
+quotation: null   # original Hebrew not given in the report; to be captured at primary verification
+quotation_translation: "There is nothing better for a man, than that he should eat and drink, and that he should make his soul enjoy good in his labour."
+source:
+  author: "Qoheleth (anonymous; traditionally attributed to Solomon)"
+  work: "Ecclesiastes"
+  passage: "2:24"
+  translator: "King James Version translators"
+  edition_year: 1611
+  language: he
+  url: null
+  urn: null
+tradition: Judaism
+era: -250
+register: principle
+claim_type: prudential
+polarity: prescriptive
+conditionality: conditional
+life_domains: [work, money, joy, family]
+life_stages: [adult, midlife]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "report cites KJV 1611 (PD); wording NOT yet checked against a KJV edition by this project"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-1/05-near-eastern-abrahamic.md
+  extracted_by: "claude-code:s1-skeleton-v1"
+  pass: 1
+  date: 2026-07-06
+notes: >-
+  Report unit HW-07; report label attribution_confidence 'verified', normalised to
+  'attested' pending a primary check against a KJV edition. Claim_type re-derived
+  from quoted evidence: prudential (counsel of honest enjoyment given impermanence;
+  the quoted line is practical counsel, not a theological assertion) — concurs with
+  report. Era -250 approximates the report's 3rd-c. BCE Hellenistic dating (Persian
+  loanwords + Greek mindset; terminus ante quem 180 BCE, Ben Sira quotes it).
+  Lineage caveat from report: convergence with Gilgamesh/Siduri (CONV-1) is partly
+  NOT independent — Qoheleth shows probable Mesopotamian/Hellenistic influence; the
+  same impermanence datum yields opposite prescriptions elsewhere (FORK-3). Report
+  life_stages 'adult' mapped to [adult, midlife] under the schema's finer-grained
+  enum.

@@ -1,0 +1,37 @@
+id: u-0015
+claim_id: null
+type: Danger
+paraphrase: "We never actually live; we only hope to live, perpetually deferring life and happiness to the future."
+quotation: "Ainsi nous ne vivons jamais, mais nous espérons de vivre."
+quotation_translation: null   # report holds no PD English wording; do not compose one — capture Trotter (1904) at primary verification
+source:
+  author: Blaise Pascal
+  work: Pensées
+  passage: "Lafuma 47 / Sellier 80 / Brunschvicg 172"
+  translator: W. F. Trotter
+  edition_year: 1904
+  language: fr
+  url: null
+  urn: null
+tradition: French moralists
+era: 1670
+register: argument
+claim_type: observational
+polarity: cautionary
+conditionality: universal-ish
+life_domains: [self, anxiety, happiness]
+life_stages: [adult]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-1/06-modern-west.md
+  extracted_by: "claude-code:s1-skeleton-v1"
+  pass: 1
+  date: 2026-07-06
+notes: "Report attribution label: 'verified' (held at 'attested' pending primary check per S1 policy). Pensée numbering per report: Lafuma 47 / Sellier 80 / Brunschvicg 172 — all three systems stored; Sellier is the current scholarly standard (report source inventory). French wording held from the report; quotation_translation left null rather than composing an uncredited English rendering — Trotter (1904) is the designated PD English translation, Brunschvicg (1897) the PD French text; modern Lafuma/Sellier French texts and the Krailsheimer translation are in copyright. Pensées published posthumously, 1670. Pascal writes within Jansenist Christianity, but this unit's claim is observational moral psychology, not a religious claim. Re-derivation: type Danger, observational, cautionary, universal-ish retained ('nous ne vivons jamais' is asserted without qualification); life_domains re-derived as [self, anxiety, happiness] (report: anxiety, self, ambition) — the sentence concerns deferred living and happiness, not ambition per se."

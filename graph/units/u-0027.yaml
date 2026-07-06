@@ -1,0 +1,37 @@
+id: u-0027
+claim_id: null
+type: Consequence
+paraphrase: "Happiness appears to flatten with income above roughly $100,000 only for the unhappiest ~15-20% of people; for everyone else it keeps rising with log-income — but the threshold's location, and whether it exists, are contested."
+quotation: null
+quotation_translation: null
+source:
+  author: "Killingsworth, Kahneman & Mellers"
+  work: "Income and emotional well-being: A conflict resolved (PNAS)"
+  passage: null
+  translator: null
+  edition_year: 2023
+  language: en
+  url: null
+  urn: null
+tradition: empirical
+era: 2023
+register: null   # empirical finding; no register in the form library fits
+claim_type: empirical
+polarity: descriptive
+conditionality: contested
+life_domains: [money, self]
+life_stages: [young-adult, adult, midlife]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "citation attested by wave-1 report (P1 spot-check passed for F1); DOI-level check pending"
+  checked_against: null
+  date: null
+copyright_flag: unknown   # no verbatim quotation held; paraphrase only
+prov:
+  source_report: corpus/reports/wave-1/08-empirical.md
+  extracted_by: "claude-code:s1-skeleton-v1"
+  pass: 1
+  date: 2026-07-06
+notes: "Report finding F5. Evidence grade B. Replication status: contested — Rohrer & Wenz 2024 (PNAS) argue the $100,000 threshold 'was not estimated in Killingsworth's data but was based on Kahneman and Deaton' and that beyond $100k lower quantiles do not rise significantly; an arXiv reanalysis suggests an optimally chosen threshold yields flat well-being above ~$200,000. Effect size as reported: 15th percentile of happiness rises steeply below $100k but barely changes above it, while all other quantile regressions rise significantly with log(income); no CI given. Caveat: the original 'plateau' reflected Kahneman & Deaton's measure hitting a ceiling and effectively measuring unhappiness. US sample (WEIRD). Paper title supplied from standard bibliographic knowledge; confirm at DOI-level check. No verbatim quotation held; paraphrase only."

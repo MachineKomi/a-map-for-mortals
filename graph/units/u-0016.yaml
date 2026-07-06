@@ -1,0 +1,37 @@
+id: u-0016
+claim_id: null
+type: Insight
+paraphrase: "Every gain carries a corresponding loss, and every loss a corresponding gain — life operates by compensation."
+quotation: "For every thing you have missed, you have gained something else; and for every thing you gain, you lose something."
+quotation_translation: null   # English original; no translation applicable
+source:
+  author: Ralph Waldo Emerson
+  work: "Essays: First Series"
+  passage: "'Compensation'"
+  translator: null
+  edition_year: 1841
+  language: en
+  url: null
+  urn: null
+tradition: American Transcendentalism
+era: 1841
+register: principle
+claim_type: metaphysical
+polarity: descriptive
+conditionality: contested
+life_domains: [adversity, money, ambition, self]
+life_stages: [adult, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-1/06-modern-west.md
+  extracted_by: "claude-code:s1-skeleton-v1"
+  pass: 1
+  date: 2026-07-06
+notes: "Report attribution label: 'verified' (held at 'attested' pending primary check per S1 policy). Re-derivation: claim_type kept metaphysical — the sentence in isolation could read as observational, but it asserts an exceptionless universal balance ('for every thing…') that the essay grounds in a cosmic law of compensation; treating it as mere observation would misstate its scope (claim-type discipline per report caveats). Polarity descriptive; conditionality 'contested' (strong universal claim, widely disputed). Not a misattribution-watchlist item (unlike Emerson's 'foolish consistency' line)."

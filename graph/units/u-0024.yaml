@@ -1,0 +1,37 @@
+id: u-0024
+claim_id: null
+type: Insight
+paraphrase: "Counsel to a would-be lover of humanity: love in practice is harsh, laborious and persevering, unlike love in dreams, which craves quick, admired self-sacrifice."
+quotation: null   # original Russian not held by the report; capture at primary verification
+quotation_translation: "Active love is a harsh and fearful thing compared with love in dreams. Love in dreams thirsts for immediate action ... whereas active love is labour and perseverance."
+source:
+  author: Fyodor Dostoevsky
+  work: The Brothers Karamazov
+  passage: "Book II (Zosima to Madame Khokhlakova)"
+  translator: Constance Garnett
+  edition_year: 1912
+  language: ru
+  url: null
+  urn: null
+tradition: Russian literature
+era: 1880
+register: principle
+claim_type: prudential
+polarity: prescriptive
+conditionality: universal-ish
+life_domains: [love, family, friendship]
+life_stages: [adult]
+endorsement: endorsed
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-1/07-literary.md
+  extracted_by: "claude-code:s1-skeleton-v1"
+  pass: 1
+  date: 2026-07-06
+notes: "Speaker: Elder ZOSIMA, counselling Madame Khokhlakova, who confesses she dreams of loving humanity but could not bear ingratitude. Endorsement 'endorsed' per report — the novel endorses the teaching but dramatises its difficulty through characters who fail at it. WORDING CAVEAT (from the report's own tension note): the English shown follows Pevear & Volokhonsky phrasing (in-copyright, BK ©1990); the public-domain citation target is Garnett (1912), whose exact wording must be substituted at primary verification — do NOT print this wording as Garnett's. copyright_flag reflects the Garnett edition named by the report, not the wording as held. Report gave attribution_confidence 'verified'; recorded here as 'attested' pending our own primary-edition check."

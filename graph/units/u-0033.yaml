@@ -1,0 +1,37 @@
+id: u-0033
+claim_id: null
+type: Consequence
+paraphrase: "Among US adults over 50, those in the lowest life-purpose category had roughly double the all-cause mortality of those in the highest, after adjusting for sociodemographics, health behaviours, and baseline health — observational: purpose correlates with SES, health, and social ties, and causality is not established."
+quotation: null
+quotation_translation: null
+source:
+  author: "Alimujiang et al."
+  work: "Association Between Life Purpose and Mortality Among US Adults Older Than 50 Years (JAMA Network Open)"
+  passage: null
+  translator: null
+  edition_year: 2019
+  language: en
+  url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC6632139/"
+  urn: null
+tradition: empirical
+era: 2019
+register: null   # empirical finding; no register in the form library fits
+claim_type: empirical
+polarity: descriptive
+conditionality: conditional
+life_domains: [meaning, health]
+life_stages: [midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "citation attested by wave-1 report (P1 spot-check passed for F1); DOI-level check pending"
+  checked_against: null
+  date: null
+copyright_flag: unknown   # no verbatim quotation held; paraphrase only
+prov:
+  source_report: corpus/reports/wave-1/08-empirical.md
+  extracted_by: "claude-code:s1-skeleton-v1"
+  pass: 1
+  date: 2026-07-06
+notes: "Report finding F14. Evidence grade C ('robust association across cohorts, but purpose correlates with SES, health, and social ties; an E-value analysis suggests an unmeasured confounder would need RR ~= 3 on both sides to nullify'). Replication status: replicated across cohorts (Hill & Turiano 2014; Kim/Shiba research programmes). Effect size as reported: roughly 2x all-cause mortality in the lowest vs highest life-purpose category; no CI given in the report. Sample: 6,985 US adults >50 (Health and Retirement Study) — US-only, older adults (WEIRD); life_stages restricted to midlife/elder accordingly. URL from report (PubMed Central). Paper title supplied from standard bibliographic knowledge (report cites author-year + journal only); confirm at DOI-level check. No verbatim quotation held; paraphrase only."

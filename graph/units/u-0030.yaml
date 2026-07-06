@@ -1,0 +1,37 @@
+id: u-0030
+claim_id: null
+type: Danger
+paraphrase: "Retrospective self-reports of post-traumatic growth correspond poorly to prospectively measured pre-to-post change: perceived growth tracked increased distress while actual growth tracked decreased distress — much reported 'growth after suffering' may be illusory self-perception."
+quotation: null
+quotation_translation: null
+source:
+  author: "Frazier et al."
+  work: "Does self-reported posttraumatic growth reflect genuine positive change? (Psychological Science)"
+  passage: null
+  translator: null
+  edition_year: 2009
+  language: en
+  url: null
+  urn: null
+tradition: empirical
+era: 2009
+register: null   # empirical finding; no register in the form library fits
+claim_type: empirical
+polarity: descriptive
+conditionality: contested
+life_domains: [adversity, self]
+life_stages: [young-adult, adult]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "citation attested by wave-1 report (P1 spot-check passed for F1); DOI-level check pending"
+  checked_against: null
+  date: null
+copyright_flag: unknown   # no verbatim quotation held; paraphrase only
+prov:
+  source_report: corpus/reports/wave-1/08-empirical.md
+  extracted_by: "claude-code:s1-skeleton-v1"
+  pass: 1
+  date: 2026-07-06
+notes: "Report finding F19. Evidence grade B/C (prospective longitudinal + meta-analysis — per report 'the measurement critique is strong'). Replication status: contested literature — the report's What-We-Do-Not-Know list includes 'whether post-traumatic growth is real'; the measurement critique is corroborated by Gower et al. 2022 meta-analysis, which attributes the mismatch to cognitive biases. Effect size as reported: perceived growth did not correspond to actual pre-to-post change (no numeric ES/CI given); perceived growth associated with increased distress, actual growth with decreased distress. Sample: ~1,500 US students, 122 experiencing trauma between waves (US students; WEIRD flagged). Type set to Danger rather than Consequence: the unit functions as a bias warning — retrospective PTGI-style self-report is an epistemic trap that inflates 'suffering makes you grow'. Distinguish from genuine resilience (see u-0031). Paper title supplied from standard bibliographic knowledge; confirm at DOI-level check. No verbatim quotation held; paraphrase only."

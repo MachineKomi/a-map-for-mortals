@@ -1,0 +1,37 @@
+id: u-0018
+claim_id: null
+type: Practice
+paraphrase: "To accomplish great things, one must live as though one were never going to die."
+quotation: "Pour exécuter de grandes choses, il faut vivre comme si on ne devait jamais mourir."
+quotation_translation: null   # report holds no credited English wording; do not compose one
+source:
+  author: Luc de Clapiers, marquis de Vauvenargues
+  work: Réflexions et maximes
+  passage: null   # maxim number not supplied by the report; numbering is edition-dependent — verify against Œuvres (Furne 1857)
+  translator: null
+  edition_year: 1857
+  language: fr
+  url: null
+  urn: null
+tradition: French moralists
+era: 1746
+register: aphorism
+claim_type: prudential
+polarity: prescriptive
+conditionality: conditional
+life_domains: [ambition, work, death]
+life_stages: [youth, adult]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-1/06-modern-west.md
+  extracted_by: "claude-code:s1-skeleton-v1"
+  pass: 1
+  date: 2026-07-06
+notes: "Report attribution label: 'verified' (held at 'attested' pending primary check per S1 policy). The report gives no maxim number for this unit, and Vauvenargues numbering differs across editions (posthumous maxims renumbered by later editors — report caveat), so passage is left null rather than guessed; verify against the PD French Œuvres (Furne 1857). No specific PD English translator designated by the report ('selected English in PD anthologies'); no English wording held, so quotation_translation is null. edition_year refers to the Furne 1857 PD French edition; the work dates to 1746 (rev. 1747). Re-derivation: labels retained — Practice, prudential ('il faut' in service of the stated end of executing great things), prescriptive, conditional (counsel conditioned on the goal of great undertakings, not universal advice). Stands in deliberate tension with memento-mori units — candidate IN_TENSION_WITH edge downstream."

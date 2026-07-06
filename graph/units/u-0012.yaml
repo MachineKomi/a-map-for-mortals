@@ -1,0 +1,49 @@
+id: u-0012
+claim_id: null
+type: Insight
+paraphrase: "The highest degree of tzedakah strengthens the poor person — by gift, loan, partnership, or work — so that they no longer need to ask for alms."
+quotation: null   # original Hebrew not given in the report; to be captured at primary verification
+quotation_translation: "so that his hand will be fortified so that he will not have to ask others [for alms]"
+source:
+  author: "Maimonides (Moses ben Maimon)"
+  work: "Mishneh Torah, Hilkhot Mattenot Aniyim"
+  passage: "10:7"
+  translator: null   # report cites/paraphrases without naming the translator; modern translations vary
+  edition_year: null
+  language: he
+  url: null
+  urn: null
+tradition: Judaism
+era: 1180
+register: argument
+claim_type: normative
+polarity: prescriptive
+conditionality: universal-ish
+life_domains: [money, justice, friendship]
+life_stages: [adult, midlife]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "report gives a paraphrase with one short embedded quotation, translator unnamed; wording NOT yet checked against any edition by this project"
+  checked_against: null
+  date: null
+copyright_flag: unknown
+prov:
+  source_report: corpus/reports/wave-1/05-near-eastern-abrahamic.md
+  extracted_by: "claude-code:s1-skeleton-v1"
+  pass: 1
+  date: 2026-07-06
+notes: >-
+  Report unit HW-13; report label attribution_confidence 'verified (paraphrase;
+  primary is PD)', normalised to 'attested'. The quotation_translation is only the
+  short quotation embedded in the report's paraphrase: Maimonides ranks eight
+  degrees of tzedakah and the highest is to strengthen a poor person with a gift,
+  loan, partnership, or work. Copyright: the Hebrew original is PD per the report,
+  but the English rendering is unattributed and modern translations vary, so
+  copyright_flag is 'unknown' pending identification of a PD translation for print.
+  Claim_type re-derived from quoted evidence: normative (a ranking of charitable
+  duty within religious law, prescribing the highest form; not empirical) — concurs
+  with report. Full ranking spans Hilkhot Mattenot Aniyim 10:7–14; the highest
+  degree is at 10:7. Report life_stages 'adult' mapped to [adult, midlife] under
+  the schema's finer-grained enum.

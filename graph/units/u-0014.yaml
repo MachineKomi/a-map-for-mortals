@@ -1,0 +1,37 @@
+id: u-0014
+claim_id: null
+type: Insight
+paraphrase: "Most people live out their lives in quiet, resigned desperation."
+quotation: "The mass of men lead lives of quiet desperation."
+quotation_translation: null   # English original; no translation applicable
+source:
+  author: Henry David Thoreau
+  work: Walden
+  passage: "'Economy'"
+  translator: null
+  edition_year: 1854
+  language: en
+  url: null
+  urn: null
+tradition: American Transcendentalism
+era: 1854
+register: aphorism
+claim_type: observational
+polarity: cautionary
+conditionality: contested
+life_domains: [work, self, society, authenticity]
+life_stages: [adult]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-1/06-modern-west.md
+  extracted_by: "claude-code:s1-skeleton-v1"
+  pass: 1
+  date: 2026-07-06
+notes: "Report attribution label: 'verified' (held at 'attested' pending primary check per S1 policy). Report Watchlist item 3: this sentence is GENUINE Thoreau (Walden, 'Economy') — frequently doubted but verified per the report. Only this single sentence is attested; popular circulating extensions of the line are not attested by the report and must not be attached to it. Re-derivation: labels retained — observational (generalisation about 'the mass of men'); polarity kept cautionary although the surface form is descriptive, since the sentence functions as diagnosis-warning; conditionality 'contested' (a sweeping generalisation that is substantively disputed)."

@@ -1,0 +1,37 @@
+id: u-0004
+claim_id: null
+type: Insight
+paraphrase: "Pluck the day as it comes, trusting as little as possible to tomorrow."
+quotation: "carpe diem, quam minimum credula postero"
+quotation_translation: "pluck the day, trusting as little as possible in the next"
+source:
+  author: Horace
+  work: Odes (Carmina)
+  passage: "1.11.8"
+  translator: John Conington
+  edition_year: 1882
+  language: la
+  url: null
+  urn: null
+tradition: Augustan poetry (Epicurean-tinged)
+era: -23
+register: poem
+claim_type: prudential
+polarity: prescriptive
+conditionality: conditional
+life_domains: [death, desire, aging, anxiety]
+life_stages: [young-adult, adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-1/02-greco-roman.md
+  extracted_by: "claude-code:s1-skeleton-v1"
+  pass: 1
+  date: 2026-07-06
+notes: "Book candidate. Report grades: verified; Latin original PD. The English here reads as a literal gloss rather than Conington's 1882 verse rendering — confirm whose wording at S2. The hedge ('as little as possible') is Horace's own conditionality; do not compress to bare 'seize the day'."

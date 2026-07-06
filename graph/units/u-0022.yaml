@@ -1,0 +1,37 @@
+id: u-0022
+claim_id: null
+type: Insight
+paraphrase: "Faust stakes his soul on the terms of a wager: to wish any single moment to linger forever would be to forfeit his striving self — contentment as ruin."
+quotation: "Werd' ich zum Augenblicke sagen: / Verweile doch! du bist so schön!"
+quotation_translation: "When thus I hail the Moment flying: / 'Ah, still delay—thou art so fair!' / Then bind me in thy bonds undying, / My final ruin then declare!"
+source:
+  author: Johann Wolfgang von Goethe
+  work: "Faust, Part One"
+  passage: "'Studierzimmer' (The Study / Compact scene), vv. ~1699–1702"
+  translator: Bayard Taylor
+  edition_year: 1870
+  language: de
+  url: null
+  urn: null
+tradition: German literature
+era: 1808
+register: argument
+claim_type: metaphysical
+polarity: cautionary
+conditionality: contested
+life_domains: [ambition, self]
+life_stages: [adult, elder]
+endorsement: complicated
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-1/07-literary.md
+  extracted_by: "claude-code:s1-skeleton-v1"
+  pass: 1
+  date: 2026-07-06
+notes: "Speaker: FAUST, to Mephistopheles, setting the terms of his wager/pact — he loses only if a moment so satisfies him that he wants it to stay. These are pact-terms spoken in dramatic crisis, not authorial doctrine. Endorsement 'complicated' per report: Faust is ultimately SAVED, not damned, in Part Two, so the drama complicates the wager's apparent logic. English shown is Bayard Taylor (1870, public-domain); Anna Swanwick (1850) is an alternative PD translation; Kaufmann (1961), Arndt (1976) and Luke (1987) are in-copyright translations. Cross-references the separate Nietzsche prompt (striving/self-overcoming). Report gave attribution_confidence 'verified'; recorded here as 'attested' pending our own primary-edition check."

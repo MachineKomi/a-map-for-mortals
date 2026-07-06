@@ -1,0 +1,37 @@
+id: u-0029
+claim_id: null
+type: Practice
+paraphrase: "Forming an if-then implementation intention (specifying when, where, and how to act) improves goal attainment with a medium-to-large meta-analytic effect (d = 0.65), though effects are notably smaller for objectively measured health behaviours."
+quotation: null
+quotation_translation: null
+source:
+  author: "Gollwitzer & Sheeran"
+  work: "Implementation intentions and goal achievement: A meta-analysis of effects and processes (Advances in Experimental Social Psychology)"
+  passage: null
+  translator: null
+  edition_year: 2006
+  language: en
+  url: null
+  urn: null
+tradition: empirical
+era: 2006
+register: null   # empirical finding; no register in the form library fits
+claim_type: empirical
+polarity: descriptive
+conditionality: conditional
+life_domains: [self, work, health]
+life_stages: [young-adult, adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "citation attested by wave-1 report (P1 spot-check passed for F1); DOI-level check pending"
+  checked_against: null
+  date: null
+copyright_flag: unknown   # no verbatim quotation held; paraphrase only
+prov:
+  source_report: corpus/reports/wave-1/08-empirical.md
+  extracted_by: "claude-code:s1-skeleton-v1"
+  pass: 1
+  date: 2026-07-06
+notes: "Report finding F12. Evidence grade B/A (meta-analysis of 94 independent tests, >8,000 participants). Replication status: robust meta-analytic base; later health-behaviour meta-analyses report smaller effects (d ~= 0.14-0.37 for objectively assessed behaviour). Effect size as reported: d = 0.65, 95% CI 0.60-0.70. Caveat: most studies compared against goal-intention controls rather than no-treatment. Western samples (WEIRD flagged in report). Paper title and volume supplied from standard bibliographic knowledge (report cites author-year only); confirm at DOI-level check. No verbatim quotation held; paraphrase only."

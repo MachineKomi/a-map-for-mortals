@@ -1,0 +1,37 @@
+id: u-0003
+claim_id: null
+type: Insight
+paraphrase: "Life is not given short; much of it is wasted — used well, it is long enough."
+quotation: null   # original Latin not held by the report; capture at primary verification
+quotation_translation: "It is not that we have a short time to live, but that we waste much of it."
+source:
+  author: Seneca
+  work: De Brevitate Vitae
+  passage: "1"
+  translator: John W. Basore
+  edition_year: 1932
+  language: la
+  url: null
+  urn: null
+tradition: Roman Stoic
+era: 49
+register: principle
+claim_type: prudential
+polarity: cautionary
+conditionality: universal-ish
+life_domains: [death, work, aging, self]
+life_stages: [young-adult, adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: unknown
+prov:
+  source_report: corpus/reports/wave-1/02-greco-roman.md
+  extracted_by: "claude-code:s1-skeleton-v1"
+  pass: 1
+  date: 2026-07-06
+notes: "Book candidate. Report grades: verified. The report names two translators (Basore Loeb 1932; Aubrey Stewart 1900, PD) without attributing the quoted wording to either — copyright_flag stays unknown until matched; prefer Stewart for print."
