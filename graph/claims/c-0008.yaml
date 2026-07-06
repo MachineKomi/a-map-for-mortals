@@ -4,7 +4,16 @@ claim_type: prudential
 polarity: descriptive
 conditionality: conditional
 member_units: [u-0008]
-status: adjudicated
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "no independent convergence recorded in the skeleton set; 1 lineage (INFLUENCED) edge(s) explicitly NOT counted as recurrence — skeleton-scale corpus (33 units); provisional until the P4/P6 corpus-wide pass"}
+  source_diversity: {rating: low, certainty: low, basis: "traditions touched via edges: 1 — skeleton-scale corpus (33 units); provisional until the P4/P6 corpus-wide pass"}
+  temporal_spread: {rating: low, certainty: low, basis: "~0 years spanned by connected voices — skeleton-scale corpus (33 units); provisional until the P4/P6 corpus-wide pass"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "prudential — testable in tendency only"}
+  empirical_support: {rating: low, certainty: moderate, basis: "UNDERMINED_BY edge(s) active — see qualifiers"}
+  contestation: {rating: moderate, certainty: moderate, basis: "2 qualifier/underminer edge(s)"}
+  attribution_integrity: {rating: high, certainty: high, basis: "wording verified against a primary/PD edition (S2 record on unit)"}
+  survives_scrutiny: {rating: low, certainty: moderate, basis: "active UNDERMINED_BY edge(s): self-report/measurement critiques bite — print only with the asterisk"}
+status: publish-ready
 prov:
   minted_by: "claude-code:s3-skeleton-v1"
   adversarial_pass: "fresh-context subagent 2026-07-07 (shared weights, disclosed); verdicts applied — see ops/adjudications/2026-07-07-s3s4-skeleton.md"

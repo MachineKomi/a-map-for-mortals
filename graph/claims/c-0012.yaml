@@ -4,7 +4,16 @@ claim_type: normative
 polarity: prescriptive
 conditionality: universal-ish
 member_units: [u-0012]
-status: adjudicated
+robustness_profile:
+  recurrence: {rating: moderate, certainty: low, basis: "1 convergence edge(s) graded partial — skeleton-scale corpus (33 units); provisional until the P4/P6 corpus-wide pass"}
+  source_diversity: {rating: low, certainty: low, basis: "traditions touched via edges: 2 — skeleton-scale corpus (33 units); provisional until the P4/P6 corpus-wide pass"}
+  temporal_spread: {rating: moderate, certainty: low, basis: "~700 years spanned by connected voices — skeleton-scale corpus (33 units); provisional until the P4/P6 corpus-wide pass"}
+  claim_type_dim: {rating: low, certainty: high, basis: "normative — not empirically testable; robustness rests on recurrence and scrutiny"}
+  empirical_support: {rating: low, certainty: low, basis: "no direct empirical test wired at skeleton scale"}
+  contestation: {rating: low, certainty: moderate, basis: "no recorded contestation in the skeleton set"}
+  attribution_integrity: {rating: high, certainty: high, basis: "wording verified against a primary/PD edition (S2 record on unit)"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "no known refutation; over-application risk noted where edges show tension"}
+status: publish-ready
 prov:
   minted_by: "claude-code:s3-skeleton-v1"
   adversarial_pass: "fresh-context subagent 2026-07-07 (shared weights, disclosed); verdicts applied — see ops/adjudications/2026-07-07-s3s4-skeleton.md"

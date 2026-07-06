@@ -4,7 +4,16 @@ claim_type: empirical
 polarity: descriptive
 conditionality: contested
 member_units: [u-0027]
-status: adjudicated
+robustness_profile:
+  recurrence: {rating: low, certainty: high, basis: "empirical finding — recurrence not the relevant axis; see empirical_support"}
+  source_diversity: {rating: low, certainty: moderate, basis: "single study/meta-analysis family per claim at this scale; WEIRD-sample caveats on the unit"}
+  temporal_spread: {rating: low, certainty: high, basis: "contemporary research literature only"}
+  claim_type_dim: {rating: high, certainty: high, basis: "directly testable; graded on the unit"}
+  empirical_support: {rating: high, certainty: moderate, basis: "evidence grade B; replication status on unit notes"}
+  contestation: {rating: moderate, certainty: moderate, basis: "conditionality: contested"}
+  attribution_integrity: {rating: high, certainty: moderate, basis: "citation confirmed at DOI/venue level (S2 record on unit)"}
+  survives_scrutiny: {rating: moderate, certainty: moderate, basis: "replication-aware literature; contested points recorded on unit"}
+status: publish-ready
 prov:
   minted_by: "claude-code:s3-skeleton-v1"
   adversarial_pass: "fresh-context subagent 2026-07-07 (shared weights, disclosed); verdicts applied — see ops/adjudications/2026-07-07-s3s4-skeleton.md"
