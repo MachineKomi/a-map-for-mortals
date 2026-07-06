@@ -1,0 +1,31 @@
+id: by-060-time
+stage: building-years
+sequence: 60
+form: comparison-columns
+refs: [c-0004, c-0018, c-0003, c-0017]
+register: {reading_level: adult, density: high, colour_energy: mid}
+copy:
+  eyebrow: "FORK THREE · TIME, THE SCARCE THING"
+  title: "Two counsels for the same hour"
+  intro:
+    - "These are the years in which time becomes the scarce input of everything else. Seneca's diagnosis stands at the head of the fork: it is not, he argues in <em>On the Shortness of Life</em>, that we are given too little time — it is that we waste so much of what we are given. Then two counsels that flatly disagree about what to do with the hour in front of you."
+  columns:
+    - title: "Seize the present"
+      accent: pink
+      quote_ref: c-0004
+      rows:
+        - {h: "speaks to", v: "the postponer — the one whose real life is always scheduled for later"}
+        - {h: "trusts", v: "today; almost nothing else"}
+        - {h: "curdles into", v: "a life of small immediacies that never builds anything"}
+        - {h: "take it when", v: "your plans have quietly become the place you hide"}
+    - title: "Work as if deathless"
+      accent: orange
+      quote_ref: c-0018
+      rows:
+        - {h: "speaks to", v: "the builder — work that outlasts a season needs a horizon longer than one"}
+        - {h: "trusts", v: "the long arc; compounding; the unfinished"}
+        - {h: "curdles into", v: "precisely the postponement Seneca condemns"}
+        - {h: "take it when", v: "the work is worth more than the mood of the week"}
+  caption: "Comparison columns. Horace and Vauvenargues cannot both be followed in the same breath — and both are right somewhere. The conditions row is the map; choosing is still yours."
+  lesson: "The cost of a thing is the amount of life exchanged for it — price the hour before you spend it, on either counsel."
+notes: "Comparison-columns form (§6 D). Column quotes pulled via quote_ref through the print gate (Conington 1882; Lee 1903 — both verified PD). Lesson paraphrases c-0017's adjudicated claim. Tension mirrors e-0008 and e-0021."

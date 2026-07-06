@@ -1,0 +1,15 @@
+id: by-090-close
+stage: building-years
+sequence: 90
+form: prose
+refs: [c-0025, c-0010]
+register: {reading_level: adult, density: low, colour_energy: low}
+verbatim_quotes: [c-0025]
+copy:
+  eyebrow: "THE BUILDING YEARS · A QUIET CLOSE"
+  title: "The unhistoric years"
+  intro:
+    - "Most of what these two decades build will never be visible. No map of a life should pretend otherwise — or pretend it matters less for that. George Eliot, closing <em>Middlemarch</em> over a heroine the world never heard of:"
+  outro:
+    - "She meant it as consolation, and perhaps as protest; the novel holds both readings open, and so does this book. Either way it is the Building Years' truest sentence: the work was not required to be finished, and it was not put down."
+notes: "Quiet close per SPEC §8. The Eliot sentence is long — the bigq block must hold it whole (QA check). The last line deliberately echoes Avot from the fork-one page: the same fork, closing the chapter it opened."

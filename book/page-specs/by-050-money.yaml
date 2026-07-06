@@ -1,0 +1,21 @@
+id: by-050-money
+stage: building-years
+sequence: 50
+form: threshold-curve
+refs: [c-0026, c-0027, c-0013]
+register: {reading_level: adult, density: high, colour_energy: low}
+verbatim_quotes: [c-0013]
+copy:
+  eyebrow: "FORK TWO · WHAT THE STUDIES SAY ABOUT MONEY"
+  title: "What money does, measured"
+  intro:
+    - "Schopenhauer's side of the fork claims that happiness rests on what one <em>is</em>, not what one has:"
+  x_label: "household income (log scale)"
+  y_label: "experienced well-being"
+  band_label: "contested\nthreshold\n(~$100k?)"
+  main_label: "most people: keeps rising"
+  minority_label: "unhappiest ~15–20%: flattens"
+  caption: "The 2023 adversarial collaboration (Killingsworth, Kahneman &amp; Mellers): experienced well-being rises with log-income for most people, with <b>no observed plateau</b>; flattening appears only for an unhappy minority, and the threshold itself is contested. Causal direction remains open. <b>Evidence grade A–B; association, not destiny.</b>"
+  outro:
+    - "So the old claim survives — qualified: money moves the curve less than temperament, and buys least where the pain is deepest; but the slope is real, and pretending otherwise is comfort, not wisdom. Neither <em>money can't buy happiness</em> nor <em>it can</em> — the honest sentence is longer."
+notes: "Threshold-curve form (§6 C). The qualifier structure mirrors edges e-0011/e-0012 exactly."

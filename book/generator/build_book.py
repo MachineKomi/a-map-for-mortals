@@ -57,8 +57,11 @@ class Graph:
         c = self.claims[cid]
         return self.units[c["member_units"][0]]
 
-    def printable_quote(self, cid):
+    def printable_quote(self, cid, excerpt=None):
         """Return (text, credit) for a verbatim quote, enforcing the print gate.
+        An excerpt may shorten with ellipses, but every segment between the
+        ellipsis marks must be a verbatim substring of the unit's text —
+        checked here, so an excerpt can never alter wording.
         Raises PrintGateError if the unit does not qualify."""
         u = self.unit_for(cid)
         conf = u.get("attribution_confidence")
@@ -69,6 +72,13 @@ class Graph:
                 f"PRINT GATE REFUSAL: {u['id']} (for {cid}) is {conf}/{flag} - "
                 f"verbatim quotation forbidden. Use a paraphrase block instead.")
         text = u.get("quotation_translation") or u.get("quotation")
+        if excerpt:
+            for seg in excerpt.replace("...", "…").split("…"):
+                seg = seg.strip()
+                if seg and seg not in text:
+                    raise PrintGateError(
+                        f"PRINT GATE REFUSAL: excerpt segment not verbatim in {u['id']}: '{seg[:60]}...'")
+            text = excerpt
         s = u.get("source", {})
         credit = f"{s.get('author', '')}, {s.get('work', '')}"
         if s.get("passage"):
@@ -149,25 +159,29 @@ def form_journey_map(spec, g):
 
 def form_convergence_map(spec, g):
     """Voices across distance and time meeting at one claim; line style = independence."""
+    import textwrap
     c = spec["copy"]
-    W, H = 760, 520
-    cx, cy = 380, 262
-    b = [rnode(cx - 170, cy - 46, 340, 92, c["claim_label"], NAVY_T, INK, INK, size=15, weight=600, lh=19)]
+    W, H = 760, 428
+    cx, cy = 380, 226
+    b = [rnode(cx - 170, cy - 44, 340, 88, c["claim_label"], NAVY_T, INK, INK, size=15, weight=600, lh=19)]
     styles = {"partial": (INK2, False), "weak": (INK3, True)}
     voices = c["voices"]
     n = len(voices)
     for i, v in enumerate(voices):
         vx = 90 + i * (580 / max(1, n - 1))
-        vy = 84 if i % 2 == 0 else 128
+        vy = 66 if i % 2 == 0 else 106
         col, dash = styles.get(v["independence"], (INK2, False))
-        b.append(arrow(vx, vy + 30, cx + (i - (n - 1) / 2) * 56, cy - 50, color=col, sw=1.6, gap2=6, dash=dash))
+        b.append(arrow(vx, vy + 26, cx + (i - (n - 1) / 2) * 56, cy - 48, color=col, sw=1.6, gap2=6, dash=dash))
         b.append(tlines(v["name"], vx, vy - 8, 15, 12.5, INK, 600))
         b.append(tlines(v["meta"], vx, vy + 9, 12, 9.2, INK3, 400))
-    b.append(rnode(70, 412, 620, 70, c["frays"], ORANGE_T, ORANGE, "#6f3618", size=11, weight=400, lh=15, sw=1.2))
-    b.append(f'<line x1="120" y1="386" x2="160" y2="386" stroke="{INK2}" stroke-width="1.6"/>')
-    b.append(tlines("independence: partial", 240, 390, 0, 9.5, INK3, 400))
-    b.append(f'<line x1="380" y1="386" x2="420" y2="386" stroke="{INK3}" stroke-width="1.6" stroke-dasharray="4 4"/>')
-    b.append(tlines("weak (transmission likely)", 520, 390, 0, 9.5, INK3, 400))
+    frays = "\n".join(textwrap.wrap(c["frays"], 96))
+    fh = 22 + 15 * len(frays.split("\n"))
+    b.append(rnode(70, H - fh - 8, 620, fh, frays, ORANGE_T, ORANGE, "#6f3618", size=10.5, weight=400, lh=15, sw=1.2))
+    ly = H - fh - 30
+    b.append(f'<line x1="120" y1="{ly}" x2="160" y2="{ly}" stroke="{INK2}" stroke-width="1.6"/>')
+    b.append(tlines("independence: partial (argued)", 262, ly + 4, 0, 9.5, INK3, 400))
+    b.append(f'<line x1="400" y1="{ly}" x2="440" y2="{ly}" stroke="{INK3}" stroke-width="1.6" stroke-dasharray="4 4"/>')
+    b.append(tlines("lineage (transmitted)", 528, ly + 4, 0, 9.5, INK3, 400))
     return svg(W, H, "".join(b))
 
 
@@ -283,8 +297,9 @@ FORMS = {
 
 
 # ---------------------------------------------------------------- page assembly
-def quote_block(g, cid):
-    text, credit = g.printable_quote(cid)
+def quote_block(g, q):
+    cid, excerpt = (q["ref"], q.get("excerpt")) if isinstance(q, dict) else (q, None)
+    text, credit = g.printable_quote(cid, excerpt)
     return f'<div class="bigq">{esc(text)}<div class="qcredit">— {esc(credit)}</div></div>'
 
 
@@ -300,8 +315,8 @@ def render_page(spec, g):
     for i, para in enumerate(intro):
         cls = ' class="lead"' if i == 0 else ""
         body.append(f'<p{cls}>{para}</p>')
-    for cid in spec.get("verbatim_quotes", []):
-        body.append(quote_block(g, cid))
+    for q in spec.get("verbatim_quotes", []):
+        body.append(quote_block(g, q))
     if spec.get("form") and spec["form"] != "prose":
         fig = FORMS[spec["form"]](spec, g)
         body.append(f'<div class="fig">{fig}</div>')

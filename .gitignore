@@ -9,3 +9,5 @@ venv/
 # per-machine binaries (fetch with tools/fetch_weasyprint.py, tools/fetch_fonts.py)
 tools/bin/
 book/generator/fonts/
+# QA rasters are regenerable
+book/renders/qa/

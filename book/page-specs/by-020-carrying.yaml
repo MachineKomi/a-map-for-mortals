@@ -1,0 +1,23 @@
+id: by-020-carrying
+stage: building-years
+sequence: 20
+form: convergence-map
+refs: [c-0001, c-0009, c-0010, c-0021]
+register: {reading_level: adult, density: high, colour_energy: mid}
+verbatim_quotes: [c-0001]
+copy:
+  eyebrow: "FORK ONE · CARRYING AND RELEASING"
+  title: "Do what is yours. Release the rest."
+  intro:
+    - "The heaviest loads of these years — the mortgage, the marriage, the child, the work — are exactly the ones whose outcomes you least control. Voices that never met keep arriving at the same division of labour."
+  claim_label: "Act where your agency runs.\nEntrust what lies beyond it."
+  voices:
+    - {name: "Epictetus", meta: "Stoic · c. 108 CE", independence: partial}
+    - {name: "Rabbi Tarfon", meta: "Mishnah, Avot · c. 200 CE", independence: partial}
+    - {name: "'Tie your camel'", meta: "hadith, at-Tirmidhi · attribution contested", independence: partial}
+    - {name: "Edgar, in Lear", meta: "Shakespeare · 1606 · lineage", independence: weak}
+  frays: "Where it frays: the hadith's chain is graded inconsistently; Lear reaches the thought through Renaissance Stoicism — and the play half-breaks the counsel it offers."
+  caption: "Solid lines: <b>partial argued independence</b>. Dashed: <b>lineage</b> — an idea that travelled, a different fact from one rediscovered. Convergence is robustness, not truth."
+  outro:
+    - "The rabbinic voice adds the instruction the Stoic one is accused of lacking — keep pulling anyway: <em>“It is not for thee to finish the work, nor art thou free to desist therefrom”</em> (Rabbi Tarfon, trans. Taylor, 1897). Release is not resignation; the hand stays on the rope."
+notes: "The argued convergence required by runbook P3. Taylor's verified Avot wording appears in the outro with translator credit (gate-satisfying: u-0010 is verified-primary + PD; wording copied exactly from the unit)."

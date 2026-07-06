@@ -1,0 +1,19 @@
+id: by-080-help
+stage: building-years
+sequence: 80
+form: prose
+refs: [c-0012, c-0024, c-0025, c-0033]
+register: {reading_level: adult, density: mid, colour_energy: mid}
+verbatim_quotes:
+  - c-0012
+  - ref: c-0024
+    excerpt: "I am sorry I can say nothing more consoling to you, for love in action is a harsh and dreadful thing compared with love in dreams. … active love is labor and fortitude, and for some people too, perhaps, a complete science."
+copy:
+  eyebrow: "FORK FIVE · THE HELP THAT FREES"
+  title: "Raising others without owning them"
+  intro:
+    - "The Building Years are the raising years — of children, of juniors, of whatever you will one day hand over. Two voices, eight centuries apart and with no documented link, locate real help in the same place: the other person's strength, not the giver's glow."
+  outro:
+    - "Maimonides ranks the anonymous, strengthening gift above every warmer-feeling kind; Zosima strips the sentiment off love itself. Both point the same way: help that keeps the helped dependent is a subtler form of keeping. The studies add their quiet vote — among seven thousand older adults, the lowest sense of purpose predicted roughly two-and-a-half times the mortality of the highest. An association, not a promise; but the arrow points outward."
+  lesson: "Measure your help by what it leaves behind when you step away."
+notes: "Prose page (form variety already ≥6). Quotes: Maimonides via Meszler 2003 (CC-BY — print gate's licensed clause; attribution required in book credits) and Garnett's verified Dostoevsky. Russell's outward-interest claim (c-0019, attested-only) deliberately paraphrase-free: omitted rather than printed unverified. Purpose figure per c-0033 (HR 2.43, verified-secondary)."

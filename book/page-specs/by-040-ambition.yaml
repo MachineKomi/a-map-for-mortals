@@ -1,0 +1,23 @@
+id: by-040-ambition
+stage: building-years
+sequence: 40
+form: trade-off-spectrum
+refs: [c-0022, c-0014, c-0015, c-0011]
+register: {reading_level: adult, density: mid, colour_energy: mid}
+verbatim_quotes: [c-0014, c-0015]
+copy:
+  eyebrow: "FORK TWO · AMBITION AND PEACE"
+  title: "The wager and the desperation"
+  intro:
+    - "Two hells, one on each side of the road. Goethe's Faust stakes his soul on never being satisfied — the moment he says to any instant <em>stay, thou art so fair</em>, he is forfeit. Thoreau and Pascal map the opposite ditch:"
+  spectra:
+    - left: "Striving"
+      right: "Contentment"
+      left_curdle: "Faust's forfeit — a life spent arriving, never living"
+      right_curdle: "quiet desperation — resignation wearing peace's clothes"
+      note: "The answer is a position, moved as life moves — not a pole."
+  caption: "A trade-off spectrum. Both poles are goods; both curdle. Where you stand is a decision that <b>tends</b> to be re-made each decade — and the corpus holds honest voices for every position."
+  outro:
+    - "The oldest voice in this chapter refuses both ditches. Facing the same restlessness, Qoheleth counsels neither wager nor surrender but the ordinary table: take honest joy in food, drink, and the work of your hands — <em>because</em> nothing lasts, not despite it."
+  lesson: "Ask of your striving what it is for; ask of your peace what it is avoiding."
+notes: "Spectrum form (§6 B). Faust rendered as cautionary pact-terms per adjudication (c-0022 polarity: cautionary), never as counsel. Qoheleth paraphrase matches c-0011's adjudicated wording."
