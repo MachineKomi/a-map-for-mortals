@@ -1,0 +1,37 @@
+id: u-0008
+claim_id: null
+type: Insight
+paraphrase: "What does not kill can strengthen — but only for those already strong or healthy enough to turn the blow to advantage; not an automatic law of suffering."
+quotation: "Aus der Kriegsschule des Lebens.—Was mich nicht umbringt, macht mich stärker."
+quotation_translation: "From the military school of life.—What does not kill me, strengthens me."
+source:
+  author: Friedrich Nietzsche
+  work: Twilight of the Idols
+  passage: "Maxims and Arrows, §8"
+  translator: Thomas Common
+  edition_year: 1896
+  language: de
+  url: null
+  urn: null
+tradition: German philosophy
+era: 1889
+register: aphorism
+claim_type: prudential
+polarity: descriptive
+conditionality: conditional
+life_domains: [adversity, character]
+life_stages: [young-adult, adult, midlife]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-1/03-nietzsche.md
+  extracted_by: "claude-code:s1-skeleton-v1"
+  pass: 1
+  date: 2026-07-06
+notes: "Report label: attribution_confidence 'verified' (S1 records attested; S2 climbs; report points to Gutenberg #52263 for Twilight, Ludovici). Misattribution watchlist: the popular variant 'That which does not kill us makes us stronger' is genuine-but-variant — the 'us' form popularises Nietzsche's first-person 'me'; never source the popular wording. Translation variants: wording used is Thomas Common (1896, public domain); Ludovici (1911) renders '...makes me stronger' and titles the chapter 'Maxims and Missiles'; Hollingdale (1968) is in copyright. Conditionality preserved per the report: Nietzsche does NOT claim all suffering strengthens — Ecce Homo restricts the effect to the 'typically healthy' who 'turn serious accidents to advantage' (Brady reading: an opportunity the already-strong can exploit, not an automatic law) — hence conditional. Re-derived labels vs report: claim_type prudential (concur; a maxim from 'the military school of life', not an empirical law); polarity 'affirmative' -> 'descriptive' (states an effect, issues no command); life_domains [adversity, health, character] -> [adversity, character] ('health' enters only as the applicability condition, recorded here, not as a domain the maxim addresses); life_stages 'adulthood' -> [young-adult, adult, midlife]."

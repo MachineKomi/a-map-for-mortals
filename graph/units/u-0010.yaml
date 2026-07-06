@@ -1,0 +1,46 @@
+id: u-0010
+claim_id: null
+type: Insight
+paraphrase: "One is not obliged to complete the work, but neither is one free to desist from it."
+quotation: null   # original Hebrew not given in the report; to be captured at primary verification
+quotation_translation: "It is not thy duty to complete the work, but neither art thou free to desist from it."
+source:
+  author: "Rabbi Tarfon"
+  work: "Pirkei Avot (Mishnah)"
+  passage: "2:16"
+  translator: "Charles Taylor (Sayings of the Jewish Fathers)"
+  edition_year: 1897
+  language: he
+  url: null
+  urn: null
+tradition: Judaism
+era: 200
+register: aphorism
+claim_type: normative
+polarity: prescriptive
+conditionality: universal-ish
+life_domains: [work, justice]
+life_stages: [adult, midlife]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "report cites Taylor 1897 (PD) via a secondary web source; wording NOT yet checked against the Taylor edition by this project"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-1/05-near-eastern-abrahamic.md
+  extracted_by: "claude-code:s1-skeleton-v1"
+  pass: 1
+  date: 2026-07-06
+notes: >-
+  Report unit HW-12; report label attribution_confidence 'verified' (checked against
+  a secondary web source, not a primary edition by this project), normalised to
+  'attested' pending a primary check against Taylor 1897. Claim_type re-derived from
+  quoted evidence: normative (explicit duty language — 'not thy duty… neither art
+  thou free') — concurs with report. Mishnah numbering of this saying varies across
+  editions (it appears as 2:15–16 or 2:20–21 in some); 2:16 follows the report.
+  Era 200 approximates the Mishnah's redaction per the report ('tannaitic, ~200 CE
+  redaction'); R. Tarfon was active late 1st–early 2nd c. CE. Report life_stages
+  'adult' mapped to [adult, midlife] under the schema's finer-grained enum.

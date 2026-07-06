@@ -1,0 +1,37 @@
+id: u-0007
+claim_id: null
+type: Insight
+paraphrase: "Greatness consists in amor fati — wanting nothing in one's life, forward or backward, to be different, and loving, not merely bearing, what is necessary."
+quotation: null   # German original not held in the wave-1 report; capture at primary verification
+quotation_translation: "My formula for greatness in a human being is amor fati: that one wants nothing to be different, not forward, not backward, not in all eternity. Not merely bear what is necessary, still less conceal it... but love it."
+source:
+  author: Friedrich Nietzsche
+  work: Ecce Homo
+  passage: "Why I Am So Clever, §10"
+  translator: Walter Kaufmann
+  edition_year: null   # report names Kaufmann as translator but gives no edition year; fix at S2
+  language: de
+  url: null
+  urn: null
+tradition: German philosophy
+era: 1908
+register: principle
+claim_type: normative
+polarity: prescriptive
+conditionality: universal-ish
+life_domains: [meaning, adversity, self]
+life_stages: [adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-1/03-nietzsche.md
+  extracted_by: "claude-code:s1-skeleton-v1"
+  pass: 1
+  date: 2026-07-06
+notes: "Report label: attribution_confidence 'verified' (S1 records attested; S2 climbs). The English wording held by the report is the Kaufmann rendering (in copyright); the report names Ludovici (1911; Ecce Homo, Gutenberg #52190) as the public-domain alternative but does not hold its wording — capture the PD wording at primary verification. Ecce Homo written 1888, published 1908 (era = publication year per report). Re-derived labels vs report: register 'declaration' -> 'principle' (a stated formula for greatness, in prose, not an aphorism); polarity 'affirmative' -> 'prescriptive' (holds up an ideal: not merely bear the necessary but love it); conditionality 'categorical as an ideal; bound to the necessary' -> 'universal-ish' (offered unconditionally as an ideal; 'the necessary' is its object, not a condition of application); life_stages 'adulthood, maturity' -> [adult, midlife, elder]. Misattribution watchlist: no watchlist entry touches this unit; the 'what does not kill me' popular-variant issue belongs to u-0008."
