@@ -3,7 +3,7 @@
 **Read me at the start of every session. Update me before every commit that changes status.** The repo is your memory; the context window is not.
 
 ## Current phase
-**P3 in progress — S2 mostly done (23/33 verified)** — walking-skeleton chapter is **The Building Years** (SPEC stage 5). Wave-2 landed in parallel (8/8 reports, renamed, shape-checked — deep validation deferred until P3 ships).
+**P3 in progress — S1+S2 done (32/33 verified)** — walking-skeleton chapter is **The Building Years** (SPEC stage 5). Next: S3 clustering. Wave-2 landed in parallel (8/8 reports, renamed, shape-checked — deep validation deferred until P3 ships).
 
 ### S2 status — COMPLETE for the skeleton (2026-07-07)
 - **verified-primary (24):** u-0001–u-0018 (except u-0019 n/a here), u-0021–u-0025 — precisely: u-0001–u-0008, u-0009–u-0018, u-0021–u-0025. Every one carries matched text + URL in `verification.checked_against`.
@@ -15,13 +15,12 @@
 - **Stage:** The Building Years (~26–45; "How do I carry what I've taken on?").
 - **Five forks:** (1) carrying vs releasing [effort⟷acceptance master fork: u-0001,02,07,09,10,21]; (2) ambition vs peace [u-0013,14,15,16,22 + money findings u-0026,27]; (3) time, the scarce thing [u-0003,04,11,17,18 + habit findings u-0028,29]; (4) the weight that strengthens? [u-0005,06,08,23 + PTG/resilience u-0030,31]; (5) the help that frees [u-0012,19,20,24,25 + u-0032,33].
 - **Planned edges:** argued convergence on fork 1 (Stoic·Nietzsche·tawakkul·Lear — independence graded per lineage notes); genuine tension on fork 2 (striving ⟷ contentment). More as adjudicated at S4.
-- **S2 verification queue (book candidates first):** u-0001 (Carter wording mismatch flagged), u-0008 (Gutenberg #52263), u-0021 (fix edition), u-0024 (**P&V-wording landmine — must substitute real Garnett text**), u-0013 (capture the 'what one is' sentence itself), empirical DOI checks (titles supplied beyond report: confirm all 8).
 - **Render pipeline ready:** fonts fetched+verified (`tools/fetch_fonts.py`); WeasyPrint exe + pdf_to_png QA loop proven. Generator note: declare discrete font weights (variable-range syntax ignored by WeasyPrint v69).
 
 ## Status snapshot
 - Repo scaffold v0.3 (2026-07-03): harness-native methodology, unified runbook, two-level graph store, ops files, validator. Prototype archived in `prototype/` (do not edit).
 - Corpus: Wave-1 landed — 7 of the nominal 8 reports. **04-eastern never landed** (no Eastern-traditions report: Confucian, Daoist, Buddhist, Hindu all missing from wave-1) — top gap for wave-2. All 7 present reports validated (see `corpus/COVERAGE-INDEX.md`): shape complete, misattribution watchlists strong, no fabricated citations detected by review; per-report gaps logged.
-- Graph: empty except normative example files (`example: true`). Validator clean on examples (2 files, 0 errors).
+- Graph: 33 skeleton units (u-0001–u-0033), 32 verified (24 primary, 8 secondary), 1 attested. Validator clean (35 files).
 - Git: remote connected and pushed 2026-07-06 — `https://github.com/MachineKomi/a-map-for-mortals` (public). Claude Code manages the repo.
 - Licence: **decided 2026-07-06** (delegated by Jason; adversarially reviewed) — MIT for code; graph/book/docs all rights reserved **for now**, revisit at edition 1 with presumption toward opening the graph; corpus reports unlicensed, audit-only. See `LICENSE.md` + `ops/DECISIONS.md`.
 
@@ -58,6 +57,7 @@
 | 1 | Walking-skeleton chapter (P3) | — | not yet |
 
 ## Session log (newest first)
+- 2026-07-07 (P3·S2 finish) · laptop: completed the 10 queued verifications directly (curl + char-matching, no subagents — spend economy). Five more report errors caught (Carter→Higginson, spliced Marcus, Basore wording, non-Conington crib, Basore→Stewart) and Kaufmann replaced with verified Ludovici PD text. u-0019 Russell honestly left attested (no fetchable text yet). S2 pattern logged: translation attributions are the reports' weak layer.
 - 2026-07-07 (P3·S2 + wave-2 landing) · laptop: six S2 verifier agents dispatched; three completed (14 verified-primary incl. three real corrections — Avot/Taylor, Garnett wording, Touger→Meszler licence swap; 8 empirical verified-secondary with a title and an HR figure corrected against the journals). Three agents killed by the monthly spend limit mid-run — their orphaned edits audited: u-0013–u-0018 verifications independently re-matched against source texts and accepted; u-0001 partial edit reverted (no trail). 10 units still queued. Wave-2 arrived complete (8/8): renamed to convention, section shape checked; deep validation deferred until P3 ships. Escalation E-0002 added (Maimonides translation choice).
 - 2026-07-06 (P3·S1) · laptop: wave-2 prompts assembled ready-to-paste (Jason running them). SPEC read; skeleton chapter fixed = The Building Years, 5 forks, 33 units selected across all 6 reports. Six minting agents produced u-0001..u-0033 (validator clean; everything attested + pending-primary regardless of report labels; labels re-derived; honest flags: P&V-not-Garnett wording on u-0024, Darussalam translation in-copyright on u-0009, supplied paper titles marked for DOI check on empirical units). 15% spot-check passed. Fonts fetched + render-verified (`tools/fetch_fonts.py`; discrete weights needed under WeasyPrint v69).
 - 2026-07-06 (P2) · laptop: six parallel extraction agents produced faithful per-report YAML extracts (`corpus/synthesis/wave-1/`, 182 units; missing fields left empty, never invented; compound labels preserved verbatim). COVERAGE-INDEX rebuilt from real data: life-stage×domain tallies (child=3, youth=23 — spine's ends starving), 12 cross-report convergence clusters (lineage flags preserved; PTG/money empirical qualifiers attached), 10 cross-report forks (effort⟷acceptance in 5/6 reports = master fork), wave-1 baseline metrics, re-ranked backlog. Wave-2 prompt pack extended: block 2·0 Eastern (P0, replaces never-run 04) + block 2g childhood/old-age corrective (P1).
