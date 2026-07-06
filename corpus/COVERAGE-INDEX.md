@@ -2,10 +2,10 @@
 
 **The master tracker.** Updated by Claude Code after every wave (Runbook P2, and again each wave in P5). This is the source of coordination truth — it lives in the repo, not in any chat. *(Template below; replace the example rows as real data lands.)*
 
-- **Last updated:** 2026-07-07 (wave-2 LANDED: all 8 reports, renamed to convention, section-shape checked — deep validation + extraction + index rebuild pending; wave-1 numbers below are current)
-- **Current wave:** 2 (landed, unprocessed)
+- **Last updated:** 2026-07-08 (wave-2 P1 validation complete — all 8 reports pass; extraction + full index rebuild pending)
+- **Current wave:** 2 (validated, pre-extraction)
 - **Saturation status:** baseline set; not yet assessable
-- **Reports held:** 7 (of nominal 8 — `04-eastern` never landed) · **Report-level units:** 182 (extracts in `corpus/synthesis/wave-1/`) · **Canonical claims (deduped):** 0 (minting begins at S1/S3) · **Named dilemmas:** 38 (~10 distinct cross-report forks)
+- **Reports held:** 15 (wave-1: 7 · wave-2: 8, all validated) · **Report-level units:** 182 (extracts in `corpus/synthesis/wave-1/`) · **Canonical claims (deduped):** 0 (minting begins at S1/S3) · **Named dilemmas:** 38 (~10 distinct cross-report forks)
 
 ---
 
@@ -22,6 +22,14 @@ Depth: `none` · `survey` (breadth pass) · `deep` (focused extraction).
 | Abrahamic & Near-Eastern wisdom | survey | `05-near-eastern-abrahamic.md` | validated: ~34 units (14 Hebrew, 7 ANE, 7 Christian, 6 Islamic/Sufi); claim types kept honest; Rumi/Hafiz fake-quote hazard walled off; thin: Qur'anic doctrinal wisdom, Talmudic reasoning |
 | Moralists / Enlightenment / modern West | survey | `06-modern-west.md` | validated: ~50 units; exemplary copyright tracking (incl. Russell US-PD Jan 2026 note); thin: German Idealism, Rousseau; parenthood/elder stages light |
 | Literary wisdom | survey | `07-literary.md` | validated: ~20 units with `endorsement` + `dramatic_context` fields properly used (irony not flattened); Hugo/Kretzmer 1985 lyric caught; zero non-Western literature, zero 20th-century — named gaps |
+| Eastern (Chinese/Indian/Buddhist/Japanese) — **wave-2** | survey | `wave-2/01-eastern.md` | validated: 25 units; fake-Buddha/Laozi watchlist vs fakebuddhaquotes.com; claim-type leakage guarded; Stoic convergences flagged FOR MERGE — **the wave-1 gap is now fed** |
+| African (Ubuntu & proverb traditions) — wave-2 | survey | `wave-2/02-african.md` | validated: 10 units; named peoples/languages throughout; "it takes a village" & "go far together" marked apocryphal; Tempels critical |
+| Indigenous (8 named peoples) — wave-2 | survey | `wave-2/03-indigenous.md` | validated: ~35-40 prose-embedded units (schema formalisation needed at extraction); Chief Seattle textual history documented; sacred material record-only; **consent/CARE gate before any unit publishes** |
+| Women's voices — wave-2 | survey | `wave-2/04-womens-voices.md` | validated: 28 units, 18 targeted figures covered; transmission-honesty exemplary (Hypatia lost, Rabia 4-century lag, Diotima dubious); thin: Mirabai, Edith Stein, elder voices |
+| Childhood & old age — wave-2 | survey | `wave-2/05-childhood-old-age.md` | validated: 17 units (5 child read-aloud + 4 youth + 8 elder incl. Cicero depth pass); Ware anecdotal-labelled; gaps: Bettelheim register break, Kübler-Ross critique pending, Confucian filial piety absent (cross-fill from wave-2/01) |
+| Persian/Zoroastrian/Arabian — wave-2 | survey | `wave-2/06-persian.md` | validated: 18 units; FitzGerald discipline gold-standard (all Rubaiyat dubious, pseudepigraphy dated); asha↔truth-above-all flagged as candidate, not forced; paraphrase retirement queued for S2 |
+| Practical/strategic — wave-2 | survey | `wave-2/07-practical-strategic.md` | validated: 24 units; realpolitik cautionary/descriptive never endorsed; Hippocratic counter-pole first-class; watchlist traces "ends justify means"→Ovid, "first do no harm"→19th c. |
+| World folk & proverbial — wave-2 | survey | `wave-2/08-folk-proverbial.md` | validated: 10 units + 6 contradicting pairs as first-class forks + 6 independence-GRADED convergences (transmitted-by-default discipline); "interesting times" & "two wolves" debunked with sources |
 | Empirical evidence base | survey | `08-empirical.md` | validated: 26 graded findings (A–E rubric) + mapping table; replication-crisis-aware (ego depletion, marshmallow, positivity ratio foregrounded as failed/contested); causal honesty good; WEIRD skew flagged not quantified |
 | _African (Ubuntu, proverbs)_ | none | — | **P1 gap** |
 | _Indigenous / First Nations oral_ | none | — | **P1 gap (epistemic care)** |
@@ -61,7 +69,7 @@ Flag thin cells — the book is ordered by life-stage (SPEC §8), so each stage 
 
 | Priority | Gap | Why it matters | Status |
 |---|---|---|---|
-| **P0** | **Eastern traditions (Confucian, Daoist, Buddhist, Hindu, Japanese)** | **expected wave-1 report never landed; without it the corpus is Western + Near-Eastern only — the single largest skew** | **queued (wave 2, first)** |
+| ~~P0~~ | ~~Eastern traditions~~ | **FED by wave-2/01** (25 units, all four target streams + Japanese) | closed 2026-07-08 |
 | P1 | African & Indigenous wisdom | corpus must not skew literate/recent/Western (a stated honesty commitment) | queued (wave 2) |
 | P1 | Women's voices across eras | corrects the male/literate skew (wave-1 women: Austen, Eliot, Dickinson, Weil, Arendt only) | queued (wave 2) |
 | P1 | Child + elder life-stages | every content report leans adult/midlife; the book's spine needs its first and last chapters fed (read-aloud childhood material; facing-the-end material) | queued (wave 2) |
