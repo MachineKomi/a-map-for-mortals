@@ -1,0 +1,12 @@
+id: c-0023
+canonical_claim: "Wisdom comes through suffering, by a law laid on mortals."
+claim_type: metaphysical
+polarity: descriptive
+conditionality: contested
+member_units: [u-0023]
+status: candidate
+prov:
+  minted_by: "claude-code:s3-skeleton-v1"
+  adversarial_pass: "pending — fresh-context subagent review queued (same weights, disclosed)"
+  date: 2026-07-07
+notes: "Pathei mathos — the Oresteia itself tests it (the vengeance cycle learns nothing); empirical layer contests retrospective growth (c-0030). Clustering posture: 1:1 at skeleton scale; cross-tradition kinship expressed as S4 edges, not merges; corpus-wide merge pass deferred to P6."

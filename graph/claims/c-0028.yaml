@@ -1,0 +1,12 @@
+id: c-0028
+canonical_claim: "Habit automaticity takes a median of about 66 days to form, with very wide individual variation (18-254 days)."
+claim_type: empirical
+polarity: descriptive
+conditionality: conditional
+member_units: [u-0028]
+status: candidate
+prov:
+  minted_by: "claude-code:s3-skeleton-v1"
+  adversarial_pass: "pending — fresh-context subagent review queued (same weights, disclosed)"
+  date: 2026-07-07
+notes: "Lally 2010; corroborated by Singh 2024 meta. Clustering posture: 1:1 at skeleton scale; cross-tradition kinship expressed as S4 edges, not merges; corpus-wide merge pass deferred to P6."

@@ -1,0 +1,12 @@
+id: c-0019
+canonical_claim: "Happiness comes largely from directing interest outward, away from the self."
+claim_type: prudential
+polarity: prescriptive
+conditionality: conditional
+member_units: [u-0019]
+status: candidate
+prov:
+  minted_by: "claude-code:s3-skeleton-v1"
+  adversarial_pass: "pending — fresh-context subagent review queued (same weights, disclosed)"
+  date: 2026-07-07
+notes: "Russell. Supported (in tendency) by purpose-mortality findings, c-0033. Clustering posture: 1:1 at skeleton scale; cross-tradition kinship expressed as S4 edges, not merges; corpus-wide merge pass deferred to P6."

@@ -1,0 +1,12 @@
+id: c-0015
+canonical_claim: "We never quite live, but hope to live; always arranging to be happy, we ensure we never are."
+claim_type: observational
+polarity: cautionary
+conditionality: universal-ish
+member_units: [u-0015]
+status: candidate
+prov:
+  minted_by: "claude-code:s3-skeleton-v1"
+  adversarial_pass: "pending — fresh-context subagent review queued (same weights, disclosed)"
+  date: 2026-07-07
+notes: "Pascal (Br. 172, Trotter verified). Deferred living. Clustering posture: 1:1 at skeleton scale; cross-tradition kinship expressed as S4 edges, not merges; corpus-wide merge pass deferred to P6."

@@ -1,0 +1,12 @@
+id: c-0016
+canonical_claim: "Every gain exacts a corresponding loss, and every loss yields some gain."
+claim_type: metaphysical
+polarity: descriptive
+conditionality: contested
+member_units: [u-0016]
+status: candidate
+prov:
+  minted_by: "claude-code:s3-skeleton-v1"
+  adversarial_pass: "pending — fresh-context subagent review queued (same weights, disclosed)"
+  date: 2026-07-07
+notes: "Emerson's compensation — a cosmic-law claim; type kept metaphysical, not empirical. Clustering posture: 1:1 at skeleton scale; cross-tradition kinship expressed as S4 edges, not merges; corpus-wide merge pass deferred to P6."

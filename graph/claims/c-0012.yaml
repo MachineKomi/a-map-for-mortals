@@ -1,0 +1,12 @@
+id: c-0012
+canonical_claim: "The highest form of help makes the recipient self-sufficient, ending the need for help."
+claim_type: normative
+polarity: prescriptive
+conditionality: universal-ish
+member_units: [u-0012]
+status: candidate
+prov:
+  minted_by: "claude-code:s3-skeleton-v1"
+  adversarial_pass: "pending — fresh-context subagent review queued (same weights, disclosed)"
+  date: 2026-07-07
+notes: "Maimonides, eight levels of charity, Matnot Aniyim 10:7. Clustering posture: 1:1 at skeleton scale; cross-tradition kinship expressed as S4 edges, not merges; corpus-wide merge pass deferred to P6."

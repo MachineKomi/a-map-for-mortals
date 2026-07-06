@@ -1,0 +1,12 @@
+id: c-0027
+canonical_claim: "Income's well-being flattening occurs mainly for an unhappy minority (~15-20%) above roughly $100k; thresholds are contested."
+claim_type: empirical
+polarity: descriptive
+conditionality: contested
+member_units: [u-0027]
+status: candidate
+prov:
+  minted_by: "claude-code:s3-skeleton-v1"
+  adversarial_pass: "pending — fresh-context subagent review queued (same weights, disclosed)"
+  date: 2026-07-07
+notes: "Same adversarial collaboration; threshold not estimable in Killingsworth's data. Clustering posture: 1:1 at skeleton scale; cross-tradition kinship expressed as S4 edges, not merges; corpus-wide merge pass deferred to P6."

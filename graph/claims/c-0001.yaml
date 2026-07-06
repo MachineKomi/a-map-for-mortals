@@ -1,0 +1,12 @@
+id: c-0001
+canonical_claim: "Direct effort at what lies within your power — judgment, aim, desire, aversion — and consent to what does not."
+claim_type: prudential
+polarity: prescriptive
+conditionality: contested
+member_units: [u-0001]
+status: candidate
+prov:
+  minted_by: "claude-code:s3-skeleton-v1"
+  adversarial_pass: "pending — fresh-context subagent review queued (same weights, disclosed)"
+  date: 2026-07-07
+notes: "The dichotomy of control. Contested at the boundary (Irvine's trichotomy: things we partially influence). Clustering posture: 1:1 at skeleton scale; cross-tradition kinship expressed as S4 edges, not merges; corpus-wide merge pass deferred to P6."

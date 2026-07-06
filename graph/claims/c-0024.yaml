@@ -1,0 +1,12 @@
+id: c-0024
+canonical_claim: "Love in action is a harsh and dreadful thing compared with love in dreams; real love is labour and fortitude."
+claim_type: prudential
+polarity: prescriptive
+conditionality: conditional
+member_units: [u-0024]
+status: candidate
+prov:
+  minted_by: "claude-code:s3-skeleton-v1"
+  adversarial_pass: "pending — fresh-context subagent review queued (same weights, disclosed)"
+  date: 2026-07-07
+notes: "Zosima (Garnett wording verified; endorsed by the novel but not made easy). Clustering posture: 1:1 at skeleton scale; cross-tradition kinship expressed as S4 edges, not merges; corpus-wide merge pass deferred to P6."

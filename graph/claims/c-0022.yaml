@@ -1,0 +1,12 @@
+id: c-0022
+canonical_claim: "To rest content in any single moment is to forfeit the striving self; never say to the moment, 'stay'."
+claim_type: metaphysical
+polarity: prescriptive
+conditionality: contested
+member_units: [u-0022]
+status: candidate
+prov:
+  minted_by: "claude-code:s3-skeleton-v1"
+  adversarial_pass: "pending — fresh-context subagent review queued (same weights, disclosed)"
+  date: 2026-07-07
+notes: "Faust's wager — pact-terms, not doctrine (endorsement complicated); the restless-striving pole of the fork. Clustering posture: 1:1 at skeleton scale; cross-tradition kinship expressed as S4 edges, not merges; corpus-wide merge pass deferred to P6."

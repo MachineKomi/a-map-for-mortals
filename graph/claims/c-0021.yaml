@@ -1,0 +1,12 @@
+id: c-0021
+canonical_claim: "The timing of death, like birth, must be endured rather than chosen; readiness, not control, is what remains."
+claim_type: prudential
+polarity: prescriptive
+conditionality: contested
+member_units: [u-0021]
+status: candidate
+prov:
+  minted_by: "claude-code:s3-skeleton-v1"
+  adversarial_pass: "pending — fresh-context subagent review queued (same weights, disclosed)"
+  date: 2026-07-07
+notes: "Edgar in Lear (endorsement: complicated — the play immediately tests it). Do not print as free-standing consolation. Clustering posture: 1:1 at skeleton scale; cross-tradition kinship expressed as S4 edges, not merges; corpus-wide merge pass deferred to P6."

@@ -1,0 +1,12 @@
+id: c-0009
+canonical_claim: "Trust in providence and taking practical means belong together, not in opposition — tie your camel and trust."
+claim_type: normative
+polarity: prescriptive
+conditionality: conditional
+member_units: [u-0009]
+status: candidate
+prov:
+  minted_by: "claude-code:s3-skeleton-v1"
+  adversarial_pass: "pending — fresh-context subagent review queued (same weights, disclosed)"
+  date: 2026-07-07
+notes: "Tawakkul with means (Tirmidhi 2517; chain grading contested, recorded on the unit). Clustering posture: 1:1 at skeleton scale; cross-tradition kinship expressed as S4 edges, not merges; corpus-wide merge pass deferred to P6."

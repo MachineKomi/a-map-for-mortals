@@ -1,0 +1,12 @@
+id: c-0030
+canonical_claim: "Retrospective reports of post-traumatic growth correspond poorly to actual measured change; much reported growth is illusory self-perception."
+claim_type: empirical
+polarity: descriptive
+conditionality: contested
+member_units: [u-0030]
+status: candidate
+prov:
+  minted_by: "claude-code:s3-skeleton-v1"
+  adversarial_pass: "pending — fresh-context subagent review queued (same weights, disclosed)"
+  date: 2026-07-07
+notes: "Frazier 2009; Gower 2022. A measurement caution attached to every 'suffering teaches' claim. Clustering posture: 1:1 at skeleton scale; cross-tradition kinship expressed as S4 edges, not merges; corpus-wide merge pass deferred to P6."

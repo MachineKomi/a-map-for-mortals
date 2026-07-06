@@ -1,0 +1,12 @@
+id: c-0008
+canonical_claim: "Surviving hardship can strengthen — but only those already strong or healthy enough to turn the blow to advantage; not an automatic law."
+claim_type: prudential
+polarity: descriptive
+conditionality: conditional
+member_units: [u-0008]
+status: candidate
+prov:
+  minted_by: "claude-code:s3-skeleton-v1"
+  adversarial_pass: "pending — fresh-context subagent review queued (same weights, disclosed)"
+  date: 2026-07-07
+notes: "Nietzsche's maxim with its own conditionality kept load-bearing. See empirical qualifiers c-0030/c-0031. Clustering posture: 1:1 at skeleton scale; cross-tradition kinship expressed as S4 edges, not merges; corpus-wide merge pass deferred to P6."

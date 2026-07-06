@@ -1,0 +1,12 @@
+id: c-0010
+canonical_claim: "You are not required to finish the work, but neither are you free to desist from it."
+claim_type: normative
+polarity: prescriptive
+conditionality: universal-ish
+member_units: [u-0010]
+status: candidate
+prov:
+  minted_by: "claude-code:s3-skeleton-v1"
+  adversarial_pass: "pending — fresh-context subagent review queued (same weights, disclosed)"
+  date: 2026-07-07
+notes: "Avot 2:16 (Taylor 1897 wording verified). Clustering posture: 1:1 at skeleton scale; cross-tradition kinship expressed as S4 edges, not merges; corpus-wide merge pass deferred to P6."

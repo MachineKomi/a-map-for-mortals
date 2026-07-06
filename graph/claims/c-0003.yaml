@@ -1,0 +1,12 @@
+id: c-0003
+canonical_claim: "Life is long enough; it is squandered attention and postponement that make it short."
+claim_type: prudential
+polarity: cautionary
+conditionality: universal-ish
+member_units: [u-0003]
+status: candidate
+prov:
+  minted_by: "claude-code:s3-skeleton-v1"
+  adversarial_pass: "pending — fresh-context subagent review queued (same weights, disclosed)"
+  date: 2026-07-07
+notes: "Seneca, De Brevitate 1.3. Clustering posture: 1:1 at skeleton scale; cross-tradition kinship expressed as S4 edges, not merges; corpus-wide merge pass deferred to P6."
