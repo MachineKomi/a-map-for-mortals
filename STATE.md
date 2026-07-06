@@ -3,7 +3,14 @@
 **Read me at the start of every session. Update me before every commit that changes status.** The repo is your memory; the context window is not.
 
 ## Current phase
-**P2 done → P3** — wave-1 synthesised (182 report-level units; extracts in `corpus/synthesis/wave-1/`; COVERAGE-INDEX rebuilt from real data). Next: the walking-skeleton chapter (publish package #1).
+**P3 in progress — S1 done** — walking-skeleton chapter is **The Building Years** (SPEC stage 5). 33 units minted (`u-0001..u-0033`), validator clean, spot-check passed. Next: S2 primary verification.
+
+### P3 walking-skeleton design (fixed for this phase)
+- **Stage:** The Building Years (~26–45; "How do I carry what I've taken on?").
+- **Five forks:** (1) carrying vs releasing [effort⟷acceptance master fork: u-0001,02,07,09,10,21]; (2) ambition vs peace [u-0013,14,15,16,22 + money findings u-0026,27]; (3) time, the scarce thing [u-0003,04,11,17,18 + habit findings u-0028,29]; (4) the weight that strengthens? [u-0005,06,08,23 + PTG/resilience u-0030,31]; (5) the help that frees [u-0012,19,20,24,25 + u-0032,33].
+- **Planned edges:** argued convergence on fork 1 (Stoic·Nietzsche·tawakkul·Lear — independence graded per lineage notes); genuine tension on fork 2 (striving ⟷ contentment). More as adjudicated at S4.
+- **S2 verification queue (book candidates first):** u-0001 (Carter wording mismatch flagged), u-0008 (Gutenberg #52263), u-0021 (fix edition), u-0024 (**P&V-wording landmine — must substitute real Garnett text**), u-0013 (capture the 'what one is' sentence itself), empirical DOI checks (titles supplied beyond report: confirm all 8).
+- **Render pipeline ready:** fonts fetched+verified (`tools/fetch_fonts.py`); WeasyPrint exe + pdf_to_png QA loop proven. Generator note: declare discrete font weights (variable-range syntax ignored by WeasyPrint v69).
 
 ## Status snapshot
 - Repo scaffold v0.3 (2026-07-03): harness-native methodology, unified runbook, two-level graph store, ops files, validator. Prototype archived in `prototype/` (do not edit).
@@ -30,9 +37,11 @@
 - **Unprobed; probe only if/when heavy compute is actually needed.** (`python tools/fetch_weasyprint.py` + `pip install pyyaml pypdfium2` should be the whole base setup on any new machine.)
 
 ## Next actions (ordered)
-1. P3: walking-skeleton chapter (~30 units end-to-end: ingest S1 → verify S2 → claims S3 → edges S4 → profiles S5 → page-specs S6 → rendered chapter S7) → **publish package #1** for Jason. Stage choice: adult or midlife (richest coverage); candidate spine fork: **effort ⟷ acceptance** (in 5 of 6 reports — see COVERAGE-INDEX §5). Read SPEC §7/§8/§12 before starting.
-2. Wave-2 prompts are ready for Jason to run whenever convenient (`prompts/deep-research/wave-2-gap-traditions.md`, blocks 2·0 Eastern P0 → 2a/2b/2e/2g P1 → rest P2). Reports land in `corpus/reports/wave-2/`. Not a blocker for P3.
-3. After P3 sign-off: P4 scale ingestion (all 182 units, batches of ~25).
+1. P3·S2: primary verification of the 33 skeleton units, book candidates first (queue above) — WebFetch against Perseus/Gutenberg/Sefaria/sacred-texts etc.; record verification{method, checked_against, date}; climb attribution_confidence only with evidence.
+2. P3·S3: cluster to claims (Claude adjudication + adversarial second pass; c-#### files). S4 edges (incl. the argued convergence with independence_basis and the genuine tension). S5 robustness profiles.
+3. P3·S6/S7: page-specs for the chapter (journey-map opener + ≥4 distinct forms) → build production generator from prototype → render → view every page → publish package #1 in STATE for Jason.
+4. Jason is running wave-2 deep-research prompts (assembled in `prompts/deep-research/wave-2/`); reports will land in `corpus/reports/wave-2/` under any filenames — rename+validate on arrival (P1 for wave-2), not a blocker for P3.
+5. After P3 sign-off: P4 scale ingestion (remaining ~150 wave-1 units, batches of ~25).
 
 ## Blockers / waiting on Jason
 - None currently.
@@ -43,6 +52,7 @@
 | 1 | Walking-skeleton chapter (P3) | — | not yet |
 
 ## Session log (newest first)
+- 2026-07-06 (P3·S1) · laptop: wave-2 prompts assembled ready-to-paste (Jason running them). SPEC read; skeleton chapter fixed = The Building Years, 5 forks, 33 units selected across all 6 reports. Six minting agents produced u-0001..u-0033 (validator clean; everything attested + pending-primary regardless of report labels; labels re-derived; honest flags: P&V-not-Garnett wording on u-0024, Darussalam translation in-copyright on u-0009, supplied paper titles marked for DOI check on empirical units). 15% spot-check passed. Fonts fetched + render-verified (`tools/fetch_fonts.py`; discrete weights needed under WeasyPrint v69).
 - 2026-07-06 (P2) · laptop: six parallel extraction agents produced faithful per-report YAML extracts (`corpus/synthesis/wave-1/`, 182 units; missing fields left empty, never invented; compound labels preserved verbatim). COVERAGE-INDEX rebuilt from real data: life-stage×domain tallies (child=3, youth=23 — spine's ends starving), 12 cross-report convergence clusters (lineage flags preserved; PTG/money empirical qualifiers attached), 10 cross-report forks (effort⟷acceptance in 5/6 reports = master fork), wave-1 baseline metrics, re-ranked backlog. Wave-2 prompt pack extended: block 2·0 Eastern (P0, replaces never-run 04) + block 2g childhood/old-age corrective (P1).
 - 2026-07-06 (later) · laptop: remote `github.com/MachineKomi/a-map-for-mortals` connected & pushed. Corrected machine labels (this machine is the laptop, not the PC; tower = optional compute). Licence decided under delegation after adversarial review (E-0001 → closed; `LICENSE.md`; reasoning in `ops/DECISIONS.md`). P1 done: reports renamed to convention (04 kept vacant — eastern report missing), 7 parallel fresh-context reviews ran shape/citation/red-flag checks; all usable; findings logged in COVERAGE-INDEX.
 - 2026-07-06 · laptop (Claude Code): P0 complete. Probed environment (see capabilities); pip weasyprint unrenderable on Windows → adopted official standalone exe + wrote `tools/fetch_weasyprint.py`; pdftoppm absent → wrote `tools/pdf_to_png.py` (pypdfium2); full render→rasterise→view loop verified with evidence (test page viewed; charset mojibake caught and documented). Validator clean on examples. Git initialised; first commit. Found wave-1 reports already landed (7). Flagged missing GitHub remote to Jason.
