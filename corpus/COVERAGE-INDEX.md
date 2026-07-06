@@ -2,8 +2,8 @@
 
 **The master tracker.** Updated by Claude Code after every wave (Runbook P2, and again each wave in P5). This is the source of coordination truth — it lives in the repo, not in any chat. *(Template below; replace the example rows as real data lands.)*
 
-- **Last updated:** 2026-07-06 (P2 synthesis complete from wave-1 extracts)
-- **Current wave:** 1 (wave-2 prompts ready to run)
+- **Last updated:** 2026-07-07 (wave-2 LANDED: all 8 reports, renamed to convention, section-shape checked — deep validation + extraction + index rebuild pending; wave-1 numbers below are current)
+- **Current wave:** 2 (landed, unprocessed)
 - **Saturation status:** baseline set; not yet assessable
 - **Reports held:** 7 (of nominal 8 — `04-eastern` never landed) · **Report-level units:** 182 (extracts in `corpus/synthesis/wave-1/`) · **Canonical claims (deduped):** 0 (minting begins at S1/S3) · **Named dilemmas:** 38 (~10 distinct cross-report forks)
 

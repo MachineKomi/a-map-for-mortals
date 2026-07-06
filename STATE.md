@@ -3,7 +3,12 @@
 **Read me at the start of every session. Update me before every commit that changes status.** The repo is your memory; the context window is not.
 
 ## Current phase
-**P3 in progress — S1 done** — walking-skeleton chapter is **The Building Years** (SPEC stage 5). 33 units minted (`u-0001..u-0033`), validator clean, spot-check passed. Next: S2 primary verification.
+**P3 in progress — S2 mostly done (23/33 verified)** — walking-skeleton chapter is **The Building Years** (SPEC stage 5). Wave-2 landed in parallel (8/8 reports, renamed, shape-checked — deep validation deferred until P3 ships).
+
+### S2 status (2026-07-07)
+- **verified-primary (14):** u-0009–u-0012, u-0013–u-0018, u-0021–u-0025 — all with matched text + URL in `verification.checked_against`. Real corrections made: Avot wording fixed to Taylor 1897's actual text (report mis-credit); Dostoevsky fixed to Garnett's real wording ("love in action is a harsh and dreadful thing", Book II ch. 4); Maimonides translation swapped Touger(NC)→Meszler(CC-BY) (curation choice queued, E-0002).
+- **verified-secondary (8):** u-0026–u-0033 (empirical; DOI-confirmed; one title + one HR figure corrected).
+- **REMAINING QUEUE (10): u-0001–u-0008 (Greco-Roman, Nietzsche), u-0019, u-0020.** Three verifier agents died on the monthly spend limit mid-run; u-0001's partial upgrade was reverted (no verification trail). Sources known-good: Gutenberg (#2680 Long Marcus, #52263 Ludovici Twilight, #52190 Ludovici Ecce Homo, #10741 Saunders), Wikisource Seneca Letter 13/Gummere, Perseus Horace. Gutenberg was timing out at session end — retry.
 
 ### P3 walking-skeleton design (fixed for this phase)
 - **Stage:** The Building Years (~26–45; "How do I carry what I've taken on?").
@@ -37,11 +42,11 @@
 - **Unprobed; probe only if/when heavy compute is actually needed.** (`python tools/fetch_weasyprint.py` + `pip install pyyaml pypdfium2` should be the whole base setup on any new machine.)
 
 ## Next actions (ordered)
-1. P3·S2: primary verification of the 33 skeleton units, book candidates first (queue above) — WebFetch against Perseus/Gutenberg/Sefaria/sacred-texts etc.; record verification{method, checked_against, date}; climb attribution_confidence only with evidence.
-2. P3·S3: cluster to claims (Claude adjudication + adversarial second pass; c-#### files). S4 edges (incl. the argued convergence with independence_basis and the genuine tension). S5 robustness profiles.
-3. P3·S6/S7: page-specs for the chapter (journey-map opener + ≥4 distinct forms) → build production generator from prototype → render → view every page → publish package #1 in STATE for Jason.
-4. Jason is running wave-2 deep-research prompts (assembled in `prompts/deep-research/wave-2/`); reports will land in `corpus/reports/wave-2/` under any filenames — rename+validate on arrival (P1 for wave-2), not a blocker for P3.
-5. After P3 sign-off: P4 scale ingestion (remaining ~150 wave-1 units, batches of ~25).
+1. P3·S2 finish: verify the remaining 10 units (u-0001–u-0008, u-0019, u-0020; sources listed above). Do directly (curl + python match), not via heavy agents — spend-limit economy.
+2. P3·S3: cluster the 33 units to claims (Claude adjudication + adversarial second pass; c-#### files). S4 edges (argued convergence on fork 1 with independence_basis; genuine tension on fork 2). S5 robustness profiles.
+3. P3·S6/S7: page-specs for The Building Years (journey-map opener + ≥4 distinct forms) → production generator from prototype (discrete font weights; charset meta) → render → view every page → **publish package #1** for Jason.
+4. After P3 ships: wave-2 P1/P2 (deep-validate the 8 landed reports, extract, rebuild COVERAGE-INDEX, wave metrics vs saturation heuristic).
+5. Then P4 scale ingestion (remaining ~150 wave-1 units + wave-2, batches of ~25).
 
 ## Blockers / waiting on Jason
 - None currently.
@@ -52,6 +57,7 @@
 | 1 | Walking-skeleton chapter (P3) | — | not yet |
 
 ## Session log (newest first)
+- 2026-07-07 (P3·S2 + wave-2 landing) · laptop: six S2 verifier agents dispatched; three completed (14 verified-primary incl. three real corrections — Avot/Taylor, Garnett wording, Touger→Meszler licence swap; 8 empirical verified-secondary with a title and an HR figure corrected against the journals). Three agents killed by the monthly spend limit mid-run — their orphaned edits audited: u-0013–u-0018 verifications independently re-matched against source texts and accepted; u-0001 partial edit reverted (no trail). 10 units still queued. Wave-2 arrived complete (8/8): renamed to convention, section shape checked; deep validation deferred until P3 ships. Escalation E-0002 added (Maimonides translation choice).
 - 2026-07-06 (P3·S1) · laptop: wave-2 prompts assembled ready-to-paste (Jason running them). SPEC read; skeleton chapter fixed = The Building Years, 5 forks, 33 units selected across all 6 reports. Six minting agents produced u-0001..u-0033 (validator clean; everything attested + pending-primary regardless of report labels; labels re-derived; honest flags: P&V-not-Garnett wording on u-0024, Darussalam translation in-copyright on u-0009, supplied paper titles marked for DOI check on empirical units). 15% spot-check passed. Fonts fetched + render-verified (`tools/fetch_fonts.py`; discrete weights needed under WeasyPrint v69).
 - 2026-07-06 (P2) · laptop: six parallel extraction agents produced faithful per-report YAML extracts (`corpus/synthesis/wave-1/`, 182 units; missing fields left empty, never invented; compound labels preserved verbatim). COVERAGE-INDEX rebuilt from real data: life-stage×domain tallies (child=3, youth=23 — spine's ends starving), 12 cross-report convergence clusters (lineage flags preserved; PTG/money empirical qualifiers attached), 10 cross-report forks (effort⟷acceptance in 5/6 reports = master fork), wave-1 baseline metrics, re-ranked backlog. Wave-2 prompt pack extended: block 2·0 Eastern (P0, replaces never-run 04) + block 2g childhood/old-age corrective (P1).
 - 2026-07-06 (later) · laptop: remote `github.com/MachineKomi/a-map-for-mortals` connected & pushed. Corrected machine labels (this machine is the laptop, not the PC; tower = optional compute). Licence decided under delegation after adversarial review (E-0001 → closed; `LICENSE.md`; reasoning in `ops/DECISIONS.md`). P1 done: reports renamed to convention (04 kept vacant — eastern report missing), 7 parallel fresh-context reviews ran shape/citation/red-flag checks; all usable; findings logged in COVERAGE-INDEX.
