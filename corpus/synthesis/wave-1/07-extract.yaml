@@ -1,0 +1,250 @@
+report: 07-literary
+extracted: 2026-07-06
+units:
+  - rid: insight.shakespeare.ripeness_is_all
+    claim: Endure death's timing as birth's; readiness, not control, is what matters.
+    type: Insight
+    claim_type: prudential
+    author: William Shakespeare
+    tradition: shakespeare
+    stages: [elder, adult]
+    domains: [death, adversity, old age]
+    conf: verified
+    endorsement: complicated
+  - rid: insight.shakespeare.tomorrow_petty_pace
+    claim: Life is a brief, meaningless performance signifying nothing.
+    type: Insight
+    claim_type: metaphysical
+    author: William Shakespeare
+    tradition: shakespeare
+    stages: [adult]
+    domains: [death, ambition, adversity, grief]
+    conf: verified
+    endorsement: undercut
+  - rid: insight.aeschylus.pathei_mathos
+    claim: Wisdom is won through suffering, by a law the gods imposed on mortals.
+    type: Insight
+    claim_type: metaphysical
+    author: Aeschylus
+    tradition: greek-tragedy
+    stages: [adult]
+    domains: [adversity, grief, self]
+    conf: verified
+    endorsement: ambiguous
+  - rid: insight.sophocles.count_no_man_happy
+    claim: No life can be judged fortunate until it has ended free of pain.
+    type: Insight
+    claim_type: observational
+    author: Sophocles
+    tradition: greek-tragedy
+    stages: [elder, adult]
+    domains: [death, adversity, ambition]
+    conf: verified
+    endorsement: endorsed
+  - rid: insight.euripides.cleverness_not_wisdom
+    claim: Cleverness is not wisdom; true wisdom accepts limits and reveres what is greater.
+    type: Virtue
+    claim_type: normative
+    author: Euripides
+    tradition: greek-tragedy
+    stages: [adult, youth]
+    domains: [self, adversity, ambition]
+    conf: probable
+    endorsement: complicated
+  - rid: insight.euripides.gods_many_shapes
+    claim: The divine works beyond expectation; the awaited fails to come, unthought paths open.
+    type: Insight
+    claim_type: metaphysical
+    author: Euripides
+    tradition: greek-tragedy
+    stages: [adult]
+    domains: [adversity, fate, death]
+    conf: verified
+    endorsement: ambiguous
+  - rid: insight.tolstoy.happy_families
+    claim: Flourishing needs many conditions all right; any single missing thing can bring failure.
+    type: Insight
+    claim_type: observational
+    author: Leo Tolstoy
+    tradition: russian-novel
+    stages: [adult]
+    domains: [family, love, marriage]
+    conf: verified
+    endorsement: complicated
+  - rid: insight.tolstoy.what_men_live_by
+    claim: People survive not by self-care or foresight but by love for one another.
+    type: Insight
+    claim_type: normative
+    author: Leo Tolstoy
+    tradition: russian-novel
+    stages: [adult]
+    domains: [love, money, family, adversity]
+    conf: verified
+    endorsement: endorsed
+  - rid: insight.dostoevsky.guilty_for_all
+    claim: Each is responsible before everyone for everything; shared guilt grounds active love.
+    type: Insight
+    claim_type: normative
+    author: Fyodor Dostoevsky
+    tradition: russian-novel
+    stages: [adult]
+    domains: [self, family, adversity, friendship]
+    conf: verified
+    endorsement: endorsed
+  - rid: insight.dostoevsky.active_love
+    claim: Real love is laborious and unglamorous, opposite of the self-sacrifice we fantasise about.
+    type: Practice
+    claim_type: prudential
+    author: Fyodor Dostoevsky
+    tradition: russian-novel
+    stages: [adult]
+    domains: [love, friendship, work, family]
+    conf: verified
+    endorsement: endorsed
+  - rid: insight.eliot.unhistoric_acts
+    claim: The world's growing good depends largely on unrecorded, ordinary, faithful lives.
+    type: Insight
+    claim_type: normative
+    author: George Eliot
+    tradition: english-novel
+    stages: [adult]
+    domains: [work, self, adversity, family]
+    conf: verified
+    endorsement: endorsed
+  - rid: insight.austen.truth_universally_acknowledged
+    claim: The "truth" that rich single men must marry exposes economic pressure on women.
+    type: Insight
+    claim_type: observational
+    author: Jane Austen
+    tradition: english-novel
+    stages: [youth, adult]
+    domains: [love, money, family, marriage]
+    conf: verified
+    endorsement: undercut
+  - rid: insight.hugo.face_of_god_MISATTRIB
+    claim: To love another person is to encounter the divine.
+    type: Insight
+    claim_type: metaphysical
+    author: Herbert Kretzmer (English lyric, after Boublil-Schoenberg; not Victor Hugo)
+    tradition: romantic-poetry
+    stages: [elder, adult]
+    domains: [love, death, grief]
+    conf: apocryphal
+    endorsement: endorsed
+  - rid: insight.keats.beauty_is_truth
+    claim: Beauty and truth are ultimately one, and that is all mortals need know.
+    type: Insight
+    claim_type: metaphysical
+    author: John Keats
+    tradition: romantic-poetry
+    stages: [youth, adult]
+    domains: [self, grief, death]
+    conf: verified
+    endorsement: ambiguous
+  - rid: insight.tennyson.loved_and_lost
+    claim: Better to have loved and lost than never to have loved at all.
+    type: Insight
+    claim_type: prudential
+    author: Alfred, Lord Tennyson
+    tradition: romantic-poetry
+    stages: [adult, youth]
+    domains: [love, grief, friendship, death]
+    conf: verified
+    endorsement: endorsed
+  - rid: insight.dickinson.hope_feathers
+    claim: Hope is an indestructible, undemanding inner presence that sustains us in hardship.
+    type: Insight
+    claim_type: observational
+    author: Emily Dickinson
+    tradition: american-poetry
+    stages: [adult, youth]
+    domains: [adversity, self, grief]
+    conf: verified
+    endorsement: endorsed
+  - rid: insight.whitman.contain_multitudes
+    claim: A self may legitimately hold contradictions, being large enough to contain many truths.
+    type: Insight
+    claim_type: observational
+    author: Walt Whitman
+    tradition: american-poetry
+    stages: [adult]
+    domains: [self, adversity]
+    conf: verified
+    endorsement: endorsed
+  - rid: insight.goethe.faust_wager
+    claim: To wish any single moment to linger forever forfeits one's striving self.
+    type: Danger
+    claim_type: metaphysical
+    author: J. W. von Goethe
+    tradition: german
+    stages: [adult, elder]
+    domains: [ambition, self, death]
+    conf: verified
+    endorsement: complicated
+  - rid: insight.proverb.look_before_leap_vs_hesitates
+    claim: Prudential proverbs travel in contradicting pairs; proverb-wisdom is conditional, not absolute.
+    type: Dilemma
+    claim_type: prudential
+    author: communal
+    tradition: folk
+    stages: [adult, youth]
+    domains: [adversity, work, self]
+    conf: probable
+    endorsement: ambiguous
+dilemmas:
+  - name: passion-vs-duty
+    tension: Repression deadens; unchecked passion destroys (Anna Karenina, Austen's heroines, Tennyson).
+  - name: revenge-vs-forgiveness
+    tension: Vengeance perpetuates harm; forgiveness can look like injustice (Oresteia, Zosima, Valjean/Javert).
+  - name: ambition-vs-love
+    tension: Ambition can hollow the soul; renouncing it can waste a full nature (Macbeth, Faust, Dorothea).
+  - name: self-deception-vs-truth
+    tension: Truth devastates; comforting lies corrode the self (Oedipus, Grand Inquisitor, Emma, Elizabeth).
+  - name: freedom-vs-fate
+    tension: Fatalism breeds passivity; the illusion of total control invites hubris (ripeness is all, Oedipus, Bacchae).
+  - name: pride-vs-humility
+    tension: Pride blinds; excessive self-abnegation can squander gifts (Oedipus, Pentheus, Pride and Prejudice, Dorothea).
+convergences:
+  - claim: Accept what is not in our control (ripeness is all, count no man happy, pathei mathos) - tragedies bleaker than Stoic consolation, partial only.
+    with: [Stoicism]
+  - claim: Universal responsibility and non-judgment (guilty for all, active love) - framed as faith answering atheism, not neutral ethics.
+    with: [Christian agape, Buddhist compassion/interdependence]
+  - claim: The moral weight of ordinary fidelity (unhistoric acts).
+    with: [ethics of small duties, care ethics, Confucian everyday virtue]
+  - claim: Restless becoming and self-overcoming (Faust's wager, Whitman's multitudes) - do not collapse the two.
+    with: [Nietzschean striving, eternal recurrence]
+  - claim: Intellectual humility - cleverness is not wisdom.
+    with: [Socratic "I know that I know nothing"]
+  - claim: Rules underdetermine action; judgment fills the gap (contradicting proverb pairs).
+    with: [Aristotelian phronesis]
+tensions:
+  - tension: Does suffering actually produce wisdom (pathei mathos)?
+    sides: The chorus's law of Zeus vs the Oresteia's continuing vengeance cycle, where suffering teaches nothing.
+  - tension: Zosima's universal guilt vs Ivan's rebellion.
+    sides: Faith-grounded shared responsibility vs the unanswerable suffering of children; Smerdyakov twists "all guilty" into evasion.
+  - tension: Is "loved and lost" better?
+    sides: Tennyson's grief-tested affirmation vs the counter-proverb "what you never had, you never miss" - preserve the dissent.
+  - tension: Is "beauty is truth" Keats's creed or the urn's limited consolation?
+    sides: Keats's letters lean endorsement vs the dramatic frame (quotation marks, urn as speaker); 1820 printings differ.
+  - tension: Is Eliot's finale consolation or protest?
+    sides: The real diffusive good of hidden lives vs quiet protest at a society that wasted Dorothea's full nature.
+  - tension: Does the happy-families maxim hold?
+    sides: The narrator's aphorism vs the novel itself, which contains no ideally happy family and partly subverts it.
+leads:
+  - Shakespeare's Sonnets and the problem plays (deeper pass).
+  - The Grand Inquisitor chapter in full - freedom vs security/bread fork (named, not verified this pass).
+  - Notes from Underground - free will vs determinism, "2+2=5" (named, not verified this pass).
+  - Austen's Persuasion and Emma; Elizabeth's "till this moment I never knew myself" (P&P Ch. 36) for the self-deception fork.
+  - Wordsworth's Prelude and the "spots of time" (not verified to a primary edition this pass).
+  - Whitman beyond Section 51.
+  - The full Oresteia justice-cycle.
+  - Goethe's Wilhelm Meister (Carlyle 1824 translation; cross-reference the separate Nietzsche prompt).
+  - Bishop-of-Digne mercy episode (Hapgood 1887, PD) as the genuine Hugo unit to replace the Kretzmer lyric.
+  - Misattribution watchlist (fake Goethe/Anster, fake Twain x2, fake Churchill, fake Shakespeare, Scott's Marmion) to quarantine as apocryphal/contested nodes.
+notes: >-
+  Unverified this pass: Wordsworth, full Grand Inquisitor / Crime and Punishment quotes; the
+  Notes-from-Underground "lies to himself" line and Zosima cross-references need re-verification
+  against Garnett PD text. In-copyright translations flagged throughout (P&V Tolstoy/Dostoevsky;
+  Fagles/Carson/Arrowsmith/Woodruff Greek tragedy; Kaufmann/Arndt/Luke Faust; Denny/Rose Hugo;
+  Dickinson's Johnson/Franklin editorial apparatus) - store PD editions for print. Hugo/Kretzmer
+  case: "face of God" is Kretzmer's 1985 musical lyric (in_copyright_work), apocryphal for Hugo.

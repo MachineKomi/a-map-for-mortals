@@ -1,0 +1,372 @@
+report: 08-empirical
+extracted: 2026-07-06
+units:
+  - rid: F1
+    claim: Stronger social relationships predict ~50% higher survival odds (OR 1.50) across 148 prospective studies.
+    type: Consequence
+    claim_type: empirical
+    author: "Holt-Lunstad et al. 2010"
+    tradition: empirical
+    stages: [adult, midlife, elder]
+    domains: [relationships, health]
+    conf: grade-C
+    replication: replicated
+  - rid: F2
+    claim: Social isolation, loneliness, and living alone raise mortality risk roughly 26-32%.
+    type: Danger
+    claim_type: empirical
+    author: "Holt-Lunstad et al. 2015"
+    tradition: empirical
+    stages: [adult, midlife, elder]
+    domains: [relationships, health]
+    conf: grade-C
+    replication: replicated
+  - rid: F3
+    claim: Relationship satisfaction at 50 predicted health at 80 better than cholesterol (all-male Harvard cohort).
+    type: Consequence
+    claim_type: empirical
+    author: "Waldinger & Schulz 2023"
+    tradition: empirical
+    stages: [midlife, elder]
+    domains: [relationships, health, ageing]
+    conf: grade-C-D
+    replication: replicated
+  - rid: F4
+    claim: Experienced well-being keeps rising with log-income for most people; no general $75k plateau.
+    type: Insight
+    claim_type: empirical
+    author: "Killingsworth, Kahneman & Mellers 2023"
+    tradition: empirical
+    stages: [young-adult, adult, midlife]
+    domains: [money]
+    conf: grade-B
+    replication: contested
+  - rid: F5
+    claim: Happiness flattens above ~$100k only for the unhappiest 15-20%; the threshold itself is contested.
+    type: Insight
+    claim_type: empirical
+    author: "Killingsworth, Kahneman & Mellers 2023; Rohrer & Wenz 2024"
+    tradition: empirical
+    stages: [adult, midlife]
+    domains: [money]
+    conf: grade-B
+    replication: contested
+  - rid: F6
+    claim: Whether national happiness rises with long-run GDP growth remains unresolved (Easterlin paradox).
+    type: Insight
+    claim_type: empirical
+    author: "Easterlin 1974/2010; Stevenson & Wolfers 2008"
+    tradition: empirical
+    stages: [adult]
+    domains: [money]
+    conf: grade-D/E
+    replication: contested
+  - rid: F7
+    claim: Prosocial spending's happiness boost is weak; registered replication failed on broad well-being measures.
+    type: Insight
+    claim_type: empirical
+    author: "Dunn, Aknin & Norton 2008; Aknin et al. 2020"
+    tradition: empirical
+    stages: [young-adult, adult]
+    domains: [money, relationships]
+    conf: grade-E/D
+    replication: failed
+  - rid: F8
+    claim: People adapt back toward baseline life satisfaction within about two years of marriage, on average.
+    type: Insight
+    claim_type: empirical
+    author: "Lucas et al. 2003"
+    tradition: empirical
+    stages: [young-adult, adult]
+    domains: [relationships]
+    conf: grade-B/C
+    replication: replicated
+  - rid: F9
+    claim: Childhood self-control predicts adult health, wealth, and crime along a gradient, independent of IQ/class.
+    type: Consequence
+    claim_type: empirical
+    author: "Moffitt et al. 2011"
+    tradition: empirical
+    stages: [child, adult]
+    domains: [self-control, health, money]
+    conf: grade-B/C
+    replication: replicated
+  - rid: F10
+    claim: Ego depletion showed essentially no effect in a 23-lab preregistered replication (N=2,141).
+    type: Insight
+    claim_type: empirical
+    author: "Hagger & Chatzisarantis 2016"
+    tradition: empirical
+    stages: [young-adult, adult]
+    domains: [self-control]
+    conf: grade-E
+    replication: failed
+  - rid: F11
+    claim: Habit automaticity takes a median ~66 days but ranges 18-254; high variability is the real finding.
+    type: Insight
+    claim_type: empirical
+    author: "Lally et al. 2010; Singh et al. 2024"
+    tradition: empirical
+    stages: [young-adult, adult, midlife]
+    domains: [habits]
+    conf: grade-C
+    replication: replicated
+  - rid: F12
+    claim: If-then implementation intentions improve goal attainment with medium-to-large effect (d=0.65).
+    type: Consequence
+    claim_type: empirical
+    author: "Gollwitzer & Sheeran 2006"
+    tradition: empirical
+    stages: [youth, young-adult, adult]
+    domains: [habits, self-control]
+    conf: grade-B/A
+    replication: replicated
+  - rid: F13
+    claim: Marshmallow-test prediction attenuates roughly two-thirds after controlling family background and early cognition.
+    type: Insight
+    claim_type: empirical
+    author: "Watts, Duncan & Quan 2018"
+    tradition: empirical
+    stages: [child, youth]
+    domains: [self-control]
+    conf: grade-B
+    replication: contested
+  - rid: F14
+    claim: Lowest life-purpose category shows roughly double the all-cause mortality of the highest, after adjustment.
+    type: Consequence
+    claim_type: empirical
+    author: "Alimujiang et al. 2019"
+    tradition: empirical
+    stages: [midlife, elder]
+    domains: [meaning, health]
+    conf: grade-C
+    replication: replicated
+  - rid: F15
+    claim: Happiness and meaning have distinct correlates (needs-met/present/taking vs giving/time-integrated); constructs overlap heavily.
+    type: Insight
+    claim_type: empirical
+    author: "Baumeister et al. 2013"
+    tradition: empirical
+    stages: [adult, midlife]
+    domains: [meaning]
+    conf: grade-D
+    replication: unassessed
+  - rid: F16
+    claim: Gratitude interventions reduce depression only modestly (g~0.27); effects shrink against active controls.
+    type: Insight
+    claim_type: empirical
+    author: "Cregg & Cheavens 2021"
+    tradition: empirical
+    stages: [adult]
+    domains: [gratitude]
+    conf: grade-D/E
+    replication: replicated
+  - rid: F17
+    claim: Positive-psychology intervention effects shrink to about r=0.10 after small-sample bias correction.
+    type: Insight
+    claim_type: empirical
+    author: "White, Uttl & Holder 2019"
+    tradition: empirical
+    stages: [adult]
+    domains: [gratitude, meaning]
+    conf: grade-E
+    replication: contested
+  - rid: F18
+    claim: The 2.9:1 critical positivity ratio was mathematically debunked and partially retracted.
+    type: Insight
+    claim_type: empirical
+    author: "Brown, Sokal & Friedman 2013"
+    tradition: empirical
+    stages: [adult]
+    domains: [emotions]
+    conf: grade-E
+    replication: failed
+  - rid: F19
+    claim: Retrospective post-traumatic growth reports correlate poorly with actual measured change; much growth appears illusory.
+    type: Insight
+    claim_type: empirical
+    author: "Frazier et al. 2009"
+    tradition: empirical
+    stages: [young-adult, adult]
+    domains: [adversity]
+    conf: grade-B/C
+    replication: replicated
+  - rid: F20
+    claim: Moderate lifetime adversity predicts better outcomes than either none or extreme adversity (U-shaped dose-response).
+    type: Consequence
+    claim_type: empirical
+    author: "Seery, Holman & Silver 2010"
+    tradition: empirical
+    stages: [young-adult, adult, midlife]
+    domains: [adversity]
+    conf: grade-C
+    replication: replicated
+  - rid: F20b
+    claim: Resilience is the modal post-adversity trajectory, averaging 65.7% across 54 trajectory studies.
+    type: Insight
+    claim_type: empirical
+    author: "Galatzer-Levy, Huang & Bonanno 2018"
+    tradition: empirical
+    stages: [adult]
+    domains: [adversity]
+    conf: grade-B/C
+    replication: replicated
+  - rid: F21
+    claim: Exercise reduces depression moderately (SMD~-0.61), but effects shrink in low-risk-of-bias RCTs.
+    type: Consequence
+    claim_type: empirical
+    author: "Singh et al. 2023"
+    tradition: empirical
+    stages: [young-adult, adult, midlife]
+    domains: [health]
+    conf: "grade-A (effect) / B-C (size)"
+    replication: replicated
+  - rid: F22
+    claim: Sleep loss reliably worsens mood and impairs emotion regulation, across converging meta-analyses.
+    type: Danger
+    claim_type: empirical
+    author: "Tomaso, Johnson & Nelson 2021"
+    tradition: empirical
+    stages: [youth, young-adult, adult, midlife, elder]
+    domains: [health, sleep]
+    conf: grade-A
+    replication: replicated
+  - rid: F22b
+    claim: One night's sleep deprivation raised amygdala reactivity ~60% and cut amygdala-prefrontal connectivity (N=26).
+    type: Insight
+    claim_type: empirical
+    author: "Yoo et al. 2007"
+    tradition: empirical
+    stages: [young-adult, adult]
+    domains: [health, sleep]
+    conf: grade-C/D
+    replication: unassessed
+  - rid: F23
+    claim: A midlife U-curve of well-being appears on average but is specification-dependent and contested.
+    type: Insight
+    claim_type: empirical
+    author: "Blanchflower 2021"
+    tradition: empirical
+    stages: [young-adult, adult, midlife, elder]
+    domains: [ageing]
+    conf: grade-D
+    replication: contested
+  - rid: F24
+    claim: Declining youth well-being since ~2012 may be flattening or eliminating the age U-curve.
+    type: Insight
+    claim_type: empirical
+    author: "Blanchflower, Bryson & Xu 2024/2025"
+    tradition: empirical
+    stages: [youth, young-adult, midlife]
+    domains: [ageing, health]
+    conf: grade-C/D
+    replication: contested
+  - rid: F25
+    claim: Positive-to-negative emotion ratio improves with age; more positive everyday emotion predicted lower mortality.
+    type: Consequence
+    claim_type: empirical
+    author: "Carstensen et al. 2011"
+    tradition: empirical
+    stages: [midlife, elder]
+    domains: [ageing, emotions]
+    conf: grade-B/C
+    replication: unassessed
+  - rid: F26
+    claim: Life satisfaction tracks distance-to-death more than age; decline roughly triples ~4 years before death.
+    type: Insight
+    claim_type: empirical
+    author: "Gerstorf et al. 2008"
+    tradition: empirical
+    stages: [elder]
+    domains: [ageing]
+    conf: grade-B/C
+    replication: unassessed
+wisdom_bearings:
+  - wisdom_claim: Invest in relationships over career/money
+    relation: SUPPORTS
+    findings: [F1, F2, F3]
+  - wisdom_claim: Money can't buy happiness (as stated)
+    relation: CONTRADICTS
+    findings: [F4, F5, F6, F7]
+  - wisdom_claim: Enough is enough - past a point money won't help
+    relation: QUALIFIES
+    findings: [F5, F8]
+  - wisdom_claim: It takes 21 days to build a habit
+    relation: CONTRADICTS
+    findings: [F11]
+  - wisdom_claim: Make a concrete if-then plan
+    relation: SUPPORTS
+    findings: [F12]
+  - wisdom_claim: Willpower is a finite resource you use up
+    relation: CONTRADICTS
+    findings: [F10]
+  - wisdom_claim: Delay gratification and you'll succeed
+    relation: QUALIFIES
+    findings: [F13, F9]
+  - wisdom_claim: Seek meaning over mere pleasure (supported with qualification)
+    relation: SUPPORTS
+    findings: [F14, F15]
+  - wisdom_claim: Count your blessings (gratitude)
+    relation: QUALIFIES
+    findings: [F16, F17]
+  - wisdom_claim: Keep a 3:1 positive-to-negative ratio
+    relation: CONTRADICTS
+    findings: [F18]
+  - wisdom_claim: What doesn't kill you makes you stronger (report says QUALIFIES/CONTRADICTS)
+    relation: QUALIFIES
+    findings: [F19, F20, F20b]
+  - wisdom_claim: This too shall pass / adapt to change
+    relation: SUPPORTS
+    findings: [F8]
+  - wisdom_claim: A sound mind in a sound body - exercise and sleep
+    relation: SUPPORTS
+    findings: [F21, F22, F22b, F23]
+  - wisdom_claim: It gets better with age / seize the day in youth
+    relation: QUALIFIES
+    findings: [F23, F24, F25, F26]
+dilemmas:
+  - name: connection-causality
+    tension: Are relationship-mortality links causal, or confounded by baseline health and SES? No RCT can settle it.
+  - name: money-thresholds
+    tension: How much money matters, for whom, and where returns flatten ($100k? $200k?) is unsettled; Easterlin's relative-vs-absolute paradox stands.
+  - name: ppi-efficacy
+    tension: Do positive-psychology and gratitude interventions beat active controls or placebo at all?
+  - name: ptg-reality
+    tension: Is post-traumatic growth real change, or retrospective cognitive bias and coping?
+  - name: u-curve-status
+    tension: Is the midlife U-curve real, an artifact of controls, or disappearing as youth well-being declines?
+  - name: weird-generalisability
+    tension: Do money, gratitude, purpose, and ageing effects generalise beyond WEIRD samples?
+  - name: marriage-adaptation
+    tension: Does marriage durably raise happiness, or do people adapt back to baseline within ~2 years?
+convergences: []
+tensions:
+  - tension: Does national happiness rise with long-run GDP growth?
+    sides: Easterlin (relative income; no long-run rise) vs Stevenson & Wolfers (log-linear rise, no satiation).
+  - tension: Does experienced well-being plateau with income?
+    sides: Kahneman & Deaton ($75k plateau) vs Killingsworth (no plateau); KKM 2023 reconciliation itself challenged by Rohrer & Wenz 2024.
+  - tension: Is the midlife well-being U-curve real?
+    sides: Blanchflower (U-shapes in 618 studies) vs Galambos/Bartram (artifact of controls, not robust or universal).
+  - tension: How large is exercise's antidepressant effect?
+    sides: Umbrella reviews (moderate, comparable to therapy) vs low-risk-of-bias RCTs (substantially smaller or non-significant).
+  - tension: Does childhood delay of gratification predict adult success?
+    sides: Dunedin self-control gradient (yes, robustly) vs Watts 2018/Sperber 2024 (mostly background/SES; possibly null); defenders cite censoring bias.
+  - tension: Is reported post-traumatic growth genuine?
+    sides: Retrospective PTGI reports of growth vs prospective measures showing perceived growth tracks increased, not decreased, distress.
+  - tension: Are happiness and meaning genuinely distinct?
+    sides: Distinct correlates (Baumeister 2013) vs roughly half-shared variance (r~0.53, UK Biobank estimate).
+leads:
+  - A large quasi-experimental or instrumental-variable study showing relationship-mortality links mostly confounded would downgrade the Tier-1 "prioritise connection" recommendation.
+  - If new low-risk-of-bias RCTs converge near null, downgrade exercise-for-mood to a "general health" rationale only.
+  - Settle where income returns flatten - ~$100k for the unhappy minority vs ~$200k overall (Rohrer & Wenz 2024; arXiv reanalysis).
+  - Direct replication of Lally et al. 2010's exact habit-formation procedure is still outstanding; meta-analysis corroborates the medians only conceptually.
+  - Preregistered active-control trials are needed to establish whether gratitude/PPI interventions have any clinical usefulness vs placebo.
+  - Youth well-being decline and its proposed cause (smartphones/social media) rest partly on working papers; watch for peer-reviewed confirmation.
+  - Resolve Sperber et al. 2024's null (delay of gratification not predicting adult functioning) against the censoring-bias defence.
+notes: >-
+  Failed-replication quarantine: ego depletion (failed 23-lab preregistered replication, grade-E),
+  positivity ratio (mathematically debunked, partially retracted, grade-E), prosocial spending
+  (registered replication failed on broad measures, grade-E/D), marshmallow test (~two-thirds
+  attenuation under controls), PPI effects inflated (shrink to r~0.10), gratitude control-dependent.
+  Evidence base is heavily WEIRD and self-report dominated; effects recurrently shrink under
+  preregistration, larger samples, active controls, and SES adjustment.

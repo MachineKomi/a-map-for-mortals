@@ -1,0 +1,235 @@
+report: 03-nietzsche
+extracted: 2026-07-06
+units:
+  # ---- Nietzsche (own works) ----
+  - rid: N-suffering-stronger
+    claim: "What does not kill me makes me stronger (conditional: only the already-strong)"
+    type: Insight
+    claim_type: prudential
+    author: Nietzsche
+    tradition: german-philosophy
+    stages: [adult]
+    domains: [adversity, health, character]
+    conf: verified
+  - rid: N-amor-fati
+    claim: "Love your fate; want nothing to be other than it is"
+    type: Practice
+    claim_type: normative
+    author: Nietzsche
+    tradition: german-philosophy
+    stages: [adult, midlife]
+    domains: [meaning, adversity, self]
+    conf: verified
+  - rid: N-amor-fati-GS
+    claim: "Learn to see as beautiful what is necessary"
+    type: Practice
+    claim_type: normative
+    author: Nietzsche
+    tradition: german-philosophy
+    stages: []
+    domains: [meaning, aesthetics, self]
+    conf: verified
+  - rid: N-eternal-recurrence
+    claim: "Would you will this life again, eternally? Live so you could"
+    type: Practice
+    claim_type: normative  # report: "normative (life-test); NOT asserted as cosmology in the published works"
+    author: Nietzsche
+    tradition: german-philosophy
+    stages: []
+    domains: [meaning, mortality]
+    conf: verified
+  - rid: N-why-how
+    claim: "Whoever has a why to live can bear almost any how"
+    type: Insight
+    claim_type: prudential
+    author: Nietzsche
+    tradition: german-philosophy
+    stages: []
+    domains: []  # none given in report; popular wording is Frankl's paraphrase, credited to Nietzsche
+    conf: verified (with paraphrase caveat)
+  - rid: N-perspectivism
+    claim: "There is no view from nowhere; all knowing is perspectival"
+    type: Insight
+    claim_type: metaphysical  # report: "metaphysical/epistemic"
+    author: Nietzsche
+    tradition: german-philosophy
+    stages: []
+    domains: [knowledge, truth]
+    conf: probable (verify exact Samuel wording against the primary)
+  - rid: N-heraclitus-being
+    claim: "Becoming is real; 'being' is an empty fiction"
+    type: Insight
+    claim_type: metaphysical
+    author: Nietzsche
+    tradition: german-philosophy
+    stages: []
+    domains: []
+    conf: verified
+  # ---- Approved precursors ----
+  - rid: H-flux
+    claim: "All is becoming; reality is flux, not permanence"
+    type: Insight
+    claim_type: metaphysical
+    author: Heraclitus
+    tradition: presocratic
+    stages: []
+    domains: []
+    conf: "verified (Nietzsche's approval); Heraclitus' own fragments are inherently fragmentary"
+  - rid: H-strife
+    claim: "Strife is the father of all things; conflict is generative, not merely destructive"
+    type: Insight
+    claim_type: metaphysical  # report: "metaphysical/observational"
+    author: Heraclitus
+    tradition: presocratic
+    stages: []
+    domains: []
+    conf: probable
+  - rid: T-courage-reality
+    claim: "See reality without moral consolation; courage is facing things as they are"
+    type: Virtue
+    claim_type: prudential  # report: "prudential/normative"
+    author: Thucydides
+    tradition: classical-greek
+    stages: []
+    domains: [politics, knowledge, character]
+    conf: verified
+  - rid: G-wholeness
+    claim: "Discipline your contradictions into a whole rather than amputating them"
+    type: Practice
+    claim_type: normative
+    author: Goethe
+    tradition: german-classicism
+    stages: []
+    domains: [self, character, art-of-living]
+    conf: verified (approval); exact §49 wording partially verified
+  - rid: D-psychology-criminal
+    claim: "Criminal and underground types reveal soul-truths that respectable morality conceals"
+    type: Insight
+    claim_type: observational
+    author: Dostoevsky
+    tradition: russian-literature
+    stages: []
+    domains: []
+    conf: verified (approval)  # Nietzsche endorses the psychology, repudiates the Christian conclusions
+  - rid: S-dry-clear
+    claim: "To think well: be dry, clear, without illusion"
+    type: Practice
+    claim_type: prudential
+    author: Stendhal
+    tradition: french-literature
+    stages: []
+    domains: []
+    conf: verified
+  - rid: M-honesty-cheer
+    claim: "Honest self-examination plus genuine cheerfulness makes living on earth more joyful"
+    type: Insight
+    claim_type: prudential  # report: "prudential/normative"
+    author: Montaigne
+    tradition: french-renaissance
+    stages: []
+    domains: []
+    conf: verified (approval)
+  - rid: E-self-reliance
+    claim: "Trust your own mind; conform to no external authority for your values"
+    type: Virtue
+    claim_type: normative
+    author: Emerson
+    tradition: transcendentalism
+    stages: []
+    domains: []
+    conf: verified (Nietzsche's approval of Emerson)
+  - rid: Sp-no-teleology
+    claim: "No cosmic purpose, no moral world-order, no free will traditionally conceived"
+    type: Insight
+    claim_type: metaphysical
+    author: Spinoza
+    tradition: rationalism
+    stages: []
+    domains: []
+    conf: verified (approval, qualified)  # later criticized on conatus (GS §349, BGE §13)
+  - rid: FM-unmasking
+    claim: "Behind 'virtuous' motives often lie vanity and self-interest; observe without illusion"
+    type: Insight
+    claim_type: observational
+    author: La Rochefoucauld / Chamfort
+    tradition: french-moralists
+    stages: []
+    domains: []
+    conf: verified (approval)
+  - rid: He-divine-wickedness
+    claim: "Perfection requires a 'divine wickedness' — sweetness fused with bite"
+    type: Insight
+    claim_type: observational  # report: "observational/aesthetic"
+    author: Heine
+    tradition: german-romanticism
+    stages: []
+    domains: []
+    conf: verified  # Ludovici 1911 approval quote fully verified verbatim (Gutenberg #52190)
+  - rid: Sch-honesty
+    claim: "Intellectual honesty, refusing to dress thought in rhetoric, is itself a virtue"
+    type: Virtue
+    claim_type: normative
+    author: Schopenhauer
+    tradition: german-philosophy
+    stages: []
+    domains: []
+    conf: verified (qualified approval)  # approved dimension only; pessimism/resignation repudiated
+dilemmas:
+  - name: affirmation-vs-denial
+    tension: "Affirm existence including suffering (Dionysian Yes) vs seek a 'true world' devaluing this one (ascetic No)"
+  - name: self-overcoming-vs-self-preservation
+    tension: "Grow by overcoming yourself vs merely conserve and protect the self"
+  - name: noble-vs-herd-valuation
+    tension: "Values from strength and self-affirmation vs values from reactive resentment of the strong"
+  - name: honesty-vs-illusion
+    tension: "Pursue truth even when it wounds vs prefer consoling fictions"
+  - name: solitude-vs-herd
+    tension: "Bear the loneliness of becoming who you are vs seek the warmth of conformity"
+  - name: amor-fati-vs-revolt
+    tension: "Love what is necessary vs wage war on the ugly and unchosen"
+convergences:
+  # report caveat: convergence = robustness, NOT truth — encode as corroboration, never proof
+  - claim: "Becoming over being; strife/conflict as generative"
+    with: [Heraclitus, Nietzsche]
+  - claim: "Denial of teleology, free will, and a moral world-order; naturalized ethics"
+    with: [Spinoza, Nietzsche]
+  - claim: "Undeceived psychology of motives; honesty experienced as joy"
+    with: [Montaigne, French moralists, Nietzsche]
+  - claim: "Realism, anti-Platonism, courage before reality"
+    with: [Thucydides, Nietzsche]
+  - claim: "Shared psychological depth (tension within convergence over Christianity and pity)"
+    with: [Dostoevsky, Nietzsche]
+  - claim: "Amor fati echoes Stoic acceptance (partial; via Stoic inheritance from Heraclitus)"
+    with: [Stoics, Heraclitus, Nietzsche]
+tensions:
+  - tension: "Self-preservation vs self-overcoming"
+    sides: "Spinoza's conatus vs Nietzsche's self-overcoming/expansion"
+  - tension: "Spinoza as precursor and target — do not resolve"
+    sides: "'I have a precursor' (postcard to Overbeck, 1881) vs later conatus critique (GS §349, BGE §13)"
+  - tension: "Shared psychological depth, opposite conclusions"
+    sides: "Dostoevsky's Christianity and pity vs Nietzsche's repudiation of both"
+  - tension: "Acceptance of fate, divergent temper"
+    sides: "Stoic apatheia and 'living according to nature' vs Nietzsche's rejection of both (BGE §9)"
+  - tension: "Schopenhauer admired and repudiated — keep both live"
+    sides: "Honest solitary exemplar (approved) vs 'nihilistic devaluation of life' (rejected)"
+  - tension: "Socrates admired and opposed — retain only as fork, not wisdom source"
+    sides: "Residual intellectual courage/agon vs the 'absurdly rational' turn blamed for Greek decadence"
+leads:
+  - "Stage 2: verify Goethe Twilight 'Skirmishes' §49 Ludovici verbatim against Gutenberg #52263"
+  - "Stage 2: verify Emerson Twilight §13 Ludovici wording against Gutenberg #52263"
+  - "Stage 2: verify Gay Science §92 'masters of prose' framing sentence (Common) against Gutenberg #52124"
+  - "Stage 2: verify Samuel's Genealogy III §12 wording against primary — upgrades N-perspectivism from probable"
+  - "'Chaos within you... dancing star' GENUINE (Zarathustra, Prologue §5) — verify exact Common wording; candidate unit"
+  - "'Without music, life would be a mistake' GENUINE (Twilight, Maxims §33) — candidate unit"
+  - "'There are no facts, only interpretations' GENUINE but Nachlass (1886-87 notebook) — handle under Nachlass rules, not published doctrine"
+  - "Cosmological eternal recurrence appears mainly in unpublished Nachlass — handle separately from the published life-test"
+  - "Virtues exalted (Redlichkeit, self-overcoming, productive solitude, gift-giving virtue, Heiterkeit) and dangers named (ressentiment, pity, ascetic ideal, herd conformity, spirit of gravity, nihilism) — candidate units not yet extracted"
+  - "Stoics: partial convergence thread worth its own precursor treatment despite Nietzsche's rejection of apatheia"
+  - "Quarantine watchlist apocrypha: 'dancing/insane' (likely de Staël), 'muddy the waters' (not Nietzsche, source uncertain), 'no price too high', 'illusions destroyed', Hergenhahn 'live dangerously' paraphrase — never attribute"
+  - "'Will to power' and 'blond beast' need interpretive flags on ingestion: psychological/physiological drive theory, not political domination; GM I §11 read in context, not via Nazi appropriation"
+notes: >
+  Will to Power is a Förster-Nietzsche/Gast compilation, called a "historic forgery" by Colli/Montinari —
+  quarantine; tag any note used as source: nachlass-compilation, authorial_endorsement: none.
+  Kaufmann/Hollingdale are copyrighted: print must use public-domain Common/Zimmern/Samuel/Ludovici (Levy
+  1909-13) with translator credited; wording diverges meaningfully (e.g. Heine "most perfect idea" vs
+  "highest conception"). Stage-2 items stay at probable/partial until line-matched vs Gutenberg #52263/#52124.

@@ -1,0 +1,366 @@
+report: 05-near-eastern-abrahamic
+extracted: 2026-07-06
+units:
+  - rid: HW-01
+    claim: Reverence for God is the starting point of wisdom.
+    type: Insight
+    claim_type: normative
+    author: Proverbs 1:7 (Tanakh)
+    tradition: hebrew
+    stages: [youth, adult]
+    domains: [faith, self]
+    conf: verified
+  - rid: HW-02
+    claim: A gentle answer defuses anger; harsh words inflame it.
+    type: Practice
+    claim_type: prudential
+    author: Proverbs 15:1 (Tanakh)
+    tradition: hebrew
+    stages: [young-adult, adult, midlife, elder]
+    domains: [speech, conflict, friendship]
+    conf: verified
+  - rid: HW-03
+    claim: Pride tends to precede ruin.
+    type: Danger
+    claim_type: prudential
+    author: Proverbs 16:18 (Tanakh)
+    tradition: hebrew
+    stages: [young-adult, adult, midlife, elder]
+    domains: [self, work]
+    conf: verified
+  - rid: HW-04
+    claim: Do not exploit the poor; God is their advocate.
+    type: Practice
+    claim_type: normative
+    author: Proverbs 22:22-23 (Tanakh)
+    tradition: hebrew
+    stages: [adult]
+    domains: [justice, money]
+    conf: verified (borrowing from Amenemope flagged)
+  - rid: HW-05
+    claim: All human striving is fleeting; nothing is permanently gained under the sun.
+    type: Insight
+    claim_type: observational
+    author: Ecclesiastes/Qoheleth 1:2
+    tradition: hebrew
+    stages: [adult, elder]
+    domains: [death, work, meaning, self]
+    conf: verified
+  - rid: HW-06
+    claim: There is a fitting time for every contrary experience.
+    type: Insight
+    claim_type: observational
+    author: Ecclesiastes/Qoheleth 3:1-2
+    tradition: hebrew
+    stages: [young-adult, adult, midlife, elder]
+    domains: [grief, death, work, love]
+    conf: verified
+  - rid: HW-07
+    claim: Given impermanence, take honest joy in food, work, and companionship.
+    type: Practice
+    claim_type: prudential
+    author: Ecclesiastes/Qoheleth 2:24
+    tradition: hebrew
+    stages: [adult]
+    domains: [work, money, joy, family]
+    conf: verified
+  - rid: HW-08
+    claim: The righteous can suffer while the wicked prosper - a standing scandal.
+    type: Insight
+    claim_type: observational
+    author: Psalm 73
+    tradition: hebrew
+    stages: [adult]
+    domains: [justice, faith, adversity]
+    conf: verified
+  - rid: HW-09
+    claim: God answers the sufferer with creation's vastness, not reasons.
+    type: Insight
+    claim_type: metaphysical
+    author: Job 38:4
+    tradition: hebrew
+    stages: [adult, elder]
+    domains: [adversity, grief, faith]
+    conf: verified
+  - rid: HW-10
+    claim: Naked acceptance of loss as well as gain.
+    type: Virtue
+    claim_type: normative
+    author: Job 1:21
+    tradition: hebrew
+    stages: [young-adult, adult, midlife, elder]
+    domains: [grief, death, money]
+    conf: verified
+  - rid: HW-11
+    claim: Hold self-regard and regard for others together; act now.
+    type: Practice
+    claim_type: normative
+    author: Hillel, Pirkei Avot 1:14
+    tradition: rabbinic
+    stages: [young-adult, adult, midlife, elder]
+    domains: [self, friendship, justice]
+    conf: verified
+  - rid: HW-12
+    claim: You need not finish the work, but may not abandon it.
+    type: Practice
+    claim_type: normative
+    author: Rabbi Tarfon, Pirkei Avot 2:16
+    tradition: rabbinic
+    stages: [adult]
+    domains: [work, justice]
+    conf: verified
+  - rid: HW-13
+    claim: The highest charity makes the recipient self-sufficient, ending dependence.
+    type: Practice
+    claim_type: normative
+    author: Maimonides, Mishneh Torah (Hilkhot Mattenot Aniyim 10:7)
+    tradition: rabbinic
+    stages: [adult]
+    domains: [money, justice, friendship]
+    conf: verified (paraphrase; primary is PD)
+  - rid: HW-14
+    claim: A faithful friend is an irreplaceable, life-preserving good.
+    type: Insight
+    claim_type: observational
+    author: Ben Sira / Sirach 6:14-15
+    tradition: hebrew
+    stages: [young-adult, adult, midlife, elder]
+    domains: [friendship]
+    conf: verified (deuterocanonical; RSV in copyright - short quote only; for PD use KJV Apocrypha)
+  - rid: ANE-01
+    claim: Do not presume on learning; wisdom has no ceiling, found in anyone.
+    type: Virtue
+    claim_type: prudential
+    author: Maxims of Ptahhotep, Maxim 1
+    tradition: egyptian
+    stages: [youth, adult]
+    domains: [speech, self, work]
+    conf: verified
+  - rid: ANE-02
+    claim: Truth and justice (Ma'at) endure, never finally overthrown.
+    type: Insight
+    claim_type: metaphysical
+    author: Maxims of Ptahhotep, Maxim 5
+    tradition: egyptian
+    stages: [adult]
+    domains: [justice, self]
+    conf: verified (translation dated; Lichtheim's modern rendering preferred for nuance)
+  - rid: ANE-03
+    claim: Incline your ear to a teacher's words and keep them within.
+    type: Practice
+    claim_type: prudential
+    author: Instruction of Amenemope, ch. 1
+    tradition: egyptian
+    stages: [youth]
+    domains: [speech, self]
+    conf: verified (ANET in copyright; cited)
+  - rid: ANE-04
+    claim: Avoid the hot-tempered man lest you learn his ways.
+    type: Danger
+    claim_type: prudential
+    author: Instruction of Amenemope, ch. 10
+    tradition: egyptian
+    stages: [young-adult, adult, midlife, elder]
+    domains: [friendship, speech]
+    conf: verified (cited)
+  - rid: ANE-05
+    claim: Immortality is for gods; mortals should embrace life's ordinary joys.
+    type: Practice
+    claim_type: prudential
+    author: Siduri, Epic of Gilgamesh (Old Babylonian)
+    tradition: mesopotamian
+    stages: [adult]
+    domains: [death, joy, family, love]
+    conf: verified (Sandars in copyright; this Siduri speech survives in the Old Babylonian version and is largely absent from the Standard Babylonian recension - flag editorial provenance)
+  - rid: ANE-06
+    claim: A righteous man suffers unknowing; divine standards may be inscrutable.
+    type: Insight
+    claim_type: observational
+    author: Ludlul bel nemeqi, Tablets I-II
+    tradition: mesopotamian
+    stages: [adult]
+    domains: [adversity, faith, grief]
+    conf: verified (paraphrase; Lambert/Annus-Lenzi in copyright)
+  - rid: ANE-07
+    claim: Observation contradicts the doctrine that piety brings prosperity.
+    type: Insight
+    claim_type: observational
+    author: Babylonian Theodicy (Saggil-kinam-ubbib)
+    tradition: mesopotamian
+    stages: [adult]
+    domains: [justice, faith, adversity]
+    conf: verified (Lambert in copyright; cited)
+  - rid: CW-01
+    claim: Blessedness belongs to the humble and merciful - inverting worldly status.
+    type: Insight
+    claim_type: normative
+    author: Sermon on the Mount, Matthew 5:5,7
+    tradition: christian
+    stages: [young-adult, adult, midlife, elder]
+    domains: [self, justice, adversity]
+    conf: verified
+  - rid: CW-02
+    claim: Love even enemies, on the model of an impartial God.
+    type: Practice
+    claim_type: normative
+    author: Sermon on the Mount, Matthew 5:44-45
+    tradition: christian
+    stages: [young-adult, adult, midlife, elder]
+    domains: [love, conflict, justice]
+    conf: verified
+  - rid: CW-03
+    claim: Judge not; you will be measured by your own standard.
+    type: Danger
+    claim_type: normative
+    author: Sermon on the Mount, Matthew 7:1-2
+    tradition: christian
+    stages: [young-adult, adult, midlife, elder]
+    domains: [speech, justice, friendship]
+    conf: verified
+  - rid: CW-04
+    claim: Anxiety about material need is answered by trust in providence.
+    type: Practice
+    claim_type: normative
+    author: Sermon on the Mount, Matthew 6:28,34
+    tradition: christian
+    stages: [young-adult, adult, midlife, elder]
+    domains: [anxiety, money, work, faith]
+    conf: verified
+  - rid: CW-05
+    claim: The heart is made for God, restless until it rests in Him.
+    type: Insight
+    claim_type: metaphysical
+    author: Augustine, Confessions 1.1.1
+    tradition: christian
+    stages: [young-adult, adult, midlife, elder]
+    domains: [self, faith, anxiety, meaning]
+    conf: verified
+  - rid: CW-06
+    claim: Knowledge without love is worthless; contrition beats definition.
+    type: Insight
+    claim_type: normative
+    author: Thomas a Kempis, Imitation of Christ I.1
+    tradition: christian
+    stages: [young-adult, adult, midlife, elder]
+    domains: [self, faith, meaning]
+    conf: verified
+  - rid: CW-07
+    claim: Judge ideas by their content, not the speaker's authority.
+    type: Practice
+    claim_type: prudential
+    author: Thomas a Kempis, Imitation of Christ I.5
+    tradition: christian
+    stages: [young-adult, adult, midlife, elder]
+    domains: [speech, self]
+    conf: verified
+  - rid: IS-01
+    claim: Humanity is one body; indifference to others' pain forfeits humanity.
+    type: Virtue
+    claim_type: normative
+    author: Saadi, Gulistan ch. 1, story 10 (Bani Adam)
+    tradition: islamic
+    stages: [young-adult, adult, midlife, elder]
+    domains: [justice, love, friendship]
+    conf: 'verified (note: text-critical dispute between yek peykar/"one body" and yekdigar/"each other" readings; Foroughi''s standard edition uses yekdigar)'
+  - rid: IS-02
+    claim: Self-knowledge is the gateway to knowledge of God.
+    type: Insight
+    claim_type: metaphysical
+    author: Al-Ghazali, Alchemy of Happiness
+    tradition: sufi
+    stages: [adult]
+    domains: [self, faith, meaning]
+    conf: verified
+  - rid: IS-03
+    claim: The soul, severed from its source, laments and longs to return.
+    type: Insight
+    claim_type: metaphysical
+    author: Rumi, Masnavi I.1
+    tradition: sufi
+    stages: [young-adult, adult, midlife, elder]
+    domains: [grief, love, self, meaning]
+    conf: 'verified (Nicholson in copyright; cited; for PD use Whinfield 1887: "Hearken to the reed flute, how it complains")'
+  - rid: IS-04
+    claim: The seekers and the sought are one; the divine is found within.
+    type: Insight
+    claim_type: metaphysical
+    author: Attar, Conference of the Birds (si-morgh)
+    tradition: sufi
+    stages: [adult]
+    domains: [self, faith, meaning]
+    conf: verified (Davis in copyright; cited)
+  - rid: IS-05
+    claim: Trust in God combines with, not opposes, taking practical means.
+    type: Practice
+    claim_type: normative
+    author: Hadith, Jami` at-Tirmidhi 2517 (narrated Anas ibn Malik)
+    tradition: islamic
+    stages: [young-adult, adult, midlife, elder]
+    domains: [faith, work, anxiety]
+    conf: 'probable (grading genuinely contested: al-Tirmidhi called the Anas chain gharib; the early critic Yahya al-Qattan called it munkar; al-Albani and al-Arna''ut grade it hasan on the strength of a corroborating chain from ''Amr ibn Umayyah in Ibn Hibban 731. Meaning universally accepted; popular "untied-Bedouin-camel" storyline is a paraphrase of this brief Q&A)'
+  - rid: IS-06
+    claim: Whoever relies on God finds God sufficient.
+    type: Consequence
+    claim_type: metaphysical
+    author: Qur'an 65:3 (Surah At-Talaq); cf. 3:159
+    tradition: islamic
+    stages: [young-adult, adult, midlife, elder]
+    domains: [faith, anxiety, adversity]
+    conf: verified (translation in copyright; cited)
+dilemmas:
+  - name: Justice vs mercy
+    tension: Strict measure-for-measure justice vs mercy that suspends the ledger; corpus holds both - justice as floor, mercy as surplus.
+  - name: Theodicy - prosperity of the wicked
+    tension: Deferred justice / restored trust (Psalm 73, Job 38, Ludlul) vs protest with no answer (Babylonian Theodicy); NO winner - across four cultures the question outlives every answer.
+  - name: Vanity vs meaning
+    tension: The same observation (impermanence) yields opposite prescriptions - seize ordinary joy (Qoheleth, Siduri) vs renounce the world (a Kempis); fork preserved.
+  - name: Fear vs love as motive
+    tension: Fear-of-the-LORD as beginning (Proverbs) vs love as everything (Sufis, Sermon on the Mount, Augustine); developmental in some readings, but traditions genuinely weight them differently.
+  - name: Law vs grace
+    tension: Law/observance (Pirkei Avot, Maimonides, mitzvot) vs grace/interior transformation (a Kempis, Sermon on the Mount); signed disagreement between and within traditions.
+  - name: Submission vs striving (tawakkul vs effort)
+    tension: Acceptance/reliance (Qur'an 65:3, Mt 6:34, Job 1:21) vs effort (tie your camel, Avot 2:16, Maimonides); the hadith is itself the synthesis-attempt, but weighting remains contested.
+convergences:
+  - claim: Eat, drink, find joy in your labour as response to mortality.
+    with: [Ecclesiastes 2:24 (hebrew), Gilgamesh/Siduri (mesopotamian)]
+    lineage: Qoheleth shows probable Mesopotamian/Hellenistic influence; motif circulates widely in ANE wisdom - partly NOT independent. Robustness moderate, lineage-suspect.
+  - claim: The righteous sufferer / theodicy protest.
+    with: [Job + Psalm 73 (hebrew), Ludlul bel nemeqi + Babylonian Theodicy (mesopotamian)]
+    lineage: Plausible cultural contact along the Fertile Crescent; Mesopotamian texts predate Job (Lambert, Kramer) - independence only partial (shared regional milieu). Robustness high as a recurring human question.
+  - claim: Golden Rule / one-body solidarity.
+    with: [Hillel (rabbinic), Sermon on the Mount (christian), Saadi Bani Adam (islamic)]
+    lineage: Little direct contact between Saadi (13th-c. Persia) and Hillel (1st-c. Judea), ~13 centuries apart - among the most genuinely independent convergences in this report. Robustness high.
+  - claim: Humility about one's own knowledge; wisdom found in anyone.
+    with: [Ptahhotep Maxim 1 (egyptian), Proverbs 16:18 (hebrew), a Kempis I.5 (christian)]
+    lineage: Shared genre (didactic instruction literature) inflates apparent convergence across ~3,500 years. Robustness moderate.
+  - claim: Self-knowledge leads to knowledge of the divine.
+    with: [Al-Ghazali (sufi), Augustine (christian)]
+    lineage: Both draw on a shared Neoplatonic (Plotinus) lineage - cross-pollination, NOT independent convergence; evidence of shared philosophical descent, not parallel discovery.
+tensions:
+  - tension: Retribution theology vs denial that desert maps to outcome (intra-Hebrew, one canon).
+    sides: Proverbs' confident righteous-prosper/wicked-fall vs Ecclesiastes' and Job's denial.
+  - tension: Deliverance affirmed vs wound left open (intra-Mesopotamian).
+    sides: Ludlul's restoration by Marduk vs the Babylonian Theodicy's unresolved protest.
+  - tension: Same datum (impermanence), opposite life-prescription (cross-tradition).
+    sides: Ecclesiastes/Gilgamesh "seize ordinary joy" vs a Kempis "contempt of the world".
+  - tension: Motive for the wise life - fear or love.
+    sides: Fear-of-the-LORD framing (Proverbs) vs love-as-everything (Sufi poets, Sermon on the Mount).
+  - tension: Agency under providence; within Islam the tawakkul/asbab balance is a live, signed debate.
+    sides: Strong providence / "take no thought" (Mt 6) vs "tie your camel" / "not free to desist" (Tirmidhi, Avot).
+leads:
+  - Prefer Lichtheim's modern rendering of Ptahhotep over the dated PD Gunn 1906 where nuance matters.
+  - PD fallbacks for in-copyright editions - Whinfield 1887 (Rumi), Bell 1897 / Wilberforce-Clarke 1891 (Hafiz), Muss-Arnolt 1901 (Gilgamesh), KJV Apocrypha (Sirach), Pusey 1838 (Augustine).
+  - Proverbs 22:20 "thirty sayings" rests on Erman's emendation (shilshom to sheloshim) matching Amenemope's thirty chapters - scholarly conjecture, not settled text (Whybray, Shaw dissent).
+  - Siduri's carpe-diem speech is Old Babylonian only, largely absent from the Standard Babylonian recension - editorial provenance flag for any Gilgamesh unit.
+  - Saadi Bani Adam has a text-critical fork (yek peykar "one body" vs yekdigar "each other"; Foroughi edition reads yekdigar).
+  - '"God helps those who help themselves" is NOT biblical - Algernon Sidney 1698, popularised by Franklin 1736, sentiment from Aesop; 52% of practicing Christians believe it biblical (Barna 2017); often confused with tie-your-camel.'
+  - Qur'anic coverage here is limited to tawakkul (65:3; 3:159) - broader Qur'anic doctrinal coverage needed in a later wave; Sahih International translation is in copyright.
+  - Ben Sira quotes Qoheleth, giving terminus ante quem 180 BCE - useful for dating/lineage work on Ecclesiastes (Persian loanwords + Greek mindset support late date).
+notes: >
+  Rumi/Hafiz pseudo-quote ecosystem must be quarantined and never seeded as primary text - Barks
+  produces interpretive "versions" not translations (does not read Persian), and Ladinsky's Hafiz
+  quotes are outright inventions ("about 99.9% fake" - Omid Safi); verify only against Nicholson/Whinfield
+  (Rumi) and Bell/Wilberforce-Clarke (Hafiz). Qur'anic doctrinal coverage is thin (two tawakkul verses only),
+  and several key scholarly editions (ANET, Lambert, Nicholson, Sandars, Davis) are in copyright - the print
+  gate needs the PD fallbacks listed in leads. Report preface claims ~50 units; 34 are actually delivered
+  (14 HW, 7 ANE, 7 CW, 6 IS), weighted toward the most robust, well-attested passages.

@@ -1,0 +1,557 @@
+report: 06-modern-west
+extracted: 2026-07-06
+units:
+  # --- MORALISTS & ESSAYISTS ---
+  - rid: insight.montaigne.que_sais_je
+    claim: "Radical self-doubt — 'What do I know?' — is the honest starting point of wisdom."
+    type: Insight
+    claim_type: observational
+    author: Montaigne
+    tradition: french-moralist
+    stages: [adult, elder]
+    domains: [self, knowledge, anxiety]
+    conf: verified
+  - rid: practice.montaigne.imagined_misfortunes
+    claim: "Much suffering comes from anticipated evils that never arrive; guard against catastrophizing."
+    type: Practice
+    claim_type: observational
+    author: Montaigne (apocryphal; sentiment is Seneca, Moral Epistles 13.4)
+    tradition: french-moralist
+    stages: [adult, elder]
+    domains: [anxiety, adversity, self]
+    conf: apocryphal
+  - rid: insight.montaigne.belong_to_oneself
+    claim: "The greatest accomplishment is self-possession — to belong to oneself."
+    type: Virtue
+    claim_type: normative
+    author: Montaigne
+    tradition: french-moralist
+    stages: [adult, elder]
+    domains: [solitude, self, society]
+    conf: verified
+  - rid: insight.larochefoucauld.virtues_vices
+    claim: "Apparent virtues are often disguised forms of self-interest."
+    type: Insight
+    claim_type: observational
+    author: La Rochefoucauld
+    tradition: french-moralist
+    stages: [adult]
+    domains: [self, society, ambition]
+    conf: verified
+  - rid: insight.larochefoucauld.amour_propre
+    claim: "Self-love is the master flatterer, distorting all self-knowledge."
+    type: Danger
+    claim_type: observational
+    author: La Rochefoucauld
+    tradition: french-moralist
+    stages: [adult]
+    domains: [self, society]
+    conf: verified
+  - rid: insight.larochefoucauld.hypocrisy_homage
+    claim: "Even hypocrisy testifies to virtue's prestige."
+    type: Insight
+    claim_type: observational
+    author: La Rochefoucauld
+    tradition: french-moralist
+    stages: [adult]
+    domains: [society, self]
+    conf: verified
+  - rid: insight.larochefoucauld.others_misfortunes
+    claim: "We bear others' misfortunes with composure we never manage for our own."
+    type: Insight
+    claim_type: observational
+    author: La Rochefoucauld
+    tradition: french-moralist
+    stages: [adult]
+    domains: [friendship, adversity, self]
+    conf: verified
+  - rid: insight.larochefoucauld.death_sun
+    claim: "Neither death nor the sun can be looked at steadily."
+    type: Insight
+    claim_type: observational
+    author: La Rochefoucauld
+    tradition: french-moralist
+    stages: [adult, elder]
+    domains: [death, anxiety]
+    conf: verified
+  - rid: insight.larochefoucauld.passions_duration
+    claim: "The duration of our passions is no more in our control than life's length."
+    type: Insight
+    claim_type: observational
+    author: La Rochefoucauld
+    tradition: french-moralist
+    stages: [adult]
+    domains: [love, self]
+    conf: verified
+  - rid: insight.labruyere.tout_est_dit
+    claim: "Everything has already been said; originality is rephrasing inherited truth."
+    type: Insight
+    claim_type: observational
+    author: La Bruyère
+    tradition: french-moralist
+    stages: [adult]
+    domains: [work, ambition]
+    conf: verified
+  - rid: insight.labruyere.three_events
+    claim: "Life has three events — birth, life, death — yet we forget to live."
+    type: Insight
+    claim_type: observational
+    author: La Bruyère
+    tradition: french-moralist
+    stages: [adult, elder]
+    domains: [death, self]
+    conf: verified
+  - rid: insight.vauvenargues.heart_thoughts
+    claim: "Great thoughts originate in feeling, not detached reason."
+    type: Insight
+    claim_type: observational
+    author: Vauvenargues
+    tradition: french-moralist
+    stages: [youth, adult]
+    domains: [self, ambition]
+    conf: verified
+  - rid: principle.vauvenargues.live_as_immortal
+    claim: "To accomplish great things, act as if one would never die."
+    type: Practice
+    claim_type: prudential
+    author: Vauvenargues
+    tradition: french-moralist
+    stages: [youth, adult]
+    domains: [ambition, work, death]
+    conf: verified
+  - rid: insight.vauvenargues.patience_hope
+    claim: "Patience is the art of hoping."
+    type: Virtue
+    claim_type: observational
+    author: Vauvenargues
+    tradition: french-moralist
+    stages: [adult]
+    domains: [adversity, anxiety]
+    conf: verified
+  - rid: insight.chamfort.swallow_a_toad
+    claim: "Society demands daily self-suppression to survive socially."
+    type: Danger
+    claim_type: prudential
+    author: Chamfort
+    tradition: french-moralist
+    stages: [adult]
+    domains: [society, work]
+    conf: probable
+  - rid: insight.chamfort.day_without_laughter
+    claim: "A day without laughter is a day wasted."
+    type: Insight
+    claim_type: observational
+    author: Chamfort
+    tradition: french-moralist
+    stages: [adult]
+    domains: [health, society]
+    conf: verified
+  - rid: insight.joubert.teaching_learning
+    claim: "To teach is to learn twice."
+    type: Insight
+    claim_type: observational
+    author: Joubert
+    tradition: french-moralist
+    stages: [adult, elder]
+    domains: [work, self]
+    conf: verified
+  - rid: insight.joubert.kindness_words
+    claim: "Kind words cost little but achieve much."
+    type: Virtue
+    claim_type: prudential
+    author: Joubert
+    tradition: french-moralist
+    stages: [adult]
+    domains: [friendship, society]
+    conf: probable
+  - rid: practice.bacon.studies_uses
+    claim: "Study serves enjoyment, eloquence, and judgment — but must be applied, not paraded."
+    type: Practice
+    claim_type: prudential
+    author: Bacon
+    tradition: british-empiricist
+    stages: [youth, adult]
+    domains: [work, self, knowledge]
+    conf: verified
+  - rid: insight.bacon.hostages_fortune
+    claim: "Family ties make one vulnerable to fortune and cautious in great enterprise."
+    type: Insight
+    claim_type: observational
+    author: Bacon
+    tradition: british-empiricist
+    stages: [adult]  # report: [adult, parenthood]; parenthood mapped to adult
+    domains: [love, work, ambition, money]
+    conf: verified
+  - rid: practice.bacon.reading_conference_writing
+    claim: "Reading fills, conversation sharpens, and writing makes precise."
+    type: Practice
+    claim_type: prudential
+    author: Bacon
+    tradition: british-empiricist
+    stages: [youth, adult]
+    domains: [work, self, knowledge]
+    conf: verified
+  # --- EARLY MODERN ---
+  - rid: insight.pascal.divertissement
+    claim: "Humanity's troubles stem from inability to sit quietly alone in a room."
+    type: Insight
+    claim_type: observational
+    author: Pascal
+    tradition: french-moralist
+    stages: [adult]
+    domains: [solitude, anxiety, self, society]
+    conf: verified
+  - rid: insight.pascal.heart_reasons
+    claim: "The heart has reasons reason cannot know; intuition is a distinct faculty."
+    type: Insight
+    claim_type: metaphysical
+    author: Pascal
+    tradition: french-moralist
+    stages: [adult]
+    domains: [love, self, knowledge]
+    conf: verified
+  - rid: insight.pascal.thinking_reed
+    claim: "Man is nature's weakest reed, but a thinking reed — dignity lies in thought."
+    type: Insight
+    claim_type: metaphysical
+    author: Pascal
+    tradition: french-moralist
+    stages: [adult, elder]
+    domains: [self, death, adversity]
+    conf: verified
+  - rid: insight.pascal.never_live
+    claim: "We never live but only hope to live, deferring happiness to the future."
+    type: Danger
+    claim_type: observational
+    author: Pascal
+    tradition: french-moralist
+    stages: [adult]
+    domains: [anxiety, self, ambition]
+    conf: verified
+  - rid: insight.spinoza.free_man_death
+    claim: "The free person meditates on life, not death; wisdom is life-affirming."
+    type: Insight
+    claim_type: metaphysical
+    author: Spinoza
+    tradition: german  # Dutch rationalist; nearest available bucket (continental rationalist)
+    stages: [adult, elder]
+    domains: [death, self, adversity]
+    conf: verified
+  - rid: insight.spinoza.blessedness_virtue
+    claim: "Blessedness is not virtue's reward but virtue itself."
+    type: Insight
+    claim_type: metaphysical
+    author: Spinoza
+    tradition: german  # Dutch rationalist; nearest available bucket
+    stages: [adult]
+    domains: [self, happiness]
+    conf: verified
+  - rid: insight.spinoza.understand_not_mock
+    claim: "Do not mock, lament, or curse human actions — understand them."
+    type: Practice
+    claim_type: normative
+    author: Spinoza
+    tradition: german  # Dutch rationalist; nearest available bucket
+    stages: [adult]
+    domains: [self, society, adversity]
+    conf: verified
+  - rid: insight.hume.reason_slave_passions
+    claim: "Reason cannot by itself motivate; it serves the passions, which set our ends."
+    type: Insight
+    claim_type: empirical
+    author: Hume
+    tradition: british-empiricist
+    stages: [adult]
+    domains: [self, knowledge]
+    conf: verified
+  - rid: insight.smith.impartial_spectator
+    claim: "Judge your own conduct through the eyes of an impartial spectator within."
+    type: Practice
+    claim_type: normative
+    author: Adam Smith
+    tradition: british-empiricist
+    stages: [adult]
+    domains: [self, society, ambition]
+    conf: verified
+  - rid: insight.smith.solitude_society_judgment
+    claim: "Solitude distorts self-assessment; the company of strangers best disciplines conscience."
+    type: Insight
+    claim_type: prudential
+    author: Adam Smith
+    tradition: british-empiricist
+    stages: [adult]
+    domains: [solitude, society, self]
+    conf: verified
+  - rid: principle.kant.moral_law_within
+    claim: "Two things inspire ever-increasing awe — starry heavens above, moral law within."
+    type: Virtue
+    claim_type: metaphysical
+    author: Kant
+    tradition: german
+    stages: [adult]
+    domains: [self, society]
+    conf: verified
+  - rid: principle.kant.humanity_end
+    claim: "Treat humanity always as an end, never merely as a means."
+    type: Virtue
+    claim_type: normative
+    author: Kant
+    tradition: german
+    stages: [adult]
+    domains: [society, self, work]
+    conf: verified
+  # --- 19th CENTURY ---
+  - rid: insight.schopenhauer.what_one_is
+    claim: "Happiness depends more on what one is than what one has or seems."
+    type: Insight
+    claim_type: prudential
+    author: Schopenhauer
+    tradition: german
+    stages: [adult, elder]
+    domains: [happiness, health, money, self]
+    conf: verified
+  - rid: parable.schopenhauer.porcupines
+    claim: "Like porcupines, we need others' warmth but wound at close range; keep middle distance."
+    type: Dilemma
+    claim_type: observational
+    author: Schopenhauer
+    tradition: german
+    stages: [adult]
+    domains: [solitude, society, friendship, love]
+    conf: verified
+  - rid: insight.schopenhauer.solitude_freedom
+    claim: "Society forces conformity; only in solitude can one be fully oneself."
+    type: Insight
+    claim_type: prudential
+    author: Schopenhauer
+    tradition: german
+    stages: [adult, elder]
+    domains: [solitude, society, self]
+    conf: verified
+  - rid: insight.mill.socrates_dissatisfied
+    claim: "Higher pleasures are qualitatively superior; better Socrates dissatisfied than a fool satisfied."
+    type: Insight
+    claim_type: normative
+    author: Mill
+    tradition: british-empiricist
+    stages: [adult]
+    domains: [happiness, self, knowledge]
+    conf: verified
+  - rid: principle.mill.liberty_harm
+    claim: "The only legitimate ground for coercing an individual is preventing harm to others."
+    type: Principle
+    claim_type: normative
+    author: Mill
+    tradition: british-empiricist
+    stages: [adult]
+    domains: [society, self]
+    conf: verified
+  - rid: insight.emerson.self_reliance_conformity
+    claim: "Society conspires against individuality; integrity requires nonconformity."
+    type: Danger
+    claim_type: normative
+    author: Emerson
+    tradition: american-transcendentalist
+    stages: [youth, adult]
+    domains: [society, self, authenticity]
+    conf: verified
+  - rid: insight.emerson.foolish_consistency
+    claim: "Foolish consistency is the refuge of small minds; growth requires self-contradiction over time."
+    type: Insight
+    claim_type: normative
+    author: Emerson
+    tradition: american-transcendentalist
+    stages: [adult]
+    domains: [self, authenticity, knowledge]
+    conf: verified
+  - rid: insight.emerson.compensation
+    claim: "Every gain exacts a corresponding loss; the universe operates by compensation."
+    type: Insight
+    claim_type: metaphysical
+    author: Emerson
+    tradition: american-transcendentalist
+    stages: [adult, elder]
+    domains: [adversity, money, ambition, self]
+    conf: verified
+  - rid: insight.emerson.trust_thyself
+    claim: "Self-trust is the root of all virtue and achievement."
+    type: Virtue
+    claim_type: normative
+    author: Emerson
+    tradition: american-transcendentalist
+    stages: [youth, adult]
+    domains: [self, authenticity, ambition]
+    conf: verified
+  - rid: insight.thoreau.quiet_desperation
+    claim: "Most people live lives of quiet desperation, resigned to unexamined routine."
+    type: Insight
+    claim_type: observational
+    author: Thoreau
+    tradition: american-transcendentalist
+    stages: [adult]
+    domains: [work, self, society, authenticity]
+    conf: verified
+  - rid: insight.thoreau.advance_confidently
+    claim: "Confidently pursuing one's imagined life yields unexpected success."
+    type: Practice
+    claim_type: prudential
+    author: Thoreau
+    tradition: american-transcendentalist
+    stages: [youth, adult]
+    domains: [ambition, work, authenticity, self]
+    conf: verified
+  - rid: practice.thoreau.simplify
+    claim: "Simplify life to its essentials to reduce complexity and recover freedom."
+    type: Practice
+    claim_type: prudential
+    author: Thoreau
+    tradition: american-transcendentalist
+    stages: [adult]
+    domains: [money, work, self, solitude]
+    conf: verified
+  - rid: insight.thoreau.cost_of_a_thing
+    claim: "The true cost of anything is the amount of life exchanged for it."
+    type: Insight
+    claim_type: prudential
+    author: Thoreau
+    tradition: american-transcendentalist
+    stages: [adult]
+    domains: [money, work, ambition]
+    conf: verified
+  # --- 20th CENTURY (copyright-flagged section in report) ---
+  - rid: insight.kierkegaard.understood_backwards
+    claim: "Life can only be understood backwards but must be lived forwards."
+    type: Insight
+    claim_type: observational
+    author: Kierkegaard
+    tradition: existentialist
+    stages: [adult, elder]
+    domains: [self, adversity, anxiety]
+    conf: verified
+  - rid: insight.james.will_to_believe
+    claim: "Faith ahead of evidence is legitimate for live, forced, momentous options."
+    type: Insight
+    claim_type: normative
+    author: William James
+    tradition: 20th-century  # American pragmatist; report groups under 20th century
+    stages: [adult]
+    domains: [self, anxiety, knowledge]
+    conf: verified
+  - rid: practice.russell.conquest_interests
+    claim: "Happiness comes largely from directing interest outward, away from self-absorption."
+    type: Practice
+    claim_type: prudential
+    author: Russell
+    tradition: 20th-century
+    stages: [adult]
+    domains: [happiness, self, work, anxiety]
+    conf: verified
+  - rid: insight.weil.attention
+    claim: "Attention in its purest form is generosity and love of neighbour."
+    type: Virtue
+    claim_type: normative
+    author: Simone Weil
+    tradition: 20th-century
+    stages: [adult]
+    domains: [self, friendship, society]
+    conf: probable
+  - rid: insight.arendt.banality_evil
+    claim: "Great evil is often committed by thoughtless conformists, not monsters."
+    type: Insight
+    claim_type: empirical
+    author: Hannah Arendt
+    tradition: 20th-century
+    stages: [adult]
+    domains: [society, self, work]
+    conf: verified
+  - rid: insight.camus.sisyphus_happy
+    claim: "Even in an absurd universe one can affirm life; imagine Sisyphus happy."
+    type: Insight
+    claim_type: normative
+    author: Camus
+    tradition: existentialist
+    stages: [adult]
+    domains: [adversity, self, death, work]
+    conf: verified
+  - rid: insight.sartre.existence_essence
+    claim: "Existence precedes essence; humans define themselves through choice, condemned to be free."
+    type: Insight
+    claim_type: metaphysical
+    author: Sartre
+    tradition: existentialist
+    stages: [adult]
+    domains: [self, authenticity, freedom]
+    conf: verified
+dilemmas:
+  - name: Reason vs. Passion
+    tension: "Which faculty sets our ends — passion/feeling (Hume, Vauvenargues, Pascal) or reason (Spinoza, Kant); Smith complicates via the spectator."
+  - name: Self-interest vs. Benevolence
+    tension: "Self-interest explains apparent virtue (La Rochefoucauld, Bacon) vs. genuine other-regard (Smith, Mill, Kant); note La Rochefoucauld's claim is descriptive, not normative."
+  - name: Authenticity vs. Social Convention
+    tension: "Be oneself against society (Emerson, Thoreau, Schopenhauer, Sartre) vs. society educates conscience (Smith, La Bruyère); inner judge trained by strangers or by solitude."
+  - name: Pessimism vs. Affirmation
+    tension: "Existence as pain and boredom (Schopenhauer, Chamfort) vs. life-affirmation (Spinoza, Emerson, Camus, Russell); affirmation is a stance, not factual optimism."
+  - name: Duty vs. Happiness
+    tension: "Duty even against inclination (Kant) vs. happiness as criterion (Mill, Russell); Spinoza dissolves it (blessedness = virtue itself); Mill's higher pleasures blur the divide."
+  - name: Freedom vs. Determinism
+    tension: "Freedom as understood necessity (Spinoza, Hume) vs. radical freedom (Sartre, Kant); partly terminological — both sides redefine 'freedom'."
+  - name: Solitude vs. Society
+    tension: "Default weighting of withdrawal (Montaigne, Thoreau, Schopenhauer, Pascal) vs. sociality (Smith, Aristotle); porcupine parable models the optimal middle distance."
+convergences:
+  - claim: "Imagined suffering exceeds real suffering (pseudo-Montaigne; authentic source Seneca)."
+    with: [seneca-stoic, buddhist-papanca]
+  - claim: "Equanimity before death — with internal inversion: Spinoza meditates on life, not death."
+    with: [spinoza, montaigne, seneca, marcus-aurelius, epicurean]
+  - claim: "Happiness comes from within (what one is), not possessions."
+    with: [schopenhauer, stoic, epicurean, buddhist-non-attachment, emerson-thoreau]
+  - claim: "Outward-directed interest cures self-absorption."
+    with: [russell, confucian-relational-ethics, smith-sympathy]
+  - claim: "Optimal middle distance in relationships."
+    with: [schopenhauer-porcupines, confucian-li, aristotle-friendship]
+  - claim: "Reason should govern passion — contradicted by Hume/Vauvenargues and Daoist wu wei."
+    with: [spinoza, kant, stoic-hegemonikon, plato-charioteer]
+tensions:
+  - tension: "Reason vs. passion primacy — a real, unresolved fork about the springs of action."
+    sides: "Kant/Spinoza/Stoics (reason governs) vs. Hume/Vauvenargues (passion primary)."
+  - tension: "Is self-interest the truth of virtue? Note claim-type slippage: observational vs. normative."
+    sides: "La Rochefoucauld (Hobbesian-leaning) vs. Smith / Mencius (moral sprouts) / Kant."
+  - tension: "Does society corrupt or constitute the self?"
+    sides: "Rousseau/Thoreau/Schopenhauer (corrupts) vs. Aristotle/Confucius/Smith (constitutes)."
+  - tension: "Pessimism vs. affirmation about existence itself."
+    sides: "Schopenhauer (existence as suffering) vs. Spinoza/Emerson (affirmation)."
+  - tension: "Determinism vs. radical freedom."
+    sides: "Spinoza (freedom = understanding necessity) vs. Sartre (condemned to be free)."
+leads:
+  # Nietzsche deconfliction (overlap with sibling Nietzsche report — MERGE downstream, do not duplicate)
+  - "Montaigne: keep this report's units primary; MERGE Nietzsche's reception (honesty/cheerfulness) as a reception node/edge."
+  - "La Rochefoucauld: MERGE Nietzsche's 'psychologists of suspicion' genealogy-of-morals reading as a related edge."
+  - "Pascal: MERGE 'Nietzsche on Pascal' (most instructive Christian 'victim') as a reception edge."
+  - "Spinoza: MERGE Nietzsche's 1881 'I have a precursor!' postcard as a reception edge."
+  - "Emerson: MERGE Nietzsche's heavily annotated Emerson as a reception edge."
+  - "Schopenhauer: let the Nietzsche report carry 'Schopenhauer as educator'; MERGE formative debt and later break."
+  # Misattribution watchlist (route each to a misattribution edge)
+  - "Voltaire 'defend to the death your right to say it' — actually Evelyn Beatrice Hall (1906) paraphrase; Hall disowned attribution (1939 letter)."
+  - "Voltaire 'What a fuss about an omelette!' is Hall's reportage, not a sourced verbatim Voltaire text — do not promote."
+  - "'Go confidently in the direction of your dreams' — imperative-mood paraphrase of Walden 'Conclusion', not verbatim Thoreau."
+  - "Pseudo-Montaigne 'terrible misfortunes... most never happened' — apocryphal; authentic source Seneca, Moral Epistles 13.4."
+  - "Thoreau 'not enough to be busy; so are the ants' — paraphrase of letter to H.G.O. Blake, 16 Nov 1857."
+  - "'In wildness is the preservation of the world' genuine (Thoreau, 'Walking') but commonly garbled to 'salvation'/'wilderness'."
+  - "Emerson 'Consistency is the hobgoblin of little minds' — truncation drops 'A foolish', inverting the meaning."
+  - "Kierkegaard 'understood backwards' aphorism is a condensed paraphrase of Journalen JJ:167; 'life is not a problem to be solved' does not appear in his writings."
+  - "La Bruyère 'life is a tragedy for those who feel' — dubious; very close to Horace Walpole, letter 31 Dec 1769."
+  - "Thoreau 'quiet desperation' is GENUINE (Walden, 'Economy') — frequently doubted but verified."
+  # Pipeline leads
+  - "Pascal: store all three numbering keys (Lafuma/Sellier/Brunschvicg) as separate graph properties; Sellier is current scholarly standard."
+  - "Hume 1739 original has single comma ('ought only to be the slave'); two-comma version is modernized punctuation."
+  - "Schopenhauer porcupine wording is Saunders's 'Studies in Pessimism' anthology — do not pair Saunders text with 'Parerga §396' citation unqualified."
+  - "Upgrade trigger: probable units (Chamfort 'crapaud', Joubert 'kind words', Weil 'attention') promote to verified only after page-level primary citation."
+  - "French maxim numbering is edition-dependent (Vauvenargues, Chamfort, Joubert); re-check against any alternate edition before display."
+  - "Cross-tradition convergences (Stoic/Epicurean/Buddhist/Daoist/Confucian) are candidate edges for downstream merging with sibling reports; robustness, not truth."
+notes: >-
+  In copyright, quarantine paraphrase-only (no long verbatim until licensing cleared): Weil,
+  Arendt, Camus (Gallimard 1942; O'Brien tr. renewed 1983; FR PD 2030), Sartre; also Kierkegaard's
+  Hong/Hannay English translations (Danish SKS originals PD) and modern translations generally
+  (Frame/Screech Montaigne, Krailsheimer Pascal, Curley Spinoza, Gregor/Wood Kant, Payne
+  Schopenhauer) — use PD translators (Cotton/Florio, Trotter, Elwes, Abbott, Saunders).
+  Russell's Conquest of Happiness is newly US-PD as of 1 Jan 2026 (relabel PD-US; life+70
+  jurisdictions protected to 2041; In Praise of Idleness still US-copyright to 2030).

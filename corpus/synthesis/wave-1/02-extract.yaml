@@ -1,0 +1,322 @@
+report: 02-greco-roman
+extracted: 2026-07-06
+units:
+  - rid: insight.flux.river
+    claim: Reality is process; you cannot step into the same river twice.
+    type: Insight
+    claim_type: metaphysical
+    author: Heraclitus
+    tradition: Pre-Socratic
+    stages: [adult, midlife, elder]
+    domains: [self, adversity, aging, death]
+    conf: verified
+  - rid: insight.character.fate
+    claim: Character is one's guiding spirit; what you habitually are shapes what befalls you.
+    type: Insight
+    claim_type: observational
+    author: Heraclitus
+    tradition: Pre-Socratic
+    stages: [youth, young-adult, adult]
+    domains: [self, work, adversity]
+    conf: verified
+  - rid: insight.cheerfulness.euthymia
+    claim: Well-being (euthymia) comes from moderation and measured pleasures, not excess.
+    type: Insight
+    claim_type: prudential
+    author: Democritus
+    tradition: Pre-Socratic (Atomist)
+    stages: [adult, midlife]
+    domains: [desire, money, self, anxiety]
+    conf: probable
+  - rid: insight.examined.life
+    claim: A life without self-examination is not worth living.
+    type: Insight
+    claim_type: normative
+    author: Socrates (via Plato)
+    tradition: Socratic
+    stages: [young-adult, adult, midlife, elder]
+    domains: [self, politics, death]
+    conf: verified
+  - rid: insight.socratic.ignorance
+    claim: Wisdom may begin in recognising the limits of one's own knowledge.
+    type: Insight
+    claim_type: observational
+    author: Socrates (via Plato)
+    tradition: Socratic
+    stages: [adult, midlife]
+    domains: [self, fame]
+    conf: verified
+  - rid: insight.golden.mean
+    claim: Virtue lies as a mean between excess and deficiency, determined by reason.
+    type: Insight
+    claim_type: normative
+    author: Aristotle
+    tradition: Peripatetic
+    stages: [young-adult, adult, midlife]
+    domains: [self, desire, anger, money, courage]
+    conf: verified
+  - rid: insight.virtue.habit
+    claim: Moral virtue is formed by habit; we become just by doing just acts.
+    type: Insight
+    claim_type: empirical
+    author: Aristotle
+    tradition: Peripatetic
+    stages: [child, youth, young-adult, adult]
+    domains: [self, work, youth]
+    conf: verified
+  - rid: insight.eudaimonia.function
+    claim: The human good is soul-activity in accordance with virtue over a complete life.
+    type: Insight
+    claim_type: normative
+    author: Aristotle
+    tradition: Peripatetic
+    stages: [adult, midlife, elder]
+    domains: [self, work, fame]
+    conf: verified
+  - rid: insight.eudaimonia.fragility
+    claim: Flourishing needs some external goods and fortune; one swallow makes no summer.
+    type: Insight
+    claim_type: observational
+    author: Aristotle
+    tradition: Peripatetic
+    stages: [adult, midlife, elder]
+    domains: [money, friendship, adversity, aging]
+    conf: verified
+  - rid: insight.control.dichotomy
+    claim: Direct energy to what is within your control; accept what is not.
+    type: Insight
+    claim_type: prudential
+    author: Epictetus (via Arrian)
+    tradition: Stoic
+    stages: [young-adult, adult, midlife, elder]
+    domains: [anxiety, adversity, work, politics, grief]
+    conf: verified
+  - rid: insight.shortness.life
+    claim: Life is not short; we waste much of it.
+    type: Insight
+    claim_type: prudential
+    author: Seneca
+    tradition: Stoic
+    stages: [young-adult, adult, midlife, elder]
+    domains: [death, work, aging, self]
+    conf: verified
+  - rid: insight.imagined.suffering
+    claim: We suffer more often in imagination than in reality; dread outruns the event.
+    type: Insight
+    claim_type: observational
+    author: Seneca
+    tradition: Stoic
+    stages: [adult, midlife, elder]
+    domains: [anxiety, adversity, death]
+    conf: verified
+  - rid: insight.bearing.adversity
+    claim: What matters is not what you endure but how you endure it.
+    type: Insight
+    claim_type: prudential
+    author: Seneca
+    tradition: Stoic
+    stages: [adult, midlife, elder]
+    domains: [adversity, grief, courage]
+    conf: verified
+  - rid: insight.be.good
+    claim: Stop debating what a good person is; just be one.
+    type: Insight
+    claim_type: normative
+    author: Marcus Aurelius
+    tradition: Stoic
+    stages: [young-adult, adult, midlife]
+    domains: [self, work, politics]
+    conf: verified
+  - rid: insight.best.revenge
+    claim: The best revenge is to be unlike the one who wronged you.
+    type: Insight
+    claim_type: prudential
+    author: Marcus Aurelius
+    tradition: Stoic
+    stages: [adult, midlife]
+    domains: [adversity, friendship, anger]
+    conf: verified
+  - rid: insight.all.opinion
+    claim: Disturbance comes from our judgments about things, not the things themselves.
+    type: Insight
+    claim_type: prudential
+    author: Marcus Aurelius
+    tradition: Stoic
+    stages: [adult, midlife, elder]
+    domains: [anxiety, adversity, anger]
+    conf: verified
+  - rid: insight.death.nothing
+    claim: Death is nothing to us; where we are, death is not.
+    type: Insight
+    claim_type: metaphysical
+    author: Epicurus
+    tradition: Epicurean
+    stages: [adult, midlife, elder]
+    domains: [death, anxiety]
+    conf: verified
+  - rid: insight.tetrapharmakos
+    claim: Don't fear god or death; good is easy to get, terror endurable.
+    type: Insight
+    claim_type: prudential
+    author: Epicurus (formulated by Philodemus)
+    tradition: Epicurean
+    stages: [young-adult, adult, midlife, elder]
+    domains: [anxiety, death, desire, adversity]
+    conf: probable
+  - rid: insight.natural.desires
+    claim: Distinguish natural-and-necessary desires from empty ones; happiness needs little.
+    type: Insight
+    claim_type: prudential
+    author: Epicurus
+    tradition: Epicurean
+    stages: [young-adult, adult, midlife]
+    domains: [desire, money, anxiety]
+    conf: verified
+  - rid: insight.swerve.freedom
+    claim: An indeterminate atomic swerve breaks causal necessity, leaving room for free will.
+    type: Insight
+    claim_type: metaphysical
+    author: Lucretius
+    tradition: Epicurean
+    stages: [adult, midlife]
+    domains: [self, death]
+    conf: probable
+  - rid: insight.autarkeia.sunlight
+    claim: Radical self-sufficiency; prize what is freely yours over what power can offer.
+    type: Insight
+    claim_type: prudential
+    author: Diogenes of Sinope (via Diogenes Laertius)
+    tradition: Cynic
+    stages: [young-adult, adult]
+    domains: [money, fame, politics, desire, self]
+    conf: probable
+  - rid: insight.epoche.ataraxia
+    claim: Suspending judgment on the unknowable tends to yield tranquility.
+    type: Insight
+    claim_type: prudential
+    author: Sextus Empiricus
+    tradition: Pyrrhonian Skeptic
+    stages: [adult, midlife]
+    domains: [anxiety, self]
+    conf: verified
+  - rid: insight.death.lifelong.preparation
+    claim: To philosophise is to learn how to die; well-used life defangs old age.
+    type: Insight
+    claim_type: prudential
+    author: Cicero (transmitting Plato)
+    tradition: Roman eclectic
+    stages: [midlife, elder]
+    domains: [death, aging]
+    conf: probable
+  - rid: insight.count.no.man.happy
+    claim: Fortune is fragile; call no one happy until life's end reveals the whole.
+    type: Insight
+    claim_type: observational
+    author: Sophocles (precedent Solon via Herodotus)
+    tradition: Classical tragedy
+    stages: [adult, midlife, elder]
+    domains: [fame, money, death, aging, adversity]
+    conf: probable
+  - rid: insight.observe.due.measure
+    claim: Observe due measure; timeliness and proportion are best in all things.
+    type: Insight
+    claim_type: prudential
+    author: Hesiod
+    tradition: Archaic didactic
+    stages: [youth, young-adult, adult]
+    domains: [work, money, desire, self]
+    conf: verified
+  - rid: insight.justice.dike
+    claim: Justice outlasts violence; hubris harms the one who wields it.
+    type: Insight
+    claim_type: normative
+    author: Hesiod
+    tradition: Archaic didactic
+    stages: [young-adult, adult, midlife]
+    domains: [politics, work, justice]
+    conf: verified
+  - rid: insight.carpe.diem
+    claim: Seize the day; trust as little as possible to tomorrow.
+    type: Insight
+    claim_type: prudential
+    author: Horace
+    tradition: Augustan poetry
+    stages: [young-adult, adult, midlife, elder]
+    domains: [death, desire, aging, anxiety]
+    conf: verified
+  - rid: insight.golden.mean.horace
+    claim: The golden mean; moderation avoids both squalor and envied excess.
+    type: Insight
+    claim_type: prudential
+    author: Horace
+    tradition: Augustan poetry
+    stages: [adult, midlife]
+    domains: [money, desire, self, fame]
+    conf: verified
+  - rid: insight.sound.mind.body
+    claim: Pray for a sound mind in a sound body.
+    type: Insight
+    claim_type: prudential
+    author: Juvenal
+    tradition: Roman satire
+    stages: [adult, midlife, elder]
+    domains: [self, anxiety, aging, death]
+    conf: verified
+dilemmas:
+  - name: Virtue vs pleasure as THE good
+    tension: Virtue as sufficient/core good (Stoics, Aristotle) vs pleasure/ataraxia as the end (Epicureans, Cyrenaics)
+  - name: Extirpation vs management of the passions
+    tension: Stoic apatheia (eliminate passions via judgment) vs Aristotelian moderation / Epicurean minimisation
+  - name: Fate vs agency
+    tension: Stoic determinism-with-assent vs Epicurean swerve vs tragic fate (character chooses within constraint)
+  - name: Civic engagement vs withdrawal
+    tension: Stoic/Ciceronian civic duty vs Epicurean "live unnoticed" and Cynic rejection of convention
+  - name: Endurance vs avoidance of suffering
+    tension: Stoic meeting hardship head-on vs Epicurean arranging life to minimise pain
+  - name: Examined life, reason, and the mean vs their limits
+    tension: Examination/reason/mean (Socrates, Plato, Aristotle, Horace) vs limits of reason and deliberate extremes (tragedians, Cynics)
+convergences:
+  - claim: Act on what is yours, release the rest (dichotomy of control)
+    with: [Epictetus, Serenity Prayer, Bhagavad Gita karma yoga]
+  - claim: Count no man happy until dead — conditional, fragile eudaimonia
+    with: [Solon, Sophocles, cross-cultural fragility-of-fortune motif]
+  - claim: Memento mori / death-acceptance, despite divergent metaphysics (atomist vs providential)
+    with: [Epicurus, Lucretius, Seneca, Marcus Aurelius, Cicero via Plato]
+  - claim: The golden mean / moderation
+    with: [Aristotle, Horace, Hesiod, moderation doctrines elsewhere]
+  - claim: Tranquility arrives as a by-product, not a direct target
+    with: [Pyrrhonist ataraxia, Epicurean ataraxia]
+  - claim: Happiness should not be hostage to externals (self-sufficiency)
+    with: [Cynic autarkeia, Stoic indifference, Epicurean "good is easy to get"]
+tensions:
+  - tension: Stoic determinism vs moral responsibility
+    sides: All is fated/providential vs assent is "up to us"; Chrysippus' cylinder analogy contested
+  - tension: Is eudaimonia fortune-proof?
+    sides: Aristotle (external goods needed, NE I.8-10) vs Stoic orthodoxy (virtue alone suffices)
+  - tension: Seneca's wealth vs Stoic indifference to riches
+    sides: Suillius' 300m-sesterces charge (Tacitus, Annals XIII.42-43) vs Seneca's De Vita Beata defence
+  - tension: Epicurean withdrawal vs civic duty
+    sides: Epicurean "live unnoticed" (lathe biosas) vs Stoic/Ciceronian vita activa
+  - tension: Epicurean swerve vs Epicurean physical determinism
+    sides: Clinamen breaks the determinism the physics implies; criticised as ad hoc since antiquity
+  - tension: Skeptic epoche vs the need to act
+    sides: Suspending all judgment vs living requires action; Sextus' "follow appearances and custom" contested
+leads:
+  - Confirm Stobaeus locus for Democritus DK 68 B191 (currently sourced secondhand)
+  - Confirm exact Latin of Cicero, Tusculan Disputations I.30.74 (currently sourced secondhand)
+  - Confirm Sophocles Oedipus Rex closing-line numbers ~1528-1530 (currently sourced secondhand)
+  - Translation/rights pass before publication — swap in-copyright renderings (Hays, Grube, Lattimore, Fagles, Staniforth) for named PD editions or fresh paraphrase; no >~50-word unlicensed quotes
+  - Build a dedicated misattribution node type; ingest the hard fakes only as cautionary exhibits, each linked to the genuine passage it distorts
+  - Re-verify "verified" units against critical editions (e.g. Oxford Classical Texts); downgrade to probable on failure
+  - Test convergence candidates cross-tradition (Serenity Prayer, Gita, moderation doctrines elsewhere)
+  - Test whether Stoic "indifference" coherently permits possessing wealth without attachment (Seneca case)
+notes: >-
+  Greek/Latin originals PD; the copyright risk is translations — use the named PD translators
+  (Jowett, Long, Carter, Ross, Hicks, Gummere, Evelyn-White, Conington, Ramsay etc.); famous punchy
+  wordings are often in-copyright renderings (e.g. Staniforth's "Waste no more time..."). A 13-item
+  misattribution watchlist was checked: hard fakes (two "Marcus Aurelius" quotes, "luck is preparation
+  meets opportunity" Seneca, two "Aristotle" lines, Durant's "we are what we repeatedly do", Maclaren's
+  "be kind...") must be quarantined, never ingested as wisdom units. All Socrates units are
+  Socrates-via-Plato (Socratic problem); probable-confidence units (Democritus B191, tetrapharmakos,
+  Diogenes anecdote, clinamen, Cicero/Phaedo, "count no man happy") are transmitted via
+  doxography/anecdote/compression and need visible flags — good as contested forks, not authoritative maxims.

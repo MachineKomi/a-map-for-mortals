@@ -8,6 +8,47 @@ The `DO-NOT-DUPLICATE` notes below are seeds — confirm against the live index 
 
 ---
 
+### 2·0 · Eastern traditions (the missing wave-1 module) — **P0: run this first**
+
+*The nominal wave-1 report `04-eastern.md` never landed, so the corpus currently holds no
+Confucian, Daoist, Buddhist, Hindu, or Japanese material at all — the single largest skew
+in the store. This block replaces it.*
+
+```
+ROLE: a source-critical scholar of Chinese, Indian, Buddhist, and Japanese philosophy,
+rigorous about editions, translations, and misattribution.
+
+FOCUS:
+- Chinese: Analects (Confucius); Mencius; Daodejing & Zhuangzi (Daoist); Xunzi; the
+  Confucian-Daoist fork (cultivation/duty vs wu-wei/naturalness) as a first-class dilemma.
+- Indian: Bhagavad Gita (action without attachment; dharma vs desire); Upanishads
+  (selected); Dhammapada and core Pali suttas (Four Noble Truths, impermanence,
+  non-attachment); Patanjali's Yoga Sutras (practice units); Kural (Tiruvalluvar).
+- Buddhist beyond India: Nagarjuna (selectively); Zen/Chan (Dogen, koan tradition —
+  flag interpretive difficulty honestly); Shantideva (Bodhicaryavatara).
+- Japanese: mono no aware, wabi-sabi as observational/aesthetic wisdom; Yoshida Kenko
+  (Essays in Idleness); Hagakure treated critically (romanticised bushido caveat).
+- Great forks: engagement vs withdrawal; effort vs acceptance; desire vs non-attachment;
+  self-cultivation vs spontaneity; duty to family vs to truth.
+- Public-domain translations to anchor on: Legge (Chinese classics), Müller (Sacred Books
+  of the East), Edgerton/Besant (Gita), Buddharakkhita/Müller (Dhammapada) — flag where
+  Victorian translations distort (e.g. Legge's Christianising register) and name the
+  in-copyright modern standard for comparison (e.g. Watson, Ivanhoe, Bodhi).
+- MISATTRIBUTION WATCHLIST (mandatory): fake Buddha quotes are the single worst
+  attribution swamp on the internet — check against Fake Buddha Quotes (fakebuddhaquotes.com);
+  likewise spurious Laozi ("journey of a thousand miles" is genuine — Ch. 64 — but verify
+  wording; "When the student is ready..." is not Laozi) and Confucius fortune-cookie quotes.
+- Claim types: karma/rebirth/moksha claims are metaphysical, never empirical; meditation
+  benefit claims may cite the empirical layer but must not borrow its authority for
+  metaphysics.
+
+ALREADY COVERED — DO NOT DUPLICATE: Stoic parallels (report 02) — flag convergence
+candidates (e.g. dichotomy of control ↔ non-attachment) rather than re-extracting Stoicism;
+Schopenhauer's Upanishad/Buddhist reception (report 06) — cross-reference only.
+```
+
+---
+
 ### 2a · African wisdom (Ubuntu & the proverb traditions) — **P1**
 
 ```
@@ -125,6 +166,53 @@ FOCUS (real wisdom units, not tokens):
 ALREADY COVERED — DO NOT DUPLICATE: George Eliot (report 07); Simone Weil, Hannah Arendt,
 de Beauvoir if held in 06/07 — take them here only for what those reports omitted, and
 flag for merge.
+```
+
+---
+
+### 2g · Childhood & old age — the spine's starving ends — **P1**
+
+*Wave-1 tally: 3 child-stage units and 23 youth-stage units out of 182 — yet the book
+opens at read-aloud age. Elder material (59 units) is nearly all death/adversity; late
+life is more than dying.*
+
+```
+ROLE: a scholar of wisdom about the beginning and end of life — children's moral
+imagination, coming-of-age, aging, and the close of life — spanning folklore,
+literature, philosophy, and lived practice.
+
+FOCUS, childhood & youth:
+- What the wise have said TO and ABOUT children: Aesop's fables (with the caveat that
+  attached "morals" are often later editorial additions — flag per fable); folk and
+  fairy tale wisdom (Grimm, Andersen, Panchatantra frame-stories for the young);
+  lullabies and blessing traditions; proverbs about raising children across cultures.
+- Coming-of-age wisdom: advice-to-the-young genres (Lord Chesterfield's letters treated
+  critically; Polonius as the *undercut* exemplar — cross-ref report 07; Kipling's "If—";
+  commencement-address classics only if attribution is verifiable); apprenticeship and
+  initiation wisdom; first love, first failure, leaving home.
+- The child as teacher: what traditions say adults learn FROM children.
+- Register note: the book's earliest pages must work READ ALOUD to a child — prefer
+  units whose surface form is already simple (fable, proverb, blessing).
+
+FOCUS, old age & the close:
+- Beyond death-preparation (already well covered — do not duplicate the memento-mori
+  cluster): late-life friendship, usefulness and being needed, the handing-over of work
+  and authority, grandparenthood, diminishment and adaptation, life review.
+- Cicero, De Senectute (the four charges against old age and their answers) — deep pass.
+- Modern gerontological wisdom where honest: SOC model (selection-optimisation-
+  compensation, Baltes), Erikson's integrity-vs-despair as an observational frame
+  (claim_type discipline: these are models, not laws).
+- Hospice and end-of-life witness literature (what the dying regret and value —
+  attribution care: Bronnie Ware's "top five regrets" is a single hospice worker's
+  recollection, not a study — label accordingly).
+
+Great forks: protecting the child vs preparing the child; holding on vs handing over;
+fighting decline vs befriending it; living for the time left vs living as if whole.
+
+ALREADY COVERED — DO NOT DUPLICATE: memento mori / death-acceptance cluster (reports
+02, 05, 06); "count no man happy until dead" (02); Lear/Gloucester material (07);
+empirical ageing findings incl. U-curve debate and socioemotional selectivity (08) —
+cross-reference these, extract only what is NEW about living the ends of life.
 ```
 
 ---
