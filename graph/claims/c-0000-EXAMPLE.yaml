@@ -1,0 +1,23 @@
+# NORMATIVE FORMAT EXAMPLE — values illustrative; replace/delete when real claims land.
+example: true
+id: c-0000
+canonical_claim: "Direct your energy to what is within your control; consent honestly to what is not."
+claim_type: prudential
+polarity: prescriptive
+conditionality: conditional
+member_units: [u-0000]
+status: candidate
+robustness_profile:
+  recurrence: {rating: high, certainty: moderate, basis: "Stoic, Gita, Buddhist and Serenity-Prayer lineages — independence partially argued, see edges"}
+  source_diversity: {rating: high, certainty: moderate, basis: "philosophy, scripture, prayer traditions"}
+  temporal_spread: {rating: high, certainty: high, basis: "~2,000 years of attestation"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "prudential — testable in tendency only"}
+  empirical_support: {rating: moderate, certainty: low, basis: "adjacent evidence (locus of control, acceptance-based therapies); not a direct test"}
+  contestation: {rating: moderate, certainty: moderate, basis: "contested at the margin: where does influence end?"}
+  attribution_integrity: {rating: high, certainty: moderate, basis: "core sources well attested; Serenity Prayer attribution debated"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "no known refutation; over-application risk (premature resignation) noted as tension"}
+prov:
+  minted_by: "claude-code:cluster-v1"
+  adversarial_pass: "fresh-context subagent (same weights — disclosed)"
+  date: 2026-07-03
+notes: "Example only. A real claim at publish-ready must have every dimension adjudicated with evidence."

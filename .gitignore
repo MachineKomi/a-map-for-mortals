@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+venv/
+*.log
+# build artefacts (keep source HTML/PY; PDFs are regenerable — uncomment to ignore large ones)
+# prototype/*.pdf
+# per-machine binaries (fetch with tools/fetch_weasyprint.py)
+tools/bin/

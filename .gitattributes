@@ -1,0 +1,5 @@
+# Normalise line endings across the laptop/PC pair — YAML and MD diffs must stay clean.
+* text=auto eol=lf
+*.pdf binary
+*.exe binary
+*.png binary
