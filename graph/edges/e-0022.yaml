@@ -1,0 +1,14 @@
+id: e-0022
+type: CONVERGES_WITH
+from: c-0010
+to: c-0025
+origin: inferred-then-curated
+confidence: moderate
+method: "proposed by the adversarial pass 2026-07-07 and adopted at adjudication — see ops/adjudications/2026-07-07-s3s4-skeleton.md"
+independence_basis:
+  grade: partial
+  evidence: "Unowned faithful work (Avot) and unhistoric acts (Middlemarch): George Eliot's documented engagement with Jewish sources (Daniel Deronda research) makes transmission possible though undocumented for this idea; graded partial."
+prov:
+  minted_by: "claude-code:s4-adjudication-v1"
+  date: 2026-07-07
+notes: "The acceptance pole of effort-vs-acceptance: work that neither finishes nor signs its name. Added at adjudication."

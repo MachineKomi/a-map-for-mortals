@@ -1,0 +1,11 @@
+id: e-0021
+type: IN_TENSION_WITH
+from: c-0003
+to: c-0018
+origin: inferred-then-curated
+confidence: moderate
+method: "proposed by the adversarial pass 2026-07-07 and adopted at adjudication — see ops/adjudications/2026-07-07-s3s4-skeleton.md"
+prov:
+  minted_by: "claude-code:s4-adjudication-v1"
+  date: 2026-07-07
+notes: "Live-as-if-immortal licenses precisely the postponement Seneca condemns; the time-scarcity fork's second leg. Added at adjudication."

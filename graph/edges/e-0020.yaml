@@ -1,0 +1,11 @@
+id: e-0020
+type: REFINES
+from: c-0017
+to: c-0003
+origin: inferred-then-curated
+confidence: high
+method: "proposed by the adversarial pass 2026-07-07 and adopted at adjudication — see ops/adjudications/2026-07-07-s3s4-skeleton.md"
+prov:
+  minted_by: "claude-code:s4-adjudication-v1"
+  date: 2026-07-07
+notes: "Thoreau's life-price rule operationalises Seneca's time-scarcity diagnosis — the measuring instrument for the wasted-life claim. Added at adjudication."

@@ -2,11 +2,11 @@ id: c-0007
 canonical_claim: "Love your fate: will nothing to be different, and not merely bear the necessary but love it."
 claim_type: normative
 polarity: prescriptive
-conditionality: contested
+conditionality: universal-ish
 member_units: [u-0007]
-status: candidate
+status: adjudicated
 prov:
   minted_by: "claude-code:s3-skeleton-v1"
-  adversarial_pass: "pending — fresh-context subagent review queued (same weights, disclosed)"
+  adversarial_pass: "fresh-context subagent 2026-07-07 (shared weights, disclosed); verdicts applied — see ops/adjudications/2026-07-07-s3s4-skeleton.md"
   date: 2026-07-07
-notes: "Amor fati — an ideal held out, contested by every tradition that counsels reform or revolt. Clustering posture: 1:1 at skeleton scale; cross-tradition kinship expressed as S4 edges, not merges; corpus-wide merge pass deferred to P6."
+notes: "[adjudication 2026-07-07: fields aligned to member unit — conditionality:contested->universal-ish] Amor fati — an ideal held out, contested by every tradition that counsels reform or revolt. Clustering posture: 1:1 at skeleton scale; cross-tradition kinship expressed as S4 edges, not merges; corpus-wide merge pass deferred to P6."

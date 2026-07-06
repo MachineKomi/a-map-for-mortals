@@ -2,9 +2,9 @@ id: e-0014
 type: UNDERMINED_BY
 from: c-0023
 to: c-0030
-origin: inferred
+origin: inferred-then-curated
 confidence: moderate
-method: "proposed by claude-code:s4-skeleton-v1; adversarial second pass pending (fresh-context subagent, shared weights disclosed)"
+method: "proposed by claude-code:s4-skeleton-v1; adversarial pass applied 2026-07-07 — see ops/adjudications/2026-07-07-s3s4-skeleton.md"
 prov:
   minted_by: "claude-code:s4-skeleton-v1"
   date: 2026-07-07

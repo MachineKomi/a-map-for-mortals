@@ -2,11 +2,11 @@ id: c-0018
 canonical_claim: "To accomplish great things, live as though you would never die."
 claim_type: prudential
 polarity: prescriptive
-conditionality: contested
+conditionality: conditional
 member_units: [u-0018]
-status: candidate
+status: adjudicated
 prov:
   minted_by: "claude-code:s3-skeleton-v1"
-  adversarial_pass: "pending — fresh-context subagent review queued (same weights, disclosed)"
+  adversarial_pass: "fresh-context subagent 2026-07-07 (shared weights, disclosed); verdicts applied — see ops/adjudications/2026-07-07-s3s4-skeleton.md"
   date: 2026-07-07
-notes: "Vauvenargues, maxime 142 — in deliberate tension with c-0004 (the fork is the point). Clustering posture: 1:1 at skeleton scale; cross-tradition kinship expressed as S4 edges, not merges; corpus-wide merge pass deferred to P6."
+notes: "[adjudication 2026-07-07: fields aligned to member unit — conditionality:contested->conditional] Vauvenargues, maxime 142 — in deliberate tension with c-0004 (the fork is the point). Clustering posture: 1:1 at skeleton scale; cross-tradition kinship expressed as S4 edges, not merges; corpus-wide merge pass deferred to P6."

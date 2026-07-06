@@ -1,12 +1,12 @@
 id: c-0011
-canonical_claim: "In the face of impermanence, take honest joy in food, work, and companionship."
+canonical_claim: "In the face of impermanence, take honest joy in food, drink, and one's own labour."
 claim_type: prudential
 polarity: prescriptive
 conditionality: conditional
 member_units: [u-0011]
-status: candidate
+status: adjudicated
 prov:
   minted_by: "claude-code:s3-skeleton-v1"
-  adversarial_pass: "pending — fresh-context subagent review queued (same weights, disclosed)"
+  adversarial_pass: "fresh-context subagent 2026-07-07 (shared weights, disclosed); verdicts applied — see ops/adjudications/2026-07-07-s3s4-skeleton.md"
   date: 2026-07-07
 notes: "Qoheleth. Merge candidate with c-0004 at corpus scale — lineage-suspect (shared ANE milieu), kept split. Clustering posture: 1:1 at skeleton scale; cross-tradition kinship expressed as S4 edges, not merges; corpus-wide merge pass deferred to P6."

@@ -1,0 +1,14 @@
+id: e-0019
+type: CONVERGES_WITH
+from: c-0012
+to: c-0024
+origin: inferred-then-curated
+confidence: moderate
+method: "proposed by the adversarial pass 2026-07-07 and adopted at adjudication — see ops/adjudications/2026-07-07-s3s4-skeleton.md"
+independence_basis:
+  grade: partial
+  evidence: "No documented Dostoevsky-Maimonides dependence; Orthodox and Jewish charity ethics share Hebrew-Bible ancestry, so graded partial rather than strong."
+prov:
+  minted_by: "claude-code:s4-adjudication-v1"
+  date: 2026-07-07
+notes: "Maimonides' highest-charity-creates-independence converging with Zosima's love-as-labour: both locate real help in the other's strength, not the giver's glow. Added at adjudication — the help-that-frees fork's centrepiece had no edges."

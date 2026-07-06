@@ -4,9 +4,9 @@ claim_type: empirical
 polarity: descriptive
 conditionality: contested
 member_units: [u-0030]
-status: candidate
+status: adjudicated
 prov:
   minted_by: "claude-code:s3-skeleton-v1"
-  adversarial_pass: "pending — fresh-context subagent review queued (same weights, disclosed)"
+  adversarial_pass: "fresh-context subagent 2026-07-07 (shared weights, disclosed); verdicts applied — see ops/adjudications/2026-07-07-s3s4-skeleton.md"
   date: 2026-07-07
 notes: "Frazier 2009; Gower 2022. A measurement caution attached to every 'suffering teaches' claim. Clustering posture: 1:1 at skeleton scale; cross-tradition kinship expressed as S4 edges, not merges; corpus-wide merge pass deferred to P6."

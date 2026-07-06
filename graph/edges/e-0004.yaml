@@ -2,9 +2,9 @@ id: e-0004
 type: CONVERGES_WITH
 from: c-0004
 to: c-0011
-origin: inferred
+origin: inferred-then-curated
 confidence: moderate
-method: "proposed by claude-code:s4-skeleton-v1 from cross-report analysis (COVERAGE-INDEX clusters + unit evidence); adversarial second pass pending (fresh-context subagent, shared weights disclosed)"
+method: "proposed by claude-code:s4-skeleton-v1 from cross-report analysis (COVERAGE-INDEX clusters + unit evidence); adversarial pass applied 2026-07-07 — see ops/adjudications/2026-07-07-s3s4-skeleton.md"
 independence_basis:
   grade: partial
   evidence: "Qoheleth's dating and Hellenistic exposure are disputed; the older Siduri passage in Gilgamesh shows the motif circulating in the ANE long before Horace; a shared regional inheritance is plausible for Qoheleth but not for Horace's Epicurean frame."

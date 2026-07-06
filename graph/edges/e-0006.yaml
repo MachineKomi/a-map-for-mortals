@@ -1,14 +1,12 @@
 id: e-0006
-type: CONVERGES_WITH
-from: c-0008
-to: c-0023
-origin: inferred
+type: INFLUENCED
+from: c-0023
+to: c-0008
+origin: inferred-then-curated
 confidence: moderate
-method: "proposed by claude-code:s4-skeleton-v1 from cross-report analysis (COVERAGE-INDEX clusters + unit evidence); adversarial second pass pending (fresh-context subagent, shared weights disclosed)"
-independence_basis:
-  grade: weak
-  evidence: "Nietzsche was a classical philologist intimate with Aeschylus; The Birth of Tragedy treats the tragedians directly; transmission near-certain, so independence weak despite the 2,300-year gap."
+method: "proposed as CONVERGES_WITH by claude-code:s4-skeleton-v1; retyped INFLUENCED at the adversarial pass 2026-07-07 (transmission evidence dominated) — see ops/adjudications/2026-07-07-s3s4-skeleton.md"
 prov:
   minted_by: "claude-code:s4-skeleton-v1"
+  adjudicated: 2026-07-07
   date: 2026-07-07
-notes: "Suffering-strengthens converging with pathei-mathos. Both are contested by the empirical layer (see e-0013..e-0015)."
+notes: "Aeschylus' pathei mathos -> Nietzsche's suffering-strengthens: transmission near-certain (Nietzsche the philologist; The Birth of Tragedy) — retyped from CONVERGES_WITH (adjudication 2026-07-07). Booking this as convergence would inflate 'tested across time' for the suffering fork."

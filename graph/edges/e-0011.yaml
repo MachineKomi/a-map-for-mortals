@@ -2,10 +2,10 @@ id: e-0011
 type: QUALIFIES
 from: c-0026
 to: c-0013
-origin: inferred
+origin: inferred-then-curated
 confidence: high
-method: "proposed by claude-code:s4-skeleton-v1; adversarial second pass pending (fresh-context subagent, shared weights disclosed)"
+method: "proposed by claude-code:s4-skeleton-v1; adversarial pass applied 2026-07-07 — see ops/adjudications/2026-07-07-s3s4-skeleton.md"
 prov:
   minted_by: "claude-code:s4-skeleton-v1"
   date: 2026-07-07
-notes: "Money-tracks-experienced-well-being qualifies happiness-from-what-one-is: the Schopenhauer claim survives only in a weakened, both-and form. The book must print the qualifier with the claim."
+notes: "Money-tracks-experienced-well-being qualifies happiness-from-what-one-is: the Schopenhauer claim must carry the qualifier: the income slope is real, though it explains a modest variance share, so 'far more on what one is' survives in both-and form. The book must print the qualifier with the claim."

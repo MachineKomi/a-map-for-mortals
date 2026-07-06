@@ -4,9 +4,9 @@ claim_type: prudential
 polarity: prescriptive
 conditionality: contested
 member_units: [u-0001]
-status: candidate
+status: adjudicated
 prov:
   minted_by: "claude-code:s3-skeleton-v1"
-  adversarial_pass: "pending — fresh-context subagent review queued (same weights, disclosed)"
+  adversarial_pass: "fresh-context subagent 2026-07-07 (shared weights, disclosed); verdicts applied — see ops/adjudications/2026-07-07-s3s4-skeleton.md"
   date: 2026-07-07
 notes: "The dichotomy of control. Contested at the boundary (Irvine's trichotomy: things we partially influence). Clustering posture: 1:1 at skeleton scale; cross-tradition kinship expressed as S4 edges, not merges; corpus-wide merge pass deferred to P6."

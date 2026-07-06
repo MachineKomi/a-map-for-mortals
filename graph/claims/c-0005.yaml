@@ -1,12 +1,12 @@
 id: c-0005
 canonical_claim: "Anticipated suffering usually exceeds real suffering; we suffer more often in imagination than in reality."
 claim_type: observational
-polarity: descriptive
-conditionality: universal-ish
+polarity: cautionary
+conditionality: conditional
 member_units: [u-0005]
-status: candidate
+status: adjudicated
 prov:
   minted_by: "claude-code:s3-skeleton-v1"
-  adversarial_pass: "pending — fresh-context subagent review queued (same weights, disclosed)"
+  adversarial_pass: "fresh-context subagent 2026-07-07 (shared weights, disclosed); verdicts applied — see ops/adjudications/2026-07-07-s3s4-skeleton.md"
   date: 2026-07-07
-notes: "Seneca Ep. 13.4. Observational claim about anticipatory dread. Clustering posture: 1:1 at skeleton scale; cross-tradition kinship expressed as S4 edges, not merges; corpus-wide merge pass deferred to P6."
+notes: "[adjudication 2026-07-07: fields aligned to member unit — polarity:descriptive->cautionary; conditionality:universal-ish->conditional] Seneca Ep. 13.4. Observational claim about anticipatory dread. Clustering posture: 1:1 at skeleton scale; cross-tradition kinship expressed as S4 edges, not merges; corpus-wide merge pass deferred to P6."

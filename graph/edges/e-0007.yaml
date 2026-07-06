@@ -2,9 +2,9 @@ id: e-0007
 type: CONVERGES_WITH
 from: c-0014
 to: c-0015
-origin: inferred
+origin: inferred-then-curated
 confidence: moderate
-method: "proposed by claude-code:s4-skeleton-v1 from cross-report analysis (COVERAGE-INDEX clusters + unit evidence); adversarial second pass pending (fresh-context subagent, shared weights disclosed)"
+method: "proposed by claude-code:s4-skeleton-v1 from cross-report analysis (COVERAGE-INDEX clusters + unit evidence); adversarial pass applied 2026-07-07 — see ops/adjudications/2026-07-07-s3s4-skeleton.md"
 independence_basis:
   grade: partial
   evidence: "Thoreau's reading included the French moralists at second hand, but no documented dependence for this diagnosis; the mechanisms differ (resigned routine vs perpetual anticipation), suggesting partly independent observation."

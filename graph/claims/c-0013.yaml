@@ -1,12 +1,12 @@
 id: c-0013
 canonical_claim: "Happiness depends far more on what one is than on what one has or how one appears."
-claim_type: prudential
+claim_type: observational
 polarity: descriptive
 conditionality: contested
 member_units: [u-0013]
-status: candidate
+status: adjudicated
 prov:
   minted_by: "claude-code:s3-skeleton-v1"
-  adversarial_pass: "pending — fresh-context subagent review queued (same weights, disclosed)"
+  adversarial_pass: "fresh-context subagent 2026-07-07 (shared weights, disclosed); verdicts applied — see ops/adjudications/2026-07-07-s3s4-skeleton.md"
   date: 2026-07-07
-notes: "Schopenhauer. Qualified by the money findings (c-0026, c-0027) — income genuinely tracks experienced well-being. Clustering posture: 1:1 at skeleton scale; cross-tradition kinship expressed as S4 edges, not merges; corpus-wide merge pass deferred to P6."
+notes: "[adjudication 2026-07-07: fields aligned to member unit — claim_type:prudential->observational] Schopenhauer. Qualified by the money findings (c-0026, c-0027) — income genuinely tracks experienced well-being. Clustering posture: 1:1 at skeleton scale; cross-tradition kinship expressed as S4 edges, not merges; corpus-wide merge pass deferred to P6."

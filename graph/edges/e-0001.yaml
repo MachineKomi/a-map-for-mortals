@@ -2,9 +2,9 @@ id: e-0001
 type: CONVERGES_WITH
 from: c-0001
 to: c-0009
-origin: inferred
+origin: inferred-then-curated
 confidence: moderate
-method: "proposed by claude-code:s4-skeleton-v1 from cross-report analysis (COVERAGE-INDEX clusters + unit evidence); adversarial second pass pending (fresh-context subagent, shared weights disclosed)"
+method: "proposed by claude-code:s4-skeleton-v1 from cross-report analysis (COVERAGE-INDEX clusters + unit evidence); adversarial pass applied 2026-07-07 — see ops/adjudications/2026-07-07-s3s4-skeleton.md"
 independence_basis:
   grade: partial
   evidence: "Greek philosophy entered Islamic thought via the 8th-10th c. translation movement, but this hadith belongs to the early hadith corpus predating most falsafa reception; no documented textual dependence for this saying; regional Stoic diffusion in the late-antique Near East remains possible."
