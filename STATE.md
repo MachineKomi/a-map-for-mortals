@@ -5,10 +5,11 @@
 ## Current phase
 **P3 in progress — S2 mostly done (23/33 verified)** — walking-skeleton chapter is **The Building Years** (SPEC stage 5). Wave-2 landed in parallel (8/8 reports, renamed, shape-checked — deep validation deferred until P3 ships).
 
-### S2 status (2026-07-07)
-- **verified-primary (14):** u-0009–u-0012, u-0013–u-0018, u-0021–u-0025 — all with matched text + URL in `verification.checked_against`. Real corrections made: Avot wording fixed to Taylor 1897's actual text (report mis-credit); Dostoevsky fixed to Garnett's real wording ("love in action is a harsh and dreadful thing", Book II ch. 4); Maimonides translation swapped Touger(NC)→Meszler(CC-BY) (curation choice queued, E-0002).
-- **verified-secondary (8):** u-0026–u-0033 (empirical; DOI-confirmed; one title + one HR figure corrected).
-- **REMAINING QUEUE (10): u-0001–u-0008 (Greco-Roman, Nietzsche), u-0019, u-0020.** Three verifier agents died on the monthly spend limit mid-run; u-0001's partial upgrade was reverted (no verification trail). Sources known-good: Gutenberg (#2680 Long Marcus, #52263 Ludovici Twilight, #52190 Ludovici Ecce Homo, #10741 Saunders), Wikisource Seneca Letter 13/Gummere, Perseus Horace. Gutenberg was timing out at session end — retry.
+### S2 status — COMPLETE for the skeleton (2026-07-07)
+- **verified-primary (24):** u-0001–u-0018 (except u-0019 n/a here), u-0021–u-0025 — precisely: u-0001–u-0008, u-0009–u-0018, u-0021–u-0025. Every one carries matched text + URL in `verification.checked_against`.
+- **verified-secondary (8):** u-0026–u-0033 (empirical; DOI-confirmed).
+- **attested (1):** u-0019 (Russell) — US-PD since Jan 2026 but no fetchable transcription yet; attempts logged in the unit; `copyright_flag: in-copyright` anyway (life+70 non-US to 2041), so it was never a verbatim-print candidate.
+- **Six wave-1 report errors caught and corrected at S2** (log for the honesty appendix): Carter→Higginson (u-0001), spliced Marcus wording (u-0002), "short time to live"→"short space of time" (u-0003), non-Conington crib (u-0004), Basore→Stewart (u-0006), Taylor mis-credit (u-0010), P&V-as-Garnett (u-0024). Pattern: report attributions of *translations* are the weak layer — S2 checks are non-negotiable for every print candidate at P4 scale.
 
 ### P3 walking-skeleton design (fixed for this phase)
 - **Stage:** The Building Years (~26–45; "How do I carry what I've taken on?").
@@ -42,8 +43,8 @@
 - **Unprobed; probe only if/when heavy compute is actually needed.** (`python tools/fetch_weasyprint.py` + `pip install pyyaml pypdfium2` should be the whole base setup on any new machine.)
 
 ## Next actions (ordered)
-1. P3·S2 finish: verify the remaining 10 units (u-0001–u-0008, u-0019, u-0020; sources listed above). Do directly (curl + python match), not via heavy agents — spend-limit economy.
-2. P3·S3: cluster the 33 units to claims (Claude adjudication + adversarial second pass; c-#### files). S4 edges (argued convergence on fork 1 with independence_basis; genuine tension on fork 2). S5 robustness profiles.
+1. P3·S3: cluster the 33 units to claims (Claude adjudication + adversarial second pass; c-#### files).
+2. P3·S4 edges (argued convergence on fork 1 with independence_basis; genuine tension on fork 2). S5 robustness profiles.
 3. P3·S6/S7: page-specs for The Building Years (journey-map opener + ≥4 distinct forms) → production generator from prototype (discrete font weights; charset meta) → render → view every page → **publish package #1** for Jason.
 4. After P3 ships: wave-2 P1/P2 (deep-validate the 8 landed reports, extract, rebuild COVERAGE-INDEX, wave metrics vs saturation heuristic).
 5. Then P4 scale ingestion (remaining ~150 wave-1 units + wave-2, batches of ~25).
