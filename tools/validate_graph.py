@@ -3,9 +3,12 @@
 
 Complements validate_units.py (local shape) with the checks the external review
 showed were missing (P1-6): referential integrity, ID/filename agreement, date
-sanity, page-spec reference validity, and a QUOTE LINTER that fails any page-spec
-string field containing a sufficiently long verbatim overlap with held quotation
-text unless it is declared through the gate (verbatim_quotes / quote_ref).
+sanity, page-spec reference validity, and a QUOTE LINTER: raw held-quotation
+text is FORBIDDEN in all free-copy fields unconditionally — quotes reach the page
+only through gate objects (verbatim_quotes / quote_ref) that the renderer fills.
+LIMITS (interim tripwire; Gate B replaces copy-carried text entirely): overlaps
+shorter than MIN_OVERLAP_WORDS normalised words pass undetected, and quote objects
+still select a claim's first member unit (unsafe after real merges).
 
 Exit 0 = no errors (warnings are counted and reported as debt, never hidden);
 1 = errors; 2 = environment problem.
@@ -23,7 +26,7 @@ except ImportError:
     print("ERROR: pyyaml required")
     sys.exit(2)
 
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ROOT = os.environ.get("MAP_ROOT") or os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TODAY = datetime.date.today()
 MIN_OVERLAP_WORDS = 8  # contiguous words of held quotation appearing in page copy
 
@@ -121,6 +124,26 @@ def main():
                     return uid, cid
         return None
 
+    # --- registry freeze (P0-4): no unregistered taxonomy values ---
+    regdir = os.path.join(ROOT, "graph", "registries")
+    def reg_values(name):
+        f = os.path.join(regdir, name)
+        if not os.path.exists(f):
+            return None
+        data = yaml.safe_load(open(f, encoding="utf-8")) or {}
+        return {str(e.get("raw")) for e in (data.get("entries") or [])}
+    known_trad, known_dom = reg_values("traditions.yaml"), reg_values("domains.yaml")
+    if known_trad is not None:
+        for uid, u in units.items():
+            tr = str(u.get("tradition"))
+            if tr not in known_trad:
+                errors.append(f"units/{uid}: tradition '{tr}' not in graph/registries/traditions.yaml "
+                              f"— extend the registry in the same commit (freeze, P0-4)")
+            for dm in (u.get("life_domains") or []):
+                if known_dom is not None and str(dm) not in known_dom:
+                    errors.append(f"units/{uid}: domain '{dm}' not in graph/registries/domains.yaml "
+                                  f"— extend the registry in the same commit (freeze, P0-4)")
+
     # --- page-spec validation + quote linter ---
     specdir = os.path.join(ROOT, "book", "page-specs")
     if os.path.isdir(specdir):
@@ -155,10 +178,10 @@ def main():
                     hit = find_overlap(v)
                     if hit:
                         uid, cid = hit
-                        if cid not in declared:
-                            errors.append(
-                                f"{rel}: UNDECLARED QUOTE at {path} — >= {MIN_OVERLAP_WORDS} words of "
-                                f"{uid}'s held text appear in copy without a gate declaration")
+                        errors.append(
+                            f"{rel}: RAW QUOTE IN COPY at {path} — >= {MIN_OVERLAP_WORDS} words of "
+                            f"{uid}'s held text; quotation text may only reach the page through "
+                            f"gate objects the renderer fills, never copy fields")
             lint(spec.get("copy", {}), "copy")
 
     print(f"validate_graph: {len(units)} units, {len(claims)} claims, {len(edges)} edges checked")
