@@ -7,7 +7,9 @@ You are Claude Code, running this project **largely autonomously**. Read this fi
 *A Map for Mortals* maps human wisdom as **recurring forks** — choices under tension, with consequences that *tend* (never destinies) to follow. One versioned **wisdom graph** is the single source of truth; it renders into a **print book** (first), then a website, then a text-first game. We are in **production build mode**: the book is generated from the graph, not hand-authored.
 
 **Governing docs** (read before substantive work; apply, don't restate):
-`A-Map-for-Mortals-REQUIREMENTS.md` (what) · `A-Map-for-Mortals-SPEC.md` (book design: form library, life-phase spine, generator) · `A-Map-for-Mortals-METHODOLOGY.md` (graph pipeline, schema, adjudication, ship gate) · `docs/founding-principles.md` (**canonical; truth above all else — fixed forever**) · `runbook/PRODUCTION-RUNBOOK.md` (the phases you execute).
+`A-Map-for-Mortals-REQUIREMENTS.md` (what) · `A-Map-for-Mortals-SPEC.md` (book design: form library, life-phase spine, generator) · `A-Map-for-Mortals-METHODOLOGY.md` (graph pipeline, schema, adjudication, ship gate) · `A-Map-for-Mortals-VOICE.md` (**how our commentary sounds — accessible, warm, dryly funny; Mitchell × Milne × Slimes-300; write ALL commentary to it; quotes stay verbatim**) · `docs/founding-principles.md` (**canonical; truth above all else — fixed forever**) · `runbook/PRODUCTION-RUNBOOK.md` (the phases you execute).
+
+**Writing rule (applies to every word of our own the book prints):** commentary is written to `A-Map-for-Mortals-VOICE.md` — plain, warm, a pleasure to read, never trying to sound smart. Held quotations are never touched. The voice serves the honesty contract (§2), never the reverse: if a warmer line would overstate or blur a claim, the plainer honest line wins.
 
 ## 2 · Honesty contract (non-negotiable)
 
