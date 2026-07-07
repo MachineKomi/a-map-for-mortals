@@ -32,11 +32,11 @@ deep-research corpus  ──►  wisdom graph (YAML in git)  ──►  the book
                              provenance & confidence           visually inspected
 ```
 
-Claude Code runs the pipeline autonomously — ingestion, primary-source verification, clustering, edge-building, curation, rendering — with an **adversarial second pass at every interpretive gate** and an escalation queue for the genuinely contestable. Every unit, claim, and edge in [`graph/`](graph/) records where it came from, who judged it, and how much to trust it. The audit trail lives in [`ops/`](ops/).
+Claude Code runs the pipeline autonomously — ingestion, primary-source verification, clustering, edge-building, curation, rendering — with an escalation queue for the genuinely contestable. High-stakes and contested interpretive calls get an adversarial second pass (an external or fresh-context adversary); routine calls get lead adjudication — the method is recorded per object, and applying that pass *at the publication gate* (not just at edge-building) is work still in progress (see `ops/adjudications/2026-07-07-external-review-round-3-response.md`). Units carry provenance and a verification tier; not every claim and edge yet records a separate judge-and-confidence trail — that transitional gap is tracked, not hidden. The audit trail lives in [`ops/`](ops/).
 
 ## Status
 
-**Production build.** The corpus holds **346 sourced units** across ~75 traditions (Greco-Roman, Confucian, Daoist, Buddhist, Hindu, Hebrew, Christian, Islamic, Zoroastrian, African, eight named Indigenous peoples, the moralists, the strategists, the poets — and the modern empirical literature, replication crisis included). The first full chapter, *The Building Years*, is rendered and reviewed: [`book/renders/building-years-v0.1.0.pdf`](book/renders/building-years-v0.1.0.pdf). Currently under external adversarial review before scaling further.
+**Production build, mid v0.4 transition — under active re-adjudication.** The corpus holds **346 sourced units** across ~75 traditions (Greco-Roman, Confucian, Daoist, Buddhist, Hindu, Hebrew, Christian, Islamic, Zoroastrian, African, eight named Indigenous peoples, the moralists, the strategists, the poets — and the modern empirical literature, replication crisis included). The first chapter, *The Building Years*, renders through a graph-gated traced model: [`book/renders/building-years-v0.2.0.pdf`](book/renders/building-years-v0.2.0.pdf) — a **trace-system proof with content still under re-adjudication**, not a finished chapter. Three rounds of external adversarial review have landed; the gate ledger and its honest current statuses live in [`STATE.md`](STATE.md).
 
 ## Layout
 

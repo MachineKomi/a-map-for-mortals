@@ -27,7 +27,9 @@ via `Graph.trace_sink`. Prohibited-phrase sweep runs over all non-assertion page
 - [x] by-090-close — done (a-0006/a-0007 + i-0025a; intent claim repaired)
 - [x] by-010-opener — done (corpus-bounded the 'wise disagree' claim)
 - [x] by-030-judgment — done (a-0008..a-0010; card labels store-derived; camp detail removed)
-- [x] by-070-suffering — done (a-0011..a-0016; Frazier design error repaired)
+- [x] by-070-suffering — traced (a-0011..a-0016). NOTE: the "Frazier design error repaired"
+      claim was itself wrong — corrected 2026-07-07 (round-3 P0-6); page needs the two-month
+      interval restored (done in a-0015) and a fuller empirical rebuild (queued).
 - [x] by-060-time — done (a-0017..a-0019)
 - [x] by-040-ambition — done (a-0020..a-0022; ungrounded flourish dropped)
 - [x] by-050-money — done (a-0023..a-0025; causal/threshold conflation repaired)
