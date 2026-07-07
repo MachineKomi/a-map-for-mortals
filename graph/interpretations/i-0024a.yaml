@@ -1,0 +1,17 @@
+id: i-0024a
+unit_ref: u-0024
+proposition: "Zosima contrasts love in dreams (craving quick, visible, applauded deeds) with love in action, which is laborious, unglamorous endurance sustained without audience."
+claim_type: prudential
+polarity: prescriptive
+scope:
+  speaker_scope: "the elder Zosima counselling Madame Khokhlakova (character speech)"
+  asserted_generality: "offered as spiritual counsel within the novel"
+  project_scope: conditional
+endorsement: {value: endorsed, basis: "the novel endorses Zosima's counsel while dramatising its difficulty (report 07; unit notes)"}
+alternative_readings:
+  - summary: "The passage says nothing about making the recipient independent — importing that (Maimonidean) proposition into Zosima is a forced convergence."
+    source_refs: ["external review P0-4 page-8 finding; e-0019 non-equivalence note"]
+adjudication_refs: ["ops/adjudications/2026-07-07-page08-pilot.md"]
+status: adjudicated
+prov: {minted_by: "claude-code:gateB-pilot-v1", date: 2026-07-07}
+notes: "The Garnett wording is held verbatim on u-0024 (S2-verified). This interpretation is the reading the page may use; the recipient-independence reading is recorded as EXCLUDED."

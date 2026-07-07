@@ -1,0 +1,13 @@
+id: a-0003
+kind: source-summary
+text: "Zosima aims elsewhere: at the giver's endurance — love as labour sustained without applause, against the quick, admired deeds of love in dreams."
+claim_refs: [c-0024]
+interpretation_refs: [i-0024a]
+mandatory_caveats:
+  - "aims elsewhere"
+prohibited_phrasings:
+  - "makes the recipient independent"
+  - "recipient's independence"
+status: approved-for-package-01v2
+adjudication_refs: ["ops/adjudications/2026-07-07-page08-pilot.md"]
+prov: {minted_by: "claude-code:gateB-pilot-v1", date: 2026-07-07}

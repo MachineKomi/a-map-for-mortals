@@ -144,6 +144,26 @@ def main():
                     errors.append(f"units/{uid}: domain '{dm}' not in graph/registries/domains.yaml "
                                   f"— extend the registry in the same commit (freeze, P0-4)")
 
+    # --- assertions store (Gate B): refs exist, approved statuses, caveats intact ---
+    adir = os.path.join(ROOT, "graph", "assertions")
+    assertions = {}
+    if os.path.isdir(adir):
+        for f in sorted(os.listdir(adir)):
+            if not f.endswith(".yaml"):
+                continue
+            a = yaml.safe_load(open(os.path.join(adir, f), encoding="utf-8"))
+            aid = str(a.get("id"))
+            if aid != os.path.splitext(f)[0]:
+                errors.append(f"assertions/{f}: id '{aid}' != filename")
+            assertions[aid] = a
+            for cr in (a.get("claim_refs") or []):
+                if cr not in claims:
+                    errors.append(f"assertions/{aid}: claim_ref {cr} does not exist")
+            for cav in a.get("mandatory_caveats") or []:
+                if str(cav).lower() not in str(a.get("text", "")).lower():
+                    errors.append(f"assertions/{aid}: text does not carry mandatory caveat '{cav}'")
+            check_dates(aid, a, "assertions")
+
     # --- page-spec validation + quote linter ---
     specdir = os.path.join(ROOT, "book", "page-specs")
     if os.path.isdir(specdir):
@@ -165,6 +185,19 @@ def main():
             for col in (spec.get("copy", {}).get("columns") or []):
                 if col.get("quote_ref"):
                     declared.add(col["quote_ref"])
+            for item in spec.get("body") or []:
+                if isinstance(item, dict) and "assert" in item:
+                    aid = item["assert"]
+                    if aid not in assertions:
+                        errors.append(f"{rel}: body assertion {aid} does not exist")
+                    elif not str(assertions[aid].get("status", "")).startswith("approved-"):
+                        errors.append(f"{rel}: body assertion {aid} is not approved (status: {assertions[aid].get('status')})")
+                if isinstance(item, dict) and "quote" in item:
+                    q = item["quote"]
+                    ref = q["ref"] if isinstance(q, dict) else q
+                    declared.add(ref)
+                    if ref not in claims:
+                        errors.append(f"{rel}: body quote ref {ref} does not exist")
             check_dates(f, spec, "page-specs")
 
             def lint(v, path):

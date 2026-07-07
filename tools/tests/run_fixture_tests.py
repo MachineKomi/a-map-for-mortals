@@ -77,6 +77,16 @@ copy:
 REG_TRAD = 'entries:\n  - raw: "fixture-tradition"\n    count: 1\n    canonical_id: null\n'
 REG_DOM = 'entries:\n  - raw: "fixture-domain"\n    count: 1\n    canonical_id: null\n'
 
+ASSERT_OK = """id: a-9001
+kind: source-summary
+text: "A fixture assertion carrying its caveat phrase."
+claim_refs: [c-9001]
+mandatory_caveats: ["caveat phrase"]
+prohibited_phrasings: []
+status: approved-for-fixtures
+prov: {minted_by: test, date: 2020-01-01}
+"""
+
 
 def build_store(root):
     for d in ("graph/units", "graph/claims", "graph/edges", "graph/registries", "book/page-specs"):
@@ -87,6 +97,8 @@ def build_store(root):
     w("graph/edges/e-9001.yaml", EDGE_OK)
     w("graph/registries/traditions.yaml", REG_TRAD)
     w("graph/registries/domains.yaml", REG_DOM)
+    os.makedirs(os.path.join(root, "graph", "assertions"), exist_ok=True)
+    w("graph/assertions/a-9001.yaml", ASSERT_OK)
     w("book/page-specs/fx-010.yaml", SPEC_OK)
     return w
 
@@ -116,6 +128,12 @@ CASES = [
     ("page-spec refs must exist",
      "book/page-specs/fx-010.yaml", SPEC_OK.replace("[c-9001]", "[c-4242]"),
      1, "ref c-4242 does not exist"),
+    ("assertion must carry its mandatory caveat",
+     "graph/assertions/a-9001.yaml", ASSERT_OK.replace("carrying its caveat phrase", "missing its promise"),
+     1, "does not carry mandatory caveat"),
+    ("page body assertion must exist",
+     "book/page-specs/fx-010.yaml", SPEC_OK + "body:\n  - assert: a-9002\n",
+     1, "body assertion a-9002 does not exist"),
     ("unregistered tradition rejected (registry freeze)",
      "graph/units/u-9001.yaml", UNIT_OK.replace("tradition: fixture-tradition", "tradition: brand-new-freetext"),
      1, "not in graph/registries/traditions.yaml"),

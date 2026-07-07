@@ -1,0 +1,35 @@
+id: d-0001
+target_ref: e-0019
+question: "Do Maimonides' highest charity and Zosima's active love express the same proposition about help, an analogy, or nothing shared?"
+protocol_note: "Registered after the external review identified the original CONVERGES_WITH typing as forced; this dossier records the bounded re-examination."
+source_frame:
+  included:
+    - "u-0012 (Mishneh Torah, Matnot Aniyim 10:7, Meszler 2003 CC-BY — S2 text-checked)"
+    - "u-0024 (Brothers Karamazov II.4, Garnett 1912 — S2 text-checked)"
+    - "Sefaria Mishneh Torah Gifts-to-the-Poor 10:7-14 hierarchy (rank structure)"
+    - "wave-1 report 05 and wave-1 report 07 unit contexts"
+  excluded:
+    - "broader Dostoevsky theology; Maimonidean philosophy beyond the charity ladder — out of scope for one page"
+findings:
+  textual:
+    - "Maimonides: highest level = strengthening to self-sufficiency; anonymity characterises lower levels (i-0012a)."
+    - "Zosima: love in action = labour and fortitude without audience; no statement about recipient independence (i-0024a)."
+  shared_feature: "Both reject easy, warm-feeling, self-flattering giving."
+  non_equivalence:
+    - "Maimonides' test is the RECIPIENT's resulting capacity; Zosima's test is the GIVER's endurance absent applause."
+    - "Substitution fails: one proposition cannot replace the other without changing the counsel."
+genealogy:
+  status: "shared scriptural background possible (Hebrew Bible); no documented textual dependence Dostoevsky→Maimonides for these passages; not further investigated"
+strongest_objection: "That 'both refuse self-flattering giving' is too thin a shared feature to print at all."
+response: "The shared feature is real, textually grounded in both passages, and printable AS AN ANALOGY with the two tests kept distinct — never as one claim."
+permitted_inferences:
+  - "The two sources are analogous in rejecting help that flatters the helper."
+  - "They provide two distinct tests of help (recipient capacity; giver endurance)."
+prohibited_inferences:
+  - "They point the same way / make one claim."
+  - "Zosima teaches that help should make the recipient independent."
+  - "This convergence is independent cross-tradition recurrence."
+what_would_change_assessment: "Evidence of Dostoevsky engaging the Maimonidean charity ladder (would move genealogy); a Zosima passage on recipient independence (would strengthen equivalence)."
+adjudication_refs: ["ops/adjudications/2026-07-07-page08-pilot.md"]
+status: complete
+prov: {minted_by: "claude-code:gateB-pilot-v1", date: 2026-07-07}

@@ -1,19 +1,22 @@
 id: by-080-help
 stage: building-years
 sequence: 80
-form: prose
-refs: [c-0012, c-0024, c-0025]
+form: traced-prose
+refs: [c-0012, c-0024]
 register: {reading_level: adult, density: mid, colour_energy: mid}
-verbatim_quotes:
-  - c-0012
-  - ref: c-0024
-    excerpt: "I am sorry I can say nothing more consoling to you, for love in action is a harsh and dreadful thing compared with love in dreams. … active love is labor and fortitude, and for some people too, perhaps, a complete science."
 copy:
   eyebrow: "FORK FIVE · THE HELP THAT FREES"
   title: "Raising others without owning them"
-  intro:
-    - "The Building Years are the raising years — of children, of juniors, of whatever you will one day hand over. Two voices, eight centuries apart and with no documented link, both refuse the easy, warm-feeling gift — though they aim at different targets."
-  outro:
-    - "Maimonides ranks the gift that strengthens — the loan, the partnership, the job that ends the asking — above every warmer-feeling kind; anonymity is a separate rung below. Zosima aims elsewhere: at the giver's endurance, love as labour rather than performance. An analogy joins them — both refuse help that flatters the helper — but they are cousins, not one claim, and they test your help in two different places."
-  lesson: "Two tests for your help: what it leaves the other able to do — and what it asks of you when nobody claps."
-notes: "Prose page (form variety already ≥6). Quotes: Maimonides via Meszler 2003 (CC-BY — print gate's licensed clause; attribution required in book credits) and Garnett's verified Dostoevsky. Russell's outward-interest claim (c-0019, attested-only) deliberately paraphrase-free: omitted rather than printed unverified. Purpose-mortality material removed at external review (indirect evidence; the canonical warning example)."
+body:
+  - editorial: "The Building Years are the raising years."
+  - assert: a-0001
+  - quote: c-0012
+  - quote:
+      ref: c-0024
+      excerpt: "love in action is a harsh and dreadful thing compared with love in dreams. … active love is labor and fortitude, and for some people too, perhaps, a complete science."
+  - assert: a-0002
+  - assert: a-0003
+  - assert: a-0004
+  - assert: a-0005
+    as: lesson
+notes: "GATE B PILOT — the first genuinely graph-derived page. Every substantive sentence is a publication assertion (graph/assertions/) with sources, mandatory caveats, and prohibited phrasings enforced at build; quotes pass the print gate; the page trace is generated to book/page-traces/. Editorial text is limited to the opening transition and furniture. Adjudication: ops/adjudications/2026-07-07-page08-pilot.md."

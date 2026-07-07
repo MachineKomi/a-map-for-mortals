@@ -1,0 +1,13 @@
+id: a-0002
+kind: source-summary
+text: "Maimonides ranks the gift that strengthens — the loan, the partnership, the job that ends the asking — above every warmer-feeling kind; anonymity marks a separate rung below."
+claim_refs: [c-0012]
+interpretation_refs: [i-0012a]
+mandatory_caveats:
+  - "anonymity marks a separate rung"
+prohibited_phrasings:
+  - "anonymous, strengthening gift"
+  - "the anonymous gift is highest"
+status: approved-for-package-01v2
+adjudication_refs: ["ops/adjudications/2026-07-07-page08-pilot.md"]
+prov: {minted_by: "claude-code:gateB-pilot-v1", date: 2026-07-07}

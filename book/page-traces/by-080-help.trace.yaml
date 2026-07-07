@@ -1,0 +1,79 @@
+page: by-080-help
+form: traced-prose
+edition: building-years-v0.1.1
+blocks:
+- type: editorial-furniture
+  field: eyebrow
+- type: editorial-furniture
+  field: title
+- type: editorial-transition
+  chars: 41
+- type: assertion:historical-interpretive
+  id: a-0001
+  sources:
+    claim_refs:
+    - c-0012
+    - c-0024
+    relation_refs:
+    - e-0019
+    dossier_ref: d-0001
+  adjudication:
+  - ops/adjudications/2026-07-07-page08-pilot.md
+  status: approved-for-package-01v2
+- type: verbatim-quote
+  claim: c-0012
+  unit: u-0012
+  gate:
+    attribution: verified-primary
+    copyright: in-copyright
+    checked_against: 'https://www.sefaria.org/Mishneh_Torah,_Gifts_to_the_Poor.10.7 · Torat Emet 363 (Public Domain)
+      · matched text: ''מַעֲלָה '
+  excerpted: false
+- type: verbatim-quote
+  claim: c-0024
+  unit: u-0024
+  gate:
+    attribution: verified-primary
+    copyright: public-domain
+    checked_against: 'https://www.gutenberg.org/cache/epub/28054/pg28054.txt · Project Gutenberg #28054, The Brothers
+      Karamazov, trans. Consta'
+  excerpted: true
+- type: assertion:source-summary
+  id: a-0002
+  sources:
+    claim_refs:
+    - c-0012
+    interpretation_refs:
+    - i-0012a
+  adjudication:
+  - ops/adjudications/2026-07-07-page08-pilot.md
+  status: approved-for-package-01v2
+- type: assertion:source-summary
+  id: a-0003
+  sources:
+    claim_refs:
+    - c-0024
+    interpretation_refs:
+    - i-0024a
+  adjudication:
+  - ops/adjudications/2026-07-07-page08-pilot.md
+  status: approved-for-package-01v2
+- type: assertion:relation-summary
+  id: a-0004
+  sources:
+    relation_refs:
+    - e-0019
+    dossier_ref: d-0001
+  adjudication:
+  - ops/adjudications/2026-07-07-page08-pilot.md
+  status: approved-for-package-01v2
+- type: assertion:editorial-synthesis
+  id: a-0005
+  sources:
+    claim_refs:
+    - c-0012
+    - c-0024
+    dossier_ref: d-0001
+  adjudication:
+  - ops/adjudications/2026-07-07-page08-pilot.md
+  status: approved-for-package-01v2

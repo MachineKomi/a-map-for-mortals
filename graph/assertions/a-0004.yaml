@@ -1,0 +1,14 @@
+id: a-0004
+kind: relation-summary
+text: "An analogy joins them — both refuse help that flatters the helper — but they are cousins, not one claim, and they test your help in two different places."
+relation_refs: [e-0019]
+dossier_ref: d-0001
+mandatory_caveats:
+  - "cousins, not one claim"
+prohibited_phrasings:
+  - "converge"
+  - "the same claim"
+  - "independently arrived"
+status: approved-for-package-01v2
+adjudication_refs: ["ops/adjudications/2026-07-07-page08-pilot.md"]
+prov: {minted_by: "claude-code:gateB-pilot-v1", date: 2026-07-07}

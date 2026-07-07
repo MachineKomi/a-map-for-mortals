@@ -1,0 +1,17 @@
+id: i-0012a
+unit_ref: u-0012
+proposition: "Maimonides ranks eight levels of charity; the highest is strengthening the recipient (gift, loan, partnership, employment) until they no longer need to ask; mutual anonymity characterises the level below, not the highest."
+claim_type: normative
+polarity: prescriptive
+scope:
+  speaker_scope: "Maimonides, codifying Jewish law (Mishneh Torah)"
+  asserted_generality: "within halakhic charity ethics"
+  project_scope: conditional
+endorsement: {value: "n/a", basis: "legal codification in the author's own voice"}
+alternative_readings:
+  - summary: "Popular retellings collapse the strengthening level and the anonymity levels into one 'anonymous strengthening gift' — a conflation of ranks."
+    source_refs: ["external review P0-4 page-8 finding; Sefaria Mishneh Torah, Gifts to the Poor 10:7-14 hierarchy"]
+adjudication_refs: ["ops/adjudications/2026-07-07-page08-pilot.md"]
+status: adjudicated
+prov: {minted_by: "claude-code:gateB-pilot-v1", date: 2026-07-07}
+notes: "First interpretation object in the v0.4 pilot. The unit's held quotation covers level 8 only; the rank structure (anonymity as separate rungs 7 and below) is documented at the cited Sefaria hierarchy — printed claims about ranks must respect it."

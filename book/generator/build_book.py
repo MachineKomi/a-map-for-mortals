@@ -44,7 +44,7 @@ class PrintGateError(RuntimeError):
 
 class Graph:
     def __init__(self):
-        self.units, self.claims = {}, {}
+        self.units, self.claims, self.assertions = {}, {}, {}
         for d, store in (("units", self.units), ("claims", self.claims)):
             p = os.path.join(ROOT, "graph", d)
             for f in sorted(os.listdir(p)):
@@ -52,6 +52,25 @@ class Graph:
                     continue
                 data = yaml.safe_load(open(os.path.join(p, f), encoding="utf-8"))
                 store[data["id"]] = data
+
+        adir = os.path.join(ROOT, "graph", "assertions")
+        if os.path.isdir(adir):
+            for f in sorted(os.listdir(adir)):
+                if f.endswith(".yaml"):
+                    data = yaml.safe_load(open(os.path.join(adir, f), encoding="utf-8"))
+                    self.assertions[data["id"]] = data
+
+    def approved_assertion(self, aid):
+        a = self.assertions.get(aid)
+        if a is None:
+            raise PrintGateError(f"ASSERTION GATE: {aid} does not exist")
+        if not str(a.get("status", "")).startswith("approved-"):
+            raise PrintGateError(f"ASSERTION GATE: {aid} status '{a.get('status')}' is not approved")
+        text = a.get("text", "")
+        for cav in a.get("mandatory_caveats") or []:
+            if cav.lower() not in text.lower():
+                raise PrintGateError(f"ASSERTION GATE: {aid} text no longer carries mandatory caveat '{cav}'")
+        return a
 
     def unit_for(self, cid):
         c = self.claims[cid]
@@ -303,6 +322,62 @@ def quote_block(g, q):
     return f'<div class="bigq">{esc(text)}<div class="qcredit">— {esc(credit)}</div></div>'
 
 
+def render_traced_prose(spec, g):
+    """Gate B form: every substantive block resolves from graph objects; returns (html, trace)."""
+    c = spec.get("copy", {})
+    body = [f'<div class="page tp" id="{esc(spec["id"])}">']
+    trace = {"page": spec["id"], "form": "traced-prose", "edition": EDITION, "blocks": []}
+    if c.get("eyebrow"):
+        body.append(f'<div class="eyebrow">{esc(c["eyebrow"])}</div>')
+        trace["blocks"].append({"type": "editorial-furniture", "field": "eyebrow"})
+    if c.get("title"):
+        body.append(f'<h2 class="title">{esc(c["title"])}</h2>')
+        trace["blocks"].append({"type": "editorial-furniture", "field": "title"})
+    used_assertions = []
+    page_text_parts = []
+    for item in spec.get("body", []):
+        if "editorial" in item:
+            body.append(f'<p>{item["editorial"]}</p>')
+            page_text_parts.append(item["editorial"])
+            trace["blocks"].append({"type": "editorial-transition", "chars": len(item["editorial"])})
+        elif "assert" in item:
+            a = g.approved_assertion(item["assert"])
+            used_assertions.append(a)
+            page_text_parts.append(a["text"])
+            if item.get("as") == "lesson":
+                body.append(f'<div class="lesson">{esc(a["text"])}</div>')
+            else:
+                body.append(f'<p>{esc(a["text"])}</p>')
+            trace["blocks"].append({
+                "type": f"assertion:{a.get('kind')}", "id": a["id"],
+                "sources": {k: a.get(k) for k in ("claim_refs", "interpretation_refs", "relation_refs", "dossier_ref") if a.get(k)},
+                "adjudication": a.get("adjudication_refs"), "status": a.get("status")})
+        elif "quote" in item:
+            q = item["quote"]
+            cid, excerpt = (q["ref"], q.get("excerpt")) if isinstance(q, dict) else (q, None)
+            text, credit = g.printable_quote(cid, excerpt)
+            page_text_parts.append(text)
+            body.append(f'<div class="bigq">{esc(text)}<div class="qcredit">— {esc(credit)}</div></div>')
+            u = g.unit_for(cid)
+            trace["blocks"].append({
+                "type": "verbatim-quote", "claim": cid, "unit": u["id"],
+                "gate": {"attribution": u.get("attribution_confidence"),
+                         "copyright": u.get("copyright_flag"),
+                         "checked_against": (u.get("verification") or {}).get("checked_against", "")[:120]},
+                "excerpted": bool(excerpt)})
+    # prohibited-phrasings sweep: guards all page text that is NOT pre-approved assertion
+    # wording (approved assertions were adjudicated with their exact text — including
+    # negated caveats like 'not one claim' — and cannot violate their own prohibitions)
+    approved_texts = [a["text"].lower() for a in used_assertions]
+    unapproved = " ".join(s for s in page_text_parts if s.lower() not in approved_texts).lower()
+    for a in used_assertions:
+        for ph in a.get("prohibited_phrasings") or []:
+            if ph.lower() in unapproved:
+                raise PrintGateError(f"ASSERTION GATE: prohibited phrasing '{ph}' (per {a['id']}) appears in unapproved page text on {spec['id']}")
+    body.append("</div>")
+    return "".join(body), trace
+
+
 def render_page(spec, g):
     c = spec.get("copy", {})
     body = [f'<div class="page" id="{esc(spec["id"])}">']
@@ -415,6 +490,11 @@ em {{ color:{INK}; }}
 .snote {{ text-align:center; font-family:'Lora'; font-style:italic; font-size:10pt;
   color:{INK3}; margin-top:6px; }}
 
+.tp p {{ margin:0 0 8px; }}
+.tp .bigq {{ margin:4px 0 11px; }}
+.tp .qcredit {{ margin-top:4px; }}
+.tp .lesson {{ margin-top:10px; }}
+
 /* comparison columns */
 .compare {{ display:grid; grid-template-columns:1fr 1fr; gap:18px; margin-top:8px; }}
 .ccol {{ border-top:3px solid; padding-top:10px; break-inside:avoid; }}
@@ -439,8 +519,16 @@ def main():
     if not specs:
         print("No page-specs found - nothing to build.")
         return 1
+    traces = []
     try:
-        pages = [render_page(s, g) for s in specs]
+        pages = []
+        for s in specs:
+            if s.get("form") == "traced-prose":
+                html_page, trace = render_traced_prose(s, g)
+                pages.append(html_page)
+                traces.append(trace)
+            else:
+                pages.append(render_page(s, g))
     except PrintGateError as e:
         print(str(e))
         return 1
@@ -455,6 +543,13 @@ def main():
     if r.returncode != 0:
         print("WeasyPrint failed:\n", r.stderr[-3000:])
         return 1
+    tdir = os.path.join(ROOT, "book", "page-traces")
+    os.makedirs(tdir, exist_ok=True)
+    for tr in traces:
+        with open(os.path.join(tdir, f"{tr['page']}.trace.yaml"), "w", encoding="utf-8") as fh:
+            fh.write(yaml.safe_dump(tr, allow_unicode=True, sort_keys=False, width=110))
+    if traces:
+        print(f"Page traces written: {[tr['page'] for tr in traces]}")
     print(f"Rendered {len(specs)} page-specs -> {pp}")
     print("NOW RUN THE QA LOOP: python tools/pdf_to_png.py \"%s\" \"%s\" --dpi 110 - and view every page."
           % (pp, os.path.join(RENDERS, "qa")))
