@@ -3,7 +3,7 @@ claim_id: null
 type: Practice
 paraphrase: "Discipline your contradictions into a whole — create yourself — rather than amputating what does not fit."
 quotation: null   # German of Twilight §49 not held in the report
-quotation_translation: "a spirit thus emancipated stands in the midst of the universe with a joyful and trusting fatalism... such a faith is the highest of all possible faiths: I have baptised it with the name of Dionysos."
+quotation_translation: "Such a spirit, become free, appears in the middle of the universe with a feeling of cheerful and confident fatalism; he believes that only individual things are bad, and that as a whole the universe justifies and, affirms itself—He no longer denies.... But such a faith is the highest Of all faiths: I christened it with the name of Dionysus."
 source:
   author: Goethe (as characterised by Nietzsche)
   work: Twilight of the Idols
@@ -24,14 +24,14 @@ life_stages: [adult, midlife]
 endorsement: n/a
 attribution_confidence: attested
 verification:
-  status: pending-primary
-  method: "attested by wave-1 report; wording not yet checked against a primary edition"
-  checked_against: null
-  date: null
+  status: verified-primary
+  method: "Gate C audit follow-up: the report-supplied English ('joyful and trusting fatalism... baptised... Dionysos' — a Kaufmann/Hollingdale-style rendering) did NOT match Ludovici's PD text and was replaced with Ludovici's wording matched verbatim against Gutenberg #52263 (italic underscores of the etext dropped; the transcription's apparent OCR artefacts 'justifies and, affirms' and 'highest Of all faiths' are retained as-transcribed — check against a print scan before any book use)."
+  checked_against: "Twilight of the Idols, tr. Anthony M. Ludovici, 'Skirmishes in a War with the Age' §49, as transcribed in Project Gutenberg eBook #52263, https://www.gutenberg.org/ebooks/52263 — matched text: 'Such a spirit, _become free_, appears in the middle of the universe with a feeling of cheerful and confident fatalism; he believes that only individual things are bad, and that as a whole the universe justifies and, affirms itself—_He no longer denies_.... But such a faith is the highest Of all faiths: I christened it with the name of Dionysus.'"
+  date: 2026-07-07
 copyright_flag: public-domain
 prov:
   source_report: corpus/reports/wave-1/03-nietzsche.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
   date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
-notes: "Report grade: 'verified (approval); exact §49 wording partially verified'. The quotation is NIETZSCHE'S characterisation of Goethe, not Goethe's own words; also held: Goethe 'disciplined himself into wholeness, he created himself' (§49) and the originally planned chapter close 'Goethe is the last German before whom I feel reverence.' STAGE-2: report flags the full §49 verbatim as only partially captured — confirm against Gutenberg #52263 before print (translator/section/year firmly verified per report, hence PD flag). Translation-title caveat: Ludovici's chapter 'Skirmishes in a War with the Age' = Kaufmann/Hollingdale 'Skirmishes/Expeditions of an Untimely Man'; section numbers identical. Re-derivation: conditionality set conditional — presented as a rare exemplary achievement, not universal counsel; life_stages derived (extract gave none)."
+notes: "Report grade: 'verified (approval); exact §49 wording partially verified'. The quotation is NIETZSCHE'S characterisation of Goethe, not Goethe's own words. RESOLVED 2026-07-07 (Gate C follow-up): §49 confirmed against Gutenberg #52263 and the held wording replaced with Ludovici's verbatim (see verification block). Companion phrases in Ludovici's actual text: 'he disciplined himself into a harmonious whole, he _created_ himself' (§49) and 'Goethe is the last German whom I respect' (§51) — the report's 'last German before whom I feel reverence' is a Kaufmann-style rendering NOT present in this PD edition; never print it against Ludovici. Translation-title caveat: Ludovici's chapter 'Skirmishes in a War with the Age' = Kaufmann/Hollingdale 'Skirmishes/Expeditions of an Untimely Man'; section numbers identical. Re-derivation: conditionality set conditional — presented as a rare exemplary achievement, not universal counsel; life_stages derived (extract gave none)."

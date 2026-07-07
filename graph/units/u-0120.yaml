@@ -25,7 +25,7 @@ endorsement: n/a
 attribution_confidence: attested
 verification:
   status: pending-primary
-  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  method: "attested by wave-1 report; wording not yet checked against a primary edition. GATE C FLAG (2026-07-07): the held French may be a back-translation from the circulating English (which is also misattributed to Pascal) — Gate F must locate the aphorism in a primary Pensées edition before ANY use, and drop the quotation if it cannot be located; the paraphrase-level attribution to Joubert remains probable per report"
   checked_against: null
   date: null
 copyright_flag: unknown

@@ -3,7 +3,7 @@ claim_id: null
 type: Practice
 paraphrase: "Learn, more and more, to see what is necessary in things as beautiful."
 quotation: null   # German of GS §276 not held in the report
-quotation_translation: "I want to learn more and more to see as beautiful what is necessary in things; then I shall be one of those who makes things beautiful. Amor fati: let that be my love henceforth!"
+quotation_translation: "I want more and more to perceive the necessary characters in things as the beautiful:—I shall thus be one of those who beautify things. Amor fati: let that henceforth be my love!"
 source:
   author: Nietzsche
   work: The Gay Science
@@ -24,14 +24,14 @@ life_stages: [adult, midlife]
 endorsement: n/a
 attribution_confidence: attested
 verification:
-  status: pending-primary
-  method: "attested by wave-1 report; wording not yet checked against a primary edition"
-  checked_against: null
-  date: null
-copyright_flag: unknown
+  status: verified-primary
+  method: "Gate C audit follow-up: the report-supplied English (resembling the in-copyright Kaufmann rendering) did NOT match Thomas Common's PD text and was replaced with Common's wording matched verbatim against Gutenberg #52124 (italic underscores of the etext dropped). Previously held wording, now dropped: 'I want to learn more and more to see as beautiful what is necessary in things; then I shall be one of those who makes things beautiful. Amor fati: let that be my love henceforth!'"
+  checked_against: "The Joyful Wisdom, tr. Thomas Common, §276, as transcribed in Project Gutenberg eBook #52124, https://www.gutenberg.org/ebooks/52124 — matched text: 'I want more and more to perceive the necessary characters in things as the beautiful:—I shall thus be one of those who beautify things. _Amor fati:_ let that henceforth be my love!'"
+  date: 2026-07-07
+copyright_flag: public-domain
 prov:
   source_report: corpus/reports/wave-1/03-nietzsche.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
   date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
-notes: "Report grade: verified. Companion to the Ecce Homo amor fati declaration (separate unit). COPYRIGHT CAVEAT: report credits Thomas Common (1910), whose PD version is titled 'Joyful Wisdom' and uses older diction; the English held here closely resembles the in-copyright Kaufmann rendering — line-match against Gutenberg #52124 (Joyful Wisdom) before any print use; a PD alternative (Common) exists, never fabricate its wording. Re-derivation: extract typed this Practice (a resolution to practise a way of seeing) — retained; life_stages derived (extract gave none)."
+notes: "Report grade: verified. Companion to the Ecce Homo amor fati declaration (separate unit). RESOLVED 2026-07-07 (Gate C follow-up): the copyright caveat was confirmed — the report's English matched Kaufmann's diction, not Common's — and the held wording is now Common's PD text line-matched against Gutenberg #52124; see verification block for the dropped wording. Re-derivation: extract typed this Practice (a resolution to practise a way of seeing) — retained; life_stages derived (extract gave none)."

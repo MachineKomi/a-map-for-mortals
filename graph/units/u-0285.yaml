@@ -7,9 +7,9 @@ quotation_translation: null   # the English IS the original: FitzGerald's Victor
 source:
   author: "Edward FitzGerald"
   work: "Rubaiyat of Omar Khayyam"
-  passage: "quatrain XII (5th ed.); the 1st ed. (1859) reads 'Here with a Loaf of Bread beneath the Bough, / A Flask of Wine, a Book of Verse'"
+  passage: "quatrain XII (5th ed.); the 1st ed. (1859) has it as quatrain XI and reads 'Here with a Loaf of Bread beneath the Bough, / A Flask of Wine, a Book of Verse'"
   translator: null
-  edition_year: null   # report cites the 1859/1st and 1879/4th eds; the wording held is the 5th-ed. text — pin the edition at verification
+  edition_year: 1889   # 5th ed. — standard dating of the posthumous edition (FitzGerald d. 1883); year not stated in the checked transcription, so bibliographic rather than wording-verified
   language: en
   url: null
   urn: null
@@ -24,10 +24,10 @@ life_stages: [youth, young-adult, adult]
 endorsement: n/a
 attribution_confidence: dubious
 verification:
-  status: pending-primary
-  method: "attested by wave-2 report; wording not yet checked against a primary edition — the 1st- and 5th-edition texts differ materially, so the edition must be pinned"
-  checked_against: null
-  date: null
+  status: verified-primary
+  method: "held quotation matched verbatim (typographic dashes normalised: em-dash for the etext's double hyphen) against the Fifth Edition text, quatrain XII, in Project Gutenberg #246; the 1st-ed. variant (quatrain XI) confirmed in the same etext. Gate C audit follow-up — the audit flagged the unpinned edition."
+  checked_against: "The Rubaiyat of Omar Khayyam, tr. Edward FitzGerald, Fifth Edition text as transcribed in Project Gutenberg eBook #246, https://www.gutenberg.org/ebooks/246 — matched text: 'A Book of Verses underneath the Bough, / A Jug of Wine, a Loaf of Bread--and Thou / Beside me singing in the Wilderness-- / Oh, Wilderness were Paradise enow!'"
+  date: 2026-07-07
 copyright_flag: public-domain
 prov:
   source_report: corpus/reports/wave-2/06-persian.md

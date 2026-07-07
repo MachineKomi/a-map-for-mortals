@@ -1,7 +1,7 @@
 id: u-0345
 claim_id: null
 type: Virtue
-paraphrase: "Over time, truth-telling serves you better than deception."
+paraphrase: "The proverb's counsel: over time, truth-telling serves you better than deception."
 quotation: "Our grosse conceipts, who think honestie the best policie."
 quotation_translation: null   # English is the original language
 source:
@@ -21,8 +21,8 @@ polarity: prescriptive
 conditionality: contested
 life_domains: [relationships, business, ethics]
 life_stages: [youth, young-adult, adult, midlife, elder]
-endorsement: n/a
-attribution_confidence: attested
+endorsement: undercut
+attribution_confidence: communal
 verification:
   status: pending-primary
   method: "attested by wave-2 report; wording not yet checked against a primary edition"
@@ -34,4 +34,4 @@ prov:
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
   date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
-notes: "Report label: probable — held at attested per S1 rules. ATTESTATION CAVEAT: Sandys is the FIRST ATTESTATION of the phrase, not its author-as-endorser — his sentence embeds it in a critical clause ('Our grosse conceipts, who think honestie the best policie'), so the 1599 context arguably disparages the merely prudential reading; the proverb 'honesty is the best policy' itself circulates communally in English. Register discipline: quotation is a literary attestation; the unit's wisdom is the proverb it attests. DILEMMA POLE: honesty pole of fork honesty-vs-tact — report reconciliation principle: whether truth's benefit outweighs relational harm determines the pole. Cross-cultural weighting (report): the tact/face-saving counter-pole is proverbially weak in English but strong in East Asian traditions — a genuine weighting difference, so corpus frequency must not be read as global frequency. Life_stages: report 'all', rendered as five. Cultivates honesty/integrity; guards against deceit and the web-of-lies."
+notes: "Report label: probable. GATE C REPAIR (2026-07-07, adjudicated via fresh-context tie-break — see ops/audits/2026-07-07-gateC-results.md): paraphrase re-subjected to the proverb; endorsement set 'undercut' (Sandys' sentence disparages the merely prudential reading); attribution_confidence re-derived 'attested'→'communal' to match the sibling proverb units — the wisdom is the communal proverb, Sandys is its first-attestation locator, retained in source. ATTESTATION CAVEAT: Sandys is the FIRST ATTESTATION of the phrase, not its author-as-endorser — his sentence embeds it in a critical clause ('Our grosse conceipts, who think honestie the best policie'), so the 1599 context arguably disparages the merely prudential reading; the proverb 'honesty is the best policy' itself circulates communally in English. Register discipline: quotation is a literary attestation; the unit's wisdom is the proverb it attests. DILEMMA POLE: honesty pole of fork honesty-vs-tact — report reconciliation principle: whether truth's benefit outweighs relational harm determines the pole. Cross-cultural weighting (report): the tact/face-saving counter-pole is proverbially weak in English but strong in East Asian traditions — a genuine weighting difference, so corpus frequency must not be read as global frequency. Life_stages: report 'all', rendered as five. Cultivates honesty/integrity; guards against deceit and the web-of-lies."
