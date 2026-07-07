@@ -1,0 +1,59 @@
+page: by-050-money
+form: threshold-curve
+edition: building-years-v0.1.1
+blocks:
+- type: assertion:source-summary
+  id: a-0023
+  field: intro
+  sources:
+    claim_refs:
+    - c-0013
+  adjudication:
+  - ops/adjudications/2026-07-07-gateE-by040-050.md
+  status: approved-for-package-01v2
+- type: editorial
+  field: band_label
+  chars: 29
+- type: editorial
+  field: main_label
+  chars: 25
+- type: editorial
+  field: minority_label
+  chars: 28
+- type: editorial
+  field: caption
+  chars: 90
+- type: assertion:source-summary
+  id: a-0024
+  field: caption
+  sources:
+    claim_refs:
+    - c-0026
+    - c-0027
+  adjudication:
+  - ops/adjudications/2026-07-07-gateE-by040-050.md
+  status: approved-for-package-01v2
+- type: assertion:editorial-synthesis
+  id: a-0025
+  field: outro
+  sources:
+    claim_refs:
+    - c-0013
+    - c-0026
+    - c-0027
+    relation_refs:
+    - e-0011
+    - e-0012
+  adjudication:
+  - ops/adjudications/2026-07-07-gateE-by040-050.md
+  status: approved-for-package-01v2
+- type: verbatim-quote
+  claim: c-0013
+  unit: u-0013
+  gate:
+    attribution: verified-primary
+    copyright: public-domain
+    checked_against: 'https://www.gutenberg.org/cache/epub/10741/pg10741.txt · The Essays of Arthur Schopenhauer:
+      The Wisdom of Life, trans. T'
+  excerpted: false
+furniture_strings: 4

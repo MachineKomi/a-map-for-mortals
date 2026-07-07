@@ -1,0 +1,14 @@
+id: a-0024
+kind: source-summary
+text: "The 2023 adversarial collaboration (Killingsworth, Kahneman &amp; Mellers): experienced well-being rises with log-income for most people, with <b>no observed plateau</b>; flattening appears only for an unhappy minority (~15–20%), and the threshold itself is contested — a 2024 reanalysis contests where, and whether, it exists. The data are observational, so the causal reading is contested too. <b>Association, not destiny.</b>"
+claim_refs: [c-0026, c-0027]
+mandatory_caveats:
+  - "contested"
+  - "Association, not destiny"
+prohibited_phrasings:
+  - "money can't buy happiness"
+  - "money buys happiness"
+status: approved-for-package-01v2
+adjudication_refs: ["ops/adjudications/2026-07-07-gateE-by040-050.md"]
+prov: {minted_by: "claude-code:gateE-v1", date: 2026-07-07}
+notes: "REPAIRS a v0.3 conflation: the caption credited 'a 2024 reanalysis' with arguing 'the causal reading was never earned', but per u-0027's notes Rohrer & Wenz 2024 contest the THRESHOLD ('not estimated in Killingsworth's data'); the causal caution belongs to the data's observational design (u-0026). Both cautions kept, correctly attributed. Figure labels on this page are editorial compressions of this assertion."

@@ -2,6 +2,7 @@ id: by-050-money
 stage: building-years
 sequence: 50
 form: threshold-curve
+traced: true
 refs: [c-0026, c-0027, c-0013]
 register: {reading_level: adult, density: high, colour_energy: low}
 verbatim_quotes: [c-0013]
@@ -9,13 +10,15 @@ copy:
   eyebrow: "FORK TWO · WHAT THE STUDIES SAY ABOUT MONEY"
   title: "What money does — a sketch of the findings"
   intro:
-    - "Schopenhauer's side of the fork claims that happiness rests on what one <em>is</em>, not what one has:"
+    - assert: a-0023
   x_label: "household income (log scale)"
   y_label: "experienced well-being"
-  band_label: "contested\nthreshold\n(~$100k?)"
-  main_label: "most people: keeps rising"
-  minority_label: "unhappiest ~15–20%: flattens"
-  caption: "<b>Schematic curves — the shapes illustrate the findings' direction, not plotted data.</b> The 2023 adversarial collaboration (Killingsworth, Kahneman &amp; Mellers): experienced well-being rises with log-income for most people, with <b>no observed plateau</b>; flattening appears only for an unhappy minority, and the threshold itself is contested. Causal direction remains open — a 2024 reanalysis argues the causal reading was never earned. <b>Association, not destiny.</b>"
+  band_label: {editorial: "contested\nthreshold\n(~$100k?)"}
+  main_label: {editorial: "most people: keeps rising"}
+  minority_label: {editorial: "unhappiest ~15–20%: flattens"}
+  caption:
+    - editorial: "<b>Schematic curves — the shapes illustrate the findings' direction, not plotted data.</b>"
+    - assert: a-0024
   outro:
-    - "So the old claim survives — qualified: the association is real and rising; where it flattens is contested; and whether money <em>causes</em> the difference remains genuinely open. Neither <em>money can't buy happiness</em> nor <em>it can</em> — the honest sentence is longer."
-notes: "Threshold-curve form (§6 C). The qualifier structure mirrors edges e-0011/e-0012 exactly."
+    - assert: a-0025
+notes: "Threshold-curve form (§6 C). Migrated at Gate E (ops/adjudications/2026-07-07-gateE-by040-050.md): findings caption gated as a-0024 — which repairs a v0.3 conflation (the 2024 reanalysis contests the threshold; the causal caution comes from the observational design); synthesis outro gated as a-0025, structured by e-0011/e-0012. Figure labels are editorial compressions of a-0024; axis labels are furniture. The qualifier structure mirrors edges e-0011/e-0012 exactly."

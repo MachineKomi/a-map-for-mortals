@@ -1,0 +1,13 @@
+id: a-0025
+kind: editorial-synthesis
+text: "So the old claim survives — qualified: the association is real and rising; where it flattens is contested; and whether money <em>causes</em> the difference remains genuinely open. Neither <em>money can't buy happiness</em> nor <em>it can</em> — the honest sentence is longer."
+claim_refs: [c-0013, c-0026, c-0027]
+relation_refs: [e-0011, e-0012]
+mandatory_caveats:
+  - "qualified"
+  - "genuinely open"
+prohibited_phrasings: []
+status: approved-for-package-01v2
+adjudication_refs: ["ops/adjudications/2026-07-07-gateE-by040-050.md"]
+prov: {minted_by: "claude-code:gateE-v1", date: 2026-07-07}
+notes: "The page's synthesis, structured exactly by e-0011/e-0012 (both QUALIFIES edges: the findings condition the Schopenhauer claim, they do not refute it)."
