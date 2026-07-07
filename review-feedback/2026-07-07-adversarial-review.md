@@ -8,6 +8,8 @@
 
 **Review posture:** constructive but deliberately hostile to unsupported confidence
 
+**Companion proposal:** `2026-07-07-methodology-v0.4-proposal.md` develops the recommended hybrid research model, six-layer graph architecture, adjudication roles, validation tests, and migration sequence.
+
 ## Executive verdict
 
 The project has a strong and unusually explicit ethical centre. Its best decisions are worth preserving: units are separated from canonical claims; source uncertainty is represented rather than hidden; translation mistakes have actually been caught; literary endorsement is modelled; dissent and transmission are treated as data; the CARE instinct is correct; and the rendered chapter is visually assured.
