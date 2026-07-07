@@ -8,17 +8,16 @@ copy:
   eyebrow: "FORK FOUR · THE WEIGHT THAT STRENGTHENS?"
   title: "Does the load make you stronger?"
   intro:
-    - "By midlife everyone is carrying something that was never chosen. The oldest consolation on record says the carrying itself teaches. This page prints that claim <em>with its asterisk</em> — because the evidence cuts both ways."
+    - "By midlife everyone is carrying something that was never chosen. One of the oldest consolations this corpus holds says the carrying itself teaches. This page prints that claim <em>with its asterisk</em> — because the evidence cuts both ways."
   kicker: "WISDOM NODE · CONTESTED · PRINTED WITH ITS ASTERISK"
   claim_label: "Suffering can strengthen and can teach — sometimes, for some, and less often than survivors report."
   voices:
-    - {name: "Aeschylus' chorus", meta: "Agamemnon 176–183 · verified, Smyth", gloss: "Wisdom comes alone through suffering — yet the trilogy's own cycle of vengeance learns nothing."}
-    - {name: "Nietzsche", meta: "Twilight of the Idols · verified, Ludovici · lineage from the Greeks", gloss: "That which does not kill me, makes me stronger — restricted, in his own gloss, to the already-strong."}
-  bend: "The chorus states a law; the play breaks it. Nietzsche's maxim is quoted as a universal; he wrote it as a conditional. Neither voice reached the thought independently — the philologist read the tragedian. Lineage, not convergence."
+    - {name: "Aeschylus' chorus", meta: "Agamemnon 176–183 · text checked to Smyth", gloss: "Suffering as the fixed road to understanding — sung inside a cycle of vengeance that only a court, at the trilogy's end, brings to a halt."}
+    - {name: "Nietzsche", meta: "Twilight of the Idols · text checked to Ludovici · lineage from the Greeks", gloss: "The blow that fails to kill can strengthen — restricted, in his own gloss, to the already-strong."}
+  bend: "The chorus states a law; the trilogy complicates it — the killing stops when a court replaces vengeance, not when suffering has taught enough. Nietzsche's maxim is quoted as a universal; he wrote it as a conditional. And neither voice reached the thought independently — the philologist read the tragedian. Lineage, not convergence."
   evidence_head: "What the studies add"
   evidence:
-    - "Retrospective 'growth after trauma' correlates poorly with measured change; perceived growth tracked increased distress (Frazier 2009; grade B/C)."
-    - "The modal trajectory after adversity is resilience — return to baseline — not growth and not collapse (~66% across 54 studies; Galatzer-Levy 2018)."
+    - "Retrospective 'growth after trauma' correlated poorly with measured change in one two-month study of 122 US students (Frazier 2009; grade B/C) — a measurement caution, not a verdict on every survivor's report."
+    - "Across 54 studies of varied stressors, the most common trajectory was resilience — staying near baseline as each study defined it — not growth and not collapse (~66%; Galatzer-Levy 2018)."
   pill: "survives scrutiny: LOW · attribution: verified · print only with this asterisk"
-  caption: "The same card form as the judgment node — carrying a much weaker claim, and saying so. The trust label is the point."
 notes: "The honest-asterisk showpiece: renders e-0006 (lineage), e-0013 (resilience qualifier), e-0014/e-0015 (undermining) in one card. Claim label is the qualified composite, not Nietzsche's words."

@@ -3,6 +3,7 @@ stage: building-years
 sequence: 30
 form: node-card
 refs: [c-0002, c-0001]
+verbatim_quotes: [c-0002]
 register: {reading_level: adult, density: mid, colour_energy: mid}
 copy:
   eyebrow: "FORK ONE · THE ENGINE UNDERNEATH"
@@ -12,9 +13,9 @@ copy:
   kicker: "WISDOM NODE · PRUDENTIAL · CONDITIONAL"
   claim_label: "Disturbance comes from judgments about things, not from the things themselves."
   voices:
-    - {name: "Marcus Aurelius", meta: "Meditations 4.7 · verified, Long 1862", gloss: "Take away thy opinion, and then there is taken away the complaint, “I have been harmed.”"}
+    - {name: "Marcus Aurelius", meta: "Meditations 4.7 · text checked to Long 1862", gloss: "Withdraw the opinion of harm, he tells himself, and the complaint falls with it."}
     - {name: "Epictetus", meta: "Enchiridion · the parent claim", gloss: "The judgment is listed first among the things that are ours — before impulse, before desire."}
   bend: "This is counsel for the weight you must carry anyway, not a licence to call real injuries imaginary. Taken neat, it curdles into gaslighting yourself — some complaints are true. And the strict two-way split is contested: much of life is neither ours nor not-ours, but partly influenced."
   pill: "attribution: verified · recurrence: provisional at this corpus scale · contested at the margin"
   caption: "A wisdom-node card: one claim, its voices, where it bends, and an honest trust label."
-notes: "Node-card form (§6 D). Voice glosses quote u-0002's verified wording exactly (gate: verified-primary + PD)."
+notes: "Node-card form (§6 D). Marcus's verbatim wording enters through the declared verbatim_quotes gate; voice glosses are paraphrase only (external-review repair 2026-07-07)."

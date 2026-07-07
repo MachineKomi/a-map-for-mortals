@@ -406,10 +406,10 @@ em {{ color:{INK}; }}
 .spectrum {{ margin-bottom:20px; break-inside:avoid; }}
 .srow {{ display:flex; align-items:center; gap:15px; }}
 .pole {{ font-family:'Lora'; font-weight:600; font-size:12.5pt; width:118px; flex:0 0 118px; }}
-.pole.l {{ text-align:right; color:#b85a30; }}
-.pole.r {{ text-align:left; color:#bf5070; }}
+.pole.l {{ text-align:right; color:{INK}; }}
+.pole.r {{ text-align:left; color:{INK}; }}
 .track {{ flex:1; height:9px; border-radius:5px;
-  background:linear-gradient(90deg, {ORANGE} 0%, {LINE} 50%, {PINK} 100%); }}
+  background:linear-gradient(90deg, {NAVY_T} 0%, {LINE} 50%, {NAVY_T} 100%); }}
 .curdles {{ display:flex; justify-content:space-between; margin:5px 128px 0;
   font-family:'Poppins'; font-size:8pt; color:{INK3}; }}
 .snote {{ text-align:center; font-family:'Lora'; font-style:italic; font-size:10pt;

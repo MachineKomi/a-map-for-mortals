@@ -3,7 +3,7 @@ type: CONVERGES_WITH
 from: c-0012
 to: c-0024
 origin: inferred-then-curated
-confidence: moderate
+confidence: low
 method: "proposed by the adversarial pass 2026-07-07 and adopted at adjudication — see ops/adjudications/2026-07-07-s3s4-skeleton.md"
 independence_basis:
   grade: partial
@@ -11,4 +11,4 @@ independence_basis:
 prov:
   minted_by: "claude-code:s4-adjudication-v1"
   date: 2026-07-07
-notes: "Maimonides' highest-charity-creates-independence converging with Zosima's love-as-labour: both locate real help in the other's strength, not the giver's glow. Added at adjudication — the help-that-frees fork's centrepiece had no edges."
+notes: "DOWNGRADED at external-review adjudication 2026-07-07: this is a FUNCTIONAL ANALOGY, not proposition-level convergence — Maimonides targets the recipient's independence; Zosima targets the giver's endurance and the fantasy of performative love. Shared feature: both reject easy or self-flattering giving. Retype to a dedicated analogy relation when the v0.4 relation vocabulary lands; page copy must not present them as one claim."
