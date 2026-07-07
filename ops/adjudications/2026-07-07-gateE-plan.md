@@ -31,8 +31,14 @@ via `Graph.trace_sink`. Prohibited-phrase sweep runs over all non-assertion page
 - [x] by-060-time — done (a-0017..a-0019)
 - [x] by-040-ambition — done (a-0020..a-0022; ungrounded flourish dropped)
 - [x] by-050-money — done (a-0023..a-0025; causal/threshold conflation repaired)
-- [ ] by-020-carrying — IN PROGRESS: drafts a-0026..a-0028 under fresh-context
-      adversarial review (the argued-convergence page — round-1's faulted claim class)
+- [x] by-020-carrying — done (a-0026..a-0028 through a mandatory adversarial pass;
+      verbatim edits accepted; hadith meta repaired)
+
+**GATE E COMPLETE 2026-07-07.** All done-criteria met: 9/9 traces; 6/6 metamorphic
+proofs (ops/audits/2026-07-07-gateE-metamorphic.md); edition v0.2.0 rendered and every
+page viewed; package #2 proposed (ops/publish-packages/package-02.md). Convention going
+forward: new page-specs default to `traced: true` — bare strings outside furniture keys
+do not build.
 
 **Assertion ID allocation:** a-0006 onward, sequential. Adjudication records:
 ops/adjudications/2026-07-07-gateE-<page>.md (one per page or pair).

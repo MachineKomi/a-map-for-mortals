@@ -1,6 +1,6 @@
 page: by-060-time
 form: comparison-columns
-edition: building-years-v0.1.1
+edition: building-years-v0.2.0
 blocks:
 - type: assertion:source-summary
   id: a-0017
