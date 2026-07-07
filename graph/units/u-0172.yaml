@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/08-empirical.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report finding F16 (report confidence: grade-D/E; extract replication label: replicated). Evidence grade D/E for clinically meaningful effects — converging meta-analyses; small and control-dependent. Effect sizes as the report gives them: g ≈ 0.27 for depression across 27 studies (N = 3,675); larger effects against waitlist than active controls. Corroboration: Davis et al. (2016) similarly found limited effects and urged that enthusiasm be tempered (paraphrased — the report quotes a fragment; no quotation minted per S1 rule 8). QUALIFIES 'count your blessings'; report Tier-3: gratitude journals may yield small benefits but should not displace evidence-based treatment for depression/anxiety. Western samples. URL as given by the report (a johnsommersflanagan.com PDF link is also given). Re-derivation: extract typed this Insight; minted as Practice per S1 rule 8 (an evaluated practice/intervention). No verbatim quotation held; paraphrase only."

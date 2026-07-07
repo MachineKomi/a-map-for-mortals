@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/03-nietzsche.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report grade: probable (verify exact Samuel wording against the primary) — Stage-2 lead: line-match Samuel's Genealogy III §12; upgrades from probable on match. Re-derivation: report claim_type 'metaphysical/epistemic' → enum metaphysical (epistemic hybrid noted); conditionality 'categorical within his epistemology' → universal-ish. COPYRIGHT: Samuel 1913 would be PD, but wording unverified against Samuel — flag unknown until line-matched. WATCHLIST (related, distinct): 'There are no facts, only interpretations' is genuine but NACHLASS (1886–87 notebook), not published doctrine — do not merge with this published unit; Nachlass/Will-to-Power quarantine applies there."

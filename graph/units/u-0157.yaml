@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/07-literary.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "MISATTRIBUTION-WATCHLIST EXHIBIT (report grade: apocryphal — kept). CRITICAL PROVENANCE FLAG: this is Herbert Kretzmer's 1985 English lyric for the Boublil–Schönberg musical, NOT a line in Victor Hugo's 1862 novel, though it is endlessly quoted as 'Victor Hugo'. apocryphal applies to the Hugo attribution; the Kretzmer 1985 provenance is well-attested. Speaker (in the musical): Fantine and Éponine (spirits), to the dying Valjean — the closing couplet; within the musical the sentiment is endorsed. It compresses a genuinely Hugolian theme (grace; the Bishop of Digne's mercy that remakes Valjean), but the words are in copyright and not Hugo's — PRINT GATE: blocked as verbatim book copy (in-copyright work). For a genuine Hugo line on the same fork, cite the Bishop-of-Digne mercy episode in a PD translation (Hapgood 1887); Denny (1976) and Rose (2008) translations are in-copyright. Metaphysical claim, never empirical. Report fork: revenge_vs_forgiveness. Retain as a teachable example of how false wisdom-attributions spread (report recommendation 2)."

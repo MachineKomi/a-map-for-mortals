@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/02-african.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report grade: verified — held at attested per S1 rules (S2 climbs). Tutu's THEOLOGICAL (normative) reading of ubuntu — claim_type normative, NEVER empirical, per the report's explicit instruction on Ubuntu claims; distinct from the communal Nguni maxim itself (u-0205) and from the academic personhood debate (u-0207/u-0208). Grounded the Truth and Reconciliation Commission's restorative-justice premise — addresses the retribution-vs-restoration fork. Convergence candidate (flag for merge, do not re-extract): the prior Golden Rule / one-body cluster (Hillel, Sermon on the Mount, Saadi). Dissent preserved elsewhere in the cluster: Mboti's claim that a broken relationship can be as authentically human as a harmonious one. In-copyright (Doubleday 1999) — print gate applies."

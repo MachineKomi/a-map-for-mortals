@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/04-womens-voices.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report confidence: probable (held as attested per S1 rules). Transmission (extract): 'male-transmitted: left no writings; sayings via Attar's Tadhkirat al-Awliya, four centuries later' — posthumous-hagiographic; never mark verified at speaker level. MISATTRIBUTION WATCHLIST: most circulating 'Rabia poems' (e.g. 'In my soul there is a temple...') are loose Ladinsky-style modern renderings — dubious/apocryphal; only this fear/hope prayer is well-attested via Attar, and its wording varies across renderings. Copyright unknown: Attar's text is PD but the report does not establish the quoted English rendering's edition. Cultivates sincerity and selfless love; guards against instrumental piety (report fields). Convergence candidate 'non-instrumental orientation to the ultimate' with Julian (u-0247), Akka Mahadevi (u-0257), Murdoch (u-0254) — candidate, not proof; claim types differ. Report fork: instrumental-vs-non-instrumental devotion. Life_stages derived by minting agent (extract left empty)."

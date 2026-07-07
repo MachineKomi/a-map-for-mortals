@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/06-modern-west.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report confidence: verified. CITATION CAVEAT (report §Caveats): the quoted English is Saunders's rearranged anthology 'Studies in Pessimism', NOT a 1:1 rendering of Parerga §396 — never pair the Saunders wording with a bare '§396' citation. Report's wording source link: https://scienceblogs.com/mixingmemory/2006/12/05/schopenhauers-parables (tertiary; primary check needed against a Saunders edition). Payne (1974) and Cambridge (Janaway et al. 2015) translations in copyright. Re-derivation: life_stages broadened from report's [adult] to all adult stages — the distance-regulation dilemma is not phase-specific. Report names this the explicit model of the 'optimal middle distance' fork (solitude vs. society); candidate convergence with Confucian li and Aristotle's proportionate friendship."

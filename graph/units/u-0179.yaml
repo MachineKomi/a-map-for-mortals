@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/08-empirical.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "No verbatim quotation held. Evidence grade: D (contested cross-sectional and panel data; direction depends on controls and specification). Replication status: contested. Effect sizes as reported: midlife nadir (~mid-40s to 50s); uncertainty/CI listed as 'contested'. CONTESTED — both sides in the report: Blanchflower (2021) reports U-shapes across hundreds of datasets and Blanchflower & Graham (2021) claim 618 studies find U-shapes; critics Galambos et al. (2020) and Bartram (2023) argue the U is an artifact of controls and is neither robust nor universal. Bears on 'Midlife is the low point; it gets better' — QUALIFIES. Cross-national samples."

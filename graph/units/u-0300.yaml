@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/06-persian.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report label: probable. Re-derivation difference: report tags polarity prescriptive, but the quoted evidence is a cautionary consequence-statement about hoarding (kept cautionary here; the generosity prescription is implicit). The muruwwa (manly virtue) ethic. Context: the ode was composed after the ~40-year War of Dāhis and al-Ghabrā (Banu ʿAbs vs Banu Dhubyān, c. 560s–600s CE) and praises the peacemakers Harim ibn Sinan and al-Harith ibn ʿAwf, who paid the blood money over three years. Translator unidentified — copyright unknown; PD locators: Jones (1782), Lyall (1930); Arberry 1957 in-copyright. Pairs with Saadi's Bani Adam (u-0302) in the self-vs-community fork."

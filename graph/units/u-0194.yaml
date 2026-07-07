@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/01-eastern.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report label: verified. Sutra 1.2 is definitional in form; held as prudential Practice because its function is a programme for stilling mental agitation, per 1.12 (abhyasa + vairagya) — the soteriological payoff beyond tranquillity would be metaphysical and is not asserted here. No physical postures in the definition (report). In-copyright modern standard: Bryant 2009; Vivekananda translation is PD per report inventory. Edge candidate (FOR MERGE with Stoic/wave-1 material): non-attachment <-> ataraxia convergence, per report Stage 3 — candidate, not conclusion."

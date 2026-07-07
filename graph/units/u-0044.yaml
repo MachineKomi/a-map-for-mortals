@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/02-greco-roman.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report grade: verified (watchlist #2: genuine, Meditations 6.6). The report's headline gloss 'The best revenge is not to be like that (i.e., not to imitate the wrongdoer)' is a paraphrase; Long's PD 1862 rendering, quoted verbatim by the report, used instead. Copyright: Long (1862) PD per report."

@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/04-womens-voices.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report confidence: verified (held at attested pending primary check) — the strongest attestation in Teresa's poetry: found in her breviary in her own hand (autograph). AUTHENTICITY CAVEAT (report/Kavanaugh, ICS 1985): the wider Teresa poetry corpus has general authentication problems (lack of autographs, mixture with other Carmelites' verse); THIS poem is among the best-attested. TRANSMISSION: direct (autograph). claim_type kept prudential (equanimity counsel) per extract; the report also reads it as metaphysical — 'solo Dios basta' grounds the counsel in a metaphysical claim; noted, not flattened. COPYRIGHT: 16th-c. Spanish text PD; Peers translation PD; Kavanaugh (ICS 1985) in-copyright. WATCHLIST: 'Christ has no body now but yours' is of DISPUTED Teresian authorship — do not attach to her without verification. Cultivates (per report): patience, equanimity; guards against anxiety, agitation. life_stages left empty per report."

@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/08-empirical.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "No verbatim quotation held. Evidence grade: C/D (repeated cross-sections, some in working-paper form; robust trend but contested cause). Replication status: contested. Effect sizes as reported: monotonic decline in ill-being by age (i.e. the midlife hump in ill-being replaced by a decline across age); US BRFSS 2009–2022 plus international data. Caveat kept: cause (smartphones/social media the leading proposed driver) is contested and some analyses remain working papers. Bears on 'Things improve with age' — QUALIFIES/CONTRADICTS. US/international, WEIRD samples."

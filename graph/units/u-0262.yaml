@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/05-childhood-old-age.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report label: verified. WATCHLIST (report item 7): the line is 'father OF the Man', NOT 'father to the Man' — Hopkins's parody uses 'to' ('The child is father to the man! / How can he be?'); do not conflate. First-person lyric in the poet's own voice (speaker context; report assigns no literary-endorsement label). Claim-type: observational (Romantic-descriptive) — a poetic/metaphorical claim, not empirical. Read-aloud register unit — simple surface kept. Convergence candidate with Matthew 18:3 (u-0263) on 'the child re-teaches the adult' — cross-tradition recurrence, not verification."

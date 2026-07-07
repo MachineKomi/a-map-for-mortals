@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/01-eastern.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report label: verified (downgraded to attested per S1 rules). RE-DERIVATION: report/extract labelled claim_type prudential and polarity prescriptive; re-derived as observational/descriptive — the verse as held is a generalisation about mental causality, not advice (its prescriptive payoff comes in the verse's continuation, not quoted here). TRANSLATION CAUTION (per report): 'all' is Buddharakkhita's insertion, not in the Pali (Bhikkhu Dhammanando/K.R. Norman); Norman renders 'Mental phenomena are preceded by mind'; Thanissaro 'Phenomena are preceded by the heart.' MISATTRIBUTION WATCHLIST: do NOT over-read as idealism — 'we are what we think' is Byrom's loose paraphrase, and 'mind is everything' is a hard fake. Not held as metaphysical idealism."

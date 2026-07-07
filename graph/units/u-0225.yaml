@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/03-indigenous.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
-notes: "CONSENT GATE: do not publish before a community-source consent audit (see ops/DECISIONS.md 2026-07-08). Report label: communal. From tiaki (to guard/care for); bound to mana whenua, mauri, tapu, rāhui, and whakapapa per the report — conditionality conditional because the obligation flows from relationship/standing, not a universal maxim. Statutory recognition: Resource Management Act 1991, s7 (New Zealand). For S2, the report flags Te Ara Encyclopedia of New Zealand (Te Ahukaramū Charles Royal entries) as a Māori-authored reference — a candidate established public community-authored source for the consent gate."
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
+notes: "CONSENT GATE: do not publish before a community-source consent audit (see ops/DECISIONS.md 2026-07-07). Report label: communal. From tiaki (to guard/care for); bound to mana whenua, mauri, tapu, rāhui, and whakapapa per the report — conditionality conditional because the obligation flows from relationship/standing, not a universal maxim. Statutory recognition: Resource Management Act 1991, s7 (New Zealand). For S2, the report flags Te Ara Encyclopedia of New Zealand (Te Ahukaramū Charles Royal entries) as a Māori-authored reference — a candidate established public community-authored source for the consent gate."

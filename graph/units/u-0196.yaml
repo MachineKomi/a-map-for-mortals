@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/01-eastern.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report label: verified. Metaphysical (path to the Self / highest realization), never empirical. MISATTRIBUTION WATCHLIST: the popular 'Arise, awake, and stop not till the goal is reached' is Vivekananda's paraphrase, NOT scripture; Maugham's Razor's Edge epigraph inserts 'to Salvation', not in the Sanskrit — run through the misattribution gate before print. Translation divergence: Olivelle renders 'poets say' (kavayah) vs Müller's 'the wise say'. In-copyright modern standard: Olivelle (Oxford)."

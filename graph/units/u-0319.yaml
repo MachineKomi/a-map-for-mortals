@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/07-practical-strategic.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report label: probable. NO verbatim wording minted: the familiar 'Do, but also seem' is Maurer's (©1992) rendering of Maxim 130; the report itself flags verifying Jacobs' exact 1892 PD wording before quoting verbatim (lead G2). copyright_flag unknown because no quoted wording is held (Jacobs 1892 edition itself is PD; Maurer is in copyright). Convergence flagged by report: Machiavelli Prince 18 appearances, Gracián Maxim 99, Sun Tzu deception — perception-management cluster. Prudential court counsel, not endorsed."

@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/01-eastern.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report label: verified (downgraded to attested per S1 rules). Descriptive/prudential political realism kept in the report's descriptive framing (per S1 rule on realpolitik counsel) — a counter-voice, not an endorsement of coercion by the graph. Explicitly rejects Confucian ren/yi as useless for statecraft; two handles = punishment (xing) and reward (de). Han Fei was Xunzi's student; forced to suicide 233 BCE. Sits on the virtue-rule vs coercive-rule tension against Confucian virtue-rule and the Kural's moral statecraft. Ellipsis in quotation_translation is the report's own."

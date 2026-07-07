@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/08-empirical.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "No verbatim quotation held. Evidence grade: B/C (longitudinal experience-sampling). Replication status: unassessed (single 10-year study). Effect sizes as reported: rising positive:negative emotion ratio with age; N ≈ 184, sampled 5×/day for a week in three waves over 10 years; more positive everyday emotion predicted lower mortality over ~13 years; robust to personality and health controls. Caveat kept: cohort vs age effects are hard to separate. Bears on 'Old age can be emotionally good' — SUPPORTS. US sample."

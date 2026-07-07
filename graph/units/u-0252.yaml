@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/04-womens-voices.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report confidence: verified (held as attested per S1 rules). Transmission (extract): direct. PD (Greeley & McElrath 1845) per report. Fuller quote in the report's fuller form: 'But if you ask me what offices [women] may fill, I reply — any... let them be sea-captains, if you will.' Report fork: voice-vs-silence (voice pole, with Enheduanna, Hypatia, Astell). Life_stages derived by minting agent (extract left empty)."

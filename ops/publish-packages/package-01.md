@@ -1,6 +1,6 @@
 # Publish Package #1 — The Building Years (walking-skeleton chapter)
 
-**Proposed:** 2026-07-07 · **Status: APPROVED 2026-07-08** — Jason: "Looks great so far, please proceed." Register, honesty apparatus, and fork selection stand as rendered; P4 unlocked.
+**Proposed:** 2026-07-07 · **Status: RECLASSIFIED 2026-07-07** — approved by Jason as a deliverable, then re-graded after external adversarial review: this package is a **visual/production proof, with content under re-adjudication**. The pipeline claim ("full pipeline proven") was inaccurate — all 33 claims were single-member, so canonical merging (S3) was never exercised, and five pages carry substantive overreach now catalogued in `review-feedback/2026-07-07-adversarial-review.md` (verified in `ops/adjudications/2026-07-07-external-review-response.md`). Copy-level corrections applied immediately; full rebuild happens through the traced page model (Gate B).
 **The deliverable:** `book/renders/building-years-v0.1.0.pdf` (9 pages; HTML beside it).
 Regenerate any time with `python book/generator/build_book.py`; QA rasters with
 `python tools/pdf_to_png.py book/renders/building-years-v0.1.0.pdf book/renders/qa --dpi 110`.

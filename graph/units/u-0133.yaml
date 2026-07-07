@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/06-modern-west.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report's confidence label: verified (downgraded to attested per S1 rules pending primary check). The Formula of Humanity (second formulation of the categorical imperative). The held German wording contains an ellipsis ('…') as given by the report — the elided material (the 'in your own person as in that of every other' clause, per standard scholarship) must be restored from a primary edition at verification, not from memory. Cite by Prussian Academy pagination once verified (report gives 'Section II' only). Abbott (1873) PD English; Gregor/Wood in copyright. Note Kant's 'bloß' (merely): using people as means is not forbidden — only merely as means; do not smooth this in downstream renderings."

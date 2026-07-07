@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/08-empirical.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "No verbatim quotation held. Evidence grade: C (longitudinal national sample + lab studies). Replication status: replicated (report: 'Multiple Seery studies'). Effect sizes as reported: U-shaped relationship; no numeric magnitude given. Conditionality preserved: holds only for MODERATE adversity — a dose-response curve; extreme adversity harms, and the report's Tier-3 recommendation is 'Do not romanticize adversity… Never prescribe suffering.' Bears on 'What doesn't kill you makes you stronger' — QUALIFIES. US sample; observational."

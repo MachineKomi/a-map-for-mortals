@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/06-modern-west.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report confidence: verified. PD. URL is the report's citation link (Lumen Learning course text, tertiary); the quote line also cited https://americanliterature.com/author/ralph-waldo-emerson/essay/self-reliance — primary check needed against an 1841/PD edition. The report's canonical claim ('root of all virtue and achievement') is stronger than the quoted line alone supports; paraphrase follows the report's claim, flagged here for S2 scrutiny."

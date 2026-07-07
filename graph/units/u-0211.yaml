@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/02-african.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report grade: verified — held at attested per S1 rules (S2 climbs). LITERARY UNIT — speaker/context: NARRATORIAL voice in ch. 1 of the novel; the report is explicit that this is Achebe's literary rendering of an Igbo oral value, NOT a folk-verbatim proverb — distinguish author from character; attribute to Achebe, not to 'Igbo proverb'. Endorsement: endorsed (derived — the narrator states it in propria persona as cultural description; report gives speaker_context but no explicit endorsement label). Observational claim about a speech culture, not prudential advice. Addresses the directness-vs-indirection fork (proverbial indirect speech as the Akan/Igbo ideal). In-copyright (Heinemann 1958) — print gate applies."

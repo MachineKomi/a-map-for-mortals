@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/03-indigenous.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report label: verified (stored attested per S1 rule 1; statute text is externally checkable — promote at S2 against the official NZ legislation text). Claim-type discipline per report caveats: this is a legal/documentary fact (empirical), kept distinct from the metaphysical claim that the river is an ancestor (u-0227, minted separately). Act enacted 20 March 2017; reflects the pepeha 'Ko au te awa, ko te awa ko au' (I am the river and the river is me); Crown redress ~NZ$80 million. Conditionality conditional: a fact of NZ law, within that jurisdiction. Licensing of statute text not established by the report, so copyright_flag unknown."

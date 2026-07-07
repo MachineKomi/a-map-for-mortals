@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/02-greco-roman.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report label: verified (downgraded to attested per S1 rules; S2 to climb). COPYRIGHT CAVEAT: the quoted English's translator is ambiguous between Bury (1933, PD status unestablished) and Mates (in-copyright per report) — resolve before any print use. Report note: ataraxia arrives 'as a shadow follows the body' — unintended, not pursued directly; Pyrrhonian skepticism is distinct from Academic skepticism (which Sextus says wrongly asserts knowledge is impossible). Conditionality contested kept: the epoché-to-ataraxia link is the school's own tendency claim, disputed outside it."

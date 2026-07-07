@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/04-womens-voices.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report confidence: verified (held at attested pending primary check). TRANSMISSION: direct (Benedictine abbess, composer, visionary; her own visionary text). Within Scivias the line is voiced by God in Hildegard's vision, asking whether the green field was given to humans to exploit at will — an early ecological-theological caution against human domination of creation. Central concept viriditas (greenness, the divine greening life-force) contrasted with ariditas (dryness). COPYRIGHT: Hart & Bishop translation (Paulist 1990) in-copyright — English snippet held pending rights review; the Latin first sentence is held from the report. WATCHLIST: 'viriditas' pop-quotes — modern literary uses (e.g. Kim Stanley Robinson's 'holy greening power') often masquerade as Hildegard's own words. Cultivates (per report): humility, reverence; guards against domination, exploitation-of-nature. life_stages left empty per report."

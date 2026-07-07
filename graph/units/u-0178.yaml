@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/08-empirical.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "No verbatim quotation held. Evidence grade: C/D (small experimental fMRI, N = 26; suggestive mechanism). Replication status: unassessed (report: 'Suggestive mechanism'). Effect sizes as reported: +60% greater amygdala activation vs control (averaged left and right amygdala, t(24) = 3.2, P = 0.004); roughly threefold increase in the volume of amygdala activated; loss of functional connectivity between amygdala and medial prefrontal cortex. Caveats kept: small N; circadian confound. Bears on 'Sleep regulates emotion' — SUPPORTS. Western sample. Report holds a verbatim author quote (the +60% sentence); NOT copied here per rule 8 (empirical units carry effect sizes in notes, no quotation)."

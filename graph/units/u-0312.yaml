@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/07-practical-strategic.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report label: verified (verbatim vs Shamasastry 1915, Book I Ch. IV). Matsyanyaya = 'law of the fish'. Realpolitik framing kept descriptive per report — describes what happens absent enforcement; the prudential force (order requires danda) is conditional, not an endorsement of coercion. Beware online paraphrases mislabeling the chapter 'The Life of the King'. Kautilya's dating contested — do not present a single confident date. Cross-reference: Machiavelli on cruelty well-used (ends-vs-means fork); Hippocratic 'do no harm' is the counter-pole. Shamasastry 1915 PD."

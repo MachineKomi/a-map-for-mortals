@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/03-indigenous.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report confidence: verified (named Sámi scholar, full journal citation). Quotation is a fragment as held by the report; grammatical subject is 'herders' — do not complete the sentence. Report marks Sámi section sources 'mostly in-copyright'; Rangifer status unverified, flag stays unknown. Named by the report in the reciprocity/relationality candidate convergence — hypothesis only. Prudential counsel within the reindeer-herding lifeworld; conditional, not universal."

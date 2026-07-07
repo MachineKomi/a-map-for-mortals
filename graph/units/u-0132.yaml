@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/06-modern-west.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report's confidence label: verified (downgraded to attested per S1 rules pending primary check). The held German wording contains an ellipsis ('…') as given by the report — the elided material must be restored from a primary edition at verification, not from memory. Cite by Prussian Academy pagination once verified (report gives 'Conclusion' only). Abbott (1873) PD English; Gregor/Wood translations in copyright. Kept report's claim_type metaphysical: the awe attaches to the moral law's supersensible stature, though the sentence's surface form is a first-person observation."

@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/01-eastern.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report label: verified (downgraded to attested per S1 rules). MISATTRIBUTION WATCHLIST: genuine Daodejing ch. 64 (Laozi) but frequently misattributed to Confucius — the attribution, not the text, is the fake. Literal rendering: 'begins beneath one's feet'; 'with a single step' is a legitimate idiomatic rendering. One li is roughly 0.31 mi, so 'thousand miles' is idiomatic, not literal. Same chapter also warns against spoiling things on the verge of success (effort-vs-acceptance fork)."

@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/07-literary.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report grade: verified (held at attested pending primary check). Speaker: the Narrator, as the novel's opening sentence, framing the Oblonsky household's collapse and the book's study of marriage and fidelity. ENDORSEMENT=COMPLICATED — the novel itself contains no ideally happy family, and Levin's 'happy' marriage still quarrels: the maxim is a thesis the book tests and partly subverts. Cf. the 'Anna Karenina principle' in statistics/ecology. Maude translation (1918) is PD — the Maudes knew Tolstoy and had his approval; Pevear & Volokhonsky (2000) and Bartlett (2014) flagged in_copyright_translation by the report and not used here. Report life_stages included 'parenthood' (a domain, not a stage) — mapped into life_domains as family. Report fork: passion_vs_duty."

@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/06-persian.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "FLAG FOR MERGE: overlaps the wave-1 Near-Eastern report (05); adab angle only. Report label: verified (recorded; kept attested pending primary check). Classic adab maxim; multiple PD translations with differing numbering: Gladwin 1806 #82, Eastwick 1852 #82, Burton 1888 #58, Ross 1900 #96 — wording here is Ross 1900, PD. Gulistan Ch. 4 ('On the Advantages of Silence') is the thematic home. Endorsement: endorsed — Saadi's direct authorial counsel in the maxims chapter, no dramatic frame."

@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/01-eastern.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report label: verified (the wording is genuinely Hagakure's). CRITICAL CAVEAT carried in full (Benesch, Inventing the Way of the Samurai, Oxford 2014): Hagakure was obscure until the 20th c.; its cult status dates to the Bushido Booms of 1894-1914 and pre-WWII militarism; the systematised 'code' was popularised by Nitobe's Bushido: The Soul of Japan (1899/1900), itself called a romanticised interpretation; Benesch p.8: all modern bushido theories are later constructs with no direct continuity from pre-Meiji history. Represent as ONE idiosyncratic voice, never 'the samurai code', never empirical history of samurai practice. Re-derivation note: within Hagakure the line is prescriptive counsel; minted as Danger/cautionary per the report's own framing — it guards against cowardice but ALSO against fanaticism, and the romanticised-bushido reception is itself the hazard."

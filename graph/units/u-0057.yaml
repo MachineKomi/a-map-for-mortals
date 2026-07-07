@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/03-nietzsche.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report grade: verified. Companion to the Ecce Homo amor fati declaration (separate unit). COPYRIGHT CAVEAT: report credits Thomas Common (1910), whose PD version is titled 'Joyful Wisdom' and uses older diction; the English held here closely resembles the in-copyright Kaufmann rendering — line-match against Gutenberg #52124 (Joyful Wisdom) before any print use; a PD alternative (Common) exists, never fabricate its wording. Re-derivation: extract typed this Practice (a resolution to practise a way of seeing) — retained; life_stages derived (extract gave none)."

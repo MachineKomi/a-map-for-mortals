@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/05-childhood-old-age.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report label: verified — report states it verified De Senectute quotes to section number in PD Peabody 1884 (Little, Brown) against the Latin (Gutenberg #14945); kept attested per S1 rule 1 pending our own primary check. WATCHLIST (report item 5): the popular web wording of the four charges ('withdraws us from active pursuits... deprives us of almost all physical pleasures') is the IN-COPYRIGHT Falconer/Loeb 1923 translation — this unit uses Peabody 1884 (PD); cite the correct translator per edition. Spoken by Cato the Elder (aged 84), Cicero's mouthpiece — endorsement 'endorsed' per report's 'strong but literary'; the literariness is the caveat. Polarity: descriptive — this unit SETS UP the charges; each is then rebutted, and the rebuttals are prudential/normative ARGUMENTS, not empirical findings. Claim-type: report's 'prudential / normative' — prudential chosen. Nussbaum calls De Senectute 'the best philosophical work on aging in the Western tradition' while noting its schema omits friendship; preserve Beauvoir (La Vieillesse, 1970) as the dissenting voice on romanticising age."

@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/07-practical-strategic.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report label: verified (Marriott Ch. XVII) — downgraded to attested per S1 rule 1 pending primary check. ESSENTIAL QUALIFICATION (report): Machiavelli immediately adds that the prince must above all avoid being HATED — meme-culture omits the qualification; do not print the fear counsel without it. Cautionary realpolitik, not endorsed. Report flags direct internal tension with Discourses I.58 ('the people are wiser', u-0330) — Machiavelli against himself; preserve, do not collapse. Marriott 1908 PD."

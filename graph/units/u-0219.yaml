@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/03-indigenous.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
-notes: "CONSENT GATE: do not publish before a community-source consent audit (see ops/DECISIONS.md 2026-07-08). Report label: probable (stored attested per S1 rule 1). No verbatim wording held — the caution is reported indirectly via the Tapestry Institute. Re-derivation note: kept the report's prudential claim_type; the translation-resistance component is observational and the anti-misappropriation component normative, but the unit functions as caution, so prudential/cautionary retained. Companion to u-0218."
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
+notes: "CONSENT GATE: do not publish before a community-source consent audit (see ops/DECISIONS.md 2026-07-07). Report label: probable (stored attested per S1 rule 1). No verbatim wording held — the caution is reported indirectly via the Tapestry Institute. Re-derivation note: kept the report's prudential claim_type; the translation-resistance component is observational and the anti-misappropriation component normative, but the unit functions as caution, so prudential/cautionary retained. Companion to u-0218."

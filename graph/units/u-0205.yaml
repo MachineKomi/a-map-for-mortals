@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/02-african.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report grade: communal — kept per S1 rules (proverb attributed to a named people/language; report rec. 2 rejects bare 'African proverb' tags). The Ubuntu maxim; cognates attested across Bantu languages per the report (Shona 'munhu munhu nevanhu', Sotho 'motho ke motho ka batho', Venda 'muthu ndi muthu nga vhathu', Tsonga). Claim_type normative, NEVER empirical (report is explicit: Ubuntu ontological claims are metaphysical/normative). Conditionality contested: the normative content is scholarly-contested — Tutu's theological popularisation (cf. u-0214); Metz's relational formalisation vs Mboti's 'purposely fuzzy' charge (2015) and Matolino & Kwindingwi 'The end of ubuntu' (SAJP 2013); Metz rebuttal (SAJP 2014). RE-DERIVATION: register proverb (report: aphorism) — a communal proverb of a people, not an authored aphorism. Copyright: communal precolonial oral wording, no edition-specific claim made. Anchors the individual-vs-community fork (Menkiti u-0207, Gyekye u-0208); convergence candidate with Golden Rule/one-body cluster — flag for merge, do not re-extract."

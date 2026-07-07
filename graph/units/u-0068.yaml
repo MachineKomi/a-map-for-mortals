@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/03-nietzsche.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report grade: verified (approval). The quotation is NIETZSCHE'S praise of Montaigne, not Montaigne's own words. Approval evidence also: Montaigne in Nietzsche's 'four pairs' of trusted thinkers (Epicurus & Montaigne, Goethe & Spinoza, Plato & Rousseau, Pascal & Schopenhauer). Re-derivation: report claim_type 'prudential/normative' → prudential; the general claim is a mild generalisation of the specific praise — flagged. COPYRIGHT: translator of the quoted English unnamed in report → unknown; identify the edition before print (PD Untimely Meditations translations exist; never fabricate wording). Montaigne's own PD editions per report: Florio, Cotton. life_stages derived (extract gave none)."

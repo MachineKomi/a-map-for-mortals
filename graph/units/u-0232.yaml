@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/03-indigenous.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report confidence: verified (named authors, journal, volume, pages). Scholarly observation about a Sámi concept — observational, not prudential advice. Translation loss flagged by the report as real: meahcci is attested by the community itself to resist English glossing; the unit's gloss is an approximation. Report marks Sámi section sources 'mostly in-copyright'; article status unverified, flag stays unknown; no verbatim quotation held. Part of the land-as-kin/relational-land cluster where the report holds Krech, The Ecological Indian (1999), attached as counter-evidence against ecological essentialism."

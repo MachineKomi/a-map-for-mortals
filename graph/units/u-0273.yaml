@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/05-childhood-old-age.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report label: verified (held at attested per S1 rule 1). MISATTRIBUTION WATCHLIST (report item 2): the modern 'A society grows great when old men plant trees in whose shade they know they shall never sit' is NOT ancient — Quote Investigator traces it to 20th-c. motivational writing (Waitley 1980s; 1970s 'shade tree' precursors). THIS Statius line, via Cicero De Senectute §24, is the genuine ancient source; never attach the modern wording to it. Report claim_type label 'normative (prudential)' — re-derived to normative: the counsel is other-regarding (benefit another age), not self-interested prudence. Comedy fragment quoted approvingly by Cicero's Cato (endorsement: endorsed via quoting context; original dramatic context within Synephebi not held). Cf. Erikson generativity, stage 7 (report note). Feeds holding-on-vs-handing-over. PD per report source inventory."

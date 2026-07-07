@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/08-folk-proverbial.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report label: verified — held at attested per S1 rules. SPEAKER CONTEXT: the verse is voiced by the fowler within the tale ('…fall a prey to me') — quails escape his net by flying up in unison but perish when they quarrel; the canonical frame endorses the moral (Bodhisatta as the wise quail, Devadatta as the quarrelsome one), hence endorsement: endorsed. RE-DERIVATION: polarity cautionary (report: prescriptive) — the verse warns of what befalls quarrellers; the prescriptive content (keep concord) is implicit. Life_stages: report 'all', rendered as all six. Unity pole of fork collaboration-vs-coordination (report reconciliation: role-clarity/concord, not headcount, is the variable); cf. u-0343 (many hands), u-0344 (too many cooks). Convergence candidate with Aesop's bundle-of-sticks and folk forms — report grades it undetermined (plausibly independent, but Aesop-India cross-pollination possible); preserve for edge pass. Cultivates concord/solidarity; guards against factionalism/quarrelling."

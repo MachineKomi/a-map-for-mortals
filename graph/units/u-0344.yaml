@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/08-folk-proverbial.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report label: communal — kept; folk proverb, people/language as author per S1 rules. DILEMMA POLE: coordination pole of fork collaboration-vs-coordination, paired against u-0343 'many hands make light work' (Heywood 1546); coexistence encodes conditionality — report reconciliation principle: role-clarity, not headcount, is the variable — this pole reconciles with 'many hands' because coordination, not the number of helpers, decides the outcome. Same fork in Buddhist parable register: Jataka 33 (u-0337). Life_stages: report 'all', rendered as five (child excluded: counsel about organising shared work). Cultivates clear leadership and delegation; guards against committee-chaos."

@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/03-nietzsche.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report grade: verified. Approved-precursor unit; the stance is Thucydides' as characterised by Nietzsche: 'My recreation, my predilection, my cure from all Platonism has always been Thucydides.' (Twilight, 'What I Owe to the Ancients' §2) — Nietzsche attributes to him 'courage in the face of reality', self-control, and the Sophist's realism, against Socratic/Platonic moralism. Re-derivation: report claim_type 'prudential/normative' → prudential (counsel about how to look at the world). No Thucydides verbatim held — copyright unknown. life_stages derived (extract gave none)."

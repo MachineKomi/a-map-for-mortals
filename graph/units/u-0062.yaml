@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/03-nietzsche.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report grade: 'verified (Nietzsche's approval); Heraclitus' own fragments are inherently fragmentary'. Approved-precursor unit: Nietzsche's explicit reverence — 'With high reverence I except the name of Heraclitus' (Twilight, 'Reason' §2); Ecce Homo (BT §3): near Heraclitus he feels 'warmer and better than anywhere else', and eternal recurrence 'might after all have been already taught by Heraclitus'. No verbatim quotation held — copyright unknown. Convergence candidate with N-heraclitus-being (u-0061); convergence = robustness, not truth."

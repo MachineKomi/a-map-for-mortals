@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/05-near-eastern-abrahamic.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report label: verified. Rehatsek 1888, PD (Eastwick 1852 also PD per inventory). TEXT-CRITICAL FORK (report): yek peykar ('one body') vs yekdigar ('each other') readings; Foroughi's standard edition reads yekdigar — flag before any 'one body' framing goes to print. URL is the report's citation link (a bookstore page), not an edition — replace at primary check. Report CONV-3: golden-rule / one-body cluster with Hillel (Avot 1:14) and Mt 5:44 (u-0093), ~13 centuries and little direct contact apart — rated among the most genuinely independent convergences in the report."

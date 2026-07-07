@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/06-modern-west.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report confidence: verified. PD. Report's wording source link: https://courses.lumenlearning.com/suny-jefferson-english102/chapter/self-reliance-american-literature-i/ (tertiary; primary check needed against an 1841/PD edition). Type Danger per report (the danger named is society's conformity pressure); the prescriptive pole ('must be a nonconformist') is preserved in polarity. Paraphrase renders 'manhood' as 'integrity' — Emerson's period usage means full personhood, not maleness; flagged so the paraphrase is not read as smoothing. Authenticity pole of the report's Authenticity-vs-Convention fork."

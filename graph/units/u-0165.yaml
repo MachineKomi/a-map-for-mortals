@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/08-empirical.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report finding F6 (report confidence: grade-D/E; extract replication label: contested). Evidence grade D/E for any strong claim either way — contested macro time-series; the report marks the debate unresolved ('What We Do Not Know' item 2). Effect sizes as the report gives them: none — contested; Easterlin (1974; updated 2010, PNAS): within a country richer people are happier, but national average happiness does not rise with long-run GDP growth, implying relative income matters; Stevenson & Wolfers (2008, Brookings Papers) counter that subjective well-being rises approximately log-linearly with GDP per capita across and within countries with no satiation point (report link: https://ideas.repec.org/p/iza/izadps/dp3654.html). Replication status: unresolved dispute; neither side established. QUALIFIES 'wealth doesn't make nations happier'. Cross-national data. Re-derivation: extract typed this Insight; minted as Consequence per S1 rule 8 (empirical units typed by function); conditionality: contested per the report's own framing. No verbatim quotation held; paraphrase only."

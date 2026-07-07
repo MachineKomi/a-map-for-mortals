@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/07-practical-strategic.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report label: verified (Giles Ch. III §18). Per report, one of the few near-universal (not merely conditional) claims in the strategic corpus — hence universal-ish. Giles 1910 PD."

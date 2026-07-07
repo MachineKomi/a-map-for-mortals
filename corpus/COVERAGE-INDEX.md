@@ -80,7 +80,7 @@ All 7 landed reports passed shape validation (independent fresh-context review p
 
 ## 4 · Convergence candidates (cross-report canonical-claim clusters)
 
-> Candidates, **not** verdicts (CLAUDE.md §2.7). First-pass merge candidates from the wave-1 extracts; independence is a judgment made at S4, never assumed here. Lineage flags from report 05 are preserved — several apparent convergences are **transmission, not independence**.
+> Candidates, **not** verdicts (CLAUDE.md §2.7). First-pass merge candidates from the wave-1 extracts; independence is a judgment made at S4, never assumed here. Lineage flags from report 05 are preserved — several apparent convergences are **transmission, not independence**. ALL counts in this index describe THIS PROMPTED DISCOVERY CORPUS only (see ops/DECISIONS.md 2026-07-07, Model C) — never global frequency in human wisdom.
 
 | Cluster (candidate canonical claim) | Appears in | Traditions (raw) | Note |
 |---|---|---|---|
@@ -103,7 +103,7 @@ All 7 landed reports passed shape validation (independent fresh-context review p
 
 | Tension (fork) | Sides & sources | Note |
 |---|---|---|
-| **Effort ⟷ acceptance** | fate/agency (02) · amor fati vs revolt (03) · tawakkul vs tie-your-camel (05) · freedom vs determinism (06) · freedom vs fate (07) | **in 5 of 6 reports — the corpus's master fork**; renders at every life-stage altitude |
+| **Effort ⟷ acceptance** | fate/agency (02) · amor fati vs revolt (03) · tawakkul vs tie-your-camel (05) · freedom vs determinism (06) · freedom vs fate (07) | recurs across 5 of 6 **prompted wave-1 modules** — a prompt-conditioned observation about this discovery corpus, NOT a prevalence claim about human wisdom; still the strongest chapter-design signal we hold |
 | Engagement ⟷ withdrawal | civic vs lathe biosas (02) · solitude vs herd (03) · solitude vs society (06) · renounce vs seize joy (05) | second-strongest recurrence |
 | Reason ⟷ passion | extirpate vs moderate (02) · reason vs passion primacy (06) · passion vs duty (07) | 06 notes it's partly terminological |
 | Suffering teaches ⟷ suffering just harms | pathei mathos (02/07) + made-stronger (03) vs Oresteia counter-reading (07) + PTG contested (08) | the shadow side of the top convergence — keep both |

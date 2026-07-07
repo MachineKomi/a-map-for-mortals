@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/07-literary.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report grade: verified (held at attested pending primary check). Speaker: the expansive poetic 'I', in the penultimate section (51 of 52) as the speaker prepares to depart ('I stay only a minute longer') — ENDORSEMENT=ENDORSED. EDITION CAVEAT: punctuation stored is the FINAL 1891-92 'deathbed' form; the 1855 first edition uses ellipsis dashes and no parentheses ('Very well then . . . . I contradict myself; / I am large . . . . I contain multitudes.') — always cite which edition is meant; era set to 1892 for the stored wording (first composed/published 1855). PD. Report fork: self_deception_vs_truth; candidate convergence with Nietzschean self-overcoming (candidate, not proof — do not collapse the two; cross-reference the Nietzsche report)."

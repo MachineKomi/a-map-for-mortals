@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/01-eastern.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report label: verified (downgraded to attested per S1 rules). Endorsement 'complicated' is the minting agent's call (report gives no label): spoken by Krishna to Arjuna on the battlefield — authoritative counsel within the Gita itself, but character speech within an epic; report's caveat: character is not author, do not read endorsement flatly; Gandhi (Young India, 1925) and Shankara/Ramanuja commentaries diverge on nuance. Report stresses the verse means action without attachment to results, NOT 'do not care about results'. Details section holds a fuller Edgerton rendering continuing 'nor let your attachment be to inaction'. PRIME convergence candidate with the Stoic dichotomy of control — FLAG FOR MERGE with prior Stoic report; do not re-extract the Western side; robustness signal, not proof; reclassify as possible borrowing if a Hellenistic-Indian transmission channel is found."

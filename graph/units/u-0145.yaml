@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/06-modern-west.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "RIGHTS-RESTRICTED, PARAPHRASE-ONLY (report rec. 3): Weil d. 1943, works posthumous (1947+), English translations IN COPYRIGHT — do not publish verbatim until licensing cleared or PD entry; the single short line above is held for research/audit only and is print-blocked by the gate regardless. Report confidence: PROBABLE (not verified) — attribution_confidence set to attested per minting rule 1; report's upgrade trigger: promote only after a page-level primary citation is logged (listed alongside Chamfort 'crapaud' and Joubert 'kind words'). The precise source (notebook vs. letter) is unresolved in the report; source.work carries that uncertainty verbatim. Era approximate (composition c. 1940-43)."

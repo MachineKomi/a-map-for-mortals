@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/06-modern-west.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report confidence: verified. PD (James d. 1910; report recommends Gutenberg for primary check). Normative-epistemic claim, tightly conditional in the original ('live, forced, momentous' options only — preserved in paraphrase); claim_type normative, not empirical: it licenses belief, it does not assert that faith causes truth. Standing counterpoint: Clifford's evidentialism ('The Ethics of Belief') — candidate CONTRADICTS/IN_TENSION_WITH edge at S2 if a Clifford unit exists."

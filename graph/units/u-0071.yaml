@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/03-nietzsche.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report grade: verified (approval). Approved-precursor unit covering the French moralists jointly (La Rochefoucauld, Chamfort). Approval evidence: Human, All Too Human §35–36 and surroundings; Nietzsche carried La Rochefoucauld's Sentences et maximes on the train to Sorrento before writing HAH; reading history documented by Donnellan (1982) and Abbey. Terminology: French 'moralistes' = psychologists of human motivation, NOT moral preachers — exactly the dimension Nietzsche endorses. Conditionality: the claim itself is hedged ('often'). No verbatim quotation held — copyright unknown. Paraphrase re-derived to keep the descriptive core; the practice implication ('observe without illusion') noted here rather than smuggled into the claim."

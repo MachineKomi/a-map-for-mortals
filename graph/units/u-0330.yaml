@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/07-practical-strategic.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report label: probable — kept as attested per S1 rule 1. WORDING PENDING: the report gives its I.58 unit in summary brackets holding only this short fragment; it flags 'verify Detmold's exact wording of I.58 before quoting verbatim' (lead G3). RE-DERIVATION: report tags claim_type empirical; re-derived to observational — a comparative generalisation from historical observation, not a tested finding (S1 rule 2). Report instruction preserved: directly contradicts the 'feared prince' reading (u-0327) — Machiavelli against himself; preserve the tension, do not collapse. Detmold 1882 PD."

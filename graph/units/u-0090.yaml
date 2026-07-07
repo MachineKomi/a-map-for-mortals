@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/05-near-eastern-abrahamic.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report label: verified (paraphrase; Lambert/Annus-Lenzi in copyright). No verbatim quotation held: the report supplies a paraphrase embedding the phrase 'what is good to oneself may be an offence to a god' (translator unattributed — Lambert 1960 or Annus & Lenzi 2010, both in copyright). Report's claim_type 'observational/metaphysical' narrowed to observational: the core is the observed fact of unexplained righteous suffering; the inscrutability speculation is the sufferer's inference. Report's register 'poem/argument' narrowed to poem. Endorsement complicated (no report label): the sufferer's speculation stands mid-poem, but the poem ends in deliverance by Marduk — deliverance affirmed where the Babylonian Theodicy (u-0091) leaves the wound open (report T-2). 'Babylonian Job'. Era approximate (~1300–1100 BCE)."

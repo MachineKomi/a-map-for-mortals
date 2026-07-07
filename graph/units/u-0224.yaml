@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/03-indigenous.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
-notes: "CONSENT GATE: do not publish before a community-source consent audit (see ops/DECISIONS.md 2026-07-08). Report label: verified (stored attested per S1 rule 1). Quotation is a mid-sentence fragment exactly as embedded in the report ('frames being on Country as…'), ellipsis the report's own; venue/work/date not given, so source.work null and copyright unknown."
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
+notes: "CONSENT GATE: do not publish before a community-source consent audit (see ops/DECISIONS.md 2026-07-07). Report label: verified (stored attested per S1 rule 1). Quotation is a mid-sentence fragment exactly as embedded in the report ('frames being on Country as…'), ellipsis the report's own; venue/work/date not given, so source.work null and copyright unknown."

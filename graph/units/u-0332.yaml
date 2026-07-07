@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/07-practical-strategic.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report label: verified (Adams 1849, verbatim, PD) — downgraded to attested per S1 rule 1 pending primary check. RE-DERIVATION: report tags type 'Principle', not in schema; re-derived to Practice (a rule of clinical conduct; register stays 'principle'). MISATTRIBUTION WATCHLIST (primum-non-nocere history): 'First, do no harm' / 'primum non nocere' is NOT in the Oath or anywhere in the Hippocratic corpus — this Epidemics I passage is the genuine source, and its priority is REVERSED (help/do good first, then avoid harm). The Latin/English axiom is attributed to Thomas Sydenham (1624–1689) but traced in print only to c. 1860; introduced into Anglo-American medicine by Worthington Hooker, Physician and Patient (1847), crediting the Parisian clinician A. F. Chomel — per Cedric M. Smith, J. Clin. Pharmacol. 45 (2005): 371–377. Report's ellipsis preserved as held."

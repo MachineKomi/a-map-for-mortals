@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/06-modern-west.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report label 'probable' (weaker than its usual 'verified') -> attested per S1 rule; report's upgrade trigger: promote only after a page-level primary citation is logged. Posthumous publication 1795. Chamfort's numbering is unstable across editions — cite by section once a primary edition is checked. Sardonic register preserved in the paraphrase; the counsel is ironic, not literal. Labels as re-derived match the report."

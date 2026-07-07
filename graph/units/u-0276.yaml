@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/05-childhood-old-age.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report label: verified (held at attested per S1 rule 1). The four things (report finding 5): 'Please forgive me / I forgive you / Thank you / I love you'. EPISTEMIC STATUS per report: clinical wisdom distilled from ~30 years of palliative practice — NOT a controlled study; hold as counsel, not evidence. Report claim_type label 'observational / prudential' — re-derived to prudential: the unit's function is a practice recommendation; the observational base (what the dying taught him) is provenance, recorded here. Byock's own caveats carried: 'I didn't invent them... they've been in our culture'; 'Death ends a life but not a relationship'; forgiveness is not forgetting. IN-COPYRIGHT (Free Press, 2004, per report) — quote briefly. Converges with Ware's regrets (u-0277) and Gawande's authorship (u-0278) on completing relationships before death (report section E — robustness signal, not proof). Feeds living-for-time-left-vs-as-if-whole."

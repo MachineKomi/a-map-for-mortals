@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/06-modern-west.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report confidence: verified. PD. MISATTRIBUTION WATCHLIST (report item 2): the popular 'Go confidently in the direction of your dreams! Live the life you've imagined.' is a paraphrase recast in imperative mood, not verbatim Thoreau — route a misattribution/paraphrase edge at S2; report flags it as a test case for the game's quote-verification mechanic. The genuine wording is conditional ('If one advances… he will meet'), preserved in paraphrase and conditionality."

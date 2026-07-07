@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/05-childhood-old-age.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report label: verified (held at attested per S1 rule 1; report states Peabody 1884 wording was verified to section number against the Latin, Gutenberg #14945 — a report claim, pending our own primary check). Speaker: Cato the Elder (aged 84), Cicero's literary mouthpiece; Cicero's endorsement strong but literary (endorsement: endorsed). The ellipsis in the quotation is held in the report exactly as copied — do not complete. Rebuttal to charge 1 of the four charges against old age (see u-0268). Peabody 1884 (Little, Brown) is PD per report; the popular web wording of De Senectute is the in-copyright Falconer/Loeb 1923 — do not substitute (report Watchlist item 5). Feeds the holding-on-vs-handing-over fork."

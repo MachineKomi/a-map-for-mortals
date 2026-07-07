@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/04-womens-voices.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report confidence: dubious — KEPT at dubious (S1 exception): Diotima's historicity is contested and she appears ONLY in Plato's Symposium. Report speaker_context: 'Voiced only through Plato's Socrates; historicity contested (Ficino, Nussbaum: fiction; Waithe, Deretić/Smith: possibly real).' Ficino (15th c.) first suggested she is fictional; Nussbaum reads her as a literary construct (name ~ 'honor the god', contrasting Alcibiades' Timandra, 'honor the man'); D'Angour models her on Aspasia. TRANSMISSION: the paradigm case of a woman's wisdom possibly voiced only through a man — doubly mediated (Plato writing Socrates reporting Diotima); she may be Plato's construct entirely. Endorsement label re-derived (report gave none): endorsed — Plato's Socrates relays her ladder-of-love teaching approvingly as instruction he accepts. COPYRIGHT: Greek text PD but the quoted English translation is unattributed in the report — flag unknown pending edition identification. Report fork: autonomy-vs-relation; cultivates temperance, wisdom."

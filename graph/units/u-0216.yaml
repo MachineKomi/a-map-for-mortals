@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/03-indigenous.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
-notes: "CONSENT GATE: do not publish before a community-source consent audit (see ops/DECISIONS.md 2026-07-08). Report label: verified (stored attested per S1 rule 1). Delivered 10 December 1992 at the UN, opening the 1993 International Year of the World's Indigenous People. A named living voice of the Haudenosaunee seventh-generation ethic (cf. u-0215). Copyright status of the address not established by the report."
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
+notes: "CONSENT GATE: do not publish before a community-source consent audit (see ops/DECISIONS.md 2026-07-07). Report label: verified (stored attested per S1 rule 1). Delivered 10 December 1992 at the UN, opening the 1993 International Year of the World's Indigenous People. A named living voice of the Haudenosaunee seventh-generation ethic (cf. u-0215). Copyright status of the address not established by the report."

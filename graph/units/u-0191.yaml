@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/01-eastern.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report label: verified (downgraded to attested per S1 rules). PD alternative wording held by report — Müller (SBE): 'hatred ceases by love.' Held as prudential counsel about how conflict actually de-escalates, despite the verse's 'law eternal' phrasing — not an empirical law and not lent metaphysical authority. Convergence with Shantideva Bodhicaryavatara ch. 6 is intra-Buddhist (shared tradition), NOT independent origination — do not count as cross-tradition robustness. General report caution: fabricated Buddha quotes dominate search results; this verse is a verified genuine anchor per the report, pending primary check."

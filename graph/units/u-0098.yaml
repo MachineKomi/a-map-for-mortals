@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/05-near-eastern-abrahamic.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report label: verified. Report's claim_type 'prudential/normative' narrowed to prudential (epistemic advice). SOURCING CAVEAT: this wording is cited only to Goodreads and its English version/translator is unidentified — copyright_flag unknown until the wording is matched to an edition (the work has multiple PD English versions, incl. the CCEL text used for u-0097); modern-sounding phrasing suggests a modern translation. Report CONV-4: converges with Ptahhotep Maxim 1 on epistemic humility — shared didactic-instruction genre inflates the convergence; robustness moderate. Era approximate (~1420s)."

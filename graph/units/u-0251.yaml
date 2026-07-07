@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/04-womens-voices.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report confidence: verified (held as attested per S1 rules). Transmission (extract): direct. PD per report. Cultivates reason and independence; guards against dependence and vanity (report fields). Claim_type kept normative per the report's unit block, but note the report's prose labels the argument 'empirical + normative' — the causal sub-claim that female weakness is produced by mis-education is an observational generalisation, not tested empirics; the unit is minted on its prescriptive core. Report forks: autonomy-vs-relation (autonomy pole); convergence candidate 'education as the lever of equality' with Ban Zhao, de Pizan, Astell. Life_stages derived by minting agent (extract left empty)."

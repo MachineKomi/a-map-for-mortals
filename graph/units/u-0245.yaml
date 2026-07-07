@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/04-womens-voices.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report confidence: verified (held at attested pending primary check). SPEAKER CONTEXT (report): the defense of fiction (monogatari) is spoken by the CHARACTER Genji, not in Murasaki's own voice — 'readers have long heard [Murasaki's] voice through his' (Tyler), but 'do NOT equate with authorial endorsement outright'; endorsement set 'complicated' on that basis (report gave the context but no enum label). WATCHLIST: 'mono no aware' is Motoori Norinaga's (1730-1801) later interpretive term, NOT Murasaki's phrase — Tyler notes 'the expression does not occur in the tale'. COPYRIGHT: Tyler (Viking 2001) in-copyright — snippet held pending rights review. TRANSMISSION: direct (her own composition). life_stages left empty per report (no stage-specific application given)."

@@ -1,6 +1,6 @@
-# CLAUDE.md — Operating Manual for *A Map for Mortals*
+# AGENTS.md — Operating Manual for *A Map for Mortals*
 
-You are Claude Code, running this project **largely autonomously**. Read this file, then **`STATE.md`**, at the start of every session.
+You are Codex, running this project **largely autonomously**. Read this file, then **`STATE.md`**, at the start of every session.
 
 ## 1 · What this is
 
@@ -22,7 +22,7 @@ You are Claude Code, running this project **largely autonomously**. Read this fi
 
 ## 3 · Operating model
 
-**Jason's role:** he prompts, runs deep-research queries in Claude chat when you prepare them, answers the escalation queue, and reviews **publish packages** (finished outputs) for taste, usefulness, and principles. He does **not** review intermediate steps. Optimise for that: run end-to-end, keep everything auditable, surface only what genuinely needs him.
+**Jason's role:** he prompts, runs deep-research queries in Codex chat when you prepare them, answers the escalation queue, and reviews **publish packages** (finished outputs) for taste, usefulness, and principles. He does **not** review intermediate steps. Optimise for that: run end-to-end, keep everything auditable, surface only what genuinely needs him.
 
 **Session protocol (every session):**
 0. **`git pull` first** (this project runs on two machines — laptop and PC — synced through the GitHub remote; the remote is the source of truth). **`git push` before ending.** Avoid concurrent sessions on both machines working the same phase — if unavoidable, split by phase or report and reconcile `STATE.md` at merge.
@@ -41,7 +41,7 @@ You are Claude Code, running this project **largely autonomously**. Read this fi
 Gates: paraphrase, claim_type, clustering/merges, independence, contradiction-vs-tension, robustness ratings, curation. At each:
 
 1. **Steer first:** reload the principles + the task's bias checklist (in METHODOLOGY §7) before judging.
-2. **Adversarial second pass** that genuinely tries to disagree. For high-stakes/contested calls use, in order of preference: (a) an external second model via a configured CLI (e.g. Codex/GPT) **if present in the environment**; (b) a fresh-context subagent with an adversarial charter — disclose in `method` that it shares weights; (c) escalate. **Never blend verdicts** (refined 2026-07-07): no averaging, no concealed compromise; both verdicts persist verbatim; a named deciding pass may explicitly select or synthesise with reasons; genuine stalemates affecting publication escalate. Log who judged what in `method`.
+2. **Adversarial second pass** that genuinely tries to disagree. For high-stakes/contested calls use, in order of preference: (a) an external second model via a configured CLI (e.g. Codex/GPT) **if present in the environment**; (b) a fresh-context subagent with an adversarial charter — disclose in `method` that it shares weights; (c) escalate. **Never blend verdicts:** concur → proceed at higher confidence; diverge → escalate with both readings recorded. Log who judged what in `method`.
 3. **External gold standards** where they exist: SEP (positions), Quote Investigator / Fake Buddha Quotes (attribution), primary editions (quotes). Never self-certify the externally checkable.
 4. **Confidence-tag everything**; low-confidence + high-stakes → `ops/ESCALATIONS.md`.
 5. **Monitor corpus skew** (tradition/language/gender/era); never present corpus frequency as global frequency.
@@ -51,10 +51,10 @@ Residual risk, disclosed: models share structural (WEIRD/Western/digitised-canon
 ## 5 · Repo map
 
 ```
-CLAUDE.md · STATE.md · README.md          + the 3 governing docs (root)
+AGENTS.md · STATE.md · README.md          + the 3 governing docs (root)
 docs/          background & canonical principles
 runbook/       PRODUCTION-RUNBOOK.md — the phases
-prompts/       deep-research prompts Jason runs in Claude chat
+prompts/       deep-research prompts Jason runs in Codex chat
 corpus/        reports/wave-N/ (inputs, as received) · COVERAGE-INDEX.md (master tracker)
 graph/         THE STORE: units/ (sourced expressions) · claims/ (canonical, merged)
                · edges/ · editions/ — YAML in git; schema in METHODOLOGY §3;
@@ -67,11 +67,9 @@ prototype/     ARCHIVE — the hand-authored v0.0.1 slice + locked creative copy
 
 ## 6 · Environment notes
 
-- **Document precedence when governing docs conflict:** founding-principles > REQUIREMENTS > METHODOLOGY > SPEC > runbook; STATE.md records which sentence won and why (ops/DECISIONS.md holds the reasoning). Known resolved conflicts: R-0.5 dubious→attested (2026-07-07); SPEC §2 palette semantics subordinated to R-V5 (2026-07-07); "Principle 16" lives in the locked prototype copy, not founding-principles.
-- **This machine (laptop, Windows):** invoke `python`, not `python3`; pip works without `--break-system-packages`; WeasyPrint = standalone exe in tools/bin (pip package cannot render here); fonts via tools/fetch_fonts.py. SPEC §3/§5's Linux paths describe the original environment, superseded by STATE.md capabilities.
-- Python 3; `pip install X --break-system-packages` (non-Windows machines). Check capabilities in Phase 0 and record them in `STATE.md`; prefer the **simplest tool that preserves the epistemics** (git+YAML store, NetworkX queries; heavy stack is optional — METHODOLOGY §6).
+- Python 3; `pip install X --break-system-packages`. Check capabilities in Phase 0 and record them in `STATE.md`; prefer the **simplest tool that preserves the epistemics** (git+YAML store, NetworkX queries; heavy stack is optional — METHODOLOGY §6).
 - Book: HTML/CSS → PDF via **WeasyPrint**. **No JavaScript** (Mermaid won't render) — all diagrams are hand-authored inline SVG/HTML. **Mandatory QA loop:** render → `pdftoppm -png` → *view every page* → fix → re-render.
-- Deep research is **not yours**: prepare prompts + do-not-duplicate lists; Jason runs them in Claude chat and drops reports into `corpus/reports/wave-N/`.
+- Deep research is **not yours**: prepare prompts + do-not-duplicate lists; Jason runs them in Codex chat and drops reports into `corpus/reports/wave-N/`.
 
 ## 7 · Conventions
 

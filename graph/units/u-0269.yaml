@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/05-childhood-old-age.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report label: verified — report states it verified De Senectute quotes to section number in PD Peabody 1884 against the Latin (Gutenberg #14945); kept attested per S1 rule 1 pending our own primary check. THE CONDITIONALITY KEY of the whole work: old age is tolerable 'only for those with the means within themselves' (report; §7, §65) — a tendency, not a destiny, in its original form. Spoken by Cato the Elder, Cicero's mouthpiece — endorsement 'endorsed' per report's 'strong but literary'. Register: report's 'argument / aphorism' mapped to 'aphorism' (the quoted line is the compressed dictum). Bears on the fighting-decline-vs-befriending-it fork; also in tension with Beauvoir's dissent that the ancients romanticise age and ignore its social marginalisation — preserve, do not prune."

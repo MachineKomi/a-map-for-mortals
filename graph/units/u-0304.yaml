@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/06-persian.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "FLAG FOR MERGE: overlaps the wave-1 Near-Eastern report (05); adab angle only. Report label: probable. Report instructs: verify exact translator/edition ('English tr. varies') — copyright unknown until traced; PD candidates Rehatsek 1888, Eastwick 1880; Davis 2002 in-copyright. Endorsement: endorsed — Saadi's moral of the story, authorial voice. Convergence candidate: Stoic and Epicurean 'enough' ethics (contentment-as-wealth) — recurrence is not proof."

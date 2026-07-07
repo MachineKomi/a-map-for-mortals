@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/03-indigenous.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report confidence: verified (named Potawatomi author and published work). Report explicitly tags Braiding Sweetgrass (Milkweed, 2013) as in copyright; the 'Honorable Harvest' chapter is the lead for exact protocol wording — no verbatim held here, quote minimally when obtained. Named by the report as part of the candidate reciprocity/relationality convergence (with Andean ayni, Sámi láhi/attáldat, Lakota Mitákuye Oyás'iŋ, ubuntu) — HYPOTHESIS only, recurrence ≠ proof. Counter-evidence held per report §E on stewardship claims: Krech, The Ecological Indian (Norton, 1999) — specific peoples did alter and sometimes over-exploit environments; tendencies, not destinies."

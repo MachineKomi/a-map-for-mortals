@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/01-eastern.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report label: verified (downgraded to attested per S1 rules). PD alternative wording held by report — Legge (1891): 'The Tao in its regular course does nothing for the sake of doing it, and so there is nothing which it does not do.' Report flags Legge's Christianising register. Pair with ch. 48 (decrease and decrease again) and ch. 2. Textual core of the self-cultivation-vs-spontaneity fork against Confucian xiushen/li (headline dilemma of this report). Slingerland (Trying Not to Try) named as best modern bridge on wu-wei."

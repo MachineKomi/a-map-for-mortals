@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/02-greco-roman.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report label: probable (downgraded to attested per S1 rules). Context (report's bracketed gloss): said by Diogenes to Alexander, who had offered him any favour. Report note: anecdote, not Diogenes' own text; no contemporary evidence the meeting occurred — value is illustrative of autarkeia, not documentary. Report Stage-2 flag: ingest with a visible 'transmitted via anecdote' marker. Nearly all Cynic material survives via Laertian anecdote."

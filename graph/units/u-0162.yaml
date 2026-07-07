@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/07-literary.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report grade: probable ('attested in tradition'; originator-level confidence dubious/apocryphal) — held as communal per S1 rules for proverbs attributed to a language tradition. Speaker: communal/anonymous; no dramatic frame; ENDORSEMENT=AMBIGUOUS per the report — the tradition itself endorses neither side of the pair, and their self-contradiction is the point: proverbs encode tendencies, not destinies (a model for the project's conditional-wisdom principle). RE-DERIVATIONS (differ from report): register proverb (report: aphorism — these are proverbs proper); claim_type observational and polarity descriptive (report: prudential/cautionary — the member proverbs are prudential counsel, but this unit's claim is a meta-observation ABOUT proverb pairs). The component proverbs are separately minted from the wave-2 folk report (cf. u-0341 look-before-leap, u-0342 hesitates-lost); this unit records the pairing insight itself. Report fork: passion_vs_duty; candidate convergence with Aristotelian phronesis (candidate, not proof)."

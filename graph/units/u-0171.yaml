@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/08-empirical.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report finding F15 (report confidence: grade-D; extract replication label: unassessed). Evidence grade D — cross-sectional correlational survey. Effect sizes as the report gives them: distinct correlates only, no numeric effect sizes; happiness and meaning measures overlap substantially — the authors describe roughly half-shared variance, and an independent UK Biobank estimate puts the phenotypic correlation at r ≈ 0.53. Caveats: partly exploratory and self-defined; being a 'giver' vs 'taker' tied to meaning but not happiness (report's characterisation). Replication status: unassessed per extract. SUPPORTS (qualified) 'pursue meaning, not just pleasure' — the constructs are distinct but heavily overlapping. US online (WEIRD) sample. URL as given by the report (a second PDF link, scottbarrykaufman.com, is also given). Re-derivation: extract typed this Insight; minted as Consequence per S1 rule 8 (different pursuits associate with different outcomes). No verbatim quotation held; paraphrase only."

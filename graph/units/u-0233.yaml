@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/03-indigenous.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report confidence: verified (named Sámi scholar, journal citation). Kuokkanen is explicitly listed by the report among in-copyright sources — tag copyright and quote minimally; no verbatim quotation held. Further works: Reshaping the University: Responsibility, Indigenous Epistemes, and the Logic of the Gift (UBC Press, 2007); Boaris dego eana (ČálliidLágádus, 2009). Named by the report as part of the candidate reciprocity/relationality convergence (with Andean ayni, Potawatomi Honorable Harvest, Lakota Mitákuye Oyás'iŋ, ubuntu) — HYPOTHESIS only, recurrence ≠ proof."

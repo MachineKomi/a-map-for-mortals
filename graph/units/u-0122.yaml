@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/06-modern-west.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report's confidence label: verified (downgraded to attested per S1 rules pending primary check). Per the report (citing the 1999 Oxford Dictionary of Quotations), this is the earliest known printed use of the phrase 'hostages to fortune'. Re-derivation difference: report's life_stages were [adult, parenthood]; 'parenthood' is not a valid life_stage in the schema — mapped to [young-adult, adult], with the family dimension carried by life_domains [love]. The claim is contested counsel about marriage/ambition trade-offs, not a destiny."

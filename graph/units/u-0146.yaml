@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/06-modern-west.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "RIGHTS-RESTRICTED, PARAPHRASE-ONLY (report rec. 3): Arendt IN COPYRIGHT — no long verbatim; only the four-word title phrase is held, and the print gate blocks it regardless. Report confidence: verified. Re-derivations: (1) claim_type observational, NOT the report's 'empirical' — the thesis is an interpretive generalisation from trial reportage, heavily contested among historians (e.g. Stangneth's Eichmann Before Jerusalem argues Eichmann's thoughtlessness was performance), not a systematically tested finding; per minting rule 2 an observational generalisation must not masquerade as empirical. (2) type Danger (report: Insight) — the unit's function is guarding against thoughtless conformity; cautionary polarity kept. Conditionality contested per report and per the historiography."

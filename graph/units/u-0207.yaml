@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/02-african.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report grade: verified ('verified verbatim at p. 176') — held at attested per S1 rules until independently checked (S2 climbs). Quotation is the fuller wording from the report's Details section (its unit block gives an elliptical compression of the same passage). Radical/processual communitarianism: personhood attained through communal obligation; duties primary, rights secondary. Companion passage p. 171: 'the reality of the communal world takes precedence over the reality of individual life histories.' One pole of the contested individual-vs-community fork — preserve dissent: directly rebutted by Gyekye's moderate communitarianism (u-0208); Wiredu's consensus variant is a third position; report rec. 1 says ingest as a CONTESTED node and flag for merge with the Western engagement-vs-withdrawal fork (do not re-derive). In-copyright (Univ. Press of America 1984) — print gate applies."

@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/06-modern-west.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report's confidence label: verified (downgraded to attested per S1 rules pending primary check). Latin original PD and verifiable; Elwes (1883) and White & Stirling (1899) PD English; Curley (1985) is the scholarly standard but in copyright. Metaphysical within Spinoza's system (a proposition about the 'free man'), deployed prescriptively as an ideal — polarity prescriptive kept from report. Direct counterpoint to the memento-mori stream (e.g. Stoic and Christian death-meditation practices) — preserve the tension, do not harmonise."

@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/06-modern-west.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report's confidence label: probable ('attribution probable, numbering varies across editions') — kept at attested per S1 rules. MISATTRIBUTION-WATCHLIST RELEVANCE: the English form ('Kind words do not cost much. Yet they accomplish much.') circulates widely attributed to Blaise Pascal as well as to Joubert; the French wording held here may itself be a back-translation — treat with suspicion until located in a primary edition. copyright_flag unknown because the report establishes no PD edition for this specific wording (the work generally is 19th-c. PD)."

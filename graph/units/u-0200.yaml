@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/01-eastern.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report label: probable. QUARANTINE (report Stage 2): wording unverified this pass — do not publish any quote until verse pinned against the Garfield print edition; if the check fails, report recommends dropping the unit rather than downgrading. Metaphysical, never empirical. Deliberately apophatic; interpretation heavily contested among Madhyamaka scholars — guard against both reification and nihilism readings (report)."

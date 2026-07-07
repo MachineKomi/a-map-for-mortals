@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/08-empirical.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report finding F9 (report confidence: grade-B/C; extract replication label: replicated). Evidence grade B/C — large prospective cohort plus sibling fixed-effects design; strong design, causally suggestive but still observational; trait self-control correlates with SES and other confounds. Effect sizes as the report gives them: a gradient across the distribution of childhood self-control predicting adult health, substance dependence, finances, and criminal conviction; no single numeric effect size stated. Replication status: a sibling-comparison design (509 same-sex dizygotic pairs) confirmed the sibling with poorer self-control had worse outcomes. SUPPORTS 'discipline pays off long-term'; sits in tension with the marshmallow-test attenuation (F13/u-0170) — the report's mapping table nets these to QUALIFIES for 'delay gratification and you'll succeed'. New Zealand (Dunedin) sample. URL as given by the report (a ResearchGate link is also given). Re-derivation: life_stages set to [child, young-adult, adult] (predictor measured in childhood, outcomes at 32); extract had [child, adult]. No verbatim quotation held; paraphrase only."

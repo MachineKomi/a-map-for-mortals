@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/06-modern-west.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report confidence: verified. Saunders (1890) PD wording; Payne (1974) and Cambridge (2015) translations in copyright; Saunders volume titles ('Counsels and Maxims') are his thematic rearrangement of Parerga — cite the Saunders volume, not a Parerga section number, for this wording. Report URL is WIST (tertiary quote aggregator); primary check needed. One pole of the report's Solitude-vs-Society and Authenticity-vs-Convention forks — report notes Smith and Schopenhauer both prize an inner judge but locate its training differently (strangers vs. solitude). Conditionality kept as contested per report."

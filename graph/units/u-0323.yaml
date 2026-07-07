@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/07-practical-strategic.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report label: probable — kept as attested per S1 rule 1. WORDING PENDING: report holds only the maxim title; it flags 'verify Jacobs' full wording of #84 before quoting beyond the title' (lead G2) — the bracketed '[Maxim 84]' in the report is editorial and excluded here. Jacobs 1892 PD."

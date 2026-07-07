@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/03-nietzsche.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report grade: probable. Re-derivation: report claim_type 'metaphysical/observational' → enum metaphysical (observational shading noted). Approved-precursor unit (Nietzsche's reverence for Heraclitus — see u-0062 approval evidence). No verbatim quotation held — copyright unknown. Convergence candidate with Nietzsche on strife/becoming as generative; convergence = robustness, not truth."

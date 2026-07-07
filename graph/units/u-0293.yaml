@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/06-persian.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report label: probable. Ferdowsi's authorial coda in his own voice (speaker = poet, not a character), so endorsement: endorsed. Report's misattribution watchlist warns most circulating 'Shahnameh quotes' are loose paraphrases; this wording must be verified against Davis 2006 print (report Lead #3) before quoting. Davis 2006 is in-copyright; PD alternatives: Warner & Warner, Helen Zimmern. Contrasting answer to mortality (legacy) vs the carpe-diem cluster (KH-04) — report fork #8. Ferdowsi was a Muslim preserving a Zoroastrian worldview, though this unit is his own statement, not inherited Zoroastrian material."

@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/02-greco-roman.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report label: probable (downgraded to attested per S1 rules). Report's bracketed gloss on the quote: Cicero rendering of Plato, Phaedo 64a; report note: Cicero is here transmitting Plato (Phaedo 64a-67e) — credit both. Report Stage-5 flag: the exact Latin of Tusc. I.30.74 is currently sourced secondhand and needs a targeted primary-text check. Report Stage-2 flag: ingest with a visible transmission marker."

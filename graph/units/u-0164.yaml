@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/08-empirical.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report finding F3 (report confidence: grade-C-D; extract replication label: replicated, i.e. consistent with other cohorts). Evidence grade C–D — longitudinal observational cohort (begun 1938), popularized in a trade book. Effect sizes as the report gives them: not a single effect size; relationship satisfaction at 50 predicted physical health at 80 better than cholesterol did; people who 'leaned into relationships' fared best (report's characterisation, not a minted quotation). Major limits per report: original cohort was 724 men (Harvard sophomores plus a Boston inner-city sample); women excluded; sample narrow, era-bound, non-representative; headline claims appear largely in a popular book and TED talks rather than as a single definitive peer-reviewed effect size — treat as hypothesis-consistent illustration, not decisive proof. SUPPORTS (qualified) 'relationships are the key to a good life'; sits alongside F1/u-0032 and F2/u-0163. Severe WEIRD/sex limits. No verbatim quotation held; paraphrase only."

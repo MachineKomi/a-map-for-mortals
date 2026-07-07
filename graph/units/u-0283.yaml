@@ -33,7 +33,7 @@ prov:
   source_report: corpus/reports/wave-2/06-persian.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: >-
   Report unit ZO-04; report label attribution_confidence 'verified'. RE-DERIVATION:
   set to 'communal' here — the Yasna Haptanghaiti is an anonymous communal liturgy

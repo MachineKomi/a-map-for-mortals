@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/03-indigenous.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report confidence: communal. Further attestation: Krister Stoor, Juoiganmuitalusat / Jojkberättelser (PhD, Umeå University, 2007); earliest Sámi-language primary source Johan Turi, Muitalus sámiid birra (1910) — primary-verification lead. Re-derivation difference: extract listed life_domain 'grief'; dropped — the report attests oral memory and relationship to beings and place, not mourning specifically. Report marks Sámi section sources 'mostly in-copyright'; no verbatim wording held, flag stays unknown."

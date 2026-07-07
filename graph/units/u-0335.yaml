@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/07-practical-strategic.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report label: dubious — KEPT (S1 rule 1 exception: report's own dubious stands). The epithet is self-reported by Galen (Kühn XIV:658), not independently attested — useful as reputational context for the physician-philosopher ideal (u-0334), not as fact. On the report's watchlist for exactly this reason. Copyright unknown: the Kühn edition's date/PD status is not established by the report (early-19th-c. edition likely PD — confirm at verification)."

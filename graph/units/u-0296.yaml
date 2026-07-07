@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/06-persian.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report label: communal (re-labelled attested: the poem is by a named author; the paraphrase summarises its climax). PARAPHRASE of the plot climax, not a verbatim line: thirty birds (si morgh) survive the seven valleys and find that the Simorgh they sought is themselves — the climax turns on a Persian pun (si morgh = thirty birds). Endorsement: endorsed — the revelation is the poem's own allegorical teaching, not an undercut character position. Metaphysical claim — never empirical. Reference edition Darbandi & Davis (Penguin 1984) is in-copyright; no wording held, so copyright unknown. Alternative verbatim per report Lead #10: Wolpé 2017; FitzGerald's PD 'Bird Parliament' abridgment exists. Develops Attar beyond the one unit held in the Near-Eastern report (per report scope note)."

@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/02-greco-roman.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report label: verified (downgraded to attested per S1 rules; S2 to climb). Re-derivation note: the quoted line reads as a tendency claim about outcomes ('justice wins at the end of the race'), but in context it is Hesiod's moral exhortation to Perses grounded in divine order (Dikē daughter of Zeus) — normative/prescriptive kept, with conditionality: contested since the claimed tendency is plainly not exceptionless. One of the report's Stage-1 high-confidence core units."

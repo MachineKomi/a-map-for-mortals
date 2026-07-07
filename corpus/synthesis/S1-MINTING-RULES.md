@@ -46,9 +46,9 @@ in the SOURCE REPORT — mint from the report's full unit block, not from the ex
      paraphrase records the tradition's existence and scope only, and `notes` begins
      "RECORD-ONLY (CARE): content deliberately not extracted; sacred/restricted."
    - `consent-gate`: mint normally but `notes` begins "CONSENT GATE: do not publish
-     before a community-source consent audit (see ops/DECISIONS.md 2026-07-08)."
+     before a community-source consent audit (see ops/DECISIONS.md 2026-07-07)."
 10. **`prov`**: {source_report: <path>, extracted_by: "claude-code:s1-p4-v1", pass: 2,
-    date: 2026-07-08}.
+    date: 2026-07-07}.
 11. **`notes`**: report's confidence label; misattribution-watchlist relevance;
     re-derivation differences; translation/copyright caveats. Terse but complete.
 

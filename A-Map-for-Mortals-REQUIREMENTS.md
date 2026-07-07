@@ -27,7 +27,7 @@ The canonical wording lives in `founding-principles.md`. In brief, every require
 - **R-0.2 — Honest about uncertainty, still useful.** Diagrams show *tendencies and risks, never destinies*. Generalise to be useful; never let a generalisation pretend to be a law.
 - **R-0.3 — Recurrence ≠ proof; convergence = robustness, not truth.** Independent cross-tradition agreement is a signal to be tested, not a verdict.
 - **R-0.4 — Keep the three truths distinct:** what *is* (empirical), what we *ought* to do (normative), what *tends to work* (prudential). Never dress one as another.
-- **R-0.5 — Respect sources; flag dubious attributions.** Add nothing to a wise person's mouth. Unverified quotes start at `dubious`.
+- **R-0.5 — Respect sources; flag dubious attributions.** Add nothing to a wise person's mouth. Unverified quotes enter the graph as `attested` (a claim about a source, not a verification); `dubious`/`apocryphal` mark affirmatively doubted attributions. *(Amended 2026-07-07 to resolve a contradiction with METHODOLOGY §2 — see ops/DECISIONS.md.)*
 - **R-0.6 — Refuse to flatten a life.** No diagram holds a whole human being; the book keeps saying so.
 - **R-0.7 — Tone.** Beautiful, serious, practical, honest, emotionally resonant; dry, humane humour welcome (Principle 16). **Never** preachy, moralising, self-help-gimmicky, or falsely certain.
 

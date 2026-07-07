@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/02-greco-roman.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report grade: probable — survives only via doxography (Stobaeus); wording reconstructed. English is 'after Freeman' (1948, PD status not established by the report) — treat wording as paraphrase-pending and re-source at S2. Report notes it anticipates Epicurean ataraxia."

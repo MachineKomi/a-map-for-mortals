@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/06-modern-west.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "RIGHTS-RESTRICTED, PARAPHRASE-ONLY (report rec. 3): Sartre IN COPYRIGHT — do not publish verbatim until licensing cleared or PD entry; the single short French line held above is research/audit only and print-blocked by the gate regardless. Report confidence: verified. Claim_type metaphysical per report and rule 2 (a thesis about human nature/freedom, not empirical); the normative charge (authenticity, responsibility) is downstream and belongs to companion units/edges. One pole of the report's freedom fork: Spinoza (freedom = understood necessity) vs. Sartre (radical freedom) — report notes the opposition is partly terminological."

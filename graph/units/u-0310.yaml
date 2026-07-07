@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/07-practical-strategic.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report label: probable. Harris 1974 translation IN COPYRIGHT — short fragment held; paraphrase posture for the book per report. claim_type metaphysical concurs with report: a definitional claim about the nature of the Way within the bushido/Zen framework, not empirical and not mere prudential advice. Cross-reference Dokkodo (separate late Musashi text) for the ascetic version."

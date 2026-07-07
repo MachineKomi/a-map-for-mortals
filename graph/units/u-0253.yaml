@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/04-womens-voices.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "RIGHTS-RESTRICTED, QUOTE-MINIMALLY: Beauvoir and both major English translations IN COPYRIGHT per report — only the single famous sentence the report records is held; print gate blocks verbatim regardless. Report confidence: verified (held as attested per S1 rules). Transmission (extract): direct. TRANSLATOR DISCREPANCY in report: its citation names Borde & Malovany-Chevallier (2010, 'One is not born but becomes woman') while its quoted wording is Parshley's (1953) — resolve at S2 primary verification. Re-derivation: claim_type observational (report unit block said 'descriptive', not a valid claim_type; extract said observational) — per SEP, cited by the report, a phenomenological description of social constitution, not essentialism and not tested empirics. Report tensions: autonomy-vs-relation (autonomy pole); Beauvoir's constructed-'woman' sits in tension with essentialist readings of care ethics (cf. u-0258/u-0259). Life_stages derived by minting agent (extract left empty): the 'becoming' spans formation from childhood."

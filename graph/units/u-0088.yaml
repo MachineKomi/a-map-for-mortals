@@ -33,7 +33,7 @@ prov:
   source_report: corpus/reports/wave-1/05-near-eastern-abrahamic.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: >-
   Report unit ANE-04; report label attribution_confidence 'verified (cited)',
   normalised to 'attested' pending a primary check. Claim_type prudential, polarity

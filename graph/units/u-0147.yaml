@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/06-modern-west.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "RIGHTS-RESTRICTED, PARAPHRASE-ONLY (report rec. 3): French original Gallimard 1942 IN COPYRIGHT (France life+70 -> PD 2030); O'Brien English translation (c) 1955 Knopf, renewed 1983, IN COPYRIGHT — do not publish verbatim until licensing cleared or PD entry; the single short line held above is research/audit only and print-blocked by the gate regardless. Report confidence: verified. Translator field refers to the English rendering only; edition_year is the French original. Report links (tertiary): Wikipedia 'The Myth of Sisyphus'; a Scribd copy (unreliable — do not treat as an edition). Affirmation pole of the report's Pessimism-vs-Affirmation fork; report caveat kept: Camus affirms WITHOUT denying suffering — affirmation is a stance, not factual optimism."

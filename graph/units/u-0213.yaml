@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/02-african.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report grade: verified — held at attested per S1 rules (S2 climbs). Copyright: the c. 1858 Swahili poem is public domain per the report; Allen's English translation (Tendi, 1971) is IN-COPYRIGHT and is not quoted — only the PD Swahili original is held. Rare female-authored classical Swahili verse (utenzi form: four-line, eight-syllable stanzas), Islamic-inflected didactic advice from mother to daughter; religious content tagged normative (never empirical) per the report's caveat on Swahili classical verse. Report caution kept: patriarchal content — the poem also advises a wife to speak to her husband 'as if he were a child'; this unit is a descriptive record of the tradition's counsel, and recording is not endorsement. Conditionality contested per report. Addresses the deference-vs-autonomy fork. S2 lead: Allen, Tendi (1971) for verbatim verses."

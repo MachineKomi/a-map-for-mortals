@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/07-practical-strategic.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report label: probable — kept as attested per S1 rule 1; report asks to verify the exact maxim number in Jacobs before quoting (lead G2, likely Maxim 4 area). Shows Gracián is NOT amoral: his prudence is bounded by character — the strategist stream's own gesture at the virtue-binds-competence counter-pole (converges with Galen u-0334 and the Hippocratic oath, per report §E). Jacobs 1892 PD."

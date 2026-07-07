@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/06-persian.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report label: communal (re-labelled attested: named author's structured allegory). PARAPHRASE, not a quote. The seven valleys: Quest, Love, Insight/Understanding, Detachment, Unity, Bewilderment, Poverty/Nothingness. Endorsement: endorsed — the valleys are the poem's own teaching frame. Prudential (a practice on the mystical path), though the path's goal is metaphysical. Convergence candidate per report: Khayyam's skepticism (u-0289/KH-05) and Socratic 'know that you know nothing' — recurrence is not proof. Reference edition Darbandi & Davis (Penguin 1984) in-copyright; no wording held, copyright unknown; Wolpé 2017 alternative (Lead #10)."

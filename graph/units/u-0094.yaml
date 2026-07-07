@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/05-near-eastern-abrahamic.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report label: verified. KJV 1611, PD. Measure-for-measure logic; the report places this on the strict-justice pole of FORK-1 (justice vs mercy), alongside Proverbs 22:22-23, against the Beatitudes' mercy pole (u-0092). Guarded danger per report section (f): hypocritical judging. Religious claim: normative, not empirical. Era approximate (Matthew ~70-90 CE)."

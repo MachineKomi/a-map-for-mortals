@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/07-practical-strategic.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report label: verified (Giles Ch. I §18). Realpolitik counsel — polarity kept descriptive per report's framing: a description of how adversarial conflict operates, cautionary about naivety, NOT a moral endorsement of deception. Anchors the deception cluster (§§18-19: 'when able to attack, we must seem unable'). Misattribution watchlist: 'Appear weak when you are strong, and strong when you are weak' is a modern compression of this passage — cite the real wording; 'keep your friends close and your enemies closer' (Godfather Part II, 1974) and the 'bodies floating down the river' line (Clavell's Shogun, 1975) are NOT Sun Tzu. Giles 1910 PD."

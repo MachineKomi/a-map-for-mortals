@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/03-indigenous.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "No verbatim quotation held — report glosses birgejupmi as 'self-sufficiency, coping, making do — taking only what is necessary so as to be able to harvest again'. Report confidence: communal. Further attestation: Nystad et al., Education Sciences 14(11):1246, 2024, linking birgen/birgejupmi to árbediehtu (traditional knowledge). Report marks Sámi section sources 'mostly in-copyright'; flag stays unknown as nothing verbatim is held. Misattribution watch: unattributed online 'Sámi proverbs' are unverified — sourced proverbs only via Gaski (ed.), Time Is a Ship That Never Casts Anchor (2006). Counter-evidence held per report §E on stewardship claims: Krech, The Ecological Indian (Norton, 1999) — tendencies, not destinies."

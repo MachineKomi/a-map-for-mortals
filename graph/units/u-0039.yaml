@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/02-greco-roman.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report grade: verified. Not a mechanical midpoint: courage's mean differs per person/situation, and some acts (e.g. murder) have no mean — the mean is relative to us and reason-determined, hence conditionality: conditional. Ellipsis in the quoted English is the report's own. Copyright: Ross (1908) PD per report."

@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/06-persian.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report label: probable. PARAPHRASE of Zuhayr's famous metaphor — War depicted as a foul monster, the mother of twin-born Famine and Desolation; imagery noted by W.A. Clouston, Arabian Poetry (1881, PD). Report instructs: verify a verbatim translation before publishing as a quote; PD locators Jones (1782), Lyall (1930); Arberry 1957 in-copyright. No verbatim quotation held — copyright unknown. Endorsement: endorsed — Zuhayr's own anti-war stance: a rare pre-Islamic minority voice for peace/reconciliation over glorified warfare (composed after the War of Dāhis and al-Ghabrā, praising the peacemakers who paid the blood money). Preserve as dissent within its era."

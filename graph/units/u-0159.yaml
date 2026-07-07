@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/07-literary.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report grade: verified (held at attested pending primary check). Speaker: the grieving poetic 'I' (Tennyson mourning Arthur Henry Hallam), early in the long elegy, in the first year of grief. ENDORSEMENT=ENDORSED — but situated at a specific stage of mourning, not offered as detached doctrine; the framing ('I hold it true... I feel it, when I sorrow most') marks it as conviction held against sorrow. Preserve the dissent: a counter-proverb exists ('what you never had, you never miss'). WATCHLIST: commonly misattributed to Shakespeare — it is Tennyson, In Memoriam Canto XXVII (report watchlist confirms). 1850 text / Wikisource, PD. Report fork: passion_vs_duty."

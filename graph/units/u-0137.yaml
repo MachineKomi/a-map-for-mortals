@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/06-modern-west.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report confidence: verified. PD. The harm principle. Re-derivation: 'politics' added to life_domains (report gave [society, self]) — the claim's explicit scope is the legitimate use of coercive power over community members. Mill himself scopes it ('civilized community', and elsewhere excludes children and 'backward' societies — a conditionality internal to the text): kept as contested per report. Re-derivation: report's type 'Principle' is not in the schema's form library {Insight, Dilemma, Virtue, Danger, Practice, Consequence}; set type: Insight and kept register: principle, which carries the report's intent."

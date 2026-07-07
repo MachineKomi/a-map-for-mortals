@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/07-literary.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report grade: verified (held at attested pending primary check). Speaker: the Chorus / Chorus-Leader, in the final lines after the catastrophe of Pentheus and Agave. ENDORSEMENT=AMBIGUOUS — this closing formula recurs at the end of several Euripidean plays (which may dilute its specific force), and here it caps a horrifying outcome rather than a comforting one. URL is the report's citation for the quoted wording (edmundgriffiths.com); the wording-to-Murray match should be confirmed at S2 — the report attributes the English to Murray 1902/06 (PD) but cites a third-party page for the text. Report fork: freedom_vs_fate. Metaphysical claim — never treat as empirical."

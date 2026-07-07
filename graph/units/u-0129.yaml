@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/06-modern-west.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report's confidence label: verified (downgraded to attested per S1 rules pending primary check). Source is the Tractatus Politicus (posthumous 1677), NOT the Ethics — per report it closely paraphrases the spirit of Ethics Pt III preface; the popular attribution to the Ethics is loose. Type kept as report's Practice (rid prefix says 'insight'; the unit prescribes a stance of understanding, so Practice fits). Latin PD; Elwes PD English."

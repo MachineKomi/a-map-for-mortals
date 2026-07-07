@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/07-practical-strategic.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report label: verified. CHARACTER SPEECH: spoken by the ATHENIAN ENVOYS in Thucydides' dramatised (reconstructed, not transcribed) dialogue — a character-position, not Thucydides' own view. The Melians reject it; Melos is destroyed, but Athens ultimately loses the war — the narrative arc functions as an implicit critique of pure expediency, hence endorsement: undercut. RE-DERIVATION: report tags claim_type 'descriptive' (not a schema value); re-derived to observational — a descriptive generalisation about how power behaves, with polarity descriptive. Descriptive realism, never endorsed. OVERLAP FLAG: Thucydides already held as Nietzsche's approved exemplar; this unit is the strategic angle only. Candidate convergence with Kautilya's sixfold policy (power-asymmetry realism). Crawley 1874 PD."

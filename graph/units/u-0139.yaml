@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/06-modern-west.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report confidence: verified. PD. MISATTRIBUTION WATCHLIST (report item 7): commonly truncated to 'Consistency is the hobgoblin of little minds' — dropping 'A foolish' inverts the meaning; also misattributed to Wilde and W. C. Fields (https://en.wikipedia.org/wiki/Wikipedia:Emerson_and_Wilde_on_consistency). Route a misattribution edge at S2. Re-derivation: claim_type prudential (report: normative) — the counsel is about how to think and grow, not a moral obligation; polarity and conditionality kept per report."

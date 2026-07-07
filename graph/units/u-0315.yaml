@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/07-practical-strategic.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report label: probable. Concept attested; exact single-line quote NOT isolated — report glosses upeksha as 'observance of neutrality' / diplomatic indifference, a stance for the king 'devoid of necessary strength'. Report also points to Kamandaka's Nitisara for elaboration. Scholars' link of upeksha to later 'soft power'/endurance ideas flagged by the report as interpretive — do not present as Kautilya's own claim. copyright_flag unknown because no quoted wording is held (the Shamasastry 1915 edition itself is PD). Candidate convergence: Sun Tzu's subdue-without-fighting (win-without-fighting / patience of the weak)."

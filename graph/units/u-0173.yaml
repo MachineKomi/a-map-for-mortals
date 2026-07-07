@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/08-empirical.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "No verbatim quotation held. Evidence grade: E (report: 'Grade E for the larger early claims; small but possibly real effects remain'). Replication status: contested. Effect sizes as reported: effect on well-being shrank to about r = 0.10 after correcting for small-sample bias; effects on depression became variable and often non-significant (reanalysis of Sin & Lyubomirsky 2009 and Bolier et al. 2013). CONTESTED — both sides: original meta-analyses reported substantially larger PPI effects; White/Uttl/Holder's bias-corrected reanalysis shrinks them to r≈0.10, and the report leaves open that small real effects remain (clinical usefulness vs placebo unclear). Bears on 'Positive-psychology exercises boost well-being' / 'Count your blessings' — QUALIFIES. Re-derivation: extract indexed this as Insight; re-typed Consequence (an effect-of-practice finding) per rule 8. WEIRD/Western samples."

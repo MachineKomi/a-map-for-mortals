@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/07-literary.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report grade: verified (held at attested pending primary check). Speaker: Michael, a fallen angel in human form sheltered by a poor shoemaker, revealing the third of three truths he was sent to learn, spoken as he ascends. ENDORSEMENT=ENDORSED — a post-conversion didactic parable rooted in 1 John ('God is love'); the narrative fully endorses the claim, which is exactly why it reads as sermon rather than drama — the report weights it lower for 'shown not preached' value than Anna Karenina. Religious-normative claim, never empirical. Maude 1906 (Twenty-three Tales) is PD. Cross-references A Confession (1882). Report fork: self_vs_others."

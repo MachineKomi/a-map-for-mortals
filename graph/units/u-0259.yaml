@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/04-womens-voices.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "RIGHTS-RESTRICTED, QUOTE-MINIMALLY: contemporary journal article, IN COPYRIGHT (report's blanket note covers the 20th-century ethics-of-care debate) — only the bracketed short line the report records is held; the report's own square-bracket interpolations are preserved as given, not smoothed. Report confidence: verified (held as attested per S1 rules). Transmission (extract): direct. ATTACHED CRITIQUE in the CARE-VS-JUSTICE FORK (contested, do not resolve): this unit is the de-gendering pole against Gilligan (u-0258) and Noddings; guards against gender-essentialism (report field). The claim carries a descriptive component (no actual gender division in orientations) inside a normative programme (de-moralize gender); minted normative per report and extract, with the composite noted. Life_stages derived by minting agent (extract left empty)."

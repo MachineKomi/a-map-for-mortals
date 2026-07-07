@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/06-persian.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report label: probable. Wording from The Sacred Books & Early Literature of the East, Vol. V (1917) — report establishes this and the Jones (1782) / Lyall (1930) renderings as PD locators; Arberry, The Seven Odes (1957) is the in-copyright scholarly alternative (Lead #4). Endorsement: endorsed — Zuhayr's own first-person gnomic voice ('the practical wisdom of a sober man of the world'), not character speech. Zuhayr c. 520–c. 609 CE. Strong convergence candidate per report with FitzGerald-Khayyam KH-04 (u-0288) and the Horace/Ecclesiastes/Siduri uncertainty-of-tomorrow cluster."

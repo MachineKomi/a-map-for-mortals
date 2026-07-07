@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/08-folk-proverbial.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report label: verified — held at attested per S1 rules. REGISTER/SPEAKER DISCIPLINE: a literary line proverbialised, NOT folk-anonymous — spoken by a character in Addison's tragedy (Act IV; the report does not name the speaker); author's endorsement not assumed (report), hence endorsement: ambiguous. VARIANT: the later folk-form 'He who hesitates is lost' derives from this line; MISATTRIBUTION WATCHLIST: 'he who hesitates is lost' as an *ancient proverb* is wrong — it is 1713 literary (report: verified-as-literary). DILEMMA POLE: haste/decisiveness pole of fork haste-vs-care, paired against u-0341 'look before you leap' (Heywood 1546); coexistence encodes conditionality — report reconciliation principle: time-pressure and reversibility of the decision determine which pole applies. Cf. u-0162 (wave-1 meta-unit on the pairing). Cultivates decisiveness/courage; guards against analysis-paralysis and indecision."

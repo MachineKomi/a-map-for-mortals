@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/07-practical-strategic.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report label: verified — downgraded to attested per S1 rule 1 pending primary check. COPYRIGHT: quoted wording is P. N. Singer's Loeb translation, IN COPYRIGHT — for print, paraphrase or short fragments only; locate a pre-1929 PD English rendering or cite the Greek (report lead G5). Greek title Ὅτι ἄριστος ἰατρὸς καὶ φιλόσοφος (Kühn vol. I). Galen makes virtue CONSTITUTIVE of expertise — the strongest counter-claim to Gracián's prudence-over-ethics (report: 'the anti-Gracián: principle first'); converges with Gracián's own u-0322 and the Hippocratic oath on skill-bounded-by-character. WATCHLIST: (a) the bare one-line 'best physician is also a philosopher' circulates on quote-sites detached from the essay's argument — cite the essay, not a quote-site; (b) 'primum non nocere' is sometimes attributed to Galen — no evidence, and Galen wrote in Greek, not Latin (Cedric Smith 2005)."

@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/01-eastern.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report label: verified. Observational/aesthetic, not prescriptive doctrine. RECEPTION CAVEAT (report key finding 4): the canonical formulation of mono no aware is a reception fixed by Norinaga's 1799 treatise — a polemic rejecting the then-dominant Buddhist/Confucian moral readings of Genji — not a timeless doctrine; the concept existed in Heian literature but its theoretical precision is 18th-c. Bracketed '[Genji was written]' is the report's own interpolation marker, preserved as given. Cross-check anchor: SEP, Japanese Aesthetics."

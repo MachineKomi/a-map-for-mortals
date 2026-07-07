@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/06-modern-west.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report label 'verified' -> attested per S1 rule. Epigraph added only in the 4th ed. (1675), hence era 1675; cite 1678 (5th/definitive) edition as standard per report. Maxim numbering varies by edition (1-504 standard run). Bund & Friswell (1871) PD English; Hachette/Gilbert (1868) PD French. Labels as re-derived match the report."

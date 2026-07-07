@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/07-literary.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report grade: verified (held at attested pending primary check). Speaker: the Narrator in free indirect style, ventriloquising Mrs. Bennet's worldview; the next paragraph immediately narrows the 'universal truth' to the property-hunting of 'surrounding families'. ENDORSEMENT=UNDERCUT — the report's flagship irony case: possibly the most celebrated ironic sentence in the English novel, meaning close to the OPPOSITE of its literal claim (the eighteenth-century formula 'It is a truth universally acknowledged' conventionally opened a philosophical premise, a la Hume/Berkeley). The narrator states it; the book dismantles it. Never flatten the irony or print as straight advice. Pairs with Elizabeth's 'till this moment I never knew myself' (Ch. 36) for the self-deception fork (future pass). First edition 1813 / Standard Ebooks, PD. Report fork: ambition_vs_love."

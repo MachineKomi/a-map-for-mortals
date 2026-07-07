@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/01-eastern.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report label: verified. One of the four mahavakyas. Metaphysical identity claim — never empirical. CONTESTED READING (carried as conditionality: contested): Brereton/Olivelle argue the grammar does not support 'That thou art' and render 'that's how you are, Svetaketu' — a significant divergence from the Advaita reading; preserve both. Spoken by Uddalaka to his son Svetaketu within a teaching dialogue; scripture, not literary characterisation, so endorsement n/a. In-copyright modern standard: Olivelle (Oxford)."

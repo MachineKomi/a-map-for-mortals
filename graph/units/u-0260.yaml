@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/05-childhood-old-age.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report label: verified. Read-aloud register unit — simple surface kept; report proposes it as an ideal opening page; recited by parents over children on Friday nights in Jewish practice. Report's register 'blessing / poem' mapped to nearest enum 'poem'. Claim-type: normative chosen (a prescribed communal practice); the invoked content (divine blessing) is metaphysical — never empirical. Conditionality: report's 'universal-ish (within tradition)' — the within-tradition qualifier matters. Ketef Hinnom scrolls (excavated 1979, Gabriel Barkay) are the oldest surviving Hebrew Bible text, ~400 yrs older than the Dead Sea Scrolls. KJV 1611 wording, PD; Hebrew MT to be captured at S2."

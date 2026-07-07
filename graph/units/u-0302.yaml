@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/06-persian.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "FLAG FOR MERGE: overlaps the wave-1 Near-Eastern report (05); taken here from the adab (practical-ethics) angle only. Report label: verified (recorded; kept attested pending primary check). Textual variant (misattribution watchlist #5): banī ādam aʿzā-ye yekdīgar-and ('limbs of one another', in all early MSS) vs yek peykar-and ('one body'); the UN carpet's Persian uses yekdīgar while the English UN plaque uses Eastwick's 1880 rendering of the later yek peykar variant — do not present either as definitively original. Davis 2002 is in-copyright; PD English: Rehatsek 1888, Eastwick 1880. Provenance colour: 5m x 5m carpet installed 2005 in the North Delegates' Lounge, UN HQ; quoted by Ban Ki-moon (Tehran, 2012); first couplet on Iran's 2010 100,000-rial banknote. Convergence candidate: Stoic oikeiosis/cosmopolitanism and Golden-Rule traditions — recurrence is not proof. Endorsement: endorsed — Saadi's own moral verse within the story frame."

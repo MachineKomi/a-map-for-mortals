@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/04-womens-voices.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report confidence: probable (held at attested pending primary check). TRANSMISSION: direct. The wisdom register is okashi (the charming, the delightful) as a mode of attention across the book's 164 lists; the quoted line is her judgment on a lover who leaves at dawn fussing noisily for his fan and paper. WORDING PENDING (report's own flag): 'verify exact pagination against a print edition before encoding verbatim'. COPYRIGHT: Morris (1967) and McKinney (Penguin 2006) translations BOTH in-copyright (McKinney judged more accurate by Midorikawa) — snippet held pending rights review. Context: served Empress Teishi, rival court to Murasaki's Shōshi; Murasaki's Diary criticises her as 'dreadfully conceited' (Bowring 1982 — separate lead). Report convergence: attention/unselfing as ground of virtue, with Murdoch and Weil (Weil held by modern-philosophy report — do not flatten). Report fork: examined-life-under-constraint."

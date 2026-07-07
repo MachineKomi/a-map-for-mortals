@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/03-nietzsche.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report grade: verified (with paraphrase caveat). WATCHLIST: the popular wording 'He who has a why to live for can bear with almost any how' is Viktor Frankl's paraphrase (Man's Search for Meaning, 1946), which Frankl explicitly credited to Nietzsche — the verbatim is Nietzsche's, the popular form is Frankl's. Both Kaufmann and Ludovici omit the aphorism's second half: 'Man does not strive for pleasure; only the Englishman does.' German original held and PD (1889). COPYRIGHT CAVEAT: English translator ambiguous in report (Kaufmann in-copyright vs Ludovici 1911 PD) — line-match vs Gutenberg #52263 before print; PD alternative (Ludovici) exists, never fabricate its wording. Report consulted Quote Investigator (external gold standard). life_domains/life_stages derived (extract gave none)."

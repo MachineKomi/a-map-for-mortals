@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/07-practical-strategic.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report label: verified (Giles Ch. II §7). RE-DERIVATION: report tags claim_type empirical; re-derived to observational — an ancient generalisation from historical observation ('no instance'), not a systematically evidenced empirical finding; treating it as empirical would overstate its evidential grade. Tempers the deception/aggression units — Sun Tzu prizes speed and conservation, not war for its own sake. Giles 1910 PD."

@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/05-near-eastern-abrahamic.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report label: verified. Field 1910, PD; Kimiya-yi Sa'adat is Ghazali's own Persian abridgement of the Ihya (per inventory). Report's claim_type 'metaphysical/normative' narrowed to metaphysical (never empirical). Report CONV-5: converges with Augustine's interior turn (u-0096) via a shared Neoplatonic (Plotinus) lineage — cross-pollination, NOT independent convergence (report's explicit flag). Sufi unit — Rumi/Hafiz pseudo-quote watchlist: al-Ghazali is not himself on the watchlist and this wording comes from a named PD translation, but the same quarantine discipline applies to any popular Sufi quote entering this cluster."

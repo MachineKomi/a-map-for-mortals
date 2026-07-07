@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/05-childhood-old-age.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report label: verified. Claim-type: normative chosen (a command about how to enter), with a metaphysical frame (the kingdom of heaven) — religious claim, never empirical. Conditionality: report's 'universal-ish (within tradition)'. PRESERVE THE TENSION with 1 Cor 13:11 ('when I became a man, I put away childish things') — same tradition, opposite surface counsel; do not prune. Distinguish childlike trust (endorsed by the text) from childish/naive (not). Report's register 'aphorism / parable-adjacent' mapped to 'aphorism'. Convergence candidate with Wordsworth (u-0262) on 'the child re-teaches the adult'. KJV 1611, PD."

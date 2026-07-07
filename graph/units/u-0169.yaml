@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/08-empirical.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report finding F10. FAILED REPLICATION — foregrounded by the report itself; minted as a Danger-type cautionary exhibit per P4 instruction (report confidence: grade-E; extract replication label: failed). Evidence grade E — likely not a real effect as classically operationalized. Replication status: preregistered multi-lab replication (Hagger & Chatzisarantis, 2016; 23 labs, N = 2,141) found essentially no effect, despite 22 of 23 labs predicting success; Carter & McCullough (2015) found the original meta-analysis inflated by small-study/publication bias, with a probable true effect near zero. Effect sizes as the report gives them: early meta-analytic d ≈ 0.6 (Hagger et al., 2010 — inflated); multi-lab replication ~0. CONTRADICTS 'willpower is a finite daily resource' (Baumeister et al., 1998 model). Western lab samples. Report links: the Hogrefe URL above and https://statmodeling.stat.columbia.edu/wp-content/uploads/2017/11/Hagger_0-407863.pdf (Carter & McCullough 2015). Re-derivation: extract typed this Insight; minted as Danger (cautionary exhibit). No verbatim quotation held; paraphrase only."

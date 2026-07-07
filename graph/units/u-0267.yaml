@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/05-childhood-old-age.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report label: PROBABLE (kept attested per S1 rule 1; attribution to Vishnu Sharma is traditional, not verified authorship). Wording caveat: the held English appears to be a DESCRIPTION of the frame narrative (likely Ryder's front matter or an editorial summary), not a translation of the Sanskrit frame text itself — confirm the exact locus at S2 before any print use. Ryder 1925 translation is PD; Olivelle (Clay Sanskrit Library) and Rajan (Penguin) in copyright. Contrast with Aesop (u-0261): Panchatantra teaches strategic realpolitik (niti — 'the wise conduct of life'), not simple virtue — keep the report's descriptive framing of that realpolitik counsel. Frame-story pedagogy bears on the protecting-vs-preparing fork."

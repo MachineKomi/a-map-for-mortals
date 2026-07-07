@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/05-childhood-old-age.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report label: verified (held at attested per S1 rule 1). Report claim_type label was 'prudential / metaphysical (on death)' — re-derived to prudential: the counsel is how to hold one's exit; the metaphysical component (death not to be feared) is implicit, not asserted as doctrine here. Speaker: Cato the Elder, Cicero's mouthpiece; endorsement strong but literary. Quotation begins lowercase exactly as held in the report. Cf. §64 'not, like untrained players, to have broken down in the last act' — distinct image, same theme (report note). Preserve the in-text tension with §26 'actively resist' old age (report section E: held within one text; the tension is the wisdom). Feeds living-for-time-left-vs-as-if-whole. Peabody 1884 PD per report."

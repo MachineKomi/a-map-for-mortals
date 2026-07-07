@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/02-greco-roman.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report grade: verified (fragment); English wording flagged by the report as a paraphrase 'after Kirk & Raven' (paraphrase-pending — replace with a PD rendering, e.g. Burnet 1912, at S2). The popular 'you cannot step in the same river twice' is a compression; B12 is the securest fragment. Report cautions that Plato's flux reading (Cratylus 402a; Theaetetus) may overstate Heraclitus, who emphasises stability-through-change — hence conditionality: contested. Copyright unknown: quoted wording follows Kirk & Raven (1957, in-copyright); Greek original PD."

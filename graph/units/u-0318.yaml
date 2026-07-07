@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/07-practical-strategic.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report label: verified (Jacobs Maxim iii, 'Llevar sus cosas con suspencion'). Court-prudence counsel — a conditional strategy for adversarial/competitive social arenas, not endorsed as universal ethics; report flags Gracián's own bound on it ('a wicked will envenoms all excellences'). Sharp cross-stream tension flagged by report: Gracián's strategic secrecy vs Hippocratic transparency/fiduciary secrecy. Jacobs 1892 PD."

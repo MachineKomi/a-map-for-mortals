@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/03-nietzsche.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report grade: verified. Approved-precursor unit: Nietzsche calls Stendhal 'France's last great psychologist' (BGE §39 and §254); in Twilight 'Skirmishes' §45 he ranks discovering Dostoevsky as a windfall 'more so than even my discovery of Stendhal'. Zimmern 1907 PD per report; line-match at S2. Conditionality: explicitly conditional on the aim ('To be a good philosopher...'). life_stages derived (extract gave none)."

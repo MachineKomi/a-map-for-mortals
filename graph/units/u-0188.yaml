@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/01-eastern.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report label: verified (downgraded to attested per S1 rules). Endorsement 'endorsed' is the minting agent's call (report gives no label): an authorial parable, narrated of Zhuang Zhou himself and capped in the text with the doctrinal label 'This is called the Transformation of Things' — but report cautions that Zhuangzi's parable speakers are literary devices; do not read endorsement flatly. Claim held as metaphysical, not empirical. Companion motif: the useless tree (ch. 1/4) as counter to Confucian usefulness/duty. Ziporyn (Hackett) also a modern standard; Legge PD."

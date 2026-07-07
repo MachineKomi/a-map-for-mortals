@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/08-folk-proverbial.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report label: communal — kept; folk proverb, people/language as author per S1 rules. DILEMMA POLE: care pole of fork haste-vs-care, paired against u-0342 'he who hesitates is lost' (Addison, Cato, 1713); the pair's coexistence encodes conditionality, not contradiction — report reconciliation principle: time-pressure and reversibility of the decision determine which pole applies. Same-pole kin: Panchatantra Book V (u-0336), Tao Te Ching 64 (u-0338). Cf. u-0162 (wave-1 meta-unit on this very pairing as evidence that proverb-wisdom is conditional). Cultivates prudence/foresight; guards against rashness."

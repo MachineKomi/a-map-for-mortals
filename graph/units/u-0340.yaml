@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/08-folk-proverbial.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report label: communal — kept. The proverb belongs to the Spanish-speaking folk of Castile; source names Cervantes because the quoted wording is his attestation in Don Quixote I.31 (register discipline: literary attestation of a communal proverb; the report does not identify the speaker within the novel — do not assume). VARIANT FORMS: 'buitre volando' (Quixote), 'ciento volando' (modern standard), 'cien volando'; Latin antecedent 'Est avis in dextra melior quam quattuor extra'. Security pole of forks risk-vs-security and thrift-vs-ambition — contradicts 'nothing ventured, nothing gained' (report reconciliation: stake size and downside survivability determine the pole). CONVERGENCE (preserve for edge pass): Spanish/Latin/English bird-in-hand + Aesop 'fish in hand' graded likely-transmitted — shared Latin/Aesopic ancestor across contiguous Europe. Cultivates prudence/contentment; guards against greed and over-reaching."

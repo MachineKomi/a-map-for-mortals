@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/06-modern-west.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report confidence: verified. PD (Mill, 1861/1863). Era set to 1861 (serial publication in Fraser's Magazine) per report; book 1863. Report's Duty-vs-Happiness fork notes Mill's 'higher pleasures' smuggle duty-like rankings into the concept of happiness, blurring the Kant/Mill divide — preserve as conditionality: contested."

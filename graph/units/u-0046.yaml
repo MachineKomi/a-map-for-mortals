@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/02-greco-roman.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report label: probable (downgraded to attested per S1 rules). Report note: the four-line mnemonic is Philodemus' compression, not Epicurus' own wording; the underlying Principal Doctrines 1-4 are genuine. Report Stage-2 flag: ingest with a visible 'compression' marker. Prudential label kept though the first two limbs rest on contested metaphysical premises (nature of gods, mortality of soul) — hence conditionality: contested. Translation credit 'after D.S. Hutchinson' is likely in-copyright; do not print verbatim without a rights check."

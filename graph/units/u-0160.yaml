@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/07-literary.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report grade: verified (held at attested pending primary check). Speaker: the poetic 'I' — a 'definition poem' metaphorising an abstract noun as a bird; no dramatic undercut (ENDORSEMENT=ENDORSED). COPYRIGHT NUANCE: the poem text is PD, but the 1955 Johnson and 1998 Franklin EDITIONS' editorial apparatus is (c) President & Fellows of Harvard College — cite the poem text, not the edited volume; Fr314/J254 numbering used for reference only. Era c.1861 (composition). Report fork: self_deception_vs_truth."

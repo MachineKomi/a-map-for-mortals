@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/04-womens-voices.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "RIGHTS-RESTRICTED, QUOTE-MINIMALLY: Midgley IN COPYRIGHT per report — only the short fragment the report records is held; print gate blocks verbatim regardless. Report confidence: verified (held as attested per S1 rules). Transmission (extract): direct. Guards against scientism, reductionism and conceptual 'bad plumbing' (report fields). The report's fuller gloss: invisible 'until... the smell coming up from below is so bad that we are forced to take up the floorboards'. Life_stages derived by minting agent (extract left empty)."

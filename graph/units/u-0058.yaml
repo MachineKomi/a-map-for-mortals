@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/03-nietzsche.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report grade: verified. NACHLASS CAVEAT: in the published works eternal recurrence is a life-test ('a test of life-affirmation, not a metaphysical proof'); the cosmological version appears mainly in the unpublished Nachlass and must be handled separately. WILL-TO-POWER QUARANTINE: never cite the Förster-Nietzsche/Gast 'Will to Power' compilation (Colli/Montinari: 'historic forgery') as doctrinal support for recurrence. Ecce Homo (on Zarathustra §1) calls it the 'highest possible formula of affirmation'. Quote is elided in the report (ellipsis preserved). Re-derivation: report register 'thought-experiment' not in schema enum → parable; report claim_type 'normative (life-test); NOT asserted as cosmology' → normative. COPYRIGHT CAVEAT: report credits Common (1910) but the wording's modern 'you' does not read like Common's archaic diction — line-match vs Gutenberg #52124 (Joyful Wisdom) before print; PD alternative (Common) exists. life_stages derived (extract gave none)."

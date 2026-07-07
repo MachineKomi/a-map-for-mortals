@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/08-empirical.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "No verbatim quotation held. Evidence grade: A (converging meta-analyses). Replication status: replicated (Tomaso 2021: three meta-analyses, 64 studies, 241 effect sizes; corroborated by 2024 Psychological Bulletin meta-analysis, 154 studies, 5,717 participants — report table cites 'Palmer 2024'). Effect sizes as reported: large negative effect on positive mood; negative mood g = 0.45; adaptive emotion regulation g = −0.32; emotional processing g = −0.11 after publication-bias correction. Caveat: mostly short-term lab studies. Universal-ish: the report's most robust health finding ('Protect sleep… Grade A… foundational'). Bears on 'Protect your sleep' / 'A sound mind in a sound body' — SUPPORTS. Mixed samples."

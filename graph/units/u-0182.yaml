@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/08-empirical.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "No verbatim quotation held. Evidence grade: B/C (large longitudinal panel). Replication status: unassessed (single SOEP analysis). Effect sizes as reported: 22-year SOEP data, N = 1,637 deceased adults aged 70–100; life satisfaction tracked distance-to-death more than chronological age, with a transition point ~4 years before death where decline roughly tripled. Bears on 'End-of-life well-being declines' — SUPPORTS. German panel sample. Universal-ish: terminal decline reported as a robust pattern, though based on one national panel."

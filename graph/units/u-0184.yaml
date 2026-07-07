@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/01-eastern.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report label: verified (downgraded to attested per S1 rules). RE-DERIVATION: report/extract labelled claim_type empirical and polarity prescriptive; re-derived as observational/descriptive — an armchair generalisation about human moral psychology from a thought experiment, not study-backed empirical evidence and not advice. Scholarly caution kept: 'duan' as 'sprout' vs 'tip' is contested (Van Norden, Warp/Weft/Way), and 2A6 alone underdetermines the cultivationist reading. Four sprouts = ren, yi, li, zhi. Sits on the nature-good-vs-bad fork against Xunzi ch. 23 (preserved dissent). D.C. Lau (Penguin) and Van Norden (Hackett) in-copyright standards."

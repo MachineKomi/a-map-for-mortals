@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/07-practical-strategic.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report label: verified (verbatim, Book VII Ch. I). The shadgunya (six measures of policy). Candidate convergence flagged by report: near-identical power-asymmetry logic to the Melian dialogue ('strong do what they can'), Indian and Greek, independently. The four upayas (sama/conciliation, dana/gifts, bheda/dissension, danda/force) are the tactical companion set — lead G1, not yet isolated verbatim. Realpolitik counsel: conditional prudence in an adversarial arena, not endorsed as universal ethics. Shamasastry 1915 PD."

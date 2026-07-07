@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/02-greco-roman.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report grade: verified (the fragment is genuine). The English 'character is fate' is an interpretive traditional rendering — daimon ('divinity/guiding spirit') is not simply 'fate'; report says treat the English gloss as contested, hence conditionality: contested. Copyright: Greek original PD; the three-word English gloss is a traditional rendering tied to no specific edition — prefer quoting the Greek in print. Kirk & Raven leave daimon untranslated."

@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/03-nietzsche.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report grade: verified (approval, qualified). KAUFMANN COPYRIGHT FLAG: the only English wording held is Walter Kaufmann's (The Portable Nietzsche, 1954), in-copyright — print gate blocks it; PD alternative: the German original (KSB vol. VI) is public domain; Spinoza's own doctrine is PD in the Elwes Ethics translation. No PD English wording held — do not fabricate. The quotation is Nietzsche's summary of Spinoza's doctrine, not Spinoza's text. TENSION (preserve, do not resolve): 'I have a precursor' vs Nietzsche's later critique of Spinozan conatus/self-preservation (Gay Science §349, Beyond Good and Evil §13) — approval real but qualified. Convergence (anti-teleology, no moral world-order, naturalised ethics) = robustness, not truth."

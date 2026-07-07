@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/06-modern-west.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report's confidence label: verified (downgraded to attested per S1 rules pending primary check). Pensées published posthumously 1838 (ed. Chateaubriand); Joubert wrote the carnets c. 1774-1824, so era reflects publication, not composition. Re-derivation difference: added 'knowledge' to the report's life_domains [work, self] — the aphorism is about learning as much as teaching. 19th-c. French text PD; Paul Auster's 1983 selection in copyright — do not use its wording."

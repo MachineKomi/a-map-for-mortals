@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/05-near-eastern-abrahamic.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report label: verified. Pusey 1838, PD; Latin held from the report (report's Latin citation link was a WordPress blog — the CCEL link the report gives for Pusey is recorded instead). WATCHLIST (report): genuine, but the smooth modern 'our hearts are restless until they rest in You' is translation drift — the PD Pusey reads as quoted here. Metaphysical claim, never empirical. Report CONV-5: shares a Neoplatonic (Plotinus) lineage with al-Ghazali's interior turn (u-0100) — cross-pollination, NOT independent convergence. Love pole of FORK-4. Era approximate (~397-400 CE)."

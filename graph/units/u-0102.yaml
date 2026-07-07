@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/05-near-eastern-abrahamic.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report label: verified (Davis in copyright; cited). No verbatim quotation held: the report records only the parable's resolution — the thirty birds (si = thirty, morgh = birds; the pun is the point) behold the Simorgh and discover it is themselves. Davis & Darbandi is the lead citation and in copyright; PD lead per inventory is the FitzGerald précis. copyright_flag unknown since no wording is held. Report's register 'parable/metaphor' narrowed to parable. Metaphysical claim, never empirical. Sufi unit — Rumi/Hafiz pseudo-quote watchlist: Attar is not named on the watchlist, but the same quarantine applies — no popular renderings admitted without matching a scholarly edition. Era approximate (~1177-1187)."

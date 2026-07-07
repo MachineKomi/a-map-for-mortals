@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/08-folk-proverbial.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report label: verified — held at attested per S1 rules (report claims about sources; S2 climbs). Frame verse of Book V, which is devoted entirely to ill-considered action; it introduces 'The Loyal Mongoose' (wife kills the faithful mongoose in haste) via the bridging moral 'Let the well-advised be done; / Ill-advised leave unbegun: / Else, remorse will be let loose, / As with lady and mongoose.' Care pole of fork haste-vs-care (report reconciliation principle: time-pressure and reversibility of the decision determine which pole applies); cf. u-0341 (look before you leap), u-0342 (hesitates is lost), u-0338 (Tao Te Ching 64 gradualism). Cultivates prudence/deliberation; guards against rashness and irreversible error. TRANSMISSION CHAIN (preserve for edge pass): Panchatantra (Sanskrit) → Middle Persian/Pahlavi trans. by Burzōy ~570 CE → Arabic Kalila wa Dimna by Ibn al-Muqaffaʿ ~750 CE → via al-Andalus into Old Spanish/Hebrew/Latin → Europe (La Fontaine credited 'Pilpay'/Bidpai); Indian-European proverb parallels default to likely-transmitted per report. Copyright caveat: Ryder 1925 US-PD since 2021, confirm jurisdiction."

@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/01-eastern.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report label: verified (downgraded to attested per S1 rules). PRESERVED DISSENT (per report): scholarly minority (Tang Siufu and others) argues 'e' is better rendered 'detestable', or that Xunzi's view is 'human nature is simple/uncarved, not evil'. Ch. 23 opens by naming Mencius and declaring him wrong — direct counter-unit to u-0184 on the nature-good-vs-bad fork (unresolved within Confucianism). Han Fei was Xunzi's student. Knoblock (complete) also in-copyright; no PD translation named by report — do not print verbatim without licence check."

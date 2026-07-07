@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/05-near-eastern-abrahamic.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report label: verified. KJV 1611, PD. Report's claim_type 'normative/metaphysical' narrowed to normative — the counsel is normative, grounded in a metaphysical providence claim (never empirical). Report's register 'parable/principle' narrowed to parable. Strong-providence pole of FORK-6 (submission vs striving), against 'tie your camel' (Tirmidhi 2517) and Avot 2:16; report T-5. Era approximate (Matthew ~70-90 CE)."

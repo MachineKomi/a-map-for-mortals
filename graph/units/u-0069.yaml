@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/03-nietzsche.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report grade: verified (Nietzsche's approval of Emerson). Approved-precursor unit; approval evidence: The Gay Science §92 names Emerson one of four 19th-c. 'masters of prose' (Leopardi, Mérimée, Emerson, Landor — four-name list fully verified per report; exact Common framing sentence pending vs Gutenberg #52124); Twilight §13 ('Emerson'): 'Much more enlightened, more roving, more manifold, subtler than Carlyle; above all, happier... a man of taste.' Nietzsche read Emerson in G. Fabricius's 1858 German translation of the Essays, heavily annotated. No Emerson verbatim held — copyright unknown. life_stages derived (extract gave none)."

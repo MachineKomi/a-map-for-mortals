@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/06-modern-west.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report's confidence label: verified (downgraded to attested per S1 rules pending primary check). Claim_type kept metaphysical (a claim about a distinct faculty of knowing, in Pascal's context religious intuition of God), not empirical. Cross-reference all three numbering systems per report. Frequently quoted out of context as romantic sentiment; in the Pensées the 'heart' is primarily an organ of religious knowledge."

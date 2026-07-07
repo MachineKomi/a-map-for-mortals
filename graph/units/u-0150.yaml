@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/07-literary.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report grade: verified (held at attested pending primary check). Speaker: the Chorus, as the play's closing tag, after Oedipus discovers he has killed his father and married his mother, blinds himself, and is led away; the play frames the maxim as hard-won truth about the limits of human control (endorsed). COPYRIGHT CAUTION (re-derivation differs from report): the report labels this wording 'Storr, 1912 (PD)', but it closely matches the Fitts & Fitzgerald (1949) closing lines, which the report's own inventory flags as in_copyright_translation — copyright_flag set to unknown rather than public-domain until the wording is checked against Storr's actual 1912 text; treat as in-copyright for print until confirmed. The report's separate modern rendering ('count no man happy till he dies, free of pain at last') is from an in-copyright modern translation (Fagles-era) and is NOT stored here. Echoes Solon's maxim (cf. u-0052 from 02-greco-roman). Report fork: pride_vs_humility."

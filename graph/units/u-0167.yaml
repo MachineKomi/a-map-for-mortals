@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/08-empirical.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report finding F8 (report confidence: grade-B/C; extract replication label: replicated). Evidence grade B/C — longitudinal panel, >24,000 people (German panel). Effect sizes as the report gives them: adaptation back toward baseline life satisfaction within ~2 years of marriage on average; at most a small lasting boost; large individual differences — no numeric effect size or CI stated. Replication status: largely upheld per the report's findings table; the adaptation reading is contested by Easterlin (table caveat). Bears two ways per the report's mapping: QUALIFIES 'marriage makes you lastingly happier' and SUPPORTS 'this too shall pass / adapt to change' (hedonic adaptation is real, with individual variation). German (WEIRD) sample. URL as given by the report. No verbatim quotation held; paraphrase only."

@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/03-indigenous.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
-notes: "CONSENT GATE: do not publish before a community-source consent audit (see ops/DECISIONS.md 2026-07-08). Report confidence: communal. Legal/governance instrument cited precisely: Government of Nunavut, Incorporating Inuit Societal Values (2013) — one of the codified Inuit Qaujimajatuqangit (IQ) values, alongside Inuuqatigiitsiarniq (respect/relationships), Pijitsirniq (serving/providing — a stewardship concept), and Aajiiqatigiinniq (consensus decision-making). Secondary source: Karetak, Tagalik & Tester (Fernwood, 2017), in-copyright. Quotation held is the Inuktitut term plus the report's English gloss only."
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
+notes: "CONSENT GATE: do not publish before a community-source consent audit (see ops/DECISIONS.md 2026-07-07). Report confidence: communal. Legal/governance instrument cited precisely: Government of Nunavut, Incorporating Inuit Societal Values (2013) — one of the codified Inuit Qaujimajatuqangit (IQ) values, alongside Inuuqatigiitsiarniq (respect/relationships), Pijitsirniq (serving/providing — a stewardship concept), and Aajiiqatigiinniq (consensus decision-making). Secondary source: Karetak, Tagalik & Tester (Fernwood, 2017), in-copyright. Quotation held is the Inuktitut term plus the report's English gloss only."

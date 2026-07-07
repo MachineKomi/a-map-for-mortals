@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/06-modern-west.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report's confidence label: verified (downgraded to attested per S1 rules pending primary check). WORDING CAVEAT per report: the original 1739 text has only ONE comma ('ought only to be the slave of the passions'); the common two-comma version is modernised punctuation — the wording held here follows the one-comma original. Re-derivation difference: report labels claim_type empirical; re-derived as observational — this is an armchair philosophical-psychology generalisation about motivation (with a famously provocative normative 'ought' clause), not a systematically evidenced empirical finding. Selby-Bigge (1896) PD; Norton & Norton critical edition in copyright."

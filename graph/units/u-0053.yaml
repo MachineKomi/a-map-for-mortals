@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/02-greco-roman.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report label: verified (downgraded to attested per S1 rules; S2 to climb). The report's canonical claim adds 'timeliness (kairos)' which the quoted line renders as 'proportion' — the paraphrase keeps both, flag for checking against the Greek (kairos) at S2. One of the report's Stage-1 high-confidence core units."

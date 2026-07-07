@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/07-practical-strategic.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report label: verified, BUT report flags: verify exact wording against the Crawley edition before final publication (lead G4) — wording treated as verification-pending. CHARACTER SPEECH: the Athenian envoys' warning to the Melians within a coercive ultimatum. endorsement: complicated — the warning is vindicated by the narrative (Melos relies on hope of Spartan aid and is destroyed), yet it is voiced by the same envoys whose expediency doctrine the arc undercuts; not straightforwardly authorial. Crawley 1874 PD."

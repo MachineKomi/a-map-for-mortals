@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/08-empirical.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "No verbatim quotation held. Evidence grade: A (that an effect exists) / B–C (its size), per report. Replication status: replicated (many meta-analyses). Effect sizes as reported: SMD ≈ −0.61 (95% CI −0.69 to −0.54) for depression and −0.47 for anxiety (2025 meta-meta-analysis: 81 meta-analyses, 1,079 studies, 79,551 participants); umbrella review of 97 systematic reviews, 1,039 trials, 128,119 participants found effects 'comparable to or slightly greater than' psychotherapy and pharmacotherapy. Key caveat kept: restricted to low-risk-of-bias RCTs (Cooney 2013 Cochrane; Krogh 2017) the effect shrinks substantially or becomes non-significant; reverse causation and self-report inflate observational estimates. Bears on 'Exercise for mental health' / 'A sound mind in a sound body' — SUPPORTS. Mixed samples."

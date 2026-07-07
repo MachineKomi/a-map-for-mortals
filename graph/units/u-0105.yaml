@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/06-modern-west.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "APOCRYPHAL as Montaigne — report label kept per S1 rule 1 exception. Report Misattribution Watchlist item 4: also floated for Seneca, Twain, Churchill; not located in the Essais. Authentic source of the sentiment per report: Seneca, Moral Epistles 13.4 (Gummere/Loeb): 'There are more things, Lucilius, likely to frighten us than there are to crush us; we suffer more often in imagination than in reality.' (Lat. 'Plura sunt quae nos terrent quam quae premunt, et saepius opinione quam re laboramus.') Report recommends a misattribution edge linking the popular form to the Seneca source. URL is a quote-aggregator page documenting the popular form's circulation, not a primary source. era 1580 refers to the attributed author's period only. NOT a print candidate under this attribution."

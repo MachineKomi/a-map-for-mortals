@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/03-nietzsche.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report grade: verified — report marks this Ludovici wording 'FULLY VERIFIED verbatim' against Gutenberg #52190; per S1 rules it still enters as attested, S2 performs the primary line-match. The quotation is NIETZSCHE on Heine (approval evidence and claim wording coincide); ellipsis in the report's quote preserved. WORDING CAVEAT: the popular form 'Heine gave me the HIGHEST CONCEPTION of the lyric poet' is the Kaufmann (in-copyright) / older anonymous rendering; the Ludovici 1911 PD text reads 'the most perfect idea of what a lyrical poet could be' — print must use Ludovici. Re-derivation: report claim_type 'observational/aesthetic' → observational; conditionality conditional (the claim is indexed to Nietzsche's own taste: 'unthinkable to me')."

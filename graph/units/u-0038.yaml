@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/02-greco-roman.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report grade: verified (passage genuine at Apology 21d). Copyright unknown: report credits 'Jowett (PD); cf. Grube paraphrase' but the quoted English reads more modern than Jowett's 1871 phrasing and may follow Grube (in-copyright) — confirm the translator match against a PD edition at S2 before any print use (cf. the u-0001 Carter/Higginson correction). Socratic problem: Socrates via Plato. Watchlist #11: the compression 'I know that I know nothing' is itself apocryphal as a verbatim line; this passage is its genuine basis."

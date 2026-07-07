@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/05-childhood-old-age.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report claim_type label, verbatim: 'observational (ANECDOTAL — not a study)' — LABEL CLEARLY (report Watchlist item 3): one palliative carer's recollection, widely cited as if research; it is not. Peer-reviewed literature treats it as such: Davidai & Gilovich, 'The ideal road not taken', Emotion 18(3):439–452 (2018), write 'Although anecdotal, her observations are in line with our hypothesis.' Value is heuristic, not evidential — never dress as empirical law. Report attribution label: 'dubious (as evidence) / communal (as folk wisdom)' — re-derived to attested: the quoted wording's attribution to Ware's book is solid; the report's 'dubious' attaches to its evidential standing, not to the attribution, and is fully carried in this note and in conditionality: contested. Origin: blog post 'Regrets of the Dying' (2009, ~8M readers by 2012); memoir 2011, translated into 27 languages. IN-COPYRIGHT (Hay House, per report) — quote briefly. Converges with Byock (u-0276) and Gawande (u-0278) — robustness signal, not proof. Feeds living-for-time-left-vs-as-if-whole."

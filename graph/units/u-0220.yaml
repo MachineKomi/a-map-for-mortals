@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/03-indigenous.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report label: communal. The quotation held is Dr. Jennifer Nez Denetdale (Diné historian, University of New Mexico) glossing the communal concept — speaker recorded here; the report gives no venue/date for the quote, so copyright unknown. Peer-reviewed anchor for the concept: Kahn-John & Koithan 2015, in-copyright (see u-0221). Hózhó encompasses beauty, balance, harmony, order, health; expressed in 'Walking in Beauty' and the Blessingway (Hózhǫ́ǫ́jí). Re-derivation note: normative kept per extract, though hózhó also carries metaphysical content (report tags Diné material normative/metaphysical) — this unit carries the way-of-life claim."

@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/04-womens-voices.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report confidence: probable (held at attested pending primary check). First named author in history: high priestess of Nanna at Ur, daughter of Sargon; the hymn narrates her expulsion from office by the usurper Lugal-Ane and her appeal to Inana for reinstatement — the first first-person authorial voice on record. TRANSMISSION: direct (her own composition; not male-mediated). Authorship caution from report: the Temple Hymns collection is debated — Black concluded at most only the final hymn (42) can reasonably be claimed as hers; Nin-me-šara itself is her securest attribution. COPYRIGHT: the Sumerian text is PD but all modern translations are in-copyright per report, and this English wording's translator is unidentified ('trans. varies') — held in-copyright; editions for verification: Helle (Yale 2023), Hallo & van Dijk (1968), Zgoll (1997). Report fork: voice-vs-silence."

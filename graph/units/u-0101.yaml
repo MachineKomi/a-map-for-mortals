@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/05-near-eastern-abrahamic.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report label: verified (Nicholson in copyright; cited). PD fallback per report: Whinfield 1887 — 'Hearken to the reed flute, how it complains'. WATCHLIST (high relevance, report section g): the Rumi internet-quote ecosystem is heavily contaminated — Coleman Barks produces interpretive 'versions', not translations (does not read Persian; Shackle: 'not so much a paraphrase as a parody'), and popular Rumi quotes ('Out beyond ideas of wrongdoing...', 'Do not feel lonely...') are dubious-to-apocryphal; verify any Rumi wording ONLY against Nicholson (1926) or Whinfield (1887, PD); never seed Barksian text as primary. Metaphysical claim, never empirical. Reed-flute proem; opening of the Masnavi. Era approximate (~1258-1273)."

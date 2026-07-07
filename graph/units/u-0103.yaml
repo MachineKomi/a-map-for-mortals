@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/05-near-eastern-abrahamic.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report label: verified (translation in copyright; cited). Sahih International is in copyright — the print gate needs a PD Qur'an translation (none listed in this report's inventory; flag for sourcing). Re-derivations: report's claim_type 'metaphysical/normative' narrowed to metaphysical (theological promise, never empirical); polarity re-derived as descriptive against the report's prescriptive — the verse states a conditional consequence (reliance -> sufficiency), matching type Consequence, though it functions as encouragement to rely. Conditionality universal-ish qualified 'within tradition' by the report. Tawakkul pole of FORK-6 (submission vs striving) against Tirmidhi 2517 'tie your camel' and Avot 2:16 (report T-5: within Islam the tawakkul/asbab balance is a live, signed debate). source.author null by design (scripture). Era approximate (7th c.)."

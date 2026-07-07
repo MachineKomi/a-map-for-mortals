@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/03-nietzsche.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report grade: verified (approval). Approved-precursor unit; approval evidence: 'Dostoiewsky, the only psychologist, by the way, from whom I had anything to learn: he ranks among the most beautiful strokes of fortune of my life.' (Twilight, 'Skirmishes' §45); Nietzsche adds he is grateful 'however much he goes against my deepest instincts'. CONDITIONALITY/TENSION (preserve, do not resolve): Nietzsche endorses the psychological insight and repudiates Dostoevsky's Christian conclusions — tension within convergence over Christianity and pity. No verbatim quotation held — copyright unknown."

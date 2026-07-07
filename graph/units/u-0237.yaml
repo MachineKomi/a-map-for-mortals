@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/03-indigenous.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report confidence: communal; contested origin. Legal instrument cited precisely: Constitution of the Republic of Ecuador (2008) — Preamble resolves to achieve 'the good way of living, the sumak kawsay' (translation held above; translator unnamed by report); Article 14 recognises the right to 'a healthy and ecologically balanced environment that guarantees sustainability and the good way of living (sumak kawsay)'; term/idea appears roughly two dozen times. Bolivian parallel: 2009 Constitution, suma qamaña, alongside Rights of Nature/Pachamama. DISSENT ATTACHED (report §Details/Andean): Javier Cuestas-Caza and Norman & Dorothea Whitten argue sumak kawsay ≠ buen vivir (not mere translation); Gudynas and others note it was systematised/neologised by Indigenous organisations (e.g. OPIP in Pastaza) in the 1990s — some critics allege 'invention of tradition'. Conditionality set to contested accordingly. Translation loss real: sumak kawsay resists English glossing."

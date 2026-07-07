@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/03-nietzsche.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report grade: verified (qualified approval). APPROVED DIMENSION ONLY: Schopenhauer as exemplar of intellectual honesty and the solitary thinker; Nietzsche repudiates his pessimism and denial of the will-to-life — in Twilight he calls the philosophy a 'nihilistic devaluation of life' (and Schopenhauer 'the last German of any consequence'). Preserve the ambivalence as a live tension; exclude the metaphysics of resignation. The quotation is Nietzsche's characterisation, not Schopenhauer's own words. COPYRIGHT: translator of the quoted English unnamed in report → unknown; identify the edition before print; never fabricate PD wording. life_stages derived (extract gave none)."

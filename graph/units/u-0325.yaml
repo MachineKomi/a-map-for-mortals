@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/07-practical-strategic.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report label: verified — downgraded to attested per S1 rule 1 pending primary check. MISATTRIBUTION WATCHLIST: this is the sharpest genuine ends-vs-means text and what people MEAN when they misquote 'the ends justify the means' — that phrase appears NOWHERE in Machiavelli; its Latin cognate 'exitus acta probat' is Ovid, Heroides II.85 (tr. Showerman, Loeb 1914), ~1,500 years earlier. The actual claim is narrower and conditional. Cautionary/descriptive realpolitik, not endorsed. Copyright caveat: report cites 'Ricci (rev. Vincent) 1903/1935' and asserts Marriott/Ricci both PD — if the quoted wording follows the 1935 Vincent revision rather than Ricci 1903, PD status needs re-checking at verification."

@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/04-womens-voices.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report confidence: verified (held at attested pending primary check). TRANSMISSION: direct — earliest surviving English-language book by a woman. Companion line held by the report (ch. 86): 'Love was our Lord's meaning.' Theodicy under suffering; conditionality kept contested per report. Re-derivation differs from report: polarity set descriptive (report: prescriptive) — the claim asserts what ultimate reality is like; its consoling, hope-grounding use is downstream. COPYRIGHT: Warrack (1901) translation PD per report; Windeatt (OUP 2015) in-copyright. Report convergence: non-instrumental orientation to the ultimate, with Rabia (Sufi), Akka Mahadevi (Bhakti), Murdoch (secular Platonist) — claim types differ, do not flatten into one node. Cultivates (per report): hope, trust; guards against despair."

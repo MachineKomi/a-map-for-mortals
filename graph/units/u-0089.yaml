@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/05-near-eastern-abrahamic.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report label: verified (Sandars in copyright). Character speech: Siduri the tavern-keeper counsels Gilgamesh mid-quest; report gives no endorsement label — set complicated: Gilgamesh rejects the advice in scene, but the epic's failed immortality quest arguably vindicates it. Editorial provenance flag (per report): this speech survives in the Old Babylonian version and is largely absent from the Standard Babylonian recension. Sandars is a prose 'version' and in copyright; PD fallback Muss-Arnolt 1901. Report's register 'poem/principle' narrowed to poem. Era approximate (OB ~1800 BCE). Convergence with Ecclesiastes 2:24 eat-drink-joy motif is lineage-suspect, partly NOT independent (report CONV-1)."

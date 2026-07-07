@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/06-modern-west.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report label 'verified' -> attested per S1 rule. Re-derivation differs from report: polarity descriptive (report: prescriptive) — the maxim states what patience is rather than issuing counsel; the commendation is implicit in the Virtue framing. Maxim numbering follows the Furne 1857 PD edition and is edition-dependent (report caveat). URL is the report's fr.Wikiquote link, not a primary source."

@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/02-african.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report grade: communal — kept per S1 rules (proverb attributed to a named people/language). RE-DERIVATION: register proverb (report: metaphor) — the Twi wording is a proverb proper; the Adinkra symbol is its visual metaphor, noted here rather than driving the register. Copyright: communal precolonial oral wording; the report's public-domain Akan corpora — Christaller, Twi mmebusem (1879, LoC loc.gov/item/43019087) and Rattray, Ashanti Proverbs (1916) — are the S2 verification leads (presence of this exact wording not yet checked against them). Akan proverbs carry elder-authority framing ('nananom/mpanyinfoɔ se' — the elders/ancestors say). Addresses the tradition-vs-innovation fork; convergence candidate (candidate, not proof): Confucian reverence for tradition."

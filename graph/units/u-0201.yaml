@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/01-eastern.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report label: probable. QUARANTINE (report Stage 2): exact wording unverified this pass — pin against a named edition (Tanahashi / Waddell & Abe) before publishing at verified. INTERPRETIVE DIFFICULTY: Dogen's 13th-c. Japanese is notoriously multivalent; translations diverge substantially (carried as conditionality: contested). Koans and Dogen's prose resist propositional paraphrase by design — held as Practice/provocation, not an insight-claim (report's explicit instruction). Metaphysical (self/no-self, awakening), never empirical."

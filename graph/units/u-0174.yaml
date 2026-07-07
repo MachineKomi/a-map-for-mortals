@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/08-empirical.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "No verbatim quotation held. Evidence grade: E (for the original ratio claim — debunked/partially retracted). Replication status: failed (report table: 'invalid'; American Psychologist partially retracted Fredrickson & Losada 2005, withdrawing the modelling and the specific ratios). Effect sizes as reported: the claimed 2.9013:1 critical ratio is invalid. Conditionality universal-ish because the unit's claim is the debunking itself, which is uncontested. Bears on 'Maintain a 3:1 positive ratio' — CONTRADICTS. Report lesson kept: 'superficially precise quantitative claims in positive psychology warrant scrutiny.' Re-derivation: extract indexed this as Insight; re-typed Danger (a warning against relying on the debunked ratio) per rule 8."

@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/07-practical-strategic.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report label: verified (verbatim, Book I Ch. IV). Dandaniti — the doctrine that ordered rule underwrites all other goods. Realpolitik counsel kept in the report's cautionary/descriptive framing overall: a claim about what statecraft requires, not a moral endorsement of coercive rule. Kautilya's dating contested. Shamasastry 1915 PD."

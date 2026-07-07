@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/03-indigenous.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report label: verified (stored communal per S1 rule 1 — oral constitutional tradition of a people, held here in Parker's rendering). MISATTRIBUTION WATCHLIST: the popular slogan 'in every deliberation we must consider the impact on the seventh generation' is NOT in written transcriptions of the Great Law; the only 'seven' passage concerns leaders' skin being 'seven spans' thick. The seventh-generation ethic is authentically rooted in this passage but the slogan is a modern distillation — flag as tradition/paraphrase. Era given is the Parker rendering's date; the oral tradition long predates it. Parker 1916 is public domain (report; hosted by Portland State University). Report recommends cross-checking against Onondaga Nation community sources at S2."

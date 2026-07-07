@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/06-persian.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report label: communal (re-labelled attested here: the unit is sourced to a named author's poem, not an anonymous oral tradition, though the Layla-Majnun legend pre-dates Nizami). PARAPHRASE of a narrative arc, not a quote — do not present as verbatim. Speaker/dramatic context: Majnun's love for Layla drives him to renounce society, wander the desert composing verses, and perish of grief; this is a character's arc, not authorial counsel. Endorsement ambiguous per the report: Nizami adds Sufi allegorical layers reading Majnun's frenzy as divine intoxication, so the poem is BOTH cautionary AND a mystical ideal — preserve both readings (report contradiction: passion as destruction vs passion as divine ideal, within Nizami himself). No verbatim quotation held; copyright unknown."

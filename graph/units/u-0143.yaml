@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/06-modern-west.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report confidence: verified (for the Danish journal entry). COPYRIGHT: Danish original PD (1843); copyright_flag covers the held Danish quotation only — Hong & Hong (Princeton) and Hannay (Penguin) English translations IN COPYRIGHT; do not quote them. MISATTRIBUTION WATCHLIST (report item 8): the neat English 'Life can only be understood backwards; but it must be lived forwards' is a condensed paraphrase of the longer entry, not verbatim; the related slogan 'Life is not a problem to be solved but a reality to be experienced' does NOT appear in Kierkegaard's writings — route misattribution edges at S2. The held Danish transcription uses aa/ae romanisation (baglaends/forlaends) per the report's source page; check against SKS orthography (baglænds/forlænds) at primary verification. Locator is the modern SKS critical edition; the 1843 text itself is PD."

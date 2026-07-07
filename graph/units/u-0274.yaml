@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-2/05-childhood-old-age.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report label: verified (held at attested per S1 rule 1). A MODEL, NOT A LAW (report's emphatic tag — carried). Report claim_type label: 'empirical (model with empirical support)' — held as empirical; evidence status exactly as report gives it: meta-model of adaptive lifespan development with empirical support; no effect sizes or replication figures given in the report; 'successful aging' research has empirical support but also normative baggage about what counts as success. Report polarity label was prescriptive — re-derived to descriptive: the quoted claim describes how adaptive ageing proceeds; prescriptive use (select/optimise/compensate as advice) is downstream application. Distinguishes elective vs. loss-based selection; applicable across the lifespan, not only old age. IN-COPYRIGHT (CUP 1990, per report) — quotation held for research; print gate governs the book. Operationalises the middle path of the fighting-vs-befriending fork (report section C.3)."

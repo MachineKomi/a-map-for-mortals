@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/02-greco-roman.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report label: probable (downgraded to attested per S1 rules). Report note: the clinamen is criticised as ad hoc — introduced precisely to break the determinism Epicurean physics otherwise implies; Lucretius is our fullest source for Epicurus' physics, which mostly does not survive. Metaphysical claim (a physics-of-freedom thesis), never empirical. Quoted English is elliptical as held in the report."

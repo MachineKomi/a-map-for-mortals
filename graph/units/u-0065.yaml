@@ -33,5 +33,5 @@ prov:
   source_report: corpus/reports/wave-1/03-nietzsche.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
-  date: 2026-07-08
+  date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
 notes: "Report grade: 'verified (approval); exact §49 wording partially verified'. The quotation is NIETZSCHE'S characterisation of Goethe, not Goethe's own words; also held: Goethe 'disciplined himself into wholeness, he created himself' (§49) and the originally planned chapter close 'Goethe is the last German before whom I feel reverence.' STAGE-2: report flags the full §49 verbatim as only partially captured — confirm against Gutenberg #52263 before print (translator/section/year firmly verified per report, hence PD flag). Translation-title caveat: Ludovici's chapter 'Skirmishes in a War with the Age' = Kaufmann/Hollingdale 'Skirmishes/Expeditions of an Untimely Man'; section numbers identical. Re-derivation: conditionality set conditional — presented as a rare exemplary achievement, not universal counsel; life_stages derived (extract gave none)."
