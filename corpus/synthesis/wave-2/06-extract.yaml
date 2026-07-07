@@ -1,0 +1,311 @@
+report: 06-persian
+extracted: 2026-07-07
+units:
+  - rid: ZO-01
+    claim: Each person must personally choose between truth and the lie; none chooses for you.
+    type: Dilemma
+    claim_type: normative
+    author: Zarathustra
+    tradition: zoroastrian
+    stages: [youth, young-adult, adult]
+    domains: [ethics, spirituality, decision-making]
+    conf: verified
+  - rid: ZO-02
+    claim: Two opposed primal spirits, good and bad, express in thought, word, and deed.
+    type: Insight
+    claim_type: metaphysical
+    author: Zarathustra
+    tradition: zoroastrian
+    stages: [adult, midlife]
+    domains: [ethics, spirituality, cosmology]
+    conf: verified
+    note: Most contested Gathic stanza; modern scholarship reads the dualism as ethical/psychological, not ontological.
+  - rid: ZO-03
+    claim: The lie leads to worst existence, truth to best; choices carry long consequences.
+    type: Consequence
+    claim_type: normative
+    author: Zarathustra
+    tradition: zoroastrian
+    stages: [adult, elder]
+    domains: [ethics, spirituality]
+    conf: verified
+  - rid: ZO-04
+    claim: The ethical life is the alignment of good thought, good word, and good deed.
+    type: Virtue
+    claim_type: normative
+    author: Yasna Haptanghaiti (anonymous, post-Zarathustra)
+    tradition: zoroastrian
+    stages: [child, youth, young-adult, adult, midlife, elder]
+    domains: [ethics, work, community, speech]
+    conf: verified
+    note: Rendering after Narten 1986 via Encyclopaedia Iranica; get verbatim Y35.2 from Hintze 2007 print.
+  - rid: ZO-05
+    claim: "The divine is apprehended through mind: father of Good Thinking, creator of Truth."
+    type: Insight
+    claim_type: metaphysical
+    author: Zarathustra
+    tradition: zoroastrian
+    stages: [adult, midlife, elder]
+    domains: [spirituality, cosmology]
+    conf: probable
+    note: Only fragmentary Insler wording verified online; use fuller text only after checking the physical 1975 volume.
+  - rid: KH-01
+    claim: Simple present pleasures — bread, wine, verse, companionship — can outweigh imagined paradise.
+    type: Practice
+    claim_type: prudential
+    author: Edward FitzGerald (crafter; after the Khayyam tradition)
+    tradition: persian-poetry
+    stages: [youth, young-adult, adult]
+    domains: [happiness, love, contentment]
+    conf: dubious
+    note: FitzGerald fused Ouseley MS quatrains 149 and 155; 1st- and 5th-edition wordings differ materially — always cite the edition.
+  - rid: KH-02
+    claim: The past is irreversible; no piety, wit, or tears can undo what is done.
+    type: Insight
+    claim_type: observational
+    author: Edward FitzGerald (crafter; after the Khayyam tradition)
+    tradition: persian-poetry
+    stages: [adult, midlife, elder]
+    domains: [time, regret, acceptance]
+    conf: dubious
+    note: Wording and image are FitzGerald's crafting; sentiment broadly Khayyamic.
+  - rid: KH-03
+    claim: Humans may be helpless pieces moved by an inscrutable player — a strong determinist reading.
+    type: Danger
+    claim_type: metaphysical
+    author: Edward FitzGerald (crafter; after the Khayyam tradition)
+    tradition: persian-poetry
+    stages: [adult, midlife]
+    domains: [fate, agency, meaning]
+    conf: dubious
+    note: A poetic voice, not a settled philosophy; directly opposes Zoroastrian free will (ZO-01) — a real fork within the Persian corpus.
+  - rid: KH-04
+    claim: Because tomorrow is uncertain and yesterday gone, act and drink in the present.
+    type: Practice
+    claim_type: prudential
+    author: Edward FitzGerald (crafter; after the Khayyam tradition)
+    tradition: persian-poetry
+    stages: [youth, young-adult, adult]
+    domains: [time, happiness]
+    conf: dubious
+    note: FitzGerald sharpened the hedonism and suppressed the Sufi reading — flag the Victorian filter on any carpe-diem convergence.
+  - rid: KH-05
+    claim: The Khayyam corpus is skeptical about dogma and knowledge's limits, not simply hedonistic.
+    type: Insight
+    claim_type: prudential
+    author: Khayyam tradition (pseudepigraphic; literal tr. Avery & Heath-Stubbs 1979)
+    tradition: persian-poetry
+    stages: [adult, midlife, elder]
+    domains: [mortality, knowledge, pleasure]
+    conf: probable
+    note: Most quatrains pseudepigraphic — "Khayyam" a frame-author for later skeptical poets; oldest source (Bodleian Ouseley 140, 1460 CE) postdates him by 312 years.
+  - rid: FE-01
+    claim: The world is impermanent and capricious; wisdom is to look past surfaces to underlying truth.
+    type: Insight
+    claim_type: prudential
+    author: Ferdowsi
+    tradition: persian-poetry
+    stages: [adult, midlife, elder]
+    domains: [meaning, wisdom, adversity]
+    conf: probable
+    note: Davis 2006 rendering unverified-to-page; confirm exact wording against print before quoting.
+  - rid: FE-02
+    claim: Even the mightiest hero cannot escape fate; the turning heavens override human strength.
+    type: Consequence
+    claim_type: observational
+    author: Ferdowsi
+    tradition: persian-poetry
+    stages: [adult, midlife]
+    domains: [fate, family, war, tragedy]
+    conf: communal
+    note: PARAPHRASE-PENDING — narrative episode (Rostam and Sohrab), not a maxim; do not present as quotation until verified against Davis 2006.
+  - rid: FE-03
+    claim: The smallest life is precious; do no needless harm — the foundation of just rule.
+    type: Virtue
+    claim_type: normative
+    author: Ferdowsi
+    tradition: persian-poetry
+    stages: [young-adult, adult, midlife, elder]
+    domains: [justice, compassion, governance]
+    conf: probable
+    note: English translator of the "Miyāzār muri" couplet unidentified — verify before quoting.
+  - rid: FE-04
+    claim: A poet's words secure a kind of immortality; language outlasts empire.
+    type: Insight
+    claim_type: observational
+    author: Ferdowsi
+    tradition: persian-poetry
+    stages: [midlife, elder]
+    domains: [legacy, work, mortality]
+    conf: probable
+    note: PARAPHRASE-PENDING — Davis 2006 wording unverified-to-page; verify before publishing as verbatim.
+  - rid: NI-01
+    claim: Speech is the first manifestation of existence and the ground of moral guidance.
+    type: Insight
+    claim_type: metaphysical
+    author: Nizami Ganjavi
+    tradition: persian-poetry
+    stages: [young-adult, adult]
+    domains: [language, wisdom, art]
+    conf: probable
+    note: English wording cited in scholarship; confirm translator/edition.
+  - rid: NI-02
+    claim: Unchecked, all-consuming passion can destroy the self (the Majnun archetype).
+    type: Danger
+    claim_type: observational
+    author: Nizami Ganjavi
+    tradition: persian-poetry
+    stages: [youth, young-adult]
+    domains: [love, obsession, self]
+    conf: communal
+    note: PARAPHRASE-PENDING — narrative, not a quote; Nizami's Sufi layer also reads the frenzy as divine intoxication, so preserve both readings.
+  - rid: AT-01
+    claim: The divine sought outside proves to be the seekers' own collective self.
+    type: Insight
+    claim_type: metaphysical
+    author: Attar
+    tradition: persian-poetry
+    stages: [adult, midlife, elder]
+    domains: [spirituality, self-knowledge, meaning]
+    conf: communal
+    note: PARAPHRASE-PENDING — plot climax (si morgh pun), not a verbatim line; verify against Darbandi & Davis or Wolpé.
+  - rid: AT-02
+    claim: The path to wisdom requires abandoning inherited dogma and worldly knowledge.
+    type: Practice
+    claim_type: prudential
+    author: Attar
+    tradition: persian-poetry
+    stages: [young-adult, adult]
+    domains: [spirituality, learning, growth]
+    conf: communal
+    note: PARAPHRASE-PENDING — summary of the seven-valleys scheme; verify verbatim before quoting.
+  - rid: MU-01
+    claim: We know the past and present but are blind to tomorrow.
+    type: Insight
+    claim_type: observational
+    author: Zuhayr ibn Abi Sulma
+    tradition: arabian
+    stages: [midlife, elder]
+    domains: [mortality, knowledge, aging]
+    conf: probable
+    note: 1917 PD rendering; replace with Arberry (1957) scholarly verbatim at verification.
+  - rid: MU-02
+    claim: Death is inescapable; fearing its causes does not avert it.
+    type: Consequence
+    claim_type: observational
+    author: Zuhayr ibn Abi Sulma
+    tradition: arabian
+    stages: [young-adult, adult, midlife]
+    domains: [mortality, courage, fate]
+    conf: probable
+    note: English translator unidentified — verify exact rendering.
+  - rid: MU-03
+    claim: Generosity with one's gifts strengthens the community; hoarding invites abandonment.
+    type: Virtue
+    claim_type: prudential
+    author: Zuhayr ibn Abi Sulma
+    tradition: arabian
+    stages: [adult, midlife]
+    domains: [community, wealth, generosity]
+    conf: probable
+    note: Muruwwa ethic; ode composed after the War of Dāhis and al-Ghabrā, praising the blood-money peacemakers. English translator unidentified.
+  - rid: MU-04
+    claim: War is a monstrous, self-perpetuating force that devours its makers.
+    type: Danger
+    claim_type: observational
+    author: Zuhayr ibn Abi Sulma
+    tradition: arabian
+    stages: [adult, midlife]
+    domains: [war, peace, conflict]
+    conf: probable
+    note: PARAPHRASE-PENDING — war-monster metaphor summarised from Clouston 1881; verify a verbatim translation before publishing as a quote.
+  - rid: SA-01
+    claim: All humans are limbs of one body; indifference to others' pain forfeits humanity.
+    type: Virtue
+    claim_type: normative
+    author: Saadi
+    tradition: adab
+    stages: [child, youth, young-adult, adult, midlife, elder]
+    domains: [ethics, empathy, community]
+    conf: verified
+    note: FLAG FOR MERGE (overlaps Near-Eastern report). Textual variant yekdīgar ("of one another", all early MSS) vs yek peykar ("one body") — don't present either as definitively original.
+  - rid: SA-02
+    claim: Speak with restraint; interrupting to display knowledge exposes ignorance.
+    type: Practice
+    claim_type: prudential
+    author: Saadi
+    tradition: adab
+    stages: [youth, young-adult, adult]
+    domains: [speech, humility, social-conduct]
+    conf: verified
+    note: FLAG FOR MERGE. Multiple PD translations (Gladwin 1806, Eastwick 1852, Burton 1888, Ross 1900).
+  - rid: SA-03
+    claim: True contentment is its own kingdom; desire it above power.
+    type: Virtue
+    claim_type: prudential
+    author: Saadi
+    tradition: adab
+    stages: [adult, midlife, elder]
+    domains: [contentment, ambition, wealth]
+    conf: probable
+    note: FLAG FOR MERGE. English translator unidentified — verify exact edition.
+dilemmas:
+  - name: Truth vs the Lie (asha vs druj)
+    tension: Personal, repeatable choice with cosmic stakes (ZO-01–04); resonates with the project's "truth above all" but is normative/metaphysical, not empirical
+  - name: Fate vs Will
+    tension: Zoroastrian free choice rejecting predestination (ZO-01) vs Ferdowsi's tragic fatalism (FE-02), FitzGerald-Khayyam determinism (KH-03), Zuhayr's inescapable death (MU-02) — a genuine cross-text fork, not consensus
+  - name: Carpe diem vs Piety
+    tension: Present pleasure (KH-01, KH-04) vs deferred religious reward; converges with Horace/Ecclesiastes/Siduri through a Victorian filter
+  - name: External vs Internal quest
+    tension: The sought divine turns out to be the seeker's own self (AT-01)
+  - name: Passion vs Prudence
+    tension: Majnun's all-consuming love as both self-destruction and mystical ideal (NI-02)
+  - name: Self vs Community
+    tension: Saadi's Bani Adam (SA-01) and Zuhayr's generosity ethic (MU-03) — solidarity as constitutive of being human
+  - name: Word/deed integrity
+    tension: Zoroastrian humata/hukhta/hvarshta — alignment of thought, speech, and action (ZO-04)
+  - name: Legacy vs Present-moment
+    tension: Ferdowsi's poetic immortality (FE-04) vs Khayyam's "today is all we have" (KH-04) as rival responses to mortality
+convergences:
+  - claim: Truth-above-all — Zoroastrian asha and Ferdowsi's sacredness of truth vs the project's founding rule
+    with: [Zoroastrian asha (ZO-01–04), Ferdowsi, project founding principle]
+    note: FLAGGED CANDIDATE, NOT FORCED — the Gathic claim is normative/metaphysical, never empirical; asha translation ("truth" vs "righteousness/cosmic order") is itself unsettled
+  - claim: Uncertainty of tomorrow / live now
+    with: [Zuhayr (MU-01), FitzGerald-Khayyam (KH-04), Horace/Ecclesiastes/Siduri existing cluster]
+    note: Three-plus independent traditions; annotate the Victorian filter on the Khayyam limb
+  - claim: Know the limits of knowledge
+    with: [Khayyam skepticism (KH-05), Attar's abandon-dogma valleys (AT-02), Socratic ignorance]
+  - claim: Shared humanity / empathy
+    with: [Saadi Bani Adam (SA-01), Stoic oikeiosis/cosmopolitanism, Golden-Rule traditions]
+    note: SA-01 is FLAG FOR MERGE with the Near-Eastern report's Saadi material
+  - claim: Contentment as wealth
+    with: [Saadi (SA-03), Stoic/Epicurean "enough" ethics]
+    note: SA-03 is FLAG FOR MERGE with the Near-Eastern report's Saadi material
+tensions:
+  - tension: Free will vs fatalism within one cultural sphere
+    sides: ZO-01 explicit rejection of predestination vs FE-02, KH-03, MU-02 fatalist strains; present both, do not resolve
+  - tension: Carpe-diem hedonism vs ethical striving
+    sides: KH-01/KH-04 present-pleasure vs ZO-04/SA-01 moral-project answers to mortality
+  - tension: Legacy vs present-moment as responses to death
+    sides: FE-04 poetic immortality vs KH-04 today-is-all-we-have
+  - tension: Passion as destruction vs passion as divine ideal, within Nizami himself
+    sides: Majnun as cautionary self-destruction vs Sufi reading of frenzy as divine intoxication (NI-02)
+leads:
+  - Hintze, A Zoroastrian Liturgy (2007) — verbatim Y35.2 for the humata/hukhta/hvarshta formula (ZO-04)
+  - Insler, The Gathas of Zarathustra (1975), physical volume — full Y31.8 (ZO-05); confirm Y30.2/30.4 against print
+  - Davis, Shahnameh (2006) — exact wording + pages for FE-01, FE-02, FE-04
+  - Arberry, The Seven Odes (1957) — scholarly verbatim for Zuhayr (MU-01–04) to replace PD 1917 renderings
+  - Cole (2020) and Avery & Heath-Stubbs (1979) — per-quatrain literal comparison to FitzGerald for KH-01–05
+  - Encyclopaedia Iranica entries "GATHAS", "HUMATA HŪXTA HUVARŠTA", "ŠĀH-NĀMA" — peer-reviewed grounding
+  - Boyce, Textual Sources (1984) and Zoroastrians (1979) — free-will-cornerstone framing
+  - Ghazanfari, Perceptions of Zoroastrian Realities in the Shahnameh (2011) — whether Shahnameh fatalism is inherited or Ferdowsi's own (bears on fate-vs-will fork framing)
+  - Davis, Gulistan (2002) and Faces of Love — scholarly Saadi wording (SA-01, SA-03)
+  - Wolpé, Conference of the Birds (2017) — alternative verbatim for Simorgh climax (AT-01) and seven valleys (AT-02)
+  - Extend the Barks-"Rumi" / Ladinsky-"Hafiz" misattribution quarantine from the Near-Eastern report; require Yasna numbers for any "Zoroaster" quote and edition citations for any FitzGerald quatrain
+notes: >-
+  Every famous English Khayyam line is FitzGerald's Victorian recomposition ("transmogrification"),
+  and the Persian quatrains are largely pseudepigraphic — credit FitzGerald as crafter, never assert
+  Khayyam wrote a given quatrain. Paraphrase retirement queue before publication: FE-02, FE-04, NI-02,
+  AT-01, AT-02, MU-04 must be verified against print editions (Leads 1–4) before any appears as a
+  verbatim quote. Ferdowsi was a Muslim preserving a Zoroastrian worldview — Shahnameh "Zoroastrian"
+  material is filtered through 10th-century Islamic authorship and is not a primary Zoroastrian source.

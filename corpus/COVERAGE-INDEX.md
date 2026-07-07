@@ -2,10 +2,10 @@
 
 **The master tracker.** Updated by Claude Code after every wave (Runbook P2, and again each wave in P5). This is the source of coordination truth — it lives in the repo, not in any chat. *(Template below; replace the example rows as real data lands.)*
 
-- **Last updated:** 2026-07-08 (wave-2 P1 validation complete — all 8 reports pass; extraction + full index rebuild pending)
-- **Current wave:** 2 (validated, pre-extraction)
-- **Saturation status:** baseline set; not yet assessable
-- **Reports held:** 15 (wave-1: 7 · wave-2: 8, all validated) · **Report-level units:** 182 (extracts in `corpus/synthesis/wave-1/`) · **Canonical claims (deduped):** 0 (minting begins at S1/S3) · **Named dilemmas:** 38 (~10 distinct cross-report forks)
+- **Last updated:** 2026-07-08 (wave-2 extracted + synthesised; extracts in `corpus/synthesis/wave-2/`)
+- **Current wave:** 2 (fully processed at report level)
+- **Saturation status:** no signal — wave-2 ran at 90% of wave-1's unit volume with ~50 NEW tradition tags (deliberate gap-filling breadth). First honest saturation read comes after corpus-wide claim-merging (P6) or wave-3.
+- **Reports held:** 15 (all validated + extracted) · **Report-level units:** 346 (wave-1: 182 · wave-2: 164) · **Graph:** 33 units minted, 32 verified, 33 claims + 23 edges adjudicated (walking skeleton) · **Named dilemmas:** 82 report-level (38 + 44)
 
 ---
 
@@ -37,9 +37,11 @@ Flag thin cells — the book is ordered by life-stage (SPEC §8), so each stage 
 
 | | child | youth | young-adult | adult | midlife | elder |
 |---|---|---|---|---|---|---|
-| **units bearing on stage** | **3 ⚠** | **23 ⚠** | 44 | 157 | 58 | 59 |
+| wave-1 | **3 ⚠** | **23 ⚠** | 44 | 157 | 58 | 59 |
+| wave-2 | 16 | 42 | 62 | 130 | 88 | 73 |
+| **combined** | **19** | **65** | 106 | 287 | 146 | **132** |
 
-**The spine's two ends are starving.** The book must open at read-aloud childhood and close at end-of-life; wave-1 gives the first chapter almost nothing and feeds the elder chapter mostly death/adversity material (little on late friendship, usefulness, handing-over). Corrective block added to the wave-2 prompt pack.
+**The spine's ends are no longer starving** (wave-2's corrective worked: read-aloud child material exists, elder material now includes living-the-end — Cicero's four charges, handing-over, SOC — not just death-preparation). Child remains the thinnest stage: keep feeding via depth passes (Confucian filial piety, more fable/blessing material).
 
 | Domain | Units (approx) | Coverage | Notes |
 |---|---|---|---|
@@ -119,7 +121,7 @@ All 7 landed reports passed shape validation (independent fresh-context review p
 | Wave | Reports added | Units (report-level) | Named dilemmas | Convergence cands | Tension cands | Traditions (raw tags) | Notes |
 |---|---|---|---|---|---|---|---|
 | 1 | 7 (of 8; 04-eastern missing) | **182** | 38 (≈10 distinct cross-report forks after first-pass dedup) | 29 (12 cross-report clusters) | 35 | ~25 (normalise at S1) | baseline; unit `verified` labels are the **reports' claims** — everything enters the graph `attested` (METHODOLOGY §2) |
-| 2 | | | | | | | |
+| 2 | 8 (the gap-filling wave) | **164** | 44 | 36 (heavily FOR-MERGE-flagged against wave-1) | 34 | ~50 new raw tags (Eastern streams, 8 Indigenous peoples, African peoples, Persian, strategic, proverbial, women's) | novelty very high by design — no saturation signal; 13 Indigenous units carry consent-gate/record-only CARE flags; 8 dubious units are watchlist-adjacent by intent (FitzGerald etc.) |
 
 > **Saturation watch:** when "new canonical claims / new dilemmas / new traditions" trend toward zero across waves, the corpus is approaching broad-enough. (Runbook P5 — Claude proposes, Jason decides.)
 
@@ -128,6 +130,8 @@ All 7 landed reports passed shape validation (independent fresh-context review p
 ## 7 · Backlog — next-wave queries (ranked, de-duplicated)
 
 Each item: scope (one tradition/thinker/text/thread) + the do-not-duplicate note to paste into the Wave-N template. Blocks 1–4 + 6–8 are ready to run in `prompts/deep-research/wave-2-gap-traditions.md`.
+
+**Headline cross-wave merge candidates** (from wave-2 FOR-MERGE flags; adjudicate at P6): Gita 2.47 karma-yoga + Buddhist non-attachment ↔ the Stoic control cluster (**feeds skeleton claim c-0001 directly**); Ubuntu ↔ Golden-Rule/one-body cluster; "tie your camel" wave-1 unit ↔ wave-2 row-from-the-rocks cluster (graded plausibly-independent-tentative); asha ↔ truth-above-all (candidate, translation-dependent); Saadi adab units ↔ wave-1 05 Saadi; Murdoch unselfing ↔ Weil attention; Analects filial piety ↔ childhood-report gap.
 
 1. **[P0] Eastern traditions** (block 2·0 — replaces the never-landed 04) — Confucian/Daoist/Buddhist/Hindu/Japanese. *Do-not-duplicate:* Stoic parallels (02), Schopenhauer's Buddhist reception (06); flag convergences instead. **Several §4 clusters have named-but-unsourced Eastern members waiting on this.**
 2. **[P1] African wisdom** (block 2a) — Ubuntu + Yoruba/Akan/Zulu proverbs; Mbiti, Wiredu, Gyekye. *Do-not-duplicate:* Egyptian instruction texts (05).

@@ -1,0 +1,301 @@
+report: 03-indigenous
+extracted: 2026-07-07
+units:
+  - rid: haudenosaunee-seven-generations
+    claim: Deliberate for the whole people, including the unborn whose faces are beneath the ground.
+    type: Insight
+    claim_type: normative
+    author: Haudenosaunee Great Law of Peace (Parker 1916 rendering)
+    tradition: Haudenosaunee
+    stages: [adult, midlife, elder]
+    domains: [politics, legacy, nature, family]
+    conf: verified
+    care: none
+  - rid: haudenosaunee-lyons-future-generations
+    claim: Plant feet carefully; faces of future generations look up from beneath the ground.
+    type: Insight
+    claim_type: normative
+    author: Oren Lyons (Onondaga Faithkeeper, UN address 10 Dec 1992)
+    tradition: Haudenosaunee
+    stages: [adult, midlife, elder]
+    domains: [nature, legacy, politics]
+    conf: verified
+    care: "consent-gate: community source, consent audit before publishing"
+  - rid: haudenosaunee-two-row-wampum
+    claim: "Two vessels, one river: coexist in parallel; never steer the other's vessel."
+    type: Practice
+    claim_type: normative
+    author: Haudenosaunee (Guswenta/Kaswentha c.1613; Onondaga and Oneida community texts; Lyons gloss)
+    tradition: Haudenosaunee
+    stages: [adult, midlife, elder]
+    domains: [politics, justice, friendship]
+    conf: communal
+    care: "consent-gate: community source, consent audit before publishing"
+  - rid: lakota-mitakuye-oyasin
+    claim: "All my relations: humans, animals, land, and cosmos are all related."
+    type: Insight
+    claim_type: metaphysical
+    author: Lakota (prayer/song, ceremonial life)
+    tradition: Lakota
+    stages: [child, youth, adult, midlife, elder]
+    domains: [nature, family, community, self]
+    conf: communal
+    care: "consent-gate: community source, consent audit before publishing"
+  - rid: lakota-white-hat-translation
+    claim: Mitakuye Oyasin's layered meaning resists English translation and must not be misappropriated.
+    type: Insight
+    claim_type: prudential
+    author: Albert White Hat (Sicangu Lakota elder, via Tapestry Institute)
+    tradition: Lakota
+    stages: [adult, midlife, elder]
+    domains: [community, self]
+    conf: probable
+    care: "consent-gate: community source, consent audit before publishing"
+  - rid: dine-hozho
+    claim: Hozho — beauty, balance, harmony, order, health — is a profound way of life.
+    type: Insight
+    claim_type: normative
+    author: Diné (via Michelle Kahn-John and Jennifer Nez Denetdale)
+    tradition: Diné (Navajo)
+    stages: [youth, young-adult, adult, midlife, elder]
+    domains: [self, nature, community, anxiety]
+    conf: communal
+    care: none
+  - rid: dine-self-empowerment
+    claim: Humans self-empower through responsible thought, speech, behaviour — and can self-destruct through irresponsibility.
+    type: Insight
+    claim_type: prudential
+    author: Michelle Kahn-John (Diné), with Mary Koithan (2015, peer-reviewed)
+    tradition: Diné (Navajo)
+    stages: [young-adult, adult, midlife]
+    domains: [self, work, adversity]
+    conf: verified
+    care: none
+  - rid: dine-winter-stories
+    claim: Many Diné stories are sacred and winter-only; access is restricted.
+    type: Practice
+    claim_type: normative
+    author: Diné
+    tradition: Diné (Navajo)
+    stages: [child, youth, adult, elder]
+    domains: [community, nature]
+    conf: communal
+    care: "care-flag: sacred/restricted — record-only, do NOT publish"
+  - rid: aboriginal-dreaming
+    claim: "The Dreaming (Jukurrpa): place-based law and cosmology, varying by nation, access-restricted."
+    type: Insight
+    claim_type: metaphysical
+    author: Specific Aboriginal nations (Warlpiri, Arrernte, Tiwi, Wiradjuri; term coined by Gillen 1896)
+    tradition: Aboriginal Australian (per-nation, not pan-Aboriginal)
+    stages: [child, youth, adult, midlife, elder]
+    domains: [nature, community, legacy]
+    conf: communal
+    care: "care-flag: sacred/restricted — record-only, do NOT publish"
+  - rid: aboriginal-country-custodianship
+    claim: Being on Country is the right to protect land, not to own it.
+    type: Insight
+    claim_type: normative
+    author: Louise O'Reilly (Warrwa-Noongar)
+    tradition: Aboriginal Australian (Warrwa-Noongar)
+    stages: [young-adult, adult, midlife, elder]
+    domains: [nature, money, community, legacy]
+    conf: verified
+    care: "consent-gate: community source, consent audit before publishing"
+  - rid: maori-kaitiakitanga
+    claim: "Kaitiakitanga: guardianship of land and life, bound to whakapapa, mauri, and tapu."
+    type: Practice
+    claim_type: normative
+    author: Māori (statutorily recognised, Resource Management Act 1991 s7)
+    tradition: Māori
+    stages: [young-adult, adult, midlife, elder]
+    domains: [nature, community, legacy, work]
+    conf: communal
+    care: "consent-gate: community source, consent audit before publishing"
+  - rid: maori-te-awa-tupua
+    claim: The Whanganui River is a legal person with rights, powers, duties, liabilities.
+    type: Insight
+    claim_type: empirical
+    author: Te Awa Tupua (Whanganui River Claims Settlement) Act 2017, s14(1)
+    tradition: Māori (Whanganui iwi)
+    stages: [adult, midlife]
+    domains: [nature, politics, justice]
+    conf: verified
+    care: none
+  - rid: maori-river-ancestor
+    claim: We consider the river an ancestor; treat it as an indivisible living whole.
+    type: Insight
+    claim_type: metaphysical
+    author: Gerrard Albert (Whanganui iwi lead negotiator)
+    tradition: Māori (Whanganui iwi)
+    stages: [adult, midlife, elder]
+    domains: [nature, family, legacy]
+    conf: verified
+    care: "consent-gate: community source, consent audit before publishing"
+  - rid: maori-he-tangata
+    claim: What is the most important thing in the world? It is people, people, people.
+    type: Insight
+    claim_type: normative
+    author: Meri Ngāroto (Ngāti Whātua) — whakatauākī, from fuller harakeke saying
+    tradition: Māori
+    stages: [young-adult, adult, midlife, elder]
+    domains: [community, friendship, family, work]
+    conf: probable
+    care: "consent-gate: community source, consent audit before publishing"
+  - rid: inuit-qaujimajatuqangit
+    claim: That which Inuit have always known to be true guides societal values today.
+    type: Practice
+    claim_type: normative
+    author: Inuit (codified by Government of Nunavut, 2013; Karetak/Tagalik/Tester 2017)
+    tradition: Inuit
+    stages: [youth, adult, midlife, elder]
+    domains: [community, politics, nature, work]
+    conf: communal
+    care: "consent-gate: community source, consent audit before publishing"
+  - rid: inuit-avatittinnik-kamatsiarniq
+    claim: "Avatittinnik Kamatsiarniq: respect and care for land, animals, and the environment."
+    type: Practice
+    claim_type: normative
+    author: Inuit (Government of Nunavut IQ values; with Inuuqatigiitsiarniq, Pijitsirniq, Aajiiqatigiinniq)
+    tradition: Inuit
+    stages: [child, youth, adult, midlife, elder]
+    domains: [nature, community, work]
+    conf: communal
+    care: "consent-gate: community source, consent audit before publishing"
+  - rid: sami-birgejupmi
+    claim: "Birgejupmi: making do — take only what is necessary, so harvest remains possible."
+    type: Practice
+    claim_type: prudential
+    author: Sámi (via Keskitalo et al.; Nystad et al. 2024)
+    tradition: Sámi
+    stages: [youth, young-adult, adult, midlife]
+    domains: [nature, work, money, desire]
+    conf: communal
+    care: none
+  - rid: sami-meahcci
+    claim: Meahcci is relational, productive land — "wilderness" is a mistranslation.
+    type: Insight
+    claim_type: observational
+    author: Solveig Joks, Liv Østmo & John Law (Sociological Review 68(2), 2020)
+    tradition: Sámi
+    stages: [adult, midlife]
+    domains: [nature, work]
+    conf: verified
+    care: none
+  - rid: sami-lahi-attaldat
+    claim: The philosophy of the gift (láhi, attáldat) grounds Sámi education and responsibility.
+    type: Insight
+    claim_type: normative
+    author: Rauna Kuokkanen (Sámi, 2005; 2007)
+    tradition: Sámi
+    stages: [child, youth, young-adult, adult]
+    domains: [community, work, money]
+    conf: verified
+    care: none
+  - rid: sami-boazolihkku
+    claim: "Reindeer luck: do not conquer the world; come to an understanding with it."
+    type: Insight
+    claim_type: prudential
+    author: Nils Oskal (Sámi, Rangifer 20(2-3), 2000)
+    tradition: Sámi
+    stages: [young-adult, adult, midlife]
+    domains: [nature, work, adversity]
+    conf: verified
+    care: none
+  - rid: sami-yoik
+    claim: Yoik carries oral memory and relationship to beings and place.
+    type: Practice
+    claim_type: observational
+    author: Sámi (via Gaski 2000; Stoor 2007; Turi 1910)
+    tradition: Sámi
+    stages: [child, youth, adult, elder]
+    domains: [community, nature, grief, legacy]
+    conf: communal
+    care: none
+  - rid: andean-ayni
+    claim: "Ayni: sacred reciprocity — today for you, tomorrow for me — including with Pachamama."
+    type: Practice
+    claim_type: normative
+    author: Quechua/Kichwa/Aymara peoples (ayllu, minka; Smithsonian NMAI gloss)
+    tradition: Andean
+    stages: [youth, young-adult, adult, midlife, elder]
+    domains: [community, work, nature, money]
+    conf: communal
+    care: "consent-gate: community source, consent audit before publishing"
+  - rid: andean-sumak-kawsay
+    claim: "Sumak kawsay: good living in diversity and harmony with nature, constitutionally enshrined."
+    type: Insight
+    claim_type: normative
+    author: Kichwa (systematised by Indigenous organisations, 1990s; Ecuador Constitution 2008, Preamble and Art. 14)
+    tradition: Andean (Kichwa; Bolivian parallel suma qamaña)
+    stages: [adult, midlife]
+    domains: [nature, politics, community, money]
+    conf: communal
+    care: none
+  - rid: potawatomi-honorable-harvest
+    claim: "The Honorable Harvest: take only what is given; reciprocate; never over-harvest."
+    type: Practice
+    claim_type: prudential
+    author: Robin Wall Kimmerer (Potawatomi, Braiding Sweetgrass 2013)
+    tradition: Potawatomi
+    stages: [youth, young-adult, adult, midlife]
+    domains: [nature, work, desire, money]
+    conf: verified
+    care: none
+dilemmas:
+  - name: Stewardship vs use
+    tension: Take only what is given (Honorable Harvest, birgejupmi, ayni with Pachamama) vs extraction/accumulation/ownership
+  - name: Individual vs collective-and-land
+    tension: Personhood embedded in kin AND land (Mitákuye Oyás'iŋ, whakapapa, ayllu, siida) vs the atomised individual property-holder
+  - name: Tradition vs change
+    tension: Living adaptation (IQ in modern governance; Te Awa Tupua in statute; sumak kawsay in constitutions) vs reification/relic-making
+  - name: Coexistence vs domination
+    tension: Two Row Wampum's parallel non-interference vs "steering the other's vessel"
+  - name: Sacred/restricted knowledge vs open sharing
+    tension: Consent and context (Diné winter stories; the Dreaming) vs extraction/appropriation
+convergences:
+  - claim: Reciprocity/relationality cluster — HYPOTHESIS, not asserted
+    with: [Andean ayni, Sámi láhi/attáldat, Potawatomi Honorable Harvest, Lakota Mitákuye Oyás'iŋ, African ubuntu (parallel query)]
+    status: candidate_convergence — test whether genuine independent convergence or analytic over-generalisation imposed by outsiders; recurrence ≠ proof
+  - claim: Intergenerational responsibility — HYPOTHESIS, not asserted
+    with: [Haudenosaunee seven-generation ethic, Māori mō ngā uri whakatipu, intergenerational-ethics material elsewhere in graph]
+    status: candidate_convergence — flag as hypothesis pending independent primary sources from ≥3 peoples plus Indigenous-scholar affirmation per tradition
+  - claim: Land as kin/ancestor, not property — strong candidate but metaphysics differ sharply by people
+    with: [Haudenosaunee, Lakota, Māori whenua/Te Awa Tupua, Aboriginal Country, Andean Pachamama, Sámi meahcci]
+    status: candidate_convergence — recurring but NOT universal; hold Krech counter-case attached
+tensions:
+  - tension: Relational-holism claims vs Krech counter-evidence
+    sides: Land-as-kin stewardship tendency vs Krech (The Ecological Indian, 1999) evidence that specific peoples altered and sometimes over-exploited environments; tendencies not destinies — retain as counter-evidence against "ecological Indian" essentialism
+  - tension: Anthropocentric vs relational reading of "he tangata"
+    sides: Popular reading (people are the most important thing) vs Hana Tapiata's dissent that within te ao Māori, centring land and whakapapa, "It is not people… It is connection, it is life"
+  - tension: Sumak kawsay — ancient concept vs 1990s systematisation
+    sides: Enshrined as ancestral Kichwa "good living" (Ecuador 2008) vs Cuestas-Caza, the Whittens, and Gudynas — sumak kawsay ≠ buen vivir; systematised/neologised by Indigenous organisations (OPIP, Pastaza) in the 1990s; some critics allege "invention of tradition"
+  - tension: Oral tradition vs written artifact (Two Row Wampum)
+    sides: Oral tradition and belt's meaning well attested and revered vs disputed authenticity of later written versions (the Tawagonshi document); keep distinct in the graph
+  - tension: Pan-Dreaming homogeneity vs per-nation variation
+    sides: Single English "Dreaming" gloss (Gillen/Stanner) vs Warlpiri Jukurrpa and divergent Arrernte, Tiwi, Wiradjuri conceptions (past reality vs concurrent past/present/future)
+leads:
+  - Gaski (ed.), Time Is a Ship That Never Casts Anchor (2006) — verbatim sourced Sámi proverbs with page numbers (thinnest sourced area)
+  - Parker, The Constitution of the Five Nations (1916, public domain) — cross-check against Onondaga Nation community sources
+  - Kimmerer, Braiding Sweetgrass (2013) — Honorable Harvest chapter for exact protocol wording (in copyright)
+  - Kuokkanen, Reshaping the University (2007) and Boaris dego eana (2009)
+  - Furtwangler, Answering Chief Seattle (1997); Gifford, The Many Speeches of Chief Seattle (2015) — definitive textual history
+  - Krech, The Ecological Indian (1999) — hold as counter-evidence node
+  - Te Ara Encyclopedia of New Zealand (Te Ahukaramū Charles Royal entries) — Māori-authored reference
+  - Government of Nunavut, Incorporating Inuit Societal Values (2013); Karetak/Tagalik/Tester (2017)
+  - Oskal, Rangifer 20 (2000); Joks/Østmo/Law, Sociological Review 68(2) (2020)
+  - Recruit an Indigenous reviewer per tradition before book/website release; tag in-copyright sources (Stanner, Kahn-John, Kuokkanen, Karetak et al.) and quote minimally
+notes: >-
+  Misattribution watchlist: the popular Chief Seattle speech is APOCRYPHAL (ecological lines by
+  Ted Perry, 1972 film Home; 1855 Pierce "letter" unhistorical; even Smith's 1887 transcript is a
+  filtered 33-years-later reconstruction); "we borrow the earth from our children" is a 1970s
+  environmentalist coinage (QI tentatively Wendell Berry 1971), NOT Native American; the expanded
+  "Mitakuye Oyasin prayer" is a modern devotional composition; unattributed online "Sámi proverbs"
+  and generic "Native American proverbs" are DUBIOUS unless tied to a named person or text. The
+  seventh-generation slogan is a real Haudenosaunee ethic but NOT a verbatim Great Law quotation —
+  flag as tradition/paraphrase (only "seven" passage concerns leaders' skin "seven spans" thick).
+  CARE/consent gate: care-flag units (Diné winter stories, Dreaming specifics) are record-only —
+  never extract or publish content; consent-gate units require a consent audit or an established
+  public community-authored source (Onondaga Nation, Te Ara, Govt of Nunavut) before publication.
+  No pan-Indigenous essentialism — every generalisation is a tendency across specific named
+  peoples; translation loss is real (Mitákuye Oyás'iŋ, meahcci, sumak kawsay, the Dreaming all
+  resist English glossing). New domain tags minted for this report: nature, community, legacy, family.

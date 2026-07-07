@@ -1,0 +1,306 @@
+report: 05-childhood-old-age
+extracted: 2026-07-07
+units:
+  - rid: blessing.priestly.num6
+    claim: A community speaks protection, grace, and peace over its children.
+    type: Practice
+    claim_type: normative / metaphysical
+    author: Priestly tradition (Numbers 6:24-26)
+    tradition: Hebrew / Jewish (adopted in Christian liturgy)
+    stages: [child]
+    domains: [family, faith, belonging]
+    conf: verified
+    notes: >-
+      Oldest surviving Hebrew Bible text (Ketef Hinnom silver scrolls, c. 600 BCE).
+      Read-aloud register; report proposes it as an ideal opening page.
+  - rid: fable.aesop.moral-flag
+    claim: A fable's story endures; its stated moral is often later editorial addition.
+    type: Danger
+    claim_type: observational
+    author: Perry Index scholarship (Ben E. Perry, Aesopica 1952)
+    tradition: Greek fable / classical philology
+    stages: [child, youth]
+    domains: [education, moral-imagination]
+    conf: verified
+    notes: >-
+      Per-fable rule — tag STORY and MORAL with separate attribution confidence.
+      L'Estrange (1692) appended morals the Greek lacked; the "grasshopper" is a cicada in the Greek.
+  - rid: child.teacher.wordsworth
+    claim: The wonder of childhood forms and can re-instruct the adult self.
+    type: Insight
+    claim_type: observational (Romantic-descriptive)
+    author: William Wordsworth
+    tradition: English Romanticism
+    stages: [child, adult, elder]
+    domains: [meaning, family, wonder]
+    conf: verified
+    notes: >-
+      Line is "father OF the Man", not "to" (Hopkins's parody uses "to" — do not conflate).
+  - rid: child.teacher.matt18
+    claim: Spiritual entry requires recovering a childlike trust.
+    type: Insight
+    claim_type: normative / metaphysical
+    author: Jesus (Matthew 18:3, KJV)
+    tradition: Christian scripture
+    stages: [child, adult]
+    domains: [faith, humility]
+    conf: verified
+    notes: >-
+      Distinguish childlike trust (endorsed) from childish/naive (not); preserve the
+      1 Cor 13:11 counterweight ("put away childish things").
+  - rid: youth.kipling.if
+    claim: Maturity is composure treating triumph and disaster as equal impostors.
+    type: Virtue
+    claim_type: normative (prudential)
+    author: Rudyard Kipling
+    tradition: English / Victorian Stoicism
+    stages: [youth, young-adult]
+    domains: [character, work, resilience]
+    conf: verified
+    notes: >-
+      Dual framing — Kipling credited Leander Starr Jameson as inspiration; addressed to son John
+      (killed at Loos 1915, aged 18), which loads the counsel with unintended tragic irony.
+      Eliot: "good verse but not good poetry".
+  - rid: youth.chesterfield.undercut
+    claim: Advice framed as loving guidance can be manipulation toward worldly success.
+    type: Danger
+    claim_type: normative (evaluative)
+    author: Samuel Johnson (via Boswell), on Chesterfield's Letters to His Son
+    tradition: English Enlightenment / its critics
+    stages: [youth, young-adult]
+    domains: [family, ambition, ethics]
+    conf: verified
+    notes: >-
+      The paradigm undercut advice-giver — "the morals of a whore, and the manners of a
+      dancing-master" (cf. Polonius, already covered).
+  - rid: youth.wallace.thisiswater
+    claim: Real education is choosing what to attend to and how to construe others.
+    type: Practice
+    claim_type: normative (prudential)
+    author: David Foster Wallace
+    tradition: American secular-humanist
+    stages: [young-adult]
+    domains: [meaning, attention, empathy]
+    conf: verified
+    notes: >-
+      Attribution rock-solid; IN COPYRIGHT — paraphrase or quote briefly. Author died by
+      suicide 2008; hold the irony honestly.
+  - rid: youth.panchatantra.niti
+    claim: Worldly prudence is best taught to the young through nested animal stories.
+    type: Practice
+    claim_type: prudential
+    author: attrib. Vishnu Sharma (Panchatantra frame narrative)
+    tradition: Sanskrit / Hindu niti-shastra
+    stages: [youth, young-adult]
+    domains: [education, statecraft, friendship]
+    conf: probable
+    notes: >-
+      Ryder 1925 translation is PD. Contrast with Aesop — Panchatantra teaches strategic
+      realpolitik (niti), not simple virtue.
+  - rid: elder.cicero.four-charges
+    claim: Old age faces four charges — lost affairs, weakness, lost pleasure, nearing death.
+    type: Dilemma
+    claim_type: prudential / normative
+    author: Cicero (voiced by Cato the Elder)
+    tradition: Roman philosophy
+    stages: [elder]
+    domains: [aging, work, health, mortality]
+    conf: verified
+    notes: >-
+      De Senectute §15, verified to section number in PD Peabody 1884. Cato is a mouthpiece;
+      Cicero's endorsement is strong but literary. Each charge is rebutted — arguments, not findings.
+  - rid: elder.cicero.character-not-age
+    claim: Miseries blamed on old age are really faults of character.
+    type: Insight
+    claim_type: prudential
+    author: Cicero (voiced by Cato the Elder)
+    tradition: Roman philosophy
+    stages: [midlife, elder]
+    domains: [aging, character]
+    conf: verified
+    notes: >-
+      §7, repeated §65 — the CONDITIONALITY key of the whole work: old age is good only for
+      those with the means within themselves. A tendency, not a destiny.
+  - rid: elder.cicero.wisdom-not-strength
+    claim: Elders remain useful; great things are done by counsel, not strength.
+    type: Virtue
+    claim_type: prudential
+    author: Cicero (voiced by Cato the Elder)
+    tradition: Roman philosophy
+    stages: [elder]
+    domains: [work, usefulness, authority]
+    conf: verified
+  - rid: elder.cicero.actor-stage
+    claim: A wise life, like a good performance, need not run to the last line.
+    type: Practice
+    claim_type: prudential / metaphysical (on death)
+    author: Cicero (voiced by Cato the Elder)
+    tradition: Roman philosophy
+    stages: [elder]
+    domains: [mortality, meaning]
+    conf: verified
+    notes: De Senectute §70; cf. §64 "broken down in the last act" — distinct image, same theme.
+  - rid: elder.cicero.young-hope-old-attain
+    claim: Age has already attained what youth merely hopes for.
+    type: Insight
+    claim_type: prudential
+    author: Cicero (voiced by Cato the Elder)
+    tradition: Roman philosophy
+    stages: [elder]
+    domains: [mortality, gratitude]
+    conf: verified
+  - rid: elder.statius.plant-trees
+    claim: The old plant trees for a generation whose shade they will never enjoy.
+    type: Virtue
+    claim_type: normative (prudential)
+    author: Caecilius Statius (via Cicero, De Senectute §24)
+    tradition: Roman comedy fragment (via Cicero)
+    stages: [elder]
+    domains: [work, legacy, generativity]
+    conf: verified
+    notes: >-
+      WATCHLIST — the modern "A society grows great when old men plant trees..." is NOT ancient
+      (20th-c. motivational writing per Quote Investigator); this Statius line is the genuine ancient one.
+  - rid: elder.baltes.soc
+    claim: Adaptive aging selects fewer goals, optimises retained strengths, compensates for losses.
+    type: Practice
+    claim_type: empirical (model with empirical support)
+    author: Paul B. Baltes & Margret M. Baltes
+    tradition: Lifespan developmental psychology
+    stages: [midlife, elder]
+    domains: [aging, work, adaptation]
+    conf: verified
+    notes: >-
+      A MODEL, not a law. Elective vs loss-based selection; applicable across the lifespan.
+      "Successful aging" research carries normative baggage about what counts as success.
+  - rid: elder.erikson.integrity-despair
+    claim: Late-life review yields either integrity (acceptance) or despair (regret).
+    type: Dilemma
+    claim_type: observational (model)
+    author: Erik Erikson
+    tradition: Psychodynamic developmental psychology
+    stages: [elder]
+    domains: [meaning, mortality, life-review]
+    conf: verified
+    notes: >-
+      A FRAME, not a law. Joan Erikson later proposed a ninth stage; life-review therapy has
+      some empirical support for reducing depression. Paired virtue is "wisdom".
+  - rid: dying.byock.four-things
+    claim: Relationships complete through four sentences — forgive me, I forgive, thank you, love.
+    type: Practice
+    claim_type: observational / prudential
+    author: Ira Byock
+    tradition: Palliative medicine (secular, cross-faith)
+    stages: [adult, elder]
+    domains: [relationships, forgiveness, mortality]
+    conf: verified
+    notes: >-
+      Clinical distillation from ~30 years' practice, not a controlled study. Byock: "I didn't
+      invent them"; "Death ends a life but not a relationship."
+  - rid: dying.ware.regrets
+    claim: Dying people most regret inauthenticity, overwork, unexpressed feeling, lost friendships, denied happiness.
+    type: Insight
+    claim_type: observational (ANECDOTAL — not a study)
+    author: Bronnie Ware
+    tradition: Palliative care memoir
+    stages: [adult, midlife, elder]
+    domains: [meaning, work, relationships, authenticity]
+    conf: dubious (as evidence) / communal (as folk wisdom)
+    notes: >-
+      LABEL CLEARLY — one carer's recollection, not research; peer-reviewed literature
+      (Davidai & Gilovich, Emotion 18(3):439-452, 2018) explicitly calls it "anecdotal".
+      Value is heuristic, not evidential.
+  - rid: dying.gawande.authorship
+    claim: What matters at the end is remaining author of one's own story.
+    type: Insight
+    claim_type: normative (prudential) + empirical (cites palliative-care survival study)
+    author: Atul Gawande
+    tradition: Medicine / geriatrics (secular)
+    stages: [elder]
+    domains: [autonomy, mortality, care, meaning]
+    conf: verified
+    notes: >-
+      IN COPYRIGHT — quote briefly. The "lived 25% longer" palliative-care figure is a reported
+      study, not Gawande's own data.
+  - rid: child.bettelheim.enchantment
+    claim: Unsanitised fairy tales help children safely process fear and existential dilemmas.
+    type: Insight
+    claim_type: observational (interpretive theory)
+    author: Bruno Bettelheim
+    tradition: Freudian literary/psychological criticism
+    stages: [adult]
+    domains: [moral-imagination, fear, development]
+    conf: dubious (interpretation)
+    notes: >-
+      P1 validator flag — theory-mislabelled-as-childhood: this is an adult-facing interpretive
+      claim ABOUT children (guidance for parents/educators on the protect-vs-prepare fork), not
+      child-stage wisdom; report's own [child] staging overridden to [adult]. Dated Freudian frame;
+      1991 plagiarism allegations (parallels to Heuscher). Cite as influential CLAIM, not settled science.
+dilemmas:
+  - name: Protecting the child vs preparing the child
+    tension: >-
+      Blessing tradition shelters; fable/fairy-tale/Panchatantra traditions inoculate by rehearsing
+      danger. Tendency — over-protection defers, rather than removes, the child's encounter with
+      fear and moral complexity.
+  - name: Holding on vs handing over
+    tension: >-
+      Cicero's elder stays useful through counsel (§17) while surrendering physical primacy;
+      Statius's "plant trees" (§24) and Erikson's generativity name handing-over as the generative
+      choice. Tendency — elders who transfer authority while retaining a counsel role fare better
+      than those who cling or self-erase.
+  - name: Fighting decline vs befriending it
+    tension: >-
+      Cicero holds both "actively resist" (§26) and "faults of character, not age" (§7, §65);
+      Baltes' SOC operationalises the middle path; Gawande warns medicalised fighting can inflict
+      "barbaric" suffering. Tendency — selective resistance plus acceptance of limits beats both
+      denial and surrender.
+  - name: Living for the time left vs living as if whole
+    tension: >-
+      Cicero's actor-need-not-finish (§70) and §68; Gawande's authorship; Byock's four sentences;
+      Ware's regrets. Tendency — those who complete relationships and remain authors of their story
+      report (anecdotally) less regret.
+convergences:
+  - claim: The child re-teaches the adult
+    with: [Wordsworth (Romantic), Matthew 18:3 (Christian), Romantic-gerontological relearning of wonder]
+  - claim: Usefulness through counsel, not strength, in age
+    with: [Cicero De Senectute §17, grandparents-as-cultural-conservators research, grandmother hypothesis (empirical-contested — do not merge with the normative claim)]
+  - claim: Completing relationships before death (forgiveness, expression, connection)
+    with: [Byock's Four Things, Ware's regrets, Gawande's authorship]
+  - claim: Generativity across the threshold
+    with: [Statius/Cicero plant-trees, Erikson generativity (stage 7), grandparent cultural-conservator role]
+tensions:
+  - tension: Resist old age vs accept the exit
+    sides: >-
+      Cicero "actively resist" old age (§26) vs the actor-leaving-stage acceptance (§70) —
+      held within one text; the tension is the wisdom.
+  - tension: Become like children vs put away childish things
+    sides: Matthew 18:3 vs 1 Corinthians 13:11 — same tradition, opposite surface counsel.
+  - tension: Stoic self-mastery vs conscious empathy as the young-adult ideal
+    sides: Kipling's Victorian-Stoic composure vs Wallace's plea for empathy over self-sufficiency.
+  - tension: Serene philosophical aging vs aging as social marginalisation
+    sides: >-
+      Cicero (with Nussbaum's endorsement) vs Beauvoir (La Vieillesse, 1970) and Montaigne, who
+      argue the ancients romanticise age and ignore its indignities. Preserve Beauvoir as the
+      dissenting voice.
+leads:
+  - >-
+    Kübler-Ross five-stages critique PENDING (search budget ran out) — get the peer-reviewed
+    takedown: Maciejewski et al. (JAMA 2007) and Bonanno's resilience work; highest value —
+    removes a common false-empirical claim from the graph. Meanwhile FLAG on any use.
+  - Simone de Beauvoir, La Vieillesse / The Coming of Age (1970) — essential dissenting counterweight to Cicero; PD-status check plus primary quotes.
+  - >-
+    Confucian filial piety GAP — Analects 2.5-2.8 on xiao plus the Xiaojing; a major non-Western
+    pillar for both raising children and honouring elders, under-sampled in this pass.
+  - Cross-cultural lullaby corpus — read-aloud, surface-simple unit type barely tapped (soothing plus coded warning).
+  - Disengagement theory (Cumming & Henry 1961) vs activity theory vs socioemotional selectivity — frame the usefulness fork with its empirical history (SST covered elsewhere; cross-reference only).
+  - Grimm & Andersen tales with verified first-edition text — per-tale attribution of morals vs story.
+  - Nussbaum & Levmore, Aging Thoughtfully (2017) — the friendship-in-age theme Cicero's schema omits.
+notes: >-
+  Misattribution watchlist highlights: the "old men plant trees in whose shade..." line is a
+  20th-c. fake (genuine ancient source is Statius via Cicero §24); "it takes a village" has no
+  verified African prototype (earliest strong match Toni Morrison 1981 — tag communal); the popular
+  "four charges" web wording is the in-copyright Falconer/Loeb 1923, not PD Peabody 1884; Kipling's
+  "If—" carries dual framing (Jameson inspiration, not pure autobiography for John). Register
+  discipline: build the earliest pages from surface-simple read-aloud units (Priestly Blessing,
+  one Aesop fable with its moral flagged as possibly editorial, a proverb); reserve argument
+  (Cicero), model (Baltes, Erikson), and critique (Chesterfield) for adult-facing graph layers.

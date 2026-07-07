@@ -1,0 +1,262 @@
+report: wave-2/01-eastern
+extracted: 2026-07-08
+units:
+  - rid: cn-analects-1524-shu
+    claim: Do not impose on others what you yourself do not want (shu).
+    type: Virtue
+    claim_type: normative
+    author: Confucius
+    tradition: confucian
+    stages: [youth, young-adult, adult, elder]
+    domains: [relationships, ethics, community]
+    conf: verified
+  - rid: cn-mencius-2a6-sprouts
+    claim: Humans have innate sprouts of virtue, shown by alarm at a child near a well.
+    type: Insight
+    claim_type: empirical
+    author: Mencius
+    tradition: confucian
+    stages: [adult]
+    domains: [ethics, moral-psychology, parenting]
+    conf: verified
+  - rid: cn-xunzi-23-nature
+    claim: Human nature tends toward disorder; goodness requires effort, teachers, and ritual.
+    type: Insight
+    claim_type: normative
+    author: Xunzi
+    tradition: confucian
+    stages: [youth, adult]
+    domains: [ethics, education, governance]
+    conf: verified
+  - rid: cn-ddj-37-wuwei
+    claim: Act without forcing (wu-wei); the Way does nothing yet leaves nothing undone.
+    type: Practice
+    claim_type: prudential
+    author: Laozi
+    tradition: daoist
+    stages: [adult, midlife, elder]
+    domains: [work, leadership, inner-life]
+    conf: verified
+  - rid: cn-ddj-64-journey
+    claim: Great undertakings begin with a single small step.
+    type: Insight
+    claim_type: prudential
+    author: Laozi
+    tradition: daoist
+    stages: [youth, young-adult, adult]
+    domains: [work, goals, habit]
+    conf: verified
+  - rid: cn-zhuangzi-butterfly
+    claim: The boundary between self and world, waking and dream, is less fixed than assumed.
+    type: Insight
+    claim_type: metaphysical
+    author: Zhuangzi
+    tradition: daoist
+    stages: [adult, midlife]
+    domains: [inner-life, identity]
+    conf: verified
+  - rid: cn-hanfeizi-twohandles
+    claim: Rulers control conduct through reward and punishment, not moral appeal.
+    type: Danger
+    claim_type: prudential
+    author: Han Feizi
+    tradition: legalist
+    stages: [adult, midlife]
+    domains: [governance, work, power]
+    conf: verified
+  - rid: in-gita-247-karmayoga
+    claim: Act for the action's sake, without attachment to its fruits.
+    type: Practice
+    claim_type: normative
+    author: Bhagavad Gita (Krishna to Arjuna — character speech in epic)
+    tradition: hindu
+    stages: [young-adult, adult, midlife]
+    domains: [work, ethics, inner-life]
+    conf: verified
+  - rid: in-dhammapada-005-hatred
+    claim: Hatred is not ended by hatred but by non-hatred.
+    type: Insight
+    claim_type: prudential
+    author: Buddha (via Dhammapada, Pali canon)
+    tradition: buddhist
+    stages: [youth, adult, elder]
+    domains: [relationships, conflict, ethics]
+    conf: verified
+  - rid: in-dhammapada-001-mind
+    claim: Mind precedes and shapes mental states and their consequences.
+    type: Insight
+    claim_type: prudential
+    author: Buddha (via Dhammapada, Pali canon)
+    tradition: buddhist
+    stages: [youth, adult]
+    domains: [inner-life, ethics]
+    conf: verified
+  - rid: in-fournobletruths
+    claim: Suffering exists, arises from craving, can cease; a path leads to its cessation.
+    type: Insight
+    claim_type: normative
+    author: Buddha (via Dhammacakkappavattana Sutta, SN 56.11)
+    tradition: buddhist
+    stages: [young-adult, adult, midlife, elder]
+    domains: [inner-life, suffering, ethics]
+    conf: verified
+  - rid: in-yogasutra-12-nirodha
+    claim: Yoga is the stilling of the fluctuations of the mind.
+    type: Practice
+    claim_type: prudential
+    author: Patanjali
+    tradition: hindu
+    stages: [young-adult, adult, midlife]
+    domains: [inner-life, practice]
+    conf: verified
+  - rid: in-kural-forbearance
+    claim: Forbearance and non-retaliation are higher than revenge.
+    type: Virtue
+    claim_type: normative
+    author: Tiruvalluvar
+    tradition: hindu
+    stages: [adult, elder]
+    domains: [ethics, relationships, governance]
+    conf: probable
+  - rid: in-katha-1314-razor
+    claim: The path to the highest realization is arduous, sharp as a razor's edge.
+    type: Insight
+    claim_type: metaphysical
+    author: Katha Upanishad (anonymous)
+    tradition: hindu
+    stages: [young-adult, adult]
+    domains: [inner-life, spiritual-practice]
+    conf: verified
+  - rid: in-chandogya-687-tattvamasi
+    claim: The individual self is identical with ultimate reality (tat tvam asi).
+    type: Insight
+    claim_type: metaphysical
+    author: Chandogya Upanishad (anonymous)
+    tradition: hindu
+    stages: [adult, midlife, elder]
+    domains: [inner-life, metaphysics]
+    conf: verified
+  - rid: in-isha-1-renunciation
+    claim: Enjoy life through non-grasping; do not covet what is another's.
+    type: Practice
+    claim_type: normative
+    author: Isha Upanishad (anonymous)
+    tradition: hindu
+    stages: [adult, midlife, elder]
+    domains: [ethics, wealth, inner-life]
+    conf: verified
+  - rid: bd-shantideva-62-patience
+    claim: No evil like hatred, no fortitude like patience; anger destroys accumulated good.
+    type: Virtue
+    claim_type: prudential
+    author: Shantideva
+    tradition: buddhist
+    stages: [young-adult, adult, midlife]
+    domains: [inner-life, relationships, conflict]
+    conf: verified
+  - rid: bd-nagarjuna-emptiness
+    claim: All phenomena are empty of inherent existence; conventional and ultimate truths distinct.
+    type: Insight
+    claim_type: metaphysical
+    author: Nagarjuna
+    tradition: buddhist
+    stages: [adult, midlife]
+    domains: [metaphysics, inner-life]
+    conf: probable
+  - rid: jp-dogen-genjokoan-self
+    claim: To study the self is to forget the self; awakening is intimacy with things.
+    type: Practice
+    claim_type: metaphysical
+    author: Dogen
+    tradition: zen
+    stages: [adult, midlife, elder]
+    domains: [inner-life, practice, identity]
+    conf: probable
+  - rid: jp-monono-aware
+    claim: Beauty is intensified by awareness of impermanence (the pathos of things).
+    type: Insight
+    claim_type: observational
+    author: Motoori Norinaga (formulation; concept from Heian literature)
+    tradition: japanese
+    stages: [adult, midlife, elder]
+    domains: [aesthetics, grief, inner-life]
+    conf: verified
+  - rid: jp-kenko-uncertainty
+    claim: Life's impermanence and uncertainty make it precious and beautiful.
+    type: Insight
+    claim_type: observational
+    author: Yoshida Kenko
+    tradition: japanese
+    stages: [adult, midlife, elder]
+    domains: [inner-life, mortality, aesthetics]
+    conf: verified
+  - rid: jp-hagakure-death
+    claim: The way of the samurai is found in resolute readiness to die.
+    type: Danger
+    claim_type: normative
+    author: Yamamoto Tsunetomo
+    tradition: japanese
+    stages: [young-adult, adult]
+    domains: [duty, mortality, ethics]
+    conf: verified
+dilemmas:
+  - name: Engagement vs withdrawal
+    tension: Confucian role-duty and Gita 2.47's call to act vs Zhuangzi's useless tree and Kenko's hermit ideal — engagement builds social goods but courts entanglement/burnout; withdrawal preserves integrity/peace but risks irrelevance
+  - name: Effort vs acceptance
+    tension: Xunzi cultivation, Katha razor's edge, DDJ 64 persistence vs wu-wei (DDJ 37) and acceptance of impermanence (Kenko, mono no aware) — striving achieves but generates anxiety; acceptance yields peace but can shade into passivity
+  - name: Desire vs non-attachment
+    tension: Four Noble Truths, Yoga Sutras 1.2/1.12, Isha 1 vs ordinary desire and Han Feizi's frank reliance on desire — non-attachment reduces suffering (prudential) but its soteriological payoff (nibbana/moksha) is metaphysical
+  - name: Self-cultivation vs spontaneity
+    tension: The headline Confucian-Daoist fork — building character through ritual/learning vs unblocking natural flow; both quotable to section/verse, neither refutes the other
+  - name: Duty to family/lord vs duty to truth/others
+    tension: Confucian graded love and Hagakure lord-loyalty vs Mohist impartial concern and Buddhist universal compassion — kin-priority sustains relationships but licenses nepotism; impartiality fairer but humanly harder
+convergences:
+  - claim: Act without attachment to fruits / dichotomy of control / non-attachment (strongest triad)
+    with: [Gita 2.47 karma-yoga, Stoic dichotomy of control, Buddhist non-attachment]
+    lineage: FOR MERGE with prior Stoic report (Stoic side already covered — do not re-extract); robustness signal, not proof; if a Hellenistic-Buddhist transmission channel is found, reclassify from independent convergence to possible borrowing
+  - claim: Tranquility/equanimity as byproduct of non-grasping, not direct target
+    with: [Buddhist/Yogic non-grasping, Stoic ataraxia]
+    lineage: FOR MERGE with prior Stoic report (ataraxia held there)
+  - claim: Anger is irrational because aggressors are themselves conditioned
+    with: [Shantideva Bodhicaryavatara ch. 6 vv.22-30, Stoic reframing, CBT cognitive reframing]
+    lineage: FOR MERGE with prior Stoic report; unit notes flag convergence explicitly
+  - claim: Mental proliferation manufactures suffering beyond the event
+    with: [Buddhist papanca, Seneca imagined/anticipated suffering]
+    lineage: FOR MERGE — Seneca side held in prior report
+  - claim: Non-hatred, not hatred, ends hatred
+    with: [Dhammapada v.5, Shantideva ch. 6]
+    lineage: intra-Buddhist convergence (shared tradition — not independent origination)
+  - claim: Impermanence awareness reframes life and death
+    with: [Buddhist anicca, Kenko / mono no aware, Stoic memento mori]
+    lineage: FOR MERGE candidate with prior Stoic report; aesthetic vs ethical framing differs — a productive contrast, not identity
+tensions:
+  - tension: Human nature good vs bad (unresolved within Confucianism)
+    sides: Mencius (innate four sprouts, 2A6) vs Xunzi (nature evil/detestable, ch. 23; minority reading "uncarved, not evil" — Tang Siufu)
+  - tension: Effortful cultivation vs wu-wei (the headline fork)
+    sides: Confucian xiushen/li/role-duty vs Daodejing 37/48 and Zhuangzi naturalness — genuinely opposed prescriptions
+  - tension: Duty to act vs non-harm
+    sides: Gita's call to act even in war vs Buddhist/Jain ahimsa and withdrawal
+  - tension: Do rewards/punishments or virtue produce order?
+    sides: Han Feizi's amoral two-handles statecraft vs Confucian virtue-rule and the Kural's moral (but pragmatic, consequentialist) statecraft
+  - tension: Scope of moral concern
+    sides: Confucian graded/filial love vs Mohist impartial care vs Buddhist universal compassion
+leads:
+  - Pin Nagarjuna MMK and Dogen Genjokoan wordings against Garfield (Oxford 1995) and Tanahashi/Waddell-Abe print editions — the two probable units blocking full ingestion (highest priority)
+  - Confirm exact Tirukkural forbearance couplet (Book I, ch. 16) in Pope 1886 plus Sundaram to upgrade Kural unit to verified
+  - Get Olivelle's exact wording for Katha 1.3.14 (Oxford 1998, print) to complete the PD/copyright comparison
+  - Slingerland's Analects (2003) and Trying Not to Try — best modern bridge on wu-wei spanning Confucian and Daoist texts
+  - Bhikkhu Bodhi's In the Buddha's Words and SuttaCentral/Sujato (CC0) for verified, freely-licensable Pali sutta units beyond the Dhammapada
+  - SEP entries (Mencius, Japanese Aesthetics, Zhuangzi, Comparative Philosophy) and IEP (Daoist Philosophy, Mencius, Shantideva) as scholarship anchors
+  - Van Norden & Ivanhoe, Readings in Classical Chinese Philosophy (Hackett) — one-stop in-copyright standard with section numbers
+  - Fake Buddha Quotes (Bodhipaksa) site/book, taoistic.com fake-Laozi list, and Benesch's Inventing the Way of the Samurai (Oxford 2014) for the misattribution/bushido gates
+notes: >-
+  Misattribution is the report's single largest data-integrity risk: run every candidate quote through
+  fakebuddhaquotes.com / taoistic.com / primary editions; 9-item watchlist includes hard fakes ("student
+  ready, teacher appears", "mind is everything", Vivekananda's "Arise, awake..." paraphrase, Einstein-Buddhism,
+  Confucius fortune-cookie lines) and misframings (Hagakure as "the bushido code" — a Meiji/20th-c. invented
+  tradition per Benesch; DDJ 64 genuine Laozi but misattributed to Confucius). Translation is interpretation:
+  Legge Christianises, Müller predates modern philology, Pope moralizes, Buddharakkhita inserts "all";
+  contested renderings flagged for tat tvam asi (Brereton/Olivelle), Isha 1, neti neti. Probable-pending:
+  Nagarjuna, Dogen (wordings unverified this pass — quarantine until edition check) and Kural (couplet unpinned);
+  drop rather than downgrade if edition checks fail. Keep claim types separate: karma/rebirth/nibbana metaphysical,
+  tranquility payoffs prudential/observational; character speech (Krishna, Zhuangzi parables) is not flat endorsement.

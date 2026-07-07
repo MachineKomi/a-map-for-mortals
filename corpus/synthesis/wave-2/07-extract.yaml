@@ -1,0 +1,361 @@
+report: 07-practical-strategic
+extracted: 2026-07-07
+units:
+  - rid: sun-01-deception
+    claim: In conflict, controlling the enemy's perception is the foundational method.
+    type: Insight
+    claim_type: prudential
+    pol: descriptive
+    author: Sun Tzu
+    tradition: chinese-strategy
+    stages: [young-adult, adult, midlife]
+    domains: [conflict, competition, negotiation, career]
+    conf: verified
+  - rid: sun-02-subdue-without-fighting
+    claim: The highest skill is achieving the aim without battle.
+    type: Insight
+    claim_type: prudential
+    pol: prescriptive
+    author: Sun Tzu
+    tradition: chinese-strategy
+    stages: [adult, midlife, elder]
+    domains: [conflict, negotiation, leadership]
+    conf: verified
+  - rid: sun-03-know-enemy-self
+    claim: Accurate knowledge of self and adversary is the precondition of reliable success.
+    type: Practice
+    claim_type: prudential
+    pol: prescriptive
+    author: Sun Tzu
+    tradition: chinese-strategy
+    stages: [youth, young-adult, adult]
+    domains: [conflict, career, self-knowledge, competition]
+    conf: verified
+  - rid: sun-04-no-prolonged-war
+    claim: Protracted conflict tends to exhaust and harm even the victor.
+    type: Consequence
+    claim_type: empirical
+    pol: cautionary
+    author: Sun Tzu
+    tradition: chinese-strategy
+    stages: [adult, midlife, elder]
+    domains: [conflict, economics, statecraft]
+    conf: verified
+  - rid: musashi-01-nine-principles
+    claim: Mastery rests on honest mind, constant training, broad knowledge, discarding the useless.
+    type: Practice
+    claim_type: prudential
+    pol: prescriptive
+    author: Miyamoto Musashi
+    tradition: japanese-strategy
+    stages: [youth, young-adult, adult]
+    domains: [self-cultivation, craft, career, conflict]
+    conf: probable
+  - rid: musashi-02-accept-death
+    claim: The warrior's path is the resolute acceptance of death.
+    type: Virtue
+    claim_type: metaphysical
+    pol: prescriptive
+    author: Miyamoto Musashi
+    tradition: japanese-strategy
+    stages: [adult, midlife, elder]
+    domains: [mortality, courage, self-cultivation]
+    conf: probable
+  - rid: musashi-03-see-large
+    claim: Strategy requires perceiving both the large-scale pattern and the unseen.
+    type: Insight
+    claim_type: prudential
+    pol: prescriptive
+    author: Miyamoto Musashi
+    tradition: japanese-strategy
+    stages: [young-adult, adult, midlife]
+    domains: [perception, leadership, conflict]
+    conf: probable
+  - rid: kautilya-01-law-of-fish
+    claim: Without enforcing authority the strong devour the weak; order requires danda.
+    type: Danger
+    claim_type: prudential
+    pol: descriptive
+    author: Kautilya
+    tradition: indian-statecraft
+    stages: [adult, midlife]
+    domains: [statecraft, law, order, power]
+    conf: verified
+  - rid: kautilya-02-dandaniti
+    claim: The science of government secures and distributes acquisitions; worldly progress depends on it.
+    type: Insight
+    claim_type: prudential
+    pol: prescriptive
+    author: Kautilya
+    tradition: indian-statecraft
+    stages: [adult, midlife, elder]
+    domains: [statecraft, economics, law]
+    conf: verified
+  - rid: kautilya-03-sixfold-policy
+    claim: Policy follows relative power; inferior makes peace, superior wages war, equal stays neutral.
+    type: Practice
+    claim_type: prudential
+    pol: prescriptive
+    author: Kautilya
+    tradition: indian-statecraft
+    stages: [adult, midlife, elder]
+    domains: [statecraft, diplomacy, negotiation, conflict]
+    conf: verified
+  - rid: kautilya-04-upeksha
+    claim: A power too weak for confrontation should wait strategically rather than provoke.
+    type: Practice
+    claim_type: prudential
+    pol: prescriptive
+    author: Kautilya
+    tradition: indian-statecraft
+    stages: [adult, midlife, elder]
+    domains: [diplomacy, conflict, patience]
+    conf: probable
+  - rid: melian-01-strong-weak
+    claim: Between unequal powers justice is moot; the strong act, the weak endure.
+    type: Insight
+    claim_type: descriptive
+    pol: descriptive
+    author: Athenian envoys (via Thucydides; character-position, not endorsed)
+    tradition: greek-history
+    stages: [adult, midlife]
+    domains: [power, conflict, statecraft, negotiation]
+    conf: verified
+  - rid: melian-02-hope-danger
+    claim: Hope is an expensive comforter for the weak; relying on it invites ruin.
+    type: Danger
+    claim_type: prudential
+    pol: cautionary
+    author: Athenian envoys (via Thucydides)
+    tradition: greek-history
+    stages: [young-adult, adult, elder]
+    domains: [risk, decision-making, adversity]
+    conf: verified
+  - rid: gracian-01-suspense
+    claim: Deferring declaration of your intentions raises your value and protects you.
+    type: Practice
+    claim_type: prudential
+    pol: prescriptive
+    author: Baltasar Gracián
+    tradition: spanish-jesuit
+    stages: [young-adult, adult, midlife]
+    domains: [career, reputation, negotiation, social]
+    conf: verified
+  - rid: gracian-02-do-and-seem
+    claim: Substance alone is insufficient; one must also manage how one is perceived.
+    type: Insight
+    claim_type: prudential
+    pol: prescriptive
+    author: Baltasar Gracián
+    tradition: spanish-jesuit
+    stages: [young-adult, adult, midlife]
+    domains: [reputation, career, social]
+    conf: probable
+  - rid: gracian-03-reality-appearance
+    claim: People judge by appearances, not by inner reality.
+    type: Insight
+    claim_type: observational
+    pol: descriptive
+    author: Baltasar Gracián
+    tradition: spanish-jesuit
+    stages: [youth, young-adult, adult]
+    domains: [reputation, social, career]
+    conf: verified
+  - rid: gracian-04-cypher
+    claim: Concealing one's passions and tastes is a core skill; exposure invites manipulation.
+    type: Practice
+    claim_type: prudential
+    pol: prescriptive
+    author: Baltasar Gracián
+    tradition: spanish-jesuit
+    stages: [young-adult, adult, midlife]
+    domains: [social, negotiation, career, self-protection]
+    conf: verified
+  - rid: gracian-05-knowledge-good-will
+    claim: Ability without good intentions is more dangerous; cleverness without character ruins.
+    type: Virtue
+    claim_type: normative
+    pol: cautionary
+    author: Baltasar Gracián
+    tradition: spanish-jesuit
+    stages: [youth, young-adult, adult]
+    domains: [ethics, character, leadership]
+    conf: probable
+  - rid: gracian-06-make-use-of-enemies
+    claim: Enemies, handled well, are useful; their hostility sharpens and informs you.
+    type: Practice
+    claim_type: prudential
+    pol: prescriptive
+    author: Baltasar Gracián
+    tradition: spanish-jesuit
+    stages: [young-adult, adult, midlife]
+    domains: [social, career, conflict]
+    conf: probable
+  - rid: mach-prince-01-fox-lion
+    claim: A ruler must combine cunning (fox) and force (lion); each alone insufficient.
+    type: Practice
+    claim_type: prudential
+    pol: prescriptive
+    author: Niccolò Machiavelli (The Prince)
+    tradition: florentine
+    stages: [adult, midlife]
+    domains: [leadership, statecraft, conflict, negotiation]
+    conf: verified
+  - rid: mach-prince-02-keep-faith
+    claim: A ruler who always keeps faith can be destroyed by those who don't.
+    type: Danger
+    claim_type: prudential
+    pol: cautionary
+    author: Niccolò Machiavelli (The Prince)
+    tradition: florentine
+    stages: [adult, midlife]
+    domains: [statecraft, ethics, negotiation, trust]
+    conf: verified
+  - rid: mach-prince-03-appear
+    claim: Most judge rulers by appearances and outcomes; few perceive the reality.
+    type: Insight
+    claim_type: observational
+    pol: descriptive
+    author: Niccolò Machiavelli (The Prince)
+    tradition: florentine
+    stages: [adult, midlife]
+    domains: [reputation, leadership, statecraft]
+    conf: verified
+  - rid: mach-prince-04-feared-or-loved
+    claim: Since both are rarely possible, it is safer to be feared than loved.
+    type: Dilemma
+    claim_type: prudential
+    pol: cautionary
+    author: Niccolò Machiavelli (The Prince)
+    tradition: florentine
+    stages: [adult, midlife]
+    domains: [leadership, authority, management]
+    conf: verified
+  - rid: mach-prince-05-cruelty-well-used
+    claim: Decisive one-off harshness tends to injure less than disorder from excessive mercy.
+    type: Consequence
+    claim_type: prudential
+    pol: cautionary
+    author: Niccolò Machiavelli (The Prince)
+    tradition: florentine
+    stages: [adult, midlife]
+    domains: [leadership, statecraft, ethics]
+    conf: verified
+  - rid: mach-disc-01-tumults
+    claim: Civic conflict between classes can be the very source of republican liberty.
+    type: Insight
+    claim_type: empirical
+    pol: descriptive
+    author: Niccolò Machiavelli (Discourses)
+    tradition: florentine
+    stages: [adult, midlife, elder]
+    domains: [politics, institutions, conflict, community]
+    conf: verified
+  - rid: mach-disc-02-people-wiser
+    claim: The multitude is, on balance, wiser and more constant than a prince.
+    type: Insight
+    claim_type: empirical
+    pol: descriptive
+    author: Niccolò Machiavelli (Discourses)
+    tradition: florentine
+    stages: [adult, midlife, elder]
+    domains: [politics, institutions, leadership]
+    conf: probable
+  - rid: hippo-01-benefit-abstain
+    claim: The physician must act for the patient's benefit and abstain from harm.
+    type: Virtue
+    claim_type: normative
+    pol: prescriptive
+    author: Hippocratic corpus (The Oath)
+    tradition: greek-medicine
+    stages: [young-adult, adult]
+    domains: [professional-ethics, medicine, duty, care]
+    conf: verified
+  - rid: hippo-02-do-no-harm
+    claim: In treating disease, aim to do good — or at least no harm.
+    type: Principle
+    claim_type: normative
+    pol: prescriptive
+    author: Hippocratic corpus (Epidemics I)
+    tradition: greek-medicine
+    stages: [young-adult, adult]
+    domains: [professional-ethics, medicine, care, decision-making]
+    conf: verified
+  - rid: hippo-03-confidentiality
+    claim: What is learned in practice that should not be spoken stays secret.
+    type: Practice
+    claim_type: normative
+    pol: prescriptive
+    author: Hippocratic corpus (The Oath)
+    tradition: greek-medicine
+    stages: [young-adult, adult]
+    domains: [professional-ethics, trust, confidentiality]
+    conf: verified
+  - rid: galen-01-physician-philosopher
+    claim: The best physician is also a philosopher; ethics is constitutive of expertise.
+    type: Virtue
+    claim_type: normative
+    pol: prescriptive
+    author: Galen
+    tradition: greek-medicine
+    stages: [young-adult, adult, midlife]
+    domains: [professional-ethics, expertise, character, medicine]
+    conf: verified
+  - rid: galen-02-marcus-epithet
+    claim: Emperor reportedly called Galen first among physicians, unique among philosophers.
+    type: Insight
+    claim_type: observational
+    pol: descriptive
+    author: Marcus Aurelius (attributed; self-reported by Galen)
+    tradition: greek-medicine
+    stages: [adult, midlife]
+    domains: [professional-ethics, reputation, expertise]
+    conf: dubious
+dilemmas:
+  - name: Ends vs means
+    tension: Machiavelli (Prince 18, cruelty well-used) and Kautilya (danda, law of the fish) vs Hippocratic oath's hard line; means-flexibility buys short-term efficacy at the cost of trust erosion (Athens' ultimate defeat; Machiavelli's own warning against being hated)
+  - name: Cunning vs integrity
+    tension: Sun Tzu, Gracián, Prince-Machiavelli vs Galen, Hippocrates, Discourses-Machiavelli; La Rochefoucauld/Bacon held elsewhere — wire, don't re-extract
+  - name: Prudence vs principle
+    tension: Gracián's prudencia (adapt to circumstance, no fixed moral generalisations) vs Galen's principle-first ethics — the anti-Gracián
+  - name: Force vs patience
+    tension: Sun Tzu "subdue without fighting" and Kautilya upeksha vs the decisive strike (Musashi) and Prince "feared than loved"
+  - name: Appearance vs substance
+    tension: Gracián 99/130, Machiavelli Prince 18, Sun Tzu deception vs Musashi "do not think dishonestly" and Hippocratic transparency
+convergences:
+  - claim: Deception / perception-management as foundation of adversarial success
+    with: [Sun Tzu deception doctrine, Machiavelli Prince 18 appearances, Gracián maxims 99 and 130]
+  - claim: Power-asymmetry realism — near-identical structural logic, independently
+    with: [Kautilya sixfold policy, Melian dialogue "strong do what they can"]
+  - claim: Win without fighting / patience of the weak
+    with: [Sun Tzu subdue-without-fighting, Kautilya upeksha]
+  - claim: Skill bounded by character — the realists themselves gesture at the moral counter-pole
+    with: [Gracián "wicked will envenoms all excellences", Galen virtue-constitutive-of-expertise, Hippocratic oath]
+tensions:
+  - tension: Secrecy's moral valence — same practice, opposite justification
+    sides: Gracián "write your intentions in cypher" (self-protective, strategic) vs Hippocratic confidentiality (other-protective, fiduciary)
+  - tension: Machiavelli against himself — keep as two thinkers, do NOT collapse
+    sides: Prince XVII feared-than-loved vs Discourses I.58 people wiser and more constant than a prince; meme-Machiavelli alone would falsify the record
+  - tension: Deception vs honesty within the strategist family
+    sides: Sun Tzu/Gracián/Prince outward feints vs Musashi "do not think dishonestly" — is inward self-honesty compatible with outward deception? Test
+  - tension: The core ends-vs-means clash of the whole map (Hippocratic counter-pole, kept first-class)
+    sides: Cruelty "well used" (Prince XVII) and Kautilya danda vs "do good or do no harm" (Epidemics I) — professional ethics binds competence to restraint where strategy prizes advantage
+leads:
+  - Isolate clean Shamasastry verbatim for Kautilya's four upayas (sama, dana, bheda, danda; Book II / IX) to complete force-vs-persuasion node
+  - Gracián maxims 130, 4, 84 — exact Jacobs 1892 PD wording (currently Maurer © or title-only)
+  - Machiavelli Discourses I.58 verbatim in Detmold 1882 — key republican counter-unit needs exact PD quote
+  - Melian 5.103 "hope" passage — verify exact Crawley wording before publishing
+  - Galen Best Physician — locate pre-1929 PD English rendering or cite Greek + Loeb sparingly
+  - Han Feizi "two handles" (reward and punishment) — not yet extracted; dedupe against Eastern-wisdom query, then add as Chinese-statecraft complement to danda
+  - Lord Chesterfield — check childhood/old-age query hasn't claimed him; bridge from Gracián court-prudence to modern professional conduct
+  - La Rochefoucauld and Bacon — held in moralists report; wire cunning-vs-integrity fork to existing units, don't re-extract
+notes: >-
+  Misattribution watchlist is load-bearing: "keep your friends close and your enemies closer" is
+  The Godfather Part II (1974), not Sun Tzu (ditto Clavell's Shōgun "bodies float by"); "the ends
+  justify the means" appears nowhere in Machiavelli — the Latin cognate exitus acta probat is Ovid,
+  Heroides II.85; "primum non nocere" is not in the Hippocratic corpus (genuine source Epidemics I,
+  "to do good or to do no harm" — help first), the axiom being attributed to Sydenham but traced in
+  print only to c.1860 via Hooker 1847/Chomel (Smith 2005). Copyright flags: Musashi (Harris 1974)
+  and Galen (Singer/Loeb) translations in © — paraphrase or short fragments only; PD anchors are
+  Giles 1910, Shamasastry 1915, Crawley 1874, Jacobs 1892, Marriott/Ricci, Detmold 1882, Adams 1849.
+  Realpolitik units marked cautionary/descriptive, never endorsed; Melian line is a character-position.

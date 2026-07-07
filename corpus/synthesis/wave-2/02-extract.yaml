@@ -1,0 +1,147 @@
+report: 02-african
+extracted: 2026-07-07
+units:
+  - rid: insight.ubuntu.person
+    claim: A person becomes a person through relationships with other persons.
+    type: Insight
+    claim_type: normative
+    author: Nguni (Zulu/Xhosa)
+    tradition: Nguni oral tradition, Southern Africa
+    stages: [child, youth, adult, elder]
+    domains: [community, ethics, identity]
+    conf: communal
+  - rid: insight.mbiti.we.are
+    claim: Individual identity is constituted by the community; I am because we are.
+    type: Insight
+    claim_type: metaphysical
+    author: John S. Mbiti
+    tradition: Pan-African scholarship (Kenya)
+    stages: [adult]
+    domains: [identity, community]
+    conf: verified
+  - rid: dilemma.menkiti.personhood
+    claim: Personhood is attained through communal obligation, not given at birth.
+    type: Dilemma
+    claim_type: normative
+    author: Ifeanyi A. Menkiti
+    tradition: Academic African philosophy (Nigeria/Igbo)
+    stages: [child, youth, adult, elder]
+    domains: [ethics, identity, community]
+    conf: verified
+  - rid: insight.gyekye.partial.constitution
+    claim: Community only partly constitutes the person; individuality and rights remain.
+    type: Insight
+    claim_type: normative
+    author: Kwame Gyekye
+    tradition: Academic African philosophy (Ghana/Akan)
+    stages: [adult]
+    domains: [ethics, identity, politics]
+    conf: probable
+  - rid: dilemma.ori.ese
+    claim: Destiny chosen before birth is realised only through effort and character.
+    type: Dilemma
+    claim_type: metaphysical
+    author: Yoruba (via Abimbola/Gbadegesin scholarship)
+    tradition: Yoruba (Nigeria)
+    stages: [youth, young-adult, adult]
+    domains: [destiny, work, character]
+    conf: communal
+  - rid: practice.sankofa
+    claim: Return and retrieve past wisdom to build the future.
+    type: Practice
+    claim_type: prudential
+    author: Akan (Twi)
+    tradition: Akan/Ashanti (Ghana), Adinkra symbol Sankofa
+    stages: [youth, adult, elder]
+    domains: [memory, learning, culture]
+    conf: communal
+  - rid: insight.igbo.palm.oil
+    claim: Proverbs are the palm-oil with which words are eaten.
+    type: Insight
+    claim_type: observational
+    author: Chinua Achebe
+    tradition: Igbo (Nigeria), literary
+    stages: [adult, elder]
+    domains: [communication, culture]
+    conf: verified
+  - rid: insight.anansi.wit
+    claim: Wit and cunning of the small can triumph over the mighty.
+    type: Insight
+    claim_type: prudential
+    author: Akan (Twi)
+    tradition: Akan Anansesem (spider tales); diaspora Anancy
+    stages: [child, youth, adult]
+    domains: [strategy, survival, knowledge]
+    conf: communal
+  - rid: practice.mwana.kupona
+    claim: A mother transmits religious and marital duty to her daughter.
+    type: Practice
+    claim_type: normative
+    author: Mwana Kupona binti Mshamu
+    tradition: Swahili (Pate/Siyu, Kenya coast), Islamic utenzi verse
+    stages: [youth, young-adult]
+    domains: [family, marriage, religion]
+    conf: verified
+  - rid: virtue.tutu.ubuntu
+    claim: My humanity is bound up in yours; forgiveness serves communal harmony.
+    type: Virtue
+    claim_type: normative
+    author: Desmond Tutu
+    tradition: South Africa, Christian-Ubuntu theology
+    stages: [adult, elder]
+    domains: [ethics, justice, reconciliation]
+    conf: verified
+dilemmas:
+  - name: Individual vs community
+    tension: Menkiti's radical (personhood attained, duties primary) vs Gyekye's moderate (partial constitution, rights retained) vs Wiredu's consensus variant
+  - name: Destiny vs effort
+    tension: Ori/Ayanmo (destiny chosen before birth) vs ese (effort) and iwa (character); scholars read it as soft determinism, not fatalism
+  - name: Deference to elders vs questioning
+    tension: Elder authority ("the words of an elder are more potent than a charm") vs the value of the questioning child ("a child who asks questions does not become a fool")
+  - name: Hospitality/restorative justice vs retribution
+    tension: Ubuntu forgiveness and Truth and Reconciliation Commission restorative premise vs retributive justice
+  - name: Cunning vs force
+    tension: Anansi trickster wit of the small vs strength of the mighty; morally neutral archetype
+  - name: Directness vs indirection
+    tension: Proverbial (indirect) speech as the Akan/Igbo ideal vs crude direct speech
+convergences:
+  - claim: Ubuntu solidarity and bound-up humanity
+    with: [Golden Rule / one-body cluster (Hillel, Sermon on the Mount, Saadi)]
+    lineage: Report flags for merge against the prior Golden Rule/one-body cluster — flag, do not re-extract
+  - claim: Sankofa — go back and retrieve what was forgotten
+    with: [Confucian reverence for tradition]
+  - claim: Yoruba soft determinism (destiny realised through effort)
+    with: [Stoic fate/effort, Hindu karma-with-agency]
+  - claim: Individual-vs-community personhood fork
+    with: [Western engagement-vs-withdrawal fork (wave-1 Greco-Roman)]
+    lineage: Report says link to the Western engagement-vs-withdrawal fork — flag for merge, do not re-derive
+  - claim: Communal child-rearing sayings (cooperation in child rearing)
+    with: [Egyptian instruction texts (Ptahhotep, Amenemope) held from the Near-Eastern report]
+    lineage: Cross-reference existing Near-Eastern units rather than re-extracting
+tensions:
+  - tension: Menkiti's duties-first personhood vs rights-first individualism
+    sides: Duties primary, rights secondary, personhood attained (Menkiti 1984) vs Western liberal rights-first individualism and Gyekye's intrinsic-worth rebuttal
+  - tension: Ubuntu as moral theory vs Ubuntu as fuzzy or exhausted concept
+    sides: Metz's relational formalisation (harmony/shared identity + solidarity) vs Mboti's "purposely fuzzy" charge (2015) and Matolino & Kwindingwi's "The end of ubuntu" (SAJP 2013, DOI 10.1080/02580136.2013.817637); Metz's rebuttal "Just the beginning for ubuntu" (SAJP 2014)
+  - tension: Metz harmony-as-duty vs Mboti's dissent (preserve as minority wisdom)
+    sides: Right acts promote communal harmony (Metz) vs Mboti — "there is value in regarding a broken relationship as being authentically human as much as a harmonious relationship"
+  - tension: Ethnophilosophy vs critical African philosophy
+    sides: Tempels' Bantu "vital force" ontology (positive readings by Mudimbe, Kagame) vs Hountondji's critique — "unanimism" and "extraversion", written for missionaries/colonial administrators; Césaire and Fanon concur
+leads:
+  - Christaller, Twi mmebusem (1879, PD, LoC loc.gov/item/43019087) and Rattray, Ashanti Proverbs (1916, PD) — highest-value verified proverb corpora with original-language text
+  - J.W.T. Allen, Tendi (1971) — verbatim Swahili verses for Mwana Kupona and Tambuka (poems PD; translation in-copyright)
+  - Gyekye, Tradition and Modernity (1997), ch. 2 pp. 35-70 — verify the p. 53 quote against the OUP print copy
+  - Gbadegesin, African Philosophy (1991) and Abimbola on Ori/ese — primary Yoruba destiny scholarship
+  - SEP entries — "African Ethics" (Gyekye), "Akan Philosophy of the Person", "Africana Philosophy"
+  - Hountondji, African Philosophy - Myth and Reality (1983) — the anti-ethnophilosophy critique
+  - Oluwole, Socrates and Orunmila (2014) and Presbey's Hypatia overview — Yoruba oral philosophy and feminist complementarity
+  - Attribute every proverb to a named people/language with attribution_confidence communal; reject bare "African proverb" tags
+  - Reclassification thresholds — contested to conditional needs independent attestation in >=2 peer-reviewed sources with named language and citable edition; demote to dubious if no named people/language traceable
+  - Build the misattribution watchlist node (Section F) to block pan-"African proverb" fakes at ingestion
+notes: >-
+  Treat Tempels' Bantu Philosophy (1945) as colonial-era distortion, never a primary African voice
+  (Hountondji: unanimism, extraversion). Gyekye 1997 p.53 wording confirmed only via a peer-reviewed
+  block-quote — verify against print before publication. Apocryphal watchlist: "it takes a village"
+  and "go fast/go far" are untraceable to any people (mark apocryphal); "I am because we are" is
+  Mbiti's 1969 scholarly gloss, not a traditional proverb; generic "African proverb" tags are
+  dubious by default. Ubuntu ontological claims are metaphysical/normative, never empirical.

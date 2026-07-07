@@ -1,0 +1,261 @@
+report: 04-womens-voices
+extracted: 2026-07-07
+units:
+  - rid: enheduanna.voice_from_exile
+    claim: The self can testify to its own dispossession and appeal for restoration.
+    type: Insight
+    claim_type: observational
+    author: Enheduanna
+    tradition: Sumerian/Akkadian
+    stages: [adult, midlife]
+    domains: [power, adversity, vocation]
+    conf: probable
+    transmission: direct
+  - rid: sappho.fr31.desire_phenomenology
+    claim: Intense erotic love registers as bodily dissolution, not mere sentiment.
+    type: Insight
+    claim_type: observational
+    author: Sappho
+    tradition: Archaic Greek
+    stages: [youth, young-adult, adult]
+    domains: [love, embodiment]
+    conf: verified
+    transmission: "male-transmitted: fr. 31 survives only because Longinus quoted it in On the Sublime"
+  - rid: hypatia.public_reason
+    claim: A woman may exercise public intellectual authority with dignity despite risk.
+    type: Virtue
+    claim_type: observational
+    author: Hypatia of Alexandria (via Socrates Scholasticus)
+    tradition: Late-antique Neoplatonism
+    stages: [adult, midlife]
+    domains: [vocation, public-life, knowledge]
+    conf: probable
+    transmission: "male-transmitted: her own works lost; quote is Socrates Scholasticus's testimony, not her words"
+  - rid: diotima.ladder_of_love
+    claim: Love rightly educated ascends from one body to beauty itself.
+    type: Insight
+    claim_type: metaphysical
+    author: Diotima (via Plato's Socrates)
+    tradition: Classical Greek (Platonic)
+    stages: [young-adult, adult]
+    domains: [love, knowledge, transcendence]
+    conf: dubious
+    transmission: contested-historicity
+  - rid: banzhao.educate_daughters
+    claim: Girls should be educated as boys are; withholding it is inconsistent.
+    type: Insight
+    claim_type: normative
+    author: Ban Zhao
+    tradition: Han Confucian
+    stages: [child, youth]
+    domains: [education, family, gender]
+    conf: probable
+    transmission: direct
+  - rid: seishonagon.attention_as_discrimination
+    claim: Fine aesthetic discrimination is a discipline of attention to the passing world.
+    type: Practice
+    claim_type: observational
+    author: Sei Shonagon
+    tradition: Heian Japanese
+    stages: [adult]
+    domains: [aesthetics, everyday-life]
+    conf: probable
+    transmission: direct
+  - rid: murasaki.defense_of_fiction
+    claim: Fiction preserves the texture of human life; its truth exceeds literal fact.
+    type: Insight
+    claim_type: normative
+    author: Murasaki Shikibu
+    tradition: Heian Japanese
+    stages: []
+    domains: [art, memory, knowledge]
+    conf: verified
+    transmission: "direct (spoken by the character Genji; do not equate with authorial endorsement outright)"
+  - rid: hildegard.viriditas
+    claim: A divine greening life-force animates creation; dryness is its spiritual opposite.
+    type: Insight
+    claim_type: metaphysical
+    author: Hildegard of Bingen
+    tradition: Christian mysticism
+    stages: []
+    domains: [nature, spirituality, stewardship]
+    conf: verified
+    transmission: direct
+  - rid: julian.all_shall_be_well
+    claim: Suffering and sin lack the final word; ultimate reality is love.
+    type: Insight
+    claim_type: metaphysical
+    author: Julian of Norwich
+    tradition: Christian mysticism
+    stages: [adult, midlife, elder]
+    domains: [suffering, faith, hope]
+    conf: verified
+    transmission: direct
+  - rid: teresa.nada_te_turbe
+    claim: Equanimity follows from anchoring the self in the unchanging amid change.
+    type: Practice
+    claim_type: prudential
+    author: Teresa of Avila
+    tradition: Christian mysticism (Carmelite)
+    stages: []
+    domains: [adversity, spirituality, equanimity]
+    conf: verified
+    transmission: "direct (breviary autograph; wider poetry corpus has authentication problems per Kavanaugh)"
+  - rid: depizan.sex_not_measure_of_character
+    claim: A person's sex is not a fair measure of moral or intellectual worth.
+    type: Insight
+    claim_type: normative
+    author: Christine de Pizan
+    tradition: Late-medieval French
+    stages: []
+    domains: [gender, education, justice]
+    conf: verified
+    transmission: "direct (voiced by allegorical Lady Reason; author elsewhere counsels wifely subjection — strategic tension)"
+  - rid: astell.born_free_born_slaves
+    claim: If natural freedom is universal, women's subjection in marriage is unjust.
+    type: Dilemma
+    claim_type: normative
+    author: Mary Astell
+    tradition: English proto-feminism (Tory/Anglican)
+    stages: []
+    domains: [marriage, freedom, politics]
+    conf: verified
+    transmission: direct
+  - rid: wollstonecraft.reason_over_charm
+    claim: Women's apparent weakness is produced by mis-education; treat them as rational.
+    type: Virtue
+    claim_type: normative
+    author: Mary Wollstonecraft
+    tradition: English Enlightenment
+    stages: []
+    domains: [education, gender, autonomy]
+    conf: verified
+    transmission: direct
+  - rid: fuller.let_them_be_sea_captains
+    claim: Every occupation should be open to women; capacity, not sex, decides.
+    type: Insight
+    claim_type: normative
+    author: Margaret Fuller
+    tradition: American Transcendentalism
+    stages: []
+    domains: [work, gender, autonomy]
+    conf: verified
+    transmission: direct
+  - rid: beauvoir.becomes_woman
+    claim: "'Woman' is a socially constituted role, not a biological given."
+    type: Insight
+    claim_type: observational
+    author: Simone de Beauvoir
+    tradition: French existentialism
+    stages: []
+    domains: [gender, identity, freedom]
+    conf: verified
+    transmission: direct
+  - rid: murdoch.unselfing
+    claim: Attention to beauty and others' reality dissolves the ego, grounding virtue.
+    type: Practice
+    claim_type: normative
+    author: Iris Murdoch
+    tradition: British moral philosophy (Platonist)
+    stages: []
+    domains: [ethics, attention, love]
+    conf: verified
+    transmission: direct
+  - rid: midgley.philosophy_as_plumbing
+    claim: Conceptual frameworks are invisible infrastructure noticed only when they fail.
+    type: Insight
+    claim_type: observational
+    author: Mary Midgley
+    tradition: British moral philosophy
+    stages: []
+    domains: [knowledge, reasoning]
+    conf: verified
+    transmission: direct
+  - rid: rabia.love_without_motive
+    claim: The highest worship strips away fear and reward, loving for its own sake.
+    type: Virtue
+    claim_type: metaphysical
+    author: Rabia al-Adawiyya (via Attar)
+    tradition: Sufism
+    stages: []
+    domains: [devotion, motive, transcendence]
+    conf: probable
+    transmission: "male-transmitted: left no writings; sayings via Attar's Tadhkirat al-Awliya, four centuries later"
+  - rid: akkamahadevi.renounce_the_perishable
+    claim: Attachment to mortal, decaying goods obstructs union with the divine.
+    type: Danger
+    claim_type: metaphysical
+    author: Akka Mahadevi
+    tradition: Kannada Bhakti (Lingayat)
+    stages: []
+    domains: [marriage, devotion, renunciation]
+    conf: probable
+    transmission: "direct (~350 vachanas attributed via her ankita 'Chennamallikarjuna', not autograph manuscripts)"
+  - rid: gilligan.different_voice
+    claim: Moral reasoning includes a care orientation alongside a justice orientation.
+    type: Dilemma
+    claim_type: empirical
+    author: Carol Gilligan
+    tradition: Feminist moral psychology
+    stages: []
+    domains: [ethics, relationships, gender]
+    conf: verified
+    transmission: direct
+  - rid: friedman.degender_care
+    claim: Care and justice do not divide along gender lines; de-gender them.
+    type: Insight
+    claim_type: normative
+    author: Marilyn Friedman
+    tradition: Feminist ethics
+    stages: []
+    domains: [ethics, gender]
+    conf: verified
+    transmission: direct
+dilemmas:
+  - name: Care vs justice
+    tension: Relational/contextual responsiveness (Gilligan, Noddings) vs impartial rights and equality (Friedman, Kantian critics) — CONTESTED, not settled; do not gender-code
+  - name: Voice vs silence
+    tension: Speaking/writing publicly at real risk (Enheduanna, Hypatia, Fuller, Astell) vs safety in silence or coded speech (Ban Zhao's yielding, de Pizan's strategic dilution)
+  - name: Autonomy vs relation
+    tension: Self-possession and independence (Wollstonecraft, Beauvoir, Astell) vs constitution-through-relationship (Noddings, the mystics' union/self-loss); Murdoch bridges — autonomy through attending to the other's reality
+  - name: Instrumental vs non-instrumental devotion
+    tension: Acting for reward/fear vs for the good/God's own sake (conventional piety vs Rabia, Julian, Akka Mahadevi, Murdoch's unselfing)
+  - name: The examined life under constraint
+    tension: Pursuing wisdom/vocation when law, marriage, or custom forbids it (Hypatia, de Pizan, Astell, Sei Shonagon, Akka Mahadevi)
+convergences:
+  - claim: Non-instrumental orientation to the ultimate
+    with: [Rabia (Sufi), Julian (Christian), Akka Mahadevi (Bhakti), Murdoch (secular Platonist)]
+    note: Test whether claim types are commensurable (metaphysical for mystics, normative/prudential for Murdoch) — do not flatten into one node
+  - claim: Attention/unselfing as the ground of virtue
+    with: [Murdoch, Weil (held by modern-philosophy report), Sei Shonagon's aesthetic discrimination, Teresa's recollection]
+    note: "FLAG FOR MERGE with modern-philosophy report's Weil 'attention' unit — take Murdoch only for what the Weil unit omits"
+  - claim: Education as the lever of equality
+    with: [Ban Zhao (Han), de Pizan (medieval French), Astell, Wollstonecraft (English)]
+    note: Striking independent convergence across 1,700 years
+tensions:
+  - tension: Care-as-female-strength vs care-should-be-de-gendered
+    sides: Gilligan/Noddings articulate a "different voice" of care vs Friedman (Beyond Caring, 1987) — care and justice do not divide along gender lines; essentialism/"slave morality" charges; Gilligan's 1987 reply places care within a justice framework. Do not resolve.
+  - tension: Autonomy/independence vs self-loss in union
+    sides: Wollstonecraft, Beauvoir (self-governance) vs the mystics' union and self-loss — genuine value conflict
+  - tension: Ban Zhao's submission-teaching vs her education-advocacy
+    sides: A contradiction within one author; Nujie preaches humility/yielding yet argues for girls' education
+  - tension: Beauvoir's constructed-"woman" vs essentialist readings of care ethics
+    sides: Potential internal tension in the female-wisdom corpus itself
+leads:
+  - Confirm Murasaki's Diary passage on Sei Shonagon (wording/pagination in Bowring 1982; compare Keene 1993) before verbatim ingest
+  - Obtain Swann's 1932 translation of Ban Zhao's Nujie for exact verbatim; confirm PD status
+  - Pull named contributor and verbatim thesis from Cambridge Ancient Women Philosophers (2023) "Reappraising Ban Zhao"
+  - Edith Stein, On the Problem of Empathy (1917) — thinnest-sourced scoped unit; retrieve ICS edition for canonical empathy quote and claim
+  - Mirabai — sourcing thin; needs primary sourcing (padas/bhajans); coordinate with Bhakti material; North Indian Bhakti, keep here (not Indigenous query)
+  - Verify Synesius's seven letters to Hypatia in Fitzgerald (1926) for any usable verbatim on her teaching
+  - Track Vishwanatha (Murty Classical Library) forthcoming Akka Mahadevi translation as rights-clean replacement for Ramanujan
+  - Secure a PD translation of Sappho fr. 31 (Wharton 1885) so the unit carries an unencumbered quote
+notes: >-
+  Copyright wall on the 20th-century core: Beauvoir, Murdoch, Midgley, Gilligan, Noddings and the
+  major modern translations (Carson, Tyler, Morris/McKinney, Ramanujan, Helle) are in-copyright —
+  store claim + citation, paraphrase or <=25-word snippets pending rights review; the PD-safe quotable
+  spine is Enheduanna(text), Wharton-Sappho, Zenos-Hypatia, Warrack-Julian, Peers-Teresa, Astell,
+  Wollstonecraft, Fuller. Misattribution watchlist: "well-behaved women" is Ulrich 1976 (not Monroe/
+  Roosevelt); most circulating "Rabia poems" are Ladinsky-style apocrypha (only the fear/hope prayer
+  well-attested via Attar); "mono no aware" is Motoori Norinaga's term, not Murasaki's; Teresa's
+  "Christ has no body now but yours" is disputed; Synesius-on-Hypatia lines unverified without Fitzgerald.

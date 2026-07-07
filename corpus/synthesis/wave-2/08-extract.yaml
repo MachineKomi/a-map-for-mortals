@@ -1,0 +1,174 @@
+report: 08-folk-proverbial
+extracted: 2026-07-07
+units:
+  - rid: danger.illconsidered.action
+    claim: Acting before you understand the situation brings ruin you cannot undo.
+    type: Danger
+    claim_type: prudential
+    author: Vishnu Sharma (attrib.), Sanskrit tradition (India)
+    tradition: Sanskrit / Hindu (India)
+    stages: [youth, young-adult, adult]
+    domains: [decision-making, work, family]
+    conf: verified
+  - rid: insight.unity.concord
+    claim: Cooperation makes the weak escape; discord dooms them.
+    type: Insight
+    claim_type: prudential
+    author: Jataka tradition (Pali canon commentary; Bodhisatta birth-stories)
+    tradition: Pali / Theravada Buddhism
+    stages: [all]
+    domains: [community, family, cooperation]
+    conf: verified
+  - rid: practice.gradualism.small.steps
+    claim: Great things are accomplished by attending to the small and starting now.
+    type: Practice
+    claim_type: prudential
+    author: Laozi (attrib.)
+    tradition: Chinese / Taoism
+    stages: [all]
+    domains: [work, self-cultivation, goals]
+    conf: verified
+  - rid: practice.trust.tie.camel
+    claim: Trust providence, but take every practical precaution yourself.
+    type: Practice
+    claim_type: normative
+    author: Muhammad (hadith reported from Anas ibn Malik, Jami al-Tirmidhi)
+    tradition: Arabic / Islamic
+    stages: [all]
+    domains: [faith, risk, planning]
+    conf: probable
+  - rid: insight.bird.in.hand
+    claim: A certain small good outweighs a larger uncertain one.
+    type: Insight
+    claim_type: prudential
+    author: Spanish-speaking folk, Castile (attested Cervantes, Don Quixote I.31, 1605)
+    tradition: Spanish (Castilian)
+    stages: [adult, midlife, elder]
+    domains: [money, risk, decision-making]
+    conf: communal
+  - rid: dilemma.haste.look.before.leap
+    claim: Deliberate before acting.
+    type: Dilemma
+    claim_type: prudential
+    author: English-speaking folk, England (attested Heywood, Dialogue of Proverbs, 1546)
+    tradition: English
+    stages: [youth, young-adult, adult]
+    domains: [decision-making, risk]
+    conf: communal
+  - rid: dilemma.haste.hesitates.lost
+    claim: Delay forfeits the opportunity.
+    type: Dilemma
+    claim_type: prudential
+    author: Joseph Addison (Cato, 1713 — dramatic line proverbialised, not folk-anonymous)
+    tradition: English (literary → proverbial)
+    stages: [youth, young-adult, adult]
+    domains: [decision-making, opportunity]
+    conf: verified
+  - rid: dilemma.collab.many.hands
+    claim: More helpers lighten a shared task.
+    type: Dilemma
+    claim_type: prudential
+    author: English-speaking folk, England (attested Heywood 1546; earlier in Bevis of Hampton)
+    tradition: English
+    stages: [all]
+    domains: [work, community]
+    conf: communal
+  - rid: dilemma.collab.too.many.cooks
+    claim: Too many contributors without coordination ruin the outcome.
+    type: Dilemma
+    claim_type: prudential
+    author: English-speaking folk, England (called a proverb by George Gascoigne, 1575)
+    tradition: English
+    stages: [all]
+    domains: [work, teams, decision-making]
+    conf: communal
+  - rid: virtue.honesty.best.policy
+    claim: Truth-telling serves you better than deception over time.
+    type: Virtue
+    claim_type: prudential
+    author: Sir Edwin Sandys (first attestation, Europae Speculum, 1599)
+    tradition: English
+    stages: [all]
+    domains: [relationships, business, ethics]
+    conf: probable
+  - rid: danger.chickens.unhatched
+    claim: Do not plan on gains you have not yet secured.
+    type: Danger
+    claim_type: prudential
+    author: English-speaking folk (attested Thomas Howell, 1570; ATU tale-type 1430)
+    tradition: English (ATU tale-type 1430)
+    stages: [all]
+    domains: [money, planning, expectation]
+    conf: communal
+dilemmas:
+  - name: haste-vs-care
+    poles: '"He who hesitates is lost" (Addison 1713) vs "Look before you leap" (Heywood 1546); Panchatantra Bk V; Tao Te Ching 64'
+    reconciliation: Time-pressure and reversibility of the decision determine which applies
+  - name: collaboration-vs-coordination
+    poles: '"Many hands make light work" (Heywood 1546) vs "Too many cooks spoil the broth" (Gascoigne 1575); Jataka 33 (unity)'
+    reconciliation: Role-clarity, not headcount; concord vs quarreling is the variable
+  - name: risk-vs-security
+    poles: '"Nothing ventured, nothing gained" vs "A bird in the hand..." (Quixote 1605)'
+    reconciliation: Stake size and downside survivability
+  - name: presence-absence
+    poles: '"Absence makes the heart grow fonder" vs "Out of sight, out of mind" (Hamilton, Epistle to Ramsay, 1719)'
+    reconciliation: Prior bond strength
+  - name: courage-vs-prudence
+    poles: '"Fortune favours the bold" vs "Tie your camel..." (Tirmidhi); "Call on God but row away from the rocks"'
+    reconciliation: Whether the risk is controllable by effort
+  - name: honesty-vs-tact
+    poles: '"Honesty is the best policy" (Sandys 1599) vs face-saving/diplomacy traditions'
+    reconciliation: Whether truth's benefit outweighs relational harm
+convergences:
+  - claim: Don't count unhatched gains
+    with: [Panchatantra (Brahman & gruel-pot, Book V), Kalila wa Dimna, La Fontaine (La Laitière), English (Howell 1570)]
+    lineage: likely-transmitted
+    rationale: Documented Panchatantra→Pahlavi→Arabic (Kalila wa Dimna)→Europe chain (ATU tale-type 1430)
+  - claim: Trust providence but act prudently
+    with: [Islamic hadith "tie your camel" (Tirmidhi), Hippocrates "pray but lend a hand", '"Call on God, but row away from the rocks"']
+    lineage: plausibly-independent (tentative)
+    rationale: Greek medical + Arabic religious sources with different vehicles (camel/rowing), but Mediterranean contact keeps the grade tentative
+  - claim: Slow-and-steady gradualism beats rash speed
+    with: [Tao Te Ching 64 (China), Tortoise & Hare (Greek/La Fontaine), '"haste makes waste"']
+    lineage: plausibly-independent (Tao vs Greek); transmitted within Greek→French
+    rationale: Chinese and Greek forms have no documented contact and use distinct images (journey/tower vs race)
+  - claim: A small certainty beats a large uncertainty
+    with: [Spanish "pájaro en mano", Latin "avis in dextra", English "bird in the hand", Aesop "fish in hand"]
+    lineage: likely-transmitted
+    rationale: Shared Latin/Aesopic ancestor across contiguous Europe
+  - claim: Strike while the iron is hot
+    with: [English (Chaucer, Tale of Melibee, c.1386), late-13th-c. French antecedent, medieval-Latin form, Paczolay 55-language collection]
+    lineage: likely-transmitted
+    rationale: Medieval-Latin origin diffused via school/humanist translation; exact Paczolay language count unverified (count:unknown)
+  - claim: Unity in cooperation defeats a stronger foe
+    with: [Jataka 33 (quails & net), Aesop bundle-of-sticks, many folk forms]
+    lineage: undetermined
+    rationale: Plausibly independent (universal experience) but Aesop–India cross-pollination possible
+tensions:
+  - tension: Convergence as robustness signal vs the diffusion confound
+    sides: Wide cross-language distribution suggests robustness vs distribution across contiguous, historically-contacting cultures is exactly what diffusion predicts; independence arguable only with no plausible contact AND different metaphor vehicles
+  - tension: Honesty-vs-tact is culturally weighted, not universal
+    sides: Tact pole proverbially weak in English vs strong in East Asian face-saving traditions — a genuine cross-cultural weighting difference
+  - tension: Proverbialised literary lines vs folk consensus
+    sides: '"He who hesitates is lost" derives from a character''s line in Addison''s Cato (Act IV); author endorsement not assumed — register and speaker_context must stay distinct'
+  - tension: Popular form vs source form of the camel hadith
+    sides: English "Trust in God, but tie your camel" reverses the hadith's clause order ("Tie her and trust in Allah")
+leads:
+  - Obtain Paczolay, European Proverbs in 55 Languages (1997) primary text — exact language-counts and entry numbers (esp. "strike while the iron is hot", "no smoke without fire" #1); Internet Archive scan access-restricted
+  - Kuusi & Joalaid, Proverbia Septentrionalia (1985) — 900 Balto-Finnic proverb types for finer-grained northern-European independence grading
+  - Olivelle, Pañcatantra (Oxford 1997/2009) — Edgerton-based scholarly translation, better than Ryder for tracing the transmission chain
+  - Mine the full 6-volume Cowell/Chalmers Jataka (PD) for more verse-morals mapping to the four forks; Appendix B "An Arrangement of Morals" indexes by theme
+  - CVC Refranero Multilingüe (Instituto Cervantes) — authoritative Spanish refrán database with attested literary contexts
+  - Quote Investigator & Shapiro, Yale Book of Quotations — extend the misattribution watchlist with sourced debunkings
+  - Mieder, Proverbs: A Handbook (2004) and Proverbium yearbook — definitional grounding and the "anti-proverb" concept for game twist mechanics
+notes: >-
+  Misattribution watchlist (apocryphal, never ingest as wisdom): "may you live in interesting times" is
+  not Chinese (traced to the Chamberlain family c.1898–1936 per Shapiro); the "two wolves" Cherokee legend
+  was invented by Billy Graham (1978, originally an Eskimo fisherman with two dogs); "crisis = danger +
+  opportunity" is a Western misreading (Victor Mair); "journey of a thousand miles" is Laozi, not Confucius.
+  The report models honesty explicitly: Paczolay's language-count for "strike while the iron is hot" is
+  flagged count:unknown rather than guessed, and every convergence carries an independence grade with
+  benchmarks for promotion/demotion. Register discipline matters — several "proverbs" are proverbialised
+  literary lines (Addison, Sandys); keep register and speaker_context distinct so a character's view is not
+  read as folk consensus; folk proverbs take people/language/region authorship with conf communal, never a
+  single author.
