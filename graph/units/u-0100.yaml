@@ -1,0 +1,37 @@
+id: u-0100
+claim_id: null
+type: Insight
+paraphrase: "Knowledge of oneself is the key and nearest gateway to knowledge of God."
+quotation: null   # Persian not held by the report
+quotation_translation: "Knowledge of self is the key to the knowledge of God... Now nothing is nearer to thee than thyself, and if thou knowest not thyself how canst thou know anything else?"
+source:
+  author: Al-Ghazali
+  work: The Alchemy of Happiness
+  passage: null
+  translator: Claud Field
+  edition_year: 1910
+  language: fa
+  url: "https://oceanlibrary.com/alchemy-of-happiness_al-ghazzali/"
+  urn: null
+tradition: Sufi
+era: 1105
+register: principle
+claim_type: metaphysical
+polarity: prescriptive
+conditionality: contested
+life_domains: [self, faith, meaning]
+life_stages: [adult]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-1/05-near-eastern-abrahamic.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: verified. Field 1910, PD; Kimiya-yi Sa'adat is Ghazali's own Persian abridgement of the Ihya (per inventory). Report's claim_type 'metaphysical/normative' narrowed to metaphysical (never empirical). Report CONV-5: converges with Augustine's interior turn (u-0096) via a shared Neoplatonic (Plotinus) lineage — cross-pollination, NOT independent convergence (report's explicit flag). Sufi unit — Rumi/Hafiz pseudo-quote watchlist: al-Ghazali is not himself on the watchlist and this wording comes from a named PD translation, but the same quarantine discipline applies to any popular Sufi quote entering this cluster."

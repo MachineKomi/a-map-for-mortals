@@ -1,0 +1,37 @@
+id: u-0147
+claim_id: null
+type: Insight
+paraphrase: "Even granting that the universe is absurd — that the demand for meaning meets an unreasoning world — lucid revolt and affirmation remain possible; one must imagine Sisyphus happy."
+quotation: "Il faut imaginer Sisyphe heureux."
+quotation_translation: "One must imagine Sisyphus happy."
+source:
+  author: Albert Camus
+  work: Le Mythe de Sisyphe
+  passage: "final line"
+  translator: Justin O'Brien
+  edition_year: 1942
+  language: fr
+  url: null
+  urn: null
+tradition: French existentialist milieu (absurdism)
+era: 1942
+register: argument
+claim_type: normative
+polarity: prescriptive
+conditionality: contested
+life_domains: [adversity, self, death, work]
+life_stages: [adult]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-1/06-modern-west.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "RIGHTS-RESTRICTED, PARAPHRASE-ONLY (report rec. 3): French original Gallimard 1942 IN COPYRIGHT (France life+70 -> PD 2030); O'Brien English translation (c) 1955 Knopf, renewed 1983, IN COPYRIGHT — do not publish verbatim until licensing cleared or PD entry; the single short line held above is research/audit only and print-blocked by the gate regardless. Report confidence: verified. Translator field refers to the English rendering only; edition_year is the French original. Report links (tertiary): Wikipedia 'The Myth of Sisyphus'; a Scribd copy (unreliable — do not treat as an edition). Affirmation pole of the report's Pessimism-vs-Affirmation fork; report caveat kept: Camus affirms WITHOUT denying suffering — affirmation is a stance, not factual optimism."

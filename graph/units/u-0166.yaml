@@ -1,0 +1,37 @@
+id: u-0166
+claim_id: null
+type: Danger
+paraphrase: "The celebrated finding that spending money on others boosts happiness FAILED a registered replication on broad well-being measures — the original experiment was small (N = 46), and the robust effect, if any, is much weaker than popularized; treat prosocial spending as a mild nudge, not a reliable happiness lever."
+quotation: null
+quotation_translation: null
+source:
+  author: "Dunn, Aknin & Norton"
+  work: "Science"   # journal only; paper title not given in the report
+  passage: null
+  translator: null
+  edition_year: 2008
+  language: en
+  url: null
+  urn: null
+tradition: empirical
+era: 2008
+register: null   # empirical finding; no register in the form library fits
+claim_type: empirical
+polarity: descriptive
+conditionality: contested
+life_domains: [money, happiness, relationships]
+life_stages: [young-adult, adult]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: unknown   # no verbatim quotation held; paraphrase only
+prov:
+  source_report: corpus/reports/wave-1/08-empirical.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report finding F7. FAILED REPLICATION — minted as a Danger-type cautionary exhibit per P4 instruction (report confidence: grade-E/D; extract replication label: failed). Evidence grade E/D. Replication status: a registered replication report (Aknin et al., 2020) and a close replication (N = 133, 2022) failed to find a significant difference on broad well-being measures, though narrower happiness measures showed effects in the original direction. Effect sizes as the report gives them: original significant (N = 46, random assignment to spend a windfall on others vs self); replications null on broad measures — no numeric effect sizes stated. Caveats: small original sample; 'the robust effect is much weaker than the famous original implied' is the report's own verdict; Western samples. Report relation: QUALIFIES/CONTRADICTS 'give to be happy'; Tier-2 recommendation downgrades it to 'a mild nudge, not a reliable lever'. Re-derivation: extract typed this Insight; minted as Danger (cautionary exhibit); conditionality: contested because narrower measures still point in the original direction. No verbatim quotation held; paraphrase only."

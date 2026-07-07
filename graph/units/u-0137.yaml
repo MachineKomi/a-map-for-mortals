@@ -1,0 +1,37 @@
+id: u-0137
+claim_id: null
+type: Insight
+paraphrase: "Power may rightfully be exercised over a member of a civilised community against his will only to prevent harm to others — never merely for his own good."
+quotation: "The only purpose for which power can be rightfully exercised over any member of a civilized community, against his will, is to prevent harm to others."
+quotation_translation: null   # English original
+source:
+  author: John Stuart Mill
+  work: On Liberty
+  passage: "Ch. 1"
+  translator: null
+  edition_year: 1859
+  language: en
+  url: null
+  urn: null
+tradition: British utilitarianism
+era: 1859
+register: principle
+claim_type: normative
+polarity: prescriptive
+conditionality: contested
+life_domains: [society, self, politics]
+life_stages: [adult]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-1/06-modern-west.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report confidence: verified. PD. The harm principle. Re-derivation: 'politics' added to life_domains (report gave [society, self]) — the claim's explicit scope is the legitimate use of coercive power over community members. Mill himself scopes it ('civilized community', and elsewhere excludes children and 'backward' societies — a conditionality internal to the text): kept as contested per report. Re-derivation: report's type 'Principle' is not in the schema's form library {Insight, Dilemma, Virtue, Danger, Practice, Consequence}; set type: Insight and kept register: principle, which carries the report's intent."

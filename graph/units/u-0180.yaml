@@ -1,0 +1,37 @@
+id: u-0180
+claim_id: null
+type: Insight
+paraphrase: "The deterioration of young people's mental health since about 2012 may be flattening or eliminating the age U-curve, replacing the midlife hump in ill-being with a monotonic rise in well-being across age."
+quotation: null            # empirical finding — no verbatim quotation held (S1 rule 8)
+quotation_translation: null
+source:
+  author: "Blanchflower, Bryson & Xu"
+  work: null               # 2024/2025 analyses, some in working-paper form; journal not given
+  passage: null
+  translator: null
+  edition_year: 2024
+  language: en
+  url: null
+  urn: null
+tradition: empirical
+era: 2024
+register: null             # empirical finding; no rhetorical register
+claim_type: empirical
+polarity: descriptive
+conditionality: contested
+life_domains: [ageing, health]
+life_stages: [youth, young-adult, midlife]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: unknown
+prov:
+  source_report: corpus/reports/wave-1/08-empirical.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "No verbatim quotation held. Evidence grade: C/D (repeated cross-sections, some in working-paper form; robust trend but contested cause). Replication status: contested. Effect sizes as reported: monotonic decline in ill-being by age (i.e. the midlife hump in ill-being replaced by a decline across age); US BRFSS 2009–2022 plus international data. Caveat kept: cause (smartphones/social media the leading proposed driver) is contested and some analyses remain working papers. Bears on 'Things improve with age' — QUALIFIES/CONTRADICTS. US/international, WEIRD samples."

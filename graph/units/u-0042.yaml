@@ -1,0 +1,37 @@
+id: u-0042
+claim_id: null
+type: Insight
+paraphrase: "Flourishing is not established by a brief spell of good fortune and needs some external goods: one swallow does not make a summer."
+quotation: null   # Greek of NE 1098a18-20 not held in the report
+quotation_translation: "One swallow does not make a summer, nor does one day; and so too one day, or a short time, does not make a man blessed and happy."
+source:
+  author: Aristotle
+  work: Nicomachean Ethics
+  passage: "Book I.7, 1098a18-20; external goods at I.8, 1099a31-b8 (Bekker)"
+  translator: W.D. Ross
+  edition_year: 1908
+  language: grc
+  url: null
+  urn: null
+tradition: Classical (Peripatetic)
+era: -340   # c. 340 BCE
+register: principle
+claim_type: observational
+polarity: descriptive
+conditionality: conditional
+life_domains: [money, friendship, adversity, aging]
+life_stages: [adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-1/02-greco-roman.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report grade: verified. Direct contrast with the Stoic claim that virtue alone suffices for eudaimonia (report contradiction #2: NE I.8-10 vs Stoic orthodoxy) — candidate CONTRADICTS edge at synthesis. Copyright: Ross (1908) PD per report."

@@ -1,0 +1,37 @@
+id: u-0038
+claim_id: null
+type: Insight
+paraphrase: "Wisdom may begin in recognising the limits of one's own knowledge — not thinking one knows what one does not."
+quotation: null   # Greek of Apology 21d not held in the report
+quotation_translation: "I am wiser than this man; it is likely that neither of us knows anything worthwhile, but he thinks he knows something when he does not, whereas when I do not know, neither do I think I know."
+source:
+  author: Socrates (via Plato)
+  work: Apology
+  passage: "21d (Stephanus)"
+  translator: "Jowett (PD); cf. Grube paraphrase"
+  edition_year: null
+  language: grc
+  url: null
+  urn: null
+tradition: Classical (Socratic)
+era: -399   # trial of Socrates, 399 BCE
+register: argument
+claim_type: observational
+polarity: descriptive
+conditionality: conditional
+life_domains: [self, fame]
+life_stages: [adult, midlife]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: unknown
+prov:
+  source_report: corpus/reports/wave-1/02-greco-roman.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report grade: verified (passage genuine at Apology 21d). Copyright unknown: report credits 'Jowett (PD); cf. Grube paraphrase' but the quoted English reads more modern than Jowett's 1871 phrasing and may follow Grube (in-copyright) — confirm the translator match against a PD edition at S2 before any print use (cf. the u-0001 Carter/Higginson correction). Socratic problem: Socrates via Plato. Watchlist #11: the compression 'I know that I know nothing' is itself apocryphal as a verbatim line; this passage is its genuine basis."

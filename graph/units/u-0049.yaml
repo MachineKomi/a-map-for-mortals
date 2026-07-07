@@ -1,0 +1,37 @@
+id: u-0049
+claim_id: null
+type: Insight
+paraphrase: "Radical self-sufficiency: prize what is already freely yours — even sunlight — above anything power or patronage can offer."
+quotation: null   # Greek not held in the report
+quotation_translation: "Stand out of my sunlight."
+source:
+  author: "Diogenes of Sinope (via Diogenes Laertius)"
+  work: "Lives of Eminent Philosophers"
+  passage: "Book VI.38 (cf. Plutarch, Life of Alexander 14)"
+  translator: "Robert Drew Hicks"
+  edition_year: 1925
+  language: grc
+  url: null
+  urn: null
+tradition: Hellenistic (Cynic)
+era: -336   # anecdote c. 336 BCE; recorded 3rd c. CE (report's dating)
+register: parable
+claim_type: prudential
+polarity: prescriptive
+conditionality: conditional
+life_domains: [money, fame, politics, desire, self]
+life_stages: [young-adult, adult]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain   # Hicks 1925 marked PD by the report
+prov:
+  source_report: corpus/reports/wave-1/02-greco-roman.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: probable (downgraded to attested per S1 rules). Context (report's bracketed gloss): said by Diogenes to Alexander, who had offered him any favour. Report note: anecdote, not Diogenes' own text; no contemporary evidence the meeting occurred — value is illustrative of autarkeia, not documentary. Report Stage-2 flag: ingest with a visible 'transmitted via anecdote' marker. Nearly all Cynic material survives via Laertian anecdote."

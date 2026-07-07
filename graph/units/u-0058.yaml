@@ -1,0 +1,37 @@
+id: u-0058
+claim_id: null
+type: Practice
+paraphrase: "Test your life by asking whether you could will it, unchanged, again and innumerable times — and live so that you could."
+quotation: null   # German of GS §341 not held in the report
+quotation_translation: "What if a demon were to creep after you one night... 'This life which you live must be lived by you once again and innumerable times more; and every pain and joy and thought and sigh must come again to you, all in the same sequence.'"
+source:
+  author: Nietzsche
+  work: The Gay Science
+  passage: "§341 'The Heaviest Burden'"
+  translator: Thomas Common   # per report; wording unconfirmed against Common's PD text — see notes
+  edition_year: 1910
+  language: de
+  url: null
+  urn: null
+tradition: german-philosophy
+era: 1882
+register: parable
+claim_type: normative
+polarity: prescriptive
+conditionality: conditional
+life_domains: [meaning, mortality]
+life_stages: [adult, midlife]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: unknown
+prov:
+  source_report: corpus/reports/wave-1/03-nietzsche.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report grade: verified. NACHLASS CAVEAT: in the published works eternal recurrence is a life-test ('a test of life-affirmation, not a metaphysical proof'); the cosmological version appears mainly in the unpublished Nachlass and must be handled separately. WILL-TO-POWER QUARANTINE: never cite the Förster-Nietzsche/Gast 'Will to Power' compilation (Colli/Montinari: 'historic forgery') as doctrinal support for recurrence. Ecce Homo (on Zarathustra §1) calls it the 'highest possible formula of affirmation'. Quote is elided in the report (ellipsis preserved). Re-derivation: report register 'thought-experiment' not in schema enum → parable; report claim_type 'normative (life-test); NOT asserted as cosmology' → normative. COPYRIGHT CAVEAT: report credits Common (1910) but the wording's modern 'you' does not read like Common's archaic diction — line-match vs Gutenberg #52124 (Joyful Wisdom) before print; PD alternative (Common) exists. life_stages derived (extract gave none)."

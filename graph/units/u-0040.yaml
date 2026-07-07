@@ -1,0 +1,37 @@
+id: u-0040
+claim_id: null
+type: Insight
+paraphrase: "Moral virtue is formed by habituation: people become just by doing just acts, temperate by temperate acts, brave by brave acts."
+quotation: null   # Greek of NE 1103a17-1103b2 not held in the report
+quotation_translation: "Moral virtue comes about as a result of habit... we become just by doing just acts, temperate by doing temperate acts, brave by doing brave acts."
+source:
+  author: Aristotle
+  work: Nicomachean Ethics
+  passage: "Book II.1, 1103a17-1103b2 (Bekker)"
+  translator: W.D. Ross
+  edition_year: 1908
+  language: grc
+  url: null
+  urn: null
+tradition: Classical (Peripatetic)
+era: -340   # c. 340 BCE
+register: argument
+claim_type: observational
+polarity: descriptive
+conditionality: universal-ish
+life_domains: [self, work, youth]
+life_stages: [child, youth, young-adult, adult]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-1/02-greco-roman.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report grade: verified. RE-DERIVATION DIFFERS: report labels claim_type: empirical and polarity: prescriptive; re-derived as observational/descriptive — the quoted passage states a generalisation about how character forms ('comes about as a result of habit'), argued from experience rather than systematic evidence, and its wording is descriptive (prescriptive use is downstream). Watchlist #8: 'We are what we repeatedly do. Excellence, then, is not an act, but a habit' is Will Durant's 1926 summary, misattributed to Aristotle — this passage is the genuine basis; credit Durant summarising Aristotle. Ellipsis is the report's own. Copyright: Ross (1908) PD per report."

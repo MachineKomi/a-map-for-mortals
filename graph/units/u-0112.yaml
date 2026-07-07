@@ -1,0 +1,37 @@
+id: u-0112
+claim_id: null
+type: Insight
+paraphrase: "How long our passions last is no more within our control than how long we live."
+quotation: "La durée de nos passions ne dépend pas plus de nous que la durée de notre vie."
+quotation_translation: null   # report holds no English wording
+source:
+  author: La Rochefoucauld
+  work: "Maximes (Réflexions ou sentences et maximes morales)"
+  passage: "no. 5 (1678 5th ed.)"
+  translator: null
+  edition_year: 1678
+  language: fr
+  url: null
+  urn: null
+tradition: french-moralist
+era: 1665
+register: aphorism
+claim_type: observational
+polarity: descriptive
+conditionality: conditional
+life_domains: [love, self]
+life_stages: [adult]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-1/06-modern-west.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label 'verified' -> attested per S1 rule. Maxim numbering follows the 1678 (5th) edition per report; numbering varies across editions. Bund & Friswell (1871) PD English available. Labels as re-derived match the report."

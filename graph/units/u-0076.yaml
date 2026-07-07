@@ -1,0 +1,46 @@
+id: u-0076
+claim_id: null
+type: Danger
+paraphrase: "Pride tends to precede ruin; an arrogant spirit tends to precede a fall."
+quotation: null   # original Hebrew not held in the report; capture at primary verification
+quotation_translation: "Pride goeth before destruction, and an haughty spirit before a fall."
+source:
+  author: "anonymous (Hebrew wisdom tradition; traditionally attributed to Solomon)"
+  work: "Proverbs (Tanakh)"
+  passage: "16:18"
+  translator: "King James Version translators"
+  edition_year: 1611
+  language: he
+  url: null
+  urn: null
+tradition: Judaism
+era: -500   # editing spans 8th-3rd c. BCE per report; midpoint approximation
+register: aphorism
+claim_type: prudential
+polarity: cautionary
+conditionality: conditional
+life_domains: [self, work]
+life_stages: [young-adult, adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-1/05-near-eastern-abrahamic.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: >-
+  Report unit HW-03; report label attribution_confidence 'verified', normalised to
+  'attested' pending a primary check against a KJV edition. Claim_type considered:
+  the surface form is an observational generalisation, but its function in Proverbs
+  is cautionary counsel — prudential retained, concurring with report; the tendency
+  (not destiny) framing is preserved in the paraphrase. Part of report convergence
+  CONV-4 (humility cluster with Ptahhotep Maxim 1 and a Kempis I.5; lineage caveat:
+  shared didactic-instruction genre inflates apparent convergence). Report
+  life_stages 'all' mapped to [young-adult, adult, midlife, elder] following the
+  extract's convention. KJV 1611 wording; PD per report source inventory.

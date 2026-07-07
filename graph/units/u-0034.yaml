@@ -1,0 +1,37 @@
+id: u-0034
+claim_id: null
+type: Insight
+paraphrase: "Reality is continual change: the river you step into is never the same river, since new waters are always flowing through it."
+quotation: null   # Greek of DK B12 not held in the report; capture at primary verification
+quotation_translation: "Upon those who step into the same rivers, different and different waters flow."
+source:
+  author: Heraclitus
+  work: Fragments
+  passage: "DK 22 B12 (cf. B49a, B91); Plato attributes flux at Cratylus 402a"
+  translator: "after Kirk & Raven (paraphrase of Greek; original PD)"
+  edition_year: null
+  language: grc
+  url: null
+  urn: null
+tradition: Pre-Socratic
+era: -500   # c. 500 BCE
+register: aphorism
+claim_type: metaphysical
+polarity: descriptive
+conditionality: contested
+life_domains: [self, adversity, aging, death]
+life_stages: [adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: unknown
+prov:
+  source_report: corpus/reports/wave-1/02-greco-roman.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report grade: verified (fragment); English wording flagged by the report as a paraphrase 'after Kirk & Raven' (paraphrase-pending — replace with a PD rendering, e.g. Burnet 1912, at S2). The popular 'you cannot step in the same river twice' is a compression; B12 is the securest fragment. Report cautions that Plato's flux reading (Cratylus 402a; Theaetetus) may overstate Heraclitus, who emphasises stability-through-change — hence conditionality: contested. Copyright unknown: quoted wording follows Kirk & Raven (1957, in-copyright); Greek original PD."

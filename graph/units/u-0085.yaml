@@ -1,0 +1,49 @@
+id: u-0085
+claim_id: null
+type: Virtue
+paraphrase: "Do not presume on your learning: skill has no ceiling, and wisdom may be found in anyone, ignorant or sage alike."
+quotation: null   # original Egyptian not held in the report; hieroglyphic/transliterated text at primary verification if warranted
+quotation_translation: "Be not proud because thou art learned; but discourse with the ignorant man, as with the sage. For no limit can be set to skill, neither is there any craftsman that possesseth full advantages."
+source:
+  author: "Ptahhotep (attributed)"
+  work: "The Maxims of Ptahhotep"
+  passage: "Maxim 1"
+  translator: "Battiscombe Gunn"
+  edition_year: 1906
+  language: egy
+  url: "https://sacred-texts.com/egy/woe/woe05.htm"
+  urn: null
+tradition: Ancient Egyptian
+era: -2200   # text dated ~2350-2000 BCE per report
+register: aphorism
+claim_type: prudential
+polarity: prescriptive
+conditionality: universal-ish
+life_domains: [speech, self, work]
+life_stages: [youth, young-adult, adult, midlife]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-1/05-near-eastern-abrahamic.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: >-
+  Report unit ANE-01; report label attribution_confidence 'verified', normalised to
+  'attested' pending a primary check against Gunn 1906 (Gutenberg). Report
+  claim_type was dual 'prudential/normative'; re-derived to prudential (counsel
+  about intellectual humility and where wisdom may be found, not a moral command).
+  Translation caveat carried from the report's leads: Gunn 1906 is PD but dated —
+  prefer Lichtheim's modern rendering (in copyright) where nuance matters; any print
+  use stays with the PD Gunn wording. The report calls the Maxims 'the oldest book'.
+  Part of report convergence CONV-4 (humility cluster with Proverbs 16:18 and a
+  Kempis I.5; lineage caveat: shared didactic-instruction genre across ~3,500 years
+  inflates apparent convergence — robustness moderate). Report life_stages 'youth,
+  adult' mapped to [youth, young-adult, adult, midlife] under the schema's
+  finer-grained enum.

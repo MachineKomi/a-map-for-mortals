@@ -1,0 +1,37 @@
+id: u-0053
+claim_id: null
+type: Insight
+paraphrase: "Keep due measure: right proportion — and right timing — is best in all things."
+quotation: null   # Greek not held in the report
+quotation_translation: "Observe due measure: and proportion is best in all things."
+source:
+  author: Hesiod
+  work: "Works and Days"
+  passage: "line 694"
+  translator: "Hugh G. Evelyn-White (Loeb)"
+  edition_year: 1914
+  language: grc
+  url: null
+  urn: null
+tradition: Archaic didactic poetry
+era: -700
+register: principle
+claim_type: prudential
+polarity: prescriptive
+conditionality: universal-ish
+life_domains: [work, money, desire, self]
+life_stages: [youth, young-adult, adult]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain   # Evelyn-White 1914 marked PD by the report
+prov:
+  source_report: corpus/reports/wave-1/02-greco-roman.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: verified (downgraded to attested per S1 rules; S2 to climb). The report's canonical claim adds 'timeliness (kairos)' which the quoted line renders as 'proportion' — the paraphrase keeps both, flag for checking against the Greek (kairos) at S2. One of the report's Stage-1 high-confidence core units."

@@ -1,0 +1,37 @@
+id: u-0130
+claim_id: null
+type: Insight
+paraphrase: "Reason alone cannot move us to act; it can only serve the passions, which set our ends."
+quotation: "Reason is, and ought only to be the slave of the passions, and can never pretend to any other office than to serve and obey them."
+quotation_translation: null   # original is English
+source:
+  author: David Hume
+  work: A Treatise of Human Nature
+  passage: "Book 2, Part 3, Section 3 'Of the influencing motives of the will' (T 2.3.3.4; Selby-Bigge p. 415)"
+  translator: null
+  edition_year: 1739
+  language: en
+  url: null
+  urn: null
+tradition: Scottish Enlightenment
+era: 1739
+register: argument
+claim_type: observational
+polarity: descriptive
+conditionality: contested
+life_domains: [self, knowledge]
+life_stages: [adult]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-1/06-modern-west.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report's confidence label: verified (downgraded to attested per S1 rules pending primary check). WORDING CAVEAT per report: the original 1739 text has only ONE comma ('ought only to be the slave of the passions'); the common two-comma version is modernised punctuation — the wording held here follows the one-comma original. Re-derivation difference: report labels claim_type empirical; re-derived as observational — this is an armchair philosophical-psychology generalisation about motivation (with a famously provocative normative 'ought' clause), not a systematically evidenced empirical finding. Selby-Bigge (1896) PD; Norton & Norton critical edition in copyright."

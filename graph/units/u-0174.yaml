@@ -1,0 +1,37 @@
+id: u-0174
+claim_id: null
+type: Danger
+paraphrase: "The claimed critical 2.9:1 positive-to-negative affect ratio separating flourishing from languishing rests on invalid nonlinear-dynamics mathematics and was partially retracted — a cautionary case of false quantitative precision."
+quotation: null            # empirical finding — no verbatim quotation held (S1 rule 8)
+quotation_translation: null
+source:
+  author: "Brown, Sokal & Friedman"
+  work: null               # journal of the critique not stated in report; target paper was Fredrickson & Losada 2005, American Psychologist (partially retracted)
+  passage: null
+  translator: null
+  edition_year: 2013
+  language: en
+  url: null
+  urn: null
+tradition: empirical
+era: 2013
+register: null             # empirical finding; no rhetorical register
+claim_type: empirical
+polarity: descriptive
+conditionality: universal-ish
+life_domains: [emotions]
+life_stages: [adult]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: unknown
+prov:
+  source_report: corpus/reports/wave-1/08-empirical.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "No verbatim quotation held. Evidence grade: E (for the original ratio claim — debunked/partially retracted). Replication status: failed (report table: 'invalid'; American Psychologist partially retracted Fredrickson & Losada 2005, withdrawing the modelling and the specific ratios). Effect sizes as reported: the claimed 2.9013:1 critical ratio is invalid. Conditionality universal-ish because the unit's claim is the debunking itself, which is uncontested. Bears on 'Maintain a 3:1 positive ratio' — CONTRADICTS. Report lesson kept: 'superficially precise quantitative claims in positive psychology warrant scrutiny.' Re-derivation: extract indexed this as Insight; re-typed Danger (a warning against relying on the debunked ratio) per rule 8."

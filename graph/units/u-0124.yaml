@@ -1,0 +1,37 @@
+id: u-0124
+claim_id: null
+type: Insight
+paraphrase: "Human unhappiness has a single root: the inability to stay quietly at rest in one room — we flee stillness into diversion."
+quotation: "Tout le malheur des hommes vient d'une seule chose, qui est de ne savoir pas demeurer en repos dans une chambre."
+quotation_translation: null   # report holds French only; Trotter (1904) PD English exists but its wording is not held
+source:
+  author: Blaise Pascal
+  work: Pensées
+  passage: "Lafuma 136 / Sellier 168 / Brunschvicg 139 ('Divertissement')"
+  translator: null
+  edition_year: 1670
+  language: fr
+  url: "https://www.penseesdepascal.fr/I/I33-moderne.php"
+  urn: null
+tradition: French Christian philosophy (Jansenist)
+era: 1670
+register: argument
+claim_type: observational
+polarity: cautionary
+conditionality: conditional
+life_domains: [solitude, anxiety, self, society]
+life_stages: [adult]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-1/06-modern-west.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report's confidence label: verified (downgraded to attested per S1 rules pending primary check). Pensées published posthumously 1670; era reflects publication (written c. 1656-62). CRITICAL per report: three numbering systems — always cross-reference Lafuma/Sellier/Brunschvicg (Sellier is the scholarly standard). French PD (Brunschvicg 1897 ed. PD); modern Sellier/Lafuma French texts and Krailsheimer English translation in copyright. The universalising 'tout le malheur' is Pascal's rhetoric; conditionality kept conditional as an observational generalisation, not a law."

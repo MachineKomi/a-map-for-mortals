@@ -1,0 +1,37 @@
+id: u-0114
+claim_id: null
+type: Insight
+paraphrase: "A human life holds only three events — birth, life, death: we do not feel our birth, we suffer in dying, and we forget to live."
+quotation: "Il n'y a pour l'homme que trois événements: naître, vivre et mourir. Il ne se sent pas naître, il souffre à mourir, et il oublie de vivre."
+quotation_translation: null   # report holds no English wording
+source:
+  author: La Bruyère
+  work: "Les Caractères"
+  passage: "\"De l'homme,\" §48"
+  translator: null
+  edition_year: 1688
+  language: fr
+  url: "https://quotepark.com/works/les-caracteres-949/"
+  urn: null
+tradition: french-moralist
+era: 1688
+register: aphorism
+claim_type: observational
+polarity: cautionary
+conditionality: universal-ish
+life_domains: [death, self]
+life_stages: [adult, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-1/06-modern-west.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label 'verified' -> attested per S1 rule. URL is the report's citation link and is a quote aggregator (Quote Park), not a primary source — replace at primary verification. Van Laun (1885) PD English available. Labels as re-derived match the report."

@@ -1,0 +1,37 @@
+id: u-0163
+claim_id: null
+type: Danger
+paraphrase: "Social isolation, loneliness, and living alone are each associated with substantially raised mortality risk — roughly 26–32% in meta-analysis after controlling for confounds — with effects stronger in people under 65; observational evidence."
+quotation: null
+quotation_translation: null
+source:
+  author: "Holt-Lunstad et al."
+  work: "Perspectives on Psychological Science"   # journal only; paper title not given in the report
+  passage: null
+  translator: null
+  edition_year: 2015
+  language: en
+  url: null
+  urn: null
+tradition: empirical
+era: 2015
+register: null   # empirical finding; no register in the form library fits
+claim_type: empirical
+polarity: descriptive
+conditionality: conditional
+life_domains: [relationships, health]
+life_stages: [young-adult, adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: unknown   # no verbatim quotation held; paraphrase only
+prov:
+  source_report: corpus/reports/wave-1/08-empirical.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report finding F2 (report confidence: grade-C; extract replication label: replicated). Evidence grade C — meta-analysis of 70 studies; strong and consistent but observational. Replication status: consistent across the 70 studies reviewed; consistent with Holt-Lunstad et al. 2010 (F1/u-0032). Effect sizes as the report gives them: weighted average increased likelihood of mortality 29% for social isolation (OR = 1.29), 26% for loneliness (OR = 1.26), and 32% for living alone (OR = 1.32), after controlling for confounds; effects were stronger in samples younger than 65. Caveats: reverse causation and confounding by baseline health/SES not excluded (report 'What We Do Not Know' item 1); Western-dominant samples. Report gives venue and year but not the paper title — source.work carries the journal only. Re-derivation: life_stages widened from the extract's [adult, midlife, elder] to add young-adult, because effects were stronger in samples under 65. No verbatim quotation held; paraphrase only."

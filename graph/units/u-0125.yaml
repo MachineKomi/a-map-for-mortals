@@ -1,0 +1,37 @@
+id: u-0125
+claim_id: null
+type: Insight
+paraphrase: "The heart has its own reasons, which reason does not know — a mode of knowing distinct from and inaccessible to discursive reason."
+quotation: "Le cœur a ses raisons que la raison ne connaît point."
+quotation_translation: null   # report holds French only; Trotter (1904) PD English exists but its wording is not held
+source:
+  author: Blaise Pascal
+  work: Pensées
+  passage: "Lafuma 423 / Sellier 680 / Brunschvicg 277"
+  translator: null
+  edition_year: 1670
+  language: fr
+  url: null
+  urn: null
+tradition: French Christian philosophy (Jansenist)
+era: 1670
+register: aphorism
+claim_type: metaphysical
+polarity: descriptive
+conditionality: contested
+life_domains: [love, self, knowledge]
+life_stages: [adult]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-1/06-modern-west.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report's confidence label: verified (downgraded to attested per S1 rules pending primary check). Claim_type kept metaphysical (a claim about a distinct faculty of knowing, in Pascal's context religious intuition of God), not empirical. Cross-reference all three numbering systems per report. Frequently quoted out of context as romantic sentiment; in the Pensées the 'heart' is primarily an organ of religious knowledge."

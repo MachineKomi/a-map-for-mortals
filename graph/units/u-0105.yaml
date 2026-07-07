@@ -1,0 +1,37 @@
+id: u-0105
+claim_id: null
+type: Practice
+paraphrase: "Much suffering comes from anticipated misfortunes that never arrive; guard against catastrophising."
+quotation: "My life has been full of terrible misfortunes most of which never happened."   # popular English form; no French original exists in the Essais
+quotation_translation: null
+source:
+  author: "Montaigne (attributed)"
+  work: null   # not located in the Essais; popular/floating attribution
+  passage: null
+  translator: null
+  edition_year: null
+  language: en
+  url: "https://www.azquotes.com/quote/203498"
+  urn: null
+tradition: french-moralist
+era: 1580
+register: aphorism
+claim_type: observational
+polarity: cautionary
+conditionality: conditional
+life_domains: [anxiety, adversity, self]
+life_stages: [adult, elder]
+endorsement: n/a
+attribution_confidence: apocryphal
+verification:
+  status: pending-primary
+  method: "wave-1 report could not locate the wording in the Essais; sentiment traced to Seneca, Moral Epistles 13.4 — recorded as apocryphal as Montaigne; wording not checked against any primary edition (none exists)"
+  checked_against: null
+  date: null
+copyright_flag: unknown   # popular floating form; no edition established for the wording
+prov:
+  source_report: corpus/reports/wave-1/06-modern-west.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "APOCRYPHAL as Montaigne — report label kept per S1 rule 1 exception. Report Misattribution Watchlist item 4: also floated for Seneca, Twain, Churchill; not located in the Essais. Authentic source of the sentiment per report: Seneca, Moral Epistles 13.4 (Gummere/Loeb): 'There are more things, Lucilius, likely to frighten us than there are to crush us; we suffer more often in imagination than in reality.' (Lat. 'Plura sunt quae nos terrent quam quae premunt, et saepius opinione quam re laboramus.') Report recommends a misattribution edge linking the popular form to the Seneca source. URL is a quote-aggregator page documenting the popular form's circulation, not a primary source. era 1580 refers to the attributed author's period only. NOT a print candidate under this attribution."

@@ -1,0 +1,37 @@
+id: u-0171
+claim_id: null
+type: Consequence
+paraphrase: "In a US national online survey (N = 397), satisfying needs and wants boosted happiness but was largely irrelevant to meaning, while giving to others, self-expression, and integrating past, present, and future tracked meaning but not happiness — and higher stress and worry went with more meaning but less happiness; cross-sectional, with heavily overlapping constructs."
+quotation: null
+quotation_translation: null
+source:
+  author: "Baumeister, Vohs, Aaker & Garbinsky"
+  work: "Journal of Positive Psychology"   # journal only; paper title not given in the report
+  passage: null
+  translator: null
+  edition_year: 2013
+  language: en
+  url: "https://carlsonschool.umn.edu/sites/carlsonschool.umn.edu/files/2019-04/baumeister_vohs_et_al_jopp_meaning_hps_online2013_0.pdf"
+  urn: null
+tradition: empirical
+era: 2013
+register: null   # empirical finding; no register in the form library fits
+claim_type: empirical
+polarity: descriptive
+conditionality: conditional
+life_domains: [meaning, happiness, self]
+life_stages: [adult, midlife]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: unknown   # no verbatim quotation held; paraphrase only
+prov:
+  source_report: corpus/reports/wave-1/08-empirical.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report finding F15 (report confidence: grade-D; extract replication label: unassessed). Evidence grade D — cross-sectional correlational survey. Effect sizes as the report gives them: distinct correlates only, no numeric effect sizes; happiness and meaning measures overlap substantially — the authors describe roughly half-shared variance, and an independent UK Biobank estimate puts the phenotypic correlation at r ≈ 0.53. Caveats: partly exploratory and self-defined; being a 'giver' vs 'taker' tied to meaning but not happiness (report's characterisation). Replication status: unassessed per extract. SUPPORTS (qualified) 'pursue meaning, not just pleasure' — the constructs are distinct but heavily overlapping. US online (WEIRD) sample. URL as given by the report (a second PDF link, scottbarrykaufman.com, is also given). Re-derivation: extract typed this Insight; minted as Consequence per S1 rule 8 (different pursuits associate with different outcomes). No verbatim quotation held; paraphrase only."

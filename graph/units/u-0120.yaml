@@ -1,0 +1,37 @@
+id: u-0120
+claim_id: null
+type: Virtue
+paraphrase: "Kind words cost the speaker little, yet they accomplish much."
+quotation: "Les mots aimables ne coûtent pas cher et pourtant ils accomplissent beaucoup."
+quotation_translation: null   # report holds French only
+source:
+  author: Joseph Joubert
+  work: Pensées
+  passage: null   # report: numbering varies across editions; no locator given
+  translator: null
+  edition_year: null   # no specific edition established by the report for this wording
+  language: fr
+  url: null
+  urn: null
+tradition: French moralists
+era: 1838
+register: aphorism
+claim_type: prudential
+polarity: prescriptive
+conditionality: conditional
+life_domains: [friendship, society]
+life_stages: [adult]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: unknown
+prov:
+  source_report: corpus/reports/wave-1/06-modern-west.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report's confidence label: probable ('attribution probable, numbering varies across editions') — kept at attested per S1 rules. MISATTRIBUTION-WATCHLIST RELEVANCE: the English form ('Kind words do not cost much. Yet they accomplish much.') circulates widely attributed to Blaise Pascal as well as to Joubert; the French wording held here may itself be a back-translation — treat with suspicion until located in a primary edition. copyright_flag unknown because the report establishes no PD edition for this specific wording (the work generally is 19th-c. PD)."

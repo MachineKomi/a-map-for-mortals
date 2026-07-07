@@ -1,0 +1,37 @@
+id: u-0142
+claim_id: null
+type: Practice
+paraphrase: "Life is frittered away by detail; deliberately simplify your affairs to a few essentials to recover time and freedom."
+quotation: "Our life is frittered away by detail. … Simplicity, simplicity, simplicity! I say, let your affairs be as two or three."
+quotation_translation: null   # English original
+source:
+  author: Henry David Thoreau
+  work: Walden
+  passage: "'Where I Lived, and What I Lived For'"
+  translator: null
+  edition_year: 1854
+  language: en
+  url: null
+  urn: null
+tradition: American Transcendentalism
+era: 1854
+register: principle
+claim_type: prudential
+polarity: prescriptive
+conditionality: conditional
+life_domains: [money, work, self, solitude]
+life_stages: [adult]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-1/06-modern-west.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report confidence: verified. PD. Quotation as held by the report is elided ('…' between the two sentences); confirm the ellipsis span at primary verification. Candidate convergence (report §F): simplicity/frugality ≈ Epicurus, Stoics, Daoist pu — robustness signal, not truth."

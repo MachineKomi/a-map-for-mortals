@@ -1,0 +1,37 @@
+id: u-0048
+claim_id: null
+type: Insight
+paraphrase: "On the Epicurean account, atoms swerve unpredictably from their downward paths at no fixed time or place, breaking strict causal necessity and thereby leaving room for free will."
+quotation: null   # Latin not held in the report
+quotation_translation: "When atoms move straight down... at quite uncertain times and uncertain places they swerve a little from their course... so the mind itself does not feel an internal necessity in all its actions."
+source:
+  author: Lucretius
+  work: "De Rerum Natura"
+  passage: "Book II.216-293"
+  translator: "H.A.J. Munro; cf. W.E. Leonard (1916, PD)"
+  edition_year: 1864
+  language: la
+  url: null
+  urn: null
+tradition: Roman (Epicurean)
+era: -55
+register: argument
+claim_type: metaphysical
+polarity: descriptive
+conditionality: contested
+life_domains: [self, death]
+life_stages: [adult, midlife]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain   # Munro 1864 and Leonard 1916 both marked PD by the report
+prov:
+  source_report: corpus/reports/wave-1/02-greco-roman.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: probable (downgraded to attested per S1 rules). Report note: the clinamen is criticised as ad hoc — introduced precisely to break the determinism Epicurean physics otherwise implies; Lucretius is our fullest source for Epicurus' physics, which mostly does not survive. Metaphysical claim (a physics-of-freedom thesis), never empirical. Quoted English is elliptical as held in the report."

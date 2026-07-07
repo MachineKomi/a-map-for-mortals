@@ -1,0 +1,50 @@
+id: u-0081
+claim_id: null
+type: Insight
+paraphrase: "God answers the sufferer not with reasons but with the vastness of creation, which the sufferer did not witness and cannot fathom."
+quotation: null   # original Hebrew not held in the report; capture at primary verification
+quotation_translation: "Where wast thou when I laid the foundations of the earth? declare, if thou hast understanding."
+source:
+  author: "anonymous"
+  work: "Job (Tanakh)"
+  passage: "38:4"
+  translator: "King James Version translators"
+  edition_year: 1611
+  language: he
+  url: null
+  urn: null
+tradition: Judaism
+era: -450   # report dates Job ~6th-4th c. BCE
+register: poem
+claim_type: metaphysical
+polarity: descriptive
+conditionality: contested
+life_domains: [adversity, grief, faith]
+life_stages: [adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-1/05-near-eastern-abrahamic.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: >-
+  Report unit HW-09; report label attribution_confidence 'verified', normalised to
+  'attested' pending a primary check against a KJV edition. Report register was dual
+  'poem/argument'; poem chosen (the divine speeches are poetry; their argumentative
+  force is noted here). Claim_type metaphysical (a claim about how the divine
+  answers suffering), kept non-empirical per claim-type discipline — concurs with
+  report. Speaker context: the voice from the whirlwind (God) addressing Job within
+  the book's dialogue frame; the report carries no endorsement label, so endorsement
+  stays n/a with this context recorded. Part of report FORK-2 (theodicy): the
+  non-answer answer contrasts with Ludlul's restoration and the Babylonian
+  Theodicy's unresolved protest; the report notes Job's theodicy frame parallels
+  Mesopotamian texts (partial independence only). Report life_stages 'adult, elder'
+  mapped to [adult, midlife, elder] under the schema's finer-grained enum. KJV 1611
+  wording; PD per report source inventory.

@@ -1,0 +1,37 @@
+id: u-0115
+claim_id: null
+type: Insight
+paraphrase: "Great thoughts come from the heart — from feeling, not detached reason."
+quotation: "Les grandes pensées viennent du cœur."
+quotation_translation: null   # report holds no English wording
+source:
+  author: Vauvenargues
+  work: "Réflexions et maximes"
+  passage: "maxim 127 (Furne 1857 ed. numbering)"
+  translator: null
+  edition_year: 1857
+  language: fr
+  url: "https://fr.wikiquote.org/wiki/Luc_de_Clapiers,_marquis_de_Vauvenargues"
+  urn: null
+tradition: french-moralist
+era: 1746
+register: aphorism
+claim_type: observational
+polarity: descriptive
+conditionality: contested
+life_domains: [self, ambition]
+life_stages: [youth, adult]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-1/06-modern-west.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label 'verified' -> attested per S1 rule. Work first published 1746 (rev. 1747); maxim numbering follows the Furne 1857 PD edition and is edition-dependent (report caveat: re-check numbering against any alternate edition before display; posthumous maxims restored by later editors). URL is the report's fr.Wikiquote link, not a primary source. Labels as re-derived match the report."

@@ -1,0 +1,37 @@
+id: u-0061
+claim_id: null
+type: Insight
+paraphrase: "Only becoming is real; 'being' is an empty fiction."
+quotation: null   # German not held in the report
+quotation_translation: "Heraclitus will remain eternally right with his assertion that being is an empty fiction."
+source:
+  author: Nietzsche
+  work: Twilight of the Idols
+  passage: "'\"Reason\" in Philosophy' §2"
+  translator: Anthony M. Ludovici
+  edition_year: 1911
+  language: de
+  url: null
+  urn: null
+tradition: german-philosophy
+era: 1889
+register: argument
+claim_type: metaphysical
+polarity: descriptive
+conditionality: universal-ish
+life_domains: [knowledge]
+life_stages: []
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-1/03-nietzsche.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report grade: verified. Ludovici 1911 (Gutenberg #52263) is PD per report; line-match at S2. Same section carries Nietzsche's reverence for Heraclitus: 'With high reverence I except the name of Heraclitus.' — approval evidence for the Heraclitus precursor units (u-0062, u-0063). Convergence candidate with H-flux (u-0062): corroboration = robustness, not truth."

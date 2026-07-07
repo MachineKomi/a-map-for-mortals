@@ -1,0 +1,37 @@
+id: u-0135
+claim_id: null
+type: Insight
+paraphrase: "Society compels conformity — agreeing with others costs a person much of their individuality — so only in solitude can one be fully oneself."
+quotation: null   # German original not held in the report
+quotation_translation: "It compels us, for the sake of agreeing with others, to shrivel up and even alter our shape … we must practise great self-denial and give up three-quarters of our own individuality."
+source:
+  author: Arthur Schopenhauer
+  work: "Aphorisms on the Wisdom of Life (Parerga und Paralipomena)"
+  passage: "'Counsels and Maxims', §2.9"
+  translator: T. Bailey Saunders
+  edition_year: 1890
+  language: de
+  url: "https://wist.info/schopenhauer-arthur/3464/"
+  urn: null
+tradition: German post-Kantian pessimism
+era: 1851
+register: argument
+claim_type: prudential
+polarity: cautionary
+conditionality: contested
+life_domains: [solitude, society, self]
+life_stages: [adult, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-1/06-modern-west.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report confidence: verified. Saunders (1890) PD wording; Payne (1974) and Cambridge (2015) translations in copyright; Saunders volume titles ('Counsels and Maxims') are his thematic rearrangement of Parerga — cite the Saunders volume, not a Parerga section number, for this wording. Report URL is WIST (tertiary quote aggregator); primary check needed. One pole of the report's Solitude-vs-Society and Authenticity-vs-Convention forks — report notes Smith and Schopenhauer both prize an inner judge but locate its training differently (strangers vs. solitude). Conditionality kept as contested per report."

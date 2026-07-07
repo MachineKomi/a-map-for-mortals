@@ -1,0 +1,51 @@
+id: u-0086
+claim_id: null
+type: Insight
+paraphrase: "Truth and justice (Ma'at) endure; within this tradition they are held never to be finally overthrown."
+quotation: null   # original Egyptian not held in the report; hieroglyphic/transliterated text at primary verification if warranted
+quotation_translation: "Great is Truth, appointing a straight path; never hath it been overthrown since the reign of Osiris."
+source:
+  author: "Ptahhotep (attributed)"
+  work: "The Maxims of Ptahhotep"
+  passage: "Maxim 5"
+  translator: "Battiscombe Gunn"
+  edition_year: 1906
+  language: egy
+  url: "https://sacred-texts.com/egy/woe/woe05.htm"
+  urn: null
+tradition: Ancient Egyptian
+era: -2200   # text dated ~2350-2000 BCE per report
+register: principle
+claim_type: metaphysical
+polarity: descriptive
+conditionality: contested
+life_domains: [justice, self]
+life_stages: [adult, midlife]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-1/05-near-eastern-abrahamic.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: >-
+  Report unit ANE-02; report label attribution_confidence 'verified (translation
+  dated; Lichtheim's modern rendering preferred for nuance)', normalised to
+  'attested' pending a primary check against Gunn 1906. Report claim_type was dual
+  'metaphysical/normative'; re-derived to metaphysical (a claim about the cosmic
+  endurance of Ma'at), kept non-empirical per claim-type discipline.
+  RE-DERIVATION DIFFERENCE: report polarity was 'prescriptive', but the quoted
+  evidence is a declarative statement about Truth's endurance, not an imperative —
+  polarity re-derived to descriptive; the implied counsel (align with Ma'at) is
+  noted here rather than smuggled into the labels. Conditionality contested per
+  report — the claim that justice is never finally overthrown is exactly what the
+  theodicy stream (FORK-2: Job, Babylonian Theodicy) contests. Translation caveat:
+  Gunn 1906 is PD but dated; prefer Lichtheim (in copyright) for nuance. Report
+  life_stages 'adult' mapped to [adult, midlife] under the schema's finer-grained
+  enum.

@@ -1,0 +1,37 @@
+id: u-0167
+claim_id: null
+type: Consequence
+paraphrase: "Tracking more than 24,000 people in a German panel, average life satisfaction returned toward baseline within about two years of marriage, leaving at most a small lasting boost — with large individual differences around that average."
+quotation: null
+quotation_translation: null
+source:
+  author: "Lucas, Clark, Georgellis & Diener"
+  work: "Journal of Personality and Social Psychology"   # journal only; paper title not given in the report
+  passage: null
+  translator: null
+  edition_year: 2003
+  language: en
+  url: "https://pubmed.ncbi.nlm.nih.gov/12635914/"
+  urn: null
+tradition: empirical
+era: 2003
+register: null   # empirical finding; no register in the form library fits
+claim_type: empirical
+polarity: descriptive
+conditionality: conditional
+life_domains: [relationships, family, happiness]
+life_stages: [young-adult, adult]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: unknown   # no verbatim quotation held; paraphrase only
+prov:
+  source_report: corpus/reports/wave-1/08-empirical.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report finding F8 (report confidence: grade-B/C; extract replication label: replicated). Evidence grade B/C — longitudinal panel, >24,000 people (German panel). Effect sizes as the report gives them: adaptation back toward baseline life satisfaction within ~2 years of marriage on average; at most a small lasting boost; large individual differences — no numeric effect size or CI stated. Replication status: largely upheld per the report's findings table; the adaptation reading is contested by Easterlin (table caveat). Bears two ways per the report's mapping: QUALIFIES 'marriage makes you lastingly happier' and SUPPORTS 'this too shall pass / adapt to change' (hedonic adaptation is real, with individual variation). German (WEIRD) sample. URL as given by the report. No verbatim quotation held; paraphrase only."

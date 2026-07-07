@@ -1,0 +1,49 @@
+id: u-0082
+claim_id: null
+type: Virtue
+paraphrase: "One enters and leaves life with nothing; loss as well as gain can be met with acceptance that blesses the giver in both."
+quotation: null   # original Hebrew not held in the report; capture at primary verification
+quotation_translation: "Naked came I out of my mother's womb, and naked shall I return thither: the LORD gave, and the LORD hath taken away; blessed be the name of the LORD."
+source:
+  author: "anonymous"
+  work: "Job (Tanakh)"
+  passage: "1:21"
+  translator: "King James Version translators"
+  edition_year: 1611
+  language: he
+  url: null
+  urn: null
+tradition: Judaism
+era: -450   # report dates Job ~6th-4th c. BCE
+register: aphorism
+claim_type: normative
+polarity: prescriptive
+conditionality: contested
+life_domains: [grief, death, money]
+life_stages: [young-adult, adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-1/05-near-eastern-abrahamic.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: >-
+  Report unit HW-10; report label attribution_confidence 'verified', normalised to
+  'attested' pending a primary check against a KJV edition. Report claim_type was
+  dual 'metaphysical/normative'; re-derived to normative (a commended posture of
+  acceptance and blessing amid loss; the giver-and-taker framing is metaphysical
+  warrant, kept non-empirical). Speaker context: Job in the prose prologue,
+  immediately after losing children and property; the report carries no endorsement
+  label, so endorsement stays n/a — noting that the frame narrative itself approves
+  the response (1:22). Conditionality contested per report: the acceptance posture
+  sits inside the corpus-wide submission-vs-striving fork (report FORK-6, grouped
+  with Qur'an 65:3 and Mt 6:34 against tie-your-camel/Avot effort counsel). Report
+  life_stages 'all' mapped to [young-adult, adult, midlife, elder] following the
+  extract's convention. KJV 1611 wording; PD per report source inventory.

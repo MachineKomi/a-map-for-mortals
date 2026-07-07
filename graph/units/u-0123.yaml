@@ -1,0 +1,37 @@
+id: u-0123
+claim_id: null
+type: Practice
+paraphrase: "Reading builds a well-stocked mind, conversation a quick one, and writing a precise one — use all three deliberately."
+quotation: "Reading maketh a full man; conference a ready man; and writing an exact man."
+quotation_translation: null   # original is English
+source:
+  author: Francis Bacon
+  work: "Essays (Essayes or Counsels, Civill and Morall)"
+  passage: "Of Studies"
+  translator: null
+  edition_year: 1625
+  language: en
+  url: null   # report's only link is a secondary journal PDF (cribfb.com), not an edition — omitted
+  urn: null
+tradition: English essayists
+era: 1625
+register: principle
+claim_type: prudential
+polarity: prescriptive
+conditionality: conditional
+life_domains: [work, self, knowledge]
+life_stages: [youth, adult]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-1/06-modern-west.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report's confidence label: verified (downgraded to attested per S1 rules pending primary check). 1625 edition PD; on Gutenberg. Companion unit: u-0121 (same essay, 'Of Studies')."

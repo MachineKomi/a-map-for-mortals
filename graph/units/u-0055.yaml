@@ -1,0 +1,37 @@
+id: u-0055
+claim_id: null
+type: Insight
+paraphrase: "Whoever cherishes the golden mean avoids both the squalor of poverty and the envied excess of a palace."
+quotation: "Auream quisquis mediocritatem diligit..."   # elliptical Latin exactly as held in the report
+quotation_translation: "Whoever cherishes the golden mean..."   # elliptical English gloss exactly as held in the report
+source:
+  author: Horace
+  work: "Odes (Carmina)"
+  passage: "Book 2, Poem 10, lines 5-8 (2.10.5)"
+  translator: "John Conington"
+  edition_year: 1882
+  language: la
+  url: null
+  urn: null
+tradition: Augustan poetry
+era: -23
+register: poem
+claim_type: prudential
+polarity: prescriptive
+conditionality: conditional
+life_domains: [money, desire, self, fame]
+life_stages: [adult, midlife]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain   # Latin original PD; Conington 1882 marked PD by the report
+prov:
+  source_report: corpus/reports/wave-1/02-greco-roman.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: verified (downgraded to attested per S1 rules; S2 to climb). Report note: 'aurea mediocritas' is Horace's coinage; concept converges with Aristotle's mean (log convergence as robustness only, not truth). TRANSLATION CAVEAT: the parenthetical English may be a literal gloss rather than Conington's 1882 verse rendering — the sibling unit u-0004 (carpe diem, same report) needed exactly this correction at verification; confirm whose wording at S2."

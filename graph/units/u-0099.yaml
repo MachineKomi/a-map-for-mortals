@@ -1,0 +1,37 @@
+id: u-0099
+claim_id: null
+type: Virtue
+paraphrase: "Humankind is of one essence, like limbs of a single body; whoever feels no sympathy for others' pain does not deserve to be called human."
+quotation: null   # Persian not held by the report
+quotation_translation: "The sons of Adam are limbs of each other, Having been created of one essence. When the calamity of time afflicts one limb, The other limbs cannot remain at rest. If thou hast no sympathy for the troubles of others, Thou art unworthy to be called by the name of a man."
+source:
+  author: Saadi
+  work: Gulistan
+  passage: "ch. 1, story 10 (Bani Adam)"
+  translator: Edward Rehatsek
+  edition_year: 1888
+  language: fa
+  url: "https://www.getyourfaceinabook.com/book/9781636209104"
+  urn: null
+tradition: Islamic
+era: 1258
+register: poem
+claim_type: normative
+polarity: prescriptive
+conditionality: universal-ish
+life_domains: [justice, love, friendship]
+life_stages: [young-adult, adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-1/05-near-eastern-abrahamic.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: verified. Rehatsek 1888, PD (Eastwick 1852 also PD per inventory). TEXT-CRITICAL FORK (report): yek peykar ('one body') vs yekdigar ('each other') readings; Foroughi's standard edition reads yekdigar — flag before any 'one body' framing goes to print. URL is the report's citation link (a bookstore page), not an edition — replace at primary check. Report CONV-3: golden-rule / one-body cluster with Hillel (Avot 1:14) and Mt 5:44 (u-0093), ~13 centuries and little direct contact apart — rated among the most genuinely independent convergences in the report."

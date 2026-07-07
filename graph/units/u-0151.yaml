@@ -1,0 +1,37 @@
+id: u-0151
+claim_id: null
+type: Insight
+paraphrase: "Cleverness is not the same as wisdom; true wisdom accepts human limits and reveres what is greater than human striving."
+quotation: null   # Greek not held in full; the report records only the tag "to sophon d' ou sophia" (see notes)
+quotation_translation: "What else is Wisdom? What of man's endeavour / Or God's high grace, so lovely and so great? / To stand from fear set free, to breathe and wait..."
+source:
+  author: Euripides
+  work: The Bacchae
+  passage: "second stasimon (choral refrain on 'to sophon')"
+  translator: Gilbert Murray
+  edition_year: 1906   # report gives "Gilbert Murray, 1902/06"
+  language: grc
+  url: "https://www.gutenberg.org/files/35173/35173-h/35173-h.htm"
+  urn: null
+tradition: Attic tragedy
+era: -405
+register: principle
+claim_type: normative
+polarity: cautionary
+conditionality: contested
+life_domains: [self, adversity, ambition]
+life_stages: [adult, youth]
+endorsement: complicated
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-1/07-literary.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report grade: probable (held at attested per S1 rules; original label recorded). Speaker: the Chorus of Asian Bacchant women, as Pentheus, King of Thebes, resists the god Dionysus and moves toward his destruction. ENDORSEMENT=COMPLICATED — the Bacchae fiercely complicates its own lesson: Dionysus's 'wisdom' is also terrifying and cruel, and the play stages Pentheus torn apart by his own mother Agave. Greek tag: 'to sophon d' ou sophia'. TRANSLATION CAVEATS: Murray's English (PD) is interpretive — he admitted interpolating a line; the familiar literal rendering 'cleverness is not wisdom' comes from modern in-copyright translations (e.g. Arrowsmith 1959; Woodruff, Carson also flagged in-copyright by the report) and is NOT stored as the quotation. Trailing ellipsis is the report's. Report fork: pride_vs_humility; candidate convergence with Socratic ignorance (candidate, not proof)."

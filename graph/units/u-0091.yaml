@@ -1,0 +1,37 @@
+id: u-0091
+claim_id: null
+type: Insight
+paraphrase: "Observation of society contradicts the doctrine that piety brings prosperity and wickedness brings ruin."
+quotation: null   # Akkadian not held by the report
+quotation_translation: "I have looked around society, but the evidence is contrary. The god does not impede the way of a devil."
+source:
+  author: "Saggil-kinam-ubbib"
+  work: Babylonian Theodicy
+  passage: null
+  translator: W. G. Lambert
+  edition_year: 1960
+  language: akk
+  url: "https://www.brhat.in/dhiti/worldcivilizationsmesopotamia4"
+  urn: null
+tradition: Mesopotamian
+era: -1000
+register: argument
+claim_type: observational
+polarity: descriptive
+conditionality: contested
+life_domains: [justice, faith, adversity]
+life_stages: [adult]
+endorsement: ambiguous
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-1/05-near-eastern-abrahamic.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: verified (Lambert in copyright; cited). Authorship: acrostic names Saggil-kinam-ubbib (per report). Endorsement ambiguous (no report label): dialogue poem between sufferer and friend; the quoted protest is the sufferer's voice and the poem leaves it unresolved — 'protest with no answer' (report), against Ludlul's restoration ending (u-0090; report T-2). Also in open tension with Proverbs' retribution theology (report T-1 analogue, FORK-2 pole B). URL is the report's citation link, not a primary edition. Era approximate (~1000 BCE)."

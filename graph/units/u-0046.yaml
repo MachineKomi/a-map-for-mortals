@@ -1,0 +1,37 @@
+id: u-0046
+claim_id: null
+type: Insight
+paraphrase: "The Epicurean four-part cure: do not fear the gods, do not worry about death, what is good is easy to obtain, and what is terrible is easy to endure."
+quotation: null   # Greek of PHerc 1005 not held in the report
+quotation_translation: "Don't fear god, don't worry about death; what is good is easy to get, and what is terrible is easy to endure."
+source:
+  author: "Epicurus (formulated by Philodemus)"
+  work: "Tetrapharmakos (summary of Principal Doctrines 1-4); Herculaneum Papyrus 1005"
+  passage: "PHerc 1005, col. 5.9-14"
+  translator: "after D.S. Hutchinson"
+  edition_year: null
+  language: grc
+  url: null
+  urn: null
+tradition: Hellenistic (Epicurean)
+era: -75   # Philodemus' 1st-c. BCE compression of c. 300 BCE doctrines (report's era)
+register: principle
+claim_type: prudential
+polarity: prescriptive
+conditionality: contested
+life_domains: [anxiety, death, desire, adversity]
+life_stages: [young-adult, adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: unknown   # translation 'after D.S. Hutchinson' is modern; report does not establish PD status
+prov:
+  source_report: corpus/reports/wave-1/02-greco-roman.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: probable (downgraded to attested per S1 rules). Report note: the four-line mnemonic is Philodemus' compression, not Epicurus' own wording; the underlying Principal Doctrines 1-4 are genuine. Report Stage-2 flag: ingest with a visible 'compression' marker. Prudential label kept though the first two limbs rest on contested metaphysical premises (nature of gods, mortality of soul) — hence conditionality: contested. Translation credit 'after D.S. Hutchinson' is likely in-copyright; do not print verbatim without a rights check."

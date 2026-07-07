@@ -1,0 +1,37 @@
+id: u-0051
+claim_id: null
+type: Insight
+paraphrase: "The philosopher's whole life is a preparation for death; old age need not be feared if life has been well used."
+quotation: "tota...philosophorum vita commentatio mortis est"   # elliptical Latin exactly as held in the report's reference field
+quotation_translation: "The whole life of the philosopher is a preparation for death."
+source:
+  author: "Cicero (transmitting Plato)"
+  work: "Tusculan Disputations"
+  passage: "Book I.30.74"
+  translator: "C.D. Yonge / Peabody"
+  edition_year: null
+  language: la
+  url: null
+  urn: null
+tradition: Roman (eclectic/Academic-Stoic)
+era: -45
+register: principle
+claim_type: prudential
+polarity: prescriptive
+conditionality: conditional
+life_domains: [death, aging]
+life_stages: [midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain   # Yonge/Peabody marked PD by the report
+prov:
+  source_report: corpus/reports/wave-1/02-greco-roman.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: probable (downgraded to attested per S1 rules). Report's bracketed gloss on the quote: Cicero rendering of Plato, Phaedo 64a; report note: Cicero is here transmitting Plato (Phaedo 64a-67e) — credit both. Report Stage-5 flag: the exact Latin of Tusc. I.30.74 is currently sourced secondhand and needs a targeted primary-text check. Report Stage-2 flag: ingest with a visible transmission marker."

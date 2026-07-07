@@ -1,0 +1,50 @@
+id: u-0083
+claim_id: null
+type: Practice
+paraphrase: "Self-regard and regard for others must be held together, and acted on now rather than deferred."
+quotation: null   # original Hebrew not held in the report; capture at primary verification
+quotation_translation: "If I am not for myself, who will be for me? But if I am for myself alone, what am I? And if not now, when?"
+source:
+  author: "Hillel"
+  work: "Pirkei Avot (Mishnah)"
+  passage: "1:14"
+  translator: "Charles Taylor (Sayings of the Jewish Fathers)"
+  edition_year: 1897
+  language: he
+  url: "https://aish.com/48893292/"
+  urn: null
+tradition: Judaism
+era: 200   # Mishnah redaction per report; Hillel was active c. late 1st c. BCE - early 1st c. CE
+register: aphorism
+claim_type: normative
+polarity: prescriptive
+conditionality: universal-ish
+life_domains: [self, friendship, justice]
+life_stages: [young-adult, adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: unknown
+prov:
+  source_report: corpus/reports/wave-1/05-near-eastern-abrahamic.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: >-
+  Report unit HW-11; report label attribution_confidence 'verified', normalised to
+  'attested' pending a primary check. Claim_type normative (duty-framed questions
+  about obligation to self and others) — concurs with report. WORDING CAUTION: the
+  report credits Taylor 1897 but its citation link is a secondary web page
+  (aish.com), and the sibling S2 check on u-0010 (HW-12, same report, same claimed
+  translator) found the report's 'Taylor' wording was NOT in fact Taylor's — this
+  unit's wording carries the same risk and must be checked against Taylor's text
+  (archive.org sayingsofjewish00tayl) at S2. Copyright_flag therefore 'unknown'
+  rather than public-domain until the wording's edition is established (Taylor 1897
+  itself is PD). Part of report convergence CONV-3 (golden-rule / one-body cluster
+  with Sermon on the Mount and Saadi's Bani Adam — among the most genuinely
+  independent convergences in the report). Report life_stages 'all' mapped to
+  [young-adult, adult, midlife, elder] following the extract's convention.

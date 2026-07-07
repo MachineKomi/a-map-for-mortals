@@ -1,0 +1,37 @@
+id: u-0056
+claim_id: null
+type: Insight
+paraphrase: "Pray for a sound mind in a sound body — the sensible thing to want, as against foolish prayers for wealth and power."
+quotation: "orandum est ut sit mens sana in corpore sano"
+quotation_translation: "one should pray for a sound mind in a sound body"
+source:
+  author: Juvenal
+  work: Satires
+  passage: "Satire 10, line 356 (10.356)"
+  translator: "G.G. Ramsay (Loeb)"
+  edition_year: 1918
+  language: la
+  url: null
+  urn: null
+tradition: Roman satire
+era: 113   # report gives c. 100-127 CE; midpoint used
+register: aphorism
+claim_type: prudential
+polarity: prescriptive
+conditionality: conditional
+life_domains: [self, anxiety, aging, death]
+life_stages: [adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain   # Latin original PD; Ramsay 1918 marked PD by the report
+prov:
+  source_report: corpus/reports/wave-1/02-greco-roman.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: verified (downgraded to attested per S1 rules; S2 to climb). Report note: originally satirical — the modest thing to pray for versus foolish prayers for wealth/power; the popular fitness-slogan reading strips this context. A minority of critics (Reeve 1970) suspect line 10.356 of interpolation, but it is universally printed. One of the report's Stage-1 high-confidence core units."

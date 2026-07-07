@@ -1,0 +1,37 @@
+id: u-0133
+claim_id: null
+type: Virtue
+paraphrase: "Act so that you always treat humanity at the same time as an end, never merely as a means."
+quotation: "Handle so, dass du die Menschheit … jederzeit zugleich als Zweck, niemals bloß als Mittel brauchest."
+quotation_translation: null   # report holds German only; Abbott (1873) PD English exists but its wording is not held
+source:
+  author: Immanuel Kant
+  work: Groundwork of the Metaphysics of Morals
+  passage: "Section II"
+  translator: null
+  edition_year: 1785
+  language: de
+  url: null
+  urn: null
+tradition: German Enlightenment
+era: 1785
+register: principle
+claim_type: normative
+polarity: prescriptive
+conditionality: universal-ish
+life_domains: [society, self, work]
+life_stages: [adult]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-1/06-modern-west.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report's confidence label: verified (downgraded to attested per S1 rules pending primary check). The Formula of Humanity (second formulation of the categorical imperative). The held German wording contains an ellipsis ('…') as given by the report — the elided material (the 'in your own person as in that of every other' clause, per standard scholarship) must be restored from a primary edition at verification, not from memory. Cite by Prussian Academy pagination once verified (report gives 'Section II' only). Abbott (1873) PD English; Gregor/Wood in copyright. Note Kant's 'bloß' (merely): using people as means is not forbidden — only merely as means; do not smooth this in downstream renderings."

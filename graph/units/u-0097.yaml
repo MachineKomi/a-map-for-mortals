@@ -1,0 +1,37 @@
+id: u-0097
+claim_id: null
+type: Insight
+paraphrase: "Knowledge without love of God is worthless; felt contrition is better than skill at defining it."
+quotation: null   # Latin not held by the report
+quotation_translation: "I had rather feel contrition than know how to define it... Vanity of vanities; all is vanity, except to love God, and to serve Him only."
+source:
+  author: "Thomas à Kempis"
+  work: The Imitation of Christ
+  passage: "I.1"
+  translator: null   # CCEL public text; translator not named by the report
+  edition_year: null
+  language: la
+  url: "https://www.ccel.org/ccel/kempis/imitation.all.html"
+  urn: null
+tradition: Christian
+era: 1420
+register: principle
+claim_type: normative
+polarity: prescriptive
+conditionality: universal-ish
+life_domains: [self, faith, meaning]
+life_stages: [young-adult, adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-1/05-near-eastern-abrahamic.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: verified (CCEL public text, PD). The report's quote joins two nearby sentences of I.1 with an ellipsis — confirm contiguity at primary check. Conditionality universal-ish qualified 'within tradition' by the report. Report places à Kempis on the renunciation pole of FORK-3: the same impermanence datum ('vanity of vanities') that yields seize-ordinary-joy in Qoheleth/Siduri here yields contempt of the world (report T-3); also grace pole of FORK-5. Era approximate (~1420s)."

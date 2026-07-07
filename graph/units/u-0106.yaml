@@ -1,0 +1,37 @@
+id: u-0106
+claim_id: null
+type: Virtue
+paraphrase: "The greatest accomplishment is self-possession — knowing how to belong to oneself."
+quotation: "La plus grande chose du monde, c'est de savoir être à soi."
+quotation_translation: null   # report holds no English wording
+source:
+  author: Montaigne
+  work: Essais
+  passage: "I.39 \"De la solitude\""
+  translator: null
+  edition_year: null
+  language: fr
+  url: null
+  urn: null
+tradition: french-moralist
+era: 1580
+register: principle
+claim_type: normative
+polarity: prescriptive
+conditionality: conditional
+life_domains: [solitude, self, society]
+life_stages: [adult, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-1/06-modern-west.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label 'verified' -> attested per S1 rule. French original PD; Cotton (1685) PD English available; Frame and Screech translations in copyright — do not use their wording. Labels as re-derived match the report."

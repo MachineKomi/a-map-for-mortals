@@ -1,0 +1,37 @@
+id: u-0121
+claim_id: null
+type: Practice
+paraphrase: "Use study for three ends — private enjoyment, discourse, and practical judgment — and apply it in life rather than parade it."
+quotation: "Studies serve for delight, for ornament, and for ability."
+quotation_translation: null   # original is English
+source:
+  author: Francis Bacon
+  work: "Essays (Essayes or Counsels, Civill and Morall)"
+  passage: "Of Studies"
+  translator: null
+  edition_year: 1625
+  language: en
+  url: "http://www.esp.org/books/bacon/essays/html/index.p.51.html"
+  urn: null
+tradition: English essayists
+era: 1625
+register: principle
+claim_type: prudential
+polarity: prescriptive
+conditionality: conditional
+life_domains: [work, self, knowledge]
+life_stages: [youth, adult]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-1/06-modern-west.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report's confidence label: verified (downgraded to attested per S1 rules pending primary check). 1625 edition PD; on Gutenberg. Opening sentence of 'Of Studies'; the 'must be applied, not paraded' half of the canonical claim comes from the essay's continuation, not the quoted sentence. Companion unit: u-0123 (same essay)."

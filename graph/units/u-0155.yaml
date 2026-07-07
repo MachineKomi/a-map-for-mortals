@@ -1,0 +1,37 @@
+id: u-0155
+claim_id: null
+type: Insight
+paraphrase: "Each person is responsible before everyone for everything; recognising this shared guilt is the ground of active love."
+quotation: null   # Russian not held by the report
+quotation_translation: "each of us is guilty in everything before everyone, and I most of all."
+source:
+  author: Fyodor Dostoevsky
+  work: The Brothers Karamazov
+  passage: "Book VI (Elder Zosima, repeating his dying brother Markel)"
+  translator: Constance Garnett
+  edition_year: 1912
+  language: ru
+  url: null
+  urn: null
+tradition: Russian novel
+era: 1880
+register: principle
+claim_type: normative
+polarity: prescriptive
+conditionality: contested
+life_domains: [self, family, adversity, friendship]
+life_stages: [adult]
+endorsement: endorsed
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: unknown
+prov:
+  source_report: corpus/reports/wave-1/07-literary.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report grade: verified (held at attested pending primary check). Speaker: Elder Zosima, repeating his dying brother Markel, in his deathbed teaching — the novel's spiritual counterweight to Ivan's rebellion and the Grand Inquisitor. ENDORSEMENT=ENDORSED, but not easily: Dostoevsky deliberately sets it against Ivan's counter-argument (the suffering of children), and the murderer Smerdyakov twists 'all are guilty' into evasion of responsibility — the novel endorses Zosima while refusing to make the case easy. COPYRIGHT CAUTION (re-derivation differs from report): the report cites Garnett (1912, PD) but the quoted wording ('guilty in everything before everyone') reads as Pevear & Volokhonsky phrasing (©1990, in_copyright per the report's own flag) — the sibling active-love unit in the same report admits its wording 'follows P&V phrasing'. copyright_flag set to unknown rather than public-domain; verify against the Garnett PD text at S2 and treat as in-copyright for print until confirmed. Report fork: revenge_vs_forgiveness; candidate convergence with Christian agape / Buddhist interdependence (candidate, not proof — framed as faith answering Ivan's atheism)."

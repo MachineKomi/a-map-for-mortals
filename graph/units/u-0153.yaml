@@ -1,0 +1,37 @@
+id: u-0153
+claim_id: null
+type: Insight
+paraphrase: "Flourishing requires many conditions to go right at once; failure can come from any single one missing."
+quotation: null   # Russian not held by the report
+quotation_translation: "All happy families resemble one another, each unhappy family is unhappy in its own way."
+source:
+  author: Leo Tolstoy
+  work: Anna Karenina
+  passage: "Part 1, Ch. 1 (opening)"
+  translator: Louise & Aylmer Maude
+  edition_year: 1918
+  language: ru
+  url: null
+  urn: null
+tradition: Russian novel
+era: 1877
+register: aphorism
+claim_type: observational
+polarity: descriptive
+conditionality: contested
+life_domains: [family, love, marriage]
+life_stages: [adult]
+endorsement: complicated
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-1/07-literary.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report grade: verified (held at attested pending primary check). Speaker: the Narrator, as the novel's opening sentence, framing the Oblonsky household's collapse and the book's study of marriage and fidelity. ENDORSEMENT=COMPLICATED — the novel itself contains no ideally happy family, and Levin's 'happy' marriage still quarrels: the maxim is a thesis the book tests and partly subverts. Cf. the 'Anna Karenina principle' in statistics/ecology. Maude translation (1918) is PD — the Maudes knew Tolstoy and had his approval; Pevear & Volokhonsky (2000) and Bartlett (2014) flagged in_copyright_translation by the report and not used here. Report life_stages included 'parenthood' (a domain, not a stage) — mapped into life_domains as family. Report fork: passion_vs_duty."

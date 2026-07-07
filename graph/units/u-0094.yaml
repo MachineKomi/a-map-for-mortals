@@ -1,0 +1,37 @@
+id: u-0094
+claim_id: null
+type: Danger
+paraphrase: "Do not judge others: the standard you apply will be applied back to you."
+quotation: null   # Greek not held by the report
+quotation_translation: "Judge not, that ye be not judged. For with what judgment ye judge, ye shall be judged: and with what measure ye mete, it shall be measured to you again."
+source:
+  author: "Jesus of Nazareth (as recorded in the Gospel of Matthew)"
+  work: "Gospel of Matthew (Sermon on the Mount)"
+  passage: "7:1-2"
+  translator: King James Version
+  edition_year: 1611
+  language: grc
+  url: null
+  urn: null
+tradition: Christian
+era: 80
+register: aphorism
+claim_type: normative
+polarity: cautionary
+conditionality: conditional
+life_domains: [speech, justice, friendship]
+life_stages: [young-adult, adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-1/05-near-eastern-abrahamic.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: verified. KJV 1611, PD. Measure-for-measure logic; the report places this on the strict-justice pole of FORK-1 (justice vs mercy), alongside Proverbs 22:22-23, against the Beatitudes' mercy pole (u-0092). Guarded danger per report section (f): hypocritical judging. Religious claim: normative, not empirical. Era approximate (Matthew ~70-90 CE)."

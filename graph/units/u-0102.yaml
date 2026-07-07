@@ -1,0 +1,37 @@
+id: u-0102
+claim_id: null
+type: Insight
+paraphrase: "The seekers and the sought are one: the thirty birds who survive the quest find that the Simorgh they sought is themselves — the divine is found within."
+quotation: null   # Persian not held by the report
+quotation_translation: null   # report describes the parable's resolution only; no verbatim wording held
+source:
+  author: Attar
+  work: The Conference of the Birds
+  passage: "the si-morgh revelation (conclusion)"
+  translator: "Dick Davis & Afkham Darbandi"
+  edition_year: null
+  language: fa
+  url: null
+  urn: null
+tradition: Sufi
+era: 1180
+register: parable
+claim_type: metaphysical
+polarity: descriptive
+conditionality: contested
+life_domains: [self, faith, meaning]
+life_stages: [adult]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; no verbatim wording held — parable summary only, not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: unknown
+prov:
+  source_report: corpus/reports/wave-1/05-near-eastern-abrahamic.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: verified (Davis in copyright; cited). No verbatim quotation held: the report records only the parable's resolution — the thirty birds (si = thirty, morgh = birds; the pun is the point) behold the Simorgh and discover it is themselves. Davis & Darbandi is the lead citation and in copyright; PD lead per inventory is the FitzGerald précis. copyright_flag unknown since no wording is held. Report's register 'parable/metaphor' narrowed to parable. Metaphysical claim, never empirical. Sufi unit — Rumi/Hafiz pseudo-quote watchlist: Attar is not named on the watchlist, but the same quarantine applies — no popular renderings admitted without matching a scholarly edition. Era approximate (~1177-1187)."

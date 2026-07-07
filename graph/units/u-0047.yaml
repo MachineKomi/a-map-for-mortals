@@ -1,0 +1,37 @@
+id: u-0047
+claim_id: null
+type: Insight
+paraphrase: "Sort desires into natural-and-necessary, merely natural, and empty ones; a happy life requires satisfying only the few that are natural and necessary."
+quotation: null   # Greek not held in the report
+quotation_translation: "We must reckon that of desires some are natural, others vain... and of the natural some are necessary, others merely natural."
+source:
+  author: Epicurus
+  work: "Letter to Menoeceus"
+  passage: "§127-128; cf. Principal Doctrines 29"
+  translator: "Robert Drew Hicks"
+  edition_year: 1925
+  language: grc
+  url: null
+  urn: null
+tradition: Hellenistic (Epicurean)
+era: -300
+register: argument
+claim_type: prudential
+polarity: prescriptive
+conditionality: conditional
+life_domains: [desire, money, anxiety]
+life_stages: [young-adult, adult, midlife]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain   # Hicks 1925 marked PD by the report
+prov:
+  source_report: corpus/reports/wave-1/02-greco-roman.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: verified (downgraded to attested per S1 rules; S2 to climb). Letter to Menoeceus transmitted via Diogenes Laertius, Lives X. The quoted English is elliptical as held in the report ('...'). Not on the misattribution watchlist."

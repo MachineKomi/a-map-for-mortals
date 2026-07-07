@@ -1,0 +1,37 @@
+id: u-0176
+claim_id: null
+type: Consequence
+paraphrase: "Physical activity reduces depression with a moderate pooled effect, comparable to psychotherapy or medication in umbrella reviews, but the effect shrinks substantially or loses significance in low-risk-of-bias trials."
+quotation: null            # empirical finding — no verbatim quotation held (S1 rule 8)
+quotation_translation: null
+source:
+  author: "Singh et al."
+  work: "British Journal of Sports Medicine"
+  passage: null
+  translator: null
+  edition_year: 2023
+  language: en
+  url: null
+  urn: null
+tradition: empirical
+era: 2023
+register: null             # empirical finding; no rhetorical register
+claim_type: empirical
+polarity: descriptive
+conditionality: conditional
+life_domains: [health]
+life_stages: [young-adult, adult, midlife]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: unknown
+prov:
+  source_report: corpus/reports/wave-1/08-empirical.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "No verbatim quotation held. Evidence grade: A (that an effect exists) / B–C (its size), per report. Replication status: replicated (many meta-analyses). Effect sizes as reported: SMD ≈ −0.61 (95% CI −0.69 to −0.54) for depression and −0.47 for anxiety (2025 meta-meta-analysis: 81 meta-analyses, 1,079 studies, 79,551 participants); umbrella review of 97 systematic reviews, 1,039 trials, 128,119 participants found effects 'comparable to or slightly greater than' psychotherapy and pharmacotherapy. Key caveat kept: restricted to low-risk-of-bias RCTs (Cooney 2013 Cochrane; Krogh 2017) the effect shrinks substantially or becomes non-significant; reverse causation and self-report inflate observational estimates. Bears on 'Exercise for mental health' / 'A sound mind in a sound body' — SUPPORTS. Mixed samples."

@@ -1,0 +1,37 @@
+id: u-0096
+claim_id: null
+type: Insight
+paraphrase: "The human heart is made for God and remains restless until it rests in God."
+quotation: "fecisti nos ad te et inquietum est cor nostrum donec requiescat in te"
+quotation_translation: "Thou hast made us for Thyself, and our heart is restless, until it repose in Thee."
+source:
+  author: Augustine of Hippo
+  work: Confessions
+  passage: "1.1.1"
+  translator: E. B. Pusey
+  edition_year: 1838
+  language: la
+  url: "https://www.ccel.org/ccel/schaff/npnf101.vi.I_1.I.html"
+  urn: null
+tradition: Christian
+era: 400
+register: principle
+claim_type: metaphysical
+polarity: descriptive
+conditionality: contested
+life_domains: [self, faith, anxiety, meaning]
+life_stages: [young-adult, adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-1/05-near-eastern-abrahamic.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: verified. Pusey 1838, PD; Latin held from the report (report's Latin citation link was a WordPress blog — the CCEL link the report gives for Pusey is recorded instead). WATCHLIST (report): genuine, but the smooth modern 'our hearts are restless until they rest in You' is translation drift — the PD Pusey reads as quoted here. Metaphysical claim, never empirical. Report CONV-5: shares a Neoplatonic (Plotinus) lineage with al-Ghazali's interior turn (u-0100) — cross-pollination, NOT independent convergence. Love pole of FORK-4. Era approximate (~397-400 CE)."

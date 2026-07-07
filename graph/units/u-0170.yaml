@@ -1,0 +1,37 @@
+id: u-0170
+claim_id: null
+type: Consequence
+paraphrase: "In a large conceptual replication of the marshmallow test (N ≈ 900), each extra minute waited at age 4 predicted only about 0.1 SD higher achievement at age 15 among children of non-college-educated mothers — about half the original correlation, and reduced by roughly two-thirds once family background, early cognitive ability, and home environment were controlled."
+quotation: null
+quotation_translation: null
+source:
+  author: "Watts, Duncan & Quan"
+  work: "Psychological Science"   # journal only; paper title not given in the report
+  passage: null
+  translator: null
+  edition_year: 2018
+  language: en
+  url: "https://journals.sagepub.com/doi/abs/10.1177/0956797618761661"
+  urn: null
+tradition: empirical
+era: 2018
+register: null   # empirical finding; no register in the form library fits
+claim_type: empirical
+polarity: descriptive
+conditionality: contested
+life_domains: [self, child-rearing]
+life_stages: [child, youth]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: unknown   # no verbatim quotation held; paraphrase only
+prov:
+  source_report: corpus/reports/wave-1/08-empirical.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report finding F13 (report confidence: grade-B for the attenuation finding; extract replication label: contested). Evidence grade B — large conceptual replication, far larger and more diverse than Mischel's original. Effect sizes as the report gives them: among children of mothers without college degrees, each additional minute waited at age 4 predicted only ~0.1 SD gain in age-15 achievement — about half the original bivariate correlation, and reduced by roughly two-thirds once family background, early cognitive ability, and home environment were controlled; most predictive value came from waiting at least ~20 seconds. Caveats/contestation: Sperber et al. (2024) found delay of gratification did not reliably predict adult functioning (report link https://pubmed.ncbi.nlm.nih.gov/31850833/); defenders note censoring may bias correlations toward zero — hence conditionality: contested. Report relation: QUALIFIES/CONTRADICTS 'delay gratification and you'll succeed'; contrast the Dunedin self-control gradient (F9/u-0168), which survives sibling controls. US sample. Re-derivation: extract typed this Insight; minted as Consequence per S1 rule 8. No verbatim quotation held; paraphrase only."

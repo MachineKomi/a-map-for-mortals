@@ -1,0 +1,37 @@
+id: u-0169
+claim_id: null
+type: Danger
+paraphrase: "Ego depletion — willpower as a depletable daily resource — FAILED a preregistered 23-lab replication (N = 2,141) that found essentially no effect, and the original meta-analytic support appears inflated by publication bias; the effect as classically operationalized is likely not real."
+quotation: null
+quotation_translation: null
+source:
+  author: "Hagger & Chatzisarantis"
+  work: null   # preregistered multi-lab registered replication report; paper title and journal not given in the report
+  passage: null
+  translator: null
+  edition_year: 2016
+  language: en
+  url: "https://econtent.hogrefe.com/doi/10.1027/1864-9335/a000398"
+  urn: null
+tradition: empirical
+era: 2016
+register: null   # empirical finding; no register in the form library fits
+claim_type: empirical
+polarity: descriptive
+conditionality: conditional
+life_domains: [self, work]
+life_stages: [young-adult, adult]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: unknown   # no verbatim quotation held; paraphrase only
+prov:
+  source_report: corpus/reports/wave-1/08-empirical.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report finding F10. FAILED REPLICATION — foregrounded by the report itself; minted as a Danger-type cautionary exhibit per P4 instruction (report confidence: grade-E; extract replication label: failed). Evidence grade E — likely not a real effect as classically operationalized. Replication status: preregistered multi-lab replication (Hagger & Chatzisarantis, 2016; 23 labs, N = 2,141) found essentially no effect, despite 22 of 23 labs predicting success; Carter & McCullough (2015) found the original meta-analysis inflated by small-study/publication bias, with a probable true effect near zero. Effect sizes as the report gives them: early meta-analytic d ≈ 0.6 (Hagger et al., 2010 — inflated); multi-lab replication ~0. CONTRADICTS 'willpower is a finite daily resource' (Baumeister et al., 1998 model). Western lab samples. Report links: the Hogrefe URL above and https://statmodeling.stat.columbia.edu/wp-content/uploads/2017/11/Hagger_0-407863.pdf (Carter & McCullough 2015). Re-derivation: extract typed this Insight; minted as Danger (cautionary exhibit). No verbatim quotation held; paraphrase only."

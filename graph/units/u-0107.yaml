@@ -1,0 +1,37 @@
+id: u-0107
+claim_id: null
+type: Insight
+paraphrase: "What pass for virtues are, most often, disguised vices serving self-interest."
+quotation: "Nos vertus ne sont, le plus souvent, que des vices déguisés."
+quotation_translation: null   # report holds no English wording
+source:
+  author: La Rochefoucauld
+  work: "Maximes (Réflexions ou sentences et maximes morales)"
+  passage: "epigraph (added 4th ed. 1675; standard in the 1678 5th ed.)"
+  translator: null
+  edition_year: 1678
+  language: fr
+  url: null
+  urn: null
+tradition: french-moralist
+era: 1675
+register: aphorism
+claim_type: observational
+polarity: cautionary
+conditionality: contested
+life_domains: [self, society, ambition]
+life_stages: [adult]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-1/06-modern-west.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label 'verified' -> attested per S1 rule. Epigraph added only in the 4th ed. (1675), hence era 1675; cite 1678 (5th/definitive) edition as standard per report. Maxim numbering varies by edition (1-504 standard run). Bund & Friswell (1871) PD English; Hachette/Gilbert (1868) PD French. Labels as re-derived match the report."

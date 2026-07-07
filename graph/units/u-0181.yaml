@@ -1,0 +1,37 @@
+id: u-0181
+claim_id: null
+type: Consequence
+paraphrase: "Emotional experience tends to improve with age — the ratio of positive to negative emotion rises, with greater stability and complexity — and more positive everyday emotion predicts lower mortality."
+quotation: null            # empirical finding — no verbatim quotation held (S1 rule 8)
+quotation_translation: null
+source:
+  author: "Carstensen et al."
+  work: "Psychology and Aging"
+  passage: null
+  translator: null
+  edition_year: 2011
+  language: en
+  url: null
+  urn: null
+tradition: empirical
+era: 2011
+register: null             # empirical finding; no rhetorical register
+claim_type: empirical
+polarity: descriptive
+conditionality: conditional
+life_domains: [ageing, emotions]
+life_stages: [midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: unknown
+prov:
+  source_report: corpus/reports/wave-1/08-empirical.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "No verbatim quotation held. Evidence grade: B/C (longitudinal experience-sampling). Replication status: unassessed (single 10-year study). Effect sizes as reported: rising positive:negative emotion ratio with age; N ≈ 184, sampled 5×/day for a week in three waves over 10 years; more positive everyday emotion predicted lower mortality over ~13 years; robust to personality and health controls. Caveat kept: cohort vs age effects are hard to separate. Bears on 'Old age can be emotionally good' — SUPPORTS. US sample."

@@ -1,0 +1,37 @@
+id: u-0059
+claim_id: null
+type: Insight
+paraphrase: "One who has a why for living can bear almost any how."
+quotation: "Hat man sein warum? des Lebens, so verträgt man sich fast mit jedem wie?"
+quotation_translation: "If we have our own why of life, we shall get along with almost any how."
+source:
+  author: Nietzsche
+  work: Twilight of the Idols
+  passage: "'Maxims and Arrows' §12 ('Maxims and Missiles' in Ludovici)"
+  translator: null   # report leaves the English ambiguous between Kaufmann (copyrighted) and Ludovici (1911, PD) — see notes
+  edition_year: null
+  language: de
+  url: null
+  urn: null
+tradition: german-philosophy
+era: 1889
+register: aphorism
+claim_type: prudential
+polarity: descriptive
+conditionality: conditional
+life_domains: [meaning, adversity]
+life_stages: [young-adult, adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: unknown
+prov:
+  source_report: corpus/reports/wave-1/03-nietzsche.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report grade: verified (with paraphrase caveat). WATCHLIST: the popular wording 'He who has a why to live for can bear with almost any how' is Viktor Frankl's paraphrase (Man's Search for Meaning, 1946), which Frankl explicitly credited to Nietzsche — the verbatim is Nietzsche's, the popular form is Frankl's. Both Kaufmann and Ludovici omit the aphorism's second half: 'Man does not strive for pleasure; only the Englishman does.' German original held and PD (1889). COPYRIGHT CAVEAT: English translator ambiguous in report (Kaufmann in-copyright vs Ludovici 1911 PD) — line-match vs Gutenberg #52263 before print; PD alternative (Ludovici) exists, never fabricate its wording. Report consulted Quote Investigator (external gold standard). life_domains/life_stages derived (extract gave none)."

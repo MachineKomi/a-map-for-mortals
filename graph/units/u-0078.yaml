@@ -1,0 +1,50 @@
+id: u-0078
+claim_id: null
+type: Insight
+paraphrase: "All human striving is fleeting; nothing is permanently gained 'under the sun'."
+quotation: null   # original Hebrew not held in the report; capture at primary verification
+quotation_translation: "Vanity of vanities, saith the Preacher, vanity of vanities; all is vanity."
+source:
+  author: "Qoheleth (anonymous; traditionally attributed to Solomon)"
+  work: "Ecclesiastes"
+  passage: "1:2"
+  translator: "King James Version translators"
+  edition_year: 1611
+  language: he
+  url: null
+  urn: null
+tradition: Judaism
+era: -250   # 3rd c. BCE Hellenistic dating per report
+register: principle
+claim_type: observational
+polarity: descriptive
+conditionality: contested
+life_domains: [death, work, meaning, self]
+life_stages: [adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-1/05-near-eastern-abrahamic.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: >-
+  Report unit HW-05; report label attribution_confidence 'verified', normalised to
+  'attested' pending a primary check against a KJV edition. Report register was dual
+  'poem/principle'; principle chosen (this is Qoheleth's programmatic thesis
+  statement). Claim_type observational (a generalisation about the human condition,
+  not empirical measurement and not counsel) — concurs with report. Conditionality
+  contested per report: the same impermanence datum yields opposite prescriptions
+  across the corpus (report FORK-3: seize ordinary joy vs renounce the world), and
+  intra-Hebrew tension with Proverbs' retribution confidence is a signed
+  disagreement. Dating: era -250 per report's Hellenistic dating (Persian loanwords
+  + Greek mindset; terminus ante quem 180 BCE, Ben Sira quotes it). Report
+  life_stages 'adult, elder' mapped to [adult, midlife, elder] under the schema's
+  finer-grained enum. Sibling unit u-0011 (HW-07) carries the joy-prescription side
+  of this same book. KJV 1611 wording; PD per report source inventory.

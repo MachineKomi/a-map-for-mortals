@@ -1,0 +1,37 @@
+id: u-0098
+claim_id: null
+type: Practice
+paraphrase: "Judge what is said by its content, not by the authority of the one who says it."
+quotation: null   # Latin not held by the report
+quotation_translation: "Do not ask, 'Who said this?' but pay attention to what is said."
+source:
+  author: "Thomas à Kempis"
+  work: The Imitation of Christ
+  passage: "I.5"
+  translator: null   # English version/translator unidentified by the report (Goodreads-sourced wording)
+  edition_year: null
+  language: la
+  url: "https://www.goodreads.com/author/quotes/128952.Thomas_Kempis?page=5"
+  urn: null
+tradition: Christian
+era: 1420
+register: aphorism
+claim_type: prudential
+polarity: prescriptive
+conditionality: universal-ish
+life_domains: [speech, self]
+life_stages: [young-adult, adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: unknown
+prov:
+  source_report: corpus/reports/wave-1/05-near-eastern-abrahamic.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: verified. Report's claim_type 'prudential/normative' narrowed to prudential (epistemic advice). SOURCING CAVEAT: this wording is cited only to Goodreads and its English version/translator is unidentified — copyright_flag unknown until the wording is matched to an edition (the work has multiple PD English versions, incl. the CCEL text used for u-0097); modern-sounding phrasing suggests a modern translation. Report CONV-4: converges with Ptahhotep Maxim 1 on epistemic humility — shared didactic-instruction genre inflates the convergence; robustness moderate. Era approximate (~1420s)."

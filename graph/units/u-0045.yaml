@@ -1,0 +1,37 @@
+id: u-0045
+claim_id: null
+type: Insight
+paraphrase: "Death is nothing to us: while we exist death is not present, and when death is present we no longer exist."
+quotation: null   # Greek of Letter to Menoeceus 125 not held in the report
+quotation_translation: "Death, the most awful of evils, is nothing to us, seeing that, when we are, death is not come, and, when death is come, we are not."
+source:
+  author: Epicurus
+  work: Letter to Menoeceus (via Diogenes Laertius, Lives X)
+  passage: "§125; cf. Principal Doctrines (Kyriai Doxai) 2"
+  translator: Robert Drew Hicks
+  edition_year: 1925
+  language: grc
+  url: null
+  urn: null
+tradition: Hellenistic (Epicurean)
+era: -300   # c. 300 BCE
+register: argument
+claim_type: metaphysical
+polarity: descriptive
+conditionality: contested
+life_domains: [death, anxiety]
+life_stages: [adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-1/02-greco-roman.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report grade: verified. Transmitted via Diogenes Laertius, Lives X. Metaphysical (rests on the Epicurean thesis that death is annihilation and that what we do not experience cannot harm us) and contested as such — a deprivation-account objector rejects the argument. Copyright: Hicks (1925) PD per report's source inventory."

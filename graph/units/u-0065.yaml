@@ -1,0 +1,37 @@
+id: u-0065
+claim_id: null
+type: Practice
+paraphrase: "Discipline your contradictions into a whole — create yourself — rather than amputating what does not fit."
+quotation: null   # German of Twilight §49 not held in the report
+quotation_translation: "a spirit thus emancipated stands in the midst of the universe with a joyful and trusting fatalism... such a faith is the highest of all possible faiths: I have baptised it with the name of Dionysos."
+source:
+  author: Goethe (as characterised by Nietzsche)
+  work: Twilight of the Idols
+  passage: "'Skirmishes in a War with the Age' §49–51"
+  translator: Anthony M. Ludovici
+  edition_year: 1911
+  language: de
+  url: null
+  urn: null
+tradition: german-classicism
+era: 1889   # year of the attesting text; Goethe himself 1749-1832 per report
+register: principle
+claim_type: normative
+polarity: prescriptive
+conditionality: conditional
+life_domains: [self, character, art-of-living]
+life_stages: [adult, midlife]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-1/03-nietzsche.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report grade: 'verified (approval); exact §49 wording partially verified'. The quotation is NIETZSCHE'S characterisation of Goethe, not Goethe's own words; also held: Goethe 'disciplined himself into wholeness, he created himself' (§49) and the originally planned chapter close 'Goethe is the last German before whom I feel reverence.' STAGE-2: report flags the full §49 verbatim as only partially captured — confirm against Gutenberg #52263 before print (translator/section/year firmly verified per report, hence PD flag). Translation-title caveat: Ludovici's chapter 'Skirmishes in a War with the Age' = Kaufmann/Hollingdale 'Skirmishes/Expeditions of an Untimely Man'; section numbers identical. Re-derivation: conditionality set conditional — presented as a rare exemplary achievement, not universal counsel; life_stages derived (extract gave none)."

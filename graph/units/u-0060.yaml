@@ -1,0 +1,37 @@
+id: u-0060
+claim_id: null
+type: Insight
+paraphrase: "There is no view from nowhere: all knowing is perspectival, and admitting more perspectives makes a concept more complete."
+quotation: null   # German of GM III §12 not held in the report
+quotation_translation: "There is only a perspective seeing, only a perspective 'knowing'; and the more affects we allow to speak about one thing... the more complete will our 'concept' of this thing... be."
+source:
+  author: Nietzsche
+  work: On the Genealogy of Morals
+  passage: "Third Essay §12"
+  translator: Horace B. Samuel   # per report; report itself flags 'verify exact Samuel wording against the primary'
+  edition_year: 1913
+  language: de
+  url: null
+  urn: null
+tradition: german-philosophy
+era: 1887
+register: argument
+claim_type: metaphysical
+polarity: descriptive
+conditionality: universal-ish
+life_domains: [knowledge, truth]
+life_stages: []
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: unknown
+prov:
+  source_report: corpus/reports/wave-1/03-nietzsche.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report grade: probable (verify exact Samuel wording against the primary) — Stage-2 lead: line-match Samuel's Genealogy III §12; upgrades from probable on match. Re-derivation: report claim_type 'metaphysical/epistemic' → enum metaphysical (epistemic hybrid noted); conditionality 'categorical within his epistemology' → universal-ish. COPYRIGHT: Samuel 1913 would be PD, but wording unverified against Samuel — flag unknown until line-matched. WATCHLIST (related, distinct): 'There are no facts, only interpretations' is genuine but NACHLASS (1886–87 notebook), not published doctrine — do not merge with this published unit; Nachlass/Will-to-Power quarantine applies there."

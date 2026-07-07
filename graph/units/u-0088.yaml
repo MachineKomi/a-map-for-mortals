@@ -1,0 +1,51 @@
+id: u-0088
+claim_id: null
+type: Danger
+paraphrase: "Do not associate with a hot-tempered man, nor seek him out for conversation."
+quotation: null   # original Egyptian not held in the report; hieroglyphic/transliterated text at primary verification if warranted
+quotation_translation: "Associate not with a passionate man, Nor approach him for conversation."
+source:
+  author: "Amenemope (attributed)"
+  work: "Instruction of Amenemope"
+  passage: "ch. 10"
+  translator: "Pritchard (ed.), Ancient Near Eastern Texts (ANET), as cited by the report"
+  edition_year: null
+  language: egy
+  url: "https://en.wikipedia.org/wiki/Instruction_of_Amenemope"
+  urn: null
+tradition: Ancient Egyptian
+era: -1200   # Ramesside, ~1300-1075 BCE per report
+register: aphorism
+claim_type: prudential
+polarity: cautionary
+conditionality: conditional
+life_domains: [friendship, speech]
+life_stages: [young-adult, adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-1/05-near-eastern-abrahamic.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: >-
+  Report unit ANE-04; report label attribution_confidence 'verified (cited)',
+  normalised to 'attested' pending a primary check. Claim_type prudential, polarity
+  cautionary (avoidance counsel about bad company) — concurs with report. The
+  report's canonical claim adds the rationale 'lest you learn his ways', which is
+  explicit in the Proverbs 22:24-25 parallel it cites but not in the two quoted
+  lines — the paraphrase here hews to the quoted evidence and the rationale is
+  recorded in this note only. WORDING/EDITION CAUTION: as with u-0087, the report
+  credits ANET but links Wikipedia, and the diction ('Associate not...') suggests
+  the wording may derive from an older (possibly PD) translation — establish the
+  real edition at S2; copyright_flag follows the report's in-copyright ANET credit
+  conservatively. LINEAGE: INFLUENCED-edge candidate towards Proverbs 22:24-25
+  (the report flags the Proverbs 22:17-24:22 dependence; see u-0077). Report
+  life_stages 'all' mapped to [young-adult, adult, midlife, elder] following the
+  extract's convention.

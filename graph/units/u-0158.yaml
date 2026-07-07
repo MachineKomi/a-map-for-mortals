@@ -1,0 +1,37 @@
+id: u-0158
+claim_id: null
+type: Insight
+paraphrase: "Beauty and truth are ultimately one, and that is all mortals need to know."
+quotation: "'Beauty is truth, truth beauty,'—that is all / Ye know on earth, and all ye need to know."
+quotation_translation: null   # English is the original language
+source:
+  author: John Keats
+  work: Ode on a Grecian Urn
+  passage: "final lines (stanza 5)"
+  translator: null
+  edition_year: 1820   # Annals of the Fine Arts 1820 / Wikisource
+  language: en
+  url: null
+  urn: null
+tradition: English Romantic poetry
+era: 1819
+register: aphorism
+claim_type: metaphysical
+polarity: descriptive
+conditionality: contested
+life_domains: [self, grief, death]
+life_stages: [youth, adult]
+endorsement: ambiguous
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-1/07-literary.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report grade: verified (held at attested pending primary check). ENDORSEMENT=AMBIGUOUS — speaker is the urn (a personified object) addressing humankind, NOT Keats in propria persona; the poem's close follows the speaker's questioning of the silent eternal figures ('Cold Pastoral!'). Critics since Robert Bridges and T. S. Eliot have debated whether the lines are the urn's limited consolation or Keats's own creed; Keats's letters ('What the imagination seizes as Beauty must be truth') lean toward endorsement, but the dramatic frame (quotation marks; the urn as speaker; 'ye' addressed to mortals) leaves it genuinely ambiguous — the report's textbook character-vs-author case. Do not resolve the ambiguity either way. Surviving 1820 printings differ in where the quotation marks fall, which itself drives the interpretive dispute — record punctuation variant at S2 primary check. Metaphysical claim, never empirical. Report fork: self_deception_vs_truth."

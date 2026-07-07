@@ -1,0 +1,37 @@
+id: u-0057
+claim_id: null
+type: Practice
+paraphrase: "Learn, more and more, to see what is necessary in things as beautiful."
+quotation: null   # German of GS §276 not held in the report
+quotation_translation: "I want to learn more and more to see as beautiful what is necessary in things; then I shall be one of those who makes things beautiful. Amor fati: let that be my love henceforth!"
+source:
+  author: Nietzsche
+  work: The Gay Science
+  passage: "§276"
+  translator: Thomas Common   # per report; wording unconfirmed against Common's PD text — see notes
+  edition_year: 1910
+  language: de
+  url: null
+  urn: null
+tradition: german-philosophy
+era: 1882
+register: aphorism
+claim_type: normative
+polarity: prescriptive
+conditionality: conditional
+life_domains: [meaning, aesthetics, self]
+life_stages: [adult, midlife]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: unknown
+prov:
+  source_report: corpus/reports/wave-1/03-nietzsche.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report grade: verified. Companion to the Ecce Homo amor fati declaration (separate unit). COPYRIGHT CAVEAT: report credits Thomas Common (1910), whose PD version is titled 'Joyful Wisdom' and uses older diction; the English held here closely resembles the in-copyright Kaufmann rendering — line-match against Gutenberg #52124 (Joyful Wisdom) before any print use; a PD alternative (Common) exists, never fabricate its wording. Re-derivation: extract typed this Practice (a resolution to practise a way of seeing) — retained; life_stages derived (extract gave none)."

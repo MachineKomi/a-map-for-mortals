@@ -1,0 +1,37 @@
+id: u-0037
+claim_id: null
+type: Insight
+paraphrase: "A life without self-examination is not worth living for a human being."
+quotation: "ὁ δὲ ἀνεξέταστος βίος οὐ βιωτὸς ἀνθρώπῳ"
+quotation_translation: "The unexamined life is not worth living."
+source:
+  author: Socrates (via Plato)
+  work: Apology
+  passage: "38a (Stephanus)"
+  translator: Benjamin Jowett
+  edition_year: 1871
+  language: grc
+  url: null
+  urn: null
+tradition: Classical (Socratic)
+era: -399   # trial of Socrates, 399 BCE
+register: aphorism
+claim_type: normative
+polarity: prescriptive
+conditionality: universal-ish
+life_domains: [self, politics, death]
+life_stages: [young-adult, adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-1/02-greco-roman.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report grade: verified — genuine and securely located at Apology 38a5-6 (report watchlist #13; Jowett and Fowler Loeb both attest, Perseus confirms the Stephanus location). Socratic problem: Socrates via Plato's rendering. Watchlist: the popular 'The only true wisdom is in knowing you know nothing' is NOT a verbatim Socrates quote (apocryphal compression, watchlist #11). Copyright: Jowett (1871) PD per report."

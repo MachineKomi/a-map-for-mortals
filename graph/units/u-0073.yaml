@@ -1,0 +1,37 @@
+id: u-0073
+claim_id: null
+type: Virtue
+paraphrase: "Intellectual honesty — refusing to dress thought in poetry or rhetoric — is itself a virtue."
+quotation: null   # German of Schopenhauer as Educator not held in the report
+quotation_translation: "a philosopher must be very honest not to call poetry or rhetoric to his aid... he is honest even as a writer."
+source:
+  author: Schopenhauer (as characterised by Nietzsche)
+  work: Schopenhauer as Educator (Untimely Meditations III)
+  passage: null   # report gives the work but no section for this quote
+  translator: null   # report's text (nietzsche.holtof.com) names no translator
+  edition_year: null
+  language: de
+  url: null
+  urn: null
+tradition: german-philosophy
+era: 1874   # year of the attesting text; Schopenhauer himself 1788-1860 per report
+register: principle
+claim_type: normative
+polarity: prescriptive
+conditionality: universal-ish
+life_domains: [truth, character]
+life_stages: [young-adult, adult, midlife]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: unknown
+prov:
+  source_report: corpus/reports/wave-1/03-nietzsche.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report grade: verified (qualified approval). APPROVED DIMENSION ONLY: Schopenhauer as exemplar of intellectual honesty and the solitary thinker; Nietzsche repudiates his pessimism and denial of the will-to-life — in Twilight he calls the philosophy a 'nihilistic devaluation of life' (and Schopenhauer 'the last German of any consequence'). Preserve the ambivalence as a live tension; exclude the metaphysics of resignation. The quotation is Nietzsche's characterisation, not Schopenhauer's own words. COPYRIGHT: translator of the quoted English unnamed in report → unknown; identify the edition before print; never fabricate PD wording. life_stages derived (extract gave none)."

@@ -1,0 +1,37 @@
+id: u-0144
+claim_id: null
+type: Insight
+paraphrase: "Where an option between propositions is genuine — live, forced, and momentous — and cannot by its nature be decided on intellectual grounds, our passional nature not only lawfully may but must decide; belief in advance of evidence can be intellectually legitimate there."
+quotation: "Our passional nature not only lawfully may, but must, decide an option between propositions, whenever it is a genuine option that cannot by its nature be decided on intellectual grounds."
+quotation_translation: null   # English original
+source:
+  author: William James
+  work: "The Will to Believe"
+  passage: null   # no section locator given in the report
+  translator: null
+  edition_year: 1896
+  language: en
+  url: null
+  urn: null
+tradition: American pragmatism
+era: 1896
+register: argument
+claim_type: normative
+polarity: prescriptive
+conditionality: contested
+life_domains: [self, anxiety, knowledge]
+life_stages: [adult]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-1/06-modern-west.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report confidence: verified. PD (James d. 1910; report recommends Gutenberg for primary check). Normative-epistemic claim, tightly conditional in the original ('live, forced, momentous' options only — preserved in paraphrase); claim_type normative, not empirical: it licenses belief, it does not assert that faith causes truth. Standing counterpoint: Clifford's evidentialism ('The Ethics of Belief') — candidate CONTRADICTS/IN_TENSION_WITH edge at S2 if a Clifford unit exists."

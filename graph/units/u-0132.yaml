@@ -1,0 +1,37 @@
+id: u-0132
+claim_id: null
+type: Virtue
+paraphrase: "Two things fill the mind with ever new and increasing admiration and awe: the starry heavens above and the moral law within."
+quotation: "Zwei Dinge erfüllen das Gemüt mit immer neuer und zunehmender Bewunderung und Ehrfurcht … der bestirnte Himmel über mir und das moralische Gesetz in mir."
+quotation_translation: null   # report holds German only; Abbott (1873) PD English exists but its wording is not held
+source:
+  author: Immanuel Kant
+  work: Critique of Practical Reason
+  passage: "Conclusion"
+  translator: null
+  edition_year: 1788
+  language: de
+  url: null
+  urn: null
+tradition: German Enlightenment
+era: 1788
+register: principle
+claim_type: metaphysical
+polarity: descriptive
+conditionality: universal-ish
+life_domains: [self, society]
+life_stages: [adult]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-1/06-modern-west.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report's confidence label: verified (downgraded to attested per S1 rules pending primary check). The held German wording contains an ellipsis ('…') as given by the report — the elided material must be restored from a primary edition at verification, not from memory. Cite by Prussian Academy pagination once verified (report gives 'Conclusion' only). Abbott (1873) PD English; Gregor/Wood translations in copyright. Kept report's claim_type metaphysical: the awe attaches to the moral law's supersensible stature, though the sentence's surface form is a first-person observation."

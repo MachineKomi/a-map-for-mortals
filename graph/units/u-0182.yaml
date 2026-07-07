@@ -1,0 +1,37 @@
+id: u-0182
+claim_id: null
+type: Insight
+paraphrase: "Late-life satisfaction tracks distance from death more than chronological age: it holds relatively steady until a transition roughly four years before death, when decline sharply accelerates."
+quotation: null            # empirical finding — no verbatim quotation held (S1 rule 8)
+quotation_translation: null
+source:
+  author: "Gerstorf et al."
+  work: "Developmental Psychology"
+  passage: null
+  translator: null
+  edition_year: 2008
+  language: en
+  url: "https://pubmed.ncbi.nlm.nih.gov/18605841/"
+  urn: null
+tradition: empirical
+era: 2008
+register: null             # empirical finding; no rhetorical register
+claim_type: empirical
+polarity: descriptive
+conditionality: universal-ish
+life_domains: [ageing]
+life_stages: [elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: unknown
+prov:
+  source_report: corpus/reports/wave-1/08-empirical.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "No verbatim quotation held. Evidence grade: B/C (large longitudinal panel). Replication status: unassessed (single SOEP analysis). Effect sizes as reported: 22-year SOEP data, N = 1,637 deceased adults aged 70–100; life satisfaction tracked distance-to-death more than chronological age, with a transition point ~4 years before death where decline roughly tripled. Bears on 'End-of-life well-being declines' — SUPPORTS. German panel sample. Universal-ish: terminal decline reported as a robust pattern, though based on one national panel."

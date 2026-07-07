@@ -1,0 +1,37 @@
+id: u-0178
+claim_id: null
+type: Consequence
+paraphrase: "After a single night without sleep the amygdala reacts far more strongly to aversive images and loses its regulatory connection to the medial prefrontal cortex — a suggestive mechanism for sleep's role in emotion."
+quotation: null            # empirical finding — no verbatim quotation held (S1 rule 8)
+quotation_translation: null
+source:
+  author: "Yoo, Gujar, Hu, Jolesz & Walker"
+  work: "Current Biology"
+  passage: null
+  translator: null
+  edition_year: 2007
+  language: en
+  url: null
+  urn: null
+tradition: empirical
+era: 2007
+register: null             # empirical finding; no rhetorical register
+claim_type: empirical
+polarity: descriptive
+conditionality: conditional
+life_domains: [health, sleep]
+life_stages: [young-adult, adult]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: unknown
+prov:
+  source_report: corpus/reports/wave-1/08-empirical.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "No verbatim quotation held. Evidence grade: C/D (small experimental fMRI, N = 26; suggestive mechanism). Replication status: unassessed (report: 'Suggestive mechanism'). Effect sizes as reported: +60% greater amygdala activation vs control (averaged left and right amygdala, t(24) = 3.2, P = 0.004); roughly threefold increase in the volume of amygdala activated; loss of functional connectivity between amygdala and medial prefrontal cortex. Caveats kept: small N; circadian confound. Bears on 'Sleep regulates emotion' — SUPPORTS. Western sample. Report holds a verbatim author quote (the +60% sentence); NOT copied here per rule 8 (empirical units carry effect sizes in notes, no quotation)."

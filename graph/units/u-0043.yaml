@@ -1,0 +1,37 @@
+id: u-0043
+claim_id: null
+type: Insight
+paraphrase: "Stop debating what a good person should be; be one."
+quotation: null   # Greek of Meditations 10.16 not held in the report
+quotation_translation: "No longer talk at all about the kind of man that a good man ought to be, but be such."
+source:
+  author: Marcus Aurelius
+  work: Meditations
+  passage: "Book 10.16"
+  translator: George Long
+  edition_year: 1862
+  language: grc
+  url: null
+  urn: null
+tradition: Roman Stoic
+era: 175   # c. 175 CE
+register: aphorism
+claim_type: normative
+polarity: prescriptive
+conditionality: universal-ish
+life_domains: [self, work, politics]
+life_stages: [young-adult, adult, midlife]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-1/02-greco-roman.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report grade: verified (watchlist #1: genuine, Meditations 10.16). The famous crisp wording 'Waste no more time arguing what a good man should be. Be one.' is Maxwell Staniforth's 1964 translation (in-copyright) — deliberately NOT used; Long's PD 1862 rendering quoted instead, per the report's own recommendation. Copyright: Long (1862) PD per report."

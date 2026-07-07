@@ -1,0 +1,37 @@
+id: u-0138
+claim_id: null
+type: Danger
+paraphrase: "Society everywhere pressures its members towards conformity; whoever would preserve their integrity must be prepared to be a nonconformist."
+quotation: "Society everywhere is in conspiracy against the manhood of every one of its members. … Whoso would be a man must be a nonconformist."
+quotation_translation: null   # English original
+source:
+  author: Ralph Waldo Emerson
+  work: "'Self-Reliance', Essays: First Series"
+  passage: null   # no finer locator given in the report
+  translator: null
+  edition_year: 1841
+  language: en
+  url: null
+  urn: null
+tradition: American Transcendentalism
+era: 1841
+register: argument
+claim_type: normative
+polarity: prescriptive
+conditionality: contested
+life_domains: [society, self, authenticity]
+life_stages: [youth, adult]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-1/06-modern-west.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report confidence: verified. PD. Report's wording source link: https://courses.lumenlearning.com/suny-jefferson-english102/chapter/self-reliance-american-literature-i/ (tertiary; primary check needed against an 1841/PD edition). Type Danger per report (the danger named is society's conformity pressure); the prescriptive pole ('must be a nonconformist') is preserved in polarity. Paraphrase renders 'manhood' as 'integrity' — Emerson's period usage means full personhood, not maleness; flagged so the paraphrase is not read as smoothing. Authenticity pole of the report's Authenticity-vs-Convention fork."

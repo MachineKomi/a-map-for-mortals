@@ -1,0 +1,37 @@
+id: u-0093
+claim_id: null
+type: Practice
+paraphrase: "Love even enemies, on the model of a God who is impartial — giving sun and rain to good and evil alike."
+quotation: null   # Greek not held by the report
+quotation_translation: "Love your enemies, bless them that curse you... for he maketh his sun to rise on the evil and on the good, and sendeth rain on the just and on the unjust."
+source:
+  author: "Jesus of Nazareth (as recorded in the Gospel of Matthew)"
+  work: "Gospel of Matthew (Sermon on the Mount)"
+  passage: "5:44-45"
+  translator: King James Version
+  edition_year: 1611
+  language: grc
+  url: null
+  urn: null
+tradition: Christian
+era: 80
+register: principle
+claim_type: normative
+polarity: prescriptive
+conditionality: contested
+life_domains: [love, conflict, justice]
+life_stages: [young-adult, adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-1/05-near-eastern-abrahamic.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: verified. KJV 1611, PD. Member of the golden-rule / one-body solidarity convergence cluster with Hillel (Avot 1:14) and Saadi's Bani Adam (u-0099) — report CONV-3, rated among the most genuinely independent convergences. Also mercy pole of FORK-1 and love pole of FORK-4 (fear vs love as motive). Religious claim: normative, not empirical. Era approximate (Matthew ~70–90 CE)."

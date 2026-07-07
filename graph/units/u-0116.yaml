@@ -1,0 +1,37 @@
+id: u-0116
+claim_id: null
+type: Virtue
+paraphrase: "Patience is the art of hoping."
+quotation: "La patience est l'art d'espérer."
+quotation_translation: null   # report holds no English wording
+source:
+  author: Vauvenargues
+  work: "Réflexions et maximes"
+  passage: "maxim 251 (Furne 1857 ed. numbering)"
+  translator: null
+  edition_year: 1857
+  language: fr
+  url: "https://fr.wikiquote.org/wiki/Luc_de_Clapiers,_marquis_de_Vauvenargues"
+  urn: null
+tradition: french-moralist
+era: 1746
+register: aphorism
+claim_type: observational
+polarity: descriptive
+conditionality: conditional
+life_domains: [adversity, anxiety]
+life_stages: [adult]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-1/06-modern-west.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label 'verified' -> attested per S1 rule. Re-derivation differs from report: polarity descriptive (report: prescriptive) — the maxim states what patience is rather than issuing counsel; the commendation is implicit in the Virtue framing. Maxim numbering follows the Furne 1857 PD edition and is edition-dependent (report caveat). URL is the report's fr.Wikiquote link, not a primary source."

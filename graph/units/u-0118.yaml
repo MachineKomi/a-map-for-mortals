@@ -1,0 +1,37 @@
+id: u-0118
+claim_id: null
+type: Insight
+paraphrase: "The most wasted of all days is the one on which one has not laughed."
+quotation: "La plus perdue de toutes les journées est celle où l'on n'a pas ri."
+quotation_translation: null   # report holds no English wording
+source:
+  author: Chamfort
+  work: "Maximes et pensées, caractères et anecdotes"
+  passage: null   # numbering unstable across editions; report gives no section number
+  translator: null
+  edition_year: 1795
+  language: fr
+  url: null
+  urn: null
+tradition: french-moralist
+era: 1795
+register: aphorism
+claim_type: prudential
+polarity: prescriptive
+conditionality: conditional
+life_domains: [health, society]
+life_stages: [adult]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-1/06-modern-west.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label 'verified' -> attested per S1 rule. Re-derivation differs from report: claim_type prudential (report: observational) — the maxim is an evaluation commending laughter for living well ('most wasted of all days'), not an observation of fact; polarity prescriptive kept as per report. Posthumous publication 1795; Chamfort's numbering unstable across editions."

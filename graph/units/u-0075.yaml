@@ -1,0 +1,44 @@
+id: u-0075
+claim_id: null
+type: Practice
+paraphrase: "A gentle answer tends to defuse anger; harsh words tend to inflame it."
+quotation: null   # original Hebrew not held in the report; capture at primary verification
+quotation_translation: "A soft answer turneth away wrath: but grievous words stir up anger."
+source:
+  author: "anonymous (Hebrew wisdom tradition; traditionally attributed to Solomon)"
+  work: "Proverbs (Tanakh)"
+  passage: "15:1"
+  translator: "King James Version translators"
+  edition_year: 1611
+  language: he
+  url: null
+  urn: null
+tradition: Judaism
+era: -500   # editing spans 8th-3rd c. BCE per report; midpoint approximation
+register: aphorism
+claim_type: prudential
+polarity: prescriptive
+conditionality: conditional
+life_domains: [speech, conflict, friendship]
+life_stages: [young-adult, adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-1/05-near-eastern-abrahamic.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: >-
+  Report unit HW-02; report label attribution_confidence 'verified', normalised to
+  'attested' pending a primary check against a KJV edition. Claim_type re-derived from
+  quoted evidence: prudential (practical counsel about speech and its tendencies, not a
+  moral command) — concurs with report. Tendency preserved in paraphrase ('tends to'),
+  not stated as law. Report life_stages 'all' mapped to [young-adult, adult, midlife,
+  elder] following the extract's convention for this report. KJV 1611 wording; PD per
+  report source inventory.

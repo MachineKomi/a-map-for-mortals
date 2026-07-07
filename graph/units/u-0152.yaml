@@ -1,0 +1,37 @@
+id: u-0152
+claim_id: null
+type: Insight
+paraphrase: "The divine works in shapes beyond human expectation: what is awaited does not come, and a path opens where none was thought."
+quotation: null   # Greek not held by the report
+quotation_translation: "There be many shapes of mystery. / And many things God makes to be, / Past hope or fear. / And the end men looked for cometh not, / And a path is there where no man thought."
+source:
+  author: Euripides
+  work: The Bacchae
+  passage: "closing chorus"
+  translator: Gilbert Murray
+  edition_year: 1906   # report gives "Gilbert Murray, 1902/06"
+  language: grc
+  url: "http://www.edmundgriffiths.com/bacchae.html"
+  urn: null
+tradition: Attic tragedy
+era: -405
+register: aphorism
+claim_type: metaphysical
+polarity: descriptive
+conditionality: universal-ish
+life_domains: [adversity, fate, death]
+life_stages: [adult]
+endorsement: ambiguous
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-1/07-literary.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report grade: verified (held at attested pending primary check). Speaker: the Chorus / Chorus-Leader, in the final lines after the catastrophe of Pentheus and Agave. ENDORSEMENT=AMBIGUOUS — this closing formula recurs at the end of several Euripidean plays (which may dilute its specific force), and here it caps a horrifying outcome rather than a comforting one. URL is the report's citation for the quoted wording (edmundgriffiths.com); the wording-to-Murray match should be confirmed at S2 — the report attributes the English to Murray 1902/06 (PD) but cites a third-party page for the text. Report fork: freedom_vs_fate. Metaphysical claim — never treat as empirical."

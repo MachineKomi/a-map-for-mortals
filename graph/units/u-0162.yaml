@@ -1,0 +1,37 @@
+id: u-0162
+claim_id: null
+type: Insight
+paraphrase: "Prudential proverbs travel in contradicting pairs — 'look before you leap' against 'he who hesitates is lost' — so proverb-wisdom is conditional, not absolute."
+quotation: "\"Look before you leap.\" / counter: \"He who hesitates is lost.\""
+quotation_translation: null   # English is the original language
+source:
+  author: null   # communal — English proverb tradition; no individual author
+  work: English proverb tradition
+  passage: null
+  translator: null
+  edition_year: null   # attested 16th-18th c. per the report
+  language: en
+  url: null
+  urn: null
+tradition: English folk-proverbial
+era: null   # communal; report dates attestation 16th-18th c.
+register: proverb
+claim_type: observational
+polarity: descriptive
+conditionality: contested
+life_domains: [adversity, work, self]
+life_stages: [adult, youth]
+endorsement: ambiguous
+attribution_confidence: communal
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-1/07-literary.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report grade: probable ('attested in tradition'; originator-level confidence dubious/apocryphal) — held as communal per S1 rules for proverbs attributed to a language tradition. Speaker: communal/anonymous; no dramatic frame; ENDORSEMENT=AMBIGUOUS per the report — the tradition itself endorses neither side of the pair, and their self-contradiction is the point: proverbs encode tendencies, not destinies (a model for the project's conditional-wisdom principle). RE-DERIVATIONS (differ from report): register proverb (report: aphorism — these are proverbs proper); claim_type observational and polarity descriptive (report: prudential/cautionary — the member proverbs are prudential counsel, but this unit's claim is a meta-observation ABOUT proverb pairs). The component proverbs are separately minted from the wave-2 folk report (cf. u-0341 look-before-leap, u-0342 hesitates-lost); this unit records the pairing insight itself. Report fork: passion_vs_duty; candidate convergence with Aristotelian phronesis (candidate, not proof)."

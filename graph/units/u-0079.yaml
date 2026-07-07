@@ -1,0 +1,46 @@
+id: u-0079
+claim_id: null
+type: Insight
+paraphrase: "There is a fitting time for every contrary experience — birth and death, and every purpose under heaven."
+quotation: null   # original Hebrew not held in the report; capture at primary verification
+quotation_translation: "To every thing there is a season, and a time to every purpose under the heaven: A time to be born, and a time to die..."
+source:
+  author: "Qoheleth (anonymous; traditionally attributed to Solomon)"
+  work: "Ecclesiastes"
+  passage: "3:1-2"
+  translator: "King James Version translators"
+  edition_year: 1611
+  language: he
+  url: null
+  urn: null
+tradition: Judaism
+era: -250   # 3rd c. BCE Hellenistic dating per report
+register: poem
+claim_type: observational
+polarity: descriptive
+conditionality: universal-ish
+life_domains: [grief, death, work, love]
+life_stages: [young-adult, adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-1/05-near-eastern-abrahamic.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: >-
+  Report unit HW-06; report label attribution_confidence 'verified', normalised to
+  'attested' pending a primary check against a KJV edition. Claim_type observational
+  (a descriptive catalogue of life's contrary seasons, not counsel or command) —
+  concurs with report. The held translation is truncated by the report at 'a time to
+  die...' (ellipsis is the report's own; the poem continues through 3:8) — capture
+  the full span decision at primary verification. Dating: era -250 per report's
+  Hellenistic dating. Report life_stages 'all' mapped to [young-adult, adult,
+  midlife, elder] following the extract's convention. KJV 1611 wording; PD per
+  report source inventory.

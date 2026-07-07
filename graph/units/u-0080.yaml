@@ -1,0 +1,49 @@
+id: u-0080
+claim_id: null
+type: Insight
+paraphrase: "The righteous can suffer while the wicked prosper — a standing scandal the psalmist records from inside the experience of envy and near-loss of faith."
+quotation: null   # original Hebrew not held in the report; capture at primary verification
+quotation_translation: "For I was envious at the foolish, when I saw the prosperity of the wicked... Verily I have cleansed my heart in vain."
+source:
+  author: "anonymous (Psalter)"
+  work: "Psalms (Tanakh)"
+  passage: "73:3, 13"
+  translator: "King James Version translators"
+  edition_year: 1611
+  language: he
+  url: null
+  urn: null
+tradition: Judaism
+era: -500   # report dates the Psalter 'monarchic-post-exilic'; dating uncertain
+register: poem
+claim_type: observational
+polarity: descriptive
+conditionality: contested
+life_domains: [justice, faith, adversity]
+life_stages: [adult, midlife]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-1/05-near-eastern-abrahamic.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: >-
+  Report unit HW-08; report label attribution_confidence 'verified', normalised to
+  'attested' pending a primary check against a KJV edition. Report register was dual
+  'poem/argument'; poem chosen (the observation is voiced within a psalm, though the
+  whole psalm argues towards restored trust). Claim_type observational — an
+  observation about desert and outcome, NOT empirical (no measurement) and not
+  counsel; concurs with report. The held wording splices vv. 3 and 13 with the
+  report's own ellipsis. Conditionality contested: the psalm itself later reverses
+  the verdict (deferred justice), and the report's FORK-2 (theodicy) preserves this
+  as an open cross-cultural question alongside Job, Ludlul, and the Babylonian
+  Theodicy. Report life_stages 'adult' mapped to [adult, midlife] under the schema's
+  finer-grained enum. The report calls Psalm 73 'theodicy in miniature'. KJV 1611
+  wording; PD per report source inventory.

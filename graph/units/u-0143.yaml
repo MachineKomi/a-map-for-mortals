@@ -1,0 +1,37 @@
+id: u-0143
+claim_id: null
+type: Insight
+paraphrase: "Philosophy is right that life must be understood backwards — but that makes one forget the other proposition, that it must be lived forwards."
+quotation: "Det er ganske sandt, hvad Philosophien siger, at Livet maa forstaaes baglaends. Men derover glemmer man den anden Saetning, at det maa leves forlaends."
+quotation_translation: null   # the familiar English one-liner is a condensed paraphrase, not a held translation (see notes); PD English not held by the report
+source:
+  author: Søren Kierkegaard
+  work: "Journalen JJ:167 (1843)"
+  passage: "Søren Kierkegaards Skrifter vol. 18, p. 306"
+  translator: null
+  edition_year: 1843
+  language: da
+  url: "https://homepage.divms.uiowa.edu/~jorgen/kierkegaardquotesource.html"
+  urn: null
+tradition: Christian existentialism
+era: 1843
+register: aphorism
+claim_type: observational
+polarity: descriptive
+conditionality: universal-ish
+life_domains: [self, adversity, anxiety]
+life_stages: [adult, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-1/06-modern-west.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report confidence: verified (for the Danish journal entry). COPYRIGHT: Danish original PD (1843); copyright_flag covers the held Danish quotation only — Hong & Hong (Princeton) and Hannay (Penguin) English translations IN COPYRIGHT; do not quote them. MISATTRIBUTION WATCHLIST (report item 8): the neat English 'Life can only be understood backwards; but it must be lived forwards' is a condensed paraphrase of the longer entry, not verbatim; the related slogan 'Life is not a problem to be solved but a reality to be experienced' does NOT appear in Kierkegaard's writings — route misattribution edges at S2. The held Danish transcription uses aa/ae romanisation (baglaends/forlaends) per the report's source page; check against SKS orthography (baglænds/forlænds) at primary verification. Locator is the modern SKS critical edition; the 1843 text itself is PD."

@@ -1,0 +1,37 @@
+id: u-0127
+claim_id: null
+type: Insight
+paraphrase: "The free person thinks of nothing less than of death; their wisdom is a meditation on life, not on death."
+quotation: "Homo liber de nulla re minus quam de morte cogitat, et ejus sapientia non mortis sed vitae meditatio est."
+quotation_translation: null   # report holds Latin only; Elwes (1883) PD English exists but its wording is not held
+source:
+  author: Baruch Spinoza
+  work: Ethics (Ethica)
+  passage: "Part IV, Proposition 67 (E4p67)"
+  translator: null
+  edition_year: 1677
+  language: la
+  url: null   # report's links are secondary (medium.com, buboquote.com), not editions — omitted
+  urn: null
+tradition: early modern rationalism
+era: 1677
+register: argument
+claim_type: metaphysical
+polarity: prescriptive
+conditionality: contested
+life_domains: [death, self, adversity]
+life_stages: [adult, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-1/06-modern-west.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report's confidence label: verified (downgraded to attested per S1 rules pending primary check). Latin original PD and verifiable; Elwes (1883) and White & Stirling (1899) PD English; Curley (1985) is the scholarly standard but in copyright. Metaphysical within Spinoza's system (a proposition about the 'free man'), deployed prescriptively as an ideal — polarity prescriptive kept from report. Direct counterpoint to the memento-mori stream (e.g. Stoic and Christian death-meditation practices) — preserve the tension, do not harmonise."

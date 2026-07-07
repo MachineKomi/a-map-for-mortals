@@ -1,0 +1,37 @@
+id: u-0161
+claim_id: null
+type: Insight
+paraphrase: "A self may legitimately hold contradictions, being large enough to contain many truths."
+quotation: "Do I contradict myself? / Very well then I contradict myself, / (I am large, I contain multitudes.)"
+quotation_translation: null   # English is the original language
+source:
+  author: Walt Whitman
+  work: "Song of Myself (Leaves of Grass)"
+  passage: "Section 51"
+  translator: null
+  edition_year: 1892   # 1891-92 'deathbed' edition (Whitman Archive / poets.org); first published 1855
+  language: en
+  url: null
+  urn: null
+tradition: American poetry
+era: 1892
+register: aphorism
+claim_type: observational
+polarity: descriptive
+conditionality: contested
+life_domains: [self, adversity]
+life_stages: [adult]
+endorsement: endorsed
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-1/07-literary.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report grade: verified (held at attested pending primary check). Speaker: the expansive poetic 'I', in the penultimate section (51 of 52) as the speaker prepares to depart ('I stay only a minute longer') — ENDORSEMENT=ENDORSED. EDITION CAVEAT: punctuation stored is the FINAL 1891-92 'deathbed' form; the 1855 first edition uses ellipsis dashes and no parentheses ('Very well then . . . . I contradict myself; / I am large . . . . I contain multitudes.') — always cite which edition is meant; era set to 1892 for the stored wording (first composed/published 1855). PD. Report fork: self_deception_vs_truth; candidate convergence with Nietzschean self-overcoming (candidate, not proof — do not collapse the two; cross-reference the Nietzsche report)."

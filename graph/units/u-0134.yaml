@@ -1,0 +1,37 @@
+id: u-0134
+claim_id: null
+type: Dilemma
+paraphrase: "Like porcupines huddling on a cold day, people need one another's warmth but wound one another at close range; politeness and manners function as the tolerable middle distance."
+quotation: null   # German original (Parerga II, ch. 31, §396) not held in the report
+quotation_translation: "A number of porcupines huddled together for warmth on a cold day in winter; but, as they began to prick one another with their quills, they were obliged to disperse. … they discovered that they would be best off by remaining at a little distance from one another."
+source:
+  author: Arthur Schopenhauer
+  work: "Studies in Pessimism (T. Bailey Saunders's thematic anthology from Parerga und Paralipomena)"
+  passage: "Saunders, 'Studies in Pessimism'; underlying text Parerga und Paralipomena Vol. II, ch. 31 'Similes, Parables and Fables', §396"
+  translator: T. Bailey Saunders
+  edition_year: 1890   # report gives "Saunders (1890s)"
+  language: de
+  url: null
+  urn: null
+tradition: German post-Kantian pessimism
+era: 1851
+register: parable
+claim_type: observational
+polarity: cautionary
+conditionality: universal-ish
+life_domains: [solitude, society, friendship, love]
+life_stages: [young-adult, adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-1/06-modern-west.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report confidence: verified. CITATION CAVEAT (report §Caveats): the quoted English is Saunders's rearranged anthology 'Studies in Pessimism', NOT a 1:1 rendering of Parerga §396 — never pair the Saunders wording with a bare '§396' citation. Report's wording source link: https://scienceblogs.com/mixingmemory/2006/12/05/schopenhauers-parables (tertiary; primary check needed against a Saunders edition). Payne (1974) and Cambridge (Janaway et al. 2015) translations in copyright. Re-derivation: life_stages broadened from report's [adult] to all adult stages — the distance-regulation dilemma is not phase-specific. Report names this the explicit model of the 'optimal middle distance' fork (solitude vs. society); candidate convergence with Confucian li and Aristotle's proportionate friendship."

@@ -1,0 +1,48 @@
+id: u-0074
+claim_id: null
+type: Insight
+paraphrase: "Within the Hebrew tradition, reverence for God is the starting point of knowledge; despising wisdom and instruction is the mark of the fool."
+quotation: null   # original Hebrew not held in the report; capture at primary verification
+quotation_translation: "The fear of the LORD is the beginning of knowledge: but fools despise wisdom and instruction."
+source:
+  author: "anonymous (Hebrew wisdom tradition; traditionally attributed to Solomon)"
+  work: "Proverbs (Tanakh)"
+  passage: "1:7"
+  translator: "King James Version translators"
+  edition_year: 1611
+  language: he
+  url: null
+  urn: null
+tradition: Judaism
+era: -500   # editing spans 8th-3rd c. BCE per report; midpoint approximation
+register: aphorism
+claim_type: normative
+polarity: prescriptive
+conditionality: universal-ish
+life_domains: [faith, self]
+life_stages: [youth, young-adult, adult, midlife]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-1/05-near-eastern-abrahamic.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: >-
+  Report unit HW-01; report label attribution_confidence 'verified', normalised to
+  'attested' pending a primary check against a KJV edition. Report claim_type was dual
+  'metaphysical/normative'; re-derived to normative (the verse prescribes reverence as
+  the foundation of wisdom; its metaphysical grounding is implicit) — single-label
+  discipline, religious claim kept non-empirical. Report conditionality was
+  'universal-ish (within tradition)': the within-tradition scope qualifier is carried
+  here, and the fear-vs-love-as-motive fork (report FORK-4: Proverbs' fear-framing vs
+  Sufi/Sermon-on-the-Mount love-framing) is a live cross-tradition tension on this
+  unit. Report life_stages 'youth, adult' mapped to [youth, young-adult, adult,
+  midlife] under the schema's finer-grained enum. KJV 1611 wording; PD per report
+  source inventory.

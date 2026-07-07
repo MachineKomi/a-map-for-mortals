@@ -1,0 +1,37 @@
+id: u-0149
+claim_id: null
+type: Insight
+paraphrase: "Life is a brief, meaningless performance that signifies nothing."
+quotation: "Tomorrow, and tomorrow, and tomorrow, / Creeps in this petty pace from day to day / To the last syllable of recorded time; ... It is a tale / Told by an idiot, full of sound and fury, / Signifying nothing."
+quotation_translation: null   # English is the original language
+source:
+  author: William Shakespeare
+  work: Macbeth
+  passage: "Act 5, Scene 5"
+  translator: null
+  edition_year: null   # report cites Folger / MIT (Globe text); specific edition year not given
+  language: en
+  url: null
+  urn: null
+tradition: English Renaissance drama
+era: 1606
+register: poem
+claim_type: metaphysical
+polarity: descriptive
+conditionality: contested
+life_domains: [death, ambition, adversity, grief]
+life_stages: [adult]
+endorsement: undercut
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-1/07-literary.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report grade: verified (recorded; held at attested pending primary check). ENDORSEMENT=UNDERCUT — speaker is Macbeth, on hearing of Lady Macbeth's death as enemy armies close in and his crimes collapse around him; the play frames this nihilism as the terminal wage of choosing ambition over loyalty and love, NOT as Shakespeare's own metaphysics. Never flatten the irony. Report fork: ambition_vs_love. The 'tomorrow' speech is genuine Macbeth 5.5, unlike the many floating Shakespeare fakes ('Expectation is the root of all heartache' is confirmed NOT Shakespeare — watchlist). Ellipsis in quotation is the report's own elision of intervening lines. Original text PD (Folger/MIT)."

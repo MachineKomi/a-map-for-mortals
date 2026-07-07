@@ -1,0 +1,37 @@
+id: u-0066
+claim_id: null
+type: Insight
+paraphrase: "The 'criminal' and underground types reveal truths about the soul that respectable morality conceals."
+quotation: null            # no Dostoevsky verbatim held in the report
+quotation_translation: null
+source:
+  author: Dostoevsky
+  work: null   # report ties the unit to no specific novel; PD availability via Garnett translations
+  passage: null
+  translator: null
+  edition_year: null
+  language: ru
+  url: null
+  urn: null
+tradition: russian-literature
+era: 1875   # approximate; Dostoevsky 1821-1881 per report
+register: principle
+claim_type: observational
+polarity: descriptive
+conditionality: conditional
+life_domains: [knowledge, character]
+life_stages: []
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: unknown
+prov:
+  source_report: corpus/reports/wave-1/03-nietzsche.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report grade: verified (approval). Approved-precursor unit; approval evidence: 'Dostoiewsky, the only psychologist, by the way, from whom I had anything to learn: he ranks among the most beautiful strokes of fortune of my life.' (Twilight, 'Skirmishes' §45); Nietzsche adds he is grateful 'however much he goes against my deepest instincts'. CONDITIONALITY/TENSION (preserve, do not resolve): Nietzsche endorses the psychological insight and repudiates Dostoevsky's Christian conclusions — tension within convergence over Christianity and pity. No verbatim quotation held — copyright unknown."

@@ -1,0 +1,37 @@
+id: u-0126
+claim_id: null
+type: Insight
+paraphrase: "A human being is the weakest thing in nature, a mere reed — but a thinking reed: human dignity consists in thought, not in strength."
+quotation: "L'homme n'est qu'un roseau, le plus faible de la nature, mais c'est un roseau pensant."
+quotation_translation: null   # report holds French only; Trotter (1904) PD English exists but its wording is not held
+source:
+  author: Blaise Pascal
+  work: Pensées
+  passage: "Lafuma 200 / Sellier 231 / Brunschvicg 347"
+  translator: null
+  edition_year: 1670
+  language: fr
+  url: null
+  urn: null
+tradition: French Christian philosophy (Jansenist)
+era: 1670
+register: metaphor
+claim_type: metaphysical
+polarity: descriptive
+conditionality: universal-ish
+life_domains: [self, death, adversity]
+life_stages: [adult, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-1/06-modern-west.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report's confidence label: verified (downgraded to attested per S1 rules pending primary check). Claim about human nature and the ground of dignity — metaphysical, not empirical. The fragment continues: the universe can crush man, but man knows he dies and the universe knows nothing of it (continuation not quoted verbatim here — capture at primary verification). Cross-reference all three numbering systems per report."

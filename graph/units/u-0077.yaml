@@ -1,0 +1,49 @@
+id: u-0077
+claim_id: null
+type: Practice
+paraphrase: "Do not exploit the poor because they are powerless, nor oppress the afflicted in public proceedings; God is held to take up their cause."
+quotation: null   # original Hebrew not held in the report; capture at primary verification
+quotation_translation: "Rob not the poor, because he is poor: neither oppress the afflicted in the gate: For the LORD will plead their cause."
+source:
+  author: "anonymous (Hebrew wisdom tradition; traditionally attributed to Solomon)"
+  work: "Proverbs (Tanakh)"
+  passage: "22:22-23"
+  translator: "King James Version translators"
+  edition_year: 1611
+  language: he
+  url: null
+  urn: null
+tradition: Judaism
+era: -500   # editing spans 8th-3rd c. BCE per report; this section (22:17-24:22) adapts older Egyptian material
+register: principle
+claim_type: normative
+polarity: prescriptive
+conditionality: universal-ish
+life_domains: [justice, money]
+life_stages: [adult, midlife]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-1/05-near-eastern-abrahamic.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: >-
+  Report unit HW-04; report label attribution_confidence 'verified (borrowing from
+  Amenemope flagged)', normalised to 'attested' pending a primary check against a KJV
+  edition. Claim_type normative (a justice command; the divine-advocate warrant in
+  v.23 is metaphysical backing, kept non-empirical) — concurs with report. LINEAGE:
+  the report flags this passage as parallel to Instruction of Amenemope ch. 2
+  (Proverbs 22:17-24:22 shows Egyptian dependence) — INFLUENCED-edge candidate with
+  u-0087/u-0088 (Amenemope units). Watchlist relevance: the related Proverbs 22:20
+  'thirty sayings' reading rests on Erman's emendation (shilshom -> sheloshim) and is
+  scholarly conjecture, not settled text (Whybray, Shaw dissent) — the borrowing
+  thesis for this section is well-supported independently of that emendation. Report
+  life_stages 'adult' mapped to [adult, midlife] under the schema's finer-grained
+  enum. KJV 1611 wording; PD per report source inventory.

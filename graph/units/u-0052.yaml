@@ -1,0 +1,37 @@
+id: u-0052
+claim_id: null
+type: Insight
+paraphrase: "Because fortune can overturn any life before its end, count no one happy until the whole of their life is complete."
+quotation: null   # Greek not held in the report
+quotation_translation: "Count no man happy until he is dead."   # report flags this English as a compression, not a verbatim line — see notes
+source:
+  author: "Sophocles; precedent in Solon via Herodotus"
+  work: "Oedipus Rex (closing lines ~1528-1530); Herodotus, Histories 1.32 (Solon to Croesus)"
+  passage: "OT 1528ff; Hdt 1.32"
+  translator: "R.C. Jebb"
+  edition_year: null
+  language: grc
+  url: null
+  urn: null
+tradition: Classical tragedy / history
+era: -429   # Sophocles c. 429 BCE; Herodotus precedent c. 440 BCE (report's dating)
+register: poem
+claim_type: observational
+polarity: cautionary
+conditionality: contested
+life_domains: [fame, money, death, aging, adversity]
+life_stages: [adult, midlife, elder]
+endorsement: ambiguous
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: unknown   # the quoted English is a traditional compression, not established as any PD edition's wording (Jebb PD named only for the underlying text)
+prov:
+  source_report: corpus/reports/wave-1/02-greco-roman.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: probable (downgraded to attested per S1 rules). WORDING FLAG (kept per report): the exact English aphorism is a compression of Sophocles' closing chorus; the sentiment is securely in OT's final chorus and Herodotus 1.32; also echoed in Trachiniae's opening and Plutarch ('call no man fortunate until he is dead'). Endorsement 'ambiguous' is the minting agent's call (report gives no label): speaker is the closing chorus of Oedipus Rex — conventionally the play's summation, but Aristotle debates the maxim at NE I.10 and the OT closing-line numbers are report Stage-5 flagged as sourced secondhand. Report Stage-2 flag: ingest with a visible 'compression' marker."

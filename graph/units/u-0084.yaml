@@ -1,0 +1,51 @@
+id: u-0084
+claim_id: null
+type: Insight
+paraphrase: "A faithful friend is an irreplaceable, life-preserving good beyond price."
+quotation: null   # original Hebrew not held in the report; capture at primary verification
+quotation_translation: "Faithful friends are a sturdy shelter: whoever finds one has found a treasure... a faithful friend is beyond price."
+source:
+  author: "Ben Sira"
+  work: "Sirach (Ecclesiasticus)"
+  passage: "6:14-15"
+  translator: "Revised Standard Version"
+  edition_year: null
+  language: he
+  url: "https://www.inspirationsbygail.com/blog-1/2017/5/3/a-faithful-friend-is-a-sturdy-shelter-sirach-614"
+  urn: null
+tradition: Judaism
+era: -180   # Hebrew composition ~190-180 BCE per report; grandson's Greek ~132 BCE
+register: aphorism
+claim_type: observational
+polarity: descriptive
+conditionality: universal-ish
+life_domains: [friendship]
+life_stages: [young-adult, adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-1/05-near-eastern-abrahamic.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: >-
+  Report unit HW-14; report label attribution_confidence 'verified (deuterocanonical;
+  RSV in copyright - short quote only; for PD use KJV Apocrypha)', normalised to
+  'attested' pending a primary check. Report claim_type was dual
+  'observational/prudential'; re-derived to observational (descriptive praise of
+  faithful friendship, no imperative in the quoted lines); polarity descriptive
+  accordingly. COPYRIGHT: RSV is in copyright — short research quotation only; the
+  print gate requires the PD KJV Apocrypha rendering instead. Wording caution: the
+  report's quote text had two secondary web citation links embedded mid-quote
+  (inspirationsbygail.com, catholicbibles.blogspot.com); link markup removed here,
+  wording otherwise copied exactly including the report's ellipsis — verify against
+  an actual RSV (or swap to KJV Apocrypha) at S2. Composed in Hebrew ~190-180 BCE;
+  RSV renders the grandson's Greek (~132 BCE) — language field records the Hebrew
+  original. Report life_stages 'all' mapped to [young-adult, adult, midlife, elder]
+  following the extract's convention.

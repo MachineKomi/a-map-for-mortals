@@ -1,0 +1,37 @@
+id: u-0089
+claim_id: null
+type: Practice
+paraphrase: "Immortality is reserved for the gods; a mortal does well to embrace life's ordinary joys — food, festivity, the child's hand, the spouse's embrace — as the lot of humankind."
+quotation: null   # Akkadian not held by the report
+quotation_translation: "As for you, Gilgamesh, fill your belly with good things; day and night, night and day, dance and be merry, feast and rejoice... cherish the little child that holds your hand, and make your wife happy in your embrace; for this too is the lot of man."
+source:
+  author: "anonymous (Old Babylonian)"
+  work: Epic of Gilgamesh
+  passage: "Siduri's speech, Old Babylonian version"
+  translator: N. K. Sandars
+  edition_year: null
+  language: akk
+  url: "https://www.cs.utexas.edu/~vl/notes/gilgamesh.html"
+  urn: null
+tradition: Mesopotamian
+era: -1800
+register: poem
+claim_type: prudential
+polarity: prescriptive
+conditionality: contested
+life_domains: [death, joy, family, love]
+life_stages: [adult]
+endorsement: complicated
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-1/05-near-eastern-abrahamic.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: verified (Sandars in copyright). Character speech: Siduri the tavern-keeper counsels Gilgamesh mid-quest; report gives no endorsement label — set complicated: Gilgamesh rejects the advice in scene, but the epic's failed immortality quest arguably vindicates it. Editorial provenance flag (per report): this speech survives in the Old Babylonian version and is largely absent from the Standard Babylonian recension. Sandars is a prose 'version' and in copyright; PD fallback Muss-Arnolt 1901. Report's register 'poem/principle' narrowed to poem. Era approximate (OB ~1800 BCE). Convergence with Ecclesiastes 2:24 eat-drink-joy motif is lineage-suspect, partly NOT independent (report CONV-1)."

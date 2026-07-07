@@ -1,0 +1,37 @@
+id: u-0067
+claim_id: null
+type: Practice
+paraphrase: "To think well, be dry, clear, and without illusion."
+quotation: "Pour être bon philosophe, il faut être sec, clair, sans illusion."
+quotation_translation: "To be a good philosopher one must be dry, clear, without illusion."
+source:
+  author: Stendhal (quoted by Nietzsche)
+  work: Beyond Good and Evil
+  passage: "§39"
+  translator: Helen Zimmern
+  edition_year: 1907
+  language: fr   # Stendhal's French maxim, quoted within Nietzsche's German text
+  url: null
+  urn: null
+tradition: french-literature
+era: 1886   # year of the attesting text (BGE); Stendhal himself 1783-1842 per report
+register: aphorism
+claim_type: prudential
+polarity: prescriptive
+conditionality: conditional
+life_domains: [knowledge, truth]
+life_stages: [young-adult, adult, midlife]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-1/03-nietzsche.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report grade: verified. Approved-precursor unit: Nietzsche calls Stendhal 'France's last great psychologist' (BGE §39 and §254); in Twilight 'Skirmishes' §45 he ranks discovering Dostoevsky as a windfall 'more so than even my discovery of Stendhal'. Zimmern 1907 PD per report; line-match at S2. Conditionality: explicitly conditional on the aim ('To be a good philosopher...'). life_stages derived (extract gave none)."

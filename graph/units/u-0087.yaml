@@ -1,0 +1,51 @@
+id: u-0087
+claim_id: null
+type: Practice
+paraphrase: "Incline your ear to a teacher's words and take them to heart, so that they lodge within you."
+quotation: null   # original Egyptian not held in the report; hieroglyphic/transliterated text at primary verification if warranted
+quotation_translation: "Give thine ear, and hear what I say, And apply thine heart to apprehend."
+source:
+  author: "Amenemope (attributed)"
+  work: "Instruction of Amenemope"
+  passage: "ch. 1"
+  translator: "Pritchard (ed.), Ancient Near Eastern Texts (ANET), as cited by the report"
+  edition_year: null
+  language: egy
+  url: "https://en.wikipedia.org/wiki/Instruction_of_Amenemope"
+  urn: null
+tradition: Ancient Egyptian
+era: -1200   # Ramesside, ~1300-1075 BCE per report
+register: principle
+claim_type: prudential
+polarity: prescriptive
+conditionality: universal-ish
+life_domains: [speech, self]
+life_stages: [youth, young-adult]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-1/05-near-eastern-abrahamic.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: >-
+  Report unit ANE-03; report label attribution_confidence 'verified (ANET in
+  copyright; cited)', normalised to 'attested' pending a primary check. Claim_type
+  prudential (didactic counsel to the pupil) — concurs with report. WORDING/EDITION
+  CAUTION: the report credits Pritchard's ANET but its citation link is Wikipedia,
+  and the archaic diction ('thine', 'apprehend') is uncharacteristic of ANET's
+  modern English — the wording may actually derive from an older (possibly PD)
+  translation such as Griffith's; establish the real edition at S2.
+  Copyright_flag follows the report's in-copyright ANET credit conservatively; if
+  the wording proves PD, downgrade. LINEAGE: report flags this as the source of
+  Proverbs 22:17 ('Incline thine ear...') — INFLUENCED-edge candidate towards the
+  Proverbs 22:17-24:22 block (see u-0077); the related 'thirty sayings' reading of
+  Prov 22:20 rests on Erman's emendation and is scholarly conjecture, not settled
+  text. Report life_stages 'youth' mapped to [youth, young-adult] under the
+  schema's finer-grained enum.

@@ -1,0 +1,37 @@
+id: u-0141
+claim_id: null
+type: Practice
+paraphrase: "One who advances confidently in the direction of his dreams, and endeavours to live the life he has imagined, will tend to meet with unexpected success."
+quotation: "If one advances confidently in the direction of his dreams, and endeavors to live the life which he has imagined, he will meet with a success unexpected in common hours."
+quotation_translation: null   # English original
+source:
+  author: Henry David Thoreau
+  work: Walden
+  passage: "'Conclusion'"
+  translator: null
+  edition_year: 1854
+  language: en
+  url: null
+  urn: null
+tradition: American Transcendentalism
+era: 1854
+register: principle
+claim_type: prudential
+polarity: prescriptive
+conditionality: conditional
+life_domains: [ambition, work, authenticity, self]
+life_stages: [youth, adult]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-1/06-modern-west.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report confidence: verified. PD. MISATTRIBUTION WATCHLIST (report item 2): the popular 'Go confidently in the direction of your dreams! Live the life you've imagined.' is a paraphrase recast in imperative mood, not verbatim Thoreau — route a misattribution/paraphrase edge at S2; report flags it as a test case for the game's quote-verification mechanic. The genuine wording is conditional ('If one advances… he will meet'), preserved in paraphrase and conditionality."

@@ -1,0 +1,37 @@
+id: u-0110
+claim_id: null
+type: Insight
+paraphrase: "We all find strength enough to bear the misfortunes of others — a composure we never manage for our own."
+quotation: "Nous avons tous assez de force pour supporter les maux d'autrui."
+quotation_translation: null   # report holds no English wording
+source:
+  author: La Rochefoucauld
+  work: "Maximes (Réflexions ou sentences et maximes morales)"
+  passage: "no. 19 (1st ed. 1665, retained 1678)"
+  translator: null
+  edition_year: 1678
+  language: fr
+  url: null
+  urn: null
+tradition: french-moralist
+era: 1665
+register: aphorism
+claim_type: observational
+polarity: cautionary
+conditionality: conditional
+life_domains: [friendship, adversity, self]
+life_stages: [adult]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition — the report states it verified the wording against fr.Wikisource (Œuvres de La Rochefoucauld), which is secondary until a primary-edition check is logged"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-1/06-modern-west.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label 'verified' (report notes a fr.Wikisource check) -> attested per S1 rule; the report's check is recorded in verification.method but does not raise confidence at S1. Ironic maxim — the paraphrase keeps the barb about our composure towards others' suffering. Labels as re-derived match the report."

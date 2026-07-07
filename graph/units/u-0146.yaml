@@ -1,0 +1,37 @@
+id: u-0146
+claim_id: null
+type: Danger
+paraphrase: "Great evil is often committed not by monsters but by ordinary, thoughtless functionaries who fail to think about what they are doing — evil can be banal."
+quotation: "the banality of evil"
+quotation_translation: null   # English original (Eichmann in Jerusalem was written in English)
+source:
+  author: Hannah Arendt
+  work: "Eichmann in Jerusalem: A Report on the Banality of Evil"
+  passage: "subtitle and final analysis"
+  translator: null
+  edition_year: 1963
+  language: en
+  url: null
+  urn: null
+tradition: Modern political philosophy
+era: 1963
+register: argument
+claim_type: observational
+polarity: cautionary
+conditionality: contested
+life_domains: [society, self, work]
+life_stages: [adult]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-1/06-modern-west.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "RIGHTS-RESTRICTED, PARAPHRASE-ONLY (report rec. 3): Arendt IN COPYRIGHT — no long verbatim; only the four-word title phrase is held, and the print gate blocks it regardless. Report confidence: verified. Re-derivations: (1) claim_type observational, NOT the report's 'empirical' — the thesis is an interpretive generalisation from trial reportage, heavily contested among historians (e.g. Stangneth's Eichmann Before Jerusalem argues Eichmann's thoughtlessness was performance), not a systematically tested finding; per minting rule 2 an observational generalisation must not masquerade as empirical. (2) type Danger (report: Insight) — the unit's function is guarding against thoughtless conformity; cautionary polarity kept. Conditionality contested per report and per the historiography."

@@ -1,0 +1,37 @@
+id: u-0131
+claim_id: null
+type: Practice
+paraphrase: "Judge your own conduct by imagining how an impartial spectator — 'the man within the breast' — would view it."
+quotation: "It is reason, principle, conscience, the inhabitant of the breast, the man within, the great judge and arbiter of our conduct."
+quotation_translation: null   # original is English
+source:
+  author: Adam Smith
+  work: The Theory of Moral Sentiments
+  passage: "Part III, Ch. 3"
+  translator: null
+  edition_year: 1790
+  language: en
+  url: "https://knarf.english.upenn.edu/Smith/tms313.html"
+  urn: null
+tradition: Scottish Enlightenment
+era: 1759
+register: argument
+claim_type: normative
+polarity: prescriptive
+conditionality: universal-ish
+life_domains: [self, society, ambition]
+life_stages: [adult]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-1/06-modern-west.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report's confidence label: verified (downgraded to attested per S1 rules pending primary check). First edition 1759; the report recommends citing the 6th edition (1790, PD) — edition_year set to 1790, era to first publication 1759. Type kept as report's Practice (the impartial-spectator device is a usable self-audit technique); the quoted sentence itself is Smith's descriptive-normative argument for conscience as arbiter."

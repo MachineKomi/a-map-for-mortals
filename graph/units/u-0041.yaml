@@ -1,0 +1,37 @@
+id: u-0041
+claim_id: null
+type: Insight
+paraphrase: "The human good is activity of the soul in accordance with virtue, sustained over a complete life."
+quotation: null   # Greek of NE 1097b22-1098a20 not held in the report
+quotation_translation: "The good of man is an activity of the soul in accordance with virtue... in a complete life."
+source:
+  author: Aristotle
+  work: Nicomachean Ethics
+  passage: "Book I.7, 1097b22-1098a20 (Bekker)"
+  translator: W.D. Ross
+  edition_year: 1908
+  language: grc
+  url: null
+  urn: null
+tradition: Classical (Peripatetic)
+era: -340   # c. 340 BCE
+register: argument
+claim_type: normative
+polarity: descriptive
+conditionality: conditional
+life_domains: [self, work, fame]
+life_stages: [adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-1/02-greco-roman.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report grade: verified. The function argument: a normative account of the human good stated in descriptive form. Ellipsis in the quoted English is the report's own. Copyright: Ross (1908) PD per report."

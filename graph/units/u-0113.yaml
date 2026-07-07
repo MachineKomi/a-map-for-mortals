@@ -1,0 +1,37 @@
+id: u-0113
+claim_id: null
+type: Insight
+paraphrase: "Everything has already been said; coming this late in human history, originality can only be rephrasing inherited truth."
+quotation: "Tout est dit, et l'on vient trop tard depuis plus de sept mille ans qu'il y a des hommes et qui pensent."
+quotation_translation: null   # report holds no English wording
+source:
+  author: La Bruyère
+  work: "Les Caractères"
+  passage: "\"Des ouvrages de l'esprit,\" §1"
+  translator: null
+  edition_year: 1688
+  language: fr
+  url: "https://fr.wikisource.org/wiki/Les_Caract%C3%A8res/%C3%89dition_1696/Des_ouvrages_de_l%E2%80%99esprit"
+  urn: null
+tradition: french-moralist
+era: 1688
+register: aphorism
+claim_type: observational
+polarity: descriptive
+conditionality: contested
+life_domains: [work, ambition]
+life_stages: [adult]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-1/06-modern-west.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label 'verified' -> attested per S1 rule. URL is the report's fr.Wikisource link (1696 edition text); first edition 1688, eight editions to 1694. Van Laun (1885) PD English available. Labels as re-derived match the report."

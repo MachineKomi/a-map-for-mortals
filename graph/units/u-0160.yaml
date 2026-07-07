@@ -1,0 +1,37 @@
+id: u-0160
+claim_id: null
+type: Insight
+paraphrase: "Hope is an indestructible, undemanding presence within the self that sustains us in hardship."
+quotation: "\"Hope\" is the thing with feathers - / That perches in the soul - / And sings the tune without the words - / And never stops - at all -"
+quotation_translation: null   # English is the original language
+source:
+  author: Emily Dickinson
+  work: "\"Hope\" is the thing with feathers"
+  passage: "Fr314 / J254"
+  translator: null
+  edition_year: null   # poem text PD; Franklin (1998) / Johnson (1955) numbering cited for reference only — their editorial apparatus is in-copyright
+  language: en
+  url: null
+  urn: null
+tradition: American poetry
+era: 1861
+register: metaphor
+claim_type: observational
+polarity: descriptive
+conditionality: universal-ish
+life_domains: [adversity, self, grief]
+life_stages: [adult, youth]
+endorsement: endorsed
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-1/07-literary.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report grade: verified (held at attested pending primary check). Speaker: the poetic 'I' — a 'definition poem' metaphorising an abstract noun as a bird; no dramatic undercut (ENDORSEMENT=ENDORSED). COPYRIGHT NUANCE: the poem text is PD, but the 1955 Johnson and 1998 Franklin EDITIONS' editorial apparatus is (c) President & Fellows of Harvard College — cite the poem text, not the edited volume; Fr314/J254 numbering used for reference only. Era c.1861 (composition). Report fork: self_deception_vs_truth."

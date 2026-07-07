@@ -1,0 +1,37 @@
+id: u-0156
+claim_id: null
+type: Insight
+paraphrase: "Society treats a wealthy single man as obliged to marry — a 'universal truth' that in fact exposes the economic pressure on women to secure husbands."
+quotation: "It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife."
+quotation_translation: null   # English is the original language
+source:
+  author: Jane Austen
+  work: Pride and Prejudice
+  passage: "Ch. 1 (opening)"
+  translator: null
+  edition_year: 1813
+  language: en
+  url: null
+  urn: null
+tradition: English novel
+era: 1813
+register: aphorism
+claim_type: observational
+polarity: descriptive
+conditionality: contested
+life_domains: [love, money, family, marriage]
+life_stages: [youth, adult]
+endorsement: undercut
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-1/07-literary.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report grade: verified (held at attested pending primary check). Speaker: the Narrator in free indirect style, ventriloquising Mrs. Bennet's worldview; the next paragraph immediately narrows the 'universal truth' to the property-hunting of 'surrounding families'. ENDORSEMENT=UNDERCUT — the report's flagship irony case: possibly the most celebrated ironic sentence in the English novel, meaning close to the OPPOSITE of its literal claim (the eighteenth-century formula 'It is a truth universally acknowledged' conventionally opened a philosophical premise, a la Hume/Berkeley). The narrator states it; the book dismantles it. Never flatten the irony or print as straight advice. Pairs with Elizabeth's 'till this moment I never knew myself' (Ch. 36) for the self-deception fork (future pass). First edition 1813 / Standard Ebooks, PD. Report fork: ambition_vs_love."

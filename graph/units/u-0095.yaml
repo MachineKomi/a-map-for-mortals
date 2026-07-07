@@ -1,0 +1,37 @@
+id: u-0095
+claim_id: null
+type: Practice
+paraphrase: "Do not be anxious about material provision; trust providence, and let each day carry its own trouble."
+quotation: null   # Greek not held by the report
+quotation_translation: "Consider the lilies of the field, how they grow; they toil not, neither do they spin... Take therefore no thought for the morrow: for the morrow shall take thought for the things of itself."
+source:
+  author: "Jesus of Nazareth (as recorded in the Gospel of Matthew)"
+  work: "Gospel of Matthew (Sermon on the Mount)"
+  passage: "6:28,34"
+  translator: King James Version
+  edition_year: 1611
+  language: grc
+  url: null
+  urn: null
+tradition: Christian
+era: 80
+register: parable
+claim_type: normative
+polarity: prescriptive
+conditionality: contested
+life_domains: [anxiety, money, work, faith]
+life_stages: [young-adult, adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-1/05-near-eastern-abrahamic.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: verified. KJV 1611, PD. Report's claim_type 'normative/metaphysical' narrowed to normative — the counsel is normative, grounded in a metaphysical providence claim (never empirical). Report's register 'parable/principle' narrowed to parable. Strong-providence pole of FORK-6 (submission vs striving), against 'tie your camel' (Tirmidhi 2517) and Avot 2:16; report T-5. Era approximate (Matthew ~70-90 CE)."

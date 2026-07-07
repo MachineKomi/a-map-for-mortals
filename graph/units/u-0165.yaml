@@ -1,0 +1,37 @@
+id: u-0165
+claim_id: null
+type: Consequence
+paraphrase: "Within a country, richer people report being happier than poorer people, yet national average happiness may not rise as GDP grows over the long run (the Easterlin paradox) — a contested macro finding, countered by evidence that well-being rises log-linearly with GDP per capita with no satiation point."
+quotation: null
+quotation_translation: null
+source:
+  author: "Easterlin"
+  work: null   # report cites 'Easterlin 1974; updated 2010, PNAS' without giving paper titles
+  passage: null
+  translator: null
+  edition_year: 1974
+  language: en
+  url: null
+  urn: null
+tradition: empirical
+era: 1974
+register: null   # empirical finding; no register in the form library fits
+claim_type: empirical
+polarity: descriptive
+conditionality: contested
+life_domains: [money, happiness, society]
+life_stages: [adult]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: unknown   # no verbatim quotation held; paraphrase only
+prov:
+  source_report: corpus/reports/wave-1/08-empirical.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report finding F6 (report confidence: grade-D/E; extract replication label: contested). Evidence grade D/E for any strong claim either way — contested macro time-series; the report marks the debate unresolved ('What We Do Not Know' item 2). Effect sizes as the report gives them: none — contested; Easterlin (1974; updated 2010, PNAS): within a country richer people are happier, but national average happiness does not rise with long-run GDP growth, implying relative income matters; Stevenson & Wolfers (2008, Brookings Papers) counter that subjective well-being rises approximately log-linearly with GDP per capita across and within countries with no satiation point (report link: https://ideas.repec.org/p/iza/izadps/dp3654.html). Replication status: unresolved dispute; neither side established. QUALIFIES 'wealth doesn't make nations happier'. Cross-national data. Re-derivation: extract typed this Insight; minted as Consequence per S1 rule 8 (empirical units typed by function); conditionality: contested per the report's own framing. No verbatim quotation held; paraphrase only."

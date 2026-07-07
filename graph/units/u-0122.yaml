@@ -1,0 +1,37 @@
+id: u-0122
+claim_id: null
+type: Insight
+paraphrase: "Having a spouse and children binds one's fate to fortune and tends to make a person cautious about great undertakings, good or bad."
+quotation: "He that hath wife and children hath given hostages to fortune; for they are impediments to great enterprises, either of virtue or mischief."
+quotation_translation: null   # original is English
+source:
+  author: Francis Bacon
+  work: "Essays (Essayes or Counsels, Civill and Morall)"
+  passage: "Of Marriage and Single Life"
+  translator: null
+  edition_year: 1625
+  language: en
+  url: null   # report's only link is a secondary journal PDF (cribfb.com), not an edition — omitted
+  urn: null
+tradition: English essayists
+era: 1625
+register: aphorism
+claim_type: observational
+polarity: cautionary
+conditionality: contested
+life_domains: [love, work, ambition, money]
+life_stages: [young-adult, adult]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-1/06-modern-west.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report's confidence label: verified (downgraded to attested per S1 rules pending primary check). Per the report (citing the 1999 Oxford Dictionary of Quotations), this is the earliest known printed use of the phrase 'hostages to fortune'. Re-derivation difference: report's life_stages were [adult, parenthood]; 'parenthood' is not a valid life_stage in the schema — mapped to [young-adult, adult], with the family dimension carried by life_domains [love]. The claim is contested counsel about marriage/ambition trade-offs, not a destiny."

@@ -1,0 +1,37 @@
+id: u-0145
+claim_id: null
+type: Virtue
+paraphrase: "Attention, given fully to another, is the rarest and purest form of generosity."
+quotation: null   # French original not held in the report
+quotation_translation: "Attention is the rarest and purest form of generosity."
+source:
+  author: Simone Weil
+  work: "notebooks/letters (cited in First and Last Notebooks / Gravity and Grace)"
+  passage: null   # report's citation is not page-level; upgrade trigger pending
+  translator: null
+  edition_year: null
+  language: fr
+  url: null
+  urn: null
+tradition: Modern French Christian mysticism
+era: 1942
+register: aphorism
+claim_type: normative
+polarity: prescriptive
+conditionality: contested
+life_domains: [self, friendship, society]
+life_stages: [adult]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-1/06-modern-west.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "RIGHTS-RESTRICTED, PARAPHRASE-ONLY (report rec. 3): Weil d. 1943, works posthumous (1947+), English translations IN COPYRIGHT — do not publish verbatim until licensing cleared or PD entry; the single short line above is held for research/audit only and is print-blocked by the gate regardless. Report confidence: PROBABLE (not verified) — attribution_confidence set to attested per minting rule 1; report's upgrade trigger: promote only after a page-level primary citation is logged (listed alongside Chamfort 'crapaud' and Joubert 'kind words'). The precise source (notebook vs. letter) is unresolved in the report; source.work carries that uncertainty verbatim. Era approximate (composition c. 1940-43)."

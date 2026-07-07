@@ -1,0 +1,37 @@
+id: u-0136
+claim_id: null
+type: Insight
+paraphrase: "Pleasures differ in quality, not merely quantity: those acquainted with both prefer the higher (intellectual and moral) pleasures even at the price of discontent — better a dissatisfied Socrates than a satisfied fool."
+quotation: "It is better to be a human being dissatisfied than a pig satisfied; better to be Socrates dissatisfied than a fool satisfied. And if the fool, or the pig, are of a different opinion, it is because they only know their own side of the question."
+quotation_translation: null   # English original
+source:
+  author: John Stuart Mill
+  work: Utilitarianism
+  passage: "Ch. 2, 'What Utilitarianism Is'"
+  translator: null
+  edition_year: 1863   # book edition; first serialised in Fraser's Magazine, 1861
+  language: en
+  url: null
+  urn: null
+tradition: British utilitarianism
+era: 1861
+register: argument
+claim_type: normative
+polarity: prescriptive
+conditionality: contested
+life_domains: [happiness, self, knowledge]
+life_stages: [adult]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-1/06-modern-west.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report confidence: verified. PD (Mill, 1861/1863). Era set to 1861 (serial publication in Fraser's Magazine) per report; book 1863. Report's Duty-vs-Happiness fork notes Mill's 'higher pleasures' smuggle duty-like rankings into the concept of happiness, blurring the Kant/Mill divide — preserve as conditionality: contested."
