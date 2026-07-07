@@ -275,8 +275,37 @@ def form_comparison_columns(spec, g):
 
 
 def form_node_card(spec, g):
-    """Wisdom-node card: claim, voices, where it bends, robustness pill; optional evidence strip."""
+    """Wisdom-node card: claim, voices, where it bends, robustness pill; optional evidence strip.
+    With `card_claim: c-xxxx` on the spec, the kicker, claim label and trust pill are
+    DERIVED from the store (claim fields + the member unit's verification) so the card's
+    machine-looking labels can never drift from the graph."""
     c = spec["copy"]
+    cid = spec.get("card_claim")
+    if cid:
+        cl = g.claims.get(cid)
+        if cl is None or cl.get("status") != "adjudicated":
+            raise PrintGateError(f"CLAIM GATE: card_claim {cid} missing or not adjudicated (page {spec['id']})")
+        kicker = f"WISDOM NODE · {str(cl.get('claim_type', '')).upper()} · {str(cl.get('conditionality', '')).upper()}"
+        claim_label = cl["canonical_claim"]
+        u = g.unit_for(cid)
+        v = u.get("verification") or {}
+        src = u.get("source", {})
+        if v.get("status") == "verified-primary" and src.get("translator"):
+            checked = f"text checked to {src['translator']} {src.get('edition_year', '')}".strip()
+        elif v.get("status") == "verified-primary":
+            checked = "text checked to a primary edition"
+        else:
+            checked = f"wording {v.get('status', 'unverified')}"
+        n = len(cl.get("member_units") or [])
+        pill = f"{checked} · {n} source voice{'s' if n != 1 else ''} behind this claim in the corpus · see where it bends"
+        if g.trace_sink is not None:
+            g.trace_sink["blocks"].append({"type": "derived-card-furniture", "claim": cid,
+                                           "kicker": kicker, "pill": pill})
+    else:
+        kicker, claim_label, pill = c["kicker"], c["claim_label"], c["pill"]
+    bend = c["bend"]
+    if isinstance(bend, list):
+        bend = " ".join(bend)
     voices = "".join(
         f'<div class="voice"><div class="vname">{esc(v["name"])}</div>'
         f'<div class="vmeta">{esc(v["meta"])}</div>'
@@ -285,11 +314,11 @@ def form_node_card(spec, g):
     if c.get("evidence"):
         items = "".join(f'<div class="erow"><span class="edot"></span><p>{esc(e)}</p></div>' for e in c["evidence"])
         ev = f'<div class="estrip"><div class="ehead">{esc(c.get("evidence_head", "What the studies add"))}</div>{items}</div>'
-    return (f'<div class="card"><div class="card-sub">{esc(c["kicker"])}</div>'
-            f'<div class="claim">{esc(c["claim_label"])}</div>'
+    return (f'<div class="card"><div class="card-sub">{esc(kicker)}</div>'
+            f'<div class="claim">{esc(claim_label)}</div>'
             f'<div class="voices">{voices}</div>'
-            f'<div class="bend"><span class="bend-h">Where it bends · </span>{esc(c["bend"])}</div>{ev}'
-            f'<div class="pillrow"><span class="rpill">{esc(c["pill"])}</span></div></div>')
+            f'<div class="bend"><span class="bend-h">Where it bends · </span>{esc(bend)}</div>{ev}'
+            f'<div class="pillrow"><span class="rpill">{esc(pill)}</span></div></div>')
 
 
 def form_ladder(spec, g):
@@ -389,7 +418,7 @@ def render_traced_prose(spec, g):
 # Copy keys whose bare strings are visual furniture, not claim-bearing prose. Everything
 # else on a `traced: true` page must arrive as {editorial: ...} or {assert: a-xxxx} —
 # an unwrapped substantive string fails the build rather than slipping past adjudication.
-FURNITURE_KEYS = {"eyebrow", "title", "landmarks"}  # landmarks = the journey-map's fork labels, i.e. the following pages' titles
+FURNITURE_KEYS = {"eyebrow", "title", "landmarks", "name"}  # landmarks = the journey-map's fork labels (the following pages' titles); name = a voice's source name (locator)
 
 
 def resolve_copy(node, g, ctx, key=None):
@@ -410,6 +439,13 @@ def resolve_copy(node, g, ctx, key=None):
             ctx["trace"]["blocks"].append({"type": "editorial", "field": key, "chars": len(node["editorial"])})
             ctx["page_text"].append(node["editorial"])
             return node["editorial"]
+        if "claim" in node and set(node) <= {"claim"}:
+            cl = g.claims.get(node["claim"])
+            if cl is None or cl.get("status") != "adjudicated":
+                raise PrintGateError(f"CLAIM GATE: {node['claim']} missing or not adjudicated (page {ctx['trace']['page']})")
+            ctx["trace"]["blocks"].append({"type": "claim-render", "id": cl["id"], "field": key, "status": cl["status"]})
+            ctx["page_text"].append(cl["canonical_claim"])
+            return cl["canonical_claim"]
         return {k: resolve_copy(v, g, ctx, key=k) for k, v in node.items()}
     if isinstance(node, list):
         return [resolve_copy(v, g, ctx, key=key) for v in node]

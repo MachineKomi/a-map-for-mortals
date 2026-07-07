@@ -1,0 +1,63 @@
+page: by-030-judgment
+form: node-card
+edition: building-years-v0.1.1
+blocks:
+- type: editorial
+  field: intro
+  chars: 168
+- type: editorial
+  field: meta
+  chars: 34
+- type: assertion:source-summary
+  id: a-0008
+  field: gloss
+  sources:
+    claim_refs:
+    - c-0002
+  adjudication:
+  - ops/adjudications/2026-07-07-gateE-by030.md
+  status: approved-for-package-01v2
+- type: editorial
+  field: meta
+  chars: 37
+- type: assertion:relation-summary
+  id: a-0009
+  field: gloss
+  sources:
+    claim_refs:
+    - c-0001
+    - c-0002
+    relation_refs:
+    - e-0018
+  adjudication:
+  - ops/adjudications/2026-07-07-gateE-by030.md
+  status: approved-for-package-01v2
+- type: editorial
+  field: bend
+  chars: 177
+- type: assertion:historical-interpretive
+  id: a-0010
+  field: bend
+  sources:
+    claim_refs:
+    - c-0001
+  adjudication:
+  - ops/adjudications/2026-07-07-gateE-by030.md
+  status: approved-for-package-01v2
+- type: editorial
+  field: caption
+  chars: 85
+- type: verbatim-quote
+  claim: c-0002
+  unit: u-0002
+  gate:
+    attribution: verified-primary
+    copyright: public-domain
+    checked_against: https://www.gutenberg.org/cache/epub/15877/pg15877.txt · Thoughts of Marcus Aurelius Antoninus,
+      trans. George Long, Proj
+  excerpted: false
+- type: derived-card-furniture
+  claim: c-0002
+  kicker: WISDOM NODE · PRUDENTIAL · CONDITIONAL
+  pill: text checked to George Long 1862 · 1 source voice behind this claim in the corpus · see where it bends
+furniture_strings: 4

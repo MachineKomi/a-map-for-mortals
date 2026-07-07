@@ -2,6 +2,8 @@ id: by-030-judgment
 stage: building-years
 sequence: 30
 form: node-card
+traced: true
+card_claim: c-0002
 refs: [c-0002, c-0001]
 verbatim_quotes: [c-0002]
 register: {reading_level: adult, density: mid, colour_energy: mid}
@@ -9,13 +11,17 @@ copy:
   eyebrow: "FORK ONE · THE ENGINE UNDERNEATH"
   title: "The weight is partly a verdict"
   intro:
-    - "Underneath the division of labour sits a stranger claim: that much of what crushes is not the event but the sentence we pass on it. Marcus Aurelius, writing to himself in an army camp:"
-  kicker: "WISDOM NODE · PRUDENTIAL · CONDITIONAL"
-  claim_label: "Disturbance comes from judgments about things, not from the things themselves."
+    - editorial: "Underneath the division of labour sits a stranger claim: that much of what crushes is not the event but the sentence we pass on it. Marcus Aurelius, writing to himself:"
   voices:
-    - {name: "Marcus Aurelius", meta: "Meditations 4.7 · text checked to Long 1862", gloss: "Withdraw the opinion of harm, he tells himself, and the complaint falls with it."}
-    - {name: "Epictetus", meta: "Enchiridion · the parent claim", gloss: "The judgment is listed first among the things that are ours — before impulse, before desire."}
-  bend: "This is counsel for the weight you must carry anyway, not a licence to call real injuries imaginary. Taken neat, it curdles into gaslighting yourself — some complaints are true. And the strict two-way split is contested: much of life is neither ours nor not-ours, but partly influenced."
-  pill: "text checked to Long 1862 · one voice in this corpus — scope narrow · contested at the margin"
-  caption: "A wisdom-node card: one claim, its voices, where it bends, and an honest trust label."
-notes: "Node-card form (§6 D). Marcus's verbatim wording enters through the declared verbatim_quotes gate; voice glosses are paraphrase only (external-review repair 2026-07-07)."
+    - name: "Marcus Aurelius"
+      meta: {editorial: "Meditations 4.7 · trans. Long 1862"}
+      gloss: {assert: a-0008}
+    - name: "Epictetus"
+      meta: {editorial: "Enchiridion 1 · trans. Higginson 1865"}
+      gloss: {assert: a-0009}
+  bend:
+    - editorial: "This is counsel for the weight you must carry anyway, not a licence to call real injuries imaginary. Taken neat, it curdles into gaslighting yourself — some complaints are true."
+    - assert: a-0010
+  caption:
+    editorial: "A wisdom-node card: one claim, its voices, where it bends, and an honest trust label."
+notes: "Node-card form (§6 D). Migrated at Gate E (ops/adjudications/2026-07-07-gateE-by030.md): kicker/claim-label/pill now DERIVED from c-0002 + u-0002 via card_claim (cannot drift from the store); glosses and the contested-boundary claim are gated assertions a-0008..a-0010; the unsupported 'in an army camp' detail removed. Marcus's verbatim wording enters through the declared verbatim_quotes gate."
