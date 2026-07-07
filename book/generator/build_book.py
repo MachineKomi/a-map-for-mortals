@@ -45,6 +45,7 @@ class PrintGateError(RuntimeError):
 class Graph:
     def __init__(self):
         self.units, self.claims, self.assertions = {}, {}, {}
+        self.trace_sink = None  # set per-page by render_page so any quote/assertion resolved anywhere (incl. inside form builders) lands in that page's trace
         for d, store in (("units", self.units), ("claims", self.claims)):
             p = os.path.join(ROOT, "graph", d)
             for f in sorted(os.listdir(p)):
@@ -104,6 +105,13 @@ class Graph:
             credit += f" {s['passage']}"
         if s.get("translator"):
             credit += f" · trans. {s['translator']}"
+        if self.trace_sink is not None:
+            self.trace_sink["blocks"].append({
+                "type": "verbatim-quote", "claim": cid, "unit": u["id"],
+                "gate": {"attribution": conf, "copyright": flag,
+                         "checked_against": (u.get("verification") or {}).get("checked_against", "")[:120]},
+                "excerpted": bool(excerpt)})
+            self.trace_sink["_page_text"].append(text)
         return text, credit
 
 
@@ -378,7 +386,57 @@ def render_traced_prose(spec, g):
     return "".join(body), trace
 
 
+# Copy keys whose bare strings are visual furniture, not claim-bearing prose. Everything
+# else on a `traced: true` page must arrive as {editorial: ...} or {assert: a-xxxx} —
+# an unwrapped substantive string fails the build rather than slipping past adjudication.
+FURNITURE_KEYS = {"eyebrow", "title"}
+
+
+def resolve_copy(node, g, ctx, key=None):
+    """Recursively resolve a page-spec copy tree for a traced page.
+    {assert: a-xxxx} -> approved assertion text (gated); {editorial: "..."} -> the string,
+    recorded as editorial voice. Bare strings survive only under FURNITURE_KEYS."""
+    if isinstance(node, dict):
+        if "assert" in node and set(node) <= {"assert", "as"}:
+            a = g.approved_assertion(node["assert"])
+            ctx["used_assertions"].append(a)
+            ctx["trace"]["blocks"].append({
+                "type": f"assertion:{a.get('kind')}", "id": a["id"], "field": key,
+                "sources": {k: a.get(k) for k in ("claim_refs", "interpretation_refs", "relation_refs", "dossier_ref") if a.get(k)},
+                "adjudication": a.get("adjudication_refs"), "status": a.get("status")})
+            ctx["page_text"].append(a["text"])
+            return a["text"]
+        if "editorial" in node and set(node) <= {"editorial"}:
+            ctx["trace"]["blocks"].append({"type": "editorial", "field": key, "chars": len(node["editorial"])})
+            ctx["page_text"].append(node["editorial"])
+            return node["editorial"]
+        return {k: resolve_copy(v, g, ctx, key=k) for k, v in node.items()}
+    if isinstance(node, list):
+        return [resolve_copy(v, g, ctx, key=key) for v in node]
+    if isinstance(node, str):
+        if key in FURNITURE_KEYS:
+            ctx["furniture"] += 1
+            ctx["page_text"].append(node)
+            return node
+        raise PrintGateError(
+            f"UNTRACED COPY: bare string under '{key}' on traced page {ctx['trace']['page']} - "
+            f"wrap it as {{editorial: ...}} or {{assert: a-xxxx}}: '{node[:60]}'")
+    return node
+
+
 def render_page(spec, g):
+    """Render a non-traced-prose page. Returns (html, trace-or-None).
+    Pages marked `traced: true` resolve every copy string from graph objects or
+    declared editorial voice, emit a trace, and pass the prohibited-phrase sweep."""
+    traced = bool(spec.get("traced"))
+    trace = None
+    if traced:
+        ctx = {"trace": {"page": spec["id"], "form": spec.get("form"), "edition": EDITION, "blocks": []},
+               "used_assertions": [], "page_text": [], "furniture": 0}
+        trace = ctx["trace"]
+        trace["_page_text"] = ctx["page_text"]        # shared with g.trace_sink for quote text
+        g.trace_sink = trace
+        spec = dict(spec, copy=resolve_copy(spec.get("copy", {}), g, ctx))
     c = spec.get("copy", {})
     body = [f'<div class="page" id="{esc(spec["id"])}">']
     if c.get("eyebrow"):
@@ -402,7 +460,17 @@ def render_page(spec, g):
     if c.get("lesson"):
         body.append(f'<div class="lesson">{esc(c["lesson"])}</div>')
     body.append('</div>')
-    return "".join(body)
+    if traced:
+        g.trace_sink = None
+        approved_texts = [a["text"].lower() for a in ctx["used_assertions"]]
+        unapproved = " ".join(s for s in ctx["page_text"] if s.lower() not in approved_texts).lower()
+        for a in ctx["used_assertions"]:
+            for ph in a.get("prohibited_phrasings") or []:
+                if ph.lower() in unapproved:
+                    raise PrintGateError(f"ASSERTION GATE: prohibited phrasing '{ph}' (per {a['id']}) appears in unapproved page text on {spec['id']}")
+        trace["furniture_strings"] = ctx["furniture"]
+        del trace["_page_text"]
+    return "".join(body), trace
 
 
 # ---------------------------------------------------------------- css
@@ -525,10 +593,11 @@ def main():
         for s in specs:
             if s.get("form") == "traced-prose":
                 html_page, trace = render_traced_prose(s, g)
-                pages.append(html_page)
-                traces.append(trace)
             else:
-                pages.append(render_page(s, g))
+                html_page, trace = render_page(s, g)
+            pages.append(html_page)
+            if trace:
+                traces.append(trace)
     except PrintGateError as e:
         print(str(e))
         return 1
