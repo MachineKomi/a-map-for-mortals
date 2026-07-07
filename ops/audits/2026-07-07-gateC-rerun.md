@@ -91,9 +91,27 @@ sample missed — which is exactly the point of the quarantine rule the original
   tagged metaphysical/normative, never empirical. The batch was **stronger** than the weak-layer
   prior predicted.
 
-### w1 06-modern-west (53 units) — full re-audit DISPATCHED (in progress)
-Triggered by u-0120. Focus: the u-0104–u-0148 discovery-corpus subset (u-0013–u-0025 already
-S2-verified). Results and remediation to be appended.
+### w1 06-modern-west (53 units) — COMPLETE: 1 material (already quarantined), 0 new false fields
+Triggered by u-0120. Full re-audit of u-0104–u-0148 (u-0013–u-0025 spot-checked, solid).
+- **u-0120** (Joubert "kind words") — the one confirmed material defect, and it was **already
+  correctly disclosed and quarantined** earlier this session (back-translation + Pascal-
+  misattribution flags in verification.method and notes; copyright unknown; no locator). No new
+  action beyond the Gate F queue.
+- **u-0147** (Camus "imagine Sisyphus happy", trans. O'Brien) — translator↔wording pairing
+  unverified (consistent with O'Brien documentarily, not primary-confirmed); in-copyright and
+  print-blocked, so no false-print consequence. **Flagged** for Gate F translator confirmation.
+- **No other false-translator or back-translation defects.** Original-language units correctly hold
+  `translator: null`; the two populated translator fields (Schopenhauer/Saunders) are correct. The
+  minting was often *better* than the report (correct claim_type downgrades: Hume, Arendt →
+  observational; apocryphal u-0105 print-locked). Many Gate F line-matches queued (locators,
+  aggregator URLs, ellipsis restorations) but these are disclosed, not defects.
+
+**Gate C rerun status: the three quarantined batches are now fully re-audited.** Confirmed material
+defects remediated (u-0058, u-0060, u-0302, u-0303) or already-quarantined (u-0120); the two
+lead-overturned observed-triggers (u-0200, u-0345) stand with reasons preserved. Residual work is
+Gate F primary line-matches (a standing queue), not open quarantines. **Gate C can move from
+"invalid/rerun-required" to "rerun complete; residual verification tracked at Gate F"** — the honest
+calibration now exists and the process gap (commit per-unit verdicts) is fixed going forward.
 
 ## What the quarantine mechanism proved
 The 10% sample found u-0057/u-0065 in Nietzsche; the full re-audit found **u-0058 and u-0060 too** —

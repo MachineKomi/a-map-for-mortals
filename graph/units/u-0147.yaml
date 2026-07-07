@@ -25,7 +25,7 @@ endorsement: n/a
 attribution_confidence: attested
 verification:
   status: pending-primary
-  method: "attested by wave-1 report; wording not yet checked against a primary edition"
+  method: "attested by wave-1 report; wording not yet checked against a primary edition. GATE C RERUN FLAG (2026-07-07): translator 'Justin O'Brien' <-> held wording pairing is unverified (documentary review finds it consistent with O'Brien's 1955 rendering, but not primary-confirmed) — confirm at Gate F before the field is trusted. Print risk nil regardless: in-copyright, print-blocked."
   checked_against: null
   date: null
 copyright_flag: in-copyright
