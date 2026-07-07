@@ -71,9 +71,18 @@ Flag thin cells — the book is ordered by life-stage (SPEC §8), so each stage 
 | ~~P1~~ | ~~Women's voices across eras~~ | FED by wave-2/04 (28 units); residual thinness: Mirabai, Edith Stein, elder voices | closed 2026-07-07 |
 | P1→P2 | Child + elder life-stages | partially FED by wave-2/05 (5 read-aloud child + 8 elder units); still the thinnest stages — keep feeding via depth passes (Confucian filial piety, more read-aloud material) | reduced 2026-07-07 |
 | ~~P2~~ | ~~Persian/Zoroastrian; practical/strategic; world proverbs~~ | FED by wave-2/06, /07, /08 | closed 2026-07-07 |
+| **P0** | **Modern life & contemporary thinkers (WAVE-3)** | **The corpus is rich in ancient/pre-20thC wisdom and thin on the questions that define a contemporary life — technology, attention, the long future, meaning in a secular age, the modern science of judgement. Named request: Harari, Bostrom, and that vein.** | **prompts ready** (`prompts/deep-research/wave-3-modern-thinkers.md`, 5 queries); outputs → `corpus/reports/wave-3/`; **in-copyright → transformative paraphrase-first discipline (see prompt)** |
 | P2 | Non-Western + 20th-century literature | 07-literary is canon-Western, pre-1900 | queued |
 | P2 | Islamic doctrinal & Talmudic reasoning depth | 05 leans Sufi-poetic; jurisprudential ethics and disputational wisdom absent | queued |
 | P2 | Depth passes (Epictetus, Analects, Gita, Shakespeare…) | surveys aren't the digging | from reports' §C/§G |
+
+**Wave-3 modern-thinker facets (planned — one report each, `contemporary/*` tradition tag):**
+`big-history` (3a: Harari · Diamond) · `existential-risk` (3b: Bostrom · Ord · MacAskill · Russell) ·
+`attention-economy` (3c: Newport · Odell · Burkeman · Turkle · Haidt-critically) · `secular-meaning`
+(3d: Frankl · Becker · Taylor · Wolf · Appiah · Singer) · `judgement-science` (3e: Kahneman · Gilbert
+· Schwartz · Duckworth-critically — overlaps report 08, flag for merge). Copyright discipline is
+mandatory: `original_quote` null-by-default, `copyright_flag: in-copyright`, ideas carried as
+own-words `canonical_claim`; the print gate then bars verbatim automatically.
 
 ### P1 validation log (2026-07-06)
 All 7 landed reports passed shape validation (independent fresh-context review per report; method disclosed: reviewer shares model weights with pipeline). Common findings: all six expected sections present in every content report; misattribution watchlists uniformly strong (13 Greco-Roman, 10 Nietzsche, 7 Abrahamic, 10 modern-West, 8 literary cases); no fabricated citations detected on sampling (empirical report's 5 most-load-bearing citations verified against originals); locator quality high (standard scholarly numbering throughout). Recurring caveats to carry into ingestion (S1/S2): (1) reports' own "verified" labels are **claims, not verifications** — everything enters `attested` per METHODOLOGY §2 regardless of report labels; (2) several units flagged by the reports themselves as needing primary-text confirmation (e.g. 4 Ludovici-translation Nietzsche quotes, Wordsworth + Grand Inquisitor units in 07); (3) translation copyright must be tracked at unit level (Kaufmann, P&V, Fagles, Nicholson etc. in copyright; PD alternatives named per report); (4) all content reports lean adult/midlife — child/elder chapters underfed.
