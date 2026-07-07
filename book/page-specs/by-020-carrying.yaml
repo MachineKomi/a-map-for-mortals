@@ -10,7 +10,7 @@ copy:
   title: "Do what is yours. Release the rest."
   intro:
     - "The heaviest loads of these years — the mortgage, the marriage, the child, the work — are exactly the ones whose outcomes you least control. Voices centuries apart — some plausibly independent, one openly inheriting — keep arriving at a similar division of labour."
-  claim_label: "Act where your agency runs.\nEntrust what lies beyond it."
+  claim_label: "A shared motif — not one claim:\nact where agency runs;\nentrust the rest."
   voices:
     - {name: "Epictetus", meta: "Stoic · c. 108 CE", independence: partial}
     - {name: "Rabbi Tarfon", meta: "Mishnah, Avot · c. 200 CE", independence: partial}

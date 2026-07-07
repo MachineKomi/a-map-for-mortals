@@ -2,7 +2,7 @@ id: by-080-help
 stage: building-years
 sequence: 80
 form: prose
-refs: [c-0012, c-0024, c-0025, c-0033]
+refs: [c-0012, c-0024, c-0025]
 register: {reading_level: adult, density: mid, colour_energy: mid}
 verbatim_quotes:
   - c-0012
@@ -14,6 +14,6 @@ copy:
   intro:
     - "The Building Years are the raising years — of children, of juniors, of whatever you will one day hand over. Two voices, eight centuries apart and with no documented link, both refuse the easy, warm-feeling gift — though they aim at different targets."
   outro:
-    - "Maimonides ranks the gift that strengthens — the loan, the partnership, the job that ends the asking — above every warmer-feeling kind; anonymity is a separate rung below. Zosima aims elsewhere: at the giver's endurance, love as labour rather than performance. An analogy joins them — both refuse help that flatters the helper — but they are cousins, not one claim. What they share is enough for this page: help that keeps the helped dependent is a subtler form of keeping."
-  lesson: "Measure your help by what it leaves behind when you step away."
-notes: "Prose page (form variety already ≥6). Quotes: Maimonides via Meszler 2003 (CC-BY — print gate's licensed clause; attribution required in book credits) and Garnett's verified Dostoevsky. Russell's outward-interest claim (c-0019, attested-only) deliberately paraphrase-free: omitted rather than printed unverified. Purpose figure per c-0033 (HR 2.43, verified-secondary)."
+    - "Maimonides ranks the gift that strengthens — the loan, the partnership, the job that ends the asking — above every warmer-feeling kind; anonymity is a separate rung below. Zosima aims elsewhere: at the giver's endurance, love as labour rather than performance. An analogy joins them — both refuse help that flatters the helper — but they are cousins, not one claim, and they test your help in two different places."
+  lesson: "Two tests for your help: what it leaves the other able to do — and what it asks of you when nobody claps."
+notes: "Prose page (form variety already ≥6). Quotes: Maimonides via Meszler 2003 (CC-BY — print gate's licensed clause; attribution required in book credits) and Garnett's verified Dostoevsky. Russell's outward-interest claim (c-0019, attested-only) deliberately paraphrase-free: omitted rather than printed unverified. Purpose-mortality material removed at external review (indirect evidence; the canonical warning example)."

@@ -29,8 +29,8 @@ GEN = os.path.join(ROOT, "book", "generator")
 SPECS = os.path.join(ROOT, "book", "page-specs")
 RENDERS = os.path.join(ROOT, "book", "renders")
 WEASY = os.path.join(ROOT, "tools", "bin", "weasyprint.exe")
-EDITION = "building-years-v0.1.0"
-HEADER = "A MAP FOR MORTALS  ·  WALKING SKELETON v 0.1.0"
+EDITION = "building-years-v0.1.1"
+HEADER = "A MAP FOR MORTALS  ·  VISUAL PROOF v 0.1.1 · CONTENT UNDER RE-ADJUDICATION"
 
 # ---------------------------------------------------------------- tokens (SPEC §2)
 PAPER = "#FBF7F0"; PANEL = "#FFFDF9"; INK = "#16223B"; INK2 = "#4A546B"

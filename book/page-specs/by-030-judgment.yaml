@@ -16,6 +16,6 @@ copy:
     - {name: "Marcus Aurelius", meta: "Meditations 4.7 · text checked to Long 1862", gloss: "Withdraw the opinion of harm, he tells himself, and the complaint falls with it."}
     - {name: "Epictetus", meta: "Enchiridion · the parent claim", gloss: "The judgment is listed first among the things that are ours — before impulse, before desire."}
   bend: "This is counsel for the weight you must carry anyway, not a licence to call real injuries imaginary. Taken neat, it curdles into gaslighting yourself — some complaints are true. And the strict two-way split is contested: much of life is neither ours nor not-ours, but partly influenced."
-  pill: "attribution: verified · recurrence: provisional at this corpus scale · contested at the margin"
+  pill: "text checked to Long 1862 · one voice in this corpus — scope narrow · contested at the margin"
   caption: "A wisdom-node card: one claim, its voices, where it bends, and an honest trust label."
 notes: "Node-card form (§6 D). Marcus's verbatim wording enters through the declared verbatim_quotes gate; voice glosses are paraphrase only (external-review repair 2026-07-07)."
