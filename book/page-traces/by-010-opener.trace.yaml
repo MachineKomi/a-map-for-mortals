@@ -1,0 +1,14 @@
+page: by-010-opener
+form: journey-map
+edition: building-years-v0.1.1
+blocks:
+- type: editorial
+  field: intro
+  chars: 261
+- type: editorial
+  field: intro
+  chars: 421
+- type: editorial
+  field: caption
+  chars: 129
+furniture_strings: 7

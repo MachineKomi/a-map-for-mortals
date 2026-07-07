@@ -389,7 +389,7 @@ def render_traced_prose(spec, g):
 # Copy keys whose bare strings are visual furniture, not claim-bearing prose. Everything
 # else on a `traced: true` page must arrive as {editorial: ...} or {assert: a-xxxx} —
 # an unwrapped substantive string fails the build rather than slipping past adjudication.
-FURNITURE_KEYS = {"eyebrow", "title"}
+FURNITURE_KEYS = {"eyebrow", "title", "landmarks"}  # landmarks = the journey-map's fork labels, i.e. the following pages' titles
 
 
 def resolve_copy(node, g, ctx, key=None):

@@ -2,19 +2,21 @@ id: by-010-opener
 stage: building-years
 sequence: 10
 form: journey-map
+traced: true
 refs: []
 register: {reading_level: adult, density: high, colour_energy: mid}
 copy:
   eyebrow: "THE BUILDING YEARS · 26–45"
   title: "How do I carry what I've taken on?"
   intro:
-    - "By now the choosing has mostly been done. A trade, a place, perhaps a person; debts, dependants, a name that others rely on. The question of these years is no longer <em>which life?</em> but <em>how to carry this one</em> — and what carrying it well even means."
-    - "That sketch fits some lives and not others — people arrive here late, or twice, or never, and the load is not the same in every hand. These stages are lenses, not a timetable. Five forks define the terrain. None of them resolves; each is a tension you will hold, in your own proportions, for twenty years. The wise disagree about every one of them — which is exactly why they are worth mapping."
+    - editorial: "By now the choosing has mostly been done. A trade, a place, perhaps a person; debts, dependants, a name that others rely on. The question of these years is no longer <em>which life?</em> but <em>how to carry this one</em> — and what carrying it well even means."
+    - editorial: "That sketch fits some lives and not others — people arrive here late, or twice, or never, and the load is not the same in every hand. These stages are lenses, not a timetable. Five forks define the terrain. None of them resolves; each is a tension you will hold, in your own proportions, for twenty years. The voices gathered in this chapter disagree about every one of them — which is exactly why they are worth mapping."
   landmarks:
     - "Carrying and\nreleasing"
     - "Ambition\nand peace"
     - "Time, the\nscarce thing"
     - "The weight that\nstrengthens?"
     - "The help\nthat frees"
-  caption: "The road through the Building Years. Each fork glyph marks a tension mapped in this chapter — <b>tendencies, never destinies</b>."
-notes: "Stage opener per SPEC §8 stage 5. Journey-map form (§6 E)."
+  caption:
+    editorial: "The road through the Building Years. Each fork glyph marks a tension mapped in this chapter — <b>tendencies, never destinies</b>."
+notes: "Stage opener per SPEC §8 stage 5. Journey-map form (§6 E). Migrated at Gate E (ops/adjudications/2026-07-07-gateE-by010-060.md): 'The wise disagree' re-bounded to 'the voices gathered in this chapter disagree' — a corpus-bounded claim checkable against the chapter's own pages, per Model C recurrence-language rules. Landmarks are furniture: they are the following pages' titles."
