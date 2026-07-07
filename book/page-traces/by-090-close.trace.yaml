@@ -1,0 +1,40 @@
+page: by-090-close
+form: prose
+edition: building-years-v0.1.1
+blocks:
+- type: editorial
+  field: intro
+  chars: 140
+- type: assertion:source-summary
+  id: a-0006
+  field: intro
+  sources:
+    claim_refs:
+    - c-0025
+  adjudication:
+  - ops/adjudications/2026-07-07-gateE-by090.md
+  status: approved-for-package-01v2
+- type: assertion:historical-interpretive
+  id: a-0007
+  field: outro
+  sources:
+    claim_refs:
+    - c-0025
+    interpretation_refs:
+    - i-0025a
+  adjudication:
+  - ops/adjudications/2026-07-07-gateE-by090.md
+  status: approved-for-package-01v2
+- type: editorial
+  field: outro
+  chars: 168
+- type: verbatim-quote
+  claim: c-0025
+  unit: u-0025
+  gate:
+    attribution: verified-primary
+    copyright: public-domain
+    checked_against: 'https://www.gutenberg.org/cache/epub/145/pg145.txt · Project Gutenberg #145, Middlemarch,
+      George Eliot (public domain) ·'
+  excerpted: false
+furniture_strings: 2

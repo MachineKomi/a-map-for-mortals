@@ -1,0 +1,15 @@
+id: a-0007
+kind: historical-interpretive
+text: "The sentence has been read as consolation and as quiet protest at a society that wasted her; the Finale holds both readings open, and this book does not close them."
+claim_refs: [c-0025]
+interpretation_refs: [i-0025a]
+mandatory_caveats:
+  - "holds both readings open"
+prohibited_phrasings:
+  - "she meant it as"
+  - "Eliot intended"
+  - "Eliot's verdict"
+status: approved-for-package-01v2
+adjudication_refs: ["ops/adjudications/2026-07-07-gateE-by090.md"]
+prov: {minted_by: "claude-code:gateE-v1", date: 2026-07-07}
+notes: "Repairs the v0.3 copy's authorial-intent claim ('She meant it as consolation, and perhaps as protest') to the defensible textual claim carried by i-0025a. Intent attributions to Eliot are prohibited in page copy."

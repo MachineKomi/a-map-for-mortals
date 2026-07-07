@@ -1,0 +1,19 @@
+id: i-0025a
+unit_ref: u-0025
+proposition: "The Middlemarch Finale sentence sits poised between consolation (the hidden life genuinely mattered) and quiet protest (a society that gave Dorothea's nature 'no great name on the earth' wasted her); the text sustains both readings and Eliot resolves neither."
+claim_type: observational
+polarity: descriptive
+scope:
+  speaker_scope: "the narrator, closing the novel's account of Dorothea Brooke"
+  asserted_generality: "a reading of this sentence in its Finale context"
+  project_scope: contested
+endorsement: {value: "endorsed", basis: "narrator's own summative voice; the tension note qualifies what is being endorsed"}
+alternative_readings:
+  - summary: "Consolation-only reading: the sentence is straightforward comfort — hidden faithfulness suffices. Rejected as the sole reading: it erases the Finale's documented lament."
+    source_refs: ["u-0025 notes (tension note): 'unvisited tombs' melancholy; the Finale's lament that Dorothea's 'full nature ... spent itself in channels which had no great name on the earth'"]
+  - summary: "Protest-only reading: the sentence is irony at social waste. Rejected as the sole reading: the narrator plainly affirms the diffusive good."
+    source_refs: ["u-0025 quotation: 'the growing good of the world is partly dependent on unhistoric acts'"]
+adjudication_refs: ["ops/adjudications/2026-07-07-gateE-by090.md"]
+status: adjudicated
+prov: {minted_by: "claude-code:gateE-v1", date: 2026-07-07}
+notes: "Grounded in the wave-1 report's tension note carried in u-0025 — this object does not add new claims about Eliot's intent; authorial-intent assertions ('she meant it as...') are NOT supported and were repaired out of page copy at Gate E."

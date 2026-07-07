@@ -2,6 +2,7 @@ id: by-090-close
 stage: building-years
 sequence: 90
 form: prose
+traced: true
 refs: [c-0025, c-0010]
 register: {reading_level: adult, density: low, colour_energy: low}
 verbatim_quotes: [c-0025]
@@ -9,7 +10,9 @@ copy:
   eyebrow: "THE BUILDING YEARS · A QUIET CLOSE"
   title: "The unhistoric years"
   intro:
-    - "Most of what these two decades build will never be visible. No map of a life should pretend otherwise — or pretend it matters less for that. George Eliot, closing <em>Middlemarch</em> over a heroine the world never heard of:"
+    - editorial: "Most of what these two decades build will never be visible. No map of a life should pretend otherwise — or pretend it matters less for that."
+    - assert: a-0006
   outro:
-    - "She meant it as consolation, and perhaps as protest; the novel holds both readings open, and so does this book. To this book's editorial eye — a judgment, not a finding — it is the Building Years' truest sentence: the work was not required to be finished, and it was not put down."
-notes: "Quiet close per SPEC §8. The Eliot sentence is long — the bigq block must hold it whole (QA check). The last line deliberately echoes Avot from the fork-one page: the same fork, closing the chapter it opened."
+    - assert: a-0007
+    - editorial: "To this book's editorial eye — a judgment, not a finding — it is the Building Years' truest sentence: the work was not required to be finished, and it was not put down."
+notes: "Quiet close per SPEC §8. Migrated through the traced model at Gate E (ops/adjudications/2026-07-07-gateE-by090.md): intro attribution clause and the intent claim repaired into a-0006/a-0007; the Eliot sentence is long — the bigq block must hold it whole (QA check). The last editorial line deliberately echoes Avot (c-0010) from the fork-one page: the same fork, closing the chapter it opened."
