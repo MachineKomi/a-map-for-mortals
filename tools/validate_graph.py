@@ -156,6 +156,11 @@ def main():
             if aid != os.path.splitext(f)[0]:
                 errors.append(f"assertions/{f}: id '{aid}' != filename")
             assertions[aid] = a
+            for req in ("kind", "text", "status", "adjudication_refs", "prov"):
+                if not a.get(req):
+                    errors.append(f"assertions/{aid}: missing required field {req}")
+            if not (a.get("claim_refs") or a.get("relation_refs") or a.get("interpretation_refs") or a.get("dossier_ref")):
+                errors.append(f"assertions/{aid}: no source refs — an assertion must trace to something")
             for cr in (a.get("claim_refs") or []):
                 if cr not in claims:
                     errors.append(f"assertions/{aid}: claim_ref {cr} does not exist")
@@ -163,6 +168,25 @@ def main():
                 if str(cav).lower() not in str(a.get("text", "")).lower():
                     errors.append(f"assertions/{aid}: text does not carry mandatory caveat '{cav}'")
             check_dates(aid, a, "assertions")
+
+    # --- interpretations + dossiers shape (v0.4 pilot contracts) ---
+    for sub, req in (("interpretations", ("unit_ref", "proposition", "claim_type", "scope", "adjudication_refs", "status")),
+                     ("dossiers", ("target_ref", "source_frame", "findings", "permitted_inferences", "prohibited_inferences", "status"))):
+        d = os.path.join(ROOT, "graph", sub)
+        if os.path.isdir(d):
+            for f in sorted(os.listdir(d)):
+                if not f.endswith(".yaml"):
+                    continue
+                obj = yaml.safe_load(open(os.path.join(d, f), encoding="utf-8"))
+                oid = str(obj.get("id"))
+                if oid != os.path.splitext(f)[0]:
+                    errors.append(f"{sub}/{f}: id != filename")
+                for r in req:
+                    if not obj.get(r):
+                        errors.append(f"{sub}/{oid}: missing required field {r}")
+                if sub == "interpretations" and obj.get("unit_ref") not in units:
+                    errors.append(f"{sub}/{oid}: unit_ref {obj.get('unit_ref')} does not exist")
+                check_dates(oid, obj, sub)
 
     # --- page-spec validation + quote linter ---
     specdir = os.path.join(ROOT, "book", "page-specs")
