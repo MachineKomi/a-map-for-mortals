@@ -24,15 +24,15 @@ via `Graph.trace_sink`. Prohibited-phrase sweep runs over all non-assertion page
 
 **Page order (simple → hard) and status:**
 - [x] by-080-help — traced-prose (Gate B pilot, done)
-- [ ] by-090-close — prose, 2 refs
-- [ ] by-010-opener — journey-map, editorial landmarks
-- [ ] by-030-judgment — node-card, 2 refs
-- [ ] by-070-suffering — node-card, 4 refs (PTG evidence strip — empirical caveats)
-- [ ] by-060-time — comparison-columns, 4 refs (quote_refs inside figure)
-- [ ] by-040-ambition — trade-off-spectrum, 4 refs (curdle notes are interpretive)
-- [ ] by-050-money — threshold-curve, 3 refs (band label = evidence claim)
-- [ ] by-020-carrying — convergence-map, 4 refs (independence labels = the hardest
-      relation claims; needs dossiers like d-0001 per argued convergence)
+- [x] by-090-close — done (a-0006/a-0007 + i-0025a; intent claim repaired)
+- [x] by-010-opener — done (corpus-bounded the 'wise disagree' claim)
+- [x] by-030-judgment — done (a-0008..a-0010; card labels store-derived; camp detail removed)
+- [x] by-070-suffering — done (a-0011..a-0016; Frazier design error repaired)
+- [x] by-060-time — done (a-0017..a-0019)
+- [x] by-040-ambition — done (a-0020..a-0022; ungrounded flourish dropped)
+- [x] by-050-money — done (a-0023..a-0025; causal/threshold conflation repaired)
+- [ ] by-020-carrying — IN PROGRESS: drafts a-0026..a-0028 under fresh-context
+      adversarial review (the argued-convergence page — round-1's faulted claim class)
 
 **Assertion ID allocation:** a-0006 onward, sequential. Adjudication records:
 ops/adjudications/2026-07-07-gateE-<page>.md (one per page or pair).

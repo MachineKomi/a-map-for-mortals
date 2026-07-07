@@ -1,0 +1,13 @@
+id: a-0027
+kind: editorial-synthesis
+text: "A shared motif — not one claim:\nact where agency runs;\nentrust the rest."
+claim_refs: [c-0001, c-0009, c-0010, c-0021]
+relation_refs: [e-0001, e-0002, e-0003]
+mandatory_caveats:
+  - "not one claim"
+prohibited_phrasings:
+  - "the same claim"
+status: approved-for-package-01v2
+adjudication_refs: ["ops/adjudications/2026-07-07-gateE-by020.md"]
+prov: {minted_by: "claude-code:gateE-v1", date: 2026-07-07}
+notes: "Map hub label. Adversarial verdict: approved AS DRAFTED but CONDITIONAL — the two-part motif ('act… entrust…') is fully instantiated only by e-0001 (c-0010 has no entrust component; c-0021 is endurance, not agency-allocation), so this label is honest only with the frays note (a-0028) visible on the same page. BINDING CONDITION: if this label ever appears detached from the frays (index, TOC, running head), use instead: 'A family of divisions of labour — not one claim.'"

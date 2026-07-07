@@ -2,6 +2,7 @@ id: by-020-carrying
 stage: building-years
 sequence: 20
 form: convergence-map
+traced: true
 refs: [c-0001, c-0009, c-0010, c-0021]
 register: {reading_level: adult, density: high, colour_energy: mid}
 verbatim_quotes: [c-0001, c-0010]
@@ -9,13 +10,15 @@ copy:
   eyebrow: "FORK ONE · CARRYING AND RELEASING"
   title: "Do what is yours. Release the rest."
   intro:
-    - "The heaviest loads of these years — the mortgage, the marriage, the child, the work — are exactly the ones whose outcomes you least control. Voices centuries apart — some plausibly independent, one openly inheriting — keep arriving at a similar division of labour."
-  claim_label: "A shared motif — not one claim:\nact where agency runs;\nentrust the rest."
+    - editorial: "The heaviest loads of these years — the mortgage, the marriage, the child, the work — are exactly the ones whose outcomes you least control."
+    - assert: a-0026
+  claim_label: {assert: a-0027}
   voices:
-    - {name: "Epictetus", meta: "Stoic · c. 108 CE", independence: partial}
-    - {name: "Rabbi Tarfon", meta: "Mishnah, Avot · c. 200 CE", independence: partial}
-    - {name: "'Tie your camel'", meta: "hadith, at-Tirmidhi · attribution contested", independence: partial}
-    - {name: "Edgar, in Lear", meta: "Shakespeare · 1606 · lineage", independence: weak}
-  frays: "Where it frays: the hadith's chain is graded inconsistently; Lear inherits the thought through Renaissance Stoicism; and Tarfon's charge is a cousin of the Stoic claim — persist without owning outcomes — not its twin."
-  caption: "Solid lines: <b>partial argued independence</b>. Dashed: <b>lineage</b> — an idea that travelled, a different fact from one rediscovered. Convergence is robustness, not truth."
-notes: "The argued convergence required by runbook P3. Taylor's verified Avot wording appears in the outro with translator credit (gate-satisfying: u-0010 is verified-primary + PD; wording copied exactly from the unit)."
+    - {name: "Epictetus", meta: {editorial: "Stoic · c. 108 CE"}, independence: partial}
+    - {name: "Rabbi Tarfon", meta: {editorial: "Mishnah, Avot · c. 200 CE"}, independence: partial}
+    - {name: "'Tie your camel'", meta: {editorial: "hadith, at-Tirmidhi · chain grading contested"}, independence: partial}
+    - {name: "Edgar, in Lear", meta: {editorial: "Shakespeare · 1606 · lineage"}, independence: weak}
+  frays: {assert: a-0028}
+  caption:
+    editorial: "Solid lines: <b>partial argued independence</b>. Dashed: <b>lineage</b> — an idea that travelled, a different fact from one rediscovered. Convergence is robustness, not truth."
+notes: "The argued convergence required by runbook P3 — migrated at Gate E through a mandatory adversarial pass (ops/adjudications/2026-07-07-gateE-by020.md): a-0026 ('likely inheriting', 'arrive'), a-0027 (hub label conditional on frays visibility), a-0028 ('chain grading is contested', 'likely inherits', 'Neo-Stoicism'); hadith voice-meta repaired (wording verified in Tirmidhi; the isnad grading is the contested locus). Verbatim quotes: c-0001 and c-0010 only (u-0009's held English is in-copyright — never quote it)."
