@@ -1,15 +1,24 @@
 id: a-0028
 kind: relation-summary
-text: "Where it frays: the hadith's chain grading is contested; Lear likely inherits the thought through Renaissance Neo-Stoicism; and Tarfon's charge is a cousin of the Stoic claim — persist without owning outcomes — not its twin."
-claim_refs: [c-0009, c-0010, c-0021]
-relation_refs: [e-0001, e-0002, e-0003]
+text: 'Where it frays, and it does: scholars still argue over how sound the hadith''s chain of transmission is — its grading is contested. Lear likely picked the thought up second-hand, through Renaissance Neo-Stoicism. And Tarfon''s charge is a cousin of the Stoic claim — keep working without owning the outcome — not its twin.'
+claim_refs:
+- c-0009
+- c-0010
+- c-0021
+relation_refs:
+- e-0001
+- e-0002
+- e-0003
 mandatory_caveats:
-  - "contested"
-  - "cousin"
-  - "not its twin"
+- contested
+- cousin
+- not its twin
 prohibited_phrasings:
-  - "twin claims"
+- twin claims
 status: approved-for-package-01v2
-adjudication_refs: ["ops/adjudications/2026-07-07-gateE-by020.md"]
-prov: {minted_by: "claude-code:gateE-v1", date: 2026-07-07}
-notes: "The frays note — the page's honesty organ. Adversarial edits accepted verbatim: 'graded inconsistently'→'chain grading is contested' (the store's word; different authorities across centuries — gharib/munkar vs hasan-on-a-corroborating-chain — is a live dispute, not sloppy grading); 'inherits'→'likely inherits' (the frays note must not state lineage more firmly than e-0003 does); 'Renaissance Stoicism'→'Renaissance Neo-Stoicism' (the store's term)."
+adjudication_refs:
+- ops/adjudications/2026-07-07-gateE-by020.md
+prov:
+  minted_by: claude-code:gateE-v1
+  date: 2026-07-07
+notes: 'The frays note — the page''s honesty organ. Adversarial edits accepted verbatim: ''graded inconsistently''→''chain grading is contested'' (the store''s word; different authorities across centuries — gharib/munkar vs hasan-on-a-corroborating-chain — is a live dispute, not sloppy grading); ''inherits''→''likely inherits'' (the frays note must not state lineage more firmly than e-0003 does); ''Renaissance Stoicism''→''Renaissance Neo-Stoicism'' (the store''s term).'

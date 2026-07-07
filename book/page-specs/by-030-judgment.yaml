@@ -12,7 +12,7 @@ copy:
   title: {editorial: "The weight is partly a verdict"}
   claim_label: {assert: a-0029}
   intro:
-    - editorial: "Underneath the division of labour sits a stranger claim: much of what crushes is not the event but the verdict we pass on it. Marcus Aurelius, to himself:"
+    - editorial: "There's a stranger idea underneath all this dividing-up of the load: that a lot of what crushes us isn't the event itself, but the verdict we hand down on it. Marcus Aurelius, writing to himself:"
   voices:
     - name: "Marcus Aurelius"
       meta: {editorial: "Meditations 4.7 · trans. Long 1862"}
@@ -23,6 +23,4 @@ copy:
   bend:
     - editorial: "Taken neat, it curdles into gaslighting yourself — some complaints are true."
     - assert: a-0010
-  caption:
-    editorial: "A wisdom-node card: one claim, its voices, where it bends, and an honest trust label."
-notes: "Node-card form (§6 D). ROUND-3 P0-4 (ops/adjudications/2026-07-07-external-review-round-3-response.md): the claim label was previously rendered from the raw claim c-0002 via card_claim (a raw-claim publication path). It now routes through approved assertion a-0029, which carries the scope exclusion (abuse / material injury / preventable institutional harm) in the claim's own text — not only in the bend. card_provenance derives the kicker + trust pill from c-0002's type/verification (provenance display only). Glosses and the contested-boundary claim are gated a-0008..a-0010; Marcus's verbatim wording enters through verbatim_quotes."
+notes: "Node-card form (§6 D). The self-describing 'a wisdom-node card…' caption was dropped 2026-07-07 (voice pass: meta-label, and it forced an overflow). ROUND-3 P0-4 (ops/adjudications/2026-07-07-external-review-round-3-response.md): the claim label was previously rendered from the raw claim c-0002 via card_claim (a raw-claim publication path). It now routes through approved assertion a-0029, which carries the scope exclusion (abuse / material injury / preventable institutional harm) in the claim's own text — not only in the bend. card_provenance derives the kicker + trust pill from c-0002's type/verification (provenance display only). Glosses and the contested-boundary claim are gated a-0008..a-0010; Marcus's verbatim wording enters through verbatim_quotes."

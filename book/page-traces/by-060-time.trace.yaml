@@ -17,9 +17,9 @@ blocks:
   status: approved-for-package-01v2
 - type: editorial
   field: intro
-  chars: 144
-  text: In the years when time becomes the scarce input of everything else, two counsels flatly disagree about what
-    to do with the hour in front of you.
+  chars: 135
+  text: In the years when time becomes the scarcest thing you own, two counsels flatly disagree about what to do
+    with the hour in front of you.
 - type: editorial
   field: title
   chars: 17

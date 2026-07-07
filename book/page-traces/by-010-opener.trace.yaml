@@ -8,17 +8,17 @@ blocks:
   text: How do I carry what I've taken on?
 - type: editorial
   field: intro
-  chars: 261
-  text: By now the choosing has mostly been done. A trade, a place, perhaps a person; debts, dependants, a name
-    that others rely on. The question of these years is no longer <em>which life?</em> but <em>how to carry this
-    one</em> — and what carrying it well even means.
+  chars: 234
+  text: By now most of the big choices are behind you. A job, a place, maybe a person; debts, people who depend
+    on you, a name others lean on. The question stops being <em>which life?</em> and quietly becomes <em>how do
+    I carry this one?</em>
 - type: editorial
   field: intro
-  chars: 421
-  text: That sketch fits some lives and not others — people arrive here late, or twice, or never, and the load is
-    not the same in every hand. These stages are lenses, not a timetable. Five forks define the terrain. None of
-    them resolves; each is a tension you will hold, in your own proportions, for twenty years. The voices gathered
-    in this chapter disagree about every one of them — which is exactly why they are worth mapping.
+  chars: 411
+  text: That fits some lives and not others — people get here late, or twice, or never, and the load sits differently
+    in every pair of hands. Think of the stages as lenses, not a timetable. Five forks lay out the ground, and none
+    of them resolves; each is a tension you'll hold, in your own proportions, for twenty years. The voices in this
+    chapter disagree about every one — which is exactly why they're worth mapping.
 - type: editorial
   field: caption
   chars: 129

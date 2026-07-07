@@ -1,13 +1,17 @@
 id: a-0013
 kind: source-summary
-text: "The blow that fails to kill can strengthen — restricted, in his own later gloss, to those already healthy enough to turn the blow to advantage."
-claim_refs: [c-0008]
+text: The blow that doesn't kill you can strengthen you — though he later restricted that to the people already healthy enough to turn a blow to advantage.
+claim_refs:
+- c-0008
 mandatory_caveats:
-  - "restricted"
+- restricted
 prohibited_phrasings:
-  - "automatic law"
-  - "that which does not kill us"
+- automatic law
+- that which does not kill us
 status: approved-for-package-01v2
-adjudication_refs: ["ops/adjudications/2026-07-07-gateE-by070.md"]
-prov: {minted_by: "claude-code:gateE-v1", date: 2026-07-07}
-notes: "Voice gloss. Grounded in u-0008's notes: Ecce Homo restricts the effect to the 'typically healthy' who 'turn serious accidents to advantage' (Brady reading); conditionality preserved per the report. The prohibited 'us' form guards the popularised variant the watchlist flags (Nietzsche wrote first-person 'me')."
+adjudication_refs:
+- ops/adjudications/2026-07-07-gateE-by070.md
+prov:
+  minted_by: claude-code:gateE-v1
+  date: 2026-07-07
+notes: 'Voice gloss. Grounded in u-0008''s notes: Ecce Homo restricts the effect to the ''typically healthy'' who ''turn serious accidents to advantage'' (Brady reading); conditionality preserved per the report. The prohibited ''us'' form guards the popularised variant the watchlist flags (Nietzsche wrote first-person ''me'').'

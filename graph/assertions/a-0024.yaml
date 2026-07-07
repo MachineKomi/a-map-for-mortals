@@ -1,16 +1,22 @@
 id: a-0024
 kind: source-summary
-text: "In the 2023 adversarial collaboration (Killingsworth, Kahneman &amp; Mellers), all assessed quantiles of experienced well-being rise with log-income up to about $100k; above it, the <b>lower conditional quantiles</b> stop rising significantly — a widening of the distribution, <b>not an identified group of unhappy people</b>. Rohrer &amp; Wenz (2024) argue that reading it as a subgroup imports inappropriate causal assumptions; Bennedsen (2024) locates the plateau nearer $200k. The data are observational. <b>Association, not destiny.</b>"
-claim_refs: [c-0026, c-0027]
+text: In the 2023 adversarial collaboration (Killingsworth, Kahneman &amp; Mellers), every slice of measured well-being keeps climbing with income up to about $100k. Above that, the <b>lower conditional quantiles</b> stop climbing much — which is the distribution widening, <b>not an identified group of unhappy people</b> hitting a wall. Rohrer &amp; Wenz (2024) warn that reading it as a real subgroup smuggles in causal assumptions the data don't earn; Bennedsen (2024) puts the flattening nearer $200k. And it's all observational. <b>Association, not destiny.</b>
+claim_refs:
+- c-0026
+- c-0027
 mandatory_caveats:
-  - "lower conditional quantiles"
-  - "not an identified group of unhappy people"
-  - "Association, not destiny"
+- lower conditional quantiles
+- not an identified group of unhappy people
+- Association, not destiny
 prohibited_phrasings:
-  - "money can't buy happiness"
-  - "money buys happiness"
-  - "the unhappiest"
+- money can't buy happiness
+- money buys happiness
+- the unhappiest
 status: approved-for-package-02v1
-adjudication_refs: ["ops/adjudications/2026-07-07-gateE-by040-050.md", "ops/adjudications/2026-07-07-external-review-round-3-response.md"]
-prov: {minted_by: "claude-code:gateE-v1", date: 2026-07-07}
-notes: "RE-ADJUDICATED 2026-07-07 against verified primary sources (round-3 P0-7). Rohrer & Wenz 2024 (PNAS, doi:10.1073/pnas.2313712121), title verbatim: 'Inappropriate causal assumptions underlie Killingsworth, Kahneman, and Mellers' conclusions'; abstract verbatim: 'all assessed quantiles of happiness increase with log(income) until $100,000. Beyond $100K, lower quantiles do not increase significantly with log(income), suggesting a widening happiness distribution.' Bennedsen 2024 (Economics Letters, doi:10.1016/j.econlet.2024.111730), title verbatim: 'well-being plateauing around $200,000 per year.' The prior version presented a conditional-quantile result as a subgroup of 'unhappy' people (~15–20%) — the exact overreading Rohrer & Wenz flag — and named only the 2023 threshold; both fixed. Owed: a first-class empirical dossier object and a competing-model chart."
+adjudication_refs:
+- ops/adjudications/2026-07-07-gateE-by040-050.md
+- ops/adjudications/2026-07-07-external-review-round-3-response.md
+prov:
+  minted_by: claude-code:gateE-v1
+  date: 2026-07-07
+notes: 'RE-ADJUDICATED 2026-07-07 against verified primary sources (round-3 P0-7). Rohrer & Wenz 2024 (PNAS, doi:10.1073/pnas.2313712121), title verbatim: ''Inappropriate causal assumptions underlie Killingsworth, Kahneman, and Mellers'' conclusions''; abstract verbatim: ''all assessed quantiles of happiness increase with log(income) until $100,000. Beyond $100K, lower quantiles do not increase significantly with log(income), suggesting a widening happiness distribution.'' Bennedsen 2024 (Economics Letters, doi:10.1016/j.econlet.2024.111730), title verbatim: ''well-being plateauing around $200,000 per year.'' The prior version presented a conditional-quantile result as a subgroup of ''unhappy'' people (~15–20%) — the exact overreading Rohrer & Wenz flag — and named only the 2023 threshold; both fixed. Owed: a first-class empirical dossier object and a competing-model chart.'

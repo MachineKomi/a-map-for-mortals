@@ -14,5 +14,5 @@ copy:
     - assert: a-0006
   outro:
     - assert: a-0007
-    - editorial: "To this book's editorial eye — a judgment, not a finding — it is the Building Years' truest sentence: the work was not required to be finished, and it was not put down."
+    - editorial: "To this book's eye — and that's a judgment, not a finding — it's the truest sentence in the Building Years: the work was never required to be finished, and it wasn't put down."
 notes: "Quiet close per SPEC §8. Migrated through the traced model at Gate E (ops/adjudications/2026-07-07-gateE-by090.md): intro attribution clause and the intent claim repaired into a-0006/a-0007; the Eliot sentence is long — the bigq block must hold it whole (QA check). The last editorial line deliberately echoes Avot (c-0010) from the fork-one page: the same fork, closing the chapter it opened."

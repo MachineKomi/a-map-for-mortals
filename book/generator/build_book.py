@@ -626,7 +626,7 @@ def css():
 
 @page {{
   size: 178mm 254mm;
-  margin: 19mm 19mm 17mm 19mm;
+  margin: 17mm 19mm 15mm 19mm;
   background: {PAPER};
   @top-center {{ content:"{HEADER}"; font-family:'Poppins'; font-weight:400;
                  font-size:7.5pt; letter-spacing:2px; color:{INK3}; }}
@@ -640,7 +640,7 @@ body {{ margin:0; }}
             text-transform:uppercase; color:{ORANGE}; margin-bottom:9px; }}
 h1.title {{ font-family:'Lora'; font-weight:600; font-size:29pt; line-height:1.12; margin:0 0 12px; }}
 h2.title {{ font-family:'Lora'; font-weight:600; font-size:20pt; line-height:1.16; margin:0 0 12px; }}
-p {{ font-size:11.2pt; line-height:1.6; color:{INK2}; margin:0 0 10px; }}
+p {{ font-size:11.2pt; line-height:1.52; color:{INK2}; margin:0 0 8px; }}
 p.lead {{ font-size:12.2pt; color:{INK}; }}
 em {{ color:{INK}; }}
 .fig {{ margin:8px 0 6px; break-inside:avoid; }}

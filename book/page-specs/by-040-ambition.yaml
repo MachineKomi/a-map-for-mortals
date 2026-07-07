@@ -17,11 +17,11 @@ copy:
       right: {editorial: "Contentment"}
       left_curdle: {editorial: "Faust's forfeit — a life spent arriving, never living"}
       right_curdle: {editorial: "quiet desperation — resignation wearing peace's clothes"}
-      note: {editorial: "The answer is a position, moved as life moves — and the ditches have more than one shape: compulsive striving, quiet resignation, perpetual deferral."}
+      note: {editorial: "Your answer is a spot on this line, and it moves as life moves — and the ditch takes more than one shape: driven-ness that never stops, quiet giving-up, and forever getting ready."}
   caption:
-    editorial: "A trade-off spectrum in <b>equal-status colour — neither pole is the wiser one here</b>. Both are goods; both curdle. Where you stand is a decision that <b>tends</b> to be re-made each decade, and this corpus holds honest voices for every position."
+    editorial: "A trade-off, drawn in <b>equal colour — neither end is the wiser one here</b>. Both are good; both go sour if you overdo them. Where you stand is a call you'll <b>tend</b> to remake each decade, and this book holds honest voices for every spot on the line."
   outro:
     - assert: a-0022
   lesson:
-    editorial: "Ask of your striving what it is for; ask of your peace what it is avoiding."
+    editorial: "Ask your striving what it's for. Ask your peace what it's avoiding."
 notes: "Spectrum form (§6 B). Migrated at Gate E (ops/adjudications/2026-07-07-gateE-by040-050.md): Faust pact-terms and the two-ditches distinction gated as a-0020/a-0021; Qoheleth as a-0022 — the 'because nothing lasts, not despite it' flourish dropped (not grounded in the held verse). Pole names are furniture; curdle notes and lesson remain declared editorial. Equal-status neutral poles per SPEC §2 amendment."

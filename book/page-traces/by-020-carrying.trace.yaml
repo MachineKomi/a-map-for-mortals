@@ -76,9 +76,9 @@ blocks:
   status: approved-for-package-01v2
 - type: editorial
   field: caption
-  chars: 175
-  text: 'Solid lines: <b>partial argued independence</b>. Dashed: <b>lineage</b> — an idea that travelled, a different
-    fact from one rediscovered. Convergence is robustness, not truth.'
+  chars: 190
+  text: 'Solid lines: <b>partial, argued independence</b>. Dashed: <b>lineage</b> — an idea that travelled, which
+    is a different thing from one worked out twice. Convergence is robustness, not proof.'
 - type: verbatim-quote
   claim: c-0001
   unit: u-0001

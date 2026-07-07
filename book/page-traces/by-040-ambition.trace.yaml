@@ -43,15 +43,15 @@ blocks:
   text: quiet desperation — resignation wearing peace's clothes
 - type: editorial
   field: note
-  chars: 149
-  text: 'The answer is a position, moved as life moves — and the ditches have more than one shape: compulsive striving,
-    quiet resignation, perpetual deferral.'
+  chars: 179
+  text: 'Your answer is a spot on this line, and it moves as life moves — and the ditch takes more than one shape:
+    driven-ness that never stops, quiet giving-up, and forever getting ready.'
 - type: editorial
   field: caption
-  chars: 248
-  text: A trade-off spectrum in <b>equal-status colour — neither pole is the wiser one here</b>. Both are goods;
-    both curdle. Where you stand is a decision that <b>tends</b> to be re-made each decade, and this corpus holds
-    honest voices for every position.
+  chars: 256
+  text: A trade-off, drawn in <b>equal colour — neither end is the wiser one here</b>. Both are good; both go sour
+    if you overdo them. Where you stand is a call you'll <b>tend</b> to remake each decade, and this book holds
+    honest voices for every spot on the line.
 - type: assertion:source-summary
   id: a-0022
   field: outro
@@ -63,8 +63,8 @@ blocks:
   status: approved-for-package-01v2
 - type: editorial
   field: lesson
-  chars: 75
-  text: Ask of your striving what it is for; ask of your peace what it is avoiding.
+  chars: 67
+  text: Ask your striving what it's for. Ask your peace what it's avoiding.
 - type: verbatim-quote
   claim: c-0014
   unit: u-0014

@@ -1,14 +1,23 @@
 id: a-0025
 kind: editorial-synthesis
-text: "The data settle something narrow: a flat <em>money doesn't matter</em> reading fails — well-being tracks log-income. They do <b>not</b> test Schopenhauer's comparative claim that what one <em>is</em> matters more than what one <em>has</em>; nothing here weighs character or relationships against money. Where the slope flattens, and whether money <em>causes</em> it, both remain open."
-claim_refs: [c-0013, c-0026, c-0027]
-relation_refs: [e-0011, e-0012]
+text: 'Here''s the honest, narrow thing the studies show: <em>money doesn''t matter</em> is wrong — more money does track with feeling better. What they do <b>not</b> test is the bigger claim, Schopenhauer''s — that who you <em>are</em> matters more than what you <em>have</em>. Nobody has weighed character or friendship against a bank balance. Where the climb flattens, and whether money <em>causes</em> any of it, both remain open.'
+claim_refs:
+- c-0013
+- c-0026
+- c-0027
+relation_refs:
+- e-0011
+- e-0012
 mandatory_caveats:
-  - "do <b>not</b> test"
-  - "both remain open"
+- do <b>not</b> test
+- both remain open
 prohibited_phrasings:
-  - "the old claim survives"
+- the old claim survives
 status: approved-for-package-02v1
-adjudication_refs: ["ops/adjudications/2026-07-07-gateE-by040-050.md", "ops/adjudications/2026-07-07-external-review-round-3-response.md"]
-prov: {minted_by: "claude-code:gateE-v1", date: 2026-07-07}
-notes: "RE-ADJUDICATED 2026-07-07 (round-3 P0-7 construct error). The prior text claimed 'the old claim survives — qualified', but income↔well-being cannot test Schopenhauer's comparative 'what one is' claim (the studies never weigh character/temperament/relationships against money). Now states only what the data settle and what they leave untested. Structured by e-0011/e-0012 (QUALIFIES edges: findings condition, do not refute)."
+adjudication_refs:
+- ops/adjudications/2026-07-07-gateE-by040-050.md
+- ops/adjudications/2026-07-07-external-review-round-3-response.md
+prov:
+  minted_by: claude-code:gateE-v1
+  date: 2026-07-07
+notes: 'RE-ADJUDICATED 2026-07-07 (round-3 P0-7 construct error). The prior text claimed ''the old claim survives — qualified'', but income↔well-being cannot test Schopenhauer''s comparative ''what one is'' claim (the studies never weigh character/temperament/relationships against money). Now states only what the data settle and what they leave untested. Structured by e-0011/e-0012 (QUALIFIES edges: findings condition, do not refute).'

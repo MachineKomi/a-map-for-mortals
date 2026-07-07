@@ -1,13 +1,19 @@
 id: a-0009
 kind: relation-summary
-text: "The parent claim: the Enchiridion lists opinion first among the things within our power — before aim, before desire — and Marcus's counsel supplies its engine."
-claim_refs: [c-0001, c-0002]
-relation_refs: [e-0018]
+text: 'The older, parent version: the Enchiridion puts opinion first on the short list of things that are actually up to us — before aim, before desire — and Marcus''s line supplies the engine for it.'
+claim_refs:
+- c-0001
+- c-0002
+relation_refs:
+- e-0018
 mandatory_caveats: []
 prohibited_phrasings:
-  - "the same claim"
-  - "identical teaching"
+- the same claim
+- identical teaching
 status: approved-for-package-01v2
-adjudication_refs: ["ops/adjudications/2026-07-07-gateE-by030.md"]
-prov: {minted_by: "claude-code:gateE-v1", date: 2026-07-07}
-notes: "Voice gloss for the by-030 node card. 'Parent' rests on e-0018 (REFINES, high confidence: c-0002 refines c-0001 by supplying its mechanism) plus documented lineage (Marcus knew Epictetus's discourses via Rusticus, per Meditations 1.7 — standard, uncontested). Ordering fact checked against u-0001's verified Higginson wording: 'Within our power are opinion, aim, desire, aversion'."
+adjudication_refs:
+- ops/adjudications/2026-07-07-gateE-by030.md
+prov:
+  minted_by: claude-code:gateE-v1
+  date: 2026-07-07
+notes: 'Voice gloss for the by-030 node card. ''Parent'' rests on e-0018 (REFINES, high confidence: c-0002 refines c-0001 by supplying its mechanism) plus documented lineage (Marcus knew Epictetus''s discourses via Rusticus, per Meditations 1.7 — standard, uncontested). Ordering fact checked against u-0001''s verified Higginson wording: ''Within our power are opinion, aim, desire, aversion''.'

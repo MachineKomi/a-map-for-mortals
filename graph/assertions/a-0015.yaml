@@ -1,14 +1,19 @@
 id: a-0015
 kind: source-summary
-text: "In a two-month prospective study (n = 122 undergraduates who reported a trauma between waves), retrospectively reported growth corresponded poorly with measured pre-to-post change (Frazier 2009) — a measurement caution, not a verdict on every survivor's report."
-claim_refs: [c-0030]
+text: In one two-month study that tracked 122 students through a trauma, how much people said they'd grown lined up poorly with the change you could actually measure in them (Frazier 2009). Read it as a measurement caution, not a verdict on any one survivor's story.
+claim_refs:
+- c-0030
 mandatory_caveats:
-  - "a measurement caution, not a verdict"
-  - "two-month"
+- a measurement caution, not a verdict
+- two-month
 prohibited_phrasings:
-  - "growth is a myth"
-  - "proves growth is illusory"
+- growth is a myth
+- proves growth is illusory
 status: approved-for-package-02v1
-adjudication_refs: ["ops/adjudications/2026-07-07-gateE-by070.md", "ops/adjudications/2026-07-07-external-review-round-3-response.md"]
-prov: {minted_by: "claude-code:gateE-v1", date: 2026-07-07}
-notes: "SELF-CORRECTION 2026-07-07 (round-3 review P0-6): the earlier version of THIS assertion was itself a false correction. It dropped the real two-month interval and claimed 'two-month' belonged to the habit-formation finding — WRONG. The Frazier 2009 abstract (doi:10.1111/j.1467-9280.2009.02381.x, fetched 2026-07-07) states the interval IS two months (Time 1 -> Time 2) and n=122 IS the trauma-exposed analytic group. The '~1,500 recruited' figure is NOT in the abstract (it was carried from the research report) and has been removed — reinstate only if primary-confirmed. The original v0.1.1 page copy ('one two-month study of 122 US students') was compressed but had the interval and n right; my 'repair' was worse than what it replaced. Full account: ops/adjudications/2026-07-07-external-review-round-3-response.md. u-0030 is verified-secondary (DOI-confirmed); the design here is now checked to the primary abstract."
+adjudication_refs:
+- ops/adjudications/2026-07-07-gateE-by070.md
+- ops/adjudications/2026-07-07-external-review-round-3-response.md
+prov:
+  minted_by: claude-code:gateE-v1
+  date: 2026-07-07
+notes: 'SELF-CORRECTION 2026-07-07 (round-3 review P0-6): the earlier version of THIS assertion was itself a false correction. It dropped the real two-month interval and claimed ''two-month'' belonged to the habit-formation finding — WRONG. The Frazier 2009 abstract (doi:10.1111/j.1467-9280.2009.02381.x, fetched 2026-07-07) states the interval IS two months (Time 1 -> Time 2) and n=122 IS the trauma-exposed analytic group. The ''~1,500 recruited'' figure is NOT in the abstract (it was carried from the research report) and has been removed — reinstate only if primary-confirmed. The original v0.1.1 page copy (''one two-month study of 122 US students'') was compressed but had the interval and n right; my ''repair'' was worse than what it replaced. Full account: ops/adjudications/2026-07-07-external-review-round-3-response.md. u-0030 is verified-secondary (DOI-confirmed); the design here is now checked to the primary abstract.'

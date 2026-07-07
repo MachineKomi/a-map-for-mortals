@@ -8,9 +8,9 @@ blocks:
   text: Does the load make you stronger?
 - type: editorial
   field: intro
-  chars: 157
-  text: One of the oldest consolations this corpus holds says the load itself teaches — printed here <em>with its
-    asterisk</em>, because the evidence cuts both ways.
+  chars: 184
+  text: One of the oldest comforts in this whole collection says the load itself teaches you something — and we're
+    printing it <em>with its asterisk</em>, because the evidence pulls both ways.
 - type: editorial
   field: kicker
   chars: 51

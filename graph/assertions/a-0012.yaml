@@ -1,11 +1,15 @@
 id: a-0012
 kind: source-summary
-text: "Suffering as the fixed road to understanding — sung by a chorus inside a cycle of vengeance that only a court, at the trilogy's end, brings to a halt."
-claim_refs: [c-0023]
+text: 'Suffering as the fixed road to understanding — and worth noticing who''s singing it: a chorus, inside a cycle of revenge that only a courtroom, at the very end of the trilogy, finally stops.'
+claim_refs:
+- c-0023
 mandatory_caveats: []
 prohibited_phrasings:
-  - "Aeschylus teaches that suffering ennobles"
+- Aeschylus teaches that suffering ennobles
 status: approved-for-package-01v2
-adjudication_refs: ["ops/adjudications/2026-07-07-gateE-by070.md"]
-prov: {minted_by: "claude-code:gateE-v1", date: 2026-07-07}
-notes: "Voice gloss. Grounded in u-0023's notes (chorus of Argive elders; endorsement ambiguous — 'across the trilogy suffering does NOT reliably produce wisdom, the vengeance cycle continues'); the court resolution (Athena's Areopagus, Eumenides) is the trilogy's documented ending and was vetted in the round-1 Oresteia repair (ops/adjudications/2026-07-07-external-review-response.md). Translation caveat lives in the unit (Ewans: 'learn from experience' closer than 'learn by suffering')."
+adjudication_refs:
+- ops/adjudications/2026-07-07-gateE-by070.md
+prov:
+  minted_by: claude-code:gateE-v1
+  date: 2026-07-07
+notes: 'Voice gloss. Grounded in u-0023''s notes (chorus of Argive elders; endorsement ambiguous — ''across the trilogy suffering does NOT reliably produce wisdom, the vengeance cycle continues''); the court resolution (Athena''s Areopagus, Eumenides) is the trilogy''s documented ending and was vetted in the round-1 Oresteia repair (ops/adjudications/2026-07-07-external-review-response.md). Translation caveat lives in the unit (Ewans: ''learn from experience'' closer than ''learn by suffering'').'

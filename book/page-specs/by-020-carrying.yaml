@@ -20,5 +20,5 @@ copy:
     - {name: "Edgar, in Lear", meta: {editorial: "Shakespeare · 1606 · lineage"}, independence: weak}
   frays: {assert: a-0028}
   caption:
-    editorial: "Solid lines: <b>partial argued independence</b>. Dashed: <b>lineage</b> — an idea that travelled, a different fact from one rediscovered. Convergence is robustness, not truth."
+    editorial: "Solid lines: <b>partial, argued independence</b>. Dashed: <b>lineage</b> — an idea that travelled, which is a different thing from one worked out twice. Convergence is robustness, not proof."
 notes: "The argued convergence required by runbook P3 — migrated at Gate E through a mandatory adversarial pass (ops/adjudications/2026-07-07-gateE-by020.md): a-0026 ('likely inheriting', 'arrive'), a-0027 (hub label conditional on frays visibility), a-0028 ('chain grading is contested', 'likely inherits', 'Neo-Stoicism'); hadith voice-meta repaired (wording verified in Tirmidhi; the isnad grading is the contested locus). Verbatim quotes: c-0001 and c-0010 only (u-0009's held English is in-copyright — never quote it)."

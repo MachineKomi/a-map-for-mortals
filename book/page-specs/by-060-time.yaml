@@ -10,7 +10,7 @@ copy:
   title: {editorial: "Two counsels for the same hour"}
   intro:
     - assert: a-0017
-    - editorial: "In the years when time becomes the scarce input of everything else, two counsels flatly disagree about what to do with the hour in front of you."
+    - editorial: "In the years when time becomes the scarcest thing you own, two counsels flatly disagree about what to do with the hour in front of you."
   columns:
     - title: {editorial: "Seize the present"}
       accent: pink

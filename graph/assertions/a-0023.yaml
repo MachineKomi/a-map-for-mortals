@@ -1,10 +1,14 @@
 id: a-0023
 kind: source-summary
-text: "Schopenhauer's side of the fork claims that happiness rests on what one <em>is</em>, not what one has:"
-claim_refs: [c-0013]
+text: 'Schopenhauer''s side of the fork says happiness rests on what you <em>are</em>, not what you have:'
+claim_refs:
+- c-0013
 mandatory_caveats: []
 prohibited_phrasings: []
 status: approved-for-package-01v2
-adjudication_refs: ["ops/adjudications/2026-07-07-gateE-by040-050.md"]
-prov: {minted_by: "claude-code:gateE-v1", date: 2026-07-07}
-notes: "Direct compression of c-0013 ('Happiness depends far more on what one is than on what one has or how one appears'); leads into the verbatim quote."
+adjudication_refs:
+- ops/adjudications/2026-07-07-gateE-by040-050.md
+prov:
+  minted_by: claude-code:gateE-v1
+  date: 2026-07-07
+notes: Direct compression of c-0013 ('Happiness depends far more on what one is than on what one has or how one appears'); leads into the verbatim quote.

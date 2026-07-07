@@ -1,12 +1,17 @@
 id: a-0029
 kind: source-summary
-text: "Much disturbance comes from our judgments, not the events themselves — drop the judgment and the harm loses its grip. This is counsel for the weight you carry anyway; it does not cover abuse, material injury, or preventable institutional harm."
-claim_refs: [c-0002]
+text: A lot of what wrecks a day isn't the thing that happened — it's the story we tell ourselves about it. Change the story and some of the sting goes with it. This is for the ordinary weight you're carrying anyway; it does not cover abuse, material injury, or preventable institutional harm.
+claim_refs:
+- c-0002
 mandatory_caveats:
-  - "does not cover abuse, material injury, or preventable institutional harm"
+- does not cover abuse, material injury, or preventable institutional harm
 prohibited_phrasings:
-  - "nothing can harm you"
+- nothing can harm you
 status: approved-for-package-02v1
-adjudication_refs: ["ops/adjudications/2026-07-07-gateE-by030.md", "ops/adjudications/2026-07-07-external-review-round-3-response.md"]
-prov: {minted_by: "claude-code:round3-v1", date: 2026-07-07}
-notes: "Round-3 P0-4: page 3's central claim label was previously rendered from the raw claim c-0002 via card_claim (a raw-claim publication path that bypassed the assertion layer). It now routes through this assertion, with the scope exclusion the review asked for carried IN the claim's own text (mandatory caveat), not only in the nearby bend note. Faithful to c-0002; the scope clause is the editorial boundary the Stoic counsel requires."
+adjudication_refs:
+- ops/adjudications/2026-07-07-gateE-by030.md
+- ops/adjudications/2026-07-07-external-review-round-3-response.md
+prov:
+  minted_by: claude-code:round3-v1
+  date: 2026-07-07
+notes: 'Round-3 P0-4: page 3''s central claim label was previously rendered from the raw claim c-0002 via card_claim (a raw-claim publication path that bypassed the assertion layer). It now routes through this assertion, with the scope exclusion the review asked for carried IN the claim''s own text (mandatory caveat), not only in the nearby bend note. Faithful to c-0002; the scope clause is the editorial boundary the Stoic counsel requires.'
