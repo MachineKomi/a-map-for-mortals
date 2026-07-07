@@ -84,6 +84,7 @@ claim_refs: [c-9001]
 mandatory_caveats: ["caveat phrase"]
 prohibited_phrasings: []
 status: approved-for-fixtures
+adjudication_refs: ["fixtures"]
 prov: {minted_by: test, date: 2020-01-01}
 """
 
