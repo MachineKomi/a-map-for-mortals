@@ -42,18 +42,18 @@
 - **Unprobed; probe only if/when heavy compute is actually needed.** (`python tools/fetch_weasyprint.py` + `pip install pyyaml pypdfium2` should be the whole base setup on any new machine.)
 
 ## Next actions (ordered)
-1. **Jason: review publish package #1** (`ops/publish-packages/package-01.md` + the PDF). Feedback lands before P4 scaling — course-correction is cheap here.
+1. **P4 (IN PROGRESS): scale ingestion** — mint the remaining ~313 report-level units (wave-1 + wave-2) as graph units in committed batches; manifest at `corpus/synthesis/ingest-manifest-p4.yaml`; S2 verification rolling afterwards, publish-priority first.
 2. ~~Wave-2 P1/P2~~ **DONE 2026-07-08** (all validated, extracted, index rebuilt; spine ends fed — child 19, elder 132 combined).
 3. After sign-off: P4 scale ingestion (remaining ~150 wave-1 units + wave-2, batches of ~25; S2 checks mandatory on every print candidate — the translation-attribution lesson).
 4. Backlog: u-0019 Russell PD text retry; u-0008 German vs Nietzsche Source; original-language capture where still null (u-0001 Greek, u-0023 Greek).
 
 ## Blockers / waiting on Jason
-- **Publish package #1 review** (pauses P4 scaling only; wave-2 processing continues).
+- None currently. (Package #1 approved 2026-07-08.)
 
 ## Publish packages
 | # | Contents | Proposed | Status |
 |---|---|---|---|
-| 1 | The Building Years chapter + provenance + escalations + limits (`ops/publish-packages/package-01.md`) | 2026-07-07 | **awaiting Jason** |
+| 1 | The Building Years chapter + provenance + escalations + limits (`ops/publish-packages/package-01.md`) | 2026-07-07 | **APPROVED by Jason 2026-07-08** ("Looks great so far, please proceed") |
 
 ## Session log (newest first)
 - 2026-07-08 (wave-2 P2) · laptop: eight extraction agents → 164 units in corpus/synthesis/wave-2/ (44 dilemmas, 36 convergences with FOR-MERGE flags, 34 tensions; CARE flags carried on all 24 Indigenous units — 11 consent-gate, 2 record-only). Index rebuilt: combined 346 report-level units; spine ends transformed (child 3→19, youth 23→65, elder 59→132 incl. living-the-end material); wave-2 saturation row added (novelty very high, no signal, by design). Cross-wave merge candidates recorded for P6 — Gita/Buddhist↔Stoic control cluster feeds skeleton claim c-0001 directly. Overnight run ends here: P4 scaling deliberately waits for Jason's package-01 review per the runbook (course-correction is cheap before scale).
