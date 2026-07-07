@@ -1,5 +1,7 @@
 # A Map for Mortals — Methodology & Data-Science Spec
 
+> **TRANSITION NOTICE (2026-07-07):** a v0.4 methodology reset was adopted after external adversarial review — `docs/methodology-v0.4-transition.md` **binds where it conflicts with this document** (pending Jason's E-0003 confirmation, after which this document is revised in full). Key changes: Model C research identity; corpus-bounded language; robustness profiles superseded by claim-type dossiers; `publish-ready` suspended; publication-driven (not corpus-wide) verification.
+
 **Version:** 0.3 · **Status:** production · **Implements** the Wave-1 methodology report (`corpus/reports/wave-1/01-methodology.md`), adapted for autonomous execution in the Claude Code harness.
 
 > **The governing principle of v0.3 — harness-native by default.** The *epistemics* are non-negotiable: provenance on everything, adjudicated judgments, disaggregated robustness, independence as argued evidence. The *tools* are replaceable. Always prefer the simplest tool that preserves the epistemics in this environment; the research-grade stack (§6) is an optional upgrade, never a blocker. An instruction that can't run here has a documented fallback — stalling and simulating are both forbidden.
@@ -35,7 +37,7 @@ Deep-research reports are **claims about sources, not verified data**. Every quo
 
 **Claim** (`graph/claims/`): `id`, `canonical_claim`, `claim_type`, `polarity`, `conditionality`, `member_units[]`, `robustness_profile` (below), `status` [candidate|adjudicated|publish-ready], `prov`, `notes`.
 
-**Edge** (`graph/edges/`): `id`, `type`, `from`, `to`, `origin`, `confidence`, `method`, `prov`, `notes`; `independence_basis` (graded: strong|partial|weak|none + one-line evidence) on `CONVERGES_WITH`. Types: EXPRESSED_BY, FROM_WORK, IN_TRADITION, INFLUENCED, CONVERGES_WITH, REFINES, QUALIFIES, **CONTRADICTS** (logical) split from **IN_TENSION_WITH** (prudential/conditional — the book's actual subject), ADDRESSES, CULTIVATES, GUARDS_AGAINST, LEADS_TO, APPLIES_IN, SUPPORTED_BY, UNDERMINED_BY.
+**Edge** (`graph/edges/`): `id`, `type`, `from`, `to`, `origin`, `confidence`, `method`, `prov`, `notes`; `independence_basis` (graded: strong|partial|weak|none + one-line evidence) on `CONVERGES_WITH`. Types: EXPRESSED_BY, FROM_WORK, IN_TRADITION, INFLUENCED, CONVERGES_WITH, REFINES, QUALIFIES, **CONTRADICTS** (logical) split from **IN_TENSION_WITH** (prudential/conditional — the book's actual subject), **FUNCTIONAL_ANALOGY** *(added 2026-07-07: similar action/function without proposition-level equivalence — never counted as convergence)*, ADDRESSES, CULTIVATES, GUARDS_AGAINST, LEADS_TO, APPLIES_IN, SUPPORTED_BY, UNDERMINED_BY.
 
 **Robustness profile** — a disaggregated vector; **never one score**. Eight dimensions, each `{rating: high|moderate|low|very-low, certainty, basis}`: (1) recurrence, independence-weighted; (2) source diversity; (3) temporal spread; (4) claim type; (5) empirical support (GRADE-style); (6) contestation; (7) attribution integrity; (8) survives-scrutiny. Orderings only as **partial order** (dominance on every dimension); incomparables stay incomparable; note sensitivity of any ordering to defensible re-weightings.
 

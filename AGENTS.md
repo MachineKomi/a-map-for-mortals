@@ -41,7 +41,7 @@ You are Codex, running this project **largely autonomously**. Read this file, th
 Gates: paraphrase, claim_type, clustering/merges, independence, contradiction-vs-tension, robustness ratings, curation. At each:
 
 1. **Steer first:** reload the principles + the task's bias checklist (in METHODOLOGY §7) before judging.
-2. **Adversarial second pass** that genuinely tries to disagree. For high-stakes/contested calls use, in order of preference: (a) an external second model via a configured CLI (e.g. Codex/GPT) **if present in the environment**; (b) a fresh-context subagent with an adversarial charter — disclose in `method` that it shares weights; (c) escalate. **Never blend verdicts:** concur → proceed at higher confidence; diverge → escalate with both readings recorded. Log who judged what in `method`.
+2. **Adversarial second pass** that genuinely tries to disagree. For high-stakes/contested calls use, in order of preference: (a) an external second model via a configured CLI (e.g. Codex/GPT) **if present in the environment**; (b) a fresh-context subagent with an adversarial charter — disclose in `method` that it shares weights; (c) escalate. **Never blend verdicts** (refined 2026-07-07): no averaging, no concealed compromise; both verdicts persist verbatim; a named deciding pass may explicitly select or synthesise with reasons; genuine stalemates affecting publication escalate. Log who judged what in `method`.
 3. **External gold standards** where they exist: SEP (positions), Quote Investigator / Fake Buddha Quotes (attribution), primary editions (quotes). Never self-certify the externally checkable.
 4. **Confidence-tag everything**; low-confidence + high-stakes → `ops/ESCALATIONS.md`.
 5. **Monitor corpus skew** (tradition/language/gender/era); never present corpus frequency as global frequency.
@@ -67,7 +67,9 @@ prototype/     ARCHIVE — the hand-authored v0.0.1 slice + locked creative copy
 
 ## 6 · Environment notes
 
-- Python 3; `pip install X --break-system-packages`. Check capabilities in Phase 0 and record them in `STATE.md`; prefer the **simplest tool that preserves the epistemics** (git+YAML store, NetworkX queries; heavy stack is optional — METHODOLOGY §6).
+- **Document precedence when governing docs conflict:** founding-principles > REQUIREMENTS > METHODOLOGY > SPEC > runbook, with `docs/methodology-v0.4-transition.md` binding during the v0.4 transition (pending E-0003). ops/DECISIONS.md holds the reasoning.
+- **On the Windows laptop:** invoke `python`, not `python3`; WeasyPrint = standalone exe in tools/bin; see STATE.md capabilities. Linux paths in SPEC §3/§5 are superseded there.
+- Python 3; `pip install X --break-system-packages` (non-Windows machines). Check capabilities in Phase 0 and record them in `STATE.md`; prefer the **simplest tool that preserves the epistemics** (git+YAML store, NetworkX queries; heavy stack is optional — METHODOLOGY §6).
 - Book: HTML/CSS → PDF via **WeasyPrint**. **No JavaScript** (Mermaid won't render) — all diagrams are hand-authored inline SVG/HTML. **Mandatory QA loop:** render → `pdftoppm -png` → *view every page* → fix → re-render.
 - Deep research is **not yours**: prepare prompts + do-not-duplicate lists; Jason runs them in Codex chat and drops reports into `corpus/reports/wave-N/`.
 

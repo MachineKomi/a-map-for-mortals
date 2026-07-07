@@ -2,7 +2,7 @@
 
 **The master tracker.** Updated by Claude Code after every wave (Runbook P2, and again each wave in P5). This is the source of coordination truth — it lives in the repo, not in any chat. *(Template below; replace the example rows as real data lands.)*
 
-- **Last updated:** 2026-07-08 (wave-2 extracted + synthesised; extracts in `corpus/synthesis/wave-2/`)
+- **Last updated:** 2026-07-07 (wave-2 extracted + synthesised; extracts in `corpus/synthesis/wave-2/`)
 - **Current wave:** 2 (fully processed at report level)
 - **Saturation status:** no signal — wave-2 ran at 90% of wave-1's unit volume with ~50 NEW tradition tags (deliberate gap-filling breadth). First honest saturation read comes after corpus-wide claim-merging (P6) or wave-3.
 - **Reports held:** 15 (all validated + extracted) · **Report-level units:** 346 (wave-1: 182 · wave-2: 164) · **Graph:** 33 units minted, 32 verified, 33 claims + 23 edges adjudicated (walking skeleton) · **Named dilemmas:** 82 report-level (38 + 44)
@@ -64,11 +64,13 @@ Flag thin cells — the book is ordered by life-stage (SPEC §8), so each stage 
 
 | Priority | Gap | Why it matters | Status |
 |---|---|---|---|
-| ~~P0~~ | ~~Eastern traditions~~ | **FED by wave-2/01** (25 units, all four target streams + Japanese) | closed 2026-07-08 |
-| ~~P1~~ | ~~African & Indigenous wisdom~~ | FED by wave-2/02 + wave-2/03 (Indigenous units publish only after the consent/CARE gate) | closed 2026-07-08 |
-| ~~P1~~ | ~~Women's voices across eras~~ | FED by wave-2/04 (28 units); residual thinness: Mirabai, Edith Stein, elder voices | closed 2026-07-08 |
-| P1→P2 | Child + elder life-stages | partially FED by wave-2/05 (5 read-aloud child + 8 elder units); still the thinnest stages — keep feeding via depth passes (Confucian filial piety, more read-aloud material) | reduced 2026-07-08 |
-| ~~P2~~ | ~~Persian/Zoroastrian; practical/strategic; world proverbs~~ | FED by wave-2/06, /07, /08 | closed 2026-07-08 |
+| ~~P0~~ | ~~Eastern traditions~~ | **FED by wave-2/01** (25 units, all four target streams + Japanese) | closed 2026-07-07 |
+| ~~P1~~ | ~~African wisdom (research)~~ | FED by wave-2/02 | closed 2026-07-07 |
+| ~~P1~~ | ~~Indigenous wisdom (research/discovery)~~ | FED by wave-2/03 (24 units held) | closed 2026-07-07 |
+| **P1** | **Indigenous wisdom (PUBLISHABLE)** | **OPEN — no community-authority/consent process exists yet; 11 consent-gated + 2 record-only units cannot enter any edition until one does** | open |
+| ~~P1~~ | ~~Women's voices across eras~~ | FED by wave-2/04 (28 units); residual thinness: Mirabai, Edith Stein, elder voices | closed 2026-07-07 |
+| P1→P2 | Child + elder life-stages | partially FED by wave-2/05 (5 read-aloud child + 8 elder units); still the thinnest stages — keep feeding via depth passes (Confucian filial piety, more read-aloud material) | reduced 2026-07-07 |
+| ~~P2~~ | ~~Persian/Zoroastrian; practical/strategic; world proverbs~~ | FED by wave-2/06, /07, /08 | closed 2026-07-07 |
 | P2 | Non-Western + 20th-century literature | 07-literary is canon-Western, pre-1900 | queued |
 | P2 | Islamic doctrinal & Talmudic reasoning depth | 05 leans Sufi-poetic; jurisprudential ethics and disputational wisdom absent | queued |
 | P2 | Depth passes (Epictetus, Analects, Gita, Shakespeare…) | surveys aren't the digging | from reports' §C/§G |

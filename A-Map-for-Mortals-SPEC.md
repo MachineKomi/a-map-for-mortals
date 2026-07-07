@@ -32,7 +32,7 @@ The distinctiveness of the look (so it never reads as generic AI cream-and-terra
 | Line | `#E3D6C2` | warm hairlines / borders |
 | Warm | `#EFB58A` | sparing warm accent on dark panels |
 
-**Semantic discipline (mandatory):** navy = structure/ink; orange = caution/decision; pink = insight/warmth/wiser path. **No green** (one dark `#2e7d56` is permitted only for a positive "yes" branch chip), **no purple**. Colour *energy* may rise in early-life chapters and fall toward the close (see §8), but the semantics never change.
+**Semantic discipline (amended 2026-07-07 — R-V5 outranks palette semantics; see ops/DECISIONS.md):** navy = structure/ink; orange and pink are **evaluative colours applied ONLY where the project has adjudicated an evidence-backed asymmetry** (orange = the adjudicated harder/cautioned side, pink = the adjudicated wiser/insight side). **Unresolved poles and genuine open tensions receive equal-status neutral colour** — colour must never answer a question the evidence has not. **No green** (one dark `#2e7d56` is permitted only for a positive "yes" branch chip), **no purple**. Colour *energy* may rise in early-life chapters and fall toward the close (see §8); the grammar above is fixed.
 
 ## 3 · Typography (present in the environment)
 

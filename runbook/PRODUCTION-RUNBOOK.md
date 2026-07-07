@@ -1,5 +1,7 @@
 # Production Runbook — *A Map for Mortals*
 
+> **TRANSITION NOTICE (2026-07-07):** the phase sequence below is superseded during the v0.4 transition by the Gate sequence in `docs/methodology-v0.4-transition.md` (Gates A–F). The phase concepts survive, but verification is publication-driven, saturation language is frame-bounded, and no phase may scale past a failed gate.
+
 One runbook, corpus to shipped book. **Claude Code executes autonomously**; Jason runs deep-research queries and reviews publish packages. Every phase: do the work in batches → validate → commit → **update `STATE.md`**. Supersedes the old CORPUS-BUILD-RUNBOOK.
 
 > **The whole flow:** P0 env → P1 land reports → P2 synthesise → **P3 walking skeleton (first publish package)** → P4 scale ingestion+verification → P5 wave loop until saturation → P6 graph completion → P7 curation → P8 render → P9 ship gate.
