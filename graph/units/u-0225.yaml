@@ -1,0 +1,37 @@
+id: u-0225
+claim_id: null
+type: Practice
+paraphrase: "Kaitiakitanga: exercise guardianship over land and life, an obligation bound into whakapapa, mauri, tapu, and rāhui rather than ownership."
+quotation: null   # no verbatim wording held; concept unit
+quotation_translation: null
+source:
+  author: "Māori"
+  work: "kaitiakitanga (statutorily recognised in the Resource Management Act 1991, s7)"
+  passage: null
+  translator: null
+  edition_year: null
+  language: mi
+  url: null
+  urn: null
+tradition: Māori
+era: null
+register: null   # concept/practice, not a fixed verbal form
+claim_type: normative
+polarity: prescriptive
+conditionality: conditional
+life_domains: [nature, community, legacy, work]
+life_stages: [young-adult, adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: communal
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: unknown
+prov:
+  source_report: corpus/reports/wave-2/03-indigenous.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "CONSENT GATE: do not publish before a community-source consent audit (see ops/DECISIONS.md 2026-07-08). Report label: communal. From tiaki (to guard/care for); bound to mana whenua, mauri, tapu, rāhui, and whakapapa per the report — conditionality conditional because the obligation flows from relationship/standing, not a universal maxim. Statutory recognition: Resource Management Act 1991, s7 (New Zealand). For S2, the report flags Te Ara Encyclopedia of New Zealand (Te Ahukaramū Charles Royal entries) as a Māori-authored reference — a candidate established public community-authored source for the consent gate."

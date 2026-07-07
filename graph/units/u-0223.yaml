@@ -1,0 +1,37 @@
+id: u-0223
+claim_id: null
+type: Insight
+paraphrase: "The Dreaming — Warlpiri Jukurrpa and distinct per-nation conceptions among Arrernte, Tiwi, Wiradjuri and others — is place-based law and cosmology whose specifics are access-restricted."
+quotation: null   # RECORD-ONLY stub — no content extracted (CARE)
+quotation_translation: null
+source:
+  author: "Specific Aboriginal nations (Warlpiri, Arrernte, Tiwi, Wiradjuri, among others)"
+  work: null
+  passage: null
+  translator: null
+  edition_year: null
+  language: null
+  url: null
+  urn: null
+tradition: Aboriginal Australian (per-nation, not pan-Aboriginal)
+era: null
+register: null
+claim_type: metaphysical
+polarity: descriptive
+conditionality: conditional
+life_domains: [nature, community, legacy]
+life_stages: [child, youth, adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: communal
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: unknown
+prov:
+  source_report: corpus/reports/wave-2/03-indigenous.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "RECORD-ONLY (CARE): content deliberately not extracted; sacred/restricted. Report label: communal. This stub records existence and scope only: the Dreaming is place-based and access-restricted; do not decontextualise. NOT pan-Aboriginal-homogeneous — Warlpiri Jukurrpa/Tjukurrpa; Arrernte, Tiwi, Wiradjuri conceptions diverge (some hold it as past reality, others as concurrent past/present/future) — conditionality conditional because per-nation variation is constitutive. The English term 'the Dreaming' was coined by Frank Gillen (1896), popularised via Spencer & Gillen (1899); Stanner's 1956 essay 'The Dreaming' is a key in-copyright reference. Translation loss: the communities attest the concept resists English glossing."

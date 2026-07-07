@@ -1,0 +1,37 @@
+id: u-0293
+claim_id: null
+type: Insight
+paraphrase: "Enduring words can preserve a name beyond death: the poet expects his completed work, not his body, to survive him."
+quotation: null            # Persian original not held in the report
+quotation_translation: "I shall not die, these seeds I've sown will save / My name and reputation from the grave, / And men of sense and wisdom will proclaim, / When I have gone, my praises and my fame."
+source:
+  author: Ferdowsi
+  work: Shahnameh
+  passage: "closing verses"
+  translator: Dick Davis
+  edition_year: 2006
+  language: fa
+  url: null
+  urn: null
+tradition: Persian
+era: 1010
+register: poem
+claim_type: observational
+polarity: descriptive
+conditionality: conditional
+life_domains: [legacy, work, mortality]
+life_stages: [midlife, elder]
+endorsement: endorsed
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-2/06-persian.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: probable. Ferdowsi's authorial coda in his own voice (speaker = poet, not a character), so endorsement: endorsed. Report's misattribution watchlist warns most circulating 'Shahnameh quotes' are loose paraphrases; this wording must be verified against Davis 2006 print (report Lead #3) before quoting. Davis 2006 is in-copyright; PD alternatives: Warner & Warner, Helen Zimmern. Contrasting answer to mortality (legacy) vs the carpe-diem cluster (KH-04) — report fork #8. Ferdowsi was a Muslim preserving a Zoroastrian worldview, though this unit is his own statement, not inherited Zoroastrian material."

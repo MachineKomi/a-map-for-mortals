@@ -1,0 +1,37 @@
+id: u-0218
+claim_id: null
+type: Insight
+paraphrase: "All beings are related: humans, animals, land, and cosmos form one web of kinship."
+quotation: "Mitákuye Oyás'iŋ"
+quotation_translation: "all my relations / we are all related"
+source:
+  author: "Lakota"
+  work: "Mitákuye Oyás'iŋ (prayer/song; Lakota ceremonial life)"
+  passage: null
+  translator: null
+  edition_year: null
+  language: lkt
+  url: null
+  urn: null
+tradition: Lakota
+era: null
+register: null   # ceremonial prayer/song formula; no register in the current enum fits without Westernising
+claim_type: metaphysical
+polarity: descriptive
+conditionality: universal-ish
+life_domains: [nature, family, community, self]
+life_stages: [child, youth, adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: communal
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: unknown
+prov:
+  source_report: corpus/reports/wave-2/03-indigenous.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "CONSENT GATE: do not publish before a community-source consent audit (see ops/DECISIONS.md 2026-07-08). Report label: communal. MISATTRIBUTION WATCHLIST: the widely circulated expanded 'Mitakuye Oyasin prayer' ('To the mineral nation that has built and maintained my bones…') is a modern devotional composition, NOT verified traditional Lakota text — this unit holds only the traditional phrase. Translation loss is real: the phrase's layered meaning is attested by Lakota speakers to resist English glossing (see u-0219); the English gloss here is the report's approximation. copyright_flag unknown per S1 rule 6, though the short traditional phrase itself long predates any modern fixation."

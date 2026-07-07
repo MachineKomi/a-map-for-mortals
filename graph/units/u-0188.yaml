@@ -1,0 +1,37 @@
+id: u-0188
+claim_id: null
+type: Insight
+paraphrase: "Waking from dreaming he was a butterfly, Zhuangzi could not say which was dreaming which: the boundary between self and world, waking and dream, is less fixed than assumed."
+quotation: null   # Classical Chinese not held in the report
+quotation_translation: "He didn't know if he was Zhuang Zhou who had dreamt he was a butterfly, or a butterfly dreaming he was Zhuang Zhou."
+source:
+  author: Zhuangzi
+  work: Zhuangzi
+  passage: "ch. 2"
+  translator: Burton Watson
+  edition_year: null
+  language: lzh
+  url: null
+  urn: null
+tradition: Daoist
+era: -250   # report dates the Zhuangzi c. 3rd c. BCE
+register: parable
+claim_type: metaphysical
+polarity: descriptive
+conditionality: contested
+life_domains: [inner-life, identity]
+life_stages: [adult, midlife]
+endorsement: endorsed
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright   # Watson (Columbia) — in-copyright; Legge PD exists for the underlying text but is not the quoted wording
+prov:
+  source_report: corpus/reports/wave-2/01-eastern.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: verified (downgraded to attested per S1 rules). Endorsement 'endorsed' is the minting agent's call (report gives no label): an authorial parable, narrated of Zhuang Zhou himself and capped in the text with the doctrinal label 'This is called the Transformation of Things' — but report cautions that Zhuangzi's parable speakers are literary devices; do not read endorsement flatly. Claim held as metaphysical, not empirical. Companion motif: the useless tree (ch. 1/4) as counter to Confucian usefulness/duty. Ziporyn (Hackett) also a modern standard; Legge PD."

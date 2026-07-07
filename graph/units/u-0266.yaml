@@ -1,0 +1,37 @@
+id: u-0266
+claim_id: null
+type: Practice
+paraphrase: "The core of a real education is choosing what to pay attention to and how to construe other people."
+quotation: "The most obvious, important realities are often the ones that are hardest to see and talk about."
+quotation_translation: null
+source:
+  author: "David Foster Wallace"
+  work: "This Is Water (Kenyon College commencement address, 21 May 2005)"
+  passage: null
+  translator: null
+  edition_year: 2009   # Little, Brown book edition; address delivered 2005
+  language: en
+  url: null
+  urn: null
+tradition: American secular-humanist
+era: 2005
+register: argument
+claim_type: prudential
+polarity: prescriptive
+conditionality: conditional
+life_domains: [meaning, attention, empathy]
+life_stages: [young-adult]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-2/05-childhood-old-age.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: verified ('attribution rock-solid — multiple transcripts, published book'). IN COPYRIGHT — paraphrase or quote briefly in the book. Author died by suicide in 2008 — hold that irony honestly; do not present the counsel as self-certifying biography. Claim-type: report's 'normative (prudential)' — prudential chosen (counsel on the conduct of attention). Tension to preserve: Wallace's conscious empathy over self-sufficiency vs Kipling's Victorian-Stoic self-mastery (u-0264) — rival young-adult ideals. Adult-facing argument register — not a read-aloud unit."

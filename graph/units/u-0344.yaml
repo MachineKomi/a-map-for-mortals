@@ -1,0 +1,37 @@
+id: u-0344
+claim_id: null
+type: Dilemma
+paraphrase: "Too many contributors without coordination ruin the outcome."
+quotation: "Too many cooks spoil the broth"
+quotation_translation: null   # English is the original language
+source:
+  author: "English-speaking folk (England)"
+  work: "English proverb tradition (already called a proverb by George Gascoigne, 1575)"
+  passage: null
+  translator: null
+  edition_year: 1575   # attestation as an already-current proverb, not composition
+  language: en
+  url: null
+  urn: null
+tradition: English folk-proverbial
+era: 1575   # proverbial by 1575 per report
+register: proverb
+claim_type: prudential
+polarity: cautionary
+conditionality: contested
+life_domains: [work, teams, decision-making]
+life_stages: [youth, young-adult, adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: communal
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-2/08-folk-proverbial.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: communal — kept; folk proverb, people/language as author per S1 rules. DILEMMA POLE: coordination pole of fork collaboration-vs-coordination, paired against u-0343 'many hands make light work' (Heywood 1546); coexistence encodes conditionality — report reconciliation principle: role-clarity, not headcount, is the variable — this pole reconciles with 'many hands' because coordination, not the number of helpers, decides the outcome. Same fork in Buddhist parable register: Jataka 33 (u-0337). Life_stages: report 'all', rendered as five (child excluded: counsel about organising shared work). Cultivates clear leadership and delegation; guards against committee-chaos."

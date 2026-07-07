@@ -1,0 +1,37 @@
+id: u-0209
+claim_id: null
+type: Dilemma
+paraphrase: "Destiny (ori), chosen before birth, sets what a life can be — but it is actualised only through effort (ese) and good character (iwa): a soft determinism, not fatalism."
+quotation: null   # no Yoruba wording held; the report's quoted line is its own paraphrase of scholarship (see notes)
+quotation_translation: null
+source:
+  author: "Yoruba (Nigeria)"   # communal — Yoruba thought, via named scholarship
+  work: "Yoruba oral tradition (Ori/ese/iwa; Ifá corpus), via W. Abimbola and Segun Gbadegesin scholarship"
+  passage: null
+  translator: null
+  edition_year: null
+  language: yo
+  url: null
+  urn: null
+tradition: "Yoruba (Nigeria)"
+era: null   # precolonial oral; scholarly articulation 20th–21st c.
+register: principle
+claim_type: metaphysical
+polarity: prescriptive
+conditionality: contested
+life_domains: [destiny, work, character]
+life_stages: [youth, young-adult, adult]
+endorsement: n/a
+attribution_confidence: communal
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; no original-language wording held; not yet checked against primary Yoruba scholarship"
+  checked_against: null
+  date: null
+copyright_flag: unknown
+prov:
+  source_report: corpus/reports/wave-2/02-african.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report grade: communal — kept per S1 rules (oral tradition attributed to a named people). No quotation minted: the report's original_quote field ('ese introduces the principle of individual effort, strife or struggle before the potentialities encapsulated in one's ori can be actualized') is flagged by the report itself as a PARAPHRASE of Abimbola/Gbadegesin, not a verbatim quotation — held here in notes only; copyright unknown, no verbatim quotation held. Destiny components: akunleyan/akunlegba/ayanmo; ori = inner head/destiny, ese = 'leg' (effort/struggle), iwa = character. Most scholars (Gbadegesin, Makinde, Abimbola, Oladipo) read this as soft determinism, not fatalism — destiny is conditional; hence guards against fatalism/passivity. Oluwole recovered the Ifá corpus as philosophy comparable to Socrates. Anchors the destiny-vs-effort fork; convergence candidates (candidate, not proof): Stoic fate/effort, Hindu karma-with-agency. S2 lead: Gbadegesin, African Philosophy (1991) and Abimbola on Ori/ese."

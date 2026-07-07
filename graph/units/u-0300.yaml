@@ -1,0 +1,37 @@
+id: u-0300
+claim_id: null
+type: Virtue
+paraphrase: "Whoever hoards his wealth and withholds help from his own people tends to be abandoned and blamed by them; generosity holds the community together."
+quotation: null            # Arabic original not held in the report
+quotation_translation: "He who hoards his wealth and doesn't help his people, they will abandon and criticize him."
+source:
+  author: "Zuhayr ibn Abi Sulma"
+  work: "Muʿallaqa"
+  passage: null            # gnomic (hikma) section; verse number not given in report
+  translator: null         # English translation unidentified in report ('English tr. varies')
+  edition_year: null
+  language: ar
+  url: null
+  urn: null
+tradition: Pre-Islamic Arabian
+era: 609
+register: aphorism
+claim_type: prudential
+polarity: cautionary
+conditionality: conditional
+life_domains: [community, wealth, generosity]
+life_stages: [adult, midlife]
+endorsement: endorsed
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: unknown
+prov:
+  source_report: corpus/reports/wave-2/06-persian.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: probable. Re-derivation difference: report tags polarity prescriptive, but the quoted evidence is a cautionary consequence-statement about hoarding (kept cautionary here; the generosity prescription is implicit). The muruwwa (manly virtue) ethic. Context: the ode was composed after the ~40-year War of Dāhis and al-Ghabrā (Banu ʿAbs vs Banu Dhubyān, c. 560s–600s CE) and praises the peacemakers Harim ibn Sinan and al-Harith ibn ʿAwf, who paid the blood money over three years. Translator unidentified — copyright unknown; PD locators: Jones (1782), Lyall (1930); Arberry 1957 in-copyright. Pairs with Saadi's Bani Adam (u-0302) in the self-vs-community fork."

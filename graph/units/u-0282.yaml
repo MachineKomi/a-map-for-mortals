@@ -1,0 +1,46 @@
+id: u-0282
+claim_id: null
+type: Consequence
+paraphrase: "At the end, the deceitful face the worst existence and the truthful the best thinking — the choice between truth and the lie carries ultimate consequences."
+quotation: null   # Old Avestan text not held in the report; capture at primary verification
+quotation_translation: "Furthermore, when these two spirits first came together, they created life and death, and how, at the end, the worst existence shall be for the deceitful but the best thinking for the truthful person."
+source:
+  author: "Zarathustra"
+  work: "Gathas"
+  passage: "Yasna 30.4"
+  translator: "Stanley Insler (The Gāthās of Zarathustra, Acta Iranica 8, Brill)"
+  edition_year: 1975
+  language: ae
+  url: null
+  urn: null
+tradition: Zoroastrian
+era: -1100   # c. 1200-1000 BCE (oral composition); Sasanian codification
+register: poem
+claim_type: metaphysical
+polarity: cautionary
+conditionality: conditional
+life_domains: [ethics, spirituality]
+life_stages: [adult, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-2/06-persian.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: >-
+  Report unit ZO-03; report label attribution_confidence 'verified', normalised to
+  'attested' pending a primary check against the physical Insler 1975 volume. Insler
+  1975 is in-copyright; PD alternative is Mills, SBE 1887. RE-DERIVATION DIFFERENCE:
+  report tags claim_type 'normative', but its own note says 'Eschatological framing —
+  normative/metaphysical'; the quoted evidence is an eschatological claim about
+  cosmic consequences (worst existence / best thinking at the end), so tagged
+  metaphysical here — never empirical either way. 'The deceitful' = followers of druj
+  (the Lie); 'the truthful' = followers of aša. Functions in the graph as the
+  consequence arm of the truth-vs-lie fork (with u-0280, u-0281).

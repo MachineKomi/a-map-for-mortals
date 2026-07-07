@@ -1,0 +1,37 @@
+id: u-0326
+claim_id: null
+type: Insight
+paraphrase: "Most people judge rulers by appearances and by results; few perceive what a ruler really is."
+quotation: null   # original Italian not held in the report
+quotation_translation: "Men judge generally more by the eye than by the hand… Everyone sees what you appear to be, few really know what you are… in the actions of all men, and especially of princes… one judges by the result."
+source:
+  author: "Niccolò Machiavelli (The Prince)"
+  work: "The Prince"
+  passage: "Ch. XVIII"
+  translator: "W. K. Marriott"
+  edition_year: 1908
+  language: it
+  url: null
+  urn: null
+tradition: "Italian Renaissance"
+era: 1513
+register: argument
+claim_type: observational
+polarity: descriptive
+conditionality: conditional
+life_domains: [reputation, leadership, statecraft]
+life_stages: [adult, midlife]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-2/07-practical-strategic.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: verified (Marriott Ch. XVIII) — downgraded to attested per S1 rule 1 pending primary check. MISATTRIBUTION WATCHLIST: this Ch. XVIII passage is the actual textual root of the fabricated tag 'the ends justify the means' (never in Machiavelli; Latin cognate is Ovid, Heroides II.85). Report flags cross-tradition convergence with Gracián Maxim 99 (u-0320) and Sun Tzu's deception doctrine — three independent traditions; robustness, not truth. Descriptive observation of how power is perceived, not an endorsement. Marriott 1908 PD. Report's ellipses preserved as held."

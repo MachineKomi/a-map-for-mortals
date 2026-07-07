@@ -1,0 +1,37 @@
+id: u-0254
+claim_id: null
+type: Practice
+paraphrase: "Practise attention to beauty and to the independent reality of other people; such 'unselfing' dissolves the ego and is the ground of virtue."
+quotation: "Love is the extremely difficult realisation that something other than oneself is real."
+quotation_translation: null   # English is the original language
+source:
+  author: Iris Murdoch
+  work: The Sovereignty of Good
+  passage: "'unselfing'; the quoted line is from 'The Sublime and the Good' (Chicago Review, 1959)"
+  translator: null
+  edition_year: 1970
+  language: en
+  url: null
+  urn: null
+tradition: British moral philosophy (Platonist)
+era: 1970
+register: principle
+claim_type: normative
+polarity: prescriptive
+conditionality: conditional
+life_domains: [ethics, attention, love]
+life_stages: [young-adult, adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-2/04-womens-voices.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "RIGHTS-RESTRICTED, QUOTE-MINIMALLY: Murdoch IN COPYRIGHT per report — only the single line the report records is held; print gate blocks verbatim regardless. Report confidence: verified (held as attested per S1 rules). Transmission (extract): direct. Cultivates humility, attention, love; guards against egoism ('the fat relentless ego') and self-absorption (report fields). FLAG FOR MERGE (per report and extract): convergence with Weil's 'attention' unit held by the modern-philosophy report (u-0145) — take Murdoch only for what the Weil unit omits; also convergence candidate 'non-instrumental orientation to the ultimate' with Rabia (u-0256), Julian (u-0247), Akka Mahadevi (u-0257) — claim types differ (normative here, metaphysical for the mystics), do not flatten into one node. Murdoch bridges the autonomy-vs-relation fork: autonomy through attending to the other's reality. Life_stages derived by minting agent (extract left empty)."

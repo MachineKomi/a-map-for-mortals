@@ -1,0 +1,37 @@
+id: u-0303
+claim_id: null
+type: Practice
+paraphrase: "Interrupting others' conversation to display one's own knowledge only makes one's ignorance notorious; speak with restraint."
+quotation: null            # Persian original not held in the report
+quotation_translation: "Whoever interrupts the conversation of others to make a display of his own fund of knowledge, makes notorious his own stock of ignorance."
+source:
+  author: Saadi
+  work: Gulistan
+  passage: "Ch. 8 'Rules for Conduct in Life', Maxim 82 (Ross 1900 #96)"
+  translator: James Ross
+  edition_year: 1900
+  language: fa
+  url: null
+  urn: null
+tradition: Persian
+era: 1258
+register: aphorism
+claim_type: prudential
+polarity: cautionary
+conditionality: conditional
+life_domains: [speech, humility, social-conduct]
+life_stages: [youth, young-adult, adult]
+endorsement: endorsed
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-2/06-persian.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "FLAG FOR MERGE: overlaps the wave-1 Near-Eastern report (05); adab angle only. Report label: verified (recorded; kept attested pending primary check). Classic adab maxim; multiple PD translations with differing numbering: Gladwin 1806 #82, Eastwick 1852 #82, Burton 1888 #58, Ross 1900 #96 — wording here is Ross 1900, PD. Gulistan Ch. 4 ('On the Advantages of Silence') is the thematic home. Endorsement: endorsed — Saadi's direct authorial counsel in the maxims chapter, no dramatic frame."

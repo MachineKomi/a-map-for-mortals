@@ -1,0 +1,37 @@
+id: u-0299
+claim_id: null
+type: Consequence
+paraphrase: "Death cannot be averted by fearing it; it finds whoever it seeks, even one who climbs to the sky on a ladder."
+quotation: null            # Arabic original not held in the report
+quotation_translation: "Whoever fears death, death will find him, even if he climbs to the sky on a ladder."
+source:
+  author: "Zuhayr ibn Abi Sulma"
+  work: "Muʿallaqa"
+  passage: null            # gnomic (hikma) section; verse number not given in report
+  translator: null         # English translation unidentified in report ('English tr. varies')
+  edition_year: null
+  language: ar
+  url: null
+  urn: null
+tradition: Pre-Islamic Arabian
+era: 609
+register: aphorism
+claim_type: observational
+polarity: cautionary
+conditionality: universal-ish
+life_domains: [mortality, courage, fate]
+life_stages: [young-adult, adult, midlife]
+endorsement: endorsed
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: unknown
+prov:
+  source_report: corpus/reports/wave-2/06-persian.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: probable. Translator for the English wording unidentified ('English tr. varies') — verify exact translator; PD locators per report: Jones (1782), Lyall (1930), and the 1917 Sacred Books anthology; Arberry 1957 is the in-copyright scholarly version. Copyright unknown until the rendering is traced. Endorsement: endorsed — Zuhayr's own gnomic voice. Fatalist strain within pre-Islamic hikma: report links it to the fate-vs-will fork — converges with Shahnameh FE-02 (u-0291) and contrasts with Zoroastrian free will ZO-01 (u-0280); preserve as a live contested fork, not a consensus."

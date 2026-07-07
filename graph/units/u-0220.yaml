@@ -1,0 +1,37 @@
+id: u-0220
+claim_id: null
+type: Insight
+paraphrase: "Hózhó — beauty, balance, harmony, order, health — is not merely an aesthetic but a profound way of life."
+quotation: "Hózhó isn't merely an aesthetic; it's a profound way of life."
+quotation_translation: null   # spoken/written English original (Denetdale); the Diné concept itself is nv
+source:
+  author: "Diné"
+  work: "Hózhó philosophy (via Michelle Kahn-John & Mary Koithan 2015; Jennifer Nez Denetdale)"
+  passage: null
+  translator: null
+  edition_year: null
+  language: en
+  url: null
+  urn: null
+tradition: Diné (Navajo)
+era: null
+register: aphorism
+claim_type: normative
+polarity: prescriptive
+conditionality: universal-ish
+life_domains: [self, nature, community, anxiety]
+life_stages: [youth, young-adult, adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: communal
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: unknown
+prov:
+  source_report: corpus/reports/wave-2/03-indigenous.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: communal. The quotation held is Dr. Jennifer Nez Denetdale (Diné historian, University of New Mexico) glossing the communal concept — speaker recorded here; the report gives no venue/date for the quote, so copyright unknown. Peer-reviewed anchor for the concept: Kahn-John & Koithan 2015, in-copyright (see u-0221). Hózhó encompasses beauty, balance, harmony, order, health; expressed in 'Walking in Beauty' and the Blessingway (Hózhǫ́ǫ́jí). Re-derivation note: normative kept per extract, though hózhó also carries metaphysical content (report tags Diné material normative/metaphysical) — this unit carries the way-of-life claim."

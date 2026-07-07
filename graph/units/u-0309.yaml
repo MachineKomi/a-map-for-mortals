@@ -1,0 +1,37 @@
+id: u-0309
+claim_id: null
+type: Practice
+paraphrase: "Mastery rests on a disciplined code: honesty of mind, constant training, broad acquaintance with many arts, and discarding whatever is useless."
+quotation: null   # Japanese original not held in report
+quotation_translation: "Do not think dishonestly. The Way is in training… Do nothing which is of no use."
+source:
+  author: Miyamoto Musashi
+  work: The Book of Five Rings (Go Rin no Sho)
+  passage: "The Ground (Earth) Book, 'nine principles'"
+  translator: Victor Harris
+  edition_year: 1974
+  language: ja
+  url: null
+  urn: null
+tradition: Japanese (bushido / Zen)
+era: 1644   # written 1643-45 per report
+register: principle
+claim_type: prudential
+polarity: prescriptive
+conditionality: conditional
+life_domains: [self-cultivation, craft, career, conflict]
+life_stages: [youth, young-adult, adult]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-2/07-practical-strategic.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: probable. Harris 1974 translation IN COPYRIGHT — only a short fragment held for research; PARAPHRASE POSTURE for the book per report (or short fragments only). The nine-principle list is stable across translations (Wilson, Cleary). Principle 3 ('become acquainted with every art') notable. Speaker context: Musashi in propria persona, addressing students of his Ni-Ten Ichi-ryu school. 'Do not think dishonestly' stands in tension with the Sun Tzu/Gracian deception cluster — inward self-honesty vs outward feints, flagged by report as a tension to test."

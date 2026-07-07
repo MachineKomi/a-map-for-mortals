@@ -1,0 +1,37 @@
+id: u-0245
+claim_id: null
+type: Insight
+paraphrase: "Fiction exists to preserve and pass on the texture of human life; its truth is not reducible to literal fact."
+quotation: null   # Japanese text not held by the report
+quotation_translation: "...the telling begins when all those things the teller longs to have pass on to future generations... overflow the teller's heart."
+source:
+  author: Murasaki Shikibu
+  work: "The Tale of Genji"
+  passage: "ch. 25, 'The Fireflies' (Hotaru)"
+  translator: Royall Tyler
+  edition_year: 2001
+  language: ja
+  url: null
+  urn: null
+tradition: Heian Japanese
+era: 1008   # Genji c. 1008 per report
+register: argument
+claim_type: normative
+polarity: prescriptive
+conditionality: conditional
+life_domains: [art, memory, knowledge]
+life_stages: []
+endorsement: complicated
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-2/04-womens-voices.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report confidence: verified (held at attested pending primary check). SPEAKER CONTEXT (report): the defense of fiction (monogatari) is spoken by the CHARACTER Genji, not in Murasaki's own voice — 'readers have long heard [Murasaki's] voice through his' (Tyler), but 'do NOT equate with authorial endorsement outright'; endorsement set 'complicated' on that basis (report gave the context but no enum label). WATCHLIST: 'mono no aware' is Motoori Norinaga's (1730-1801) later interpretive term, NOT Murasaki's phrase — Tyler notes 'the expression does not occur in the tale'. COPYRIGHT: Tyler (Viking 2001) in-copyright — snippet held pending rights review. TRANSMISSION: direct (her own composition). life_stages left empty per report (no stage-specific application given)."

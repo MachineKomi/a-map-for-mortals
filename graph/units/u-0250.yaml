@@ -1,0 +1,37 @@
+id: u-0250
+claim_id: null
+type: Dilemma
+paraphrase: "If natural freedom belongs to all human beings, then women's subjection in marriage is unjust — either the universal premise must be honoured for women or it is not honestly held."
+quotation: "If all men are born free, how is it that all women are born slaves?"
+quotation_translation: null   # English is the original language
+source:
+  author: Mary Astell
+  work: Some Reflections upon Marriage
+  passage: "1706 Preface"
+  translator: null
+  edition_year: 1706
+  language: en
+  url: null
+  urn: null
+tradition: English proto-feminism (Tory/Anglican)
+era: 1706
+register: argument
+claim_type: normative
+polarity: cautionary
+conditionality: contested
+life_domains: [marriage, freedom, politics]
+life_stages: [young-adult, adult]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-2/04-womens-voices.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report confidence: verified (held as attested per S1 rules; S2 climbs). Transmission (extract): direct. Text PD per report source table. READING CONTESTED, preserved not resolved: Springborg/Kinnaird read the line as ironic Tory critique of Lockean/Whig contractarianism; Broad reads it as a literal claim that wives are wrongfully subject to husbands' arbitrary will — hence conditionality: contested and Dilemma type kept from the report. Report forks: voice-vs-silence (voice pole) and autonomy-vs-relation (autonomy pole); convergence candidate 'education as the lever of equality' with Ban Zhao, de Pizan, Wollstonecraft (candidate, not proof). Life_stages derived by minting agent (extract left empty)."

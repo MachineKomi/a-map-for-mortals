@@ -1,0 +1,37 @@
+id: u-0242
+claim_id: null
+type: Insight
+paraphrase: "Love, rightly educated, ascends step by step from desire for one beautiful body toward beauty itself."
+quotation: null   # Greek text not held by the report
+quotation_translation: "[the ascent] from one to two and from two to all beautiful bodies, and from beautiful bodies to beautiful practices... and from practices to beautiful learnings"
+source:
+  author: "Diotima of Mantinea (via Plato's Socrates)"
+  work: "Symposium"
+  passage: "210a-212a (the teaching spans 201d-212c)"
+  translator: null   # translation unattributed in the report
+  edition_year: null
+  language: grc
+  url: null
+  urn: null
+tradition: Classical Greek (Platonic)
+era: -385   # dramatic/compositional dating per report inventory (c. 385 BCE)
+register: argument
+claim_type: metaphysical
+polarity: prescriptive
+conditionality: contested
+life_domains: [love, knowledge, transcendence]
+life_stages: [young-adult, adult]
+endorsement: endorsed
+attribution_confidence: dubious
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: unknown
+prov:
+  source_report: corpus/reports/wave-2/04-womens-voices.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report confidence: dubious — KEPT at dubious (S1 exception): Diotima's historicity is contested and she appears ONLY in Plato's Symposium. Report speaker_context: 'Voiced only through Plato's Socrates; historicity contested (Ficino, Nussbaum: fiction; Waithe, Deretić/Smith: possibly real).' Ficino (15th c.) first suggested she is fictional; Nussbaum reads her as a literary construct (name ~ 'honor the god', contrasting Alcibiades' Timandra, 'honor the man'); D'Angour models her on Aspasia. TRANSMISSION: the paradigm case of a woman's wisdom possibly voiced only through a man — doubly mediated (Plato writing Socrates reporting Diotima); she may be Plato's construct entirely. Endorsement label re-derived (report gave none): endorsed — Plato's Socrates relays her ladder-of-love teaching approvingly as instruction he accepts. COPYRIGHT: Greek text PD but the quoted English translation is unattributed in the report — flag unknown pending edition identification. Report fork: autonomy-vs-relation; cultivates temperance, wisdom."

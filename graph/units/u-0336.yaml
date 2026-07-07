@@ -1,0 +1,37 @@
+id: u-0336
+claim_id: null
+type: Danger
+paraphrase: "Acting before you have understood the situation brings ruin that cannot be undone."
+quotation: null   # Sanskrit original not held in report; Ryder's English verse only
+quotation_translation: "Deeds ill-known, ill-recognized, / Ill-accomplished, ill-devised — / Thought of these let no man harbour; / Take a warning from the barber."
+source:
+  author: "Vishnu Sharma (attrib.)"
+  work: The Panchatantra
+  passage: "Book V (Aparīkṣitakāraka, 'Ill-Considered Action'), frame verse"
+  translator: Arthur W. Ryder
+  edition_year: 1925
+  language: sa
+  url: null
+  urn: null
+tradition: Sanskrit/Hindu (India)
+era: 300   # core text ~300 BCE-300 CE; Pūrṇabhadra recension 1199 CE
+register: parable
+claim_type: prudential
+polarity: cautionary
+conditionality: conditional
+life_domains: [decision-making, work, family]
+life_stages: [youth, young-adult, adult]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain   # Ryder 1925 entered US public domain 2021 per report — confirm jurisdiction before print
+prov:
+  source_report: corpus/reports/wave-2/08-folk-proverbial.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: verified — held at attested per S1 rules (report claims about sources; S2 climbs). Frame verse of Book V, which is devoted entirely to ill-considered action; it introduces 'The Loyal Mongoose' (wife kills the faithful mongoose in haste) via the bridging moral 'Let the well-advised be done; / Ill-advised leave unbegun: / Else, remorse will be let loose, / As with lady and mongoose.' Care pole of fork haste-vs-care (report reconciliation principle: time-pressure and reversibility of the decision determine which pole applies); cf. u-0341 (look before you leap), u-0342 (hesitates is lost), u-0338 (Tao Te Ching 64 gradualism). Cultivates prudence/deliberation; guards against rashness and irreversible error. TRANSMISSION CHAIN (preserve for edge pass): Panchatantra (Sanskrit) → Middle Persian/Pahlavi trans. by Burzōy ~570 CE → Arabic Kalila wa Dimna by Ibn al-Muqaffaʿ ~750 CE → via al-Andalus into Old Spanish/Hebrew/Latin → Europe (La Fontaine credited 'Pilpay'/Bidpai); Indian-European proverb parallels default to likely-transmitted per report. Copyright caveat: Ryder 1925 US-PD since 2021, confirm jurisdiction."

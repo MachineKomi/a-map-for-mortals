@@ -1,0 +1,37 @@
+id: u-0272
+claim_id: null
+type: Insight
+paraphrase: "The old are not worse placed than the young: what the young merely hope for — a long life — the old have already attained."
+quotation: null   # Latin not held in the report; report holds only the Peabody English (Latin text: Gutenberg #14945, per report, for primary verification)
+quotation_translation: "The one wishes to live long; the other has lived long."
+source:
+  author: Cicero
+  work: "Cato Maior de Senectute"
+  passage: "§68"
+  translator: "Andrew P. Peabody"
+  edition_year: 1884
+  language: la
+  url: null
+  urn: null
+tradition: Roman philosophy
+era: -44
+register: aphorism
+claim_type: prudential
+polarity: descriptive
+conditionality: conditional
+life_domains: [mortality, gratitude]
+life_stages: [elder]
+endorsement: endorsed
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-2/05-childhood-old-age.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: verified (held at attested per S1 rule 1). Speaker: Cato the Elder, Cicero's mouthpiece; endorsement strong but literary. Descriptive-comparative consolation, not a command — polarity descriptive per report, retained. Conditional per the work's own key (§7, §65): old age is good only for those with the means within themselves (see u-0269). Guards against envy of youth. Feeds living-for-time-left-vs-as-if-whole. Peabody 1884 PD per report."

@@ -1,0 +1,37 @@
+id: u-0192
+claim_id: null
+type: Insight
+paraphrase: "Mind comes first: mental states are led and shaped by mind, and their consequences follow from it."
+quotation: "manopubbaṅgamā dhammā"   # Pali as held by the report — opening phrase of v.1 only (held via the Norman translation-variant note)
+quotation_translation: "Mind precedes all mental states. Mind is their chief; they are all mind-wrought."
+source:
+  author: "Buddha (attributed; via the Dhammapada, Pali canon)"
+  work: Dhammapada
+  passage: "v. 1 (Yamakavagga)"
+  translator: Acharya Buddharakkhita
+  edition_year: 1985
+  language: pli
+  url: null
+  urn: null
+tradition: Buddhist
+era: -250   # report dates the Dhammapada c. 3rd c. BCE
+register: aphorism
+claim_type: observational
+polarity: descriptive
+conditionality: conditional
+life_domains: [inner-life, ethics]
+life_stages: [youth, adult]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright   # Buddharakkhita, Buddhist Publication Society 1985 — report marks in-copyright; Müller SBE PD exists for the underlying text
+prov:
+  source_report: corpus/reports/wave-2/01-eastern.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: verified (downgraded to attested per S1 rules). RE-DERIVATION: report/extract labelled claim_type prudential and polarity prescriptive; re-derived as observational/descriptive — the verse as held is a generalisation about mental causality, not advice (its prescriptive payoff comes in the verse's continuation, not quoted here). TRANSLATION CAUTION (per report): 'all' is Buddharakkhita's insertion, not in the Pali (Bhikkhu Dhammanando/K.R. Norman); Norman renders 'Mental phenomena are preceded by mind'; Thanissaro 'Phenomena are preceded by the heart.' MISATTRIBUTION WATCHLIST: do NOT over-read as idealism — 'we are what we think' is Byrom's loose paraphrase, and 'mind is everything' is a hard fake. Not held as metaphysical idealism."

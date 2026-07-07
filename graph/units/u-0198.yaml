@@ -1,0 +1,37 @@
+id: u-0198
+claim_id: null
+type: Practice
+paraphrase: "Enjoy life through non-grasping surrender rather than possession, and do not covet what belongs to another — though what 'tena tyaktena' enjoins is contested."
+quotation: null   # Sanskrit of the full verse not held; the contested phrase tena tyaktena bhuñjīthāḥ is recorded in notes
+quotation_translation: "When thou hast surrendered all this, then thou mayest enjoy. Do not covet the wealth of any man!"
+source:
+  author: Anonymous
+  work: Isha Upanishad
+  passage: "1"
+  translator: F. Max Müller
+  edition_year: 1879
+  language: sa
+  url: null
+  urn: null
+tradition: Hindu
+era: -500   # c. 6th-4th c. BCE per report
+register: principle
+claim_type: normative
+polarity: prescriptive
+conditionality: contested
+life_domains: [ethics, wealth, inner-life]
+life_stages: [adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain   # Müller, Sacred Books of the East vol. 1, 1879, per report
+prov:
+  source_report: corpus/reports/wave-2/01-eastern.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: verified. TRANSLATION CONTEST (carried as conditionality: contested): tena tyaktena bhuñjīthāḥ is one of the most contested lines in the corpus — 'enjoy through renunciation' vs 'enjoy what is allotted'; paraphrase deliberately keeps the non-grasping core without resolving the dispute. In-copyright modern standard: Olivelle (Oxford). Edge candidate (FOR MERGE with Stoic/wave-1 material): non-attachment <-> ataraxia convergence, per report Stage 3 — candidate, not conclusion."

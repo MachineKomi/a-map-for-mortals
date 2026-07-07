@@ -1,0 +1,37 @@
+id: u-0255
+claim_id: null
+type: Insight
+paraphrase: "Conceptual frameworks work like plumbing — invisible infrastructure that shapes everything and is noticed only when it fails and the trouble surfaces."
+quotation: "philosophy... is best understood as a form of plumbing."
+quotation_translation: null   # English is the original language
+source:
+  author: Mary Midgley
+  work: "Utopias, Dolphins and Computers / The Essential Mary Midgley"
+  passage: null
+  translator: null
+  edition_year: null   # report gives no year for the plumbing essay (her anti-reductionist works cited: Beast and Man 1978, Wickedness 1984)
+  language: en
+  url: null
+  urn: null
+tradition: British moral philosophy
+era: null   # report dates only 'modern'; Midgley 1919-2018, essay year not given
+register: metaphor
+claim_type: observational
+polarity: descriptive
+conditionality: universal-ish
+life_domains: [knowledge, reasoning]
+life_stages: [adult]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-2/04-womens-voices.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "RIGHTS-RESTRICTED, QUOTE-MINIMALLY: Midgley IN COPYRIGHT per report — only the short fragment the report records is held; print gate blocks verbatim regardless. Report confidence: verified (held as attested per S1 rules). Transmission (extract): direct. Guards against scientism, reductionism and conceptual 'bad plumbing' (report fields). The report's fuller gloss: invisible 'until... the smell coming up from below is so bad that we are forced to take up the floorboards'. Life_stages derived by minting agent (extract left empty)."

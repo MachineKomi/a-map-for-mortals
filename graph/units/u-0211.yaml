@@ -1,0 +1,37 @@
+id: u-0211
+claim_id: null
+type: Insight
+paraphrase: "Among the Igbo the art of conversation is highly prized, and proverbs are what make words palatable — skilled, indirect, proverb-seasoned speech is the ideal."
+quotation: "Among the Igbo the art of conversation is regarded very highly, and proverbs are the palm-oil with which words are eaten."
+quotation_translation: null   # English original
+source:
+  author: "Chinua Achebe"
+  work: "Things Fall Apart"
+  passage: "ch. 1"
+  translator: null
+  edition_year: 1958
+  language: en
+  url: null
+  urn: null
+tradition: "Igbo (Nigeria), literary"
+era: 1958
+register: metaphor
+claim_type: observational
+polarity: descriptive
+conditionality: universal-ish
+life_domains: [communication, culture]
+life_stages: [adult, elder]
+endorsement: endorsed
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-2/02-african.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report grade: verified — held at attested per S1 rules (S2 climbs). LITERARY UNIT — speaker/context: NARRATORIAL voice in ch. 1 of the novel; the report is explicit that this is Achebe's literary rendering of an Igbo oral value, NOT a folk-verbatim proverb — distinguish author from character; attribute to Achebe, not to 'Igbo proverb'. Endorsement: endorsed (derived — the narrator states it in propria persona as cultural description; report gives speaker_context but no explicit endorsement label). Observational claim about a speech culture, not prudential advice. Addresses the directness-vs-indirection fork (proverbial indirect speech as the Akan/Igbo ideal). In-copyright (Heinemann 1958) — print gate applies."

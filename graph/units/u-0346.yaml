@@ -1,0 +1,37 @@
+id: u-0346
+claim_id: null
+type: Danger
+paraphrase: "Do not build plans on gains you have not yet secured."
+quotation: "Reckon not your chickens before they are hatched."
+quotation_translation: null   # English is the original language
+source:
+  author: "English-speaking folk (England)"
+  work: "English proverb tradition (first attested in Thomas Howell, New Sonnets and Pretty Pamphlets, 1570)"
+  passage: null
+  translator: null
+  edition_year: 1570   # first English attestation, not composition
+  language: en
+  url: null
+  urn: null
+tradition: English folk-proverbial (ATU tale-type 1430)
+era: 1570   # English attestation; narrative ancestors far older (Panchatantra)
+register: proverb
+claim_type: prudential
+polarity: cautionary
+conditionality: universal-ish
+life_domains: [money, planning, expectation]
+life_stages: [youth, young-adult, adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: communal
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-2/08-folk-proverbial.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: communal — kept; folk proverb, people/language as author per S1 rules. TRANSMISSION CHAIN (preserve for edge pass — textbook likely-transmitted, NOT independent convergence): ATU tale-type 1430 'Air Castles' — the same plot appears in the Panchatantra (Brahman daydreaming over a pot of gruel/rice, Book V) → Middle Persian/Pahlavi (Burzōy ~570 CE) → Arabic Kalila wa Dimna (Ibn al-Muqaffaʿ ~750 CE) → via al-Andalus into Old Spanish/Hebrew/Latin → Europe, incl. La Fontaine 'La Laitière et le Pot au lait' (the milkmaid's daydream); English also via Aesop; English proverb first attested Howell 1570. Addresses fork optimism-vs-realism. Life_stages: report 'all', rendered as five (child excluded: counsel about planning on expected gains). Cultivates prudence/realism; guards against overconfidence and castle-building."

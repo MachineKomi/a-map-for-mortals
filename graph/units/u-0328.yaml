@@ -1,0 +1,37 @@
+id: u-0328
+claim_id: null
+type: Consequence
+paraphrase: "On Machiavelli's argument, a few decisive severities used once tend to injure fewer people overall than the continued disorders a ruler permits through excess of tenderness."
+quotation: null   # original Italian not held in the report
+quotation_translation: "A prince, therefore, must not mind incurring the charge of cruelty for the purpose of keeping his subjects united and confident; for, with a very few examples, he will be more merciful than those who, from excess of tenderness, allow disorders to arise…"
+source:
+  author: "Niccolò Machiavelli (The Prince)"
+  work: "The Prince"
+  passage: "Ch. XVII"
+  translator: "W. K. Marriott"
+  edition_year: 1908
+  language: it
+  url: null
+  urn: null
+tradition: "Italian Renaissance"
+era: 1513
+register: argument
+claim_type: prudential
+polarity: cautionary
+conditionality: contested
+life_domains: [leadership, statecraft, ethics]
+life_stages: [adult, midlife]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-2/07-practical-strategic.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: verified — downgraded to attested per S1 rule 1 pending primary check. ETHICALLY SPIKY (report's flag preserved exactly): mark CAUTIONARY/DESCRIPTIVE, NOT endorsed — a contested consequence-tendency claim within adversarial statecraft, not life-wisdom and not a moral licence. Report cross-references Kautilya's danda (u-0313) as the Indian statecraft parallel, and names the opposing pole: the Hippocratic 'do good or do no harm' (u-0332) — the core ends-vs-means clash of the whole map. The Prince's contested ironic/satirical status (Rousseau) also applies here. Marriott 1908 PD. Report's trailing ellipsis preserved as held."

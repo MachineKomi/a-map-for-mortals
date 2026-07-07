@@ -1,0 +1,37 @@
+id: u-0238
+claim_id: null
+type: Practice
+paraphrase: "The Honorable Harvest: take only what is given, reciprocate the gift, and never over-harvest."
+quotation: null            # exact protocol wording pending — in-copyright chapter not excerpted by report
+quotation_translation: null
+source:
+  author: "Robin Wall Kimmerer"
+  work: "Braiding Sweetgrass"
+  passage: "'Honorable Harvest' chapter"
+  translator: null
+  edition_year: 2013
+  language: en
+  url: null
+  urn: null
+tradition: Potawatomi
+era: 2013
+register: principle
+claim_type: prudential
+polarity: prescriptive
+conditionality: conditional
+life_domains: [nature, work, desire, money]
+life_stages: [youth, young-adult, adult, midlife]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-2/03-indigenous.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report confidence: verified (named Potawatomi author and published work). Report explicitly tags Braiding Sweetgrass (Milkweed, 2013) as in copyright; the 'Honorable Harvest' chapter is the lead for exact protocol wording — no verbatim held here, quote minimally when obtained. Named by the report as part of the candidate reciprocity/relationality convergence (with Andean ayni, Sámi láhi/attáldat, Lakota Mitákuye Oyás'iŋ, ubuntu) — HYPOTHESIS only, recurrence ≠ proof. Counter-evidence held per report §E on stewardship claims: Krech, The Ecological Indian (Norton, 1999) — specific peoples did alter and sometimes over-exploit environments; tendencies, not destinies."

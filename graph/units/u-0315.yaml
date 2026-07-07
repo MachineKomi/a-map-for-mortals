@@ -1,0 +1,37 @@
+id: u-0315
+claim_id: null
+type: Practice
+paraphrase: "A power too weak for open confrontation should adopt strategic indifference and waiting (upeksha) rather than provoke a stronger neighbour."
+quotation: null            # no verbatim wording held — report records the concept only
+quotation_translation: null   # exact single-line Shamasastry quote not isolated (report lead G1-adjacent)
+source:
+  author: Kautilya
+  work: Arthashastra
+  passage: "Book VII"
+  translator: R. Shamasastry
+  edition_year: 1915
+  language: sa
+  url: null
+  urn: null
+tradition: Indian statecraft
+era: -250   # dating genuinely contested per report: 3rd c. BCE composite vs redactions to c. 150 CE
+register: principle
+claim_type: prudential
+polarity: prescriptive
+conditionality: conditional
+life_domains: [diplomacy, conflict, patience]
+life_stages: [adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; concept attested, no verbatim wording held or checked"
+  checked_against: null
+  date: null
+copyright_flag: unknown
+prov:
+  source_report: corpus/reports/wave-2/07-practical-strategic.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: probable. Concept attested; exact single-line quote NOT isolated — report glosses upeksha as 'observance of neutrality' / diplomatic indifference, a stance for the king 'devoid of necessary strength'. Report also points to Kamandaka's Nitisara for elaboration. Scholars' link of upeksha to later 'soft power'/endurance ideas flagged by the report as interpretive — do not present as Kautilya's own claim. copyright_flag unknown because no quoted wording is held (the Shamasastry 1915 edition itself is PD). Candidate convergence: Sun Tzu's subdue-without-fighting (win-without-fighting / patience of the weak)."

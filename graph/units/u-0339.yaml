@@ -1,0 +1,37 @@
+id: u-0339
+claim_id: null
+type: Practice
+paraphrase: "Trust in God does not replace practical precaution: secure the camel first, then trust."
+quotation: null   # Arabic original not held in report
+quotation_translation: "Tie her and trust in Allah."
+source:
+  author: "Muhammad (hadith, reported from Anas ibn Malik)"
+  work: "Jāmiʿ al-Tirmidhī"
+  passage: null   # hadith number not given by report
+  translator: null
+  edition_year: null
+  language: ar
+  url: null
+  urn: null
+tradition: Arabic/Islamic
+era: 850   # compilation ~9th c. CE per report
+register: aphorism
+claim_type: normative
+polarity: prescriptive
+conditionality: conditional
+life_domains: [faith, risk, planning]
+life_stages: [youth, young-adult, adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: unknown   # source text PD; modern hadith translations in copyright per report, and the quoted English rendering is unattributed
+prov:
+  source_report: corpus/reports/wave-2/08-folk-proverbial.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: probable — held at attested per S1 rules. Doctrine of tawakkul (trust in God); the quoted line answers the question 'should I tie my camel and trust, or leave her untied and trust?'. NORMATIVE (religious), never empirical, per the shared contract. VARIANT: the popular English form 'Trust in God, but tie your camel' reverses the hadith's clause order (tie first, then trust). Prudence pole of forks courage-vs-prudence and faith-vs-effort (report reconciliation for courage-vs-prudence: whether the risk is controllable by effort determines the pole). CONVERGENCE (preserve for edge pass): near-twins Hippocrates 'Pray to the gods, but also lend a hand yourself' and 'Call on God, but row away from the rocks' — report grades plausibly-independent (tentative): different vehicles (camel/rowing), but Mediterranean contact keeps the grade tentative. Cultivates prudence and tawakkul; guards against both fatalism and recklessness. Life_stages: report 'all', rendered as five (child excluded: counsel presumes responsibility for one's own affairs)."

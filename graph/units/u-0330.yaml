@@ -1,0 +1,37 @@
+id: u-0330
+claim_id: null
+type: Insight
+paraphrase: "Taken on balance, the multitude is wiser and more constant in its judgments than a single prince."
+quotation: null   # original Italian not held in the report
+quotation_translation: "the governments of the people are better than those of princes"   # report-held fragment; full Detmold I.58 wording pending (lead G3)
+source:
+  author: "Niccolò Machiavelli (Discourses)"
+  work: "Discourses on Livy"
+  passage: "Book I, Ch. LVIII"
+  translator: "Detmold"
+  edition_year: 1882
+  language: it
+  url: null
+  urn: null
+tradition: "Italian Renaissance"
+era: 1517   # c. 1517
+register: argument
+claim_type: observational
+polarity: descriptive
+conditionality: contested
+life_domains: [politics, institutions, leadership]
+life_stages: [adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-2/07-practical-strategic.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: probable — kept as attested per S1 rule 1. WORDING PENDING: the report gives its I.58 unit in summary brackets holding only this short fragment; it flags 'verify Detmold's exact wording of I.58 before quoting verbatim' (lead G3). RE-DERIVATION: report tags claim_type empirical; re-derived to observational — a comparative generalisation from historical observation, not a tested finding (S1 rule 2). Report instruction preserved: directly contradicts the 'feared prince' reading (u-0327) — Machiavelli against himself; preserve the tension, do not collapse. Detmold 1882 PD."

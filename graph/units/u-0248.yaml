@@ -1,0 +1,37 @@
+id: u-0248
+claim_id: null
+type: Practice
+paraphrase: "When disturbed or afraid, anchor yourself in what does not change: everything passes, and equanimity follows from resting on the unchanging."
+quotation: "Nada te turbe, nada te espante; todo se pasa; Dios no se muda... solo Dios basta."
+quotation_translation: null   # full English wording not held by the report (Peers PD translation exists; only fragments quoted)
+source:
+  author: "Teresa of Ávila"
+  work: "'Nada te turbe' (poem found written in her own hand in her breviary)"
+  passage: null
+  translator: null   # quotation held is the Spanish original; E. Allison Peers translation (PD) available for verification
+  edition_year: null
+  language: es
+  url: null
+  urn: null
+tradition: Christian mysticism (Carmelite)
+era: 1570   # undated autograph; Teresa 1515-1582
+register: poem
+claim_type: prudential
+polarity: prescriptive
+conditionality: conditional
+life_domains: [adversity, spirituality, equanimity]
+life_stages: []
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-2/04-womens-voices.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report confidence: verified (held at attested pending primary check) — the strongest attestation in Teresa's poetry: found in her breviary in her own hand (autograph). AUTHENTICITY CAVEAT (report/Kavanaugh, ICS 1985): the wider Teresa poetry corpus has general authentication problems (lack of autographs, mixture with other Carmelites' verse); THIS poem is among the best-attested. TRANSMISSION: direct (autograph). claim_type kept prudential (equanimity counsel) per extract; the report also reads it as metaphysical — 'solo Dios basta' grounds the counsel in a metaphysical claim; noted, not flattened. COPYRIGHT: 16th-c. Spanish text PD; Peers translation PD; Kavanaugh (ICS 1985) in-copyright. WATCHLIST: 'Christ has no body now but yours' is of DISPUTED Teresian authorship — do not attach to her without verification. Cultivates (per report): patience, equanimity; guards against anxiety, agitation. life_stages left empty per report."

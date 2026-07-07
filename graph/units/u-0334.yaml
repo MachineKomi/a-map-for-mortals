@@ -1,0 +1,37 @@
+id: u-0334
+claim_id: null
+type: Virtue
+paraphrase: "The best physician must also be a philosopher — trained in logic and natural science and bound by ethics, with contempt for money and cultivated self-control constitutive of, not incidental to, medical competence."
+quotation: null   # original Greek (Ὅτι ἄριστος ἰατρὸς καὶ φιλόσοφος) not held in the report
+quotation_translation: "[The doctor] must be practiced in logical theory in order to discover the nature of the body, the differences between diseases, and the indications as to treatment; he must despise money and cultivate self-control in order to stay the course. He must, therefore, know all the parts of philosophy: the logical, the physical, and the ethical."
+source:
+  author: "Galen"
+  work: "That the Best Physician is Also a Philosopher"
+  passage: "Kühn vol. I, 57–61K"
+  translator: "P. N. Singer (Loeb)"
+  edition_year: null   # Singer/Loeb edition year not given in report
+  language: grc
+  url: null
+  urn: null
+tradition: "Greco-Roman medicine"
+era: 150   # c. 2nd c. CE
+register: argument
+claim_type: normative
+polarity: prescriptive
+conditionality: conditional
+life_domains: [professional-ethics, expertise, character, medicine]
+life_stages: [young-adult, adult, midlife]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-2/07-practical-strategic.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: verified — downgraded to attested per S1 rule 1 pending primary check. COPYRIGHT: quoted wording is P. N. Singer's Loeb translation, IN COPYRIGHT — for print, paraphrase or short fragments only; locate a pre-1929 PD English rendering or cite the Greek (report lead G5). Greek title Ὅτι ἄριστος ἰατρὸς καὶ φιλόσοφος (Kühn vol. I). Galen makes virtue CONSTITUTIVE of expertise — the strongest counter-claim to Gracián's prudence-over-ethics (report: 'the anti-Gracián: principle first'); converges with Gracián's own u-0322 and the Hippocratic oath on skill-bounded-by-character. WATCHLIST: (a) the bare one-line 'best physician is also a philosopher' circulates on quote-sites detached from the essay's argument — cite the essay, not a quote-site; (b) 'primum non nocere' is sometimes attributed to Galen — no evidence, and Galen wrote in Greek, not Latin (Cedric Smith 2005)."

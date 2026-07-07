@@ -1,0 +1,37 @@
+id: u-0224
+claim_id: null
+type: Insight
+paraphrase: "Being on Country is about the right to protect the land, not the right to own it — a deeply imprinted sense of connection and responsibility."
+quotation: "not about our right to own land, it is about our right to protect that land… a deeply imprinted sense of connection and responsibility"
+quotation_translation: null   # spoken English original; fragment as embedded in the report
+source:
+  author: "Louise O'Reilly (Warrwa-Noongar)"
+  work: null
+  passage: null
+  translator: null
+  edition_year: null
+  language: en
+  url: null
+  urn: null
+tradition: Aboriginal Australian (Warrwa-Noongar)
+era: null
+register: principle
+claim_type: normative
+polarity: prescriptive
+conditionality: universal-ish
+life_domains: [nature, money, community, legacy]
+life_stages: [young-adult, adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: unknown
+prov:
+  source_report: corpus/reports/wave-2/03-indigenous.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "CONSENT GATE: do not publish before a community-source consent audit (see ops/DECISIONS.md 2026-07-08). Report label: verified (stored attested per S1 rule 1). Quotation is a mid-sentence fragment exactly as embedded in the report ('frames being on Country as…'), ellipsis the report's own; venue/work/date not given, so source.work null and copyright unknown."

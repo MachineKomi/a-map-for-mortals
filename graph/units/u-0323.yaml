@@ -1,0 +1,37 @@
+id: u-0323
+claim_id: null
+type: Practice
+paraphrase: "Enemies, handled well, are useful — their hostility can sharpen and inform you rather than merely wound."
+quotation: null   # original Spanish not held in the report
+quotation_translation: "Make use of your Enemies."   # maxim title only; full Jacobs wording not yet held (report lead G2)
+source:
+  author: "Baltasar Gracián"
+  work: "The Art of Worldly Wisdom (Oráculo Manual)"
+  passage: "Maxim lxxxiv (84)"
+  translator: "Joseph Jacobs"
+  edition_year: 1892
+  language: es
+  url: null
+  urn: null
+tradition: "Spanish (Jesuit / Baroque)"
+era: 1647
+register: aphorism
+claim_type: prudential
+polarity: prescriptive
+conditionality: conditional
+life_domains: [social, career, conflict]
+life_stages: [young-adult, adult, midlife]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-2/07-practical-strategic.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: probable — kept as attested per S1 rule 1. WORDING PENDING: report holds only the maxim title; it flags 'verify Jacobs' full wording of #84 before quoting beyond the title' (lead G2) — the bracketed '[Maxim 84]' in the report is editorial and excluded here. Jacobs 1892 PD."

@@ -1,0 +1,37 @@
+id: u-0249
+claim_id: null
+type: Insight
+paraphrase: "A person's sex is not a fair measure of their moral or intellectual worth, and education amends and ennobles character regardless of it."
+quotation: null   # Middle French text not held by the report
+quotation_translation: "not all opinions of men are based on reason... moral education amends and ennobles them."
+source:
+  author: Christine de Pizan
+  work: "The Book of the City of Ladies"
+  passage: "Part 1, §9.3 (spoken by Lady Reason)"
+  translator: Earl Jeffrey Richards
+  edition_year: 1982
+  language: frm
+  url: null
+  urn: null
+tradition: Late-medieval French
+era: 1405
+register: argument
+claim_type: normative
+polarity: prescriptive
+conditionality: conditional
+life_domains: [gender, education, justice]
+life_stages: []
+endorsement: complicated
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-2/04-womens-voices.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report confidence: verified (held at attested pending primary check). SPEAKER CONTEXT (report): spoken by the allegorical Lady Reason, in a work written as a response to misogynist authority (Jean de Meun's Roman de la Rose); the author 'elsewhere counsels wifely subjection — likely a strategic dilution to avoid censure or punishment' — encode the tension, do not resolve it. Endorsement set 'complicated' on that basis (report gave the context but no enum label): Lady Reason speaks the author's defense, yet the report notes de Pizan 'undercuts her own catalogue with conventional wifely advice'. TRANSMISSION: direct (constrained/coded voice per report's voice-vs-silence fork). COPYRIGHT: Richards (Persea 1982) in-copyright; Brown-Grant (Penguin) also in-copyright — snippet held pending rights review. Report convergence: education-as-the-lever-of-equality with Ban Zhao, Astell, Wollstonecraft (independent convergence across 1,700 years). Report forks: voice-vs-silence, examined-life-under-constraint. life_stages left empty per report."

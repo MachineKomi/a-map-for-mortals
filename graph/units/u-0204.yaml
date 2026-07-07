@@ -1,0 +1,37 @@
+id: u-0204
+claim_id: null
+type: Danger
+paraphrase: "One retainer's counsel that the samurai's way is found in resolute readiness to die — held here as a danger-marker for absolutised loyalty, not as 'the samurai code' or as history of samurai practice."
+quotation: null   # Japanese original not held in report
+quotation_translation: "The Way of the Samurai is found in death."
+source:
+  author: Yamamoto Tsunetomo
+  work: Hagakure
+  passage: null
+  translator: W.S. Wilson
+  edition_year: null
+  language: ja
+  url: null
+  urn: null
+tradition: Japanese
+era: 1710   # early 18th c. per report
+register: aphorism
+claim_type: normative
+polarity: cautionary
+conditionality: contested
+life_domains: [duty, mortality, ethics]
+life_stages: [young-adult, adult]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright   # Wilson translation (Kodansha) per report inventory; no PD English translation identified
+prov:
+  source_report: corpus/reports/wave-2/01-eastern.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: verified (the wording is genuinely Hagakure's). CRITICAL CAVEAT carried in full (Benesch, Inventing the Way of the Samurai, Oxford 2014): Hagakure was obscure until the 20th c.; its cult status dates to the Bushido Booms of 1894-1914 and pre-WWII militarism; the systematised 'code' was popularised by Nitobe's Bushido: The Soul of Japan (1899/1900), itself called a romanticised interpretation; Benesch p.8: all modern bushido theories are later constructs with no direct continuity from pre-Meiji history. Represent as ONE idiosyncratic voice, never 'the samurai code', never empirical history of samurai practice. Re-derivation note: within Hagakure the line is prescriptive counsel; minted as Danger/cautionary per the report's own framing — it guards against cowardice but ALSO against fanaticism, and the romanticised-bushido reception is itself the hazard."

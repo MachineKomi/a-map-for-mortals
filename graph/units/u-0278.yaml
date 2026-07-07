@@ -1,0 +1,37 @@
+id: u-0278
+claim_id: null
+type: Insight
+paraphrase: "What matters at the end of life is remaining the author of one's own story — maintaining the integrity of one's life — not merely surviving longer."
+quotation: "All we ask is to be allowed to remain the writers of our own story... the battle of being mortal is the battle to maintain the integrity of one's life."
+quotation_translation: null   # English original; no translation applicable
+source:
+  author: "Atul Gawande"
+  work: "Being Mortal: Medicine and What Matters in the End"
+  passage: null
+  translator: null
+  edition_year: 2014
+  language: en
+  url: null
+  urn: null
+tradition: Medicine / geriatrics (secular)
+era: 2014
+register: argument
+claim_type: normative
+polarity: prescriptive
+conditionality: conditional
+life_domains: [autonomy, mortality, care, meaning]
+life_stages: [elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-2/05-childhood-old-age.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: verified (held at attested per S1 rule 1). IN-COPYRIGHT (Metropolitan Books, 2014, per report) — quote briefly; print gate governs the book. Report claim_type label was compound: 'normative (prudential) + empirical (cites palliative-care survival study)' — re-derived to normative (a claim about what matters at the end); the empirical strand is kept out of the claim and held here: Gawande cites a finding that early-palliative-care patients 'lived 25% longer' — treat as a REPORTED study, not Gawande's own data (report caution carried verbatim in substance). The ellipsis in the quotation is held in the report exactly as copied — do not complete. Report gloss: two courages — to face mortality, and to act on it; warns medicalised fighting can inflict 'barbaric' suffering (fighting-vs-befriending fork). Converges with Byock (u-0276) and Ware (u-0277) on completing relationships / authorship before death — robustness signal, not proof."

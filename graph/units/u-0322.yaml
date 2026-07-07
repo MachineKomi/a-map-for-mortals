@@ -1,0 +1,37 @@
+id: u-0322
+claim_id: null
+type: Virtue
+paraphrase: "Great ability joined to ill will is a monstrosity: a wicked will poisons every excellence, and aided by knowledge it only ruins with greater subtlety."
+quotation: null   # original Spanish not held in the report
+quotation_translation: "A fine intellect wedded to a wicked will was always an unnatural monster. A wicked will envenoms all excellences: helped by knowledge it only ruins with greater subtlety."
+source:
+  author: "Baltasar Gracián"
+  work: "The Art of Worldly Wisdom (Oráculo Manual)"
+  passage: "Jacobs 'Leading Maxims'/notes area — exact maxim number unverified (report lead G2)"
+  translator: "Joseph Jacobs"
+  edition_year: 1892
+  language: es
+  url: null
+  urn: null
+tradition: "Spanish (Jesuit / Baroque)"
+era: 1647
+register: aphorism
+claim_type: normative
+polarity: cautionary
+conditionality: universal-ish
+life_domains: [ethics, character, leadership]
+life_stages: [youth, young-adult, adult]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-2/07-practical-strategic.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: probable — kept as attested per S1 rule 1; report asks to verify the exact maxim number in Jacobs before quoting (lead G2, likely Maxim 4 area). Shows Gracián is NOT amoral: his prudence is bounded by character — the strategist stream's own gesture at the virtue-binds-competence counter-pole (converges with Galen u-0334 and the Hippocratic oath, per report §E). Jacobs 1892 PD."

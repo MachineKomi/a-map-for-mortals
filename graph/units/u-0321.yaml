@@ -1,0 +1,37 @@
+id: u-0321
+claim_id: null
+type: Practice
+paraphrase: "Keep your intentions and even your tastes concealed, since whatever others learn of your inclinations they can exploit by opposing or flattering them."
+quotation: null   # original Spanish (Oráculo Manual, 1647) not held in the report
+quotation_translation: "Write your Intentions in Cypher. The passions are the gates of the soul… Do not even let your tastes be known, lest others utilise them either by running counter to them or by flattering them."
+source:
+  author: "Baltasar Gracián"
+  work: "The Art of Worldly Wisdom (Oráculo Manual)"
+  passage: "Maxim xcviii (98)"
+  translator: "Joseph Jacobs"
+  edition_year: 1892
+  language: es
+  url: null
+  urn: null
+tradition: "Spanish (Jesuit / Baroque)"
+era: 1647
+register: aphorism
+claim_type: prudential
+polarity: prescriptive
+conditionality: conditional
+life_domains: [social, negotiation, career, self-protection]
+life_stages: [young-adult, adult, midlife]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-2/07-practical-strategic.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: verified (Jacobs Maxim 98) — downgraded to attested per S1 rule 1 pending primary check. Jacobs 1892 translation PD per report. Report's ellipsis in the quotation preserved as held. Sharp cross-stream tension flagged by report: direct inversion of Hippocratic confidentiality (u-0333) — Gracián's secrecy is self-protective/strategic, the physician's is other-protective/fiduciary. Prudential counsel in an adversarial/court domain, not a moral endorsement."

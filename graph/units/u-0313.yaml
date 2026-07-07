@@ -1,0 +1,37 @@
+id: u-0313
+claim_id: null
+type: Insight
+paraphrase: "The science of government (danda, punishment) is what secures, improves and distributes acquisitions; on it worldly progress is said to depend."
+quotation: null   # Sanskrit original not held in report
+quotation_translation: "That sceptre on which the well-being and progress of the sciences of Anvikshaki, the triple Vedas, and Varta depend is known as Danda (punishment)… It is on this science of government that the course of the progress of the world depends."
+source:
+  author: Kautilya
+  work: Arthashastra
+  passage: "Book I, Ch. IV"
+  translator: R. Shamasastry
+  edition_year: 1915
+  language: sa
+  url: null
+  urn: null
+tradition: Indian statecraft
+era: -250   # dating genuinely contested per report: 3rd c. BCE composite vs redactions to c. 150 CE
+register: argument
+claim_type: prudential
+polarity: prescriptive
+conditionality: conditional
+life_domains: [statecraft, economics, law]
+life_stages: [adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; report states verbatim check vs Shamasastry 1915 (Book I Ch. IV) — not yet re-verified against a primary edition by this pipeline"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-2/07-practical-strategic.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: verified (verbatim, Book I Ch. IV). Dandaniti — the doctrine that ordered rule underwrites all other goods. Realpolitik counsel kept in the report's cautionary/descriptive framing overall: a claim about what statecraft requires, not a moral endorsement of coercive rule. Kautilya's dating contested. Shamasastry 1915 PD."

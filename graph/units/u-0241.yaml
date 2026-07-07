@@ -1,0 +1,37 @@
+id: u-0241
+claim_id: null
+type: Virtue
+paraphrase: "A woman can exercise public intellectual authority with dignity and command respect, even amid serious social and political risk."
+quotation: null   # Greek text not held by the report
+quotation_translation: "There was a woman at Alexandria named Hypatia… who made such attainments in literature and science, as to far surpass all the philosophers of her own time… For all men on account of her extraordinary dignity and virtue admired her the more."
+source:
+  author: "Socrates Scholasticus (on Hypatia of Alexandria)"
+  work: "Historia Ecclesiastica"
+  passage: "VII.15"
+  translator: "A.C. Zenos (Nicene and Post-Nicene Fathers, 2nd series, vol. 2)"
+  edition_year: null   # NPNF edition year not given by the report
+  language: grc
+  url: null
+  urn: null
+tradition: Late-antique Neoplatonism
+era: 415   # Hypatia c. 355-415 CE; Socrates Scholasticus's account is near-contemporary
+register: principle
+claim_type: observational
+polarity: descriptive
+conditionality: conditional
+life_domains: [vocation, public-life, knowledge]
+life_stages: [adult, midlife]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-2/04-womens-voices.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report confidence: probable (held at attested pending primary check). TRANSMISSION (male-transmitted — central caveat): none of Hypatia's own writings survive; the quotation is a male historian's testimony ABOUT her, not her words. Her attested output (commentaries on Diophantus's Arithmetica and Apollonius's Conics; editorial work on Ptolemy's Almagest Book III) is known via the Suda, Theon's inscription, and her student Synesius's letters. Socrates Scholasticus frames her murder (415 CE) as political — the Cyril-Orestes rivalry — not doctrinal. WATCHLIST: circulating 'Synesius letters' quotes ('You alone have the power to calm the storm of my soul…') are unverified as to translator/edition with suspect letter-numbering — do not encode without Fitzgerald (1926). Re-derivation differs from report: polarity set descriptive (report: prescriptive) — the Zenos testimony is descriptive admiration; the exemplary/prescriptive force is an editorial inference. Report speaker_context carried above. Report forks: voice-vs-silence, examined-life-under-constraint. Cultivates (per report): dignity, self-possession, learning; guards against self-effacement."

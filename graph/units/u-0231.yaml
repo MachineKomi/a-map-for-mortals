@@ -1,0 +1,37 @@
+id: u-0231
+claim_id: null
+type: Practice
+paraphrase: "Birgejupmi — coping, making do — takes only what is necessary, so as to be able to harvest again."
+quotation: null            # report holds a scholarly gloss of the concept, no verbatim saying
+quotation_translation: null
+source:
+  author: "Sámi (communal concept; via Keskitalo et al.)"
+  work: "Birgejupmi – Life Skills, the Sámi Approach to Inclusion and Adapted Education"
+  passage: "Morning Watch (Memorial University of Newfoundland)"
+  translator: null
+  edition_year: null
+  language: se
+  url: null
+  urn: null
+tradition: Sámi
+era: null
+register: principle
+claim_type: prudential
+polarity: prescriptive
+conditionality: conditional
+life_domains: [nature, work, money, desire]
+life_stages: [youth, young-adult, adult, midlife]
+endorsement: n/a
+attribution_confidence: communal
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: unknown
+prov:
+  source_report: corpus/reports/wave-2/03-indigenous.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "No verbatim quotation held — report glosses birgejupmi as 'self-sufficiency, coping, making do — taking only what is necessary so as to be able to harvest again'. Report confidence: communal. Further attestation: Nystad et al., Education Sciences 14(11):1246, 2024, linking birgen/birgejupmi to árbediehtu (traditional knowledge). Report marks Sámi section sources 'mostly in-copyright'; flag stays unknown as nothing verbatim is held. Misattribution watch: unattributed online 'Sámi proverbs' are unverified — sourced proverbs only via Gaski (ed.), Time Is a Ship That Never Casts Anchor (2006). Counter-evidence held per report §E on stewardship claims: Krech, The Ecological Indian (Norton, 1999) — tendencies, not destinies."

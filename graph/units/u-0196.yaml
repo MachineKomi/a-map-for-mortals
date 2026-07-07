@@ -1,0 +1,37 @@
+id: u-0196
+claim_id: null
+type: Insight
+paraphrase: "The path to realization of the Self is arduous — as hard to walk as the sharpened edge of a razor."
+quotation: null   # Sanskrit original not held in report
+quotation_translation: "Rise, awake! having obtained your boons, understand them! The sharp edge of a razor is difficult to pass over; thus the wise say the path (to the Self) is hard."
+source:
+  author: Anonymous
+  work: Katha Upanishad
+  passage: "1.3.14"
+  translator: F. Max Müller
+  edition_year: 1884
+  language: sa
+  url: null
+  urn: null
+tradition: Hindu
+era: -450   # c. 6th-3rd c. BCE per report
+register: metaphor
+claim_type: metaphysical
+polarity: prescriptive
+conditionality: conditional
+life_domains: [inner-life, spiritual-practice]
+life_stages: [young-adult, adult]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain   # Müller, Sacred Books of the East vol. 15, 1884, per report
+prov:
+  source_report: corpus/reports/wave-2/01-eastern.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: verified. Metaphysical (path to the Self / highest realization), never empirical. MISATTRIBUTION WATCHLIST: the popular 'Arise, awake, and stop not till the goal is reached' is Vivekananda's paraphrase, NOT scripture; Maugham's Razor's Edge epigraph inserts 'to Salvation', not in the Sanskrit — run through the misattribution gate before print. Translation divergence: Olivelle renders 'poets say' (kavayah) vs Müller's 'the wise say'. In-copyright modern standard: Olivelle (Oxford)."

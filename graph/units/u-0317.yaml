@@ -1,0 +1,37 @@
+id: u-0317
+claim_id: null
+type: Danger
+paraphrase: "Hope is an extravagant comforter: those with abundant resources may indulge it, but the weak who rely on it invite ruin."
+quotation: null   # Greek original not held in report
+quotation_translation: "Hope, danger's comforter, may be indulged in by those who have abundant resources… but its nature is to be extravagant."
+source:
+  author: Thucydides
+  work: History of the Peloponnesian War
+  passage: "5.103 (Melian Dialogue)"
+  translator: Richard Crawley
+  edition_year: 1874
+  language: grc
+  url: null
+  urn: null
+tradition: Greek historiography
+era: -400   # text c. 400 BCE
+register: argument
+claim_type: prudential
+polarity: cautionary
+conditionality: conditional
+life_domains: [risk, decision-making, adversity]
+life_stages: [young-adult, adult, elder]
+endorsement: complicated
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; report itself flags the wording for verification against the Crawley edition before publication (lead G4)"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-2/07-practical-strategic.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: verified, BUT report flags: verify exact wording against the Crawley edition before final publication (lead G4) — wording treated as verification-pending. CHARACTER SPEECH: the Athenian envoys' warning to the Melians within a coercive ultimatum. endorsement: complicated — the warning is vindicated by the narrative (Melos relies on hope of Spartan aid and is destroyed), yet it is voiced by the same envoys whose expediency doctrine the arc undercuts; not straightforwardly authorial. Crawley 1874 PD."

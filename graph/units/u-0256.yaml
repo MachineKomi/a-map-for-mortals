@@ -1,0 +1,37 @@
+id: u-0256
+claim_id: null
+type: Virtue
+paraphrase: "The highest worship strips away both fear of punishment and hope of reward, loving the divine for its own sake alone."
+quotation: null   # no Arabic/Persian wording held; attributed Arabic saying transmitted in Attar's Persian Tadhkirat al-Awliya
+quotation_translation: "O God, if I worship You from fear of Hell, burn me in Hell... but if I worship You for Your own sake, withhold not Your everlasting beauty."
+source:
+  author: Rabia al-Adawiyya
+  work: "Tadhkirat al-Awliya (Attar, hagiographic transmission, c. 1200)"
+  passage: null
+  translator: null   # report does not name the translator of this English rendering
+  edition_year: null
+  language: ar
+  url: null
+  urn: null
+tradition: Sufism
+era: 800   # Rabia c. 717-801; sayings transmitted c. 1200
+register: aphorism
+claim_type: metaphysical
+polarity: prescriptive
+conditionality: conditional
+life_domains: [devotion, motive, transcendence]
+life_stages: [adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: unknown
+prov:
+  source_report: corpus/reports/wave-2/04-womens-voices.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report confidence: probable (held as attested per S1 rules). Transmission (extract): 'male-transmitted: left no writings; sayings via Attar's Tadhkirat al-Awliya, four centuries later' — posthumous-hagiographic; never mark verified at speaker level. MISATTRIBUTION WATCHLIST: most circulating 'Rabia poems' (e.g. 'In my soul there is a temple...') are loose Ladinsky-style modern renderings — dubious/apocryphal; only this fear/hope prayer is well-attested via Attar, and its wording varies across renderings. Copyright unknown: Attar's text is PD but the report does not establish the quoted English rendering's edition. Cultivates sincerity and selfless love; guards against instrumental piety (report fields). Convergence candidate 'non-instrumental orientation to the ultimate' with Julian (u-0247), Akka Mahadevi (u-0257), Murdoch (u-0254) — candidate, not proof; claim types differ. Report fork: instrumental-vs-non-instrumental devotion. Life_stages derived by minting agent (extract left empty)."

@@ -1,0 +1,37 @@
+id: u-0295
+claim_id: null
+type: Danger
+paraphrase: "Unchecked, all-consuming passion can strip a person of society, sanity, and finally life itself — the Majnun archetype."
+quotation: null            # report holds no verbatim wording — narrative paraphrase only
+quotation_translation: null
+source:
+  author: Nizami Ganjavi
+  work: "Layla and Majnun"
+  passage: null
+  translator: null
+  edition_year: null
+  language: fa
+  url: null
+  urn: null
+tradition: Persian
+era: 1188
+register: parable
+claim_type: observational
+polarity: cautionary
+conditionality: conditional
+life_domains: [love, obsession, self]
+life_stages: [youth, young-adult]
+endorsement: ambiguous
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: unknown
+prov:
+  source_report: corpus/reports/wave-2/06-persian.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: communal (re-labelled attested here: the unit is sourced to a named author's poem, not an anonymous oral tradition, though the Layla-Majnun legend pre-dates Nizami). PARAPHRASE of a narrative arc, not a quote — do not present as verbatim. Speaker/dramatic context: Majnun's love for Layla drives him to renounce society, wander the desert composing verses, and perish of grief; this is a character's arc, not authorial counsel. Endorsement ambiguous per the report: Nizami adds Sufi allegorical layers reading Majnun's frenzy as divine intoxication, so the poem is BOTH cautionary AND a mystical ideal — preserve both readings (report contradiction: passion as destruction vs passion as divine ideal, within Nizami himself). No verbatim quotation held; copyright unknown."

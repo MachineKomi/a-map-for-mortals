@@ -1,0 +1,46 @@
+id: u-0283
+claim_id: null
+type: Virtue
+paraphrase: "The ethical life is the alignment of good thoughts, good words, and good deeds — welcoming them wherever they are realised, and never denigrating the good."
+quotation: null   # Old Avestan text not held in the report; capture at primary verification
+quotation_translation: "We are those who welcome the good thoughts, good words, and good acts which, here and elsewhere, are and have been realized. We are not those who denigrate good (things)."
+source:
+  author: "Zoroastrian liturgical tradition (Yasna Haptanghaiti, anonymous)"
+  work: "Yasna Haptanghaiti"
+  passage: "Yasna 35.2"
+  translator: "J. Narten (rendering after Narten 1986, via Encyclopaedia Iranica, 'HUMATA HŪXTA HUVARŠTA')"
+  edition_year: 1986
+  language: ae
+  url: null
+  urn: null
+tradition: Zoroastrian
+era: -1000   # slightly post-Zarathustra per report
+register: principle
+claim_type: normative
+polarity: prescriptive
+conditionality: universal-ish
+life_domains: [ethics, work, community, speech]
+life_stages: [child, youth, young-adult, adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: communal
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-2/06-persian.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: >-
+  Report unit ZO-04; report label attribution_confidence 'verified'. RE-DERIVATION:
+  set to 'communal' here — the Yasna Haptanghaiti is an anonymous communal liturgy
+  attributed to the tradition, not to Zarathustra personally (report dates it
+  slightly post-Zarathustra). The humata/hūxta/hvaršta formula — 'the unifying motto
+  of living Zoroastrianism' per Boyce. NOT in Insler (the YH is outside his 1975
+  volume): standard authority is Narten 1986 (German); Hintze, A Zoroastrian Liturgy
+  (2007) is the modern scholarly edition — report Lead #1 says get verbatim Y35.2
+  from Hintze in print. Narten/EIr rendering is in-copyright; PD alternative is
+  Mills, SBE 1887. Addresses the word/deed-integrity fork (report fork 7).

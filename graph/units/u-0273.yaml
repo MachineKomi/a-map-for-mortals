@@ -1,0 +1,37 @@
+id: u-0273
+claim_id: null
+type: Virtue
+paraphrase: "The old plant trees for a generation whose shade they will never enjoy — labouring for an age that is not their own."
+quotation: "serit arbores, quae alteri saeclo prosint"
+quotation_translation: "He plants trees to benefit another age."
+source:
+  author: "Caecilius Statius"
+  work: "Synephebi (fragment, preserved in Cicero, De Senectute)"
+  passage: "quoted in Cicero, De Senectute §24"
+  translator: null   # English rendering as held by the report; translator not named there
+  edition_year: null
+  language: la
+  url: null
+  urn: null
+tradition: Roman comedy fragment (via Cicero)
+era: -150   # "2nd c. BCE" per report; quoted by Cicero 44 BCE
+register: metaphor
+claim_type: normative
+polarity: prescriptive
+conditionality: universal-ish
+life_domains: [work, legacy, generativity]
+life_stages: [elder]
+endorsement: endorsed
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-2/05-childhood-old-age.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: verified (held at attested per S1 rule 1). MISATTRIBUTION WATCHLIST (report item 2): the modern 'A society grows great when old men plant trees in whose shade they know they shall never sit' is NOT ancient — Quote Investigator traces it to 20th-c. motivational writing (Waitley 1980s; 1970s 'shade tree' precursors). THIS Statius line, via Cicero De Senectute §24, is the genuine ancient source; never attach the modern wording to it. Report claim_type label 'normative (prudential)' — re-derived to normative: the counsel is other-regarding (benefit another age), not self-interested prudence. Comedy fragment quoted approvingly by Cicero's Cato (endorsement: endorsed via quoting context; original dramatic context within Synephebi not held). Cf. Erikson generativity, stage 7 (report note). Feeds holding-on-vs-handing-over. PD per report source inventory."

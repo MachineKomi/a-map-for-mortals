@@ -1,0 +1,37 @@
+id: u-0183
+claim_id: null
+type: Virtue
+paraphrase: "Do not impose on others what you yourself would not want done to you (shu, reciprocity)."
+quotation: null   # Classical Chinese not held in the report (only the romanised term 'shu')
+quotation_translation: "Is not RECIPROCITY such a word? What you do not want done to yourself, do not do to others."
+source:
+  author: "Confucius (sayings compiled by disciples in the Analects)"
+  work: Analects
+  passage: "15.24 (Legge 15.23)"
+  translator: James Legge
+  edition_year: 1893
+  language: lzh
+  url: null
+  urn: null
+tradition: Confucian
+era: -400   # report dates the Analects c. 5th-3rd c. BCE
+register: aphorism
+claim_type: normative
+polarity: prescriptive
+conditionality: universal-ish
+life_domains: [relationships, ethics, community]
+life_stages: [youth, young-adult, adult, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain   # Legge, Chinese Classics 1893 — report establishes PD
+prov:
+  source_report: corpus/reports/wave-2/01-eastern.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: verified (downgraded to attested per S1 rules). The negative Golden Rule. Numbering discrepancy: Legge 15.23 = Watson/Slingerland 15.24. 'Shu' variously rendered reciprocity (Legge), consideration, sympathetic understanding, altruism (Chan). Analects 5.12 shows Zigong told by Confucius he has NOT mastered this — cultivation-is-hard datum. Report flags Legge's Christianising register generally; Slingerland (2003) and Watson (2007) named as in-copyright modern standards."

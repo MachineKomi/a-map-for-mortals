@@ -1,0 +1,37 @@
+id: u-0275
+claim_id: null
+type: Dilemma
+paraphrase: "In Erikson's eighth psychosocial stage, reviewing one's life in old age yields either integrity — acceptance that the life had meaning, allowing equanimity toward death — or despair over missed opportunities; a theoretical frame, not a law."
+quotation: null   # report's quoted wording is flagged by the report itself as a paraphrase per the APA Dictionary of Psychology, not verbatim Erikson — held out of quotation fields (see notes)
+quotation_translation: null
+source:
+  author: "Erik Erikson"
+  work: "Childhood and Society"
+  passage: "eighth psychosocial stage (integrity vs. despair)"
+  translator: null
+  edition_year: 1950
+  language: en
+  url: null
+  urn: null
+tradition: Psychodynamic developmental psychology
+era: 1950
+register: principle
+claim_type: observational
+polarity: descriptive
+conditionality: contested
+life_domains: [meaning, mortality, life-review]
+life_stages: [elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-2/05-childhood-old-age.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: verified (held at attested per S1 rule 1). A FRAME, NOT A LAW (report's emphatic tag — carried). No verbatim Erikson quotation held: the report's wording ('ego integrity... a sense of satisfaction in having lived a good life and the ability to approach death with equanimity — or despair — a feeling of bitterness about opportunities missed') is explicitly cited by the report as 'paraphrase per APA Dictionary of Psychology' — kept out of the quotation fields per honesty contract; verbatim wording needs a primary check against Childhood and Society (Norton, 1950). Report claim_type label 'observational (model)' — held as observational. Joan Erikson later proposed a ninth stage; life-review therapy has some empirical support for reducing depression (report); the virtue Erikson pairs with this stage is 'wisdom'. IN-COPYRIGHT (Norton, per report). Feeds living-for-time-left-vs-as-if-whole; cf. generativity (stage 7) and u-0273."

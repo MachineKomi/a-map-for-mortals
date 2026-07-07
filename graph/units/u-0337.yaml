@@ -1,0 +1,37 @@
+id: u-0337
+claim_id: null
+type: Insight
+paraphrase: "Acting in concord, the weak can escape a stronger threat; once they quarrel, they are doomed."
+quotation: null   # Pali original not held in report; Chalmers's English verse only
+quotation_translation: "While concord reigns, the birds bear off the net. / When quarrels rise, they'll fall a prey to me."
+source:
+  author: "Jātaka tradition (anonymous; Pali canon and commentary)"
+  work: "The Jātaka (Sammodamāna-Jātaka, No. 33)"
+  passage: "Jātaka No. 33, verse; Vol. I"
+  translator: "Robert Chalmers (ed. E.B. Cowell)"
+  edition_year: 1895
+  language: pi
+  url: null
+  urn: null
+tradition: Pali/Theravada Buddhism
+era: 450   # commentary compiled ~5th c. CE; canonical verse older
+register: parable
+claim_type: prudential
+polarity: cautionary
+conditionality: conditional
+life_domains: [community, family, cooperation]
+life_stages: [child, youth, young-adult, adult, midlife, elder]
+endorsement: endorsed
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain   # Cowell/Chalmers Jataka (Cambridge UP, 1895-1907) public domain per report
+prov:
+  source_report: corpus/reports/wave-2/08-folk-proverbial.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: verified — held at attested per S1 rules. SPEAKER CONTEXT: the verse is voiced by the fowler within the tale ('…fall a prey to me') — quails escape his net by flying up in unison but perish when they quarrel; the canonical frame endorses the moral (Bodhisatta as the wise quail, Devadatta as the quarrelsome one), hence endorsement: endorsed. RE-DERIVATION: polarity cautionary (report: prescriptive) — the verse warns of what befalls quarrellers; the prescriptive content (keep concord) is implicit. Life_stages: report 'all', rendered as all six. Unity pole of fork collaboration-vs-coordination (report reconciliation: role-clarity/concord, not headcount, is the variable); cf. u-0343 (many hands), u-0344 (too many cooks). Convergence candidate with Aesop's bundle-of-sticks and folk forms — report grades it undetermined (plausibly independent, but Aesop-India cross-pollination possible); preserve for edge pass. Cultivates concord/solidarity; guards against factionalism/quarrelling."

@@ -1,0 +1,37 @@
+id: u-0190
+claim_id: null
+type: Practice
+paraphrase: "You are entitled to the action itself, never to its fruits: act without making the outcome your motive — which is not the same as not caring about results."
+quotation: "karmaṇy evādhikāras te mā phaleṣu kadācana"   # Sanskrit as held by the report — first half of the verse only; the English continues beyond it
+quotation_translation: "You have a right to your action alone, never to its fruits; let not the fruit of action be your motive."
+source:
+  author: "Bhagavad Gita (Krishna to Arjuna — character speech within the Mahabharata epic)"
+  work: Bhagavad Gita
+  passage: "2.47"
+  translator: Franklin Edgerton
+  edition_year: 1944
+  language: san
+  url: null
+  urn: null
+tradition: Hindu
+era: 0   # report dates the Gita c. 2nd c. BCE - 2nd c. CE; midpoint used
+register: principle
+claim_type: normative
+polarity: prescriptive
+conditionality: conditional
+life_domains: [work, ethics, inner-life]
+life_stages: [young-adult, adult, midlife]
+endorsement: complicated
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: unknown   # report is internally inconsistent: Details says 'Edgerton (1944) and Besant are public domain' but the source table hedges 'PD-ish' — not established; check before print
+prov:
+  source_report: corpus/reports/wave-2/01-eastern.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: verified (downgraded to attested per S1 rules). Endorsement 'complicated' is the minting agent's call (report gives no label): spoken by Krishna to Arjuna on the battlefield — authoritative counsel within the Gita itself, but character speech within an epic; report's caveat: character is not author, do not read endorsement flatly; Gandhi (Young India, 1925) and Shankara/Ramanuja commentaries diverge on nuance. Report stresses the verse means action without attachment to results, NOT 'do not care about results'. Details section holds a fuller Edgerton rendering continuing 'nor let your attachment be to inaction'. PRIME convergence candidate with the Stoic dichotomy of control — FLAG FOR MERGE with prior Stoic report; do not re-extract the Western side; robustness signal, not proof; reclassify as possible borrowing if a Hellenistic-Indian transmission channel is found."

@@ -1,0 +1,37 @@
+id: u-0236
+claim_id: null
+type: Practice
+paraphrase: "Ayni is sacred reciprocity — today for you, tomorrow for me — binding the community (ayllu) and extending to Pachamama."
+quotation: "hoy por ti, mañana por mí"
+quotation_translation: "today for you, tomorrow for me"
+source:
+  author: "Quechua/Kichwa/Aymara peoples"
+  work: null            # communal practice; no single work — attesting institution in notes
+  passage: null
+  translator: null
+  edition_year: null
+  language: es
+  url: null
+  urn: null
+tradition: "Andean (Quechua/Kichwa/Aymara)"
+era: null
+register: proverb
+claim_type: normative
+polarity: prescriptive
+conditionality: conditional
+life_domains: [community, work, nature, money]
+life_stages: [youth, young-adult, adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: communal
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: unknown
+prov:
+  source_report: corpus/reports/wave-2/03-indigenous.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "CONSENT GATE: do not publish before a community-source consent audit (see ops/DECISIONS.md 2026-07-08). Report confidence: communal. The term ayni is Quechua/Aymara; the held formula 'hoy por ti, mañana por mí' is the Spanish folk rendering as given by the report — hence language: es. Context: core to the ayllu (community) and communal labour (minka); reciprocity extends to Pachamama and the apus. Attesting institution per report: Smithsonian National Museum of the American Indian — 'Ayni is a core value that has served generations of Andean people since pre-Inka times.' Named in the candidate reciprocity/relationality convergence — hypothesis only, recurrence ≠ proof. Counter-evidence held per report §E: Krech, The Ecological Indian (Norton, 1999) — tendencies, not destinies."

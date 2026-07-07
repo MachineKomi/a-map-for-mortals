@@ -1,0 +1,37 @@
+id: u-0189
+claim_id: null
+type: Danger
+paraphrase: "Rulers keep ministers in line through the two handles of punishment and reward, not through moral appeal — a description of how power works, offered against virtue-based statecraft."
+quotation: null   # Classical Chinese not held in the report (only the romanised terms 'xing' and 'de')
+quotation_translation: "The enlightened ruler guides and controls his ministers by means of two handles only... punishment and reward."
+source:
+  author: Han Feizi
+  work: Han Feizi
+  passage: "'The Two Handles'"
+  translator: Burton Watson
+  edition_year: null
+  language: lzh
+  url: null
+  urn: null
+tradition: Legalist
+era: -240   # report dates c. 3rd c. BCE; Han Fei forced to suicide 233 BCE
+register: argument
+claim_type: prudential
+polarity: descriptive
+conditionality: conditional
+life_domains: [governance, work, power]
+life_stages: [adult, midlife]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright   # Watson (Columbia) — report marks Han Feizi editions in-copyright; Liao (1939) named as complete but PD status not established by report
+prov:
+  source_report: corpus/reports/wave-2/01-eastern.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: verified (downgraded to attested per S1 rules). Descriptive/prudential political realism kept in the report's descriptive framing (per S1 rule on realpolitik counsel) — a counter-voice, not an endorsement of coercion by the graph. Explicitly rejects Confucian ren/yi as useless for statecraft; two handles = punishment (xing) and reward (de). Han Fei was Xunzi's student; forced to suicide 233 BCE. Sits on the virtue-rule vs coercive-rule tension against Confucian virtue-rule and the Kural's moral statecraft. Ellipsis in quotation_translation is the report's own."

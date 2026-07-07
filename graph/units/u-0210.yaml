@@ -1,0 +1,37 @@
+id: u-0210
+claim_id: null
+type: Practice
+paraphrase: "Go back and retrieve what was forgotten: returning to past wisdom in order to build the future is no taboo but a duty."
+quotation: "Se wo were fi na wosankofa a yenkyi"
+quotation_translation: "it is not taboo to go back for what you forgot"
+source:
+  author: "Akan (Twi)"   # communal — attributed to the people/language
+  work: "Akan proverb tradition, encoded in the Adinkra symbol Sankofa"
+  passage: null
+  translator: null
+  edition_year: null   # precolonial oral
+  language: tw
+  url: null
+  urn: null
+tradition: "Akan/Ashanti (Ghana)"
+era: null   # precolonial oral
+register: proverb
+claim_type: prudential
+polarity: prescriptive
+conditionality: universal-ish
+life_domains: [memory, learning, culture]
+life_stages: [youth, adult, elder]
+endorsement: n/a
+attribution_confidence: communal
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-2/02-african.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report grade: communal — kept per S1 rules (proverb attributed to a named people/language). RE-DERIVATION: register proverb (report: metaphor) — the Twi wording is a proverb proper; the Adinkra symbol is its visual metaphor, noted here rather than driving the register. Copyright: communal precolonial oral wording; the report's public-domain Akan corpora — Christaller, Twi mmebusem (1879, LoC loc.gov/item/43019087) and Rattray, Ashanti Proverbs (1916) — are the S2 verification leads (presence of this exact wording not yet checked against them). Akan proverbs carry elder-authority framing ('nananom/mpanyinfoɔ se' — the elders/ancestors say). Addresses the tradition-vs-innovation fork; convergence candidate (candidate, not proof): Confucian reverence for tradition."

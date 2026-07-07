@@ -1,0 +1,37 @@
+id: u-0239
+claim_id: null
+type: Insight
+paraphrase: "A person stripped of office and standing can still bear witness to their own dispossession and appeal for restoration."
+quotation: null   # Sumerian text not held by the report
+quotation_translation: "The sun rose and scorched me. Night fell and the South Wind overwhelmed me... My joy became dust."
+source:
+  author: Enheduanna
+  work: "Nin-me-šara (The Exaltation of Inana / Inana B)"
+  passage: "opening lament (line numbers not specified by the report; hymn is 154 lines)"
+  translator: null   # report cites "trans. varies" — translator of this wording unidentified
+  edition_year: null
+  language: sux
+  url: null
+  urn: null
+tradition: Sumerian/Akkadian
+era: -2250   # c. 2285-2250 BCE per report
+register: poem
+claim_type: observational
+polarity: descriptive
+conditionality: conditional
+life_domains: [power, adversity, vocation]
+life_stages: [adult, midlife]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-2/04-womens-voices.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report confidence: probable (held at attested pending primary check). First named author in history: high priestess of Nanna at Ur, daughter of Sargon; the hymn narrates her expulsion from office by the usurper Lugal-Ane and her appeal to Inana for reinstatement — the first first-person authorial voice on record. TRANSMISSION: direct (her own composition; not male-mediated). Authorship caution from report: the Temple Hymns collection is debated — Black concluded at most only the final hymn (42) can reasonably be claimed as hers; Nin-me-šara itself is her securest attribution. COPYRIGHT: the Sumerian text is PD but all modern translations are in-copyright per report, and this English wording's translator is unidentified ('trans. varies') — held in-copyright; editions for verification: Helle (Yale 2023), Hallo & van Dijk (1968), Zgoll (1997). Report fork: voice-vs-silence."

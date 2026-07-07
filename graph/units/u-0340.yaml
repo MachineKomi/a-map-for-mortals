@@ -1,0 +1,37 @@
+id: u-0340
+claim_id: null
+type: Insight
+paraphrase: "A small good already in hand is worth more than a larger one still uncertain."
+quotation: "más vale pájaro en mano que buitre volando"
+quotation_translation: null   # report holds no English translation of the Quixote wording; the English cousin proverb ('a bird in the hand is worth two in the bush') is a parallel, not a translation
+source:
+  author: Miguel de Cervantes
+  work: Don Quixote
+  passage: "I.31"
+  translator: null
+  edition_year: 1605
+  language: es
+  url: null
+  urn: null
+tradition: Spanish (Castilian) folk-proverbial
+era: 1605   # literary attestation; Latin antecedent older
+register: proverb
+claim_type: prudential
+polarity: cautionary
+conditionality: contested
+life_domains: [money, risk, decision-making]
+life_stages: [adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: communal
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain   # Don Quixote (1605) original PD per report
+prov:
+  source_report: corpus/reports/wave-2/08-folk-proverbial.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: communal — kept. The proverb belongs to the Spanish-speaking folk of Castile; source names Cervantes because the quoted wording is his attestation in Don Quixote I.31 (register discipline: literary attestation of a communal proverb; the report does not identify the speaker within the novel — do not assume). VARIANT FORMS: 'buitre volando' (Quixote), 'ciento volando' (modern standard), 'cien volando'; Latin antecedent 'Est avis in dextra melior quam quattuor extra'. Security pole of forks risk-vs-security and thrift-vs-ambition — contradicts 'nothing ventured, nothing gained' (report reconciliation: stake size and downside survivability determine the pole). CONVERGENCE (preserve for edge pass): Spanish/Latin/English bird-in-hand + Aesop 'fish in hand' graded likely-transmitted — shared Latin/Aesopic ancestor across contiguous Europe. Cultivates prudence/contentment; guards against greed and over-reaching."

@@ -1,0 +1,37 @@
+id: u-0301
+claim_id: null
+type: Danger
+paraphrase: "War, once kindled, becomes a monstrous, self-perpetuating force that devours its makers, breeding famine and desolation."
+quotation: null            # report holds no verbatim wording — paraphrase of the war-monster metaphor only
+quotation_translation: null
+source:
+  author: "Zuhayr ibn Abi Sulma"
+  work: "Muʿallaqa"
+  passage: null            # war-monster passage; verse number not given in report
+  translator: null
+  edition_year: null
+  language: ar
+  url: null
+  urn: null
+tradition: Pre-Islamic Arabian
+era: 609
+register: metaphor
+claim_type: observational
+polarity: cautionary
+conditionality: universal-ish
+life_domains: [war, peace, conflict]
+life_stages: [adult, midlife]
+endorsement: endorsed
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: unknown
+prov:
+  source_report: corpus/reports/wave-2/06-persian.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: probable. PARAPHRASE of Zuhayr's famous metaphor — War depicted as a foul monster, the mother of twin-born Famine and Desolation; imagery noted by W.A. Clouston, Arabian Poetry (1881, PD). Report instructs: verify a verbatim translation before publishing as a quote; PD locators Jones (1782), Lyall (1930); Arberry 1957 in-copyright. No verbatim quotation held — copyright unknown. Endorsement: endorsed — Zuhayr's own anti-war stance: a rare pre-Islamic minority voice for peace/reconciliation over glorified warfare (composed after the War of Dāhis and al-Ghabrā, praising the peacemakers who paid the blood money). Preserve as dissent within its era."

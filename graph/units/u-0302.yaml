@@ -1,0 +1,37 @@
+id: u-0302
+claim_id: null
+type: Virtue
+paraphrase: "All human beings are limbs of one body, created of one essence; whoever feels no sympathy for others' affliction forfeits the name of human."
+quotation: null            # Persian original not held verbatim in the report (variant line noted below)
+quotation_translation: "The children of Adam are limbs of one body; they have been created of one essence. When the calamity of time afflicts one limb, the other limbs cannot remain at rest. You who have no sympathy for the like of yourself, a human being you cannot be called."
+source:
+  author: Saadi
+  work: Gulistan
+  passage: "Ch. 1 'On the Conduct of Kings', Story 10 (Bani Adam)"
+  translator: Dick Davis
+  edition_year: 2002
+  language: fa
+  url: null
+  urn: null
+tradition: Persian
+era: 1258
+register: poem
+claim_type: normative
+polarity: prescriptive
+conditionality: universal-ish
+life_domains: [ethics, empathy, community]
+life_stages: [child, youth, young-adult, adult, midlife, elder]
+endorsement: endorsed
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-2/06-persian.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "FLAG FOR MERGE: overlaps the wave-1 Near-Eastern report (05); taken here from the adab (practical-ethics) angle only. Report label: verified (recorded; kept attested pending primary check). Textual variant (misattribution watchlist #5): banī ādam aʿzā-ye yekdīgar-and ('limbs of one another', in all early MSS) vs yek peykar-and ('one body'); the UN carpet's Persian uses yekdīgar while the English UN plaque uses Eastwick's 1880 rendering of the later yek peykar variant — do not present either as definitively original. Davis 2002 is in-copyright; PD English: Rehatsek 1888, Eastwick 1880. Provenance colour: 5m x 5m carpet installed 2005 in the North Delegates' Lounge, UN HQ; quoted by Ban Ki-moon (Tehran, 2012); first couplet on Iran's 2010 100,000-rial banknote. Convergence candidate: Stoic oikeiosis/cosmopolitanism and Golden-Rule traditions — recurrence is not proof. Endorsement: endorsed — Saadi's own moral verse within the story frame."

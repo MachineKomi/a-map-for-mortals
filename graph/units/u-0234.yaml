@@ -1,0 +1,37 @@
+id: u-0234
+claim_id: null
+type: Insight
+paraphrase: "In the Sámi pastoral worldview of reindeer luck (boazolihkku), the herder should not conquer the world but try to get along with it and come to an understanding with it."
+quotation: "should not conquer the world but try to get along with it and come to an understanding with it"
+quotation_translation: null
+source:
+  author: "Nils Oskal"
+  work: "On Nature and Reindeer Luck"
+  passage: "Rangifer 20(2–3): 175–180"
+  translator: null
+  edition_year: 2000
+  language: en
+  url: null
+  urn: null
+tradition: Sámi
+era: 2000
+register: principle
+claim_type: prudential
+polarity: prescriptive
+conditionality: conditional
+life_domains: [nature, work, adversity]
+life_stages: [young-adult, adult, midlife]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: unknown
+prov:
+  source_report: corpus/reports/wave-2/03-indigenous.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report confidence: verified (named Sámi scholar, full journal citation). Quotation is a fragment as held by the report; grammatical subject is 'herders' — do not complete the sentence. Report marks Sámi section sources 'mostly in-copyright'; Rangifer status unverified, flag stays unknown. Named by the report in the reciprocity/relationality candidate convergence — hypothesis only. Prudential counsel within the reindeer-herding lifeworld; conditional, not universal."

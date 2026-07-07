@@ -1,0 +1,37 @@
+id: u-0311
+claim_id: null
+type: Insight
+paraphrase: "Strategy requires adjusting perceptual distance: seeing distant things as if close, and taking a distanced view of what is close."
+quotation: null   # Japanese original not held in report
+quotation_translation: "In strategy it is important to see distant things as if they were close and to take a distanced view of close things."
+source:
+  author: Miyamoto Musashi
+  work: The Book of Five Rings (Go Rin no Sho)
+  passage: "The Water Book"
+  translator: Victor Harris
+  edition_year: 1974
+  language: ja
+  url: null
+  urn: null
+tradition: Japanese (bushido / Zen)
+era: 1644   # written 1643-45 per report
+register: metaphor
+claim_type: prudential
+polarity: prescriptive
+conditionality: conditional
+life_domains: [perception, leadership, conflict]
+life_stages: [young-adult, adult, midlife]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-2/07-practical-strategic.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: probable. Harris 1974 translation IN COPYRIGHT — short fragment held; paraphrase posture for the book per report."

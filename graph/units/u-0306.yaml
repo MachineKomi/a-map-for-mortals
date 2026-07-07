@@ -1,0 +1,37 @@
+id: u-0306
+claim_id: null
+type: Insight
+paraphrase: "The highest strategic skill is not winning every battle but achieving the aim without fighting at all."
+quotation: null   # Classical Chinese original not held in report
+quotation_translation: "To fight and conquer in all your battles is not supreme excellence; supreme excellence consists in breaking the enemy's resistance without fighting."
+source:
+  author: Sun Tzu
+  work: The Art of War
+  passage: "Ch. III (Attack by Stratagem), §2"
+  translator: Lionel Giles
+  edition_year: 1910
+  language: lzh   # Classical Chinese
+  url: null
+  urn: null
+tradition: Chinese military
+era: -500   # c. 5th c. BCE per report
+register: principle
+claim_type: prudential
+polarity: prescriptive
+conditionality: conditional
+life_domains: [conflict, negotiation, leadership]
+life_stages: [adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-2/07-practical-strategic.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: verified (Giles Ch. III §2). Misattribution watchlist: the popular 'The supreme art of war is to subdue the enemy without fighting' is a PARAPHRASE, not the Giles text — use the genuine wording held here. Tempers the deception/aggression units: Sun Tzu prizes restraint and economy of force. Candidate convergence with Kautilya's upeksha (win-without-fighting / patience). Giles 1910 PD."

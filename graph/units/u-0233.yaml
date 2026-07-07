@@ -1,0 +1,37 @@
+id: u-0233
+claim_id: null
+type: Insight
+paraphrase: "The philosophy of the gift (láhi, attáldat) grounds Sámi education and responsibility."
+quotation: null            # report cites Kuokkanen's works by title only; no verbatim wording held
+quotation_translation: null
+source:
+  author: "Rauna Kuokkanen"
+  work: "Láhi and Attáldat: The Philosophy of the Gift and Sami Education"
+  passage: "Australian Journal of Indigenous Education 34: 20–32"
+  translator: null
+  edition_year: 2005
+  language: en
+  url: null
+  urn: null
+tradition: Sámi
+era: 2005
+register: argument
+claim_type: normative
+polarity: prescriptive
+conditionality: conditional
+life_domains: [community, work, money]
+life_stages: [child, youth, young-adult, adult]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-2/03-indigenous.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report confidence: verified (named Sámi scholar, journal citation). Kuokkanen is explicitly listed by the report among in-copyright sources — tag copyright and quote minimally; no verbatim quotation held. Further works: Reshaping the University: Responsibility, Indigenous Epistemes, and the Logic of the Gift (UBC Press, 2007); Boaris dego eana (ČálliidLágádus, 2009). Named by the report as part of the candidate reciprocity/relationality convergence (with Andean ayni, Potawatomi Honorable Harvest, Lakota Mitákuye Oyás'iŋ, ubuntu) — HYPOTHESIS only, recurrence ≠ proof."

@@ -1,0 +1,37 @@
+id: u-0203
+claim_id: null
+type: Insight
+paraphrase: "It is precisely life's impermanence and uncertainty that give it its power to move us and make it precious."
+quotation: null   # Kenko's Japanese not held in report
+quotation_translation: "If man were never to fade away like the dews of Adashino, never to vanish like the smoke over Toribeyama, but lingered on forever in the world, how things would lose their power to move us! The most precious thing in life is its uncertainty."
+source:
+  author: Yoshida Kenko
+  work: "Tsurezuregusa (Essays in Idleness)"
+  passage: "sec. 7"
+  translator: Donald Keene
+  edition_year: 1967
+  language: ja
+  url: null
+  urn: null
+tradition: Japanese
+era: 1331   # c. 1330-1332 per report
+register: aphorism
+claim_type: observational
+polarity: descriptive
+conditionality: conditional
+life_domains: [inner-life, mortality, aesthetics]
+life_stages: [adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright   # Keene (Columbia UP, 1967); Sansom 1911 is the PD alternative per report
+prov:
+  source_report: corpus/reports/wave-2/01-eastern.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: verified. Quoted wording taken from the report's fuller Details rendering of Keene sec. 7 (the unit block elides the middle clause). Observational-aesthetic, not doctrine: Keene notes Kenko's celebration of impermanence-as-beauty differs from both the Greek view (uncertainty as grief) and orthodox Buddhism (which rarely saw impermanence as desirable) — Kenko the aesthete, not doctrinaire (report). For print, prefer re-verification against PD Sansom 1911 or licence check on Keene."

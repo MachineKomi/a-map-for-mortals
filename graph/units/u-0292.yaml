@@ -1,0 +1,47 @@
+id: u-0292
+claim_id: null
+type: Virtue
+paraphrase: "Do not harm even an ant carrying its grain — the smallest life has a soul, and sweet life is precious; needless harm is the mark of unjust power."
+quotation: null   # only the transliterated Persian incipit is held: 'Miyāzār muri ke dāne-kash ast…' — full original at verification
+quotation_translation: "Do not harm an ant that carries a grain, for it has a soul, and sweet life is precious."
+source:
+  author: "Ferdowsi"
+  work: "Shahnameh"
+  passage: "couplet 'Miyāzār muri ke dāne-kash ast…'"
+  translator: null   # report: 'English tr. varies' — exact translator to be identified at verification
+  edition_year: null
+  language: fa
+  url: null
+  urn: null
+tradition: Persian
+era: 1000   # composed c. 977-1010 CE
+register: aphorism
+claim_type: normative
+polarity: prescriptive
+conditionality: universal-ish
+life_domains: [justice, compassion, governance]
+life_stages: [young-adult, adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; the English wording's translator is unidentified ('English tr. varies') and has not been checked against any edition"
+  checked_against: null
+  date: null
+copyright_flag: unknown
+prov:
+  source_report: corpus/reports/wave-2/06-persian.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: >-
+  Report unit FE-03; report label attribution_confidence 'probable', normalised to
+  'attested' pending a primary check. One of Ferdowsi's most-quoted couplets on the
+  sanctity of life; justice (dād) is the Shahnameh's central political value —
+  addresses the power-vs-justice fork. WORDING CAUTION: the English translator is
+  unknown ('English tr. varies' per report) — verify the exact translator and
+  edition before any quotation use; copyright_flag 'unknown' until the wording's
+  edition is established. Report watchlist item 6 applies (circulating Shahnameh
+  quotes are often loose paraphrases). PD English alternatives for the Shahnameh
+  generally: Warner & Warner, Helen Zimmern; Davis 2006 is the in-copyright
+  scholarly standard.

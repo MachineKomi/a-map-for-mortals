@@ -1,0 +1,37 @@
+id: u-0258
+claim_id: null
+type: Dilemma
+paraphrase: "Moral reasoning includes a care orientation — relational, contextual, premised on no one being hurt — alongside a justice orientation premised on equal treatment; the two frame moral problems differently."
+quotation: "an ethic of justice proceeds from the premise of equality... an ethic of care rests on the premise of nonviolence."
+quotation_translation: null   # English is the original language
+source:
+  author: Carol Gilligan
+  work: In a Different Voice
+  passage: "ch. 6"
+  translator: null
+  edition_year: 1982
+  language: en
+  url: null
+  urn: null
+tradition: Feminist moral psychology
+era: 1982
+register: argument
+claim_type: empirical
+polarity: descriptive
+conditionality: contested
+life_domains: [ethics, relationships, gender]
+life_stages: [adult]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-2/04-womens-voices.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "RIGHTS-RESTRICTED, QUOTE-MINIMALLY: Gilligan IN COPYRIGHT per report (Harvard UP 1982) — only the short line the report records is held; print gate blocks verbatim regardless. Report confidence: verified (held as attested per S1 rules). Transmission (extract): direct. Claim_type empirical kept per report, WITH the report's contestation carried: the empirical-psychological claim (contra Kohlberg) that a care orientation appears more often in women's moral reasoning is CONTESTED EMPIRICALLY — encode as a contested fork, never as settled or female-coded. CARE-VS-JUSTICE FORK, CONTESTED, DO NOT RESOLVE OR GENDER-CODE (report instruction): poles Gilligan/Noddings (care) vs Friedman and Kantian critics (u-0259, attached critique — care and justice do not divide along gender lines); further charges of essentialism, parochialism, 'slave morality' (Hoagland on unequal giver/taker relations); Gilligan's own 1987 reply places care WITHIN a framework of justice. Dilemma type per report and coordinating instruction. Tension with Beauvoir's constructed-'woman' (u-0253) vs essentialist readings of care ethics. Life_stages derived by minting agent (extract left empty)."

@@ -1,0 +1,37 @@
+id: u-0316
+claim_id: null
+type: Insight
+paraphrase: "Between unequal powers, appeals to justice are moot: questions of right arise only between equals, while the strong act on their advantage and the weak endure what they must."
+quotation: null   # Greek original not held in report
+quotation_translation: "…right, as the world goes, is only in question between equals in power, while the strong do what they can and the weak suffer what they must."
+source:
+  author: Thucydides
+  work: History of the Peloponnesian War
+  passage: "5.89 (Melian Dialogue)"
+  translator: Richard Crawley
+  edition_year: 1874
+  language: grc
+  url: null
+  urn: null
+tradition: Greek historiography
+era: -400   # text c. 400 BCE; the events dramatised are c. 416 BCE
+register: argument
+claim_type: observational
+polarity: descriptive
+conditionality: contested
+life_domains: [power, conflict, statecraft, negotiation]
+life_stages: [adult, midlife]
+endorsement: undercut
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-2/07-practical-strategic.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: verified. CHARACTER SPEECH: spoken by the ATHENIAN ENVOYS in Thucydides' dramatised (reconstructed, not transcribed) dialogue — a character-position, not Thucydides' own view. The Melians reject it; Melos is destroyed, but Athens ultimately loses the war — the narrative arc functions as an implicit critique of pure expediency, hence endorsement: undercut. RE-DERIVATION: report tags claim_type 'descriptive' (not a schema value); re-derived to observational — a descriptive generalisation about how power behaves, with polarity descriptive. Descriptive realism, never endorsed. OVERLAP FLAG: Thucydides already held as Nietzsche's approved exemplar; this unit is the strategic angle only. Candidate convergence with Kautilya's sixfold policy (power-asymmetry realism). Crawley 1874 PD."

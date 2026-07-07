@@ -1,0 +1,37 @@
+id: u-0296
+claim_id: null
+type: Insight
+paraphrase: "The divine sought outside is discovered to be the seekers' own collective self: the goal of the quest is internal."
+quotation: null            # report holds no verbatim wording — plot-climax paraphrase only
+quotation_translation: null
+source:
+  author: Attar
+  work: "Conference of the Birds (Manṭiq al-Ṭayr)"
+  passage: "climax (Simorgh revelation)"
+  translator: "Darbandi & Davis"
+  edition_year: 1984
+  language: fa
+  url: null
+  urn: null
+tradition: Persian Sufi
+era: 1177
+register: parable
+claim_type: metaphysical
+polarity: descriptive
+conditionality: contested
+life_domains: [spirituality, self-knowledge, meaning]
+life_stages: [adult, midlife, elder]
+endorsement: endorsed
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: unknown
+prov:
+  source_report: corpus/reports/wave-2/06-persian.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: communal (re-labelled attested: the poem is by a named author; the paraphrase summarises its climax). PARAPHRASE of the plot climax, not a verbatim line: thirty birds (si morgh) survive the seven valleys and find that the Simorgh they sought is themselves — the climax turns on a Persian pun (si morgh = thirty birds). Endorsement: endorsed — the revelation is the poem's own allegorical teaching, not an undercut character position. Metaphysical claim — never empirical. Reference edition Darbandi & Davis (Penguin 1984) is in-copyright; no wording held, so copyright unknown. Alternative verbatim per report Lead #10: Wolpé 2017; FitzGerald's PD 'Bird Parliament' abridgment exists. Develops Attar beyond the one unit held in the Near-Eastern report (per report scope note)."

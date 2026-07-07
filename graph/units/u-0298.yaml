@@ -1,0 +1,37 @@
+id: u-0298
+claim_id: null
+type: Insight
+paraphrase: "A long life teaches what happened today and yesterday, but of what tomorrow will bring one remains ignorant."
+quotation: null            # Arabic original not held in the report
+quotation_translation: "I have grown weary of the troubles of life; and he who lives eighty years will — may you have no father if you doubt — grow weary. And I know what has happened to-day and yesterday, before it, but verily, of the knowledge of what will happen tomorrow, I am ignorant."
+source:
+  author: "Zuhayr ibn Abi Sulma"
+  work: "Muʿallaqa"
+  passage: null            # gnomic (hikma) closing section; verse numbers not given in report
+  translator: null         # anthology rendering; translator unidentified in report
+  edition_year: 1917
+  language: ar
+  url: null
+  urn: null
+tradition: Pre-Islamic Arabian
+era: 609
+register: aphorism
+claim_type: observational
+polarity: descriptive
+conditionality: universal-ish
+life_domains: [mortality, knowledge, aging]
+life_stages: [midlife, elder]
+endorsement: endorsed
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-2/06-persian.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: probable. Wording from The Sacred Books & Early Literature of the East, Vol. V (1917) — report establishes this and the Jones (1782) / Lyall (1930) renderings as PD locators; Arberry, The Seven Odes (1957) is the in-copyright scholarly alternative (Lead #4). Endorsement: endorsed — Zuhayr's own first-person gnomic voice ('the practical wisdom of a sober man of the world'), not character speech. Zuhayr c. 520–c. 609 CE. Strong convergence candidate per report with FitzGerald-Khayyam KH-04 (u-0288) and the Horace/Ecclesiastes/Siduri uncertainty-of-tomorrow cluster."

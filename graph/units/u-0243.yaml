@@ -1,0 +1,37 @@
+id: u-0243
+claim_id: null
+type: Insight
+paraphrase: "Girls should be educated as boys are; teaching only sons while neglecting daughters is inconsistent."
+quotation: null   # classical Chinese text not held by the report
+quotation_translation: "[to teach only boys and not girls] — is that not to ignore the essential relation between them?"
+source:
+  author: Ban Zhao
+  work: "Nüjie (Lessons for Women)"
+  passage: null
+  translator: "Nancy Lee Swann (Pan Chao: Foremost Woman Scholar of China)"
+  edition_year: 1932
+  language: zh   # classical Chinese
+  url: null
+  urn: null
+tradition: Han Confucian
+era: 100   # Nüjie c. 100 CE
+register: argument
+claim_type: normative
+polarity: prescriptive
+conditionality: contested
+life_domains: [education, family, gender]
+life_stages: [child, youth]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: unknown
+prov:
+  source_report: corpus/reports/wave-2/04-womens-voices.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report confidence: probable (held at attested pending primary check). TRANSMISSION: direct — earliest Chinese work by a woman scholar for women's education; she also completed the Han shu after her brother Ban Gu's death. WORDING PENDING (report's own flag): the report's lead list asks for Swann 1932 to be obtained 'for exact verbatim' — treat this quotation as approximate until checked. INTERNAL CONTRADICTION (preserve, do not resolve): the SAME text preaches humility, yielding (yin) and the Three Obediences and Four Virtues, and was used for centuries to school women in submission, yet argues for girls' education — encode both poles; conditionality kept contested for this reason. Scholarship split: Swann 1932 called it the 'first complete statement of feminine ethics'; Cambridge Ancient Women Philosophers (2023) argues against the 'simplistic anti-feminist charge' (contributor/verbatim unconfirmed — report lead). COPYRIGHT: report says Swann 1932 'likely PD or near' — not established, so unknown; confirm PD status (report lead). Report convergence: education-as-the-lever-of-equality with de Pizan, Astell, Wollstonecraft across 1,700 years. Report forks: voice-vs-silence, autonomy-vs-relation."

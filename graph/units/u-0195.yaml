@@ -1,0 +1,37 @@
+id: u-0195
+claim_id: null
+type: Virtue
+paraphrase: "Forbearance and non-retaliation stand higher than revenge."
+quotation: null                # Tamil couplet not held in report; exact couplet in Book I ch. 16 still to be pinned
+quotation_translation: null    # report's own wording is a placeholder — "[Pope 1886 verse — Book I, ch.16 'Forbearance'; exact couplet to be pinned]"
+source:
+  author: Tiruvalluvar
+  work: Tirukkural
+  passage: "Book I, ch. 16 (Forbearance); exact couplet not yet pinned"
+  translator: G.U. Pope
+  edition_year: 1886
+  language: ta
+  url: null
+  urn: null
+tradition: Tamil/Hindu
+era: 475   # c. 450-500 CE per report
+register: aphorism
+claim_type: normative
+polarity: prescriptive
+conditionality: conditional
+life_domains: [ethics, relationships, governance]
+life_stages: [adult, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: unknown   # no verbatim wording held; target edition (Pope 1886) is PD per report
+prov:
+  source_report: corpus/reports/wave-2/01-eastern.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: probable. WORDING PENDING: report flags the exact couplet as still to be pinned before publishing at verified — do not promote until pinned. Translation caveat: Pope was a Christian missionary; report flags occasional Christian-moralising overlay in his rendering. The Kural itself is secular and names no deity in its ethics (report). Kin to the Shantideva patience unit (u-0199) on the retaliation-vs-forbearance fork."

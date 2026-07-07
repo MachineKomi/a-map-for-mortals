@@ -1,0 +1,37 @@
+id: u-0265
+claim_id: null
+type: Danger
+paraphrase: "Advice framed as loving guidance can be manipulation toward mere worldly success."
+quotation: "[Letters that teach] the morals of a whore, and the manners of a dancing-master."
+quotation_translation: null
+source:
+  author: "Samuel Johnson (recorded by James Boswell)"
+  work: "Life of Johnson (on Chesterfield's Letters to His Son, pub. 1774)"
+  passage: null
+  translator: null
+  edition_year: 1791
+  language: en
+  url: null
+  urn: null
+tradition: "English Enlightenment / its critics"
+era: 1791   # Johnson's verdict as recorded; Chesterfield's letters 1737-68, published 1774
+register: aphorism
+claim_type: normative
+polarity: cautionary
+conditionality: conditional
+life_domains: [family, ambition, ethics]
+life_stages: [youth, young-adult]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: unknown
+prov:
+  source_report: corpus/reports/wave-2/05-childhood-old-age.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: verified. Chesterfield's Letters to His Son as the PARADIGM UNDERCUT ADVICE-GIVER (cf. Polonius, already covered) — worldly, manipulative, 'the useful and necessary art of pleasing'; Chesterfield's own 'Women are only children of a larger growth' exemplifies the cynicism; John Quincy Adams called the Letters a 'stain of depravity'. The unit's wisdom is Johnson's evaluative verdict, not Chesterfield's counsel; Johnson speaks in his own voice via Boswell, so endorsement n/a. Claim-type: report's 'normative (evaluative)' — normative kept. Bracketed '[Letters that teach]' is the report's editorial lead-in, copied exactly. Copyright: quoted wording is from Boswell's Life of Johnson (1791) — near-certainly PD by age, but the report's PD table covers only Chesterfield's Letters ('Mixed'), so left unknown pending S2 confirmation."

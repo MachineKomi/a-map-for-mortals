@@ -1,0 +1,52 @@
+id: u-0291
+claim_id: null
+type: Consequence
+paraphrase: "Even the mightiest hero cannot escape fate: Rostam kills his unrecognised son Sohrab in single combat, and the epic frames their meeting as fated and unavoidable."
+quotation: null   # report holds NO verbatim wording for this unit — narrative episode summarised, not quoted
+quotation_translation: null   # paraphrase-only unit; any future wording must come from Davis 2006 at verification
+source:
+  author: "Ferdowsi"
+  work: "Shahnameh"
+  passage: "'Rostam and Sohrab' episode"
+  translator: null   # summarised from Davis 2006 and scholarship; no translation quoted
+  edition_year: null
+  language: fa
+  url: null
+  urn: null
+tradition: Persian
+era: 1000   # composed c. 977-1010 CE
+register: parable
+claim_type: observational
+polarity: cautionary
+conditionality: contested
+life_domains: [fate, family, war, tragedy]
+life_stages: [adult, midlife]
+endorsement: complicated
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; narrative summary only — no wording exists to check; episode's presence and framing to be confirmed against Davis 2006"
+  checked_against: null
+  date: null
+copyright_flag: unknown
+prov:
+  source_report: corpus/reports/wave-2/06-persian.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: >-
+  Report unit FE-02. PARAPHRASE-PENDING (report Stage-2 retirement queue): this is a
+  PARAPHRASE of a narrative episode, NOT a quotation — do not publish as a verbatim
+  quote until checked against Davis 2006 (report Lead #3); upgrade
+  attribution_confidence only on a matched page/verse in a named scholarly edition.
+  Report label attribution_confidence 'communal'; RE-DERIVATION: normalised to
+  'attested' — the Shahnameh is a named-author literary work, not an oral/communal
+  unit; the 'communal' label reflected the episode's proverbial circulation, noted
+  here instead. Endorsement 'complicated' derived from report speaker_context: the
+  fatalism is Ferdowsi's tragic frame, but Noldeke and Khaleghi-Motlagh note his
+  contradictory posture — a deist/monotheist tempering fate with 'reason and sanity
+  against the cruelty of fate' (Dabashi). No verbatim quotation held, so
+  copyright_flag 'unknown'. The paradigmatic Persian fate-vs-will unit: sits in
+  TENSION with Zoroastrian free will (u-0280 / ZO-01); report Stage-3 cluster ZO-01
+  <-> FE-02 <-> KH-03 <-> MU-02. Ghazanfari 2011 (report Lead #8) bears directly on
+  whether this fatalism is inherited Zoroastrian material or Ferdowsi's own.

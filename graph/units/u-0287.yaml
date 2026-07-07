@@ -1,0 +1,48 @@
+id: u-0287
+claim_id: null
+type: Danger
+paraphrase: "Human beings may be no more than pieces on destiny's chequer-board — moved, checked, and laid away one by one by an inscrutable player."
+quotation: "'Tis all a Chequer-board of Nights and Days / Where Destiny with Men for Pieces plays: / Hither and thither moves, and mates, and slays, / And one by one back in the Closet lays."
+quotation_translation: null   # the English IS the original: FitzGerald's Victorian recomposition, not a translation
+source:
+  author: "Edward FitzGerald"
+  work: "Rubaiyat of Omar Khayyam"
+  passage: "quatrain XLIX (1st ed.) / LXIX (5th ed.)"
+  translator: null
+  edition_year: 1859
+  language: en
+  url: null
+  urn: null
+tradition: Persian
+era: 1859   # FitzGerald's crafting of Khayyam's determinist/skeptical strain
+register: metaphor
+claim_type: metaphysical
+polarity: cautionary
+conditionality: contested
+life_domains: [fate, agency, meaning]
+life_stages: [adult, midlife]
+endorsement: ambiguous
+attribution_confidence: dubious
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-2/06-persian.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: >-
+  Report unit KH-03; report label 'dubious' KEPT per its per-quatrain treatment.
+  Credited to FitzGerald as crafter. Endorsement 'ambiguous' derived from the
+  report's speaker_context: 'FitzGerald's rendering of Khayyam's
+  determinist/skeptical strain — a poetic voice, NOT a settled philosophy' — the
+  determinism is a dramatic/poetic position, not an authorial doctrine. Claim_type
+  metaphysical (a strong determinist reading of human agency), never empirical.
+  Directly OPPOSES the Zoroastrian free-will position (u-0280 / ZO-01) — preserve as
+  minority/contested wisdom, a real fork within the Persian corpus (report fork 2 and
+  Stage-3 fate-vs-will cluster: ZO-01 <-> FE-02 <-> KH-03 <-> MU-02). FitzGerald text
+  is public-domain; cite the edition. Mandatory display tag per report: 'FitzGerald,
+  not Khayyam'.

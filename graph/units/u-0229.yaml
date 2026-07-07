@@ -1,0 +1,37 @@
+id: u-0229
+claim_id: null
+type: Practice
+paraphrase: "Inuit Qaujimajatuqangit — that which Inuit have always known to be true — is maintained as the guide for societal values in present-day governance."
+quotation: "Inuit Qaujimajatuqangit"
+quotation_translation: "that which Inuit have always known to be true"
+source:
+  author: "Inuit (codified by the Government of Nunavut)"
+  work: "Incorporating Inuit Societal Values"
+  passage: null
+  translator: null
+  edition_year: 2013
+  language: iu
+  url: null
+  urn: null
+tradition: Inuit
+era: 2013
+register: principle
+claim_type: normative
+polarity: prescriptive
+conditionality: conditional
+life_domains: [community, politics, nature, work]
+life_stages: [youth, adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: communal
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: unknown
+prov:
+  source_report: corpus/reports/wave-2/03-indigenous.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "CONSENT GATE: do not publish before a community-source consent audit (see ops/DECISIONS.md 2026-07-08). Report confidence: communal. Legal/governance instrument cited precisely: Government of Nunavut, Incorporating Inuit Societal Values (2013) — the codification of Inuit Qaujimajatuqangit (IQ) as guiding societal values. Secondary source: Karetak, Tagalik & Tester, Inuit Qaujimajatuqangit: What Inuit Have Always Known to Be True (Fernwood, 2017) — in-copyright, quote minimally. Quotation held is the Inuktitut term plus its standard English gloss only, as given by the report. Living tradition in active governance use — not a relic."

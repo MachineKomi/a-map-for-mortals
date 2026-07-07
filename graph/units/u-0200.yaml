@@ -1,0 +1,37 @@
+id: u-0200
+claim_id: null
+type: Insight
+paraphrase: "All phenomena are empty of inherent existence, and conventional truth is distinct from ultimate truth — a deliberately apophatic and heavily contested position."
+quotation: null                # report's own wording is a placeholder — "[MMK verse — wording to be verified against Garfield edition]"
+quotation_translation: null    # no verbatim wording held this pass
+source:
+  author: Nagarjuna
+  work: Mulamadhyamakakarika
+  passage: null   # chapter/verse still to be pinned, per report
+  translator: Jay Garfield
+  edition_year: 1995
+  language: sa
+  url: null
+  urn: null
+tradition: Buddhist (Madhyamaka)
+era: 150   # 2nd c. CE per report
+register: argument
+claim_type: metaphysical
+polarity: descriptive
+conditionality: contested
+life_domains: [metaphysics, inner-life]
+life_stages: [adult, midlife]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: unknown   # no verbatim wording held; target edition (Garfield, Oxford 1995) is in-copyright per report
+prov:
+  source_report: corpus/reports/wave-2/01-eastern.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: probable. QUARANTINE (report Stage 2): wording unverified this pass — do not publish any quote until verse pinned against the Garfield print edition; if the check fails, report recommends dropping the unit rather than downgrading. Metaphysical, never empirical. Deliberately apophatic; interpretation heavily contested among Madhyamaka scholars — guard against both reification and nihilism readings (report)."

@@ -1,0 +1,37 @@
+id: u-0194
+claim_id: null
+type: Practice
+paraphrase: "Yoga is defined as the stilling of the mind's fluctuations, achieved through sustained practice (abhyasa) and non-attachment (vairagya)."
+quotation: "yogaś citta-vṛtti-nirodhaḥ"
+quotation_translation: null   # report holds the Sanskrit original only; its English renderings ("cessation/stilling of the fluctuations of the mind-stuff") are glosses, not a quoted translation
+source:
+  author: Patanjali
+  work: Yoga Sutras
+  passage: "1.2 (with 1.12 on the means)"
+  translator: null
+  edition_year: null
+  language: sa
+  url: null
+  urn: null
+tradition: Hindu
+era: 200   # compilation dated c. 2nd c. BCE - 4th c. CE per report; midpoint used
+register: principle
+claim_type: prudential
+polarity: prescriptive
+conditionality: conditional
+life_domains: [inner-life, practice]
+life_stages: [young-adult, adult, midlife]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain   # quoted wording is the ancient Sanskrit sutra itself, not a modern translation
+prov:
+  source_report: corpus/reports/wave-2/01-eastern.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: verified. Sutra 1.2 is definitional in form; held as prudential Practice because its function is a programme for stilling mental agitation, per 1.12 (abhyasa + vairagya) — the soteriological payoff beyond tranquillity would be metaphysical and is not asserted here. No physical postures in the definition (report). In-copyright modern standard: Bryant 2009; Vivekananda translation is PD per report inventory. Edge candidate (FOR MERGE with Stoic/wave-1 material): non-attachment <-> ataraxia convergence, per report Stage 3 — candidate, not conclusion."

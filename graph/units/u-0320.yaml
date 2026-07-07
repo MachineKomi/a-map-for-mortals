@@ -1,0 +1,37 @@
+id: u-0320
+claim_id: null
+type: Insight
+paraphrase: "People generally judge by appearances rather than by inner reality: few look inside, most settle for the outside."
+quotation: null   # Spanish original not held in report
+quotation_translation: "Reality and Appearance. Things pass for what they seem, not for what they are. Few see inside; many take to the outside."
+source:
+  author: Baltasar Gracián
+  work: The Art of Worldly Wisdom (Oráculo Manual)
+  passage: "Maxim xcix (99)"
+  translator: Joseph Jacobs
+  edition_year: 1892
+  language: es
+  url: null
+  urn: null
+tradition: Spanish (Jesuit / Baroque)
+era: 1647
+register: aphorism
+claim_type: observational
+polarity: descriptive
+conditionality: conditional
+life_domains: [reputation, social, career]
+life_stages: [youth, young-adult, adult]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-2/07-practical-strategic.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: verified (Jacobs Maxim 99). Observational generalisation about social judgment — descriptive, not an endorsement of managing appearances. Candidate convergence flagged by report: Machiavelli Prince 18 ('everyone sees what you appear to be') and Sun Tzu's deception doctrine — three independent traditions on perception vs reality. Jacobs 1892 PD."

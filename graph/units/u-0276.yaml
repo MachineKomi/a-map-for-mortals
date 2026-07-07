@@ -1,0 +1,37 @@
+id: u-0276
+claim_id: null
+type: Practice
+paraphrase: "Relationships near death are completed by saying four things: please forgive me, I forgive you, thank you, and I love you — a palliative clinician's distillation, not a controlled study."
+quotation: "These four short sentences carry the core of wisdom of what people who are dying have taught me about what matters most in life."
+quotation_translation: null   # English original; no translation applicable
+source:
+  author: "Ira Byock"
+  work: "The Four Things That Matter Most"
+  passage: null
+  translator: null
+  edition_year: 2004
+  language: en
+  url: null
+  urn: null
+tradition: Palliative medicine (secular, cross-faith)
+era: 2004
+register: principle
+claim_type: prudential
+polarity: prescriptive
+conditionality: conditional
+life_domains: [relationships, forgiveness, mortality]
+life_stages: [adult, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-2/05-childhood-old-age.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: verified (held at attested per S1 rule 1). The four things (report finding 5): 'Please forgive me / I forgive you / Thank you / I love you'. EPISTEMIC STATUS per report: clinical wisdom distilled from ~30 years of palliative practice — NOT a controlled study; hold as counsel, not evidence. Report claim_type label 'observational / prudential' — re-derived to prudential: the unit's function is a practice recommendation; the observational base (what the dying taught him) is provenance, recorded here. Byock's own caveats carried: 'I didn't invent them... they've been in our culture'; 'Death ends a life but not a relationship'; forgiveness is not forgetting. IN-COPYRIGHT (Free Press, 2004, per report) — quote briefly. Converges with Ware's regrets (u-0277) and Gawande's authorship (u-0278) on completing relationships before death (report section E — robustness signal, not proof). Feeds living-for-time-left-vs-as-if-whole."

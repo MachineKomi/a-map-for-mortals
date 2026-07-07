@@ -1,0 +1,37 @@
+id: u-0312
+claim_id: null
+type: Danger
+paraphrase: "Where no enforcing authority wields punishment, the strong devour the weak — the 'law of the fish'; under its protection, the weak can resist the strong."
+quotation: null   # Sanskrit original not held beyond transliterated terms in the translation
+quotation_translation: "But when the law of punishment is kept in abeyance, it gives rise to such disorder as is implied in the proverb of fishes (matsyanyayamudbhavayati); for in the absence of a magistrate (dandadharabhave), the strong will swallow the weak; but under his protection, the weak resist the strong."
+source:
+  author: Kautilya
+  work: Arthashastra
+  passage: "Book I (Concerning Discipline), Ch. IV 'The End of Sciences'"
+  translator: R. Shamasastry
+  edition_year: 1915
+  language: sa
+  url: null
+  urn: null
+tradition: Indian statecraft
+era: -250   # dating genuinely contested per report: 3rd c. BCE composite vs redactions to c. 150 CE
+register: argument
+claim_type: prudential
+polarity: descriptive
+conditionality: conditional
+life_domains: [statecraft, law, order, power]
+life_stages: [adult, midlife]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; report states verbatim check vs Shamasastry 1915 (en.wikisource.org and 1915 bjp.org PDF p.13) — not yet re-verified against a primary edition by this pipeline"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-2/07-practical-strategic.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: verified (verbatim vs Shamasastry 1915, Book I Ch. IV). Matsyanyaya = 'law of the fish'. Realpolitik framing kept descriptive per report — describes what happens absent enforcement; the prudential force (order requires danda) is conditional, not an endorsement of coercion. Beware online paraphrases mislabeling the chapter 'The Life of the King'. Kautilya's dating contested — do not present a single confident date. Cross-reference: Machiavelli on cruelty well-used (ends-vs-means fork); Hippocratic 'do no harm' is the counter-pole. Shamasastry 1915 PD."

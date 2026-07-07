@@ -1,0 +1,50 @@
+id: u-0289
+claim_id: null
+type: Insight
+paraphrase: "Faced with the finality of death — you will not be here again — the counsel is to take the pleasure at hand rather than chase an elixir of life."
+quotation: null   # Persian original not held in the report; capture at primary verification
+quotation_translation: "In the extremity of desire I put my lip to the pot's / to seek the elixir of life: / It put its lip on mine and murmured, / 'Enjoy the wine, you'll not be here again.'"
+source:
+  author: "Omar Khayyam (attributed; corpus largely pseudepigraphic)"
+  work: "The Ruba'iyat of Omar Khayyam"
+  passage: "quatrain 139 (Avery & Heath-Stubbs numbering)"
+  translator: "Peter Avery & John Heath-Stubbs (literal)"
+  edition_year: 1979
+  language: fa
+  url: null
+  urn: null
+tradition: Persian
+era: 1100   # attributed to Khayyam (1048-1131); oldest dated MS 1460 CE, 312 years after his death
+register: poem
+claim_type: prudential
+polarity: prescriptive
+conditionality: conditional
+life_domains: [mortality, knowledge, pleasure]
+life_stages: [adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-2/06-persian.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: >-
+  Report unit KH-05; report label attribution_confidence 'probable', normalised to
+  'attested' pending a primary check — this is the report's one LITERAL Khayyam
+  quatrain (Avery & Heath-Stubbs produced their version expressly to show how far
+  FitzGerald departed). Penguin 1979 translation is IN-COPYRIGHT — print gate
+  applies; no PD literal alternative named in the report. RE-DERIVATION DIFFERENCE:
+  report gives polarity 'descriptive' (its canonical_claim describes the corpus's
+  skepticism), but the quatrain's own quoted content is counsel ('Enjoy the
+  wine...') — tagged prescriptive here. Authorship of most quatrains is
+  contested/pseudepigraphic — 'Khayyam' functioned as a frame-author for later
+  libertine/skeptical poets (Juan Cole); oldest dated source Bodleian MS Ouseley 140
+  (Shiraz, 1460 CE, 158 quatrains); Calcutta MS (Asiatic Society No. 1548) holds
+  516. Do not assert Khayyam wrote this quatrain. Convergence candidate with Attar's
+  abandon-dogma valleys (AT-02) and Socratic ignorance (report convergence list).

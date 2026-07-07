@@ -1,0 +1,37 @@
+id: u-0257
+claim_id: null
+type: Danger
+paraphrase: "Attachment to mortal, decaying goods — worldly marriage included — obstructs union with the divine; the perishable is to be renounced."
+quotation: null   # Kannada original not held in the report
+quotation_translation: "Take these husbands who die, decay — and feed them to your kitchen fires!"
+source:
+  author: Akka Mahadevi
+  work: "vachana (signed with her ankita 'Chennamallikarjuna')"
+  passage: null
+  translator: "A.K. Ramanujan (Speaking of Siva, Penguin, 1973)"
+  edition_year: 1973
+  language: kn
+  url: null
+  urn: null
+tradition: Kannada Bhakti (Lingayat)
+era: 1150   # Akka Mahadevi c. 1130-1160
+register: poem
+claim_type: metaphysical
+polarity: cautionary
+conditionality: contested
+life_domains: [marriage, devotion, renunciation]
+life_stages: [young-adult, adult]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-2/04-womens-voices.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "RIGHTS-RESTRICTED: Ramanujan's translation IN COPYRIGHT per report — only the short lines the report records are held; Vishwanatha's forthcoming Murty Classical Library translation flagged as rights-clean replacement. Report confidence: probable (held as attested per S1 rules). Transmission (extract): 'direct (~350 vachanas attributed via her ankita Chennamallikarjuna, not autograph manuscripts)'. Translation caveat: Niranjana (Siting Translation, 1992) critiques Ramanujan's rendering as universalizing for a Western audience. Report forks: instrumental-vs-non-instrumental devotion and the examined life under constraint (she walked out of a forced marriage); convergence candidate 'non-instrumental orientation to the ultimate' with Rabia (u-0256), Julian (u-0247), Murdoch (u-0254) — candidate, not proof. Life_stages derived by minting agent (extract left empty)."

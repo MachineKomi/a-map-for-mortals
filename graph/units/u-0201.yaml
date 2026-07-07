@@ -1,0 +1,37 @@
+id: u-0201
+claim_id: null
+type: Practice
+paraphrase: "Studying the Way means studying the self, and studying the self means forgetting the self — a practice-provocation pointing at awakening as intimacy with all things, resistant to propositional restatement."
+quotation: null   # Dogen's Japanese not held in report
+quotation_translation: "To study the Way is to study the self. To study the self is to forget the self."
+source:
+  author: Dogen
+  work: Shobogenzo
+  passage: "Genjokoan"
+  translator: "Kazuaki Tanahashi; also Waddell & Abe (translations diverge)"
+  edition_year: null
+  language: ja
+  url: null
+  urn: null
+tradition: Zen/Japanese
+era: 1250   # 13th c. CE per report
+register: metaphor
+claim_type: metaphysical
+polarity: prescriptive
+conditionality: contested
+life_domains: [inner-life, practice, identity]
+life_stages: [adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright   # Tanahashi and Waddell & Abe translations both in-copyright per report inventory
+prov:
+  source_report: corpus/reports/wave-2/01-eastern.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: probable. QUARANTINE (report Stage 2): exact wording unverified this pass — pin against a named edition (Tanahashi / Waddell & Abe) before publishing at verified. INTERPRETIVE DIFFICULTY: Dogen's 13th-c. Japanese is notoriously multivalent; translations diverge substantially (carried as conditionality: contested). Koans and Dogen's prose resist propositional paraphrase by design — held as Practice/provocation, not an insight-claim (report's explicit instruction). Metaphysical (self/no-self, awakening), never empirical."

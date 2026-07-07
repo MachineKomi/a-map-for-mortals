@@ -1,0 +1,48 @@
+id: u-0281
+claim_id: null
+type: Insight
+paraphrase: "Reality is framed as two opposed primal spirits — the good and the bad — expressed in thought, word, and action, between which the beneficent have chosen correctly."
+quotation: null   # Old Avestan text not held in the report; capture at primary verification
+quotation_translation: "Yes, there are two fundamental spirits, twins which are renowned to be in conflict. In thought and in word, in action, they are two: the good and the bad. And between these two, the beneficent have correctly chosen, not the maleficent."
+source:
+  author: "Zarathustra"
+  work: "Gathas"
+  passage: "Yasna 30.3"
+  translator: "Stanley Insler (The Gāthās of Zarathustra, Acta Iranica 8, Brill)"
+  edition_year: 1975
+  language: ae
+  url: null
+  urn: null
+tradition: Zoroastrian
+era: -1100   # c. 1200-1000 BCE (oral composition); Sasanian codification
+register: poem
+claim_type: metaphysical
+polarity: descriptive
+conditionality: contested
+life_domains: [ethics, spirituality, cosmology]
+life_stages: [adult, midlife]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; report states verbatim was cross-verified against Encyclopaedia Iranica ('GATHAS ii'), but wording not yet checked against the primary 1975 edition by this pipeline"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-2/06-persian.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: >-
+  Report unit ZO-02; report label attribution_confidence 'verified', normalised to
+  'attested' pending a primary check against the physical Insler 1975 volume. Insler
+  1975 is in-copyright; PD alternative is Mills, SBE 1887. The most contested stanza
+  in the Gathas: Insler renders xᵛafnā 'renowned to be in conflict';
+  Humbach/Bartholomae render it 'dream/dream-vision'. Claim_type metaphysical, NOT
+  empirical (per report and honesty contract). Conditionality 'contested': 21st-c.
+  scholarship reads the dualism as ethical/psychological within a unified creation
+  rather than ontological (two co-eternal substances) — the older view; how ZO-02 is
+  presented depends on this unsettled question. WATCHLIST: Wikiquote versified
+  'Insler' renderings of Y30.2-30.3 do not match his actual prose (report watchlist
+  item 7).

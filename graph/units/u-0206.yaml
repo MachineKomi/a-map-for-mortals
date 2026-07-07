@@ -1,0 +1,37 @@
+id: u-0206
+claim_id: null
+type: Insight
+paraphrase: "Individual identity is constituted by the community: I exist because we exist, and because we exist, therefore I am."
+quotation: "I am because we are, and since we are, therefore I am."
+quotation_translation: null   # English original
+source:
+  author: "John S. Mbiti"
+  work: "African Religions and Philosophy"
+  passage: null   # page not given by the report
+  translator: null
+  edition_year: 1969
+  language: en
+  url: null
+  urn: null
+tradition: "Pan-African scholarship (Kenya)"
+era: 1969
+register: principle
+claim_type: metaphysical
+polarity: descriptive
+conditionality: contested
+life_domains: [identity, community]
+life_stages: [adult]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-2/02-african.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report grade: verified — held at attested per S1 rules (S2 climbs). MISATTRIBUTION WATCHLIST (report §F): often quoted as an ancient African proverb; it is Mbiti's 1969 SCHOLARLY GLOSS of Afro-communitarianism, not a traditional verbatim proverb — any 'traditional proverb' attribution is dubious; verified as Mbiti. Claim_type metaphysical (constitution of identity), never empirical, per the report's explicit instruction. Report describes it as a foundational descriptive-normative statement; descriptive polarity kept with the normative freight noted. Heinemann 1969/1990 in-copyright (report source table). Report contrasts Descartes' 'I think therefore I am'. Feeds the personhood debate: Menkiti's radical (u-0207) and Gyekye's moderate (u-0208) communitarianism both depart from Mbiti's axiom."

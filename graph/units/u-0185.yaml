@@ -1,0 +1,37 @@
+id: u-0185
+claim_id: null
+type: Insight
+paraphrase: "Human nature tends toward disorder; goodness is not innate but must be built through effort, teachers, and ritual."
+quotation: null   # Classical Chinese not held in the report
+quotation_translation: "Since human nature is evil, it must await the instructions of a teacher and the model before it can be put aright."
+source:
+  author: Xunzi
+  work: Xunzi
+  passage: "ch. 23, 'Human Nature is Evil'"
+  translator: Burton Watson
+  edition_year: null
+  language: lzh
+  url: null
+  urn: null
+tradition: Confucian
+era: -250   # report dates Xunzi c. 3rd c. BCE
+register: argument
+claim_type: normative
+polarity: cautionary
+conditionality: contested
+life_domains: [ethics, education, governance]
+life_stages: [youth, adult]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright   # Watson (Columbia) — report marks Xunzi editions in-copyright; no PD anchor named
+prov:
+  source_report: corpus/reports/wave-2/01-eastern.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: verified (downgraded to attested per S1 rules). PRESERVED DISSENT (per report): scholarly minority (Tang Siufu and others) argues 'e' is better rendered 'detestable', or that Xunzi's view is 'human nature is simple/uncarved, not evil'. Ch. 23 opens by naming Mencius and declaring him wrong — direct counter-unit to u-0184 on the nature-good-vs-bad fork (unresolved within Confucianism). Han Fei was Xunzi's student. Knoblock (complete) also in-copyright; no PD translation named by report — do not print verbatim without licence check."

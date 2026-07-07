@@ -1,0 +1,48 @@
+id: u-0290
+claim_id: null
+type: Insight
+paraphrase: "Existence is a riddle no one unravels; do not waste your labour on the surface of stories but look for the truths behind the signs."
+quotation: null   # Persian original not held in the report; capture at primary verification
+quotation_translation: "Life is full of mysteries to ponder; none can unravel this riddle of existence: so don't squander your labors on the surface of the stories; look instead at the truths behind the signs."
+source:
+  author: "Ferdowsi"
+  work: "Shahnameh"
+  passage: null   # report gives no book/page locator; Davis prose-verse rendering — locate at verification
+  translator: "Dick Davis (Penguin)"
+  edition_year: 2006
+  language: fa
+  url: null
+  urn: null
+tradition: Persian
+era: 1000   # composed c. 977-1010 CE
+register: poem
+claim_type: prudential
+polarity: prescriptive
+conditionality: conditional
+life_domains: [meaning, wisdom, adversity]
+life_stages: [adult, midlife, elder]
+endorsement: endorsed
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-2/06-persian.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: >-
+  Report unit FE-01; report label attribution_confidence 'probable', normalised to
+  'attested' pending a primary check. WORDING UNVERIFIED-TO-PAGE (report Lead #3):
+  confirm exact wording and page against Davis 2006 print before any quotation use —
+  report watchlist item 6 warns most circulating 'Shahnameh quotes' online are loose
+  paraphrases. Davis translation is IN-COPYRIGHT — print gate applies; PD
+  alternatives for the Shahnameh generally: Warner & Warner, Helen Zimmern.
+  Endorsement 'endorsed' derived from report speaker_context: Ferdowsi's authorial
+  commentary voice (narrator = poet), delivered after cumulative tragedy; his
+  narratorial moralizing is generally taken as the author's own (Dabashi). Note
+  Ferdowsi was a Muslim preserving a Zoroastrian worldview — not a primary
+  Zoroastrian source (report caveat).

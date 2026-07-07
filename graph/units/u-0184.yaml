@@ -1,0 +1,37 @@
+id: u-0184
+claim_id: null
+type: Insight
+paraphrase: "The spontaneous alarm anyone feels on seeing a child about to fall into a well is offered as evidence that humans have innate sprouts of virtue."
+quotation: null   # Classical Chinese not held in the report (only the romanised term 'duan')
+quotation_translation: "Supposing people see a child fall into a well – they all have a heart-mind that is shocked and sympathetic."
+source:
+  author: Mencius
+  work: Mencius
+  passage: "2A6"
+  translator: "after Legge/Van Norden (report's composite rendering)"
+  edition_year: null
+  language: lzh
+  url: null
+  urn: null
+tradition: Confucian
+era: -350   # report dates Mencius c. 4th c. BCE
+register: parable
+claim_type: observational
+polarity: descriptive
+conditionality: contested
+life_domains: [ethics, moral-psychology, parenting]
+life_stages: [adult]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: unknown   # quoted wording is the report's composite 'after Legge/Van Norden', not established as any PD edition's wording (Legge 1895 PD exists for the underlying text)
+prov:
+  source_report: corpus/reports/wave-2/01-eastern.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: verified (downgraded to attested per S1 rules). RE-DERIVATION: report/extract labelled claim_type empirical and polarity prescriptive; re-derived as observational/descriptive — an armchair generalisation about human moral psychology from a thought experiment, not study-backed empirical evidence and not advice. Scholarly caution kept: 'duan' as 'sprout' vs 'tip' is contested (Van Norden, Warp/Weft/Way), and 2A6 alone underdetermines the cultivationist reading. Four sprouts = ren, yi, li, zhi. Sits on the nature-good-vs-bad fork against Xunzi ch. 23 (preserved dissent). D.C. Lau (Penguin) and Van Norden (Hackett) in-copyright standards."

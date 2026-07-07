@@ -1,0 +1,37 @@
+id: u-0235
+claim_id: null
+type: Practice
+paraphrase: "Yoik, the Sámi song practice, carries oral memory and relationship to beings and place."
+quotation: null            # no verbatim wording held; scholarly attestations by title only
+quotation_translation: null
+source:
+  author: "Sámi (communal practice; via Harald Gaski)"
+  work: "The Reindeer on the Mountain, the Reindeer in the Mind: On Sámi Yoik Lyrics (in Rights to Language, Routledge)"
+  passage: null
+  translator: null
+  edition_year: 2000
+  language: se
+  url: null
+  urn: null
+tradition: Sámi
+era: null
+register: null             # descriptive record of a practice; no rhetorical register held
+claim_type: observational
+polarity: descriptive
+conditionality: universal-ish
+life_domains: [community, nature, legacy]
+life_stages: [child, youth, adult, elder]
+endorsement: n/a
+attribution_confidence: communal
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: unknown
+prov:
+  source_report: corpus/reports/wave-2/03-indigenous.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report confidence: communal. Further attestation: Krister Stoor, Juoiganmuitalusat / Jojkberättelser (PhD, Umeå University, 2007); earliest Sámi-language primary source Johan Turi, Muitalus sámiid birra (1910) — primary-verification lead. Re-derivation difference: extract listed life_domain 'grief'; dropped — the report attests oral memory and relationship to beings and place, not mourning specifically. Report marks Sámi section sources 'mostly in-copyright'; no verbatim wording held, flag stays unknown."

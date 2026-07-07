@@ -1,0 +1,37 @@
+id: u-0253
+claim_id: null
+type: Insight
+paraphrase: "'Woman' is a role constituted by social formation over a lifetime, not a destiny fixed by biology at birth."
+quotation: "On ne naît pas femme: on le devient"
+quotation_translation: "One is not born, but rather becomes, a woman."
+source:
+  author: Simone de Beauvoir
+  work: The Second Sex (Le Deuxième Sexe)
+  passage: "vol. 2 opening"
+  translator: null   # report citation names Borde & Malovany-Chevallier (2010), but the English wording it records matches Parshley (1953) — unresolved, see notes
+  edition_year: 1949
+  language: fr
+  url: null
+  urn: null
+tradition: French existentialism
+era: 1949
+register: principle
+claim_type: observational
+polarity: descriptive
+conditionality: conditional
+life_domains: [gender, identity, freedom]
+life_stages: [child, youth, young-adult, adult]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-2/04-womens-voices.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "RIGHTS-RESTRICTED, QUOTE-MINIMALLY: Beauvoir and both major English translations IN COPYRIGHT per report — only the single famous sentence the report records is held; print gate blocks verbatim regardless. Report confidence: verified (held as attested per S1 rules). Transmission (extract): direct. TRANSLATOR DISCREPANCY in report: its citation names Borde & Malovany-Chevallier (2010, 'One is not born but becomes woman') while its quoted wording is Parshley's (1953) — resolve at S2 primary verification. Re-derivation: claim_type observational (report unit block said 'descriptive', not a valid claim_type; extract said observational) — per SEP, cited by the report, a phenomenological description of social constitution, not essentialism and not tested empirics. Report tensions: autonomy-vs-relation (autonomy pole); Beauvoir's constructed-'woman' sits in tension with essentialist readings of care ethics (cf. u-0258/u-0259). Life_stages derived by minting agent (extract left empty): the 'becoming' spans formation from childhood."

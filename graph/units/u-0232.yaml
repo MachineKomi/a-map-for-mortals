@@ -1,0 +1,37 @@
+id: u-0232
+claim_id: null
+type: Insight
+paraphrase: "Meahcci names relational, productive land lived in through practice; rendering it as 'wilderness' is a mistranslation."
+quotation: null            # report cites the article by title only; no verbatim wording held
+quotation_translation: null
+source:
+  author: "Solveig Joks, Liv Østmo & John Law"
+  work: "Verbing meahcci: Living Sámi lands"
+  passage: "The Sociological Review 68(2): 305–321"
+  translator: null
+  edition_year: 2020
+  language: en
+  url: null
+  urn: null
+tradition: Sámi
+era: 2020
+register: argument
+claim_type: observational
+polarity: descriptive
+conditionality: universal-ish
+life_domains: [nature, work]
+life_stages: [adult, midlife]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: unknown
+prov:
+  source_report: corpus/reports/wave-2/03-indigenous.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report confidence: verified (named authors, journal, volume, pages). Scholarly observation about a Sámi concept — observational, not prudential advice. Translation loss flagged by the report as real: meahcci is attested by the community itself to resist English glossing; the unit's gloss is an approximation. Report marks Sámi section sources 'mostly in-copyright'; article status unverified, flag stays unknown; no verbatim quotation held. Part of the land-as-kin/relational-land cluster where the report holds Krech, The Ecological Indian (1999), attached as counter-evidence against ecological essentialism."

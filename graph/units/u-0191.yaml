@@ -1,0 +1,37 @@
+id: u-0191
+claim_id: null
+type: Insight
+paraphrase: "Hatred is not brought to an end by answering it with hatred; only non-hatred ends it."
+quotation: null   # Pali not held in the report for v.5
+quotation_translation: "Hatred is never appeased by hatred in this world. By non-hatred alone is hatred appeased. This is a law eternal."
+source:
+  author: "Buddha (attributed; via the Dhammapada, Pali canon)"
+  work: Dhammapada
+  passage: "v. 5 (Yamakavagga)"
+  translator: Acharya Buddharakkhita
+  edition_year: 1985
+  language: pli
+  url: null
+  urn: null
+tradition: Buddhist
+era: -250   # report dates the Dhammapada c. 3rd c. BCE
+register: aphorism
+claim_type: prudential
+polarity: prescriptive
+conditionality: universal-ish
+life_domains: [relationships, conflict, ethics]
+life_stages: [youth, adult, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright   # Buddharakkhita, Buddhist Publication Society 1985 — report marks in-copyright; Müller SBE PD variant held in notes
+prov:
+  source_report: corpus/reports/wave-2/01-eastern.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: verified (downgraded to attested per S1 rules). PD alternative wording held by report — Müller (SBE): 'hatred ceases by love.' Held as prudential counsel about how conflict actually de-escalates, despite the verse's 'law eternal' phrasing — not an empirical law and not lent metaphysical authority. Convergence with Shantideva Bodhicaryavatara ch. 6 is intra-Buddhist (shared tradition), NOT independent origination — do not count as cross-tradition robustness. General report caution: fabricated Buddha quotes dominate search results; this verse is a verified genuine anchor per the report, pending primary check."

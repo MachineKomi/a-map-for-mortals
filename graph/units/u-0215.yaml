@@ -1,0 +1,37 @@
+id: u-0215
+claim_id: null
+type: Insight
+paraphrase: "In deliberation, keep in view the welfare of the whole people — not only the present but the coming generations, including the unborn whose faces are yet beneath the ground."
+quotation: null   # oral original (Kaianere'kó:wa) not held; English below is Parker's 1916 rendering
+quotation_translation: "Look and listen for the welfare of the whole people and have always in view not only the present but also the coming generations, even those whose faces are yet beneath the surface of the ground—the unborn of the future Nation."
+source:
+  author: "Haudenosaunee (Great Law of Peace / Kaianere'kó:wa, oral constitution)"
+  work: "The Constitution of the Five Nations (Arthur C. Parker rendering)"
+  passage: null
+  translator: "Arthur C. Parker"
+  edition_year: 1916
+  language: en
+  url: null
+  urn: null
+tradition: Haudenosaunee
+era: 1916
+register: principle
+claim_type: normative
+polarity: prescriptive
+conditionality: universal-ish
+life_domains: [politics, legacy, nature, family]
+life_stages: [adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: communal
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-2/03-indigenous.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: verified (stored communal per S1 rule 1 — oral constitutional tradition of a people, held here in Parker's rendering). MISATTRIBUTION WATCHLIST: the popular slogan 'in every deliberation we must consider the impact on the seventh generation' is NOT in written transcriptions of the Great Law; the only 'seven' passage concerns leaders' skin being 'seven spans' thick. The seventh-generation ethic is authentically rooted in this passage but the slogan is a modern distillation — flag as tradition/paraphrase. Era given is the Parker rendering's date; the oral tradition long predates it. Parker 1916 is public domain (report; hosted by Portland State University). Report recommends cross-checking against Onondaga Nation community sources at S2."

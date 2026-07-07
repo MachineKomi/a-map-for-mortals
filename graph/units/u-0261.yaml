@@ -1,0 +1,37 @@
+id: u-0261
+claim_id: null
+type: Danger
+paraphrase: "A fable's story endures, but its stated moral is often a later editorial addition and deserves less trust than the story."
+quotation: "The translations of the prose Aesopic fables in Perry's Loeb are taken from [Daly's] edition, without the morals... consigned to an appendix."
+quotation_translation: null
+source:
+  author: "Perry Index scholarship (Ben E. Perry)"
+  work: "Aesopica (Univ. of Illinois Press, 1952); quoted wording from Bryn Mawr Classical Review 98.5.16"
+  passage: "BMCR 98.5.16 (review of Temple, The Complete Fables)"
+  translator: null
+  edition_year: 1952
+  language: en
+  url: null
+  urn: null
+tradition: "Greek fable / classical philology"
+era: 1952   # Perry Index; the fables themselves ~6th c. BCE
+register: principle
+claim_type: observational
+polarity: cautionary
+conditionality: conditional
+life_domains: [education, moral-imagination]
+life_stages: [child, youth]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-2/05-childhood-old-age.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: verified. THE AESOP ADDED-MORALS CAVEAT (report Key Finding 2): morals attached to Aesop are frequently later editorial epimythia — per-fable rule: tag STORY and MORAL with SEPARATE attribution_confidence whenever an Aesop fable is minted. L'Estrange (1692) appended morals the Greek lacked (e.g. Perry 190, 'The Wolf and the Raven'); the 'grasshopper' of ant-and-grasshopper is a cicada/cricket in the Greek. Scholarly standard is the Perry Index (~584 core entries). Quoted wording is the reviewer's (BMCR 98.5.16), evidencing Perry/Daly editorial practice — a meta-scholarly unit, not a fable itself. Perry 1952 and BMCR in copyright; L'Estrange 1692 and Croxall PD for fable texts."

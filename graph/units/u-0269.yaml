@@ -1,0 +1,37 @@
+id: u-0269
+claim_id: null
+type: Insight
+paraphrase: "The miseries commonly blamed on old age are really faults of character, not of age."
+quotation: null   # Latin not held in the unit block; Latin text is Gutenberg #14945, capture at S2
+quotation_translation: "all complaints of this kind are chargeable to character, not to age."
+source:
+  author: "Cicero"
+  work: "Cato Maior de Senectute"
+  passage: "§7 (repeated §65: 'these are faults of character, not of age')"
+  translator: "Andrew P. Peabody"
+  edition_year: 1884
+  language: la
+  url: null
+  urn: null
+tradition: Roman philosophy
+era: -44
+register: aphorism
+claim_type: prudential
+polarity: cautionary
+conditionality: conditional
+life_domains: [ageing, character]
+life_stages: [midlife, elder]
+endorsement: endorsed
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-2/05-childhood-old-age.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: verified — report states it verified De Senectute quotes to section number in PD Peabody 1884 against the Latin (Gutenberg #14945); kept attested per S1 rule 1 pending our own primary check. THE CONDITIONALITY KEY of the whole work: old age is tolerable 'only for those with the means within themselves' (report; §7, §65) — a tendency, not a destiny, in its original form. Spoken by Cato the Elder, Cicero's mouthpiece — endorsement 'endorsed' per report's 'strong but literary'. Register: report's 'argument / aphorism' mapped to 'aphorism' (the quoted line is the compressed dictum). Bears on the fighting-decline-vs-befriending-it fork; also in tension with Beauvoir's dissent that the ancients romanticise age and ignore its social marginalisation — preserve, do not prune."

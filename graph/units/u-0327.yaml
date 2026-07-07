@@ -1,0 +1,37 @@
+id: u-0327
+claim_id: null
+type: Dilemma
+paraphrase: "If a ruler cannot be both loved and feared, it is safer to be feared than loved, because love breaks when it no longer serves men's interests while dread of punishment holds."
+quotation: null   # original Italian not held in the report
+quotation_translation: "It is much safer to be feared than loved, if one of the two has to be wanting… love is held by a chain of obligation which, men being selfish, is broken whenever it serves their purpose; but fear preserves you by a dread of punishment which never fails."
+source:
+  author: "Niccolò Machiavelli (The Prince)"
+  work: "The Prince"
+  passage: "Ch. XVII"
+  translator: "W. K. Marriott"
+  edition_year: 1908
+  language: it
+  url: null
+  urn: null
+tradition: "Italian Renaissance"
+era: 1513
+register: argument
+claim_type: prudential
+polarity: cautionary
+conditionality: contested
+life_domains: [leadership, authority, management]
+life_stages: [adult, midlife]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-2/07-practical-strategic.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: verified (Marriott Ch. XVII) — downgraded to attested per S1 rule 1 pending primary check. ESSENTIAL QUALIFICATION (report): Machiavelli immediately adds that the prince must above all avoid being HATED — meme-culture omits the qualification; do not print the fear counsel without it. Cautionary realpolitik, not endorsed. Report flags direct internal tension with Discourses I.58 ('the people are wiser', u-0330) — Machiavelli against himself; preserve, do not collapse. Marriott 1908 PD."

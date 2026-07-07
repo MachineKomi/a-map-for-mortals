@@ -1,0 +1,37 @@
+id: u-0212
+claim_id: null
+type: Insight
+paraphrase: "Wit and cunning can let the small triumph over the mighty — as when the spider Anansi wins the sky-god Nyame's stories through cleverness rather than strength."
+quotation: null   # folktale plot, not a verbatim wording; no original-language text held
+quotation_translation: null
+source:
+  author: "Akan (Twi)"   # communal — attributed to the people/language
+  work: "Anansesem (Akan spider tales)"
+  passage: "the winning of Nyame's stories; cf. the Pot of Wisdom tale"
+  translator: null
+  edition_year: null   # precolonial oral
+  language: tw
+  url: null
+  urn: null
+tradition: "Akan/Ashanti (Ghana); diaspora as Anancy/Aunt Nancy"
+era: null   # precolonial oral
+register: parable
+claim_type: prudential
+polarity: descriptive
+conditionality: conditional
+life_domains: [strategy, survival, knowledge]
+life_stages: [child, youth, adult]
+endorsement: ambiguous
+attribution_confidence: communal
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; no verbatim wording held; tale attested in Akan oral tradition and diaspora"
+  checked_against: null
+  date: null
+copyright_flag: unknown
+prov:
+  source_report: corpus/reports/wave-2/02-african.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report grade: communal — kept per S1 rules (oral tales attributed to a named people/language). No verbatim quotation held — the report's original_quote field is a plot description, not wording; copyright unknown. Endorsement AMBIGUOUS (derived): the report calls Anansi a MORALLY NEUTRAL trickster archetype — the tradition displays cunning's triumphs without straightforwardly endorsing cunning; descriptive polarity and conditional force kept accordingly (prudential observation about what wit can do, not a command to scheme). Companion tale: 'Pot of Wisdom' — wisdom hoarded is lost, wisdom grows when shared (sharing-vs-hoarding fork). Addresses the cunning-vs-force fork. Survives in the diaspora as Anancy/Aunt Nancy."

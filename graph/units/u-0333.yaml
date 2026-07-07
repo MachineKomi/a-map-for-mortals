@@ -1,0 +1,37 @@
+id: u-0333
+claim_id: null
+type: Practice
+paraphrase: "Whatever the physician sees or hears in the course of practice that ought not be spoken of abroad must be kept secret."
+quotation: null   # original Greek not held in the report
+quotation_translation: "Whatever, in connection with my professional practice… I see or hear, in the life of men, which ought not to be spoken of abroad, I will not divulge, as reckoning that all such should be kept secret."
+source:
+  author: "Hippocratic corpus"
+  work: "The Oath"
+  passage: null   # the Oath is a short single text; no finer locator given
+  translator: "Francis Adams"
+  edition_year: 1849
+  language: grc
+  url: null
+  urn: null
+tradition: "Greek medicine"
+era: -400   # c. 400 BCE
+register: principle
+claim_type: normative
+polarity: prescriptive
+conditionality: universal-ish
+life_domains: [professional-ethics, trust, confidentiality]
+life_stages: [young-adult, adult]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-2/07-practical-strategic.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: verified (Adams 1849 PD) — downgraded to attested per S1 rule 1 pending primary check. Report's contrast preserved: Gracián's 'cypher' secrecy (u-0321) is self-protective/strategic, Hippocratic secrecy is other-protective/fiduciary — same practice, opposite moral logic; a contradiction-to-test on secrecy's moral valence, not a convergence. Report's ellipsis preserved as held."

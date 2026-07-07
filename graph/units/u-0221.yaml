@@ -1,0 +1,37 @@
+id: u-0221
+claim_id: null
+type: Insight
+paraphrase: "Humans empower themselves through responsible thought, speech, and behaviour — and can likewise destroy themselves through irresponsibility."
+quotation: null   # report holds only embedded fragments, recorded verbatim in notes (S1 rule 4)
+quotation_translation: null
+source:
+  author: "Michelle Kahn-John (Diné) & Mary Koithan"
+  work: "Living in Health, Harmony, and Beauty: The Diné (Navajo) Hózhó Wellness Philosophy, Global Advances in Health and Medicine 4(3)"
+  passage: null
+  translator: null
+  edition_year: 2015
+  language: en
+  url: null
+  urn: null
+tradition: Diné (Navajo)
+era: 2015
+register: null   # academic prose articulating a traditional teaching
+claim_type: prudential
+polarity: prescriptive
+conditionality: conditional
+life_domains: [self, work, adversity]
+life_stages: [young-adult, adult, midlife]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-2/03-indigenous.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: verified (stored attested per S1 rule 1; peer-reviewed source). In-copyright (report Stage 4: quote minimally). Report holds only embedded fragments, no full sentence: Hózhó holds that humans are 'self-empowered through responsible thought, speech, and behavior' and can also 'self-destruct' through irresponsibility — quotation fields therefore null, fragments preserved here exactly. Re-derivation note: prudential kept; polarity set prescriptive (counsel toward responsibility) with the self-destruction clause as its cautionary shadow; conditionality conditional (outcome hinges on responsibility)."

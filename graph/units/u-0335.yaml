@@ -1,0 +1,37 @@
+id: u-0335
+claim_id: null
+type: Insight
+paraphrase: "Galen's reputation fused physician and philosopher: the emperor Marcus Aurelius reportedly — on Galen's own telling — praised him as first among physicians and unique among philosophers."
+quotation: "Primum sane medicorum esse, philosophorum autem solum."   # Latin as transmitted in the Kühn edition; Galen's Greek original not held
+quotation_translation: "First among physicians and unique among philosophers."
+source:
+  author: "Marcus Aurelius (attributed; self-reported by Galen)"
+  work: "Galen, Kühn edition"
+  passage: "vol. XIV, p. 658"
+  translator: null
+  edition_year: null   # Kühn edition year not given in report
+  language: la
+  url: null
+  urn: null
+tradition: "Greco-Roman medicine"
+era: 150   # c. 2nd c. CE
+register: aphorism
+claim_type: observational
+polarity: descriptive
+conditionality: contested
+life_domains: [professional-ethics, reputation, expertise]
+life_stages: [adult, midlife]
+endorsement: n/a
+attribution_confidence: dubious
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: unknown
+prov:
+  source_report: corpus/reports/wave-2/07-practical-strategic.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: dubious — KEPT (S1 rule 1 exception: report's own dubious stands). The epithet is self-reported by Galen (Kühn XIV:658), not independently attested — useful as reputational context for the physician-philosopher ideal (u-0334), not as fact. On the report's watchlist for exactly this reason. Copyright unknown: the Kühn edition's date/PD status is not established by the report (early-19th-c. edition likely PD — confirm at verification)."

@@ -1,0 +1,37 @@
+id: u-0227
+claim_id: null
+type: Insight
+paraphrase: "For Whanganui iwi the river is an ancestor and an indivisible living whole, to be approached as such rather than owned and managed."
+quotation: "we consider the river an ancestor and always have… treating the river as a living entity is the correct way to approach it, as an indivisible whole, instead of… ownership and management."
+quotation_translation: null
+source:
+  author: "Gerrard Albert (Whanganui iwi lead negotiator)"
+  work: null            # report does not name the publication carrying the quote
+  passage: null
+  translator: null
+  edition_year: null
+  language: en
+  url: null
+  urn: null
+tradition: "Māori (Whanganui iwi)"
+era: 2017
+register: principle
+claim_type: metaphysical
+polarity: prescriptive
+conditionality: conditional
+life_domains: [nature, family, legacy]
+life_stages: [adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: unknown
+prov:
+  source_report: corpus/reports/wave-2/03-indigenous.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "CONSENT GATE: do not publish before a community-source consent audit (see ops/DECISIONS.md 2026-07-08). Report confidence: verified. Statutory context, cited precisely: Te Awa Tupua (Whanganui River Claims Settlement) Act 2017, s14(1): 'Te Awa Tupua is a legal person and has all the rights, powers, duties, and liabilities of a legal person' (that legal fact is minted separately as the maori-te-awa-tupua unit). Related pepeha: 'Ko au te awa, ko te awa ko au' (I am the river and the river is me). Metaphysical claim of a living community — never empirical; the prescriptive edge ('the correct way to approach it') is retained. Counter-evidence held per report §E on the land-as-kin cluster: Krech, The Ecological Indian (Norton, 1999) — specific peoples altered and sometimes over-exploited environments; tendencies, not destinies. Report quote contains ellipses as received — fragmentary wording, do not complete."

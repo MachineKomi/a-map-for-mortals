@@ -1,0 +1,37 @@
+id: u-0193
+claim_id: null
+type: Insight
+paraphrase: "Suffering exists, arises from craving, and can cease; a path of practice leads to its cessation — each truth carrying a task: understand, abandon, realise, develop."
+quotation: null   # Pali not held in the report
+quotation_translation: "Suffering is to be fully understood; its origin, craving, to be abandoned; its cessation to be realized; the path to be developed."
+source:
+  author: "Buddha (attributed; via the Pali canon)"
+  work: "Dhammacakkappavattana Sutta, Samyutta Nikaya"
+  passage: "SN 56.11"
+  translator: Bhikkhu Bodhi
+  edition_year: null
+  language: pli
+  url: null
+  urn: null
+tradition: Buddhist
+era: -450   # report dates the teaching c. 5th c. BCE
+register: argument
+claim_type: metaphysical
+polarity: prescriptive
+conditionality: conditional
+life_domains: [inner-life, suffering, ethics]
+life_stages: [young-adult, adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright   # Bhikkhu Bodhi (Wisdom Publications) — in-copyright; Sujato/SuttaCentral CC0 named by report as a freely-licensable alternative to pursue
+prov:
+  source_report: corpus/reports/wave-2/01-eastern.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: verified (downgraded to attested per S1 rules). RE-DERIVATION: extract labelled claim_type normative; re-derived as metaphysical, following the report's own note ('Cessation/nibbana claims are metaphysical/normative, not empirical') and Details ('Metaphysical/normative framing') — the claim that suffering can fully cease (nibbana) is the soteriological hinge and must not be lent prudential/empirical authority; the composite also carries observational (suffering exists, arises from craving) and normative (path to be developed) components, hence polarity prescriptive. Claim-type leakage is this report's named subtlest danger — hold the line. Anchors the desire-vs-non-attachment fork."

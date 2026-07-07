@@ -1,0 +1,37 @@
+id: u-0199
+claim_id: null
+type: Virtue
+paraphrase: "No vice is as destructive as hatred and no fortitude equals patience; since aggressors are themselves driven by conditions, anger at them is irrational, so patience should be deliberately cultivated."
+quotation: null   # Sanskrit original not held in report
+quotation_translation: "There is no evil like hatred, and no fortitude like patience. Thus I should strive in various ways to meditate on patience."
+source:
+  author: Shantideva
+  work: Bodhicaryavatara
+  passage: "6.2 (with 6.1 and the determinism argument at 6.22-30)"
+  translator: Kate Crosby & Andrew Skilton
+  edition_year: 1995
+  language: sa
+  url: null
+  urn: null
+tradition: Buddhist (Mahayana)
+era: 750   # 8th c. CE per report
+register: argument
+claim_type: prudential
+polarity: prescriptive
+conditionality: conditional
+life_domains: [inner-life, relationships, conflict]
+life_stages: [young-adult, adult, midlife]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright   # Crosby & Skilton (Oxford 1995), per report; PD alternative not identified
+prov:
+  source_report: corpus/reports/wave-2/01-eastern.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: verified. Prudential as anger-management counsel; NOTE the merit framing (6.1: one flash of anger destroys merit gathered over a thousand aeons) rests on karmic bookkeeping, which is metaphysical — the prudential tag covers the patience counsel, not the karma claim. FOR MERGE (edge candidate, CONVERGES_WITH Stoic material): determinism argument vv.22-30 (aggressors driven by conditions, so anger is as irrational as anger at a stick) converges with Stoic/CBT reframing of anger, per report Stage 3 — record as convergence_candidate edge, threshold: independent origination + no transmission + matching mechanism. SEP (Goodman) notes interpretive dispute over Shantideva's exact form of determinism."

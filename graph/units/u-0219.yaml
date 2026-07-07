@@ -1,0 +1,37 @@
+id: u-0219
+claim_id: null
+type: Insight
+paraphrase: "The layered meaning of Mitákuye Oyás'iŋ resists English translation and must not be misappropriated."
+quotation: null   # report holds no verbatim wording — White Hat's caution is reported indirectly
+quotation_translation: null
+source:
+  author: "Albert White Hat (Sicangu Lakota elder)"
+  work: "via the Tapestry Institute"
+  passage: null
+  translator: null
+  edition_year: null
+  language: en
+  url: null
+  urn: null
+tradition: Lakota
+era: null
+register: null   # indirect report of spoken/written counsel
+claim_type: prudential
+polarity: cautionary
+conditionality: conditional
+life_domains: [community, self]
+life_stages: [adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: unknown
+prov:
+  source_report: corpus/reports/wave-2/03-indigenous.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "CONSENT GATE: do not publish before a community-source consent audit (see ops/DECISIONS.md 2026-07-08). Report label: probable (stored attested per S1 rule 1). No verbatim wording held — the caution is reported indirectly via the Tapestry Institute. Re-derivation note: kept the report's prudential claim_type; the translation-resistance component is observational and the anti-misappropriation component normative, but the unit functions as caution, so prudential/cautionary retained. Companion to u-0218."

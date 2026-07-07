@@ -1,0 +1,37 @@
+id: u-0294
+claim_id: null
+type: Insight
+paraphrase: "Speech is held to be the first manifestation of existence; without speech the world has no voice, and eloquent language grounds moral guidance."
+quotation: null            # Persian original not held in the report
+quotation_translation: "The first manifestation of existence was speech.... Without speech the world has no voice."
+source:
+  author: Nizami Ganjavi
+  work: "Makhzan al-Asrar (Treasury of Mysteries)"
+  passage: "introduction"
+  translator: null         # English wording cited in scholarship; translator unidentified in report
+  edition_year: null
+  language: fa
+  url: null
+  urn: null
+tradition: Persian
+era: 1175
+register: argument
+claim_type: metaphysical
+polarity: descriptive
+conditionality: contested
+life_domains: [language, wisdom, art]
+life_stages: [young-adult, adult]
+endorsement: endorsed
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: unknown
+prov:
+  source_report: corpus/reports/wave-2/06-persian.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: probable. Authorial voice — Nizami (honorific 'Hakim', Wise Man) speaking in his own introduction, likening his poetry to a source of moral guidance; endorsement: endorsed. Metaphysical claim about language and existence — not empirical. Report instructs: confirm translator/edition for the English wording; ellipsis in the quotation is the report's own. Copyright unknown until the English translator is identified."

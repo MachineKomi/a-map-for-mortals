@@ -1,0 +1,37 @@
+id: u-0187
+claim_id: null
+type: Insight
+paraphrase: "A journey of a thousand li begins beneath one's feet: great undertakings start from the first small step."
+quotation: "qiān lǐ zhī xíng, shǐ yú zú xià"   # romanised (pinyin) Classical Chinese of this line, exactly as held by the report; characters not held
+quotation_translation: "The journey of a thousand li commenced with a single step."
+source:
+  author: "Laozi (traditional attribution)"
+  work: Daodejing
+  passage: "64"
+  translator: James Legge
+  edition_year: 1891
+  language: lzh
+  url: null
+  urn: null
+tradition: Daoist
+era: -300   # report dates the Daodejing c. 4th-3rd c. BCE
+register: aphorism
+claim_type: prudential
+polarity: prescriptive
+conditionality: universal-ish
+life_domains: [work, goals, habit]
+life_stages: [youth, young-adult, adult]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain   # Legge 1891 — report establishes PD
+prov:
+  source_report: corpus/reports/wave-2/01-eastern.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: verified (downgraded to attested per S1 rules). MISATTRIBUTION WATCHLIST: genuine Daodejing ch. 64 (Laozi) but frequently misattributed to Confucius — the attribution, not the text, is the fake. Literal rendering: 'begins beneath one's feet'; 'with a single step' is a legitimate idiomatic rendering. One li is roughly 0.31 mi, so 'thousand miles' is idiomatic, not literal. Same chapter also warns against spoiling things on the verge of success (effort-vs-acceptance fork)."

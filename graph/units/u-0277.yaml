@@ -1,0 +1,37 @@
+id: u-0277
+claim_id: null
+type: Insight
+paraphrase: "One hospice carer reports that the dying most often regret living inauthentically, overworking, leaving feelings unexpressed, losing friendships, and denying themselves happiness — one carer's recollection, not research."
+quotation: "I wish I'd had the courage to live a life true to myself, not the life others expected of me."
+quotation_translation: null   # English original; no translation applicable
+source:
+  author: "Bronnie Ware"
+  work: "The Top Five Regrets of the Dying"
+  passage: null
+  translator: null
+  edition_year: 2011
+  language: en
+  url: null
+  urn: null
+tradition: Palliative care memoir
+era: 2011   # blog 'Regrets of the Dying' 2009; book (Hay House) 2011
+register: aphorism
+claim_type: observational
+polarity: cautionary
+conditionality: contested
+life_domains: [meaning, work, relationships, authenticity]
+life_stages: [adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-2/05-childhood-old-age.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report claim_type label, verbatim: 'observational (ANECDOTAL — not a study)' — LABEL CLEARLY (report Watchlist item 3): one palliative carer's recollection, widely cited as if research; it is not. Peer-reviewed literature treats it as such: Davidai & Gilovich, 'The ideal road not taken', Emotion 18(3):439–452 (2018), write 'Although anecdotal, her observations are in line with our hypothesis.' Value is heuristic, not evidential — never dress as empirical law. Report attribution label: 'dubious (as evidence) / communal (as folk wisdom)' — re-derived to attested: the quoted wording's attribution to Ware's book is solid; the report's 'dubious' attaches to its evidential standing, not to the attribution, and is fully carried in this note and in conditionality: contested. Origin: blog post 'Regrets of the Dying' (2009, ~8M readers by 2012); memoir 2011, translated into 27 languages. IN-COPYRIGHT (Hay House, per report) — quote briefly. Converges with Byock (u-0276) and Gawande (u-0278) — robustness signal, not proof. Feeds living-for-time-left-vs-as-if-whole."

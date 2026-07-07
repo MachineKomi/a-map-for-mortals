@@ -1,0 +1,37 @@
+id: u-0307
+claim_id: null
+type: Practice
+paraphrase: "Accurate knowledge of both yourself and your adversary is the precondition of reliable success in conflict."
+quotation: null   # Classical Chinese original not held in report
+quotation_translation: "If you know the enemy and know yourself, you need not fear the result of a hundred battles."
+source:
+  author: Sun Tzu
+  work: The Art of War
+  passage: "Ch. III, §18"
+  translator: Lionel Giles
+  edition_year: 1910
+  language: lzh   # Classical Chinese
+  url: null
+  urn: null
+tradition: Chinese military
+era: -500   # c. 5th c. BCE per report
+register: aphorism
+claim_type: prudential
+polarity: prescriptive
+conditionality: universal-ish
+life_domains: [conflict, career, self-knowledge, competition]
+life_stages: [youth, young-adult, adult]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-2/07-practical-strategic.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: verified (Giles Ch. III §18). Per report, one of the few near-universal (not merely conditional) claims in the strategic corpus — hence universal-ish. Giles 1910 PD."

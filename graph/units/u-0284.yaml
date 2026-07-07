@@ -1,0 +1,46 @@
+id: u-0284
+claim_id: null
+type: Insight
+paraphrase: "The divine is apprehended through the mind — as the father of good thinking, the creator of truth, and the lord of existence."
+quotation: null   # Old Avestan text not held in the report; capture at primary verification
+quotation_translation: "…I realized Thee to be (ever) young in mind …the Father of good thinking, the real Creator of truth, … the Lord of existence in Thy actions."
+source:
+  author: "Zarathustra"
+  work: "Gathas"
+  passage: "Yasna 31.8"
+  translator: "Stanley Insler (The Gāthās of Zarathustra, Acta Iranica 8, Brill)"
+  edition_year: 1975
+  language: ae
+  url: null
+  urn: null
+tradition: Zoroastrian
+era: -1100   # c. 1200-1000 BCE (oral composition); Sasanian codification
+register: poem
+claim_type: metaphysical
+polarity: descriptive
+conditionality: contested
+life_domains: [spirituality, cosmology]
+life_stages: [adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; only a FRAGMENTARY Insler wording could be verified online (ellipses genuine); not yet checked against the primary 1975 edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-2/06-persian.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: >-
+  Report unit ZO-05; report label attribution_confidence 'probable', normalised to
+  'attested' pending a primary check. WORDING IS FRAGMENTARY: the ellipses in the
+  quotation are genuine — the verse number (Y31.8) is secure but only a partial
+  Insler wording could be verified online; report FLAG: use the fuller Insler text
+  only after checking the physical 1975 volume (Lead #2). The report notes this was
+  a subagent-sourced item. Core concept — Mazda as father of Vohu Manah (Good
+  Thinking) and creator of Aša — is stable across Jafarey, Kanga, and Irani
+  renderings. Insler 1975 is in-copyright; PD alternative is Mills, SBE 1887.
+  Claim_type metaphysical (theological claim), never empirical.

@@ -1,0 +1,37 @@
+id: u-0214
+claim_id: null
+type: Virtue
+paraphrase: "My humanity is inseparably bound up in yours; therefore forgiveness rather than revenge is what restores the shared community on which both parties depend."
+quotation: "My humanity is caught up, is inextricably bound up, in yours."
+quotation_translation: null   # English original
+source:
+  author: "Desmond Tutu"
+  work: "No Future Without Forgiveness"
+  passage: "p. 31"
+  translator: null
+  edition_year: 1999
+  language: en
+  url: null
+  urn: null
+tradition: "South Africa, Christian-Ubuntu theology"
+era: 1999
+register: principle
+claim_type: normative
+polarity: prescriptive
+conditionality: conditional
+life_domains: [ethics, justice, reconciliation]
+life_stages: [adult, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-2/02-african.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report grade: verified — held at attested per S1 rules (S2 climbs). Tutu's THEOLOGICAL (normative) reading of ubuntu — claim_type normative, NEVER empirical, per the report's explicit instruction on Ubuntu claims; distinct from the communal Nguni maxim itself (u-0205) and from the academic personhood debate (u-0207/u-0208). Grounded the Truth and Reconciliation Commission's restorative-justice premise — addresses the retribution-vs-restoration fork. Convergence candidate (flag for merge, do not re-extract): the prior Golden Rule / one-body cluster (Hillel, Sermon on the Mount, Saadi). Dissent preserved elsewhere in the cluster: Mboti's claim that a broken relationship can be as authentically human as a harmonious one. In-copyright (Doubleday 1999) — print gate applies."

@@ -1,0 +1,37 @@
+id: u-0310
+claim_id: null
+type: Virtue
+paraphrase: "The warrior's path is defined by the resolute acceptance of one's own death."
+quotation: null   # Japanese original not held in report
+quotation_translation: "The Way of the warrior is resolute acceptance of death."
+source:
+  author: Miyamoto Musashi
+  work: The Book of Five Rings (Go Rin no Sho)
+  passage: "The Ground (Earth) Book"
+  translator: Victor Harris
+  edition_year: 1974
+  language: ja
+  url: null
+  urn: null
+tradition: Japanese (bushido / Zen)
+era: 1644   # written 1643-45 per report
+register: principle
+claim_type: metaphysical
+polarity: prescriptive
+conditionality: contested
+life_domains: [mortality, courage, self-cultivation]
+life_stages: [adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-2/07-practical-strategic.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: probable. Harris 1974 translation IN COPYRIGHT — short fragment held; paraphrase posture for the book per report. claim_type metaphysical concurs with report: a definitional claim about the nature of the Way within the bushido/Zen framework, not empirical and not mere prudential advice. Cross-reference Dokkodo (separate late Musashi text) for the ascetic version."

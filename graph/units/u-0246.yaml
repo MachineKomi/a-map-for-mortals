@@ -1,0 +1,37 @@
+id: u-0246
+claim_id: null
+type: Insight
+paraphrase: "A divine greening life-force (viriditas) animates creation, and it is not given over to human domination; spiritual dryness (ariditas) is its opposite."
+quotation: "Viridem agrum in potestate mea habui"   # Latin held for the first sentence only
+quotation_translation: "I had a green field in my power. Did I give it to you, O human, so that you would make it put forth whatever fruit you wished?"
+source:
+  author: Hildegard of Bingen
+  work: "Scivias"
+  passage: "II.5.46"
+  translator: "Columba Hart & Jane Bishop"
+  edition_year: 1990
+  language: la
+  url: null
+  urn: null
+tradition: Christian mysticism
+era: 1150   # Scivias, mid-12th c.; Hildegard 1098-1179
+register: metaphor
+claim_type: metaphysical
+polarity: cautionary
+conditionality: conditional
+life_domains: [nature, spirituality, stewardship]
+life_stages: []
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-2/04-womens-voices.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report confidence: verified (held at attested pending primary check). TRANSMISSION: direct (Benedictine abbess, composer, visionary; her own visionary text). Within Scivias the line is voiced by God in Hildegard's vision, asking whether the green field was given to humans to exploit at will — an early ecological-theological caution against human domination of creation. Central concept viriditas (greenness, the divine greening life-force) contrasted with ariditas (dryness). COPYRIGHT: Hart & Bishop translation (Paulist 1990) in-copyright — English snippet held pending rights review; the Latin first sentence is held from the report. WATCHLIST: 'viriditas' pop-quotes — modern literary uses (e.g. Kim Stanley Robinson's 'holy greening power') often masquerade as Hildegard's own words. Cultivates (per report): humility, reverence; guards against domination, exploitation-of-nature. life_stages left empty per report."

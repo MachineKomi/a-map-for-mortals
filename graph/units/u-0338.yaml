@@ -1,0 +1,37 @@
+id: u-0338
+claim_id: null
+type: Practice
+paraphrase: "Great things are accomplished by attending to the small and beginning where you stand."
+quotation: null   # Chinese original not held in report
+quotation_translation: "A tree that fills the arms grows from a tiny sprout; a nine-story tower rises from a heap of earth; a journey of a thousand miles begins beneath one's feet."
+source:
+  author: "Laozi (attrib.)"
+  work: Tao Te Ching
+  passage: "ch. 64"
+  translator: null   # report pins no specific translation ("multiple public-domain translations", e.g. Legge 1891)
+  edition_year: null
+  language: zh
+  url: null
+  urn: null
+tradition: Chinese/Taoism
+era: -450   # ~4th-6th c. BCE per report
+register: aphorism
+claim_type: prudential
+polarity: prescriptive
+conditionality: universal-ish
+life_domains: [work, self-cultivation, goals]
+life_stages: [youth, young-adult, adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: unknown   # English rendering not pinned to an edition; PD translations exist (e.g. Legge 1891) — pin before print
+prov:
+  source_report: corpus/reports/wave-2/08-folk-proverbial.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: verified — held at attested per S1 rules (attribution to Laozi is itself traditional, hence '(attrib.)'). MISATTRIBUTION WATCHLIST: 'a journey of a thousand miles begins with a single step' is routinely misattributed to Confucius; correct source Laozi, Tao Te Ching ch. 64 (report grades the Confucius attribution dubious). Translation caveat: quoted English wording is not pinned to a named translator — must be pinned to a PD edition before any print use. Care/gradualism pole of forks haste-vs-care and ambition-vs-patience (report reconciliation for haste-vs-care: time-pressure and reversibility determine which pole applies); ch. 64 also warns 'he who acts defeats his own purpose'. Report notes the metaphysical frame differs from the Panchatantra's (same gradualism counsel, opposite emotional register); Tao-vs-Greek gradualism (Tortoise & Hare) graded plausibly-independent — distinct images, no documented contact — preserve for edge pass. Life_stages: report 'all', rendered as five (child excluded: counsel presumes self-directed undertakings). Cultivates patience/persistence; guards against overwhelm, procrastination, impatience."

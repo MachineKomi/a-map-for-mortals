@@ -1,0 +1,37 @@
+id: u-0331
+claim_id: null
+type: Virtue
+paraphrase: "The physician's duty is to act, according to ability and judgement, for the benefit of the patient and to abstain from whatever is harmful."
+quotation: null   # original Greek not held in the report
+quotation_translation: "I will follow that system of regimen which, according to my ability and judgment, I consider for the benefit of my patients, and abstain from whatever is deleterious and mischievous."
+source:
+  author: "Hippocratic corpus"
+  work: "The Oath"
+  passage: null   # the Oath is a short single text; no finer locator given
+  translator: "Francis Adams"
+  edition_year: 1849
+  language: grc
+  url: null
+  urn: null
+tradition: "Greek medicine"
+era: -400   # c. 400 BCE
+register: principle
+claim_type: normative
+polarity: prescriptive
+conditionality: universal-ish
+life_domains: [professional-ethics, medicine, duty, care]
+life_stages: [young-adult, adult]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-2/07-practical-strategic.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: verified (Adams 1849, PD) — downgraded to attested per S1 rule 1 pending primary check. The normative anchor of the professional-ethics counter-pole to the strategist stream: where the strategists prize advantage, the Oath binds competence to the patient's benefit and to restraint from harm — genuinely normative (professional duty), not prudential. Authorship of the Oath is corpus-level, not Hippocrates personally — hence 'Hippocratic corpus' in the author field."

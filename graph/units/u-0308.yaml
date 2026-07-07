@@ -1,0 +1,37 @@
+id: u-0308
+claim_id: null
+type: Consequence
+paraphrase: "Protracted conflict tends to exhaust and harm even the eventual victor; no state is said to have benefited from prolonged warfare."
+quotation: null   # Classical Chinese original not held in report
+quotation_translation: "There is no instance of a country having benefited from prolonged warfare."
+source:
+  author: Sun Tzu
+  work: The Art of War
+  passage: "Ch. II (Waging War), §7"
+  translator: Lionel Giles
+  edition_year: 1910
+  language: lzh   # Classical Chinese
+  url: null
+  urn: null
+tradition: Chinese military
+era: -500   # c. 5th c. BCE per report
+register: principle
+claim_type: observational
+polarity: cautionary
+conditionality: conditional
+life_domains: [conflict, economics, statecraft]
+life_stages: [adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-2/07-practical-strategic.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: verified (Giles Ch. II §7). RE-DERIVATION: report tags claim_type empirical; re-derived to observational — an ancient generalisation from historical observation ('no instance'), not a systematically evidenced empirical finding; treating it as empirical would overstate its evidential grade. Tempers the deception/aggression units — Sun Tzu prizes speed and conservation, not war for its own sake. Giles 1910 PD."

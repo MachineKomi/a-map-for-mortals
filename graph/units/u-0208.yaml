@@ -1,0 +1,37 @@
+id: u-0208
+claim_id: null
+type: Insight
+paraphrase: "The community only partly constitutes the person: individuals have innate rational capacities the community merely discovers and nurtures, and they retain intrinsic worth and rights against communal claims."
+quotation: "the communal definition or constitution can only be partial"
+quotation_translation: null   # English original
+source:
+  author: "Kwame Gyekye"
+  work: "Tradition and Modernity"
+  passage: "p. 53"
+  translator: null
+  edition_year: 1997
+  language: en
+  url: null
+  urn: null
+tradition: "Academic African philosophy (Ghana/Akan)"
+era: 1997
+register: argument
+claim_type: normative
+polarity: prescriptive
+conditionality: contested
+life_domains: [ethics, identity, politics]
+life_stages: [adult]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording confirmed by the report only via a peer-reviewed journal block-quote, not yet checked against the OUP print edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-2/02-african.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report grade: probable — held at attested per S1 rules; original label recorded. PRINT-VERIFICATION CAVEAT (report is explicit): the p. 53 wording was confirmed only via a peer-reviewed journal block-quote — verify against the OUP print copy (Tradition and Modernity, ch. 2, esp. pp. 35–70) before any publication use. Moderate communitarianism: directly rebuts Menkiti's radical view (u-0207) — the other pole of the contested individual-vs-community fork; Wiredu's consensus model is a third position; report rec. 1 flags the fork for merge with the Western engagement-vs-withdrawal fork. In-copyright (Oxford UP 1997) — print gate applies."

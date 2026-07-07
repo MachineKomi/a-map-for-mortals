@@ -1,0 +1,37 @@
+id: u-0217
+claim_id: null
+type: Practice
+paraphrase: "Two vessels travel one river in parallel: neither party imposes laws on, interferes in the internal affairs of, or tries to steer the vessel of, the other."
+quotation: null   # oral original (Haudenosaunee languages) not held; English below is the community texts' rendering
+quotation_translation: "Neither of us will make compulsory laws or interfere in the internal affairs of the other. Neither of us will try to steer the other's vessel."
+source:
+  author: "Haudenosaunee"
+  work: "Two Row Wampum (Guswenta / Kaswentha) — Onondaga Nation and Oneida Indian Nation community texts"
+  passage: null
+  translator: null
+  edition_year: null
+  language: en
+  url: null
+  urn: null
+tradition: Haudenosaunee
+era: 1613
+register: principle
+claim_type: normative
+polarity: prescriptive
+conditionality: conditional
+life_domains: [politics, justice, friendship]
+life_stages: [adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: communal
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: unknown
+prov:
+  source_report: corpus/reports/wave-2/03-indigenous.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "CONSENT GATE: do not publish before a community-source consent audit (see ops/DECISIONS.md 2026-07-08). Report label: communal. Oral-vs-written tension kept distinct per report: the oral tradition and the belt's meaning (c.1613) are well attested and revered, but historians dispute the authenticity of later WRITTEN versions (the Tawagonshi document). This unit records the oral tradition as carried in named community texts, NOT the disputed written artifact. Oren Lyons's gloss also in report: 'Even though you and I are in different boats, you in your boat and we in our canoe, we share the same River of Life — what befalls me, befalls you.' Conditionality conditional: a covenant between two polities, not a universal maxim."

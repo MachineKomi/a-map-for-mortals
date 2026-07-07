@@ -1,0 +1,37 @@
+id: u-0240
+claim_id: null
+type: Insight
+paraphrase: "Intense erotic desire is experienced in the body — lost speech, fire under the skin — not as mere sentiment."
+quotation: null   # Greek text not held by the report
+quotation_translation: "no speaking is left in me // no: tongue breaks and thin fire / is racing under skin"
+source:
+  author: Sappho
+  work: "fragment 31 ('He seems to me equal to gods')"
+  passage: "fr. 31, preserved in Longinus, On the Sublime"
+  translator: Anne Carson
+  edition_year: 2002
+  language: grc
+  url: null
+  urn: null
+tradition: Archaic Greek
+era: -600   # Sappho c. 630-570 BCE per report
+register: poem
+claim_type: observational
+polarity: descriptive
+conditionality: conditional
+life_domains: [love, embodiment]
+life_stages: [youth, young-adult, adult]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-2/04-womens-voices.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report confidence: verified (held at attested pending primary check). TRANSMISSION (male-transmitted): fr. 31 survives ONLY because the male critic Longinus quoted it in On the Sublime; only one complete Sappho poem survives at all (fr. 1, via Dionysius of Halicarnassus). COPYRIGHT: Carson, If Not, Winter (Knopf 2002) is in-copyright — snippet held under the report's <=25-word fair-use posture pending rights review; report lead: secure Wharton (1885) PD translation so the unit can carry an unencumbered quote. Re-derivation differs from report: conditionality set conditional (report: universal-ish) — the generalisation from one first-person lyric episode to how intense desire registers as such is interpretive. Report fork: autonomy-vs-relation."

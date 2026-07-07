@@ -1,0 +1,37 @@
+id: u-0207
+claim_id: null
+type: Dilemma
+paraphrase: "Personhood is not given at birth but attained: one becomes a person in proportion as one discharges the obligations of communal life, moving from the it-status of early childhood to the person-status of later years — duties primary, rights secondary."
+quotation: "personhood is the sort of thing which has to be attained, and is attained in direct proportion as one participates in communal life through the discharge of the various obligations defined by one's stations… transforms one from the it-status of early childhood, marked by an absence of moral function, into the person-status of later years."
+quotation_translation: null   # English original
+source:
+  author: "Ifeanyi A. Menkiti"
+  work: "Person and Community in African Traditional Thought"
+  passage: "p. 176; in R.A. Wright (ed.), African Philosophy: An Introduction, Univ. Press of America"
+  translator: null
+  edition_year: 1984
+  language: en
+  url: null
+  urn: null
+tradition: "Academic African philosophy (Nigeria/Igbo)"
+era: 1984
+register: argument
+claim_type: normative
+polarity: prescriptive
+conditionality: contested
+life_domains: [ethics, identity, community]
+life_stages: [child, youth, adult, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; report states the p.176 passage is 'verified verbatim' but this is not yet independently checked against the primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-2/02-african.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report grade: verified ('verified verbatim at p. 176') — held at attested per S1 rules until independently checked (S2 climbs). Quotation is the fuller wording from the report's Details section (its unit block gives an elliptical compression of the same passage). Radical/processual communitarianism: personhood attained through communal obligation; duties primary, rights secondary. Companion passage p. 171: 'the reality of the communal world takes precedence over the reality of individual life histories.' One pole of the contested individual-vs-community fork — preserve dissent: directly rebutted by Gyekye's moderate communitarianism (u-0208); Wiredu's consensus variant is a third position; report rec. 1 says ingest as a CONTESTED node and flag for merge with the Western engagement-vs-withdrawal fork (do not re-derive). In-copyright (Univ. Press of America 1984) — print gate applies."

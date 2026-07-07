@@ -1,0 +1,37 @@
+id: u-0329
+claim_id: null
+type: Insight
+paraphrase: "Civic conflict between classes, far from ruining a republic, can be the very source of its liberty — Machiavelli holds that the tumults between Rome's nobles and plebs produced the laws that kept Rome free."
+quotation: null   # original Italian not held in the report
+quotation_translation: "…all the laws that are made in favor of liberty result from their disunion [of the plebs and the senate]… those who condemn the tumults between the nobles and the plebs… blame those things that were the chief causes for keeping Rome free."
+source:
+  author: "Niccolò Machiavelli (Discourses)"
+  work: "Discourses on Livy"
+  passage: "Book I, Ch. IV"
+  translator: "Detmold"   # forename not given in report; capture at verification
+  edition_year: 1882
+  language: it
+  url: null
+  urn: null
+tradition: "Italian Renaissance"
+era: 1517   # c. 1517
+register: argument
+claim_type: observational
+polarity: descriptive
+conditionality: contested
+life_domains: [politics, institutions, conflict, community]
+life_stages: [adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-2/07-practical-strategic.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: verified (Detmold PD) — downgraded to attested per S1 rule 1 pending primary check. RE-DERIVATION: report tags claim_type empirical; re-derived to observational — a causal-historical generalisation from the single case of republican Rome, not a systematically tested finding (S1 rule 2). THE republican Machiavelli (report: 'the essential corrective to the meme') — author field keeps the Prince/Discourses split; representing only meme-Machiavelli would falsify the record. Report's ellipses and editorial bracket preserved as held."

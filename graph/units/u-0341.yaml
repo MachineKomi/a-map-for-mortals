@@ -1,0 +1,37 @@
+id: u-0341
+claim_id: null
+type: Dilemma
+paraphrase: "Deliberate before acting."
+quotation: "Look before you leap"
+quotation_translation: null   # English is the original language
+source:
+  author: "English-speaking folk (England)"
+  work: "English proverb tradition (in John Heywood, A Dialogue of Proverbs, 1546)"
+  passage: null
+  translator: null
+  edition_year: 1546   # attestation, not composition
+  language: en
+  url: null
+  urn: null
+tradition: English folk-proverbial
+era: 1546   # proverbial by the 16th c. per report
+register: proverb
+claim_type: prudential
+polarity: cautionary
+conditionality: contested
+life_domains: [decision-making, risk]
+life_stages: [youth, young-adult, adult]
+endorsement: n/a
+attribution_confidence: communal
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: public-domain
+prov:
+  source_report: corpus/reports/wave-2/08-folk-proverbial.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "Report label: communal — kept; folk proverb, people/language as author per S1 rules. DILEMMA POLE: care pole of fork haste-vs-care, paired against u-0342 'he who hesitates is lost' (Addison, Cato, 1713); the pair's coexistence encodes conditionality, not contradiction — report reconciliation principle: time-pressure and reversibility of the decision determine which pole applies. Same-pole kin: Panchatantra Book V (u-0336), Tao Te Ching 64 (u-0338). Cf. u-0162 (wave-1 meta-unit on this very pairing as evidence that proverb-wisdom is conditional). Cultivates prudence/foresight; guards against rashness."

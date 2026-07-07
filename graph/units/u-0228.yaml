@@ -1,0 +1,37 @@
+id: u-0228
+claim_id: null
+type: Insight
+paraphrase: "Asked what the most important thing in the world is, the whakatauākī answers: it is people, it is people, it is people."
+quotation: "He aha te mea nui o te ao? He tangata, he tangata, he tangata"
+quotation_translation: "What is the most important thing in the world? It is people, it is people, it is people"
+source:
+  author: "Meri Ngāroto"
+  work: null            # oral whakatauākī; no written work given by the report
+  passage: null
+  translator: null
+  edition_year: null
+  language: mi
+  url: null
+  urn: null
+tradition: Māori
+era: null
+register: proverb
+claim_type: normative
+polarity: prescriptive
+conditionality: contested
+life_domains: [community, friendship, family]
+life_stages: [young-adult, adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: unknown
+prov:
+  source_report: corpus/reports/wave-2/03-indigenous.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "CONSENT GATE: do not publish before a community-source consent audit (see ops/DECISIONS.md 2026-07-08). Report confidence: probable. A whakatauākī (proverb with known author), excerpted from a fuller saying about the harakeke (flax) and where the bellbird would sing — the full text is not held. Report gives the iwi as Ngāti Whātua; Meri Ngāroto is elsewhere commonly associated with Te Aupōuri — verify iwi at S2, do not assert either yet. DISSENT ATTACHED (report §Details/Māori): Māori scholar Hana Tapiata contests the anthropocentric reading within te ao Māori, which centres land and whakapapa — 'It is not people… It is connection, it is life.' Conditionality set to contested for that reason. Re-derivation difference: extract listed life_domain 'work'; dropped — the report gives no work/leadership context for the saying."

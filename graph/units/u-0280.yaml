@@ -1,0 +1,51 @@
+id: u-0280
+claim_id: null
+type: Dilemma
+paraphrase: "Each person must listen, reflect with a clear mind, and choose for themselves between the two paths — truth and the lie; no one else can make the choice."
+quotation: null   # Old Avestan text not held in the report; capture at primary verification
+quotation_translation: "Listen with your ears to the best things. Reflect with a clear mind — man by man for himself — upon the two choices of decision, being aware to declare yourselves to Him before the great retribution."
+source:
+  author: "Zarathustra"
+  work: "Gathas"
+  passage: "Yasna 30.2"
+  translator: "Stanley Insler (The Gāthās of Zarathustra, Acta Iranica 8, Brill)"
+  edition_year: 1975
+  language: ae
+  url: null
+  urn: null
+tradition: Zoroastrian
+era: -1100   # c. 1200-1000 BCE (oral composition); Sasanian codification
+register: poem
+claim_type: normative
+polarity: prescriptive
+conditionality: universal-ish
+life_domains: [ethics, spirituality, decision-making]
+life_stages: [youth, young-adult, adult]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-2/06-persian.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: >-
+  Report unit ZO-01; report label attribution_confidence 'verified', normalised to
+  'attested' pending a primary check against the physical Insler 1975 volume (report
+  Lead #2). Insler 1975 is in-copyright; PD alternative for print is Mills, SBE 1887.
+  Insler himself called 'great retribution' (yāh) 'at best a guess'; Schmidt reads a
+  decisive-contest metaphor. Boyce and Encyclopaedia Iranica treat this verse as the
+  cornerstone of Zoroastrian free-will ethics — an explicit rejection of
+  predestination. WATCHLIST: versified 'Insler' renderings of Y30.2-30.3 on Wikiquote
+  do NOT match his actual 1975 prose (report watchlist item 7) — use only the prose
+  wording held here. Anchor of the fate-vs-will fork: directly opposed by the
+  fatalist strain in FitzGerald-Khayyam (u-0287), Ferdowsi's Rostam-Sohrab (u-0291),
+  and Zuhayr. Convergence CANDIDATE with the project's 'truth above all' — the Gathic
+  claim is normative/metaphysical, not an empirical claim about honesty's payoffs;
+  flag, don't force. Asha translation is unsettled (Insler 'truth';
+  Bartholomae/Mills 'righteousness / cosmic order').

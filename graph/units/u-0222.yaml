@@ -1,0 +1,37 @@
+id: u-0222
+claim_id: null
+type: Practice
+paraphrase: "Many Diné stories are sacred and restricted to winter-only telling; access to them is governed by the tradition itself."
+quotation: null   # RECORD-ONLY stub — no content extracted (CARE)
+quotation_translation: null
+source:
+  author: "Diné"
+  work: null
+  passage: null
+  translator: null
+  edition_year: null
+  language: nv
+  url: null
+  urn: null
+tradition: Diné (Navajo)
+era: null
+register: null
+claim_type: normative
+polarity: prescriptive
+conditionality: conditional
+life_domains: [community, nature]
+life_stages: [child, youth, adult, elder]
+endorsement: n/a
+attribution_confidence: communal
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: unknown
+prov:
+  source_report: corpus/reports/wave-2/03-indigenous.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "RECORD-ONLY (CARE): content deliberately not extracted; sacred/restricted. Report label: communal. This stub records only the existence and scope of the restriction — many Diné stories are winter-only and sacred; the report directs: record, do not extract. Threshold to publish any content (report Stage 2): explicit community/consent documentation or an established public, community-authored source. No quotation held and none to be sought without that gate."

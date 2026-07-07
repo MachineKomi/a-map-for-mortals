@@ -1,0 +1,37 @@
+id: u-0304
+claim_id: null
+type: Virtue
+paraphrase: "If you desire power, desire contentment above all: contentment is its own kingdom."
+quotation: null            # Persian original not held in the report
+quotation_translation: "If you desire power, desire nothing but contentment, which is its own kingdom."
+source:
+  author: Saadi
+  work: Gulistan
+  passage: "Ch. 2 'On the Morals of Dervishes', Story 28"
+  translator: null         # English translation unidentified in report ('English tr. varies')
+  edition_year: null
+  language: fa
+  url: null
+  urn: null
+tradition: Persian
+era: 1258
+register: aphorism
+claim_type: prudential
+polarity: prescriptive
+conditionality: conditional
+life_domains: [contentment, ambition, wealth]
+life_stages: [adult, midlife, elder]
+endorsement: endorsed
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-2 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: unknown
+prov:
+  source_report: corpus/reports/wave-2/06-persian.md
+  extracted_by: "claude-code:s1-p4-v1"
+  pass: 2
+  date: 2026-07-08
+notes: "FLAG FOR MERGE: overlaps the wave-1 Near-Eastern report (05); adab angle only. Report label: probable. Report instructs: verify exact translator/edition ('English tr. varies') — copyright unknown until traced; PD candidates Rehatsek 1888, Eastwick 1880; Davis 2002 in-copyright. Endorsement: endorsed — Saadi's moral of the story, authorial voice. Convergence candidate: Stoic and Epicurean 'enough' ethics (contentment-as-wealth) — recurrence is not proof."
