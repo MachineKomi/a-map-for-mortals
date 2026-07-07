@@ -3,7 +3,7 @@ claim_id: null
 type: Insight
 paraphrase: "Substance alone is not enough; things must both be done and be seen to be done — one must also manage how one is perceived."
 quotation: null            # Spanish original not held in report
-quotation_translation: null   # no PD wording held: 'Do, but also seem' is Maurer's 1992 in-copyright rendering; Jacobs 1892 wording pending (report lead G2)
+quotation_translation: "Things do not pass for what they are but for what they seem. To be of use and to know how to show yourself of use, is to be twice as useful. What is not seen is as if it was not."
 source:
   author: Baltasar Gracián
   work: The Art of Worldly Wisdom (Oráculo Manual)
@@ -24,14 +24,14 @@ life_stages: [young-adult, adult, midlife]
 endorsement: n/a
 attribution_confidence: attested
 verification:
-  status: pending-primary
-  method: "attested by wave-2 report; no public-domain wording held — Jacobs 1892 text of Maxim 130 to be captured and checked (report lead G2)"
-  checked_against: null
-  date: null
-copyright_flag: unknown
+  status: verified-primary
+  method: "Gate C/F follow-up (report lead G2): Jacobs's PD wording of Maxim cxxx 'Do and be seen Doing' captured from the Internet Archive scan of the 1904 Macmillan reprint of his translation (artofworldlywisd00gracuoft — clean OCR; the 1892 first-printing scan artworldlywisdo00jacogoog has this page OCR-corrupted, though its legible fragments agree). Held excerpt is the maxim's opening three sentences, spacing normalised from double-spaced OCR."
+  checked_against: "The Art of Worldly Wisdom, tr. Joseph Jacobs, Maxim cxxx, Macmillan 1904 reprint, https://archive.org/details/artofworldlywisd00gracuoft — matched text: 'Things do not pass for what they are but for what they seem. To be of use and to know how to show yourself of use, is to be twice as useful. What is not seen is as if it was not.'"
+  date: 2026-07-07
+copyright_flag: public-domain
 prov:
   source_report: corpus/reports/wave-2/07-practical-strategic.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
   date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
-notes: "Report label: probable. NO verbatim wording minted: the familiar 'Do, but also seem' is Maurer's (©1992) rendering of Maxim 130; the report itself flags verifying Jacobs' exact 1892 PD wording before quoting verbatim (lead G2). copyright_flag unknown because no quoted wording is held (Jacobs 1892 edition itself is PD; Maurer is in copyright). Convergence flagged by report: Machiavelli Prince 18 appearances, Gracián Maxim 99, Sun Tzu deception — perception-management cluster. Prudential court counsel, not endorsed."
+notes: "Report label: probable. RESOLVED 2026-07-07: Jacobs's PD wording captured and verified (see verification block); the familiar 'Do, but also seem' remains Maurer's (©1992) rendering — never print it as Jacobs. Edition_year kept 1892 (translation's first publication); wording checked to the 1904 reprint scan. copyright_flag unknown because no quoted wording is held (Jacobs 1892 edition itself is PD; Maurer is in copyright). Convergence flagged by report: Machiavelli Prince 18 appearances, Gracián Maxim 99, Sun Tzu deception — perception-management cluster. Prudential court counsel, not endorsed."

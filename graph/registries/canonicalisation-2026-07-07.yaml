@@ -1,0 +1,371 @@
+# Gate A registry canonicalisation — adjudicated mapping (audit record)
+# Proposed by a fresh-context subagent (computation proposes); adjudicated by the lead
+# (adjudication disposes) with unit-level verification of every ambiguous string.
+# Applied to traditions.yaml / domains.yaml by tools/apply_canonical_ids.py.
+# canonical_id is a revisable aggregation view — raw strings are never rewritten in units,
+# so any mapping here can be re-adjudicated without data loss.
+adjudication:
+  date: 2026-07-07
+  method: >-
+    Fresh-context subagent proposed 153+154 mappings with contested flags (generous by
+    charter). Lead adjudicated all ~40 contested entries; five ambiguous raw strings were
+    checked against their actual units before ruling (u-0053 Hesiod -> archaic-greek
+    confirmed; u-0052 Sophocles-primary -> tragedy; u-0070 Spinoza -> rationalist
+    confirmed; u-0195 Tirukkural -> OVERRIDE to indic/tamil, dropping the disputed Hindu
+    label the raw string carries; u-0345 'English' -> OVERRIDE to
+    european/english-folk-proverbial, matching its communal re-derivation). One family
+    scope note amended: 'empirical' family membership records discipline of origin, NOT a
+    claim-type warrant — claim types are adjudicated per unit (Byock memoir counsel stays
+    prudential). Contested flags are preserved below verbatim; entries marked placeholder
+    (multi-nation Indigenous strings) stay contested until per-unit splits are possible.
+  care_note: >-
+    indigenous/* is strictly one branch per nation/people. The two multi-nation ids
+    (indigenous/aboriginal-australian for the u-0223 record-only stub; indigenous/andean)
+    are registry placeholders for units that themselves refuse homogenisation — they are
+    NOT pan-Indigenous merges and must split per nation if content units are ever minted
+    (which for sacred/restricted material requires the community-authority process).
+
+families:
+  - {id: "greco-roman", scope: "Ancient Greek and Roman philosophy, literature, medicine, and historiography, archaic through late antiquity (incl. Neoplatonism)"}
+  - {id: "egyptian", scope: "Ancient Egyptian wisdom literature (sebayt etc.)"}
+  - {id: "mesopotamian", scope: "Sumerian, Akkadian, Babylonian textual traditions"}
+  - {id: "jewish", scope: "Jewish tradition: Hebrew Bible, rabbinic, and later Jewish thought"}
+  - {id: "christian", scope: "Christian traditions across denominations; branches for named orders/movements (jansenist, carmelite, mystic, existentialist)"}
+  - {id: "islamic", scope: "Islamic religious and Sufi traditions across languages"}
+  - {id: "arab", scope: "Arab traditions not framed as Islamic (currently pre-Islamic Arabian)"}
+  - {id: "zoroastrian", scope: "Zoroastrian/Mazdean tradition"}
+  - {id: "persian", scope: "Persian literary and adab tradition (Shahnameh, Khayyam/FitzGerald, Saadi-type material); Persian Sufi devotional material sits at islamic/sufi with language field carrying Persianness"}
+  - {id: "indic", scope: "South Asian traditions other than Buddhism: Hindu, niti-shastra, statecraft, bhakti movements, Tamil corpus (indic/tamil is religiously unmarked — Tirukkural attribution disputed)"}
+  - {id: "buddhist", scope: "Buddhist schools across regions (theravada, mahayana, madhyamaka, zen)"}
+  - {id: "chinese", scope: "Chinese schools: Confucian, Daoist, Legalist, military strategy"}
+  - {id: "japanese", scope: "Japanese cultural-literary traditions (Heian, bushido, kokugaku); Zen sits under buddhist"}
+  - {id: "indigenous", scope: "Indigenous nations and peoples, strictly one branch per nation/people — never pan-Indigenous; multi-nation raw strings carry contested flags pending per-unit split"}
+  - {id: "african", scope: "African peoples' traditions (one branch per people: akan, yoruba, igbo, nguni, swahili) plus academic and pan-African philosophy branches kept distinct from oral traditions"}
+  - {id: "european", scope: "Post-classical European vernacular, literary, and folk traditions by nation/period (moralists, novels, drama, romanticism, folk-proverbial), incl. Russian"}
+  - {id: "modern-west", scope: "Modern Western intellectual and philosophical movements from early modern rationalism onward, incl. American movements and letters"}
+  - {id: "empirical", scope: "Modern findings/practice-grounded disciplines (psychology, medicine, geriatrics, palliative care). Family membership records discipline of origin, NOT a claim-type warrant — claim types are adjudicated per unit"}
+
+traditions_mapping:
+  - {raw: "empirical", canonical_id: "empirical"}
+  - {raw: "french-moralist", canonical_id: "european/french-moralist"}
+  - {raw: "Judaism", canonical_id: "jewish"}
+  - {raw: "Persian", canonical_id: "persian"}
+  - {raw: "American Transcendentalism", canonical_id: "modern-west/transcendentalist"}
+  - {raw: "transcendentalism", canonical_id: "modern-west/transcendentalist"}
+  - {raw: "Christian", canonical_id: "christian"}
+  - {raw: "Italian Renaissance", canonical_id: "european/italian-renaissance"}
+  - {raw: "german-philosophy", canonical_id: "modern-west/german-philosophy"}
+  - {raw: "Roman Stoic", canonical_id: "greco-roman/stoic"}
+  - {raw: "Spanish (Jesuit / Baroque)", canonical_id: "european/spanish-baroque", contested: true, why: "Gracián-type material; Jesuit authorship folded — could equally sit at christian/jesuit. ADJUDICATED: accepted — the units are worldly-wisdom aphorisms, not devotional"}
+  - {raw: "Hindu", canonical_id: "indic/hindu"}
+  - {raw: "Roman philosophy", canonical_id: "greco-roman/roman-philosophy", contested: true, why: "vague label; Ciceronian units — candidate merge with greco-roman/eclectic. ADJUDICATED: kept non-lossy era-level id; revisit at S3"}
+  - {raw: "Sámi", canonical_id: "indigenous/sami"}
+  - {raw: "Zoroastrian", canonical_id: "zoroastrian"}
+  - {raw: "Ancient Egyptian", canonical_id: "egyptian"}
+  - {raw: "Chinese military", canonical_id: "chinese/military-strategy"}
+  - {raw: "Classical (Peripatetic)", canonical_id: "greco-roman/peripatetic"}
+  - {raw: "English folk-proverbial", canonical_id: "european/english-folk-proverbial"}
+  - {raw: "French moralists", canonical_id: "european/french-moralist"}
+  - {raw: "Indian statecraft", canonical_id: "indic/statecraft"}
+  - {raw: "Pre-Islamic Arabian", canonical_id: "arab/pre-islamic"}
+  - {raw: "Attic tragedy", canonical_id: "greco-roman/tragedy"}
+  - {raw: "Buddhist", canonical_id: "buddhist"}
+  - {raw: "Confucian", canonical_id: "chinese/confucian"}
+  - {raw: "Daoist", canonical_id: "chinese/daoist"}
+  - {raw: "Diné (Navajo)", canonical_id: "indigenous/dine"}
+  - {raw: "early modern rationalism", canonical_id: "modern-west/rationalist"}
+  - {raw: "English essayists", canonical_id: "european/english-essayists"}
+  - {raw: "French Christian philosophy (Jansenist)", canonical_id: "christian/jansenist"}
+  - {raw: "Greek medicine", canonical_id: "greco-roman/medicine"}
+  - {raw: "Haudenosaunee", canonical_id: "indigenous/haudenosaunee"}
+  - {raw: "Hellenistic (Epicurean)", canonical_id: "greco-roman/epicurean"}
+  - {raw: "Japanese (bushido / Zen)", canonical_id: "japanese/bushido", contested: true, why: "mixed string — Zen elements arguably belong at buddhist/zen. ADJUDICATED: accepted (Musashi-type units are bushido-primary); per-unit re-adjudication at S3 if a unit is doctrinally Zen"}
+  - {raw: "Mesopotamian", canonical_id: "mesopotamian"}
+  - {raw: "Scottish Enlightenment", canonical_id: "modern-west/scottish-enlightenment"}
+  - {raw: "Sufi", canonical_id: "islamic/sufi"}
+  - {raw: "American poetry", canonical_id: "modern-west/american-poetry"}
+  - {raw: "Archaic didactic poetry", canonical_id: "greco-roman/archaic-greek", contested: true, why: "assumed Greek. ADJUDICATED: verified — u-0053/u-0054 are Hesiod, Works and Days"}
+  - {raw: "British utilitarianism", canonical_id: "modern-west/utilitarian"}
+  - {raw: "Christian mysticism", canonical_id: "christian/mystic"}
+  - {raw: "Classical (Socratic)", canonical_id: "greco-roman/socratic"}
+  - {raw: "English literature", canonical_id: "european/english-literature"}
+  - {raw: "French existentialism", canonical_id: "modern-west/french-existentialism"}
+  - {raw: "German Enlightenment", canonical_id: "modern-west/german-enlightenment"}
+  - {raw: "German philosophy", canonical_id: "modern-west/german-philosophy"}
+  - {raw: "German post-Kantian pessimism", canonical_id: "modern-west/german-pessimism"}
+  - {raw: "Greco-Roman medicine", canonical_id: "greco-roman/medicine"}
+  - {raw: "Greek historiography", canonical_id: "greco-roman/historiography"}
+  - {raw: "Heian Japanese", canonical_id: "japanese/heian"}
+  - {raw: "Inuit", canonical_id: "indigenous/inuit"}
+  - {raw: "Islamic", canonical_id: "islamic"}
+  - {raw: "Japanese", canonical_id: "japanese"}
+  - {raw: "Lakota", canonical_id: "indigenous/lakota"}
+  - {raw: "Māori", canonical_id: "indigenous/maori"}
+  - {raw: "Māori (Whanganui iwi)", canonical_id: "indigenous/maori-whanganui"}
+  - {raw: "Persian Sufi", canonical_id: "islamic/sufi", contested: true, why: "lossy: Persian literary dimension folded; alternative persian/sufi. ADJUDICATED: accepted — Sufism is doctrinally primary; the unit language field (fa) carries Persianness; revisable"}
+  - {raw: "Pre-Socratic", canonical_id: "greco-roman/presocratic"}
+  - {raw: "presocratic", canonical_id: "greco-roman/presocratic"}
+  - {raw: "Russian novel", canonical_id: "european/russian-novel"}
+  - {raw: "Aboriginal Australian (per-nation, not pan-Aboriginal)", canonical_id: "indigenous/aboriginal-australian", contested: true, why: "u-0223 is a record-only stub naming Warlpiri, Arrernte, Tiwi, Wiradjuri; placeholder pending per-nation split — NOT a pan-Aboriginal merge. ADJUDICATED: accepted as placeholder; see care_note"}
+  - {raw: "Aboriginal Australian (Warrwa-Noongar)", canonical_id: "indigenous/warrwa-noongar", contested: true, why: "speaker (Louise O'Reilly) holds dual Warrwa and Noongar heritage — id reflects the person's two nations, not a merged bucket; consent gate applies. ADJUDICATED: accepted"}
+  - {raw: "Academic African philosophy (Ghana/Akan)", canonical_id: "african/akan-academic"}
+  - {raw: "Academic African philosophy (Nigeria/Igbo)", canonical_id: "african/igbo-academic"}
+  - {raw: "Akan/Ashanti (Ghana)", canonical_id: "african/akan"}
+  - {raw: "Akan/Ashanti (Ghana); diaspora as Anancy/Aunt Nancy", canonical_id: "african/akan", contested: true, why: "diaspora transmission folded out of the id; provenance stays in the unit. ADJUDICATED: accepted"}
+  - {raw: "American pragmatism", canonical_id: "modern-west/pragmatist"}
+  - {raw: "American secular-humanist", canonical_id: "modern-west/secular-humanist"}
+  - {raw: "Andean (Kichwa; Bolivian parallel suma qamaña)", canonical_id: "indigenous/kichwa", contested: true, why: "primary attribution Kichwa; the Aymara/Bolivian parallel is folded. ADJUDICATED: accepted — parallel concept belongs in a future unit of its own, not this id"}
+  - {raw: "Andean (Quechua/Kichwa/Aymara)", canonical_id: "indigenous/andean", contested: true, why: "names three distinct peoples; placeholder pending per-unit, per-people reassignment — not a merge. ADJUDICATED: accepted as placeholder; see care_note"}
+  - {raw: "Arabic/Islamic", canonical_id: "islamic", contested: true, why: "ambiguous between Arabic literary and Islamic religious tradition. ADJUDICATED: accepted — the units are hadith (Islamic religious)"}
+  - {raw: "Archaic Greek", canonical_id: "greco-roman/archaic-greek"}
+  - {raw: "Augustan poetry", canonical_id: "greco-roman/augustan-poetry"}
+  - {raw: "Augustan poetry (Epicurean-tinged)", canonical_id: "greco-roman/augustan-poetry", contested: true, why: "Epicurean colouring folded. ADJUDICATED: accepted — Horace's genre is primary; the tinge lives in the unit"}
+  - {raw: "British moral philosophy", canonical_id: "modern-west/british-moral-philosophy"}
+  - {raw: "British moral philosophy (Platonist)", canonical_id: "modern-west/british-moral-philosophy", contested: true, why: "Platonist strand (Murdoch-type) folded. ADJUDICATED: accepted — qualifier survives in the raw string and unit"}
+  - {raw: "Buddhist (Madhyamaka)", canonical_id: "buddhist/madhyamaka"}
+  - {raw: "Buddhist (Mahayana)", canonical_id: "buddhist/mahayana"}
+  - {raw: "Chinese/Taoism", canonical_id: "chinese/daoist"}
+  - {raw: "Christian existentialism", canonical_id: "christian/existentialist"}
+  - {raw: "Christian mysticism (Carmelite)", canonical_id: "christian/carmelite"}
+  - {raw: "Classical Greek (Platonic)", canonical_id: "greco-roman/platonic"}
+  - {raw: "Classical tragedy / history", canonical_id: "greco-roman/tragedy", contested: true, why: "mixed genre string. ADJUDICATED: verified — u-0052's primary source is Oedipus Rex; the Herodotus/Solon precedent is transmission context recorded in the unit"}
+  - {raw: "classical-greek", canonical_id: "greco-roman/classical-greek", contested: true, why: "era-only label with no school. ADJUDICATED: accepted non-lossy; per-unit reassignment possible at S3"}
+  - {raw: "English", canonical_id: "european/english-folk-proverbial", contested: true, why: "bare national label. ADJUDICATED (override of proposed english-literature): sole user is u-0345, whose wisdom is the communal proverb (attribution re-derived communal at Gate C); Sandys is its first-attestation locator, not its tradition"}
+  - {raw: "English (literary, proverbialised)", canonical_id: "european/english-literature", contested: true, why: "literary origin that became proverbial; near-neighbour of english-folk-proverbial. ADJUDICATED: accepted — origin is literary, unlike u-0345's communal proverb"}
+  - {raw: "English / Victorian Stoicism", canonical_id: "european/victorian-stoicism", contested: true, why: "hybrid label; link to greco-roman/stoic is analogical, not doctrinal — do not conflate. ADJUDICATED: accepted"}
+  - {raw: "English Enlightenment", canonical_id: "modern-west/english-enlightenment"}
+  - {raw: "English Enlightenment / its critics", canonical_id: "modern-west/english-enlightenment", contested: true, why: "spans a tradition AND its critics. ADJUDICATED: accepted; dissent belongs in edges, revisit when the unit is clustered"}
+  - {raw: "English folk-proverbial (ATU tale-type 1430)", canonical_id: "european/english-folk-proverbial"}
+  - {raw: "English novel", canonical_id: "european/english-novel"}
+  - {raw: "English proto-feminism (Tory/Anglican)", canonical_id: "modern-west/english-proto-feminism", contested: true, why: "Tory/Anglican qualifiers folded; Astell-type material could sit under christian. ADJUDICATED: accepted — her argument's frame is proto-feminist; confessional identity stays in the unit"}
+  - {raw: "English Renaissance drama", canonical_id: "european/english-renaissance-drama"}
+  - {raw: "English Romantic poetry", canonical_id: "european/english-romanticism"}
+  - {raw: "English Romanticism", canonical_id: "european/english-romanticism"}
+  - {raw: "Feminist ethics", canonical_id: "modern-west/feminist-ethics"}
+  - {raw: "Feminist moral psychology", canonical_id: "modern-west/feminist-moral-psychology", contested: true, why: "Gilligan-type work straddles philosophy and empirical psychology. ADJUDICATED: accepted — her contested empirical claims are carried at unit level (u-0258 is claim_type empirical, conditionality contested)"}
+  - {raw: "French existentialist milieu (absurdism)", canonical_id: "modern-west/french-existentialism", contested: true, why: "Camus rejected the existentialist label. ADJUDICATED: accepted — the raw string itself says 'milieu', which is what the id asserts; Camus's rejection stays in the unit"}
+  - {raw: "french-literature", canonical_id: "european/french-literature"}
+  - {raw: "french-moralists", canonical_id: "european/french-moralist"}
+  - {raw: "french-renaissance", canonical_id: "european/french-renaissance"}
+  - {raw: "Freudian literary/psychological criticism", canonical_id: "modern-west/psychoanalytic-criticism", contested: true, why: "interpretive school, not empirical psychology. ADJUDICATED: accepted — placement outside 'empirical' is deliberate and correct"}
+  - {raw: "German literature", canonical_id: "european/german-literature"}
+  - {raw: "German pessimism", canonical_id: "modern-west/german-pessimism"}
+  - {raw: "german-classicism", canonical_id: "european/german-classicism"}
+  - {raw: "german-romanticism", canonical_id: "european/german-romanticism"}
+  - {raw: "Greek fable / classical philology", canonical_id: "greco-roman/fable", contested: true, why: "fable corpus plus philological transmission claim. ADJUDICATED: accepted — transmission detail lives in the unit"}
+  - {raw: "Greek tragedy", canonical_id: "greco-roman/tragedy"}
+  - {raw: "Han Confucian", canonical_id: "chinese/confucian", contested: true, why: "Han-era synthesis is doctrinally distinct from classical Confucianism. ADJUDICATED: accepted — a one-unit era branch would over-split; era field carries it"}
+  - {raw: "Hebrew / Jewish (adopted in Christian liturgy)", canonical_id: "jewish", contested: true, why: "Christian liturgical adoption folded. ADJUDICATED: accepted — dual transmission is edge material (u-0260), not a merged id"}
+  - {raw: "Hellenistic (Cynic)", canonical_id: "greco-roman/cynic"}
+  - {raw: "Hellenistic (Pyrrhonian Skeptic)", canonical_id: "greco-roman/pyrrhonist"}
+  - {raw: "Hellenistic/Roman Stoic", canonical_id: "greco-roman/stoic"}
+  - {raw: "Igbo (Nigeria), literary", canonical_id: "african/igbo", contested: true, why: "modern literary source (Achebe-type) folded into the people-level branch. ADJUDICATED: accepted — the literary channel is recorded in the unit; a separate igbo-literary branch would over-split"}
+  - {raw: "Islam", canonical_id: "islamic"}
+  - {raw: "Japanese (kokugaku)", canonical_id: "japanese/kokugaku"}
+  - {raw: "Kannada Bhakti (Lingayat)", canonical_id: "indic/lingayat"}
+  - {raw: "Late-antique Neoplatonism", canonical_id: "greco-roman/neoplatonic"}
+  - {raw: "Late-medieval French", canonical_id: "european/french-medieval"}
+  - {raw: "Legalist", canonical_id: "chinese/legalist"}
+  - {raw: "Lifespan developmental psychology", canonical_id: "empirical/developmental-psychology"}
+  - {raw: "Medicine / geriatrics (secular)", canonical_id: "empirical/geriatrics"}
+  - {raw: "Modern British philosophy", canonical_id: "modern-west/british-philosophy"}
+  - {raw: "Modern French Christian mysticism", canonical_id: "christian/mystic", contested: true, why: "modern French strand (Weil-type) folded into generic mystic branch. ADJUDICATED: accepted — era/nation live in unit fields"}
+  - {raw: "Modern political philosophy", canonical_id: "modern-west/political-philosophy"}
+  - {raw: "Musical theatre (after Victor Hugo)", canonical_id: "modern-west/musical-theatre", contested: true, why: "adaptation chain (Hugo → stage) makes assignment fuzzy. ADJUDICATED: accepted — the minted wording is the lyricist's, so the stage tradition is the correct locus; the Hugo lineage is in the unit"}
+  - {raw: "Nguni (Zulu/Xhosa), Southern Africa", canonical_id: "african/nguni", contested: true, why: "covers Zulu AND Xhosa peoples; Nguni is the raw string's own linguistic grouping. ADJUDICATED: accepted — the grouping is the source's, not ours; per-people split if content demands"}
+  - {raw: "Pali/Theravada Buddhism", canonical_id: "buddhist/theravada"}
+  - {raw: "Palliative care memoir", canonical_id: "empirical/palliative-medicine", contested: true, why: "memoir is testimony, not clinical evidence. ADJUDICATED: accepted WITH the amended family scope note — tradition records discipline of origin; the testimony/evidence distinction is carried by claim_type at unit level (u-0276 is prudential, not empirical)"}
+  - {raw: "Palliative medicine (secular, cross-faith)", canonical_id: "empirical/palliative-medicine"}
+  - {raw: "Pan-African scholarship (Kenya)", canonical_id: "african/pan-african", contested: true, why: "pan-African aggregation (Mbiti-type) — skew risk; do not present as continental consensus. ADJUDICATED: accepted — the branch name honestly labels the aggregation as scholarship, distinct from the per-people branches"}
+  - {raw: "Potawatomi", canonical_id: "indigenous/potawatomi"}
+  - {raw: "Pre-Socratic (Atomist)", canonical_id: "greco-roman/atomist"}
+  - {raw: "Psychodynamic developmental psychology", canonical_id: "empirical/developmental-psychology", contested: true, why: "psychodynamic (Erikson-type) method is not experimental psychology. ADJUDICATED: accepted — method qualifier lives in the unit; family scope note governs"}
+  - {raw: "rationalism", canonical_id: "modern-west/rationalist", contested: true, why: "bare label. ADJUDICATED: verified — u-0070 is Spinoza (via Nietzsche's postcard)"}
+  - {raw: "Roman (eclectic/Academic-Stoic)", canonical_id: "greco-roman/eclectic", contested: true, why: "Ciceronian blend; any single-school assignment is interpretive. ADJUDICATED: accepted — 'eclectic' is the scholarly term for exactly this"}
+  - {raw: "Roman (Epicurean)", canonical_id: "greco-roman/epicurean"}
+  - {raw: "Roman comedy fragment (via Cicero)", canonical_id: "greco-roman/comedy", contested: true, why: "transmission-via-Cicero folded out of the id. ADJUDICATED: accepted — transmission lives in the unit"}
+  - {raw: "Roman satire", canonical_id: "greco-roman/satire"}
+  - {raw: "Russian literature", canonical_id: "european/russian-literature"}
+  - {raw: "Russian novel (late-Tolstoyan didactic tale)", canonical_id: "european/russian-novel", contested: true, why: "didactic-tale qualifier folded. ADJUDICATED: accepted"}
+  - {raw: "russian-literature", canonical_id: "european/russian-literature"}
+  - {raw: "Sanskrit / Hindu niti-shastra", canonical_id: "indic/niti-shastra"}
+  - {raw: "Sanskrit/Hindu (India)", canonical_id: "indic/hindu"}
+  - {raw: "South Africa, Christian-Ubuntu theology", canonical_id: "african/ubuntu-christian", contested: true, why: "hybrid Christian-Ubuntu (Tutu-type); could sit under christian. ADJUDICATED: accepted — the hybrid id preserves both poles rather than choosing"}
+  - {raw: "Spanish (Castilian) folk-proverbial", canonical_id: "european/spanish-folk-proverbial"}
+  - {raw: "Sufism", canonical_id: "islamic/sufi"}
+  - {raw: "Sumerian/Akkadian", canonical_id: "mesopotamian/sumerian-akkadian"}
+  - {raw: "Swahili (Pate/Siyu, Kenya coast), Islamic utenzi verse", canonical_id: "african/swahili", contested: true, why: "Islamic utenzi verse — could sit under islamic. ADJUDICATED: accepted — utenzi is a Swahili-specific form; the Islamic dimension is in the unit"}
+  - {raw: "Tamil/Hindu", canonical_id: "indic/tamil", contested: true, why: "ADJUDICATED (override of proposed indic/tamil-hindu): u-0195 is the Tirukkural, whose author's religious identity (Hindu/Jain) is genuinely disputed — the canonical id drops the disputed label; the raw string preserves what the report said"}
+  - {raw: "Victorian poetry", canonical_id: "european/victorian-poetry"}
+  - {raw: "Yoruba (Nigeria)", canonical_id: "african/yoruba"}
+  - {raw: "Zen/Japanese", canonical_id: "buddhist/zen", contested: true, why: "ambiguous between Buddhist school and Japanese cultural frame. ADJUDICATED: accepted — buddhist/zen is doctrinally primary; japanese family scope cross-references this"}
+
+domains_mapping:
+  - {raw: "self", canonical_id: "self"}
+  - {raw: "work", canonical_id: "work"}
+  - {raw: "adversity", canonical_id: "adversity"}
+  - {raw: "money", canonical_id: "money"}
+  - {raw: "death", canonical_id: "death"}
+  - {raw: "ethics", canonical_id: "ethics"}
+  - {raw: "community", canonical_id: "community"}
+  - {raw: "meaning", canonical_id: "meaning"}
+  - {raw: "anxiety", canonical_id: "anxiety"}
+  - {raw: "knowledge", canonical_id: "knowledge"}
+  - {raw: "society", canonical_id: "society"}
+  - {raw: "family", canonical_id: "family"}
+  - {raw: "love", canonical_id: "love"}
+  - {raw: "nature", canonical_id: "nature"}
+  - {raw: "friendship", canonical_id: "friendship"}
+  - {raw: "conflict", canonical_id: "conflict"}
+  - {raw: "justice", canonical_id: "justice"}
+  - {raw: "politics", canonical_id: "politics"}
+  - {raw: "faith", canonical_id: "faith"}
+  - {raw: "ambition", canonical_id: "ambition"}
+  - {raw: "health", canonical_id: "health"}
+  - {raw: "grief", canonical_id: "grief"}
+  - {raw: "inner-life", canonical_id: "inner-life"}
+  - {raw: "mortality", canonical_id: "mortality"}
+  - {raw: "character", canonical_id: "character"}
+  - {raw: "relationships", canonical_id: "relationships"}
+  - {raw: "happiness", canonical_id: "happiness"}
+  - {raw: "aging", canonical_id: "ageing"}
+  - {raw: "desire", canonical_id: "desire"}
+  - {raw: "statecraft", canonical_id: "statecraft"}
+  - {raw: "leadership", canonical_id: "leadership"}
+  - {raw: "legacy", canonical_id: "legacy"}
+  - {raw: "career", canonical_id: "career"}
+  - {raw: "decision-making", canonical_id: "decision-making"}
+  - {raw: "negotiation", canonical_id: "negotiation"}
+  - {raw: "speech", canonical_id: "speech"}
+  - {raw: "spirituality", canonical_id: "spirituality"}
+  - {raw: "authenticity", canonical_id: "authenticity"}
+  - {raw: "gender", canonical_id: "gender"}
+  - {raw: "identity", canonical_id: "identity"}
+  - {raw: "ageing", canonical_id: "ageing"}
+  - {raw: "education", canonical_id: "education"}
+  - {raw: "solitude", canonical_id: "solitude"}
+  - {raw: "aesthetics", canonical_id: "aesthetics"}
+  - {raw: "fame", canonical_id: "fame"}
+  - {raw: "marriage", canonical_id: "marriage"}
+  - {raw: "professional-ethics", canonical_id: "professional-ethics"}
+  - {raw: "reputation", canonical_id: "reputation"}
+  - {raw: "social", canonical_id: "social", contested: true, why: "bare adjective; likely social conduct. ADJUDICATED: kept separate rather than merged into social-conduct — flag stands for a future dedicated pass"}
+  - {raw: "truth", canonical_id: "truth"}
+  - {raw: "courage", canonical_id: "courage"}
+  - {raw: "fate", canonical_id: "fate"}
+  - {raw: "governance", canonical_id: "governance"}
+  - {raw: "power", canonical_id: "power"}
+  - {raw: "risk", canonical_id: "risk"}
+  - {raw: "anger", canonical_id: "anger"}
+  - {raw: "autonomy", canonical_id: "autonomy"}
+  - {raw: "care", canonical_id: "care", contested: true, why: "ambiguous between caregiving activity and ethics-of-care. ADJUDICATED: kept as-is; disambiguate if it ever drives an aggregation"}
+  - {raw: "freedom", canonical_id: "freedom"}
+  - {raw: "medicine", canonical_id: "medicine"}
+  - {raw: "self-cultivation", canonical_id: "self-cultivation"}
+  - {raw: "wealth", canonical_id: "wealth"}
+  - {raw: "art", canonical_id: "art"}
+  - {raw: "attention", canonical_id: "attention"}
+  - {raw: "authority", canonical_id: "authority"}
+  - {raw: "change", canonical_id: "change"}
+  - {raw: "competition", canonical_id: "competition"}
+  - {raw: "contentment", canonical_id: "contentment"}
+  - {raw: "cosmology", canonical_id: "cosmology"}
+  - {raw: "culture", canonical_id: "culture"}
+  - {raw: "devotion", canonical_id: "devotion"}
+  - {raw: "diplomacy", canonical_id: "diplomacy"}
+  - {raw: "duty", canonical_id: "duty"}
+  - {raw: "economics", canonical_id: "economics"}
+  - {raw: "emotions", canonical_id: "emotions"}
+  - {raw: "empathy", canonical_id: "empathy"}
+  - {raw: "expertise", canonical_id: "expertise"}
+  - {raw: "goals", canonical_id: "goals"}
+  - {raw: "gratitude", canonical_id: "gratitude"}
+  - {raw: "humility", canonical_id: "humility"}
+  - {raw: "institutions", canonical_id: "institutions"}
+  - {raw: "joy", canonical_id: "joy"}
+  - {raw: "law", canonical_id: "law"}
+  - {raw: "learning", canonical_id: "learning"}
+  - {raw: "memory", canonical_id: "memory"}
+  - {raw: "metaphysics", canonical_id: "metaphysics"}
+  - {raw: "moral-imagination", canonical_id: "moral-imagination"}
+  - {raw: "planning", canonical_id: "planning"}
+  - {raw: "practice", canonical_id: "practice", contested: true, why: "ambiguous between skill-practice and spiritual practice (spiritual-practice exists separately). ADJUDICATED: kept as-is"}
+  - {raw: "self-knowledge", canonical_id: "self-knowledge"}
+  - {raw: "sleep", canonical_id: "sleep"}
+  - {raw: "suffering", canonical_id: "suffering"}
+  - {raw: "time", canonical_id: "time"}
+  - {raw: "transcendence", canonical_id: "transcendence"}
+  - {raw: "trust", canonical_id: "trust"}
+  - {raw: "vocation", canonical_id: "vocation"}
+  - {raw: "war", canonical_id: "war"}
+  - {raw: "wisdom", canonical_id: "wisdom"}
+  - {raw: "acceptance", canonical_id: "acceptance"}
+  - {raw: "adaptation", canonical_id: "adaptation"}
+  - {raw: "agency", canonical_id: "agency"}
+  - {raw: "art-of-living", canonical_id: "art-of-living"}
+  - {raw: "belonging", canonical_id: "belonging"}
+  - {raw: "business", canonical_id: "business"}
+  - {raw: "child-rearing", canonical_id: "parenting", contested: true, why: "treated as a true synonym of parenting. ADJUDICATED: accepted — flag stands in case the unit intends communal child-rearing"}
+  - {raw: "communication", canonical_id: "communication"}
+  - {raw: "compassion", canonical_id: "compassion"}
+  - {raw: "confidentiality", canonical_id: "confidentiality"}
+  - {raw: "cooperation", canonical_id: "cooperation"}
+  - {raw: "craft", canonical_id: "craft"}
+  - {raw: "destiny", canonical_id: "destiny"}
+  - {raw: "development", canonical_id: "development"}
+  - {raw: "embodiment", canonical_id: "embodiment"}
+  - {raw: "equanimity", canonical_id: "equanimity"}
+  - {raw: "everyday-life", canonical_id: "everyday-life"}
+  - {raw: "expectation", canonical_id: "expectation"}
+  - {raw: "fear", canonical_id: "fear"}
+  - {raw: "forgiveness", canonical_id: "forgiveness"}
+  - {raw: "generativity", canonical_id: "generativity"}
+  - {raw: "generosity", canonical_id: "generosity"}
+  - {raw: "growth", canonical_id: "growth"}
+  - {raw: "habit", canonical_id: "habit"}
+  - {raw: "hope", canonical_id: "hope"}
+  - {raw: "language", canonical_id: "language"}
+  - {raw: "life-review", canonical_id: "life-review"}
+  - {raw: "management", canonical_id: "management"}
+  - {raw: "moral-psychology", canonical_id: "moral-psychology"}
+  - {raw: "motive", canonical_id: "motive"}
+  - {raw: "obsession", canonical_id: "obsession"}
+  - {raw: "opportunity", canonical_id: "opportunity"}
+  - {raw: "order", canonical_id: "order"}
+  - {raw: "parenting", canonical_id: "parenting"}
+  - {raw: "patience", canonical_id: "patience"}
+  - {raw: "peace", canonical_id: "peace"}
+  - {raw: "perception", canonical_id: "perception"}
+  - {raw: "pleasure", canonical_id: "pleasure"}
+  - {raw: "public-life", canonical_id: "public-life"}
+  - {raw: "reasoning", canonical_id: "reasoning"}
+  - {raw: "reconciliation", canonical_id: "reconciliation"}
+  - {raw: "regret", canonical_id: "regret"}
+  - {raw: "religion", canonical_id: "religion"}
+  - {raw: "renunciation", canonical_id: "renunciation"}
+  - {raw: "resilience", canonical_id: "resilience"}
+  - {raw: "self-protection", canonical_id: "self-protection"}
+  - {raw: "social-conduct", canonical_id: "social-conduct"}
+  - {raw: "spiritual-practice", canonical_id: "spiritual-practice"}
+  - {raw: "stewardship", canonical_id: "stewardship"}
+  - {raw: "strategy", canonical_id: "strategy"}
+  - {raw: "survival", canonical_id: "survival"}
+  - {raw: "teams", canonical_id: "teams"}
+  - {raw: "tragedy", canonical_id: "tragedy"}
+  - {raw: "usefulness", canonical_id: "usefulness"}
+  - {raw: "wonder", canonical_id: "wonder"}
+  - {raw: "youth", canonical_id: "youth"}
+
+# Borderline pairs deliberately kept separate (proposal's list, accepted in full):
+# self|inner-life, self|identity, self|self-knowledge, work|career, career|vocation,
+# work|craft, money|wealth, death|mortality, fate|destiny, statecraft|governance,
+# governance|politics, society|community, social|social-conduct, speech|communication,
+# learning|education, development|growth, happiness|joy, happiness|contentment,
+# fame|reputation, faith|religion, spirituality|spiritual-practice,
+# transcendence|spirituality, anxiety|fear, war|conflict, health|medicine,
+# freedom|autonomy, autonomy|agency, empathy|compassion, care|compassion,
+# knowledge|wisdom (the project's central distinction — never merge), art|aesthetics,
+# everyday-life|art-of-living, legacy|generativity, planning|goals, strategy|planning,
+# self-cultivation|practice, habit|practice, memory|life-review, acceptance|equanimity,
+# leadership|management, business|economics, desire|motive, suffering|grief,
+# parenting|family.

@@ -41,8 +41,15 @@ def main():
     care_stub = sum(1 for u in units.values() if str(u.get("notes", "")).startswith("RECORD-ONLY"))
     cstat = collections.Counter(c.get("status") for c in claims.values())
     etypes = collections.Counter(e.get("type") for e in edges.values())
-    trad = len({str(u.get("tradition")) for u in units.values()})
-    dom = len({str(d) for u in units.values() for d in (u.get("life_domains") or [])})
+    def reg_state(name):
+        with open(os.path.join(ROOT, "graph", "registries", f"{name}.yaml"), encoding="utf-8") as f:
+            entries = yaml.safe_load(f)["entries"]
+        canon = {e["canonical_id"] for e in entries if e.get("canonical_id")}
+        uncanon = sum(1 for e in entries if not e.get("canonical_id"))
+        return len(entries), len(canon), uncanon
+
+    t_raw, t_canon, t_open = reg_state("traditions")
+    d_raw, d_canon, d_open = reg_state("domains")
     specs = [f for f in os.listdir(os.path.join(ROOT, "book", "page-specs")) if f.endswith(".yaml")]
 
     def run(tool):
@@ -71,7 +78,7 @@ def main():
 | claims | {len(claims)} | {fmt(cstat)} |
 | edges | {len(edges)} | {fmt(etypes)} |
 | page-specs | {len(specs)} | |
-| taxonomy debt | | {trad} tradition strings · {dom} domain strings (uncontrolled — registries pending) |
+| taxonomy | | traditions: {t_raw} raw -> {t_canon} canonical ({t_open} unmapped) · domains: {d_raw} raw -> {d_canon} canonical ({d_open} unmapped) |
 | validators | | units: {e1} err/{w1} warn · graph: {e2} err/{w2} warn (warnings are counted debt) |
 <!-- STATUS:END -->"""
 
