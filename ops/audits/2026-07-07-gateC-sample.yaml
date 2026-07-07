@@ -1,0 +1,218 @@
+id: gateC-audit-2026-07-07
+method: deterministic sha256 ranking, seed 'gateC-2026-07-07'; ceil(10%) per source report; mandatory oversample
+  = all dubious/apocryphal + record-only stubs
+threshold: material error rate > 5% of a report's sampled units in any category -> quarantine and full re-audit
+  of that report's batch
+categories:
+- wording-fidelity
+- paraphrase-fidelity
+- label-defensibility (claim_type/polarity/conditionality boundaries)
+- attribution-posture
+- locator-accuracy
+- care/endorsement-discipline
+sample_size: 51
+units:
+- uid: u-0003
+  report: corpus/reports/wave-1/02-greco-roman.md
+  why:
+  - stratified-10pct
+- uid: u-0009
+  report: corpus/reports/wave-1/05-near-eastern-abrahamic.md
+  why:
+  - stratified-10pct
+- uid: u-0027
+  report: corpus/reports/wave-1/08-empirical.md
+  why:
+  - stratified-10pct
+- uid: u-0030
+  report: corpus/reports/wave-1/08-empirical.md
+  why:
+  - stratified-10pct
+- uid: u-0040
+  report: corpus/reports/wave-1/02-greco-roman.md
+  why:
+  - stratified-10pct
+- uid: u-0042
+  report: corpus/reports/wave-1/02-greco-roman.md
+  why:
+  - stratified-10pct
+- uid: u-0057
+  report: corpus/reports/wave-1/03-nietzsche.md
+  why:
+  - stratified-10pct
+- uid: u-0065
+  report: corpus/reports/wave-1/03-nietzsche.md
+  why:
+  - stratified-10pct
+- uid: u-0082
+  report: corpus/reports/wave-1/05-near-eastern-abrahamic.md
+  why:
+  - stratified-10pct
+- uid: u-0084
+  report: corpus/reports/wave-1/05-near-eastern-abrahamic.md
+  why:
+  - stratified-10pct
+- uid: u-0092
+  report: corpus/reports/wave-1/05-near-eastern-abrahamic.md
+  why:
+  - stratified-10pct
+- uid: u-0105
+  report: corpus/reports/wave-1/06-modern-west.md
+  why:
+  - oversample:apocryphal
+- uid: u-0113
+  report: corpus/reports/wave-1/06-modern-west.md
+  why:
+  - stratified-10pct
+- uid: u-0118
+  report: corpus/reports/wave-1/06-modern-west.md
+  why:
+  - stratified-10pct
+- uid: u-0119
+  report: corpus/reports/wave-1/06-modern-west.md
+  why:
+  - stratified-10pct
+- uid: u-0120
+  report: corpus/reports/wave-1/06-modern-west.md
+  why:
+  - stratified-10pct
+- uid: u-0134
+  report: corpus/reports/wave-1/06-modern-west.md
+  why:
+  - stratified-10pct
+- uid: u-0147
+  report: corpus/reports/wave-1/06-modern-west.md
+  why:
+  - stratified-10pct
+- uid: u-0154
+  report: corpus/reports/wave-1/07-literary.md
+  why:
+  - stratified-10pct
+- uid: u-0157
+  report: corpus/reports/wave-1/07-literary.md
+  why:
+  - oversample:apocryphal
+- uid: u-0162
+  report: corpus/reports/wave-1/07-literary.md
+  why:
+  - stratified-10pct
+- uid: u-0171
+  report: corpus/reports/wave-1/08-empirical.md
+  why:
+  - stratified-10pct
+- uid: u-0186
+  report: corpus/reports/wave-2/01-eastern.md
+  why:
+  - stratified-10pct
+- uid: u-0191
+  report: corpus/reports/wave-2/01-eastern.md
+  why:
+  - stratified-10pct
+- uid: u-0200
+  report: corpus/reports/wave-2/01-eastern.md
+  why:
+  - stratified-10pct
+- uid: u-0207
+  report: corpus/reports/wave-2/02-african.md
+  why:
+  - stratified-10pct
+- uid: u-0220
+  report: corpus/reports/wave-2/03-indigenous.md
+  why:
+  - stratified-10pct
+- uid: u-0221
+  report: corpus/reports/wave-2/03-indigenous.md
+  why:
+  - stratified-10pct
+- uid: u-0222
+  report: corpus/reports/wave-2/03-indigenous.md
+  why:
+  - oversample:record-only-stub
+- uid: u-0223
+  report: corpus/reports/wave-2/03-indigenous.md
+  why:
+  - oversample:record-only-stub
+- uid: u-0232
+  report: corpus/reports/wave-2/03-indigenous.md
+  why:
+  - stratified-10pct
+- uid: u-0242
+  report: corpus/reports/wave-2/04-womens-voices.md
+  why:
+  - oversample:dubious
+- uid: u-0246
+  report: corpus/reports/wave-2/04-womens-voices.md
+  why:
+  - stratified-10pct
+- uid: u-0252
+  report: corpus/reports/wave-2/04-womens-voices.md
+  why:
+  - stratified-10pct
+- uid: u-0258
+  report: corpus/reports/wave-2/04-womens-voices.md
+  why:
+  - stratified-10pct
+- uid: u-0260
+  report: corpus/reports/wave-2/05-childhood-old-age.md
+  why:
+  - stratified-10pct
+- uid: u-0276
+  report: corpus/reports/wave-2/05-childhood-old-age.md
+  why:
+  - stratified-10pct
+- uid: u-0282
+  report: corpus/reports/wave-2/06-persian.md
+  why:
+  - stratified-10pct
+- uid: u-0285
+  report: corpus/reports/wave-2/06-persian.md
+  why:
+  - oversample:dubious
+- uid: u-0286
+  report: corpus/reports/wave-2/06-persian.md
+  why:
+  - oversample:dubious
+- uid: u-0287
+  report: corpus/reports/wave-2/06-persian.md
+  why:
+  - oversample:dubious
+- uid: u-0288
+  report: corpus/reports/wave-2/06-persian.md
+  why:
+  - oversample:dubious
+- uid: u-0293
+  report: corpus/reports/wave-2/06-persian.md
+  why:
+  - stratified-10pct
+- uid: u-0298
+  report: corpus/reports/wave-2/06-persian.md
+  why:
+  - stratified-10pct
+- uid: u-0309
+  report: corpus/reports/wave-2/07-practical-strategic.md
+  why:
+  - stratified-10pct
+- uid: u-0319
+  report: corpus/reports/wave-2/07-practical-strategic.md
+  why:
+  - stratified-10pct
+- uid: u-0326
+  report: corpus/reports/wave-2/07-practical-strategic.md
+  why:
+  - stratified-10pct
+- uid: u-0329
+  report: corpus/reports/wave-2/07-practical-strategic.md
+  why:
+  - stratified-10pct
+- uid: u-0335
+  report: corpus/reports/wave-2/07-practical-strategic.md
+  why:
+  - oversample:dubious
+- uid: u-0339
+  report: corpus/reports/wave-2/08-folk-proverbial.md
+  why:
+  - stratified-10pct
+- uid: u-0345
+  report: corpus/reports/wave-2/08-folk-proverbial.md
+  why:
+  - stratified-10pct
