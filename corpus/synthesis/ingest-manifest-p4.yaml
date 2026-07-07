@@ -1,0 +1,699 @@
+generated: '2026-07-08'
+next_id_after: u-0346
+reports:
+- report: 02-greco-roman
+  source: corpus/reports/wave-1/02-greco-roman.md
+  extract: corpus/synthesis/wave-1\02-extract.yaml
+  count: 23
+  units:
+  - rid: insight.flux.river
+    uid: u-0034
+  - rid: insight.character.fate
+    uid: u-0035
+  - rid: insight.cheerfulness.euthymia
+    uid: u-0036
+  - rid: insight.examined.life
+    uid: u-0037
+  - rid: insight.socratic.ignorance
+    uid: u-0038
+  - rid: insight.golden.mean
+    uid: u-0039
+  - rid: insight.virtue.habit
+    uid: u-0040
+  - rid: insight.eudaimonia.function
+    uid: u-0041
+  - rid: insight.eudaimonia.fragility
+    uid: u-0042
+  - rid: insight.be.good
+    uid: u-0043
+  - rid: insight.best.revenge
+    uid: u-0044
+  - rid: insight.death.nothing
+    uid: u-0045
+  - rid: insight.tetrapharmakos
+    uid: u-0046
+  - rid: insight.natural.desires
+    uid: u-0047
+  - rid: insight.swerve.freedom
+    uid: u-0048
+  - rid: insight.autarkeia.sunlight
+    uid: u-0049
+  - rid: insight.epoche.ataraxia
+    uid: u-0050
+  - rid: insight.death.lifelong.preparation
+    uid: u-0051
+  - rid: insight.count.no.man.happy
+    uid: u-0052
+  - rid: insight.observe.due.measure
+    uid: u-0053
+  - rid: insight.justice.dike
+    uid: u-0054
+  - rid: insight.golden.mean.horace
+    uid: u-0055
+  - rid: insight.sound.mind.body
+    uid: u-0056
+- report: 03-nietzsche
+  source: corpus/reports/wave-1/03-nietzsche.md
+  extract: corpus/synthesis/wave-1\03-extract.yaml
+  count: 17
+  units:
+  - rid: N-amor-fati-GS
+    uid: u-0057
+  - rid: N-eternal-recurrence
+    uid: u-0058
+  - rid: N-why-how
+    uid: u-0059
+  - rid: N-perspectivism
+    uid: u-0060
+  - rid: N-heraclitus-being
+    uid: u-0061
+  - rid: H-flux
+    uid: u-0062
+  - rid: H-strife
+    uid: u-0063
+  - rid: T-courage-reality
+    uid: u-0064
+  - rid: G-wholeness
+    uid: u-0065
+  - rid: D-psychology-criminal
+    uid: u-0066
+  - rid: S-dry-clear
+    uid: u-0067
+  - rid: M-honesty-cheer
+    uid: u-0068
+  - rid: E-self-reliance
+    uid: u-0069
+  - rid: Sp-no-teleology
+    uid: u-0070
+  - rid: FM-unmasking
+    uid: u-0071
+  - rid: He-divine-wickedness
+    uid: u-0072
+  - rid: Sch-honesty
+    uid: u-0073
+- report: 05-near-eastern-abrahamic
+  source: corpus/reports/wave-1/05-near-eastern-abrahamic.md
+  extract: corpus/synthesis/wave-1\05-extract.yaml
+  count: 30
+  units:
+  - rid: HW-01
+    uid: u-0074
+  - rid: HW-02
+    uid: u-0075
+  - rid: HW-03
+    uid: u-0076
+  - rid: HW-04
+    uid: u-0077
+  - rid: HW-05
+    uid: u-0078
+  - rid: HW-06
+    uid: u-0079
+  - rid: HW-08
+    uid: u-0080
+  - rid: HW-09
+    uid: u-0081
+  - rid: HW-10
+    uid: u-0082
+  - rid: HW-11
+    uid: u-0083
+  - rid: HW-14
+    uid: u-0084
+  - rid: ANE-01
+    uid: u-0085
+  - rid: ANE-02
+    uid: u-0086
+  - rid: ANE-03
+    uid: u-0087
+  - rid: ANE-04
+    uid: u-0088
+  - rid: ANE-05
+    uid: u-0089
+  - rid: ANE-06
+    uid: u-0090
+  - rid: ANE-07
+    uid: u-0091
+  - rid: CW-01
+    uid: u-0092
+  - rid: CW-02
+    uid: u-0093
+  - rid: CW-03
+    uid: u-0094
+  - rid: CW-04
+    uid: u-0095
+  - rid: CW-05
+    uid: u-0096
+  - rid: CW-06
+    uid: u-0097
+  - rid: CW-07
+    uid: u-0098
+  - rid: IS-01
+    uid: u-0099
+  - rid: IS-02
+    uid: u-0100
+  - rid: IS-03
+    uid: u-0101
+  - rid: IS-04
+    uid: u-0102
+  - rid: IS-06
+    uid: u-0103
+- report: 06-modern-west
+  source: corpus/reports/wave-1/06-modern-west.md
+  extract: corpus/synthesis/wave-1\06-extract.yaml
+  count: 45
+  units:
+  - rid: insight.montaigne.que_sais_je
+    uid: u-0104
+  - rid: practice.montaigne.imagined_misfortunes
+    uid: u-0105
+  - rid: insight.montaigne.belong_to_oneself
+    uid: u-0106
+  - rid: insight.larochefoucauld.virtues_vices
+    uid: u-0107
+  - rid: insight.larochefoucauld.amour_propre
+    uid: u-0108
+  - rid: insight.larochefoucauld.hypocrisy_homage
+    uid: u-0109
+  - rid: insight.larochefoucauld.others_misfortunes
+    uid: u-0110
+  - rid: insight.larochefoucauld.death_sun
+    uid: u-0111
+  - rid: insight.larochefoucauld.passions_duration
+    uid: u-0112
+  - rid: insight.labruyere.tout_est_dit
+    uid: u-0113
+  - rid: insight.labruyere.three_events
+    uid: u-0114
+  - rid: insight.vauvenargues.heart_thoughts
+    uid: u-0115
+  - rid: insight.vauvenargues.patience_hope
+    uid: u-0116
+  - rid: insight.chamfort.swallow_a_toad
+    uid: u-0117
+  - rid: insight.chamfort.day_without_laughter
+    uid: u-0118
+  - rid: insight.joubert.teaching_learning
+    uid: u-0119
+  - rid: insight.joubert.kindness_words
+    uid: u-0120
+  - rid: practice.bacon.studies_uses
+    uid: u-0121
+  - rid: insight.bacon.hostages_fortune
+    uid: u-0122
+  - rid: practice.bacon.reading_conference_writing
+    uid: u-0123
+  - rid: insight.pascal.divertissement
+    uid: u-0124
+  - rid: insight.pascal.heart_reasons
+    uid: u-0125
+  - rid: insight.pascal.thinking_reed
+    uid: u-0126
+  - rid: insight.spinoza.free_man_death
+    uid: u-0127
+  - rid: insight.spinoza.blessedness_virtue
+    uid: u-0128
+  - rid: insight.spinoza.understand_not_mock
+    uid: u-0129
+  - rid: insight.hume.reason_slave_passions
+    uid: u-0130
+  - rid: insight.smith.impartial_spectator
+    uid: u-0131
+  - rid: principle.kant.moral_law_within
+    uid: u-0132
+  - rid: principle.kant.humanity_end
+    uid: u-0133
+  - rid: parable.schopenhauer.porcupines
+    uid: u-0134
+  - rid: insight.schopenhauer.solitude_freedom
+    uid: u-0135
+  - rid: insight.mill.socrates_dissatisfied
+    uid: u-0136
+  - rid: principle.mill.liberty_harm
+    uid: u-0137
+  - rid: insight.emerson.self_reliance_conformity
+    uid: u-0138
+  - rid: insight.emerson.foolish_consistency
+    uid: u-0139
+  - rid: insight.emerson.trust_thyself
+    uid: u-0140
+  - rid: insight.thoreau.advance_confidently
+    uid: u-0141
+  - rid: practice.thoreau.simplify
+    uid: u-0142
+  - rid: insight.kierkegaard.understood_backwards
+    uid: u-0143
+  - rid: insight.james.will_to_believe
+    uid: u-0144
+  - rid: insight.weil.attention
+    uid: u-0145
+  - rid: insight.arendt.banality_evil
+    uid: u-0146
+  - rid: insight.camus.sisyphus_happy
+    uid: u-0147
+  - rid: insight.sartre.existence_essence
+    uid: u-0148
+- report: 07-literary
+  source: corpus/reports/wave-1/07-literary.md
+  extract: corpus/synthesis/wave-1\07-extract.yaml
+  count: 14
+  units:
+  - rid: insight.shakespeare.tomorrow_petty_pace
+    uid: u-0149
+  - rid: insight.sophocles.count_no_man_happy
+    uid: u-0150
+  - rid: insight.euripides.cleverness_not_wisdom
+    uid: u-0151
+  - rid: insight.euripides.gods_many_shapes
+    uid: u-0152
+  - rid: insight.tolstoy.happy_families
+    uid: u-0153
+  - rid: insight.tolstoy.what_men_live_by
+    uid: u-0154
+  - rid: insight.dostoevsky.guilty_for_all
+    uid: u-0155
+  - rid: insight.austen.truth_universally_acknowledged
+    uid: u-0156
+  - rid: insight.hugo.face_of_god_MISATTRIB
+    uid: u-0157
+  - rid: insight.keats.beauty_is_truth
+    uid: u-0158
+  - rid: insight.tennyson.loved_and_lost
+    uid: u-0159
+  - rid: insight.dickinson.hope_feathers
+    uid: u-0160
+  - rid: insight.whitman.contain_multitudes
+    uid: u-0161
+  - rid: insight.proverb.look_before_leap_vs_hesitates
+    uid: u-0162
+- report: 08-empirical
+  source: corpus/reports/wave-1/08-empirical.md
+  extract: corpus/synthesis/wave-1\08-extract.yaml
+  count: 20
+  units:
+  - rid: F2
+    uid: u-0163
+  - rid: F3
+    uid: u-0164
+  - rid: F6
+    uid: u-0165
+  - rid: F7
+    uid: u-0166
+  - rid: F8
+    uid: u-0167
+  - rid: F9
+    uid: u-0168
+  - rid: F10
+    uid: u-0169
+  - rid: F13
+    uid: u-0170
+  - rid: F15
+    uid: u-0171
+  - rid: F16
+    uid: u-0172
+  - rid: F17
+    uid: u-0173
+  - rid: F18
+    uid: u-0174
+  - rid: F20
+    uid: u-0175
+  - rid: F21
+    uid: u-0176
+  - rid: F22
+    uid: u-0177
+  - rid: F22b
+    uid: u-0178
+  - rid: F23
+    uid: u-0179
+  - rid: F24
+    uid: u-0180
+  - rid: F25
+    uid: u-0181
+  - rid: F26
+    uid: u-0182
+- report: wave-2/01-eastern
+  source: corpus/reports/wave-2/01-eastern.md
+  extract: corpus/synthesis/wave-2\01-extract.yaml
+  count: 22
+  units:
+  - rid: cn-analects-1524-shu
+    uid: u-0183
+  - rid: cn-mencius-2a6-sprouts
+    uid: u-0184
+  - rid: cn-xunzi-23-nature
+    uid: u-0185
+  - rid: cn-ddj-37-wuwei
+    uid: u-0186
+  - rid: cn-ddj-64-journey
+    uid: u-0187
+  - rid: cn-zhuangzi-butterfly
+    uid: u-0188
+  - rid: cn-hanfeizi-twohandles
+    uid: u-0189
+  - rid: in-gita-247-karmayoga
+    uid: u-0190
+  - rid: in-dhammapada-005-hatred
+    uid: u-0191
+  - rid: in-dhammapada-001-mind
+    uid: u-0192
+  - rid: in-fournobletruths
+    uid: u-0193
+  - rid: in-yogasutra-12-nirodha
+    uid: u-0194
+  - rid: in-kural-forbearance
+    uid: u-0195
+  - rid: in-katha-1314-razor
+    uid: u-0196
+  - rid: in-chandogya-687-tattvamasi
+    uid: u-0197
+  - rid: in-isha-1-renunciation
+    uid: u-0198
+  - rid: bd-shantideva-62-patience
+    uid: u-0199
+  - rid: bd-nagarjuna-emptiness
+    uid: u-0200
+  - rid: jp-dogen-genjokoan-self
+    uid: u-0201
+  - rid: jp-monono-aware
+    uid: u-0202
+  - rid: jp-kenko-uncertainty
+    uid: u-0203
+  - rid: jp-hagakure-death
+    uid: u-0204
+- report: 02-african
+  source: corpus/reports/wave-2/02-african.md
+  extract: corpus/synthesis/wave-2\02-extract.yaml
+  count: 10
+  units:
+  - rid: insight.ubuntu.person
+    uid: u-0205
+  - rid: insight.mbiti.we.are
+    uid: u-0206
+  - rid: dilemma.menkiti.personhood
+    uid: u-0207
+  - rid: insight.gyekye.partial.constitution
+    uid: u-0208
+  - rid: dilemma.ori.ese
+    uid: u-0209
+  - rid: practice.sankofa
+    uid: u-0210
+  - rid: insight.igbo.palm.oil
+    uid: u-0211
+  - rid: insight.anansi.wit
+    uid: u-0212
+  - rid: practice.mwana.kupona
+    uid: u-0213
+  - rid: virtue.tutu.ubuntu
+    uid: u-0214
+- report: 03-indigenous
+  source: corpus/reports/wave-2/03-indigenous.md
+  extract: corpus/synthesis/wave-2\03-extract.yaml
+  count: 24
+  units:
+  - rid: haudenosaunee-seven-generations
+    uid: u-0215
+  - rid: haudenosaunee-lyons-future-generations
+    uid: u-0216
+  - rid: haudenosaunee-two-row-wampum
+    uid: u-0217
+  - rid: lakota-mitakuye-oyasin
+    uid: u-0218
+  - rid: lakota-white-hat-translation
+    uid: u-0219
+  - rid: dine-hozho
+    uid: u-0220
+  - rid: dine-self-empowerment
+    uid: u-0221
+  - rid: dine-winter-stories
+    uid: u-0222
+  - rid: aboriginal-dreaming
+    uid: u-0223
+  - rid: aboriginal-country-custodianship
+    uid: u-0224
+  - rid: maori-kaitiakitanga
+    uid: u-0225
+  - rid: maori-te-awa-tupua
+    uid: u-0226
+  - rid: maori-river-ancestor
+    uid: u-0227
+  - rid: maori-he-tangata
+    uid: u-0228
+  - rid: inuit-qaujimajatuqangit
+    uid: u-0229
+  - rid: inuit-avatittinnik-kamatsiarniq
+    uid: u-0230
+  - rid: sami-birgejupmi
+    uid: u-0231
+  - rid: sami-meahcci
+    uid: u-0232
+  - rid: sami-lahi-attaldat
+    uid: u-0233
+  - rid: sami-boazolihkku
+    uid: u-0234
+  - rid: sami-yoik
+    uid: u-0235
+  - rid: andean-ayni
+    uid: u-0236
+  - rid: andean-sumak-kawsay
+    uid: u-0237
+  - rid: potawatomi-honorable-harvest
+    uid: u-0238
+- report: 04-womens-voices
+  source: corpus/reports/wave-2/04-womens-voices.md
+  extract: corpus/synthesis/wave-2\04-extract.yaml
+  count: 21
+  units:
+  - rid: enheduanna.voice_from_exile
+    uid: u-0239
+  - rid: sappho.fr31.desire_phenomenology
+    uid: u-0240
+  - rid: hypatia.public_reason
+    uid: u-0241
+  - rid: diotima.ladder_of_love
+    uid: u-0242
+  - rid: banzhao.educate_daughters
+    uid: u-0243
+  - rid: seishonagon.attention_as_discrimination
+    uid: u-0244
+  - rid: murasaki.defense_of_fiction
+    uid: u-0245
+  - rid: hildegard.viriditas
+    uid: u-0246
+  - rid: julian.all_shall_be_well
+    uid: u-0247
+  - rid: teresa.nada_te_turbe
+    uid: u-0248
+  - rid: depizan.sex_not_measure_of_character
+    uid: u-0249
+  - rid: astell.born_free_born_slaves
+    uid: u-0250
+  - rid: wollstonecraft.reason_over_charm
+    uid: u-0251
+  - rid: fuller.let_them_be_sea_captains
+    uid: u-0252
+  - rid: beauvoir.becomes_woman
+    uid: u-0253
+  - rid: murdoch.unselfing
+    uid: u-0254
+  - rid: midgley.philosophy_as_plumbing
+    uid: u-0255
+  - rid: rabia.love_without_motive
+    uid: u-0256
+  - rid: akkamahadevi.renounce_the_perishable
+    uid: u-0257
+  - rid: gilligan.different_voice
+    uid: u-0258
+  - rid: friedman.degender_care
+    uid: u-0259
+- report: 05-childhood-old-age
+  source: corpus/reports/wave-2/05-childhood-old-age.md
+  extract: corpus/synthesis/wave-2\05-extract.yaml
+  count: 20
+  units:
+  - rid: blessing.priestly.num6
+    uid: u-0260
+  - rid: fable.aesop.moral-flag
+    uid: u-0261
+  - rid: child.teacher.wordsworth
+    uid: u-0262
+  - rid: child.teacher.matt18
+    uid: u-0263
+  - rid: youth.kipling.if
+    uid: u-0264
+  - rid: youth.chesterfield.undercut
+    uid: u-0265
+  - rid: youth.wallace.thisiswater
+    uid: u-0266
+  - rid: youth.panchatantra.niti
+    uid: u-0267
+  - rid: elder.cicero.four-charges
+    uid: u-0268
+  - rid: elder.cicero.character-not-age
+    uid: u-0269
+  - rid: elder.cicero.wisdom-not-strength
+    uid: u-0270
+  - rid: elder.cicero.actor-stage
+    uid: u-0271
+  - rid: elder.cicero.young-hope-old-attain
+    uid: u-0272
+  - rid: elder.statius.plant-trees
+    uid: u-0273
+  - rid: elder.baltes.soc
+    uid: u-0274
+  - rid: elder.erikson.integrity-despair
+    uid: u-0275
+  - rid: dying.byock.four-things
+    uid: u-0276
+  - rid: dying.ware.regrets
+    uid: u-0277
+  - rid: dying.gawande.authorship
+    uid: u-0278
+  - rid: child.bettelheim.enchantment
+    uid: u-0279
+- report: 06-persian
+  source: corpus/reports/wave-2/06-persian.md
+  extract: corpus/synthesis/wave-2\06-extract.yaml
+  count: 25
+  units:
+  - rid: ZO-01
+    uid: u-0280
+  - rid: ZO-02
+    uid: u-0281
+  - rid: ZO-03
+    uid: u-0282
+  - rid: ZO-04
+    uid: u-0283
+  - rid: ZO-05
+    uid: u-0284
+  - rid: KH-01
+    uid: u-0285
+  - rid: KH-02
+    uid: u-0286
+  - rid: KH-03
+    uid: u-0287
+  - rid: KH-04
+    uid: u-0288
+  - rid: KH-05
+    uid: u-0289
+  - rid: FE-01
+    uid: u-0290
+  - rid: FE-02
+    uid: u-0291
+  - rid: FE-03
+    uid: u-0292
+  - rid: FE-04
+    uid: u-0293
+  - rid: NI-01
+    uid: u-0294
+  - rid: NI-02
+    uid: u-0295
+  - rid: AT-01
+    uid: u-0296
+  - rid: AT-02
+    uid: u-0297
+  - rid: MU-01
+    uid: u-0298
+  - rid: MU-02
+    uid: u-0299
+  - rid: MU-03
+    uid: u-0300
+  - rid: MU-04
+    uid: u-0301
+  - rid: SA-01
+    uid: u-0302
+  - rid: SA-02
+    uid: u-0303
+  - rid: SA-03
+    uid: u-0304
+- report: 07-practical-strategic
+  source: corpus/reports/wave-2/07-practical-strategic.md
+  extract: corpus/synthesis/wave-2\07-extract.yaml
+  count: 31
+  units:
+  - rid: sun-01-deception
+    uid: u-0305
+  - rid: sun-02-subdue-without-fighting
+    uid: u-0306
+  - rid: sun-03-know-enemy-self
+    uid: u-0307
+  - rid: sun-04-no-prolonged-war
+    uid: u-0308
+  - rid: musashi-01-nine-principles
+    uid: u-0309
+  - rid: musashi-02-accept-death
+    uid: u-0310
+  - rid: musashi-03-see-large
+    uid: u-0311
+  - rid: kautilya-01-law-of-fish
+    uid: u-0312
+  - rid: kautilya-02-dandaniti
+    uid: u-0313
+  - rid: kautilya-03-sixfold-policy
+    uid: u-0314
+  - rid: kautilya-04-upeksha
+    uid: u-0315
+  - rid: melian-01-strong-weak
+    uid: u-0316
+  - rid: melian-02-hope-danger
+    uid: u-0317
+  - rid: gracian-01-suspense
+    uid: u-0318
+  - rid: gracian-02-do-and-seem
+    uid: u-0319
+  - rid: gracian-03-reality-appearance
+    uid: u-0320
+  - rid: gracian-04-cypher
+    uid: u-0321
+  - rid: gracian-05-knowledge-good-will
+    uid: u-0322
+  - rid: gracian-06-make-use-of-enemies
+    uid: u-0323
+  - rid: mach-prince-01-fox-lion
+    uid: u-0324
+  - rid: mach-prince-02-keep-faith
+    uid: u-0325
+  - rid: mach-prince-03-appear
+    uid: u-0326
+  - rid: mach-prince-04-feared-or-loved
+    uid: u-0327
+  - rid: mach-prince-05-cruelty-well-used
+    uid: u-0328
+  - rid: mach-disc-01-tumults
+    uid: u-0329
+  - rid: mach-disc-02-people-wiser
+    uid: u-0330
+  - rid: hippo-01-benefit-abstain
+    uid: u-0331
+  - rid: hippo-02-do-no-harm
+    uid: u-0332
+  - rid: hippo-03-confidentiality
+    uid: u-0333
+  - rid: galen-01-physician-philosopher
+    uid: u-0334
+  - rid: galen-02-marcus-epithet
+    uid: u-0335
+- report: 08-folk-proverbial
+  source: corpus/reports/wave-2/08-folk-proverbial.md
+  extract: corpus/synthesis/wave-2\08-extract.yaml
+  count: 11
+  units:
+  - rid: danger.illconsidered.action
+    uid: u-0336
+  - rid: insight.unity.concord
+    uid: u-0337
+  - rid: practice.gradualism.small.steps
+    uid: u-0338
+  - rid: practice.trust.tie.camel
+    uid: u-0339
+  - rid: insight.bird.in.hand
+    uid: u-0340
+  - rid: dilemma.haste.look.before.leap
+    uid: u-0341
+  - rid: dilemma.haste.hesitates.lost
+    uid: u-0342
+  - rid: dilemma.collab.many.hands
+    uid: u-0343
+  - rid: dilemma.collab.too.many.cooks
+    uid: u-0344
+  - rid: virtue.honesty.best.policy
+    uid: u-0345
+  - rid: danger.chickens.unhatched
+    uid: u-0346
