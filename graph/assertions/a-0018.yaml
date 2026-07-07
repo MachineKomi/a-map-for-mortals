@@ -1,0 +1,11 @@
+id: a-0018
+kind: editorial-synthesis
+text: "Every purchase is priced in hours of your one life — count them before you spend, on either counsel. (After Thoreau.)"
+claim_refs: [c-0017]
+mandatory_caveats:
+  - "After Thoreau"
+prohibited_phrasings: []
+status: approved-for-package-01v2
+adjudication_refs: ["ops/adjudications/2026-07-07-gateE-by060.md"]
+prov: {minted_by: "claude-code:gateE-v1", date: 2026-07-07}
+notes: "The page lesson: the book's application of c-0017 ('The true cost of a thing is the amount of life exchanged for it'). 'After Thoreau' is a mandatory caveat so the attribution of the underlying idea cannot be silently dropped while the book's phrasing remains. This replaces the raw Thoreau wording the quote linter caught in the round-1 sweep."

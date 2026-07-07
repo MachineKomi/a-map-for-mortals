@@ -1,0 +1,83 @@
+page: by-060-time
+form: comparison-columns
+edition: building-years-v0.1.1
+blocks:
+- type: assertion:source-summary
+  id: a-0017
+  field: intro
+  sources:
+    claim_refs:
+    - c-0003
+  adjudication:
+  - ops/adjudications/2026-07-07-gateE-by060.md
+  status: approved-for-package-01v2
+- type: editorial
+  field: intro
+  chars: 144
+- type: editorial
+  field: v
+  chars: 69
+- type: editorial
+  field: v
+  chars: 26
+- type: editorial
+  field: v
+  chars: 54
+- type: editorial
+  field: v
+  chars: 49
+- type: editorial
+  field: v
+  chars: 73
+- type: editorial
+  field: v
+  chars: 41
+- type: editorial
+  field: v
+  chars: 42
+- type: editorial
+  field: v
+  chars: 48
+- type: assertion:relation-summary
+  id: a-0019
+  field: caption
+  sources:
+    claim_refs:
+    - c-0004
+    - c-0018
+    relation_refs:
+    - e-0008
+  adjudication:
+  - ops/adjudications/2026-07-07-gateE-by060.md
+  status: approved-for-package-01v2
+- type: editorial
+  field: caption
+  chars: 135
+- type: assertion:editorial-synthesis
+  id: a-0018
+  field: lesson
+  sources:
+    claim_refs:
+    - c-0017
+  adjudication:
+  - ops/adjudications/2026-07-07-gateE-by060.md
+  status: approved-for-package-01v2
+- type: verbatim-quote
+  claim: c-0004
+  unit: u-0004
+  gate:
+    attribution: verified-primary
+    copyright: public-domain
+    checked_against: 'https://www.thelatinlibrary.com/horace/carm1.shtml · matched Latin: ''carpe diem, quam minimum
+      credula postero.'' — Englis'
+  excerpted: false
+- type: verbatim-quote
+  claim: c-0018
+  unit: u-0018
+  gate:
+    attribution: verified-primary
+    copyright: public-domain
+    checked_against: https://fr.wikisource.org/wiki/R%C3%A9flexions_et_Maximes_(Vauvenargues)/1-330 · Réflexions
+      et maximes in Œuvres de Vauv
+  excerpted: false
+furniture_strings: 12

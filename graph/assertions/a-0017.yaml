@@ -1,0 +1,11 @@
+id: a-0017
+kind: source-summary
+text: "Seneca's diagnosis stands at the head of the fork: it is not, he argues in On the Shortness of Life, that we are given too little time — it is that we waste so much of what we are given."
+claim_refs: [c-0003]
+mandatory_caveats: []
+prohibited_phrasings:
+  - "life is short, says Seneca"
+status: approved-for-package-01v2
+adjudication_refs: ["ops/adjudications/2026-07-07-gateE-by060.md"]
+prov: {minted_by: "claude-code:gateE-v1", date: 2026-07-07}
+notes: "Faithful to c-0003 ('Life is long enough; it is squandered attention and postponement that make it short'). The prohibited phrasing is the popular inversion — Seneca's point is precisely that life is NOT short."

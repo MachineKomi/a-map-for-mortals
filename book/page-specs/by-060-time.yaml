@@ -2,30 +2,35 @@ id: by-060-time
 stage: building-years
 sequence: 60
 form: comparison-columns
+traced: true
 refs: [c-0004, c-0018, c-0003, c-0017]
 register: {reading_level: adult, density: high, colour_energy: mid}
 copy:
   eyebrow: "FORK THREE · TIME, THE SCARCE THING"
   title: "Two counsels for the same hour"
   intro:
-    - "These are the years in which time becomes the scarce input of everything else. Seneca's diagnosis stands at the head of the fork: it is not, he argues in <em>On the Shortness of Life</em>, that we are given too little time — it is that we waste so much of what we are given. Then two counsels that flatly disagree about what to do with the hour in front of you."
+    - assert: a-0017
+    - editorial: "In the years when time becomes the scarce input of everything else, two counsels flatly disagree about what to do with the hour in front of you."
   columns:
     - title: "Seize the present"
       accent: pink
       quote_ref: c-0004
       rows:
-        - {h: "speaks to", v: "the postponer — the one whose real life is always scheduled for later"}
-        - {h: "trusts", v: "today; almost nothing else"}
-        - {h: "curdles into", v: "a life of small immediacies that never builds anything"}
-        - {h: "take it when", v: "your plans have quietly become the place you hide"}
+        - {h: "speaks to", v: {editorial: "the postponer — the one whose real life is always scheduled for later"}}
+        - {h: "trusts", v: {editorial: "today; almost nothing else"}}
+        - {h: "curdles into", v: {editorial: "a life of small immediacies that never builds anything"}}
+        - {h: "take it when", v: {editorial: "your plans have quietly become the place you hide"}}
     - title: "Work as if deathless"
       accent: orange
       quote_ref: c-0018
       rows:
-        - {h: "speaks to", v: "the builder — work that outlasts a season needs a horizon longer than one"}
-        - {h: "trusts", v: "the long arc; compounding; the unfinished"}
-        - {h: "curdles into", v: "precisely the postponement Seneca condemns"}
-        - {h: "take it when", v: "the work is worth more than the mood of the week"}
-  caption: "Comparison columns. Horace and Vauvenargues cannot both be followed in the same breath. The <b>speaks to / take it when</b> rows are editorial prompts — this book's hypotheses, not sourced findings; choosing is still yours."
-  lesson: "Every purchase is priced in hours of your one life — count them before you spend, on either counsel. (After Thoreau.)"
-notes: "Comparison-columns form (§6 D). Column quotes pulled via quote_ref through the print gate (Conington 1882; Lee 1903 — both verified PD). Lesson paraphrases c-0017's adjudicated claim. Tension mirrors e-0008 and e-0021."
+        - {h: "speaks to", v: {editorial: "the builder — work that outlasts a season needs a horizon longer than one"}}
+        - {h: "trusts", v: {editorial: "the long arc; compounding; the unfinished"}}
+        - {h: "curdles into", v: {editorial: "precisely the postponement Seneca condemns"}}
+        - {h: "take it when", v: {editorial: "the work is worth more than the mood of the week"}}
+  caption:
+    - assert: a-0019
+    - editorial: "The <b>speaks to / take it when</b> rows are editorial prompts — this book's hypotheses, not sourced findings; choosing is still yours."
+  lesson:
+    - assert: a-0018
+notes: "Comparison-columns form (§6 D). Migrated at Gate E (ops/adjudications/2026-07-07-gateE-by060.md): Seneca's diagnosis gated as a-0017, the tension claim as a-0019 (e-0008), the Thoreau-derived lesson as a-0018 with 'After Thoreau' a mandatory caveat. Column quotes pulled via quote_ref through the print gate (Conington 1882; Lee 1903 — both verified PD); row prompts remain declared editorial hypotheses. Tension mirrors e-0008 and e-0021."

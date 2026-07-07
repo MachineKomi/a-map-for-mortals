@@ -418,7 +418,8 @@ def render_traced_prose(spec, g):
 # Copy keys whose bare strings are visual furniture, not claim-bearing prose. Everything
 # else on a `traced: true` page must arrive as {editorial: ...} or {assert: a-xxxx} —
 # an unwrapped substantive string fails the build rather than slipping past adjudication.
-FURNITURE_KEYS = {"eyebrow", "title", "landmarks", "name"}  # landmarks = the journey-map's fork labels (the following pages' titles); name = a voice's source name (locator)
+FURNITURE_KEYS = {"eyebrow", "title", "landmarks", "name", "h"}  # landmarks = the journey-map's fork labels (the following pages' titles); name = a voice's source name (locator); h = a comparison-row's header label
+CONFIG_KEYS = {"accent", "quote_ref", "independence"}  # non-display tokens (style choices, graph refs) — pass through untraced; refs are gated where consumed
 
 
 def resolve_copy(node, g, ctx, key=None):
@@ -450,6 +451,8 @@ def resolve_copy(node, g, ctx, key=None):
     if isinstance(node, list):
         return [resolve_copy(v, g, ctx, key=key) for v in node]
     if isinstance(node, str):
+        if key in CONFIG_KEYS:
+            return node
         if key in FURNITURE_KEYS:
             ctx["furniture"] += 1
             ctx["page_text"].append(node)
@@ -489,12 +492,13 @@ def render_page(spec, g):
     if spec.get("form") and spec["form"] != "prose":
         fig = FORMS[spec["form"]](spec, g)
         body.append(f'<div class="fig">{fig}</div>')
+    _join = lambda v: " ".join(v) if isinstance(v, list) else v
     if c.get("caption"):
-        body.append(f'<div class="cap">{c["caption"]}</div>')
+        body.append(f'<div class="cap">{_join(c["caption"])}</div>')
     for para in c.get("outro", []):
         body.append(f'<p>{para}</p>')
     if c.get("lesson"):
-        body.append(f'<div class="lesson">{esc(c["lesson"])}</div>')
+        body.append(f'<div class="lesson">{esc(_join(c["lesson"]))}</div>')
     body.append('</div>')
     if traced:
         g.trace_sink = None
