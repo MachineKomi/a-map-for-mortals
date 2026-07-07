@@ -8,13 +8,13 @@ register: {reading_level: adult, density: mid, colour_energy: mid}
 verbatim_quotes: [c-0014, c-0015]
 copy:
   eyebrow: "FORK TWO · AMBITION AND PEACE"
-  title: "The wager and the desperation"
+  title: {editorial: "The wager and the desperation"}
   intro:
     - assert: a-0020
     - assert: a-0021
   spectra:
-    - left: "Striving"
-      right: "Contentment"
+    - left: {editorial: "Striving"}
+      right: {editorial: "Contentment"}
       left_curdle: {editorial: "Faust's forfeit — a life spent arriving, never living"}
       right_curdle: {editorial: "quiet desperation — resignation wearing peace's clothes"}
       note: {editorial: "The answer is a position, moved as life moves — and the ditches have more than one shape: compulsive striving, quiet resignation, perpetual deferral."}

@@ -2,6 +2,10 @@ page: by-040-ambition
 form: trade-off-spectrum
 edition: building-years-v0.2.0
 blocks:
+- type: editorial
+  field: title
+  chars: 29
+  text: The wager and the desperation
 - type: assertion:source-summary
   id: a-0020
   field: intro
@@ -22,17 +26,32 @@ blocks:
   - ops/adjudications/2026-07-07-gateE-by040-050.md
   status: approved-for-package-01v2
 - type: editorial
+  field: left
+  chars: 8
+  text: Striving
+- type: editorial
+  field: right
+  chars: 11
+  text: Contentment
+- type: editorial
   field: left_curdle
   chars: 53
+  text: Faust's forfeit — a life spent arriving, never living
 - type: editorial
   field: right_curdle
   chars: 55
+  text: quiet desperation — resignation wearing peace's clothes
 - type: editorial
   field: note
   chars: 149
+  text: 'The answer is a position, moved as life moves — and the ditches have more than one shape: compulsive striving,
+    quiet resignation, perpetual deferral.'
 - type: editorial
   field: caption
   chars: 248
+  text: A trade-off spectrum in <b>equal-status colour — neither pole is the wiser one here</b>. Both are goods;
+    both curdle. Where you stand is a decision that <b>tends</b> to be re-made each decade, and this corpus holds
+    honest voices for every position.
 - type: assertion:source-summary
   id: a-0022
   field: outro
@@ -45,6 +64,7 @@ blocks:
 - type: editorial
   field: lesson
   chars: 75
+  text: Ask of your striving what it is for; ask of your peace what it is avoiding.
 - type: verbatim-quote
   claim: c-0014
   unit: u-0014
@@ -69,4 +89,4 @@ blocks:
     checked_against: 'https://www.gutenberg.org/cache/epub/18269/pg18269.txt · Pascal''s Pensées, trans. W. F. Trotter,
       Project Gutenberg #1826'
   excerpted: false
-furniture_strings: 4
+furniture_strings: 1

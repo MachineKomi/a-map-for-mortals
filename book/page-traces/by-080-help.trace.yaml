@@ -4,8 +4,9 @@ edition: building-years-v0.2.0
 blocks:
 - type: editorial-furniture
   field: eyebrow
-- type: editorial-furniture
+- type: editorial
   field: title
+  text: Raising others without owning them
 - type: editorial-transition
   chars: 41
 - type: assertion:historical-interpretive

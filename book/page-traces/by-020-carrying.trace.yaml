@@ -3,8 +3,14 @@ form: convergence-map
 edition: building-years-v0.2.0
 blocks:
 - type: editorial
+  field: title
+  chars: 35
+  text: Do what is yours. Release the rest.
+- type: editorial
   field: intro
   chars: 140
+  text: The heaviest loads of these years — the mortgage, the marriage, the child, the work — are exactly the ones
+    whose outcomes you least control.
 - type: assertion:relation-summary
   id: a-0026
   field: intro
@@ -40,15 +46,19 @@ blocks:
 - type: editorial
   field: meta
   chars: 17
+  text: Stoic · c. 108 CE
 - type: editorial
   field: meta
   chars: 25
+  text: Mishnah, Avot · c. 200 CE
 - type: editorial
   field: meta
   chars: 45
+  text: hadith, at-Tirmidhi · chain grading contested
 - type: editorial
   field: meta
   chars: 28
+  text: Shakespeare · 1606 · lineage
 - type: assertion:relation-summary
   id: a-0028
   field: frays
@@ -67,6 +77,8 @@ blocks:
 - type: editorial
   field: caption
   chars: 175
+  text: 'Solid lines: <b>partial argued independence</b>. Dashed: <b>lineage</b> — an idea that travelled, a different
+    fact from one rediscovered. Convergence is robustness, not truth.'
 - type: verbatim-quote
   claim: c-0001
   unit: u-0001
@@ -91,4 +103,4 @@ blocks:
     checked_against: 'https://www.sefaria.org/Pirkei_Avot.2.16 · Torat Emet 357 (Public Domain) · matched text:
       ''לֹא עָלֶיךָ הַמְּלָאכָה לִגְמ'
   excerpted: false
-furniture_strings: 6
+furniture_strings: 5

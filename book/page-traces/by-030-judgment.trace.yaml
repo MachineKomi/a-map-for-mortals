@@ -3,11 +3,28 @@ form: node-card
 edition: building-years-v0.2.0
 blocks:
 - type: editorial
+  field: title
+  chars: 30
+  text: The weight is partly a verdict
+- type: assertion:source-summary
+  id: a-0029
+  field: claim_label
+  sources:
+    claim_refs:
+    - c-0002
+  adjudication:
+  - ops/adjudications/2026-07-07-gateE-by030.md
+  - ops/adjudications/2026-07-07-external-review-round-3-response.md
+  status: approved-for-package-02v1
+- type: editorial
   field: intro
-  chars: 168
+  chars: 154
+  text: 'Underneath the division of labour sits a stranger claim: much of what crushes is not the event but the
+    verdict we pass on it. Marcus Aurelius, to himself:'
 - type: editorial
   field: meta
   chars: 34
+  text: Meditations 4.7 · trans. Long 1862
 - type: assertion:source-summary
   id: a-0008
   field: gloss
@@ -20,6 +37,7 @@ blocks:
 - type: editorial
   field: meta
   chars: 37
+  text: Enchiridion 1 · trans. Higginson 1865
 - type: assertion:relation-summary
   id: a-0009
   field: gloss
@@ -34,7 +52,8 @@ blocks:
   status: approved-for-package-01v2
 - type: editorial
   field: bend
-  chars: 177
+  chars: 76
+  text: Taken neat, it curdles into gaslighting yourself — some complaints are true.
 - type: assertion:historical-interpretive
   id: a-0010
   field: bend
@@ -47,6 +66,7 @@ blocks:
 - type: editorial
   field: caption
   chars: 85
+  text: 'A wisdom-node card: one claim, its voices, where it bends, and an honest trust label.'
 - type: verbatim-quote
   claim: c-0002
   unit: u-0002
@@ -59,8 +79,8 @@ blocks:
     checked_against: https://www.gutenberg.org/cache/epub/15877/pg15877.txt · Thoughts of Marcus Aurelius Antoninus,
       trans. George Long, Proj
   excerpted: false
-- type: derived-card-furniture
+- type: derived-card-provenance
   claim: c-0002
   kicker: WISDOM NODE · PRUDENTIAL · CONDITIONAL
   pill: text checked to George Long 1862 · 1 source voice behind this claim in the corpus · see where it bends
-furniture_strings: 4
+furniture_strings: 3

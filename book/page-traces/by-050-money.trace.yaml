@@ -2,6 +2,10 @@ page: by-050-money
 form: threshold-curve
 edition: building-years-v0.2.0
 blocks:
+- type: editorial
+  field: title
+  chars: 43
+  text: What money tracks — a contested association
 - type: assertion:source-summary
   id: a-0023
   field: intro
@@ -14,15 +18,28 @@ blocks:
 - type: editorial
   field: band_label
   chars: 40
+  text: 'flattening band
+
+    ($100k–$200k,
+
+    contested)'
 - type: editorial
   field: main_label
   chars: 28
+  text: 'upper quantiles:
+
+    keep rising'
 - type: editorial
   field: minority_label
   chars: 37
+  text: 'lower quantiles:
+
+    flatter above ~$100k'
 - type: editorial
   field: caption
   chars: 127
+  text: <b>Schematic curves — one model's direction, not plotted data; competing analyses place the flattening differently
+    (below).</b>
 - type: assertion:source-summary
   id: a-0024
   field: caption
@@ -61,4 +78,4 @@ blocks:
     checked_against: 'https://www.gutenberg.org/cache/epub/10741/pg10741.txt · The Essays of Arthur Schopenhauer:
       The Wisdom of Life, trans. T'
   excerpted: false
-furniture_strings: 4
+furniture_strings: 3

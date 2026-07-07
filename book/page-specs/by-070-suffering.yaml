@@ -7,7 +7,7 @@ refs: [c-0008, c-0023, c-0030, c-0031]
 register: {reading_level: adult, density: high, colour_energy: low}
 copy:
   eyebrow: "FORK FOUR · THE WEIGHT THAT STRENGTHENS?"
-  title: "Does the load make you stronger?"
+  title: {editorial: "Does the load make you stronger?"}
   intro:
     - editorial: "One of the oldest consolations this corpus holds says the load itself teaches — printed here <em>with its asterisk</em>, because the evidence cuts both ways."
   kicker: {editorial: "WISDOM NODE · CONTESTED · PRINTED WITH ITS ASTERISK"}

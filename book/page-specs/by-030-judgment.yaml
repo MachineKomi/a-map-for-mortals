@@ -3,15 +3,16 @@ stage: building-years
 sequence: 30
 form: node-card
 traced: true
-card_claim: c-0002
+card_provenance: c-0002   # derives the kicker + trust pill from c-0002's type/verification (provenance display only — NEVER renders the raw claim text; round-3 P0-4)
 refs: [c-0002, c-0001]
 verbatim_quotes: [c-0002]
 register: {reading_level: adult, density: mid, colour_energy: mid}
 copy:
   eyebrow: "FORK ONE · THE ENGINE UNDERNEATH"
-  title: "The weight is partly a verdict"
+  title: {editorial: "The weight is partly a verdict"}
+  claim_label: {assert: a-0029}
   intro:
-    - editorial: "Underneath the division of labour sits a stranger claim: that much of what crushes is not the event but the sentence we pass on it. Marcus Aurelius, writing to himself:"
+    - editorial: "Underneath the division of labour sits a stranger claim: much of what crushes is not the event but the verdict we pass on it. Marcus Aurelius, to himself:"
   voices:
     - name: "Marcus Aurelius"
       meta: {editorial: "Meditations 4.7 · trans. Long 1862"}
@@ -20,8 +21,8 @@ copy:
       meta: {editorial: "Enchiridion 1 · trans. Higginson 1865"}
       gloss: {assert: a-0009}
   bend:
-    - editorial: "This is counsel for the weight you must carry anyway, not a licence to call real injuries imaginary. Taken neat, it curdles into gaslighting yourself — some complaints are true."
+    - editorial: "Taken neat, it curdles into gaslighting yourself — some complaints are true."
     - assert: a-0010
   caption:
     editorial: "A wisdom-node card: one claim, its voices, where it bends, and an honest trust label."
-notes: "Node-card form (§6 D). Migrated at Gate E (ops/adjudications/2026-07-07-gateE-by030.md): kicker/claim-label/pill now DERIVED from c-0002 + u-0002 via card_claim (cannot drift from the store); glosses and the contested-boundary claim are gated assertions a-0008..a-0010; the unsupported 'in an army camp' detail removed. Marcus's verbatim wording enters through the declared verbatim_quotes gate."
+notes: "Node-card form (§6 D). ROUND-3 P0-4 (ops/adjudications/2026-07-07-external-review-round-3-response.md): the claim label was previously rendered from the raw claim c-0002 via card_claim (a raw-claim publication path). It now routes through approved assertion a-0029, which carries the scope exclusion (abuse / material injury / preventable institutional harm) in the claim's own text — not only in the bend. card_provenance derives the kicker + trust pill from c-0002's type/verification (provenance display only). Glosses and the contested-boundary claim are gated a-0008..a-0010; Marcus's verbatim wording enters through verbatim_quotes."

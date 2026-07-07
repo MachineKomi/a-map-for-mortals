@@ -3,12 +3,25 @@ form: journey-map
 edition: building-years-v0.2.0
 blocks:
 - type: editorial
+  field: title
+  chars: 34
+  text: How do I carry what I've taken on?
+- type: editorial
   field: intro
   chars: 261
+  text: By now the choosing has mostly been done. A trade, a place, perhaps a person; debts, dependants, a name
+    that others rely on. The question of these years is no longer <em>which life?</em> but <em>how to carry this
+    one</em> — and what carrying it well even means.
 - type: editorial
   field: intro
   chars: 421
+  text: That sketch fits some lives and not others — people arrive here late, or twice, or never, and the load is
+    not the same in every hand. These stages are lenses, not a timetable. Five forks define the terrain. None of
+    them resolves; each is a tension you will hold, in your own proportions, for twenty years. The voices gathered
+    in this chapter disagree about every one of them — which is exactly why they are worth mapping.
 - type: editorial
   field: caption
   chars: 129
-furniture_strings: 7
+  text: The road through the Building Years. Each fork glyph marks a tension mapped in this chapter — <b>tendencies,
+    never destinies</b>.
+furniture_strings: 6

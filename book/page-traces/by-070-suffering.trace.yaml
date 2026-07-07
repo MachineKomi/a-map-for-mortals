@@ -3,11 +3,18 @@ form: node-card
 edition: building-years-v0.2.0
 blocks:
 - type: editorial
+  field: title
+  chars: 32
+  text: Does the load make you stronger?
+- type: editorial
   field: intro
   chars: 157
+  text: One of the oldest consolations this corpus holds says the load itself teaches — printed here <em>with its
+    asterisk</em>, because the evidence cuts both ways.
 - type: editorial
   field: kicker
   chars: 51
+  text: WISDOM NODE · CONTESTED · PRINTED WITH ITS ASTERISK
 - type: assertion:editorial-synthesis
   id: a-0011
   field: claim_label
@@ -23,6 +30,7 @@ blocks:
 - type: editorial
   field: meta
   chars: 32
+  text: Agamemnon 176–183 · trans. Smyth
 - type: assertion:source-summary
   id: a-0012
   field: gloss
@@ -35,6 +43,7 @@ blocks:
 - type: editorial
   field: meta
   chars: 39
+  text: Twilight of the Idols · trans. Ludovici
 - type: assertion:source-summary
   id: a-0013
   field: gloss
@@ -59,9 +68,11 @@ blocks:
 - type: editorial
   field: bend
   chars: 90
+  text: Quoted alone, either voice claims more than its own story supports — that is the asterisk.
 - type: editorial
   field: evidence_head
   chars: 20
+  text: What the studies add
 - type: assertion:source-summary
   id: a-0015
   field: evidence
@@ -84,4 +95,6 @@ blocks:
 - type: editorial
   field: pill
   chars: 112
-furniture_strings: 4
+  text: texts checked (Smyth · Ludovici) · claim contested — the evidence cuts both ways · print only with this
+    asterisk
+furniture_strings: 3

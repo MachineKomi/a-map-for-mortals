@@ -2,6 +2,10 @@ page: by-060-time
 form: comparison-columns
 edition: building-years-v0.2.0
 blocks:
+- type: editorial
+  field: title
+  chars: 30
+  text: Two counsels for the same hour
 - type: assertion:source-summary
   id: a-0017
   field: intro
@@ -14,30 +18,48 @@ blocks:
 - type: editorial
   field: intro
   chars: 144
+  text: In the years when time becomes the scarce input of everything else, two counsels flatly disagree about what
+    to do with the hour in front of you.
+- type: editorial
+  field: title
+  chars: 17
+  text: Seize the present
 - type: editorial
   field: v
   chars: 69
+  text: the postponer — the one whose real life is always scheduled for later
 - type: editorial
   field: v
   chars: 26
+  text: today; almost nothing else
 - type: editorial
   field: v
   chars: 54
+  text: a life of small immediacies that never builds anything
 - type: editorial
   field: v
   chars: 49
+  text: your plans have quietly become the place you hide
+- type: editorial
+  field: title
+  chars: 20
+  text: Work as if deathless
 - type: editorial
   field: v
   chars: 73
+  text: the builder — work that outlasts a season needs a horizon longer than one
 - type: editorial
   field: v
   chars: 41
+  text: the long arc; compounding; the unfinished
 - type: editorial
   field: v
   chars: 42
+  text: precisely the postponement Seneca condemns
 - type: editorial
   field: v
   chars: 48
+  text: the work is worth more than the mood of the week
 - type: assertion:relation-summary
   id: a-0019
   field: caption
@@ -53,6 +75,8 @@ blocks:
 - type: editorial
   field: caption
   chars: 135
+  text: The <b>speaks to / take it when</b> rows are editorial prompts — this book's hypotheses, not sourced findings;
+    choosing is still yours.
 - type: assertion:editorial-synthesis
   id: a-0018
   field: lesson
@@ -86,4 +110,4 @@ blocks:
     checked_against: https://fr.wikisource.org/wiki/R%C3%A9flexions_et_Maximes_(Vauvenargues)/1-330 · Réflexions
       et maximes in Œuvres de Vauv
   excerpted: false
-furniture_strings: 12
+furniture_strings: 9

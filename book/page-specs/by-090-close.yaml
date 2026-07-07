@@ -8,7 +8,7 @@ register: {reading_level: adult, density: low, colour_energy: low}
 verbatim_quotes: [c-0025]
 copy:
   eyebrow: "THE BUILDING YEARS · A QUIET CLOSE"
-  title: "The unhistoric years"
+  title: {editorial: "The unhistoric years"}
   intro:
     - editorial: "Most of what these two decades build will never be visible. No map of a life should pretend otherwise — or pretend it matters less for that."
     - assert: a-0006

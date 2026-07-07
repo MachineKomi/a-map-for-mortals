@@ -8,7 +8,7 @@ register: {reading_level: adult, density: high, colour_energy: mid}
 verbatim_quotes: [c-0001, c-0010]
 copy:
   eyebrow: "FORK ONE · CARRYING AND RELEASING"
-  title: "Do what is yours. Release the rest."
+  title: {editorial: "Do what is yours. Release the rest."}
   intro:
     - editorial: "The heaviest loads of these years — the mortgage, the marriage, the child, the work — are exactly the ones whose outcomes you least control."
     - assert: a-0026

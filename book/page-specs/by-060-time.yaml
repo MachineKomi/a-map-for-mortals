@@ -7,12 +7,12 @@ refs: [c-0004, c-0018, c-0003, c-0017]
 register: {reading_level: adult, density: high, colour_energy: mid}
 copy:
   eyebrow: "FORK THREE · TIME, THE SCARCE THING"
-  title: "Two counsels for the same hour"
+  title: {editorial: "Two counsels for the same hour"}
   intro:
     - assert: a-0017
     - editorial: "In the years when time becomes the scarce input of everything else, two counsels flatly disagree about what to do with the hour in front of you."
   columns:
-    - title: "Seize the present"
+    - title: {editorial: "Seize the present"}
       accent: pink
       quote_ref: c-0004
       rows:
@@ -20,7 +20,7 @@ copy:
         - {h: "trusts", v: {editorial: "today; almost nothing else"}}
         - {h: "curdles into", v: {editorial: "a life of small immediacies that never builds anything"}}
         - {h: "take it when", v: {editorial: "your plans have quietly become the place you hide"}}
-    - title: "Work as if deathless"
+    - title: {editorial: "Work as if deathless"}
       accent: orange
       quote_ref: c-0018
       rows:

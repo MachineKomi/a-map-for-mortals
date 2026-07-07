@@ -8,7 +8,7 @@ register: {reading_level: adult, density: high, colour_energy: low}
 verbatim_quotes: [c-0013]
 copy:
   eyebrow: "FORK TWO · WHAT THE STUDIES SAY ABOUT MONEY"
-  title: "What money tracks — a contested association"
+  title: {editorial: "What money tracks — a contested association"}
   intro:
     - assert: a-0023
   x_label: "household income (log scale)"

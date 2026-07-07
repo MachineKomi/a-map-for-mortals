@@ -327,17 +327,18 @@ def form_comparison_columns(spec, g):
 
 def form_node_card(spec, g):
     """Wisdom-node card: claim, voices, where it bends, robustness pill; optional evidence strip.
-    With `card_claim: c-xxxx` on the spec, the kicker, claim label and trust pill are
-    DERIVED from the store (claim fields + the member unit's verification) so the card's
-    machine-looking labels can never drift from the graph."""
+    The claim label ALWAYS comes from an approved assertion in the spec (resolved upstream) —
+    a raw claim's canonical text is NEVER rendered (round-3 P0-4). `card_provenance: c-xxxx`
+    optionally DERIVES the kicker and trust pill from the claim's type/verification (provenance
+    display only, no claim wording), so those machine-looking labels can't drift from the store."""
     c = spec["copy"]
-    cid = spec.get("card_claim")
+    claim_label = c["claim_label"]  # already an approved-assertion string (resolve_copy)
+    cid = spec.get("card_provenance")
     if cid:
         cl = g.claims.get(cid)
         if cl is None or cl.get("status") != "adjudicated":
-            raise PrintGateError(f"CLAIM GATE: card_claim {cid} missing or not adjudicated (page {spec['id']})")
+            raise PrintGateError(f"CLAIM GATE: card_provenance {cid} missing or not adjudicated (page {spec['id']})")
         kicker = f"WISDOM NODE · {str(cl.get('claim_type', '')).upper()} · {str(cl.get('conditionality', '')).upper()}"
-        claim_label = cl["canonical_claim"]
         u = g.unit_for(cid)
         v = u.get("verification") or {}
         src = u.get("source", {})
@@ -350,10 +351,10 @@ def form_node_card(spec, g):
         n = len(cl.get("member_units") or [])
         pill = f"{checked} · {n} source voice{'s' if n != 1 else ''} behind this claim in the corpus · see where it bends"
         if g.trace_sink is not None:
-            g.trace_sink["blocks"].append({"type": "derived-card-furniture", "claim": cid,
+            g.trace_sink["blocks"].append({"type": "derived-card-provenance", "claim": cid,
                                            "kicker": kicker, "pill": pill})
     else:
-        kicker, claim_label, pill = c["kicker"], c["claim_label"], c["pill"]
+        kicker, pill = c["kicker"], c["pill"]
     bend = c["bend"]
     if isinstance(bend, list):
         bend = " ".join(bend)
@@ -420,7 +421,7 @@ def render_traced_prose(spec, g):
         trace["blocks"].append({"type": "editorial-furniture", "field": "eyebrow"})
     if c.get("title"):
         body.append(f'<h2 class="title">{esc(c["title"])}</h2>')
-        trace["blocks"].append({"type": "editorial-furniture", "field": "title"})
+        trace["blocks"].append({"type": "editorial", "field": "title", "text": c["title"]})  # round-3 P0-4: title is editorial voice, not furniture
     used_assertions = []
     page_text_parts = []
     for item in spec.get("body", []):
@@ -466,18 +467,26 @@ def render_traced_prose(spec, g):
     return "".join(body), trace
 
 
-# Copy keys whose bare strings are visual furniture, not claim-bearing prose. Everything
-# else on a `traced: true` page must arrive as {editorial: ...} or {assert: a-xxxx} —
-# an unwrapped substantive string fails the build rather than slipping past adjudication.
-FURNITURE_KEYS = {"eyebrow", "title", "landmarks", "name", "h"}  # landmarks = the journey-map's fork labels (the following pages' titles); name = a voice's source name (locator); h = a comparison-row's header label
-CONFIG_KEYS = {"accent", "quote_ref", "independence"}  # non-display tokens (style choices, graph refs) — pass through untraced; refs are gated where consumed
-FURNITURE_KEYS |= {"left", "right", "x_label", "y_label"}  # spectrum pole names and chart axis names — labels, like landmarks/column titles
+# Round-3 P0-4: furniture is restricted to identifiers with NO propositional content —
+# running headers, navigation labels, object names, source/axis locators, structural row
+# headers. Titles and spectrum poles were removed: they often carry the page's strongest
+# claim, so they must arrive classified as {editorial: ...} or {assert: a-xxxx}. An unwrapped
+# substantive string fails the build rather than slipping past adjudication as "furniture".
+FURNITURE_KEYS = {
+    "eyebrow",      # running section label (e.g. "FORK ONE · CARRYING AND RELEASING")
+    "landmarks",    # journey-map navigation labels = the following pages' fork titles
+    "name",         # a voice's source name (locator, e.g. "Epictetus")
+    "h",            # a comparison-row header label ("speaks to", "trusts")
+    "x_label", "y_label",  # chart axis names (locators)
+}
+CONFIG_KEYS = {"accent", "quote_ref", "independence"}  # non-display tokens (style/graph refs) — pass through untraced; refs are gated where consumed
 
 
 def resolve_copy(node, g, ctx, key=None):
     """Recursively resolve a page-spec copy tree for a traced page.
     {assert: a-xxxx} -> approved assertion text (gated); {editorial: "..."} -> the string,
-    recorded as editorial voice. Bare strings survive only under FURNITURE_KEYS."""
+    recorded as editorial voice. Bare strings survive only under FURNITURE_KEYS. There is NO
+    raw-claim render path (round-3 P0-4): a claim may inform an assertion but never renders."""
     if isinstance(node, dict):
         if "assert" in node and set(node) <= {"assert", "as"}:
             a = g.approved_assertion(node["assert"])
@@ -489,16 +498,14 @@ def resolve_copy(node, g, ctx, key=None):
             ctx["page_text"].append(a["text"])
             return a["text"]
         if "editorial" in node and set(node) <= {"editorial"}:
-            ctx["trace"]["blocks"].append({"type": "editorial", "field": key, "chars": len(node["editorial"])})
+            ctx["trace"]["blocks"].append({"type": "editorial", "field": key, "chars": len(node["editorial"]),
+                                           "text": node["editorial"]})
             ctx["page_text"].append(node["editorial"])
             return node["editorial"]
-        if "claim" in node and set(node) <= {"claim"}:
-            cl = g.claims.get(node["claim"])
-            if cl is None or cl.get("status") != "adjudicated":
-                raise PrintGateError(f"CLAIM GATE: {node['claim']} missing or not adjudicated (page {ctx['trace']['page']})")
-            ctx["trace"]["blocks"].append({"type": "claim-render", "id": cl["id"], "field": key, "status": cl["status"]})
-            ctx["page_text"].append(cl["canonical_claim"])
-            return cl["canonical_claim"]
+        if "claim" in node:
+            raise PrintGateError(
+                f"UNTRACED CLAIM: raw-claim render path is disabled (round-3 P0-4) on page "
+                f"{ctx['trace']['page']} under '{key}' — route the claim through an approved assertion.")
         return {k: resolve_copy(v, g, ctx, key=k) for k, v in node.items()}
     if isinstance(node, list):
         return [resolve_copy(v, g, ctx, key=key) for v in node]
@@ -615,7 +622,7 @@ em {{ color:{INK}; }}
 /* node card */
 .card {{ border:1.5px solid {LINE}; border-radius:16px; background:{PANEL};
   padding:18px 20px 16px; break-inside:avoid; }}
-.claim {{ font-family:'Lora'; font-weight:600; font-size:16.5pt; line-height:1.24; color:{INK}; margin:2px 0 12px; }}
+.claim {{ font-family:'Lora'; font-weight:600; font-size:14.5pt; line-height:1.22; color:{INK}; margin:2px 0 11px; }}
 .card-sub {{ font-family:'Poppins'; font-size:8.6pt; letter-spacing:1px; color:{INK3};
   text-transform:uppercase; margin-bottom:8px; }}
 .voices {{ display:grid; grid-template-columns:1fr 1fr; gap:9px 15px; }}

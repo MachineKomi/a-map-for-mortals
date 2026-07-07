@@ -3,8 +3,14 @@ form: prose
 edition: building-years-v0.2.0
 blocks:
 - type: editorial
+  field: title
+  chars: 20
+  text: The unhistoric years
+- type: editorial
   field: intro
   chars: 140
+  text: Most of what these two decades build will never be visible. No map of a life should pretend otherwise —
+    or pretend it matters less for that.
 - type: assertion:source-summary
   id: a-0006
   field: intro
@@ -28,6 +34,8 @@ blocks:
 - type: editorial
   field: outro
   chars: 168
+  text: 'To this book''s editorial eye — a judgment, not a finding — it is the Building Years'' truest sentence:
+    the work was not required to be finished, and it was not put down.'
 - type: verbatim-quote
   claim: c-0025
   unit: u-0025
@@ -40,4 +48,4 @@ blocks:
     checked_against: 'https://www.gutenberg.org/cache/epub/145/pg145.txt · Project Gutenberg #145, Middlemarch,
       George Eliot (public domain) ·'
   excerpted: false
-furniture_strings: 2
+furniture_strings: 1
