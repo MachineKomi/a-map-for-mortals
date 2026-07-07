@@ -8,8 +8,8 @@ source:
   author: Nietzsche
   work: On the Genealogy of Morals
   passage: "Third Essay §12"
-  translator: Horace B. Samuel   # per report; report itself flags 'verify exact Samuel wording against the primary'
-  edition_year: 1913
+  translator: null   # CORRECTED 2026-07-07 (Gate C rerun): report credited Samuel (1913) but the held wording is a different (Kaufmann-style) rendering — do NOT credit Samuel on non-Samuel text; true PD translator unidentified until Gate F line-match
+  edition_year: null
   language: de
   url: null
   urn: null
@@ -28,10 +28,10 @@ verification:
   method: "attested by wave-1 report; wording not yet checked against a primary edition"
   checked_against: null
   date: null
-copyright_flag: unknown
+copyright_flag: in-copyright   # CORRECTED 2026-07-07: held wording resembles the in-copyright Kaufmann rendering, not PD Samuel — in-copyright until a PD translator is line-matched
 prov:
   source_report: corpus/reports/wave-1/03-nietzsche.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
   date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
-notes: "Report grade: probable (verify exact Samuel wording against the primary) — Stage-2 lead: line-match Samuel's Genealogy III §12; upgrades from probable on match. Re-derivation: report claim_type 'metaphysical/epistemic' → enum metaphysical (epistemic hybrid noted); conditionality 'categorical within his epistemology' → universal-ish. COPYRIGHT: Samuel 1913 would be PD, but wording unverified against Samuel — flag unknown until line-matched. WATCHLIST (related, distinct): 'There are no facts, only interpretations' is genuine but NACHLASS (1886–87 notebook), not published doctrine — do not merge with this published unit; Nachlass/Will-to-Power quarantine applies there."
+notes: "GATE C RERUN MATERIAL FIX 2026-07-07 (round-3 P0-1, full-batch re-audit): the `source.translator: Horace B. Samuel` field was FALSE — the held wording ('only a perspective seeing, only a perspective knowing...') is a Kaufmann-style rendering, not Samuel's 1913 diction. Field cleared to null, copyright_flag set in-copyright; the wording must NOT be printed until Samuel's GM III §12 PD text is line-matched at Gate F (upgrading copyright to PD), or the held wording is replaced with a verified PD rendering. Report grade: probable. Re-derivation: claim_type metaphysical (epistemic hybrid noted); conditionality universal-ish. WATCHLIST (related, distinct): 'There are no facts, only interpretations' is genuine but NACHLASS (1886–87 notebook), not published doctrine — do not merge with this published unit."

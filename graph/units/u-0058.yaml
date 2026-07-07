@@ -8,8 +8,8 @@ source:
   author: Nietzsche
   work: The Gay Science
   passage: "§341 'The Heaviest Burden'"
-  translator: Thomas Common   # per report; wording unconfirmed against Common's PD text — see notes
-  edition_year: 1910
+  translator: null   # CORRECTED 2026-07-07 (Gate C rerun): report credited Common but the held wording is a different (Kaufmann-style) rendering — do NOT credit Common on non-Common text; the real PD translator is unidentified until Gate F line-match
+  edition_year: null
   language: de
   url: null
   urn: null
@@ -28,10 +28,10 @@ verification:
   method: "attested by wave-1 report; wording not yet checked against a primary edition"
   checked_against: null
   date: null
-copyright_flag: unknown
+copyright_flag: in-copyright   # CORRECTED 2026-07-07: the held wording resembles the in-copyright Kaufmann rendering, not PD Common — treat as in-copyright until a PD translator is line-matched
 prov:
   source_report: corpus/reports/wave-1/03-nietzsche.md
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
   date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
-notes: "Report grade: verified. NACHLASS CAVEAT: in the published works eternal recurrence is a life-test ('a test of life-affirmation, not a metaphysical proof'); the cosmological version appears mainly in the unpublished Nachlass and must be handled separately. WILL-TO-POWER QUARANTINE: never cite the Förster-Nietzsche/Gast 'Will to Power' compilation (Colli/Montinari: 'historic forgery') as doctrinal support for recurrence. Ecce Homo (on Zarathustra §1) calls it the 'highest possible formula of affirmation'. Quote is elided in the report (ellipsis preserved). Re-derivation: report register 'thought-experiment' not in schema enum → parable; report claim_type 'normative (life-test); NOT asserted as cosmology' → normative. COPYRIGHT CAVEAT: report credits Common (1910) but the wording's modern 'you' does not read like Common's archaic diction — line-match vs Gutenberg #52124 (Joyful Wisdom) before print; PD alternative (Common) exists. life_stages derived (extract gave none)."
+notes: "GATE C RERUN MATERIAL FIX 2026-07-07 (round-3 P0-1, full-batch re-audit): the `source.translator: Thomas Common` field was FALSE — the held wording ('What if a demon were to creep after you...', modern 'you') is a Kaufmann-style rendering, not Common's archaic 'thou/thee' diction, as this unit's own prior notes already conceded. Field cleared to null and copyright_flag set in-copyright; the wording must NOT be printed until Common's §341 PD text (Gutenberg #52124) is line-matched at Gate F, or the held wording is re-credited to its true (in-copyright) translator and replaced with a PD rendering. Report grade: verified [NOTE: that grade is exactly the over-trust this rerun corrects]. NACHLASS CAVEAT: in the published works eternal recurrence is a life-test, not a metaphysical proof; the cosmological version is mainly Nachlass. WILL-TO-POWER QUARANTINE: never cite the Förster-Nietzsche/Gast 'Will to Power' compilation as doctrinal support. Ecce Homo (on Zarathustra §1) calls it the 'highest possible formula of affirmation'. Quote elided in the report (ellipsis preserved). Re-derivation: register 'thought-experiment' → parable; claim_type normative (life-test), NOT cosmology. life_stages derived."

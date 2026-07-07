@@ -7,9 +7,9 @@ quotation_translation: "Whoever interrupts the conversation of others to make a 
 source:
   author: Saadi
   work: Gulistan
-  passage: "Ch. 8 'Rules for Conduct in Life', Maxim 82 (Ross 1900 #96)"
-  translator: James Ross
-  edition_year: 1900
+  passage: "Ch. 8 'Rules for Conduct in Life' (Ross 1900 #96); numbering varies by edition"
+  translator: null   # CORRECTED 2026-07-07 (Gate C rerun): the report NOMINATED Ross 1900 but the held wording is the Gladwin/Rehatsek-lineage phrasing common to several PD translations — which specific PD translator is unresolved, so the Ross credit is not asserted until Gate F line-match
+  edition_year: null
   language: fa
   url: null
   urn: null
@@ -34,4 +34,4 @@ prov:
   extracted_by: "claude-code:s1-p4-v1"
   pass: 2
   date: 2026-07-07  # corrected 2026-07-07: agent session-date error had future-stamped this
-notes: "FLAG FOR MERGE: overlaps the wave-1 Near-Eastern report (05); adab angle only. Report label: verified (recorded; kept attested pending primary check). Classic adab maxim; multiple PD translations with differing numbering: Gladwin 1806 #82, Eastwick 1852 #82, Burton 1888 #58, Ross 1900 #96 — wording here is Ross 1900, PD. Gulistan Ch. 4 ('On the Advantages of Silence') is the thematic home. Endorsement: endorsed — Saadi's direct authorial counsel in the maxims chapter, no dramatic frame."
+notes: "GATE C RERUN FIX 2026-07-07 (round-3 P0-1, full-batch re-audit): `translator: James Ross` was an UNVERIFIED structured field carrying a public-domain determination — the exact systemic weak layer. The report only nominated Ross 1900; the held wording ('makes notorious his own stock of ignorance') is the Gladwin/Rehatsek-lineage phrasing shared across several PD translations, so the specific translator is unresolved. Translator cleared to null pending a Gate F wording-match. copyright_flag KEPT public-domain because ALL candidate translators (Gladwin 1806 #82, Eastwick 1852 #82, Burton 1888 #58, Ross 1900 #96) are public-domain — so PD-in-outcome is safe even though the identity is not — but no verbatim may be printed as 'Ross' until matched. FLAG FOR MERGE: overlaps the wave-1 Near-Eastern report (05); adab angle only. Endorsement: endorsed — Saadi's direct authorial counsel in the maxims chapter."
