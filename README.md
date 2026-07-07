@@ -1,21 +1,59 @@
-# A Map for Mortals
+<p align="center">
+  <img src="assets/banner.svg" alt="A Map for Mortals — or, how to be a human" width="100%"/>
+</p>
 
-Human wisdom, mapped not as a list of answers but as **recurring forks** — the choices people face again and again, the tensions with no clean resolution, and the consequences that *tend*, on balance and over time, to follow. One versioned **wisdom graph** renders into three products, in order: a **print book**, a free **interactive website**, and a **text-first life-sim game** with text-to-speech.
+**A Map for Mortals** charts human wisdom not as a list of answers but as **recurring forks** — the choices people face again and again, the tensions with no clean resolution, and the consequences that *tend*, on balance and over time, to follow. Where the wise disagree, the map shows the fork and the conditions under which each side applies. It does not resolve real tensions into platitudes; a genuine disagreement, shown plainly, teaches more than a false peace.
 
-**The fixed star: truth above all else.** Tendencies, never destinies. Convergence is robustness, not truth; recurrence is resonance, not proof. Claim types kept honest; sources credited; dubious attributions flagged; dissent preserved.
+One versioned **wisdom graph** is the single source of truth. It renders into three things, in order: a **print book**, a free **interactive website**, and a **text-first life-sim game**.
 
-## Layout
-Root: `CLAUDE.md` (agent operating manual) · `STATE.md` (living ledger) · the three governing docs (REQUIREMENTS · SPEC · METHODOLOGY).
-`runbook/` the production phases · `prompts/` deep-research prompts · `corpus/` research reports + coverage index · `graph/` the canonical wisdom-graph store · `book/` generator, page-specs, renders · `ops/` escalations + decisions · `tools/` validators & scripts · `docs/` background & founding principles · `prototype/` archived v0.0.1 slice (locked copy).
+<p align="center">
+  <img src="assets/sample-opener.png" alt="Sample page — The Building Years chapter opener, a journey map through five forks" width="46%"/>
+  &nbsp;&nbsp;
+  <img src="assets/sample-asterisk-card.png" alt="Sample page — a wisdom-node card printing a contested claim with its evidence strip and an honest trust label" width="46%"/>
+</p>
+<p align="center"><sub><em>Two pages from the first rendered chapter. On the right: "suffering strengthens", printed <b>with its asterisk</b> —
+the empirical evidence that contests it, and a trust label that says so.</em></sub></p>
 
-## How it runs
-Claude Code executes `runbook/PRODUCTION-RUNBOOK.md` autonomously — ingestion, verification, graph-building, curation, rendering — with an adjudication protocol at every interpretive gate and an escalation queue for the genuinely contestable. Jason runs deep-research waves in Claude chat and reviews publish packages. Ship gate: `A-Map-for-Mortals-METHODOLOGY.md §8`.
+## The fixed star
+
+**Truth above all else.** Before ideology, aesthetics, comfort, sentiment, or marketability — and before whatever we would like to be true. Everything else in the method exists to protect that:
+
+- **Tendencies, never destinies.** Most wisdom is conditional and probabilistic; a choice tilts the odds, it does not command the outcome.
+- **Convergence is robustness, not truth.** When Epictetus, a rabbinic mishnah, and a hadith arrive at the same division of labour, that recurrence is *evidence to weigh* — and the map distinguishes ideas independently rediscovered from ideas that simply travelled.
+- **Every quotation is guarded.** Nothing prints verbatim unless its wording has been verified against a primary edition and is public domain or licensed. The build refuses otherwise — mechanically. Famous misattributions are collected, debunked, and kept as exhibits.
+- **Contradiction is data.** Dissent, minority readings, and failed replications are first-class objects in the graph, not problems to prune.
+
+## How it works
+
+```
+deep-research corpus  ──►  wisdom graph (YAML in git)  ──►  the book
+   15 reports,               units · claims · edges          page-specs → generator
+   ~75 traditions            every judgment carries          → PDF, every page
+                             provenance & confidence           visually inspected
+```
+
+Claude Code runs the pipeline autonomously — ingestion, primary-source verification, clustering, edge-building, curation, rendering — with an **adversarial second pass at every interpretive gate** and an escalation queue for the genuinely contestable. Every unit, claim, and edge in [`graph/`](graph/) records where it came from, who judged it, and how much to trust it. The audit trail lives in [`ops/`](ops/).
 
 ## Status
-Production build. Wave-1 research landed and validated; graph construction beginning.
+
+**Production build.** The corpus holds **346 sourced units** across ~75 traditions (Greco-Roman, Confucian, Daoist, Buddhist, Hindu, Hebrew, Christian, Islamic, Zoroastrian, African, eight named Indigenous peoples, the moralists, the strategists, the poets — and the modern empirical literature, replication crisis included). The first full chapter, *The Building Years*, is rendered and reviewed: [`book/renders/building-years-v0.1.0.pdf`](book/renders/building-years-v0.1.0.pdf). Currently under external adversarial review before scaling further.
+
+## Layout
+
+| | |
+|---|---|
+| [`graph/`](graph/) | **the store** — units, claims, edges; schema in `A-Map-for-Mortals-METHODOLOGY.md` |
+| [`book/`](book/) | generator, page-specs, renders — the book is *generated from the graph*, never hand-authored |
+| [`corpus/`](corpus/) | deep-research reports (as received) + the coverage index |
+| [`ops/`](ops/) | escalations, decisions, adjudication records — the audit trail |
+| [`docs/`](docs/) | founding principles (canonical) and background |
+| [`tools/`](tools/) | validators and pipeline scripts |
+| [`prototype/`](prototype/) | archived v0.0.1 hand-authored slice (locked) |
 
 ## Licence
-Three regimes, deliberately (see `LICENSE.md`): **code MIT** · **graph & book all rights reserved for now** (the book is generated from the graph, so opening the graph is opening the book — that irrevocable step waits until edition 1, with a declared presumption toward opening) · **corpus reports unlicensed, published for audit only**. Everything is publicly readable — auditability is the point.
+
+Three regimes, deliberately (see [`LICENSE.md`](LICENSE.md)): **code is MIT** · **graph & book are all rights reserved *for now*** — the book is generated from the graph, so opening the graph is opening the book; that irrevocable step waits until edition 1, with a declared presumption toward opening · **corpus reports are unlicensed, published for audit only**. Everything is publicly readable — auditability is the point.
 
 ---
-*Convergence is robustness, not truth. Recurrence is resonance, not proof.*
+
+<p align="center"><em>Convergence is robustness, not truth. Recurrence is resonance, not proof.</em></p>

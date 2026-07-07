@@ -1,0 +1,33 @@
+<svg viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A Map for Mortals">
+  <!-- The book's design system: navy ink, warm ivory, orange = the harder road, pink = the wiser path. -->
+  <rect width="1200" height="300" fill="#16223B"/>
+
+  <!-- faint north-star ring, right of centre -->
+  <g stroke="#4A546B" stroke-width="1" opacity="0.55">
+    <line x1="890" y1="150" x2="890" y2="40"/>
+    <line x1="890" y1="150" x2="890" y2="260"/>
+    <line x1="890" y1="150" x2="1000" y2="150"/>
+    <line x1="890" y1="150" x2="780" y2="150"/>
+    <line x1="890" y1="150" x2="968" y2="72"/>
+    <line x1="890" y1="150" x2="812" y2="228"/>
+    <line x1="890" y1="150" x2="968" y2="228"/>
+    <line x1="890" y1="150" x2="812" y2="72"/>
+  </g>
+  <circle cx="890" cy="150" r="86" fill="none" stroke="#4A546B" stroke-width="1" opacity="0.4"/>
+
+  <!-- the forking path inside the ring -->
+  <path d="M890,238 C890,205 890,190 890,172" fill="none" stroke="#EFB58A" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M890,172 C890,150 862,138 848,112" fill="none" stroke="#DD6A3B" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M890,172 C890,150 918,138 932,112" fill="none" stroke="#CF6A86" stroke-width="3.5" stroke-linecap="round"/>
+  <circle cx="890" cy="172" r="5.5" fill="#FBF7F0"/>
+  <circle cx="848" cy="112" r="6.5" fill="#DD6A3B"/>
+  <circle cx="932" cy="112" r="6.5" fill="#CF6A86"/>
+  <circle cx="890" cy="238" r="4.5" fill="#EFB58A"/>
+
+  <!-- wordmark -->
+  <text x="96" y="122" font-family="Georgia, 'Times New Roman', serif" font-size="58" font-weight="600" fill="#FBF7F0" letter-spacing="0.5">A Map for Mortals</text>
+  <rect x="99" y="146" width="54" height="2.5" fill="#CF6A86"/>
+  <text x="96" y="186" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="21" fill="#E9EDF4">or, how to be a human — the forks, the trade-offs,</text>
+  <text x="96" y="214" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="21" fill="#E9EDF4">and the gathered wisdom of those who walked ahead.</text>
+  <text x="96" y="262" font-family="Verdana, Geneva, sans-serif" font-size="11.5" letter-spacing="4" fill="#717A8C">TRUTH ABOVE ALL ELSE &#183; TENDENCIES, NEVER DESTINIES</text>
+</svg>
