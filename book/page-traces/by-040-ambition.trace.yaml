@@ -1,0 +1,66 @@
+page: by-040-ambition
+form: trade-off-spectrum
+edition: building-years-v0.1.1
+blocks:
+- type: assertion:source-summary
+  id: a-0020
+  field: intro
+  sources:
+    claim_refs:
+    - c-0022
+  adjudication:
+  - ops/adjudications/2026-07-07-gateE-by040-050.md
+  status: approved-for-package-01v2
+- type: assertion:source-summary
+  id: a-0021
+  field: intro
+  sources:
+    claim_refs:
+    - c-0014
+    - c-0015
+  adjudication:
+  - ops/adjudications/2026-07-07-gateE-by040-050.md
+  status: approved-for-package-01v2
+- type: editorial
+  field: left_curdle
+  chars: 53
+- type: editorial
+  field: right_curdle
+  chars: 55
+- type: editorial
+  field: note
+  chars: 149
+- type: editorial
+  field: caption
+  chars: 248
+- type: assertion:source-summary
+  id: a-0022
+  field: outro
+  sources:
+    claim_refs:
+    - c-0011
+  adjudication:
+  - ops/adjudications/2026-07-07-gateE-by040-050.md
+  status: approved-for-package-01v2
+- type: editorial
+  field: lesson
+  chars: 75
+- type: verbatim-quote
+  claim: c-0014
+  unit: u-0014
+  gate:
+    attribution: verified-primary
+    copyright: public-domain
+    checked_against: 'https://www.gutenberg.org/cache/epub/205/pg205.txt · Walden, and On The Duty Of Civil Disobedience,
+      Project Gutenberg #2'
+  excerpted: false
+- type: verbatim-quote
+  claim: c-0015
+  unit: u-0015
+  gate:
+    attribution: verified-primary
+    copyright: public-domain
+    checked_against: 'https://www.gutenberg.org/cache/epub/18269/pg18269.txt · Pascal''s Pensées, trans. W. F. Trotter,
+      Project Gutenberg #1826'
+  excerpted: false
+furniture_strings: 4

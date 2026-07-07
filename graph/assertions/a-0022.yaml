@@ -1,0 +1,12 @@
+id: a-0022
+kind: source-summary
+text: "An older voice refuses both ditches. Facing the same restlessness, Qoheleth counsels neither wager nor surrender but the ordinary table: take honest joy in food, drink, and the work of your hands, in the face of impermanence."
+claim_refs: [c-0011]
+mandatory_caveats:
+  - "in the face of impermanence"
+prohibited_phrasings:
+  - "eat, drink and be merry"
+status: approved-for-package-01v2
+adjudication_refs: ["ops/adjudications/2026-07-07-gateE-by040-050.md"]
+prov: {minted_by: "claude-code:gateE-v1", date: 2026-07-07}
+notes: "Close to c-0011's adjudicated wording. The v0.3 flourish 'because nothing lasts, not despite it' was DROPPED at Gate E: the held verse (Eccl 2:24, KJV wording) does not carry the causal clause, so the because-reading is not store-grounded. The prohibited phrasing guards the hedonist misquote conflation (that phrase is Isaiah 22:13/1 Cor 15:32 territory, not this verse)."

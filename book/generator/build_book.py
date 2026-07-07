@@ -420,6 +420,7 @@ def render_traced_prose(spec, g):
 # an unwrapped substantive string fails the build rather than slipping past adjudication.
 FURNITURE_KEYS = {"eyebrow", "title", "landmarks", "name", "h"}  # landmarks = the journey-map's fork labels (the following pages' titles); name = a voice's source name (locator); h = a comparison-row's header label
 CONFIG_KEYS = {"accent", "quote_ref", "independence"}  # non-display tokens (style choices, graph refs) — pass through untraced; refs are gated where consumed
+FURNITURE_KEYS |= {"left", "right"}  # spectrum pole names — labels, like landmarks/column titles
 
 
 def resolve_copy(node, g, ctx, key=None):

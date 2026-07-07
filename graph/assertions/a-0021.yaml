@@ -1,0 +1,12 @@
+id: a-0021
+kind: source-summary
+text: "Thoreau and Pascal chart the other ditch — though their ditches differ: one is resignation wearing routine, the other a life spent preparing to live."
+claim_refs: [c-0014, c-0015]
+mandatory_caveats:
+  - "their ditches differ"
+prohibited_phrasings:
+  - "say the same thing"
+status: approved-for-package-01v2
+adjudication_refs: ["ops/adjudications/2026-07-07-gateE-by040-050.md"]
+prov: {minted_by: "claude-code:gateE-v1", date: 2026-07-07}
+notes: "The distinctness caveat is the point: c-0014 (quiet, resigned desperation beneath unexamined routine) and c-0015 (always arranging to be happy, never living) are two different failure modes of the contentment-side pole, both cautionary; merging them would manufacture convergence."

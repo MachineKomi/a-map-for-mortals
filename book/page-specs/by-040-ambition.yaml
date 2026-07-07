@@ -2,6 +2,7 @@ id: by-040-ambition
 stage: building-years
 sequence: 40
 form: trade-off-spectrum
+traced: true
 refs: [c-0022, c-0014, c-0015, c-0011]
 register: {reading_level: adult, density: mid, colour_energy: mid}
 verbatim_quotes: [c-0014, c-0015]
@@ -9,15 +10,18 @@ copy:
   eyebrow: "FORK TWO · AMBITION AND PEACE"
   title: "The wager and the desperation"
   intro:
-    - "Goethe's Faust stakes his soul on never being satisfied — the moment he bids any instant linger, he is forfeit (pact-terms spoken by a complicated man whom the drama finally saves, not counsel). Thoreau and Pascal chart the other side — though their ditches differ: one is resignation wearing routine, the other a life spent preparing to live:"
+    - assert: a-0020
+    - assert: a-0021
   spectra:
     - left: "Striving"
       right: "Contentment"
-      left_curdle: "Faust's forfeit — a life spent arriving, never living"
-      right_curdle: "quiet desperation — resignation wearing peace's clothes"
-      note: "The answer is a position, moved as life moves — and the ditches have more than one shape: compulsive striving, quiet resignation, perpetual deferral."
-  caption: "A trade-off spectrum in <b>equal-status colour — neither pole is the wiser one here</b>. Both are goods; both curdle. Where you stand is a decision that <b>tends</b> to be re-made each decade, and this corpus holds honest voices for every position."
+      left_curdle: {editorial: "Faust's forfeit — a life spent arriving, never living"}
+      right_curdle: {editorial: "quiet desperation — resignation wearing peace's clothes"}
+      note: {editorial: "The answer is a position, moved as life moves — and the ditches have more than one shape: compulsive striving, quiet resignation, perpetual deferral."}
+  caption:
+    editorial: "A trade-off spectrum in <b>equal-status colour — neither pole is the wiser one here</b>. Both are goods; both curdle. Where you stand is a decision that <b>tends</b> to be re-made each decade, and this corpus holds honest voices for every position."
   outro:
-    - "An older voice refuses both ditches. Facing the same restlessness, Qoheleth counsels neither wager nor surrender but the ordinary table: take honest joy in food, drink, and the work of your hands — <em>because</em> nothing lasts, not despite it."
-  lesson: "Ask of your striving what it is for; ask of your peace what it is avoiding."
-notes: "Spectrum form (§6 B). Faust rendered as cautionary pact-terms per adjudication (c-0022 polarity: cautionary), never as counsel. Qoheleth paraphrase matches c-0011's adjudicated wording."
+    - assert: a-0022
+  lesson:
+    editorial: "Ask of your striving what it is for; ask of your peace what it is avoiding."
+notes: "Spectrum form (§6 B). Migrated at Gate E (ops/adjudications/2026-07-07-gateE-by040-050.md): Faust pact-terms and the two-ditches distinction gated as a-0020/a-0021; Qoheleth as a-0022 — the 'because nothing lasts, not despite it' flourish dropped (not grounded in the held verse). Pole names are furniture; curdle notes and lesson remain declared editorial. Equal-status neutral poles per SPEC §2 amendment."

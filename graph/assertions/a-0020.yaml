@@ -1,0 +1,13 @@
+id: a-0020
+kind: source-summary
+text: "Goethe's Faust stakes his soul on never being satisfied — the moment he bids any instant linger, he is forfeit. Pact-terms spoken by a complicated man whom the drama finally saves; a warning shape, not counsel."
+claim_refs: [c-0022]
+mandatory_caveats:
+  - "not counsel"
+prohibited_phrasings:
+  - "Goethe counsels"
+  - "Faust teaches us to"
+status: approved-for-package-01v2
+adjudication_refs: ["ops/adjudications/2026-07-07-gateE-by040-050.md"]
+prov: {minted_by: "claude-code:gateE-v1", date: 2026-07-07}
+notes: "Carries forward the round-1 Faust framing repair: c-0022 is polarity cautionary (dramatic pact-terms, not doctrine); Faust's salvation at the drama's end is the canonical plot fact that blocks reading the pact as endorsed counsel."
