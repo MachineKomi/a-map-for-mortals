@@ -8,7 +8,7 @@ source:
   author: "Maimonides (Moses ben Maimon)"
   work: "Mishneh Torah, Hilkhot Mattenot Aniyim"
   passage: "10:7"
-  translator: "Joseph B. Meszler (Gifts for the Poor, Williamsburg VA, 2003; via Sefaria, licence CC-BY)"
+  translator: "Joseph B. Meszler"
   edition_year: 2003
   language: he
   url: "https://www.sefaria.org/Mishneh_Torah,_Gifts_to_the_Poor.10.7"
@@ -28,7 +28,23 @@ verification:
   method: "S2 primary pass: Hebrew and all English versions fetched from the Sefaria API (2026-07-06); Hebrew held from heVersion 'Torat Emet 363' (Public Domain); previously held unattributed English snippet identified as the Touger translation (matched word-for-word, licence CC-BY-NC) and replaced with the Meszler translation (CC-BY) for print-gate compatibility (see notes)."
   checked_against: "https://www.sefaria.org/Mishneh_Torah,_Gifts_to_the_Poor.10.7 · Torat Emet 363 (Public Domain) · matched text: 'מַעֲלָה גְּדוֹלָה שֶׁאֵין לְמַעְלָה מִמֶּנָּה זֶה הַמַּחֲזִיק בְּיַד יִשְׂרָאֵל שֶׁמָּךְ וְנוֹתֵן לוֹ מַתָּנָה אוֹ הַלְוָאָה אוֹ עוֹשֶׂה עִמּוֹ שֻׁתָּפוּת אוֹ מַמְצִיא לוֹ מְלָאכָה' · held English matched against Sefaria version 'Gifts for the Poor, Trans. by Joseph B. Meszler, Williamsburg, Virginia, 2003' (licence CC-BY): 'The greatest level, higher than all the rest, is to fortify a fellow Jew and give him a gift, a loan, form with him a partnership, or find work for him, until he is strong enough so that he does not need to ask others [for sustenance].'"
   date: 2026-07-06
-copyright_flag: in-copyright   # held English is CC-BY: in copyright but freely licensed (print-usable with attribution — the print gate's 'or licensed' clause); Hebrew original PD; CC0 alternative in notes
+copyright_flag: in-copyright   # unit-level flag reflects the held ENGLISH being in-copyright; per-field rights below govern print-eligibility (P0-5 structured rights)
+rights:
+  quotation_translation:
+    status: licensed
+    spdx: CC-BY-4.0
+    licence_url: "https://creativecommons.org/licenses/by/4.0/"
+    licensor: "Joseph B. Meszler (Gifts for the Poor, 2003), via Sefaria"
+    commercial_use: true
+    attribution_required: true
+    attribution_text: "trans. Joseph B. Meszler, CC BY 4.0, via Sefaria"
+    modifications: none
+    checked_at: 2026-07-06
+    escalation: "E-0002 open — Jason may prefer the Sefaria Community Translation (CC0) over Meszler (CC-BY); both are print-eligible, so the gate passes either way"
+  quotation:
+    status: public-domain   # Hebrew, Torat Emet 363, PD
+    licence_url: null
+    checked_at: 2026-07-06
 prov:
   source_report: corpus/reports/wave-1/05-near-eastern-abrahamic.md
   extracted_by: "claude-code:s1-skeleton-v1"

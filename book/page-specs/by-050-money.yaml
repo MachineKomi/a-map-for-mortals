@@ -8,17 +8,17 @@ register: {reading_level: adult, density: high, colour_energy: low}
 verbatim_quotes: [c-0013]
 copy:
   eyebrow: "FORK TWO · WHAT THE STUDIES SAY ABOUT MONEY"
-  title: "What money does — a sketch of the findings"
+  title: "What money tracks — a contested association"
   intro:
     - assert: a-0023
   x_label: "household income (log scale)"
   y_label: "experienced well-being"
-  band_label: {editorial: "contested\nthreshold\n(~$100k?)"}
-  main_label: {editorial: "most people: keeps rising"}
-  minority_label: {editorial: "unhappiest ~15–20%: flattens"}
+  band_label: {editorial: "flattening band\n($100k–$200k,\ncontested)"}
+  main_label: {editorial: "upper quantiles:\nkeep rising"}
+  minority_label: {editorial: "lower quantiles:\nflatter above ~$100k"}
   caption:
-    - editorial: "<b>Schematic curves — the shapes illustrate the findings' direction, not plotted data.</b>"
+    - editorial: "<b>Schematic curves — one model's direction, not plotted data; competing analyses place the flattening differently (below).</b>"
     - assert: a-0024
   outro:
     - assert: a-0025
-notes: "Threshold-curve form (§6 C). Migrated at Gate E (ops/adjudications/2026-07-07-gateE-by040-050.md): findings caption gated as a-0024 — which repairs a v0.3 conflation (the 2024 reanalysis contests the threshold; the causal caution comes from the observational design); synthesis outro gated as a-0025, structured by e-0011/e-0012. Figure labels are editorial compressions of a-0024; axis labels are furniture. The qualifier structure mirrors edges e-0011/e-0012 exactly."
+notes: "Threshold-curve form (§6 C). RE-ADJUDICATED against verified primary sources 2026-07-07 (round-3 P0-7): labels use conditional-quantile language (not 'unhappiest ~15–20%', which read a distributional result as a subgroup of people — the exact overreading Rohrer & Wenz 2024 flag); band spans the contested $100k–$200k range (Bennedsen 2024); title now association language; a-0024/a-0025 re-adjudicated. OWED (not done): a first-class empirical dossier object and a chart that draws the competing model shape rather than one authoritative curve. See ops/adjudications/2026-07-07-gateE-by040-050.md."

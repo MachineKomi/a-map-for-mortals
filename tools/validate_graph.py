@@ -170,6 +170,7 @@ def main():
             check_dates(aid, a, "assertions")
 
     # --- interpretations + dossiers shape (v0.4 pilot contracts) ---
+    interp_ids, dossier_ids = set(), set()
     for sub, req in (("interpretations", ("unit_ref", "proposition", "claim_type", "scope", "adjudication_refs", "status")),
                      ("dossiers", ("target_ref", "source_frame", "findings", "permitted_inferences", "prohibited_inferences", "status"))):
         d = os.path.join(ROOT, "graph", sub)
@@ -179,6 +180,7 @@ def main():
                     continue
                 obj = yaml.safe_load(open(os.path.join(d, f), encoding="utf-8"))
                 oid = str(obj.get("id"))
+                (interp_ids if sub == "interpretations" else dossier_ids).add(oid)
                 if oid != os.path.splitext(f)[0]:
                     errors.append(f"{sub}/{f}: id != filename")
                 for r in req:
@@ -187,6 +189,32 @@ def main():
                 if sub == "interpretations" and obj.get("unit_ref") not in units:
                     errors.append(f"{sub}/{oid}: unit_ref {obj.get('unit_ref')} does not exist")
                 check_dates(oid, obj, sub)
+
+    # --- typed-reference RESOLUTION (round-3 P0-2): every typed ref must resolve to a real
+    #     object or on-disk file. The validator previously checked only that ref lists were
+    #     non-empty, which let 6 assertions cite a nonexistent adjudication file. ---
+    def resolve_refs(oid, obj, where):
+        for aref in (obj.get("adjudication_refs") or []):
+            if not os.path.exists(os.path.join(ROOT, str(aref))):
+                errors.append(f"{where}/{oid}: adjudication_ref '{aref}' does not exist on disk")
+        for rref in (obj.get("relation_refs") or []):
+            if rref not in edges:
+                errors.append(f"{where}/{oid}: relation_ref {rref} is not an edge")
+        for iref in (obj.get("interpretation_refs") or []):
+            if iref not in interp_ids:
+                errors.append(f"{where}/{oid}: interpretation_ref {iref} does not exist")
+        dref = obj.get("dossier_ref")
+        if dref and dref not in dossier_ids:
+            errors.append(f"{where}/{oid}: dossier_ref {dref} does not exist")
+    for aid, a in assertions.items():
+        resolve_refs(aid, a, "assertions")
+    for sub, ids in (("interpretations", interp_ids), ("dossiers", dossier_ids)):
+        d = os.path.join(ROOT, "graph", sub)
+        if os.path.isdir(d):
+            for f in sorted(os.listdir(d)):
+                if f.endswith(".yaml"):
+                    obj = yaml.safe_load(open(os.path.join(d, f), encoding="utf-8"))
+                    resolve_refs(str(obj.get("id")), obj, sub)
 
     # --- page-spec validation + quote linter ---
     specdir = os.path.join(ROOT, "book", "page-specs")

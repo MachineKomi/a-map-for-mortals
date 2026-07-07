@@ -48,18 +48,24 @@ blocks:
 - type: verbatim-quote
   claim: c-0014
   unit: u-0014
+  field: quotation
   gate:
     attribution: verified-primary
     copyright: public-domain
+    rights_status: unit-flag:public-domain
+    spdx: null
     checked_against: 'https://www.gutenberg.org/cache/epub/205/pg205.txt · Walden, and On The Duty Of Civil Disobedience,
       Project Gutenberg #2'
   excerpted: false
 - type: verbatim-quote
   claim: c-0015
   unit: u-0015
+  field: quotation_translation
   gate:
     attribution: verified-primary
     copyright: public-domain
+    rights_status: unit-flag:public-domain
+    spdx: null
     checked_against: 'https://www.gutenberg.org/cache/epub/18269/pg18269.txt · Pascal''s Pensées, trans. W. F. Trotter,
       Project Gutenberg #1826'
   excerpted: false

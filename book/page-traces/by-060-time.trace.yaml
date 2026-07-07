@@ -65,18 +65,24 @@ blocks:
 - type: verbatim-quote
   claim: c-0004
   unit: u-0004
+  field: quotation_translation
   gate:
     attribution: verified-primary
     copyright: public-domain
+    rights_status: unit-flag:public-domain
+    spdx: null
     checked_against: 'https://www.thelatinlibrary.com/horace/carm1.shtml · matched Latin: ''carpe diem, quam minimum
       credula postero.'' — Englis'
   excerpted: false
 - type: verbatim-quote
   claim: c-0018
   unit: u-0018
+  field: quotation_translation
   gate:
     attribution: verified-primary
     copyright: public-domain
+    rights_status: unit-flag:public-domain
+    spdx: null
     checked_against: https://fr.wikisource.org/wiki/R%C3%A9flexions_et_Maximes_(Vauvenargues)/1-330 · Réflexions
       et maximes in Œuvres de Vauv
   excerpted: false

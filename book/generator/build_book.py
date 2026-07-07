@@ -42,6 +42,50 @@ class PrintGateError(RuntimeError):
     pass
 
 
+# SPDX ids whose licences permit verbatim commercial reuse with attribution and WITHOUT a
+# share-alike/non-commercial burden a printed book cannot carry. Deliberately narrow —
+# CC-BY-NC (non-commercial), CC-BY-SA (share-alike), CC-BY-ND (no-derivs) are excluded.
+PRINT_OK_SPDX = {"CC0-1.0", "CC-BY-4.0", "CC-BY-3.0", "CC-BY-2.5", "CC-BY-2.0"}
+
+
+def check_rights(u, field, cid):
+    """P0-5 rights gate. Returns an attribution string to append to the credit (may be ''),
+    or raises PrintGateError. A quote is print-eligible only when EITHER the unit is
+    public-domain with no field-specific override, OR the quoted FIELD carries a structured
+    rights record whose SPDX id is on the print-OK whitelist with commercial use allowed and
+    an attribution line present. No substring tests, no notes, no cross-field leakage."""
+    rights = (u.get("rights") or {}).get(field)
+    if rights is not None:
+        status = rights.get("status")
+        if status == "public-domain":
+            return ""
+        if status != "licensed":
+            raise PrintGateError(
+                f"RIGHTS GATE REFUSAL: {u['id']}.{field} rights.status '{status}' is not "
+                f"'licensed' or 'public-domain' (for {cid}).")
+        spdx = rights.get("spdx")
+        if spdx not in PRINT_OK_SPDX:
+            raise PrintGateError(
+                f"RIGHTS GATE REFUSAL: {u['id']}.{field} licence '{spdx}' is not on the "
+                f"print-OK whitelist {sorted(PRINT_OK_SPDX)} (for {cid}).")
+        if not rights.get("commercial_use"):
+            raise PrintGateError(
+                f"RIGHTS GATE REFUSAL: {u['id']}.{field} ({spdx}) does not permit commercial use (for {cid}).")
+        attribution = rights.get("attribution_text")
+        if rights.get("attribution_required", True) and not attribution:
+            raise PrintGateError(
+                f"RIGHTS GATE REFUSAL: {u['id']}.{field} ({spdx}) requires attribution but "
+                f"rights.attribution_text is missing (for {cid}).")
+        return attribution or ""
+    # no field-specific rights record: fall back to the unit-level flag, PD only.
+    flag = u.get("copyright_flag")
+    if flag == "public-domain":
+        return ""
+    raise PrintGateError(
+        f"RIGHTS GATE REFUSAL: {u['id']} is {flag} and its quoted field '{field}' has no "
+        f"structured rights record (for {cid}) — verbatim quotation forbidden.")
+
+
 class Graph:
     def __init__(self):
         self.units, self.claims, self.assertions = {}, {}, {}
@@ -85,13 +129,15 @@ class Graph:
         Raises PrintGateError if the unit does not qualify."""
         u = self.unit_for(cid)
         conf = u.get("attribution_confidence")
-        flag = u.get("copyright_flag")
-        licensed = "cc-by" in str(u.get("notes", "")).lower()
-        if conf != "verified-primary" or (flag != "public-domain" and not licensed):
+        if conf != "verified-primary":
             raise PrintGateError(
-                f"PRINT GATE REFUSAL: {u['id']} (for {cid}) is {conf}/{flag} - "
+                f"PRINT GATE REFUSAL: {u['id']} (for {cid}) is {conf} - "
                 f"verbatim quotation forbidden. Use a paraphrase block instead.")
-        text = u.get("quotation_translation") or u.get("quotation")
+        # pick the field being quoted, then check field-specific rights (P0-5 fix:
+        # rights are per-field, structured — never a substring test over free-text notes).
+        field = "quotation_translation" if u.get("quotation_translation") else "quotation"
+        text = u.get(field)
+        attribution = check_rights(u, field, cid)  # raises on failure; returns credit suffix or ""
         if excerpt:
             for seg in excerpt.replace("...", "…").split("…"):
                 seg = seg.strip()
@@ -105,10 +151,15 @@ class Graph:
             credit += f" {s['passage']}"
         if s.get("translator"):
             credit += f" · trans. {s['translator']}"
+        if attribution:
+            credit += f" · {attribution}"
         if self.trace_sink is not None:
+            field_rights = (u.get("rights") or {}).get(field) or {}
             self.trace_sink["blocks"].append({
-                "type": "verbatim-quote", "claim": cid, "unit": u["id"],
-                "gate": {"attribution": conf, "copyright": flag,
+                "type": "verbatim-quote", "claim": cid, "unit": u["id"], "field": field,
+                "gate": {"attribution": conf, "copyright": u.get("copyright_flag"),
+                         "rights_status": field_rights.get("status") or f"unit-flag:{u.get('copyright_flag')}",
+                         "spdx": field_rights.get("spdx"),
                          "checked_against": (u.get("verification") or {}).get("checked_against", "")[:120]},
                 "excerpted": bool(excerpt)})
             self.trace_sink["_page_text"].append(text)
@@ -230,8 +281,8 @@ def form_spectrum(spec, g):
 def form_threshold_curve(spec, g):
     """Dose-response with an honest contested band (SPEC §6 C)."""
     c = spec["copy"]
-    W, H = 760, 350
-    x0, y0, x1, y1 = 90, 296, 700, 52
+    W, H = 760, 300
+    x0, y0, x1, y1 = 90, 250, 700, 46
     b = [f'<line x1="{x0}" y1="{y0}" x2="{x1}" y2="{y0}" stroke="{INK2}" stroke-width="1.6"/>',
          f'<line x1="{x0}" y1="{y0}" x2="{x0}" y2="{y1}" stroke="{INK2}" stroke-width="1.6"/>',
          tlines(c["x_label"], (x0 + x1) / 2, y0 + 34, 0, 11, INK2, 500),

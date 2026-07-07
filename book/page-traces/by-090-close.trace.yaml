@@ -31,9 +31,12 @@ blocks:
 - type: verbatim-quote
   claim: c-0025
   unit: u-0025
+  field: quotation
   gate:
     attribution: verified-primary
     copyright: public-domain
+    rights_status: unit-flag:public-domain
+    spdx: null
     checked_against: 'https://www.gutenberg.org/cache/epub/145/pg145.txt · Project Gutenberg #145, Middlemarch,
       George Eliot (public domain) ·'
   excerpted: false

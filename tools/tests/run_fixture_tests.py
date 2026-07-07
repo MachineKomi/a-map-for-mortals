@@ -84,13 +84,14 @@ claim_refs: [c-9001]
 mandatory_caveats: ["caveat phrase"]
 prohibited_phrasings: []
 status: approved-for-fixtures
-adjudication_refs: ["fixtures"]
+adjudication_refs: ["ops/adjudications/fx.md"]
 prov: {minted_by: test, date: 2020-01-01}
 """
 
 
 def build_store(root):
-    for d in ("graph/units", "graph/claims", "graph/edges", "graph/registries", "book/page-specs"):
+    for d in ("graph/units", "graph/claims", "graph/edges", "graph/registries",
+              "book/page-specs", "ops/adjudications"):
         os.makedirs(os.path.join(root, d), exist_ok=True)
     w = lambda rel, text: open(os.path.join(root, rel), "w", encoding="utf-8").write(text)
     w("graph/units/u-9001.yaml", UNIT_OK)
@@ -100,6 +101,7 @@ def build_store(root):
     w("graph/registries/domains.yaml", REG_DOM)
     os.makedirs(os.path.join(root, "graph", "assertions"), exist_ok=True)
     w("graph/assertions/a-9001.yaml", ASSERT_OK)
+    w("ops/adjudications/fx.md", "fixture adjudication record\n")
     w("book/page-specs/fx-010.yaml", SPEC_OK)
     return w
 
@@ -141,6 +143,18 @@ CASES = [
     ("unregistered domain rejected (registry freeze)",
      "graph/units/u-9001.yaml", UNIT_OK.replace("[fixture-domain]", "[fixture-domain, novel-domain]"),
      1, "not in graph/registries/domains.yaml"),
+    ("dangling adjudication ref rejected (round-3 P0-2)",
+     "graph/assertions/a-9001.yaml", ASSERT_OK.replace("ops/adjudications/fx.md", "ops/adjudications/does-not-exist.md"),
+     1, "does not exist on disk"),
+    ("dangling relation ref rejected (round-3 P0-2)",
+     "graph/assertions/a-9001.yaml", ASSERT_OK.replace("adjudication_refs:", "relation_refs: [e-9999]\nadjudication_refs:"),
+     1, "relation_ref e-9999 is not an edge"),
+    ("dangling interpretation ref rejected (round-3 P0-2)",
+     "graph/assertions/a-9001.yaml", ASSERT_OK.replace("adjudication_refs:", "interpretation_refs: [i-9999]\nadjudication_refs:"),
+     1, "interpretation_ref i-9999 does not exist"),
+    ("dangling dossier ref rejected (round-3 P0-2)",
+     "graph/assertions/a-9001.yaml", ASSERT_OK.replace("adjudication_refs:", "dossier_ref: d-9999\nadjudication_refs:"),
+     1, "dossier_ref d-9999 does not exist"),
 ]
 
 

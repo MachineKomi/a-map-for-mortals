@@ -1,13 +1,14 @@
 id: a-0025
 kind: editorial-synthesis
-text: "So the old claim survives — qualified: the association is real and rising; where it flattens is contested; and whether money <em>causes</em> the difference remains genuinely open. Neither <em>money can't buy happiness</em> nor <em>it can</em> — the honest sentence is longer."
+text: "The data settle something narrow: a flat <em>money doesn't matter</em> reading fails — well-being tracks log-income. They do <b>not</b> test Schopenhauer's comparative claim that what one <em>is</em> matters more than what one <em>has</em>; nothing here weighs character or relationships against money. Where the slope flattens, and whether money <em>causes</em> it, both remain open."
 claim_refs: [c-0013, c-0026, c-0027]
 relation_refs: [e-0011, e-0012]
 mandatory_caveats:
-  - "qualified"
-  - "genuinely open"
-prohibited_phrasings: []
-status: approved-for-package-01v2
-adjudication_refs: ["ops/adjudications/2026-07-07-gateE-by040-050.md"]
+  - "do <b>not</b> test"
+  - "both remain open"
+prohibited_phrasings:
+  - "the old claim survives"
+status: approved-for-package-02v1
+adjudication_refs: ["ops/adjudications/2026-07-07-gateE-by040-050.md", "ops/adjudications/2026-07-07-external-review-round-3-response.md"]
 prov: {minted_by: "claude-code:gateE-v1", date: 2026-07-07}
-notes: "The page's synthesis, structured exactly by e-0011/e-0012 (both QUALIFIES edges: the findings condition the Schopenhauer claim, they do not refute it)."
+notes: "RE-ADJUDICATED 2026-07-07 (round-3 P0-7 construct error). The prior text claimed 'the old claim survives — qualified', but income↔well-being cannot test Schopenhauer's comparative 'what one is' claim (the studies never weigh character/temperament/relationships against money). Now states only what the data settle and what they leave untested. Structured by e-0011/e-0012 (QUALIFIES edges: findings condition, do not refute)."

@@ -70,18 +70,24 @@ blocks:
 - type: verbatim-quote
   claim: c-0001
   unit: u-0001
+  field: quotation_translation
   gate:
     attribution: verified-primary
     copyright: public-domain
+    rights_status: unit-flag:public-domain
+    spdx: null
     checked_against: https://www.gutenberg.org/cache/epub/45109/pg45109.txt · The Enchiridion, trans. Thomas Wentworth
       Higginson (1865), Proj
   excerpted: false
 - type: verbatim-quote
   claim: c-0010
   unit: u-0010
+  field: quotation_translation
   gate:
     attribution: verified-primary
     copyright: public-domain
+    rights_status: unit-flag:public-domain
+    spdx: null
     checked_against: 'https://www.sefaria.org/Pirkei_Avot.2.16 · Torat Emet 357 (Public Domain) · matched text:
       ''לֹא עָלֶיךָ הַמְּלָאכָה לִגְמ'
   excerpted: false

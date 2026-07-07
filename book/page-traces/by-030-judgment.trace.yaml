@@ -50,9 +50,12 @@ blocks:
 - type: verbatim-quote
   claim: c-0002
   unit: u-0002
+  field: quotation_translation
   gate:
     attribution: verified-primary
     copyright: public-domain
+    rights_status: unit-flag:public-domain
+    spdx: null
     checked_against: https://www.gutenberg.org/cache/epub/15877/pg15877.txt · Thoughts of Marcus Aurelius Antoninus,
       trans. George Long, Proj
   excerpted: false
