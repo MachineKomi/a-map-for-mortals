@@ -128,3 +128,62 @@ The reviewer's closing instruction — "do not respond by adding more caveat pro
 the core problem is enforcement" — is accepted as the operating principle for
 everything that follows. Execution order: truth repairs → enforcement tooling →
 traced page-8 pilot → skeleton re-adjudication → calibrated audit → then scale.
+
+
+---
+
+# Round 2 — response to the reviewer's assessment of this adjudication
+
+**Date:** 2026-07-07 (same project day) · **Their verdict:** direction supported; status
+language overstated. **My verdict: CONCEDE on all eight pushbacks.** Every factual claim
+in round 2 was re-verified (AGENTS.md exists with stale rules; 07-08 dates remained in
+STATE/index/DECISIONS; blockers said "None"; package table said APPROVED; e-0019 still
+typed CONVERGES_WITH; no fixture files exist; registries unenforced; SPEC §2 unamended).
+The reviewer's three-state distinction — accepted direction / temporary mitigation /
+enforced repair — is adopted as standard status vocabulary from here on.
+
+## Corrections to four overstated claims in Round 1 (amended, not erased)
+
+1. **"with negative fixtures"** → WRONG as written. The validator's rules were exercised
+   against live defects (it caught 4 real bypasses on first run) but no persisted
+   fixtures existed. Corrected by BUILDING them (tools/tests/, this same day).
+2. **"SPEC §2 amended"** → was only *decided*, not amended. The canonical SPEC text is
+   now actually amended with a tracked note (this same day).
+3. **"all faulted page copy repaired"** → should read: immediate copy-level mitigations
+   applied; structural re-adjudication is Gate B/E work. The chapter's content path is
+   NOT repaired until pages render from traced assertions.
+4. **"every falsifiable claim … all confirmed"** → scope corrected: the review's
+   *factual audit claims* were confirmed; its *normative recommendations* were adopted
+   with scoped sequencing decisions — adoption is judgment, not verification.
+
+## Disposition of the round-2 pushbacks
+
+P0-1 linter (page-wide declaration hole, <8-word bypass, first-member selection):
+CONCEDE — linter tightened to forbid held-quotation overlap in ALL free-copy fields
+unconditionally; remaining limits documented in the tool as "interim tripwire; Gate B
+replaces copy-carried text entirely". · P0-2 e-0019: CONCEDE — retyped FUNCTIONAL_ANALOGY
+(enum + METHODOLOGY §3 tracked amendment) so no convergence count consumes it. ·
+P0-3 fixtures: CONCEDE — built. · P0-4 registry freeze: CONCEDE — validator now rejects
+tradition/domain strings absent from the harvested registries. · P0-5 STATE narrative:
+CONCEDE — phase/blockers/package-table/session-log corrected; status generator labels
+its commit as "content-state commit". · P0-6 remaining dates: CONCEDE — swept; all work
+occurred on project-date 2026-07-07 (one overnight stretch; no timezone basis for 07-08).
+· P0-7 doc alignment: CONCEDE — SPEC §2 amended in canon; AGENTS.md aligned with
+CLAUDE.md (never-blend refinement, python-not-python3, transition-contract precedence);
+METHODOLOGY + runbook carry banner notes pointing at the transition contract pending
+E-0003. · P0-8 Indigenous row: CONCEDE — split into research coverage (fed) vs
+publishable coverage (open pending community-authority process).
+
+Page-level: pills stripped of legacy-profile and bare-"verified" language (pages 3, 7);
+page 4's false superlative removed (Aeschylus predates Qoheleth in our own dating) —
+axis redesign deferred to Gate E per the reviewer's own do-not-polish guidance;
+page 7's central claim narrowed to the measurement scope; page 8's conclusion no longer
+reimports Maimonides' proposition as the shared lesson (two-tests framing; stale c-0033
+refs cleaned); page 6 caption labels the conditions rows as editorial prompts; page 2's
+central node relabelled a shared motif, not one claim (geometry redesign = Gate E);
+the PDF's running header now carries "VISUAL PROOF · CONTENT UNDER RE-ADJUDICATION"
+so the artefact self-describes when it circulates without its package record.
+
+**On their final position:** agreed in full, including the definition of the next proof —
+page 8 must become impossible to render with an undeclared quote, false convergence,
+stale evidence dependency, or unsupported shared lesson.
