@@ -1,0 +1,12 @@
+id: a-0016
+kind: source-summary
+text: "Across 54 studies of varied stressors, the most common trajectory was resilience — staying near baseline, as each study defined it — not growth and not collapse (about two-thirds; Galatzer-Levy, Huang & Bonanno 2018)."
+claim_refs: [c-0031]
+mandatory_caveats:
+  - "as each study defined it"
+prohibited_phrasings:
+  - "most people grow"
+status: approved-for-package-01v2
+adjudication_refs: ["ops/adjudications/2026-07-07-gateE-by070.md"]
+prov: {minted_by: "claude-code:gateE-v1", date: 2026-07-07}
+notes: "Grounded in u-0031 (verified-secondary): resilience modal at 65.7% average across 54 reviewed studies (95% CI 0.616–0.698); 'about two-thirds' is the honest rounding. Full author list restored (the v0.3 line credited Galatzer-Levy alone)."

@@ -2,22 +2,29 @@ id: by-070-suffering
 stage: building-years
 sequence: 70
 form: node-card
+traced: true
 refs: [c-0008, c-0023, c-0030, c-0031]
 register: {reading_level: adult, density: high, colour_energy: low}
 copy:
   eyebrow: "FORK FOUR · THE WEIGHT THAT STRENGTHENS?"
   title: "Does the load make you stronger?"
   intro:
-    - "One of the oldest consolations this corpus holds says the load itself teaches — printed here <em>with its asterisk</em>, because the evidence cuts both ways."
-  kicker: "WISDOM NODE · CONTESTED · PRINTED WITH ITS ASTERISK"
-  claim_label: "Suffering can strengthen and can teach — sometimes, for some; and self-reports of growth run ahead of what studies can measure."
+    - editorial: "One of the oldest consolations this corpus holds says the load itself teaches — printed here <em>with its asterisk</em>, because the evidence cuts both ways."
+  kicker: {editorial: "WISDOM NODE · CONTESTED · PRINTED WITH ITS ASTERISK"}
+  claim_label: {assert: a-0011}
   voices:
-    - {name: "Aeschylus' chorus", meta: "Agamemnon 176–183 · text checked to Smyth", gloss: "Suffering as the fixed road to understanding — sung inside a cycle of vengeance that only a court, at the trilogy's end, brings to a halt."}
-    - {name: "Nietzsche", meta: "Twilight of the Idols · text checked to Ludovici · lineage from the Greeks", gloss: "The blow that fails to kill can strengthen — restricted, in his own gloss, to the already-strong."}
-  bend: "The chorus states a law; the trilogy complicates it — the killing stops when a court replaces vengeance. Nietzsche's maxim circulates as a universal; he wrote it as a conditional. Neither voice reached the thought independently — the philologist read the tragedian. Lineage, not convergence."
-  evidence_head: "What the studies add"
+    - name: "Aeschylus' chorus"
+      meta: {editorial: "Agamemnon 176–183 · trans. Smyth"}
+      gloss: {assert: a-0012}
+    - name: "Nietzsche"
+      meta: {editorial: "Twilight of the Idols · trans. Ludovici"}
+      gloss: {assert: a-0013}
+  bend:
+    - assert: a-0014
+    - editorial: "Quoted alone, either voice claims more than its own story supports — that is the asterisk."
+  evidence_head: {editorial: "What the studies add"}
   evidence:
-    - "Retrospective 'growth after trauma' correlated poorly with measured change in one two-month study of 122 US students (Frazier 2009; grade B/C) — a measurement caution, not a verdict on every survivor's report."
-    - "Across 54 studies of varied stressors, the most common trajectory was resilience — staying near baseline as each study defined it — not growth and not collapse (~66%; Galatzer-Levy 2018)."
-  pill: "texts checked (Smyth · Ludovici) · claim contested — the evidence cuts both ways · print only with this asterisk"
-notes: "The honest-asterisk showpiece: renders e-0006 (lineage), e-0013 (resilience qualifier), e-0014/e-0015 (undermining) in one card. Claim label is the qualified composite, not Nietzsche's words."
+    - assert: a-0015
+    - assert: a-0016
+  pill: {editorial: "texts checked (Smyth · Ludovici) · claim contested — the evidence cuts both ways · print only with this asterisk"}
+notes: "The honest-asterisk showpiece: renders e-0006 (lineage), the resilience qualifier and the measurement critique in one card. Migrated at Gate E (ops/adjudications/2026-07-07-gateE-by070.md): composite claim label gated as a-0011 (editorial-synthesis, popular unconditional forms prohibited); Frazier design error repaired in a-0015; full Galatzer-Levy author list in a-0016. Claim label is the qualified composite, not Nietzsche's words."
