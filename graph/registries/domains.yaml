@@ -1,0 +1,468 @@
+# domains registry — v0.4 scaffold (external review P1-8)
+# STATUS: raw strings harvested from the store; canonical IDs + alias mapping are the
+# normalisation task (Gate A). Until an entry has a canonical id, it is UNCONTROLLED
+# and must not feed counts. Do not add new free-text values to units — extend this file.
+
+entries:
+  - raw: "self"
+    count: 104
+    canonical_id: null   # assign at normalisation
+  - raw: "work"
+    count: 63
+    canonical_id: null   # assign at normalisation
+  - raw: "adversity"
+    count: 48
+    canonical_id: null   # assign at normalisation
+  - raw: "money"
+    count: 33
+    canonical_id: null   # assign at normalisation
+  - raw: "death"
+    count: 28
+    canonical_id: null   # assign at normalisation
+  - raw: "ethics"
+    count: 27
+    canonical_id: null   # assign at normalisation
+  - raw: "meaning"
+    count: 24
+    canonical_id: null   # assign at normalisation
+  - raw: "community"
+    count: 24
+    canonical_id: null   # assign at normalisation
+  - raw: "anxiety"
+    count: 23
+    canonical_id: null   # assign at normalisation
+  - raw: "knowledge"
+    count: 22
+    canonical_id: null   # assign at normalisation
+  - raw: "society"
+    count: 21
+    canonical_id: null   # assign at normalisation
+  - raw: "family"
+    count: 20
+    canonical_id: null   # assign at normalisation
+  - raw: "love"
+    count: 20
+    canonical_id: null   # assign at normalisation
+  - raw: "nature"
+    count: 20
+    canonical_id: null   # assign at normalisation
+  - raw: "friendship"
+    count: 19
+    canonical_id: null   # assign at normalisation
+  - raw: "conflict"
+    count: 18
+    canonical_id: null   # assign at normalisation
+  - raw: "politics"
+    count: 17
+    canonical_id: null   # assign at normalisation
+  - raw: "justice"
+    count: 17
+    canonical_id: null   # assign at normalisation
+  - raw: "faith"
+    count: 16
+    canonical_id: null   # assign at normalisation
+  - raw: "health"
+    count: 15
+    canonical_id: null   # assign at normalisation
+  - raw: "ambition"
+    count: 15
+    canonical_id: null   # assign at normalisation
+  - raw: "grief"
+    count: 14
+    canonical_id: null   # assign at normalisation
+  - raw: "mortality"
+    count: 14
+    canonical_id: null   # assign at normalisation
+  - raw: "inner-life"
+    count: 14
+    canonical_id: null   # assign at normalisation
+  - raw: "character"
+    count: 13
+    canonical_id: null   # assign at normalisation
+  - raw: "relationships"
+    count: 13
+    canonical_id: null   # assign at normalisation
+  - raw: "happiness"
+    count: 12
+    canonical_id: null   # assign at normalisation
+  - raw: "aging"
+    count: 11
+    canonical_id: null   # assign at normalisation
+  - raw: "desire"
+    count: 10
+    canonical_id: null   # assign at normalisation
+  - raw: "statecraft"
+    count: 10
+    canonical_id: null   # assign at normalisation
+  - raw: "leadership"
+    count: 9
+    canonical_id: null   # assign at normalisation
+  - raw: "legacy"
+    count: 9
+    canonical_id: null   # assign at normalisation
+  - raw: "speech"
+    count: 8
+    canonical_id: null   # assign at normalisation
+  - raw: "spirituality"
+    count: 8
+    canonical_id: null   # assign at normalisation
+  - raw: "decision-making"
+    count: 8
+    canonical_id: null   # assign at normalisation
+  - raw: "negotiation"
+    count: 8
+    canonical_id: null   # assign at normalisation
+  - raw: "career"
+    count: 8
+    canonical_id: null   # assign at normalisation
+  - raw: "authenticity"
+    count: 7
+    canonical_id: null   # assign at normalisation
+  - raw: "identity"
+    count: 7
+    canonical_id: null   # assign at normalisation
+  - raw: "gender"
+    count: 7
+    canonical_id: null   # assign at normalisation
+  - raw: "solitude"
+    count: 6
+    canonical_id: null   # assign at normalisation
+  - raw: "ageing"
+    count: 6
+    canonical_id: null   # assign at normalisation
+  - raw: "education"
+    count: 6
+    canonical_id: null   # assign at normalisation
+  - raw: "fame"
+    count: 5
+    canonical_id: null   # assign at normalisation
+  - raw: "aesthetics"
+    count: 5
+    canonical_id: null   # assign at normalisation
+  - raw: "truth"
+    count: 5
+    canonical_id: null   # assign at normalisation
+  - raw: "marriage"
+    count: 5
+    canonical_id: null   # assign at normalisation
+  - raw: "reputation"
+    count: 5
+    canonical_id: null   # assign at normalisation
+  - raw: "social"
+    count: 5
+    canonical_id: null   # assign at normalisation
+  - raw: "professional-ethics"
+    count: 5
+    canonical_id: null   # assign at normalisation
+  - raw: "courage"
+    count: 4
+    canonical_id: null   # assign at normalisation
+  - raw: "fate"
+    count: 4
+    canonical_id: null   # assign at normalisation
+  - raw: "governance"
+    count: 4
+    canonical_id: null   # assign at normalisation
+  - raw: "power"
+    count: 4
+    canonical_id: null   # assign at normalisation
+  - raw: "risk"
+    count: 4
+    canonical_id: null   # assign at normalisation
+  - raw: "anger"
+    count: 3
+    canonical_id: null   # assign at normalisation
+  - raw: "freedom"
+    count: 3
+    canonical_id: null   # assign at normalisation
+  - raw: "wealth"
+    count: 3
+    canonical_id: null   # assign at normalisation
+  - raw: "autonomy"
+    count: 3
+    canonical_id: null   # assign at normalisation
+  - raw: "care"
+    count: 3
+    canonical_id: null   # assign at normalisation
+  - raw: "self-cultivation"
+    count: 3
+    canonical_id: null   # assign at normalisation
+  - raw: "medicine"
+    count: 3
+    canonical_id: null   # assign at normalisation
+  - raw: "joy"
+    count: 2
+    canonical_id: null   # assign at normalisation
+  - raw: "change"
+    count: 2
+    canonical_id: null   # assign at normalisation
+  - raw: "gratitude"
+    count: 2
+    canonical_id: null   # assign at normalisation
+  - raw: "emotions"
+    count: 2
+    canonical_id: null   # assign at normalisation
+  - raw: "sleep"
+    count: 2
+    canonical_id: null   # assign at normalisation
+  - raw: "goals"
+    count: 2
+    canonical_id: null   # assign at normalisation
+  - raw: "suffering"
+    count: 2
+    canonical_id: null   # assign at normalisation
+  - raw: "practice"
+    count: 2
+    canonical_id: null   # assign at normalisation
+  - raw: "metaphysics"
+    count: 2
+    canonical_id: null   # assign at normalisation
+  - raw: "duty"
+    count: 2
+    canonical_id: null   # assign at normalisation
+  - raw: "memory"
+    count: 2
+    canonical_id: null   # assign at normalisation
+  - raw: "learning"
+    count: 2
+    canonical_id: null   # assign at normalisation
+  - raw: "culture"
+    count: 2
+    canonical_id: null   # assign at normalisation
+  - raw: "vocation"
+    count: 2
+    canonical_id: null   # assign at normalisation
+  - raw: "transcendence"
+    count: 2
+    canonical_id: null   # assign at normalisation
+  - raw: "art"
+    count: 2
+    canonical_id: null   # assign at normalisation
+  - raw: "attention"
+    count: 2
+    canonical_id: null   # assign at normalisation
+  - raw: "devotion"
+    count: 2
+    canonical_id: null   # assign at normalisation
+  - raw: "moral-imagination"
+    count: 2
+    canonical_id: null   # assign at normalisation
+  - raw: "humility"
+    count: 2
+    canonical_id: null   # assign at normalisation
+  - raw: "empathy"
+    count: 2
+    canonical_id: null   # assign at normalisation
+  - raw: "authority"
+    count: 2
+    canonical_id: null   # assign at normalisation
+  - raw: "cosmology"
+    count: 2
+    canonical_id: null   # assign at normalisation
+  - raw: "contentment"
+    count: 2
+    canonical_id: null   # assign at normalisation
+  - raw: "time"
+    count: 2
+    canonical_id: null   # assign at normalisation
+  - raw: "wisdom"
+    count: 2
+    canonical_id: null   # assign at normalisation
+  - raw: "war"
+    count: 2
+    canonical_id: null   # assign at normalisation
+  - raw: "self-knowledge"
+    count: 2
+    canonical_id: null   # assign at normalisation
+  - raw: "competition"
+    count: 2
+    canonical_id: null   # assign at normalisation
+  - raw: "economics"
+    count: 2
+    canonical_id: null   # assign at normalisation
+  - raw: "law"
+    count: 2
+    canonical_id: null   # assign at normalisation
+  - raw: "diplomacy"
+    count: 2
+    canonical_id: null   # assign at normalisation
+  - raw: "trust"
+    count: 2
+    canonical_id: null   # assign at normalisation
+  - raw: "institutions"
+    count: 2
+    canonical_id: null   # assign at normalisation
+  - raw: "expertise"
+    count: 2
+    canonical_id: null   # assign at normalisation
+  - raw: "planning"
+    count: 2
+    canonical_id: null   # assign at normalisation
+  - raw: "youth"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "art-of-living"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "child-rearing"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "moral-psychology"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "parenting"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "habit"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "spiritual-practice"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "destiny"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "communication"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "strategy"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "survival"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "religion"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "reconciliation"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "embodiment"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "public-life"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "everyday-life"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "stewardship"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "hope"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "equanimity"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "reasoning"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "motive"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "renunciation"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "belonging"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "wonder"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "resilience"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "usefulness"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "generativity"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "adaptation"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "life-review"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "forgiveness"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "fear"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "development"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "regret"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "acceptance"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "agency"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "pleasure"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "tragedy"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "compassion"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "language"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "obsession"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "growth"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "generosity"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "peace"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "social-conduct"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "craft"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "perception"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "order"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "patience"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "self-protection"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "management"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "confidentiality"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "cooperation"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "opportunity"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "teams"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "business"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "expectation"
+    count: 1
+    canonical_id: null   # assign at normalisation

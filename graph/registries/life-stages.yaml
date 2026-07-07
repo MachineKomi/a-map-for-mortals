@@ -1,0 +1,6 @@
+# life-stages registry — v0.4 scaffold
+# The six-stage enum remains, but v0.4 replaces bare stage tags with structured
+# applicability {stage, direct|adaptable|incidental, rationale, confidence} per
+# external review P1-9. The spine is an editorial itinerary of life tasks, not a
+# universal timetable — book copy says so (opener caveat, 2026-07-07).
+stages: [child, youth, young-adult, adult, midlife, elder]

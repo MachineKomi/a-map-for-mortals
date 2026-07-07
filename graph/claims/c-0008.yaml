@@ -13,9 +13,9 @@ robustness_profile:
   contestation: {rating: moderate, certainty: moderate, basis: "2 qualifier/underminer edge(s)"}
   attribution_integrity: {rating: high, certainty: high, basis: "wording verified against a primary/PD edition (S2 record on unit)"}
   survives_scrutiny: {rating: low, certainty: moderate, basis: "active UNDERMINED_BY edge(s): self-report/measurement critiques bite — print only with the asterisk"}
-status: publish-ready
+status: adjudicated  # publish-ready SUSPENDED 2026-07-07 pending its representation contract (external review P0-3)
 prov:
   minted_by: "claude-code:s3-skeleton-v1"
   adversarial_pass: "fresh-context subagent 2026-07-07 (shared weights, disclosed); verdicts applied — see ops/adjudications/2026-07-07-s3s4-skeleton.md"
   date: 2026-07-07
-notes: "Nietzsche's maxim with its own conditionality kept load-bearing. See empirical qualifiers c-0030/c-0031. Clustering posture: 1:1 at skeleton scale; cross-tradition kinship expressed as S4 edges, not merges; corpus-wide merge pass deferred to P6."
+notes: "[robustness_profile is LEGACY v0.3 — superseded by the claim-type dossier model, ops/DECISIONS.md 2026-07-07] Nietzsche's maxim with its own conditionality kept load-bearing. See empirical qualifiers c-0030/c-0031. Clustering posture: 1:1 at skeleton scale; cross-tradition kinship expressed as S4 edges, not merges; corpus-wide merge pass deferred to P6."

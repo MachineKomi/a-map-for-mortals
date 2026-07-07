@@ -1,0 +1,465 @@
+# traditions registry — v0.4 scaffold (external review P1-8)
+# STATUS: raw strings harvested from the store; canonical IDs + alias mapping are the
+# normalisation task (Gate A). Until an entry has a canonical id, it is UNCONTROLLED
+# and must not feed counts. Do not add new free-text values to units — extend this file.
+
+entries:
+  - raw: "empirical"
+    count: 28
+    canonical_id: null   # assign at normalisation
+  - raw: "french-moralist"
+    count: 15
+    canonical_id: null   # assign at normalisation
+  - raw: "Judaism"
+    count: 14
+    canonical_id: null   # assign at normalisation
+  - raw: "Persian"
+    count: 14
+    canonical_id: null   # assign at normalisation
+  - raw: "American Transcendentalism"
+    count: 9
+    canonical_id: null   # assign at normalisation
+  - raw: "Christian"
+    count: 8
+    canonical_id: null   # assign at normalisation
+  - raw: "Italian Renaissance"
+    count: 7
+    canonical_id: null   # assign at normalisation
+  - raw: "Roman Stoic"
+    count: 6
+    canonical_id: null   # assign at normalisation
+  - raw: "german-philosophy"
+    count: 6
+    canonical_id: null   # assign at normalisation
+  - raw: "Spanish (Jesuit / Baroque)"
+    count: 6
+    canonical_id: null   # assign at normalisation
+  - raw: "Hindu"
+    count: 5
+    canonical_id: null   # assign at normalisation
+  - raw: "Sámi"
+    count: 5
+    canonical_id: null   # assign at normalisation
+  - raw: "Roman philosophy"
+    count: 5
+    canonical_id: null   # assign at normalisation
+  - raw: "Zoroastrian"
+    count: 5
+    canonical_id: null   # assign at normalisation
+  - raw: "French moralists"
+    count: 4
+    canonical_id: null   # assign at normalisation
+  - raw: "Classical (Peripatetic)"
+    count: 4
+    canonical_id: null   # assign at normalisation
+  - raw: "Ancient Egyptian"
+    count: 4
+    canonical_id: null   # assign at normalisation
+  - raw: "English folk-proverbial"
+    count: 4
+    canonical_id: null   # assign at normalisation
+  - raw: "Pre-Islamic Arabian"
+    count: 4
+    canonical_id: null   # assign at normalisation
+  - raw: "Chinese military"
+    count: 4
+    canonical_id: null   # assign at normalisation
+  - raw: "Indian statecraft"
+    count: 4
+    canonical_id: null   # assign at normalisation
+  - raw: "Scottish Enlightenment"
+    count: 3
+    canonical_id: null   # assign at normalisation
+  - raw: "Hellenistic (Epicurean)"
+    count: 3
+    canonical_id: null   # assign at normalisation
+  - raw: "Mesopotamian"
+    count: 3
+    canonical_id: null   # assign at normalisation
+  - raw: "Sufi"
+    count: 3
+    canonical_id: null   # assign at normalisation
+  - raw: "English essayists"
+    count: 3
+    canonical_id: null   # assign at normalisation
+  - raw: "French Christian philosophy (Jansenist)"
+    count: 3
+    canonical_id: null   # assign at normalisation
+  - raw: "early modern rationalism"
+    count: 3
+    canonical_id: null   # assign at normalisation
+  - raw: "Attic tragedy"
+    count: 3
+    canonical_id: null   # assign at normalisation
+  - raw: "Confucian"
+    count: 3
+    canonical_id: null   # assign at normalisation
+  - raw: "Daoist"
+    count: 3
+    canonical_id: null   # assign at normalisation
+  - raw: "Buddhist"
+    count: 3
+    canonical_id: null   # assign at normalisation
+  - raw: "Haudenosaunee"
+    count: 3
+    canonical_id: null   # assign at normalisation
+  - raw: "Diné (Navajo)"
+    count: 3
+    canonical_id: null   # assign at normalisation
+  - raw: "Japanese (bushido / Zen)"
+    count: 3
+    canonical_id: null   # assign at normalisation
+  - raw: "Greek medicine"
+    count: 3
+    canonical_id: null   # assign at normalisation
+  - raw: "German philosophy"
+    count: 2
+    canonical_id: null   # assign at normalisation
+  - raw: "English literature"
+    count: 2
+    canonical_id: null   # assign at normalisation
+  - raw: "Pre-Socratic"
+    count: 2
+    canonical_id: null   # assign at normalisation
+  - raw: "Classical (Socratic)"
+    count: 2
+    canonical_id: null   # assign at normalisation
+  - raw: "Archaic didactic poetry"
+    count: 2
+    canonical_id: null   # assign at normalisation
+  - raw: "presocratic"
+    count: 2
+    canonical_id: null   # assign at normalisation
+  - raw: "Islamic"
+    count: 2
+    canonical_id: null   # assign at normalisation
+  - raw: "German Enlightenment"
+    count: 2
+    canonical_id: null   # assign at normalisation
+  - raw: "German post-Kantian pessimism"
+    count: 2
+    canonical_id: null   # assign at normalisation
+  - raw: "British utilitarianism"
+    count: 2
+    canonical_id: null   # assign at normalisation
+  - raw: "French existentialism"
+    count: 2
+    canonical_id: null   # assign at normalisation
+  - raw: "Russian novel"
+    count: 2
+    canonical_id: null   # assign at normalisation
+  - raw: "American poetry"
+    count: 2
+    canonical_id: null   # assign at normalisation
+  - raw: "Japanese"
+    count: 2
+    canonical_id: null   # assign at normalisation
+  - raw: "Lakota"
+    count: 2
+    canonical_id: null   # assign at normalisation
+  - raw: "Māori"
+    count: 2
+    canonical_id: null   # assign at normalisation
+  - raw: "Māori (Whanganui iwi)"
+    count: 2
+    canonical_id: null   # assign at normalisation
+  - raw: "Inuit"
+    count: 2
+    canonical_id: null   # assign at normalisation
+  - raw: "Heian Japanese"
+    count: 2
+    canonical_id: null   # assign at normalisation
+  - raw: "Christian mysticism"
+    count: 2
+    canonical_id: null   # assign at normalisation
+  - raw: "Persian Sufi"
+    count: 2
+    canonical_id: null   # assign at normalisation
+  - raw: "Greek historiography"
+    count: 2
+    canonical_id: null   # assign at normalisation
+  - raw: "Greco-Roman medicine"
+    count: 2
+    canonical_id: null   # assign at normalisation
+  - raw: "Hellenistic/Roman Stoic"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "Augustan poetry (Epicurean-tinged)"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "Islam"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "German pessimism"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "Modern British philosophy"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "German literature"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "Greek tragedy"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "Russian literature"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "Pre-Socratic (Atomist)"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "Roman (Epicurean)"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "Hellenistic (Cynic)"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "Hellenistic (Pyrrhonian Skeptic)"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "Roman (eclectic/Academic-Stoic)"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "Classical tragedy / history"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "Augustan poetry"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "Roman satire"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "classical-greek"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "german-classicism"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "russian-literature"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "french-literature"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "french-renaissance"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "transcendentalism"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "rationalism"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "french-moralists"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "german-romanticism"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "Christian existentialism"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "American pragmatism"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "Modern French Christian mysticism"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "Modern political philosophy"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "French existentialist milieu (absurdism)"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "English Renaissance drama"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "Russian novel (late-Tolstoyan didactic tale)"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "English novel"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "Musical theatre (after Victor Hugo)"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "English Romantic poetry"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "Victorian poetry"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "Legalist"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "Tamil/Hindu"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "Buddhist (Mahayana)"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "Buddhist (Madhyamaka)"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "Zen/Japanese"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "Japanese (kokugaku)"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "Nguni (Zulu/Xhosa), Southern Africa"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "Pan-African scholarship (Kenya)"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "Academic African philosophy (Nigeria/Igbo)"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "Academic African philosophy (Ghana/Akan)"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "Yoruba (Nigeria)"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "Akan/Ashanti (Ghana)"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "Igbo (Nigeria), literary"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "Akan/Ashanti (Ghana); diaspora as Anancy/Aunt Nancy"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "Swahili (Pate/Siyu, Kenya coast), Islamic utenzi verse"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "South Africa, Christian-Ubuntu theology"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "Aboriginal Australian (per-nation, not pan-Aboriginal)"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "Aboriginal Australian (Warrwa-Noongar)"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "Andean (Quechua/Kichwa/Aymara)"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "Andean (Kichwa; Bolivian parallel suma qamaña)"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "Potawatomi"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "Sumerian/Akkadian"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "Archaic Greek"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "Late-antique Neoplatonism"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "Classical Greek (Platonic)"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "Han Confucian"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "Christian mysticism (Carmelite)"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "Late-medieval French"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "English proto-feminism (Tory/Anglican)"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "English Enlightenment"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "British moral philosophy (Platonist)"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "British moral philosophy"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "Sufism"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "Kannada Bhakti (Lingayat)"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "Feminist moral psychology"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "Feminist ethics"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "Hebrew / Jewish (adopted in Christian liturgy)"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "Greek fable / classical philology"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "English Romanticism"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "English / Victorian Stoicism"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "English Enlightenment / its critics"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "American secular-humanist"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "Sanskrit / Hindu niti-shastra"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "Roman comedy fragment (via Cicero)"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "Lifespan developmental psychology"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "Psychodynamic developmental psychology"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "Palliative medicine (secular, cross-faith)"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "Palliative care memoir"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "Medicine / geriatrics (secular)"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "Freudian literary/psychological criticism"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "Sanskrit/Hindu (India)"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "Pali/Theravada Buddhism"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "Chinese/Taoism"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "Arabic/Islamic"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "Spanish (Castilian) folk-proverbial"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "English (literary, proverbialised)"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "English"
+    count: 1
+    canonical_id: null   # assign at normalisation
+  - raw: "English folk-proverbial (ATU tale-type 1430)"
+    count: 1
+    canonical_id: null   # assign at normalisation
