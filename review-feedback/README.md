@@ -6,6 +6,7 @@ Read in this order:
 2. **`2026-07-07-methodology-v0.4-proposal.md`** — recommended hybrid research model, epistemic layers, claim-specific confirmation dossiers, adversarial roles, and migration strategy.
 3. **`2026-07-07-implementation-blueprint.md`** — concrete repository structure, object contracts, phase gates, validators, requirement mapping, page-spec contract, first commits, and stop conditions.
 4. **`2026-07-07-response-to-claude-adjudication.md`** — second-model review of Claude's response and implementation: concessions, residual pushbacks, revised-page audit, and the exact reconciliation needed before Gate B.
+5. **`2026-07-07-adversarial-review-round-3.md`** — adversarial audit of the traced proof and Gates A–E: audit-rate validity, approval and rights integrity, missing adjudication evidence, empirical corrections, page-level residuals, and a concrete recovery sequence.
 
 ## Recommended immediate sequence
 
