@@ -16,6 +16,8 @@ Exit 0 = no errors (warnings are counted and reported as debt, never hidden);
 Usage:  python tools/validate_graph.py
 """
 import datetime
+import hashlib
+import json
 import os
 import re
 import sys
@@ -27,6 +29,17 @@ except ImportError:
     sys.exit(2)
 
 ROOT = os.environ.get("MAP_ROOT") or os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+
+def approval_hash(a):
+    """Must match build_book.approval_hash exactly (round-3 P0-3). Kept as a small local
+    copy so the validator has no import dependency on the generator or its ROOT."""
+    payload = json.dumps({
+        "text": (a.get("text") or "").strip(),
+        "mandatory_caveats": sorted(a.get("mandatory_caveats") or []),
+        "prohibited_phrasings": sorted(a.get("prohibited_phrasings") or []),
+    }, ensure_ascii=False, sort_keys=True)
+    return hashlib.sha256(payload.encode("utf-8")).hexdigest()
 TODAY = datetime.date.today()
 MIN_OVERLAP_WORDS = 8  # contiguous words of held quotation appearing in page copy
 
@@ -208,6 +221,22 @@ def main():
             errors.append(f"{where}/{oid}: dossier_ref {dref} does not exist")
     for aid, a in assertions.items():
         resolve_refs(aid, a, "assertions")
+
+    # --- approval-manifest integrity (round-3 P0-3): every hash recorded in each edition's
+    #     manifest must match the live assertion content, and every referenced assertion must
+    #     exist. Catches text/caveat drift in CI without needing to render. ---
+    apdir = os.path.join(ROOT, "graph", "approvals")
+    if os.path.isdir(apdir):
+        for f in sorted(os.listdir(apdir)):
+            if not f.endswith(".yaml"):
+                continue
+            man = yaml.safe_load(open(os.path.join(apdir, f), encoding="utf-8")) or {}
+            for aid, sig in (man.get("approvals") or {}).items():
+                if aid not in assertions:
+                    errors.append(f"approvals/{f}: signs {aid} which does not exist")
+                elif approval_hash(assertions[aid]) != sig:
+                    errors.append(f"approvals/{f}: {aid} content changed since signing "
+                                  f"(manifest {str(sig)[:12]} != live {approval_hash(assertions[aid])[:12]}) — re-adjudicate and re-sign")
     for sub, ids in (("interpretations", interp_ids), ("dossiers", dossier_ids)):
         d = os.path.join(ROOT, "graph", sub)
         if os.path.isdir(d):

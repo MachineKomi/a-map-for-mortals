@@ -70,6 +70,29 @@ def main():
     expect_ok(lambda: b.resolve_copy("Epictetus", b.Graph(),
               {"trace": {"page": "test", "blocks": []}, "used_assertions": [], "page_text": [], "furniture": 0}, key="name"),
               "P0-4 furniture (source name) passes", r)
+    # --- P0-3 edition-specific, hash-bound approval ---
+    g = b.Graph()
+    signed_id = next((aid for aid in g.approvals if aid in g.assertions), None)
+    if signed_id:
+        expect_ok(lambda: g.approved_assertion(signed_id), f"P0-3 signed assertion {signed_id} passes", r)
+        # mutate text in memory -> hash no longer matches the manifest -> refuse
+        g.assertions[signed_id] = {**g.assertions[signed_id], "text": g.assertions[signed_id]["text"] + " (tampered)"}
+        expect_raise(lambda: g.approved_assertion(signed_id), "content changed since approval",
+                     "P0-3 text change after approval refused", r)
+        # delete a caveat from BOTH text and list (the old fail-open) -> list changes -> hash mismatch
+        g2 = b.Graph()
+        cav_id = next((aid for aid, a in g2.assertions.items()
+                       if aid in g2.approvals and (a.get("mandatory_caveats"))), None)
+        if cav_id:
+            a2 = g2.assertions[cav_id]
+            g2.assertions[cav_id] = {**a2, "mandatory_caveats": [], "text": a2["text"]}
+            expect_raise(lambda: g2.approved_assertion(cav_id), "content changed since approval",
+                         "P0-3 caveat deleted from list refused", r)
+        # invented approved-looking status -> enum refuses
+        g3 = b.Graph()
+        g3.assertions[signed_id] = {**g3.assertions[signed_id], "status": "approved-by-fiat"}
+        expect_raise(lambda: g3.approved_assertion(signed_id), "is not an approved status",
+                     "P0-3 invented approved- status refused", r)
 
     fails = [x for x in r if not x[1]]
     for label, ok, msg in r:

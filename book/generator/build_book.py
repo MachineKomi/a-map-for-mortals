@@ -16,7 +16,9 @@ Output: book/renders/<edition>.html + .pdf  → then run the mandatory QA loop:
         python tools/pdf_to_png.py book/renders/<edition>.pdf book/renders/qa
         and VIEW EVERY PAGE.
 """
+import hashlib
 import html as _html
+import json
 import math
 import os
 import subprocess
@@ -31,6 +33,11 @@ RENDERS = os.path.join(ROOT, "book", "renders")
 WEASY = os.path.join(ROOT, "tools", "bin", "weasyprint.exe")
 EDITION = "building-years-v0.2.0"
 HEADER = "A MAP FOR MORTALS  ·  TRACED PROOF v 0.2.0 · GRAPH-GATED, PRE-RELEASE"
+
+# Closed enum of approved statuses (round-3 P0-3: an enum, not a `startswith('approved-')`
+# prefix test that any invented string could satisfy). Approval is ALSO hash-bound per
+# edition — see approval_hash / the approvals manifest.
+APPROVED_STATUSES = {"approved-for-package-01v2", "approved-for-package-02v1", "approved-for-fixtures"}
 
 # ---------------------------------------------------------------- tokens (SPEC §2)
 PAPER = "#FBF7F0"; PANEL = "#FFFDF9"; INK = "#16223B"; INK2 = "#4A546B"
@@ -86,6 +93,19 @@ def check_rights(u, field, cid):
         f"structured rights record (for {cid}) — verbatim quotation forbidden.")
 
 
+def approval_hash(a):
+    """Round-3 P0-3: a stable content hash over exactly the fields an approval vouches for —
+    the visible text and BOTH policy lists. Changing the wording, or deleting a mandatory
+    caveat or a prohibited phrasing from its list, changes this hash and so invalidates the
+    approval. Lists are sorted so order is not load-bearing; text is stripped."""
+    payload = json.dumps({
+        "text": (a.get("text") or "").strip(),
+        "mandatory_caveats": sorted(a.get("mandatory_caveats") or []),
+        "prohibited_phrasings": sorted(a.get("prohibited_phrasings") or []),
+    }, ensure_ascii=False, sort_keys=True)
+    return hashlib.sha256(payload.encode("utf-8")).hexdigest()
+
+
 class Graph:
     def __init__(self):
         self.units, self.claims, self.assertions = {}, {}, {}
@@ -105,12 +125,27 @@ class Graph:
                     data = yaml.safe_load(open(os.path.join(adir, f), encoding="utf-8"))
                     self.assertions[data["id"]] = data
 
+        # Edition-specific, hash-bound approval manifest (round-3 P0-3). An assertion is
+        # approved for THIS edition only if the manifest lists it with a hash matching its
+        # current content. Signing is a deliberate act (tools/approve_assertions.py), so a
+        # later text/caveat edit breaks the build until re-signed.
+        self.approvals = {}
+        apath = os.path.join(ROOT, "graph", "approvals", f"{EDITION}.yaml")
+        if os.path.isfile(apath):
+            self.approvals = (yaml.safe_load(open(apath, encoding="utf-8")) or {}).get("approvals") or {}
+
     def approved_assertion(self, aid):
         a = self.assertions.get(aid)
         if a is None:
             raise PrintGateError(f"ASSERTION GATE: {aid} does not exist")
-        if not str(a.get("status", "")).startswith("approved-"):
-            raise PrintGateError(f"ASSERTION GATE: {aid} status '{a.get('status')}' is not approved")
+        if str(a.get("status", "")) not in APPROVED_STATUSES:
+            raise PrintGateError(f"ASSERTION GATE: {aid} status '{a.get('status')}' is not an approved status {sorted(APPROVED_STATUSES)}")
+        signed = self.approvals.get(aid)
+        if signed is None:
+            raise PrintGateError(f"ASSERTION GATE: {aid} is not in the approval manifest for edition {EDITION} — re-sign with tools/approve_assertions.py")
+        live = approval_hash(a)
+        if signed != live:
+            raise PrintGateError(f"ASSERTION GATE: {aid} content changed since approval (hash {signed[:12]} != {live[:12]}) — text or a caveat/prohibition was edited; re-adjudicate and re-sign")
         text = a.get("text", "")
         for cav in a.get("mandatory_caveats") or []:
             if cav.lower() not in text.lower():
