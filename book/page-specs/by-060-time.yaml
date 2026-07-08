@@ -3,6 +3,7 @@ stage: building-years
 sequence: 60
 form: comparison-columns
 traced: true
+fork_ref: f-0001          # the columns are DERIVED from this fork's poles + hypothesised conditions (round-3 P1-forks) — the page no longer invents them
 refs: [c-0004, c-0018, c-0003, c-0017]
 register: {reading_level: adult, density: high, colour_energy: mid}
 copy:
@@ -12,25 +13,15 @@ copy:
     - assert: a-0017
     - editorial: "In the years when time becomes the scarcest thing you own, two counsels flatly disagree about what to do with the hour in front of you."
   columns:
-    - title: {editorial: "Seize the present"}
+    - pole: seize     # -> fork f-0001 pole 'seize' supplies title + speaks-to/trusts/curdles-into/take-it-when
       accent: pink
       quote_ref: c-0004
-      rows:
-        - {h: "speaks to", v: {editorial: "the postponer — the one whose real life is always scheduled for later"}}
-        - {h: "trusts", v: {editorial: "today; almost nothing else"}}
-        - {h: "curdles into", v: {editorial: "a life of small immediacies that never builds anything"}}
-        - {h: "take it when", v: {editorial: "your plans have quietly become the place you hide"}}
-    - title: {editorial: "Work as if deathless"}
+    - pole: build
       accent: orange
       quote_ref: c-0018
-      rows:
-        - {h: "speaks to", v: {editorial: "the builder — work that outlasts a season needs a horizon longer than one"}}
-        - {h: "trusts", v: {editorial: "the long arc; compounding; the unfinished"}}
-        - {h: "curdles into", v: {editorial: "precisely the postponement Seneca condemns"}}
-        - {h: "take it when", v: {editorial: "the work is worth more than the mood of the week"}}
   caption:
     - assert: a-0019
-    - editorial: "The <b>speaks to / take it when</b> rows are editorial prompts — this book's hypotheses, not sourced findings; choosing is still yours."
+    - editorial: "The <b>take it when*</b> rows are the book's hypotheses, not sourced findings — they live in the fork object (f-0001) as untested conditions, and the choice is still yours."
   lesson:
     - assert: a-0018
-notes: "Comparison-columns form (§6 D). Migrated at Gate E (ops/adjudications/2026-07-07-gateE-by060.md): Seneca's diagnosis gated as a-0017, the tension claim as a-0019 (e-0008), the Thoreau-derived lesson as a-0018 with 'After Thoreau' a mandatory caveat. Column quotes pulled via quote_ref through the print gate (Conington 1882; Lee 1903 — both verified PD); row prompts remain declared editorial hypotheses. Tension mirrors e-0008 and e-0021."
+notes: "Comparison-columns form (§6 D), now FORK-SOURCED (round-3 P1-forks, ops/adjudications/2026-07-08-fork-object-pilot.md): the columns' titles and 'speaks to / trusts / curdles into / take it when' rows are derived from graph/forks/f-0001 (poles + conditions.hypothesised), so the conditional counsel lives in a structured, gated object — not in editorial page copy (fixes the round-3 stop condition). Only the column quotes (quote_ref through the print gate: Conington 1882 / Lee 1903, both verified PD), the accents, the intro/caption/lesson, and the Seneca head (a-0017) / tension (a-0019, e-0008) / Thoreau lesson (a-0018) remain on the page. The fork passed a mandatory fresh-context adversarial pass (circular conditions rewritten)."

@@ -77,6 +77,19 @@ copy:
 REG_TRAD = 'entries:\n  - raw: "fixture-tradition"\n    count: 1\n    canonical_id: null\n'
 REG_DOM = 'entries:\n  - raw: "fixture-domain"\n    count: 1\n    canonical_id: null\n'
 
+FORK_OK = """id: f-9001
+question: "A fixture fork question?"
+claim_type_mix: [prudential]
+poles:
+  - {key: a, claim_ref: c-9001, label: "Pole A"}
+  - {key: b, claim_ref: c-9001, label: "Pole B"}
+conditions: {supported: [], hypothesised: [{pole: a, when: "a fixture condition"}]}
+unresolved: ["a fixture unknown"]
+status: poles-mapped
+adjudication_refs: ["ops/adjudications/fx.md"]
+prov: {minted_by: test, date: 2020-01-01}
+"""
+
 ASSERT_OK = """id: a-9001
 kind: source-summary
 text: "A fixture assertion carrying its caveat phrase."
@@ -101,6 +114,8 @@ def build_store(root):
     w("graph/registries/domains.yaml", REG_DOM)
     os.makedirs(os.path.join(root, "graph", "assertions"), exist_ok=True)
     w("graph/assertions/a-9001.yaml", ASSERT_OK)
+    os.makedirs(os.path.join(root, "graph", "forks"), exist_ok=True)
+    w("graph/forks/f-9001.yaml", FORK_OK)
     w("ops/adjudications/fx.md", "fixture adjudication record\n")
     w("book/page-specs/fx-010.yaml", SPEC_OK)
     return w
@@ -155,6 +170,18 @@ CASES = [
     ("dangling dossier ref rejected (round-3 P0-2)",
      "graph/assertions/a-9001.yaml", ASSERT_OK.replace("adjudication_refs:", "dossier_ref: d-9999\nadjudication_refs:"),
      1, "dossier_ref d-9999 does not exist"),
+    ("fork with <2 poles rejected (round-3 P1-forks)",
+     "graph/forks/f-9001.yaml", FORK_OK.replace("  - {key: b, claim_ref: c-9001, label: \"Pole B\"}\n", ""),
+     1, "at least 2 poles"),
+    ("fork pole with missing claim rejected",
+     "graph/forks/f-9001.yaml", FORK_OK.replace("claim_ref: c-9001, label: \"Pole B\"", "claim_ref: c-4242, label: \"Pole B\""),
+     1, "pole claim_ref c-4242 does not exist"),
+    ("fork with bad conditions key rejected",
+     "graph/forks/f-9001.yaml", FORK_OK.replace("conditions: {supported: [], hypothesised:", "conditions: {proven: [], hypothesised:"),
+     1, "conditions must use only"),
+    ("fork claiming dossier-complete without a dossier rejected",
+     "graph/forks/f-9001.yaml", FORK_OK.replace("status: poles-mapped", "status: dossier-complete"),
+     1, "status 'dossier-complete' but no dossier_ref"),
 ]
 
 

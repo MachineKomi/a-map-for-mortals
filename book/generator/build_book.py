@@ -108,9 +108,9 @@ def approval_hash(a):
 
 class Graph:
     def __init__(self):
-        self.units, self.claims, self.assertions = {}, {}, {}
+        self.units, self.claims, self.assertions, self.forks = {}, {}, {}, {}
         self.trace_sink = None  # set per-page by render_page so any quote/assertion resolved anywhere (incl. inside form builders) lands in that page's trace
-        for d, store in (("units", self.units), ("claims", self.claims)):
+        for d, store in (("units", self.units), ("claims", self.claims), ("forks", self.forks)):
             p = os.path.join(ROOT, "graph", d)
             for f in sorted(os.listdir(p)):
                 if not f.endswith(".yaml") or "EXAMPLE" in f:
@@ -344,7 +344,13 @@ def form_threshold_curve(spec, g):
 
 
 def form_comparison_columns(spec, g):
+    """Comparison columns. With `fork_ref: f-xxxx`, each column's title and rows are DERIVED
+    from the fork's pole (label / speaks_to / trusts / failure_mode) and its
+    conditions.hypothesised (the 'take it when' row) — so the conditional counsel lives in the
+    gated fork object, not in editorial page copy (round-3 P1-forks). Without a fork_ref the
+    legacy editorial `columns[].rows` path still works."""
     c = spec["copy"]
+    fork = g.forks.get(spec["fork_ref"]) if spec.get("fork_ref") else None
     cols = []
     for col in c["columns"]:
         q = ""
@@ -352,11 +358,30 @@ def form_comparison_columns(spec, g):
             text, credit = g.printable_quote(col["quote_ref"])
             q = (f'<div class="cquote">{esc(text)}</div>'
                  f'<div class="ccredit">— {esc(credit)}</div>')
-        rows = "".join(f'<div class="crow"><div class="ch">{esc(r["h"])}</div>'
-                       f'<div class="cv">{esc(r["v"])}</div></div>' for r in col["rows"])
+        if fork:
+            pole = next((p for p in fork["poles"] if p.get("key") == col["pole"]), None)
+            if pole is None:
+                raise PrintGateError(f"FORK GATE: column pole '{col.get('pole')}' not a pole of {fork['id']} on {spec['id']}")
+            when = next((h["when"] for h in (fork.get("conditions", {}).get("hypothesised") or [])
+                         if h.get("pole") == pole["key"]), None)
+            title = pole["label"]
+            row_pairs = [("speaks to", pole.get("speaks_to")), ("trusts", pole.get("trusts")),
+                         ("curdles into", pole.get("failure_mode"))]
+            if when:
+                row_pairs.append(("take it when*", when))
+            if g.trace_sink is not None:
+                g.trace_sink["blocks"].append({"type": "fork-pole", "fork": fork["id"], "pole": pole["key"],
+                                               "fields": ["label", "speaks_to", "trusts", "failure_mode"],
+                                               "condition": "hypothesised" if when else None})
+            rows = "".join(f'<div class="crow"><div class="ch">{esc(h)}</div>'
+                           f'<div class="cv">{esc(v)}</div></div>' for h, v in row_pairs if v)
+        else:
+            title = col["title"]
+            rows = "".join(f'<div class="crow"><div class="ch">{esc(r["h"])}</div>'
+                           f'<div class="cv">{esc(r["v"])}</div></div>' for r in col["rows"])
         accent = ORANGE if col.get("accent") == "orange" else PINK
         cols.append(f'<div class="ccol" style="border-top-color:{accent}">'
-                    f'<div class="ctitle">{esc(col["title"])}</div>{q}{rows}</div>')
+                    f'<div class="ctitle">{esc(title)}</div>{q}{rows}</div>')
     return f'<div class="compare">{"".join(cols)}</div>'
 
 
@@ -514,7 +539,7 @@ FURNITURE_KEYS = {
     "h",            # a comparison-row header label ("speaks to", "trusts")
     "x_label", "y_label",  # chart axis names (locators)
 }
-CONFIG_KEYS = {"accent", "quote_ref", "independence"}  # non-display tokens (style/graph refs) — pass through untraced; refs are gated where consumed
+CONFIG_KEYS = {"accent", "quote_ref", "independence", "pole"}  # non-display tokens (style/graph refs) — pass through untraced; refs are gated where consumed
 
 
 def resolve_copy(node, g, ctx, key=None):

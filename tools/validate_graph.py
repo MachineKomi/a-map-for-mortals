@@ -182,25 +182,44 @@ def main():
                     errors.append(f"assertions/{aid}: text does not carry mandatory caveat '{cav}'")
             check_dates(aid, a, "assertions")
 
-    # --- interpretations + dossiers shape (v0.4 pilot contracts) ---
-    interp_ids, dossier_ids = set(), set()
+    # --- interpretations + dossiers + forks shape (v0.4 contracts) ---
+    interp_ids, dossier_ids, fork_ids = set(), set(), set()
     for sub, req in (("interpretations", ("unit_ref", "proposition", "claim_type", "scope", "adjudication_refs", "status")),
-                     ("dossiers", ("target_ref", "source_frame", "findings", "permitted_inferences", "prohibited_inferences", "status"))):
+                     ("dossiers", ("target_ref", "source_frame", "findings", "permitted_inferences", "prohibited_inferences", "status")),
+                     ("forks", ("question", "claim_type_mix", "poles", "conditions", "unresolved", "status", "adjudication_refs"))):
         d = os.path.join(ROOT, "graph", sub)
         if os.path.isdir(d):
             for f in sorted(os.listdir(d)):
-                if not f.endswith(".yaml"):
+                if not f.endswith(".yaml") or "EXAMPLE" in f:
                     continue
                 obj = yaml.safe_load(open(os.path.join(d, f), encoding="utf-8"))
                 oid = str(obj.get("id"))
-                (interp_ids if sub == "interpretations" else dossier_ids).add(oid)
+                {"interpretations": interp_ids, "dossiers": dossier_ids, "forks": fork_ids}[sub].add(oid)
                 if oid != os.path.splitext(f)[0]:
                     errors.append(f"{sub}/{f}: id != filename")
                 for r in req:
-                    if not obj.get(r):
+                    if obj.get(r) is None or (r not in ("unresolved",) and not obj.get(r)):
                         errors.append(f"{sub}/{oid}: missing required field {r}")
                 if sub == "interpretations" and obj.get("unit_ref") not in units:
                     errors.append(f"{sub}/{oid}: unit_ref {obj.get('unit_ref')} does not exist")
+                if sub == "forks":
+                    # a fork needs >= 2 poles, each pointing to a real claim; conditions must be
+                    # marked supported vs hypothesised; a hypothesised condition may never be
+                    # rendered as a finding (enforced at build time, contract stated here).
+                    poles = obj.get("poles") or []
+                    if len(poles) < 2:
+                        errors.append(f"forks/{oid}: needs at least 2 poles")
+                    for p in poles:
+                        if p.get("claim_ref") not in claims:
+                            errors.append(f"forks/{oid}: pole claim_ref {p.get('claim_ref')} does not exist")
+                    conds = obj.get("conditions") or {}
+                    if set(conds) - {"supported", "hypothesised"}:
+                        errors.append(f"forks/{oid}: conditions must use only 'supported'/'hypothesised' keys")
+                    if obj.get("head_ref") and obj.get("head_ref") not in claims:
+                        errors.append(f"forks/{oid}: head_ref {obj.get('head_ref')} does not exist")
+                    # a fork claiming dossier-complete must actually carry a dossier_ref
+                    if obj.get("status") == "dossier-complete" and not obj.get("dossier_ref"):
+                        errors.append(f"forks/{oid}: status 'dossier-complete' but no dossier_ref")
                 check_dates(oid, obj, sub)
 
     # --- typed-reference RESOLUTION (round-3 P0-2): every typed ref must resolve to a real
@@ -221,6 +240,13 @@ def main():
             errors.append(f"{where}/{oid}: dossier_ref {dref} does not exist")
     for aid, a in assertions.items():
         resolve_refs(aid, a, "assertions")
+    # forks resolve their adjudication/relation/dossier refs too (round-3 P1-forks)
+    fdir = os.path.join(ROOT, "graph", "forks")
+    if os.path.isdir(fdir):
+        for f in sorted(os.listdir(fdir)):
+            if f.endswith(".yaml") and "EXAMPLE" not in f:
+                obj = yaml.safe_load(open(os.path.join(fdir, f), encoding="utf-8"))
+                resolve_refs(str(obj.get("id")), obj, "forks")
 
     # --- approval-manifest integrity (round-3 P0-3): every hash recorded in each edition's
     #     manifest must match the live assertion content, and every referenced assertion must

@@ -1,0 +1,49 @@
+id: f-0001
+question: "How far ahead should you live — seize the hour in front of you, or work as if you'll never die?"
+claim_type_mix: [prudential]
+relation_refs: [e-0008, e-0021]   # the underlying IN_TENSION_WITH edges (high / moderate)
+head_ref: c-0003                  # Seneca's diagnosis stands at the head of the fork
+poles:
+  - key: seize
+    claim_ref: c-0004
+    label: "Seize the present"
+    speaks_to: "the postponer — the one whose real life is always scheduled for later"
+    trusts: "today; almost nothing else"
+    protects: [presence, spontaneity, the-life-you-actually-have]
+    costs: [never-builds-anything, discounts-the-future-others-depend-on]
+    failure_mode: "a life of small immediacies that never builds anything"
+  - key: build
+    claim_ref: c-0018
+    label: "Work as if deathless"
+    speaks_to: "the builder — work that outlasts a season needs a horizon longer than one"
+    trusts: "the long arc; compounding; the unfinished"
+    protects: [legacy, patience, work-that-outlasts-you]
+    costs: [postponement]
+    failure_mode: "precisely the postponement Seneca condemns"
+conditions:
+  # Which pole to lean on, and when. NONE of these is evidence-backed — they are the
+  # book's editorial reading of the sources, so they are all `hypothesised`, never
+  # `supported`. A page rendering them must mark them as the book's hypotheses.
+  supported: []
+  hypothesised:
+    - pole: seize
+      when: "you keep deferring what you say matters most, and the deferral has no end date you actually intend to reach"
+    - pole: build
+      when: "a commitment you have freely chosen will fail others if you optimise for how any single week feels"
+actor_context: "an adult carrying long-horizon commitments (work, dependants) for whom time has become the scarce input"
+time_horizon: "the tension is precisely about the horizon — hours vs decades"
+counterexamples:
+  - "the terminally ill, for whom 'work as if deathless' is not available and 'seize the present' is not a choice but a fact"
+  - "the young with little yet built, for whom the postponement risk is smaller"
+  - "the person whose long-horizon work is itself the life they would choose to be living now — for whom the two poles coincide and the fork does not arise"
+danger_conditions:
+  - "using 'seize the present' to justify abandoning people who depend on your long-horizon work"
+  - "using 'work as if deathless' to justify never living the life the work was for"
+unresolved:
+  - "whether either counsel is more often right, or only ever right for a given person at a given time — the book does not claim to know, and the conditions above are untested"
+mandatory_dissent_refs: []   # the fork is itself the dissent — two counsels that cannot both be followed
+dossier_ref: null            # no confirmation dossier: a prudential fork whose conditions are hypothesised, not evidence-backed
+status: poles-mapped         # NOT dossier-complete — conditions are hypothesised; see conditions.hypothesised
+adjudication_refs: ["ops/adjudications/2026-07-08-fork-object-pilot.md"]
+prov: {minted_by: "claude-code:fork-pilot-v1", date: 2026-07-08}
+notes: "First first-class FORK object (round-3 P1-forks; blueprint §5). Pilots the fork contract on the page-6 time fork so its conditional counsel lives in a structured, gated object rather than in editorial page copy (round-3 stop condition: 'a fork's conditions exist only in page copy'). Poles are the two counsels (Horace c-0004 / Vauvenargues c-0018) held in tension by e-0008; Seneca's diagnosis (c-0003) is the head. The 'take it when' guidance the page shows is conditions.hypothesised — the book's editorial hypotheses, honestly labelled, not sourced findings. Lesson claim c-0017 (the true cost of a thing) sits alongside as the page's closing synthesis, not a pole. ADVERSARIAL PASS (2026-07-08, fresh-context, shared-weights disclosed; verdicts in the adjudication record): the original conditions were CIRCULAR — each pole's trigger was the other pole's failure mode rephrased, quietly tilting toward 'build' by demoting 'seize' to 'mood'; rewritten to name independent, checkable signals (accepted verbatim). Seize cost 'discounts-the-future-others-depend-on' added (the recklessness cost had lived only in danger_conditions). Dissolution counterexample added. DISCLOSED TILTS (kept, now on the record): the head c-0003/Seneca is NOT neutral — it agrees with the seize pole (hence e-0021 tensions Seneca with the BUILD pole, not seize); and danger_conditions rest on an undischarged NORMATIVE premise (you ought not abandon dependants) riding inside a prudential fork — claim_type_mix kept [prudential] because the poles and conditions are all prudential, with that normative premise disclosed here rather than promoted."
