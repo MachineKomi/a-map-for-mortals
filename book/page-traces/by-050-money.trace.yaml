@@ -47,6 +47,7 @@ blocks:
     claim_refs:
     - c-0026
     - c-0027
+    dossier_ref: d-0002
   adjudication:
   - ops/adjudications/2026-07-07-gateE-by040-050.md
   - ops/adjudications/2026-07-07-external-review-round-3-response.md
@@ -62,6 +63,7 @@ blocks:
     relation_refs:
     - e-0011
     - e-0012
+    dossier_ref: d-0002
   adjudication:
   - ops/adjudications/2026-07-07-gateE-by040-050.md
   - ops/adjudications/2026-07-07-external-review-round-3-response.md

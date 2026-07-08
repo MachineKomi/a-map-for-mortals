@@ -1,0 +1,42 @@
+id: d-0002
+target_ref: c-0013
+question: "Does the money-and-wellbeing evidence establish Schopenhauer's comparative claim — that what one IS matters far more than what one HAS?"
+protocol_note: "Empirical dossier registered after round-3 P0-7, which found the page presenting a conditional-quantile result as a subgroup of people and reading the evidence as vindicating Schopenhauer's broader claim. This records the bounded evidence review behind the corrected page-5 assertions (a-0024, a-0025). Primary abstracts fetched 2026-07-08."
+source_frame:
+  included:
+    - "Killingsworth, Kahneman & Mellers 2023 (PNAS) — the adversarial collaboration reconciling Kahneman-Deaton 2010 and Killingsworth 2021 (held as u-0026, u-0027; verified-secondary, DOI-confirmed)"
+    - "Rohrer & Wenz 2024 (PNAS, doi:10.1073/pnas.2313712121) — comment on KKM (title + abstract fetched 2026-07-08)"
+    - "Bennedsen 2024 (Economics Letters, doi:10.1016/j.econlet.2024.111730) — alternative threshold analysis (title fetched 2026-07-08)"
+  excluded:
+    - "the wider happiness literature beyond income↔well-being (relationships, health, purpose) — precisely the comparison the studies do NOT make, so out of frame for what the evidence can settle"
+    - "life-satisfaction (evaluative) measures where the page is about experienced/affective well-being — noted to avoid conflation"
+findings:
+  empirical:
+    - study: "KKM 2023 (adversarial collaboration)"
+      result: "Across assessed quantiles, experienced well-being rises with log-income; the sharp Kahneman-Deaton plateau does not appear for most people. Reconciles the prior dispute (both were partly right about different people)."
+      estimand: "conditional quantiles of experienced well-being on log-income"
+      caution: "observational; the $100k modelling choice is a piecewise-linear knot, not an estimated break for everyone."
+    - study: "Rohrer & Wenz 2024"
+      result: "Verbatim abstract: 'all assessed quantiles of happiness increase with log(income) until $100,000. Beyond $100K, lower quantiles do not increase significantly with log(income), suggesting a widening happiness distribution.' Title: 'Inappropriate causal assumptions underlie Killingsworth, Kahneman, and Mellers' conclusions.'"
+      objection: "Reading the flattening lower quantiles as a stable subgroup of 'unhappy people' requires causal and rank-invariance/rank-similarity assumptions the data do not supply. It is a distributional (quantile) result, not an identified class of persons."
+    - study: "Bennedsen 2024"
+      result: "Title: 'Income and emotional well-being: Evidence for well-being plateauing around $200,000 per year.' Locates the plateau nearer $200k, not $100k — the threshold is sensitive to model choice."
+  dissent:
+    - "The threshold's location ($100k vs $200k vs none) is model-dependent and contested."
+    - "Whether income CAUSES the well-being difference is not identified by any of these observational designs."
+transmission_bounds:
+  note: "Not a recurrence/convergence claim — a single empirical literature — so source-family independence does not apply here."
+strongest_objection: "That the page should not lean on this evidence to say anything about Schopenhauer at all, since income↔well-being cannot weigh 'what one is' against 'what one has'."
+response: "Accepted in the limit: the evidence settles ONLY that a flat 'money doesn't matter' reading fails. It does not test Schopenhauer's comparative claim, and the page (a-0025) says exactly that and no more."
+what_would_change_assessment: "A design that jointly measures and compares the contributions of character/temperament/relationships and income to experienced well-being (would let the evidence bear on the comparative claim); a credible causal identification of the income effect (would move the causal caution)."
+permitted_inferences:
+  - "Experienced well-being tracks log-income; a strong 'money doesn't matter' reading fails."
+  - "Above ~$100k–$200k the lower conditional quantiles flatten — a distributional result, its threshold contested."
+prohibited_inferences:
+  - "There is an identified subgroup of 'unhappy people' whose happiness plateaus."
+  - "The evidence shows money causes (or fails to cause) well-being."
+  - "The evidence vindicates (or refutes) Schopenhauer's comparative 'what one is' claim."
+adjudication_refs: ["ops/adjudications/2026-07-07-gateE-by040-050.md", "ops/adjudications/2026-07-07-external-review-round-3-response.md"]
+status: complete
+prov: {minted_by: "claude-code:dossier-pilot-v1", date: 2026-07-08}
+notes: "First EMPIRICAL dossier (round-3 P0-7). Backs the corrected page-5 assertions a-0024 (the findings) and a-0025 (the synthesis), which now carry dossier_ref: d-0002. Owed enhancement (not done, honestly): the page still draws one model's curve; a competing-model chart (drawing the ~$200k Bennedsen alternative alongside the ~$100k reading, or a comparison form) is queued so the figure shows the contest the caption describes."

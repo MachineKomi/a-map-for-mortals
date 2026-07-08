@@ -20,3 +20,4 @@ prov:
   minted_by: claude-code:gateE-v1
   date: 2026-07-07
 notes: 'RE-ADJUDICATED 2026-07-07 against verified primary sources (round-3 P0-7). Rohrer & Wenz 2024 (PNAS, doi:10.1073/pnas.2313712121), title verbatim: ''Inappropriate causal assumptions underlie Killingsworth, Kahneman, and Mellers'' conclusions''; abstract verbatim: ''all assessed quantiles of happiness increase with log(income) until $100,000. Beyond $100K, lower quantiles do not increase significantly with log(income), suggesting a widening happiness distribution.'' Bennedsen 2024 (Economics Letters, doi:10.1016/j.econlet.2024.111730), title verbatim: ''well-being plateauing around $200,000 per year.'' The prior version presented a conditional-quantile result as a subgroup of ''unhappy'' people (~15–20%) — the exact overreading Rohrer & Wenz flag — and named only the 2023 threshold; both fixed. Owed: a first-class empirical dossier object and a competing-model chart.'
+dossier_ref: d-0002
