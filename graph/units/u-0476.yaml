@@ -1,0 +1,37 @@
+id: u-0476
+claim_id: null
+type: Consequence
+paraphrase: "In the famous jam study, a 24-variety tasting display drew more browsers but produced far fewer purchases than a 6-variety display, suggesting large assortments can demotivate choice."
+quotation: null
+quotation_translation: null
+source:
+  author: "Iyengar & Lepper"
+  work: "When Choice is Demotivating: Can One Desire Too Much of a Good Thing?"
+  passage: "JPSP 79(6), Study 1 (Draeger's, Menlo Park)"
+  translator: null
+  edition_year: 2000
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/judgement-science
+era: 2000
+register: argument
+claim_type: empirical
+polarity: descriptive
+conditionality: contested
+life_domains: [consumption, decision-making]
+life_stages: [adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/05-judgement-science.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "Report confidence: high. Single real field experiment that became a cultural touchstone far beyond its evidentiary weight. Counts: 24-jam display attracted ~60% of passers-by vs ~40% for 6-jam, but of stoppers only 3% bought at 24-jam vs 30% at 6-jam. See u-0477 for the meta-analytic null."

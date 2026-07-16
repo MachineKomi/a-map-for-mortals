@@ -1,0 +1,37 @@
+id: u-0415
+claim_id: null
+type: Insight
+paraphrase: "The mind, like the immune system, is antifragile — it needs exposure to stressors, discomfort, and disagreement to develop; overprotection (safetyism) deprives young people of what they need to grow."
+quotation: null
+quotation_translation: null
+source:
+  author: Greg Lukianoff & Jonathan Haidt
+  work: The Coddling of the American Mind
+  passage: "applying Nassim Taleb's Antifragile"
+  translator: null
+  edition_year: 2018
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/teen-mental-health-debate
+era: 2018
+register: principle
+claim_type: empirical
+polarity: prescriptive
+conditionality: contested
+life_domains: [education, parenting, mental-health]
+life_stages: [child, youth]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/03-attention-tech.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "Report label: concept; report confidence high. MISATTRIBUTION WATCHLIST F.5: 'antifragile' is Nassim Nicholas Taleb's coinage (Antifragile, 2012); Lukianoff & Haidt apply it, the psychological application is contested. 'Prepare the child for the road, not the road for the child'; peanut-allergy analogy. Report claim_type 'normative / empirical-but-contested' mapped to empirical with the contested flag carried in conditionality."

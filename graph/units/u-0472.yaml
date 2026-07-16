@@ -1,0 +1,37 @@
+id: u-0472
+claim_id: null
+type: Insight
+paraphrase: "A big reason we mis-predict future feelings is focalism: we imagine the one event in isolation and forget how much ordinary life will crowd in and dilute its emotional effect."
+quotation: null
+quotation_translation: null
+source:
+  author: "Wilson, Wheatley, Meyers, Gilbert & Axsom"
+  work: "Focalism: A Source of Durability Bias in Affective Forecasting"
+  passage: "JPSP 78(5)"
+  translator: null
+  edition_year: 2000
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/judgement-science
+era: 2000
+register: argument
+claim_type: empirical
+polarity: cautionary
+conditionality: conditional
+life_domains: [wellbeing, decision-making]
+life_stages: [adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/05-judgement-science.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "Report confidence: high. The 'focusing illusion' (Schkade & Kahneman 1998, 'Does living in California make people happy?') is a close cousin. Empirical, qualified."

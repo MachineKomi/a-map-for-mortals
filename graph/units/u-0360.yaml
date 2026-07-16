@@ -1,0 +1,37 @@
+id: u-0360
+claim_id: null
+type: Practice
+paraphrase: "Meaning is not found ready-made but constructed; the mature move is to hold one's guiding story lightly — using it to live by while knowing it is a story — rather than literalizing it or nihilistically discarding all stories."
+quotation: null
+quotation_translation: null
+source:
+  author: Yuval Noah Harari
+  work: "21 Lessons for the 21st Century"
+  passage: "Part V"
+  translator: null
+  edition_year: 2018
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/big-history
+era: 2018
+register: principle
+claim_type: normative
+polarity: prescriptive
+conditionality: conditional
+life_domains: [meaning, self-understanding]
+life_stages: [adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/01-big-history.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "Report label: medium-high. Re-derivation: report 'normative/prudential' -> normative (clean normative unit); no explicit conditionality -> conditional; type Practice, polarity prescriptive. Draws on Buddhist framings and meditation; Harari's personal synthesis. CONVERGENCE-TO-TEST with Stoic/Buddhist non-attachment (report section E) — do not auto-assert equivalence."

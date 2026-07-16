@@ -1,0 +1,37 @@
+id: u-0351
+claim_id: null
+type: Insight
+paraphrase: "The 'luxury trap': conveniences pursued to make life easier become necessities that impose new burdens, so a chain of sensible improvements can add up to a life nobody chose."
+quotation: null
+quotation_translation: null
+source:
+  author: Yuval Noah Harari
+  work: Sapiens
+  passage: "ch. 5"
+  translator: null
+  edition_year: 2014
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/big-history
+era: 2014
+register: principle
+claim_type: prudential
+polarity: cautionary
+conditionality: conditional
+life_domains: [work, self-understanding, technology, meaning]
+life_stages: [young-adult, adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/01-big-history.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "Report label: high. Re-derivation: report 'prudential', 'tendency (not destiny)' -> prudential/conditional (canonical enums have no 'tendency'). Harari applies it to modern life (the graduate who takes a demanding job 'to retire at 35'). The individual-life application generalizes well beyond the contested archaeology. Guards against the hedonic treadmill."

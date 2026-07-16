@@ -1,0 +1,37 @@
+id: u-0442
+claim_id: null
+type: Insight
+paraphrase: "The nova effect is the modern explosion of spiritual and anti-spiritual options once an exclusive-humanist alternative to Christianity became live."
+quotation: null
+quotation_translation: "nova effect"
+source:
+  author: Charles Taylor
+  work: "A Secular Age"
+  passage: null
+  translator: null
+  edition_year: 2007
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/secularization
+era: 2007
+register: argument
+claim_type: observational
+polarity: descriptive
+conditionality: conditional
+life_domains: [culture, meaning]
+life_stages: [adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/04-secular-meaning.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "Report confidence: high. Coined term 'nova effect' recorded. claim_type interpretive -> observational; polarity neutral->descriptive; conditionality argued position -> conditional."

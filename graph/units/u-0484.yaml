@@ -1,0 +1,37 @@
+id: u-0484
+claim_id: null
+type: Danger
+paraphrase: "The once-celebrated claim that flourishing requires a precise positive-to-negative emotion ratio of about 3-to-1 was shown to rest on misapplied mathematics and was formally retracted — a cautionary tale about false precision in wellbeing science."
+quotation: null
+quotation_translation: null
+source:
+  author: "Fredrickson & Losada"
+  work: "Positive Affect and the Complex Dynamics of Human Flourishing"
+  passage: "American Psychologist 60:678-686 (mathematical modelling retracted 2013)"
+  translator: null
+  edition_year: 2005
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/judgement-science
+era: 2005
+register: argument
+claim_type: empirical
+polarity: cautionary
+conditionality: conditional
+life_domains: [wellbeing, self]
+life_stages: [adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/05-judgement-science.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "Report confidence: high. RETRACTION FLAG. The 2.9013 ratio and 11.6346 upper bound were declared invalid after Brown, Sokal & Friedman (2013, 'The Complex Dynamics of Wishful Thinking,' American Psychologist 68:801-813) debunked the Lorenz-equation basis; American Psychologist formally retracted the modelling elements. Brown et al. concluded the claim 'is entirely unfounded'; Losada declined to defend; Fredrickson conceded the maths was 'questionable' but kept a weaker 'higher positivity is generally better within bounds' claim. The RETRACTION is robust; that the precise ratio is nonsense is now settled. Model case of science self-correcting."

@@ -1,0 +1,37 @@
+id: u-0457
+claim_id: null
+type: Insight
+paraphrase: "Moral progress can be pictured as a widening circle of concern -- from self to family to nation to all humanity and beyond to sentient animals."
+quotation: null
+quotation_translation: "the expanding circle"
+source:
+  author: Peter Singer
+  work: "The Expanding Circle"
+  passage: null
+  translator: null
+  edition_year: 1981
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/effective-altruism
+era: 1981
+register: argument
+claim_type: normative
+polarity: prescriptive
+conditionality: conditional
+life_domains: [ethics, community]
+life_stages: [adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/04-secular-meaning.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "Report confidence: high. LINEAGE FLAG (MW-03): the phrase and image 'the expanding circle' are W. E. H. Lecky's (History of European Morals, 1869), NOT Singer's -- Singer explicitly credits and adapts them (echoed via Darwin). Author stays Singer (work The Expanding Circle 1981) per S1 rules; lineage noted here. claim_type normative + descriptive -> normative (descriptive historical lineage noted, normative primary); polarity affirming->prescriptive; conditionality conditional."

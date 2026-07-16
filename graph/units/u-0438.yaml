@@ -1,0 +1,37 @@
+id: u-0438
+claim_id: null
+type: Consequence
+paraphrase: "Terror Management Theory held that reminders of mortality (mortality salience) increase defence of one's cultural worldview; the effect is itself contested."
+quotation: null
+quotation_translation: null
+source:
+  author: Greenberg, Pyszczynski & Solomon
+  work: "Terror Management Theory (foundational experiments)"
+  passage: null
+  translator: null
+  edition_year: 1994
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/mortality-denial
+era: 1986
+register: principle
+claim_type: empirical
+polarity: descriptive
+conditionality: contested
+life_domains: [self, culture]
+life_stages: [adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/04-secular-meaning.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "CRITICAL -- EFFECT ITSELF CONTESTED. Report confidence: high (that TMT exists); the mortality-salience effect is disputed. Many Labs 4 (Klein et al., Collabra: Psychology 2022, 8(1):35271) -- 17 labs, N~1,550 -- FAILED to replicate the classic worldview-defense effect; verbatim conclusion: 'we observed little evidence ... This suggests that the original finding was either a false positive or the conditions necessary to obtain it are not fully understood or no longer exist.' Chatard et al. 2020 reanalysis (>=40-per-cell) found a small effect; Haaf et al. 2020 Bayesian multiverse found fairly robust evidence for the null. TMT founder Tom Pyszczynski disputed the replication's design. DO NOT present TMT as settled. type empirical echo -> Consequence; claim_type empirical; polarity neutral->descriptive; conditionality CONTESTED -> contested."

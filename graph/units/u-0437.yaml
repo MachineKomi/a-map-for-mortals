@@ -1,0 +1,37 @@
+id: u-0437
+claim_id: null
+type: Insight
+paraphrase: "We maintain a vital, self-protecting illusion of character that shields us from full awareness of helplessness and death."
+quotation: null
+quotation_translation: "the vital lie of character"
+source:
+  author: Ernest Becker
+  work: "The Denial of Death"
+  passage: null
+  translator: null
+  edition_year: 1973
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/mortality-denial
+era: 1973
+register: principle
+claim_type: observational
+polarity: descriptive
+conditionality: conditional
+life_domains: [self]
+life_stages: [adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/04-secular-meaning.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "Report confidence: high. Coined term 'the vital lie of character' recorded. claim_type interpretive -> observational; polarity ambivalent->descriptive; conditionality conditional preserved."

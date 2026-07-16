@@ -1,0 +1,37 @@
+id: u-0409
+claim_id: null
+type: Insight
+paraphrase: "Networked devices leave us 'alone together' — constantly connected yet more isolated — because mediated contact substitutes for the demands and rewards of genuine presence."
+quotation: null
+quotation_translation: "alone together"
+source:
+  author: Sherry Turkle
+  work: Alone Together
+  passage: null
+  translator: null
+  edition_year: 2011
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/solitude
+era: 2011
+register: narrative
+claim_type: observational
+polarity: cautionary
+conditionality: conditional
+life_domains: [relationships, mental-health, family]
+life_stages: [youth, adult]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/03-attention-tech.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "Report label: concept; report confidence high. 'alone together' is Turkle's title/coined framing. ETHNOGRAPHIC/interpretive evidence (qualitative interviews), NOT causal experiments — should not be over-read as causal proof. A shift from Turkle's earlier techno-optimism; third in a trilogy after The Second Self (1984) and Life on the Screen (1995). Report claim_type 'observational / normative' mapped to observational."

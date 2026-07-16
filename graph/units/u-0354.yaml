@@ -1,0 +1,37 @@
+id: u-0354
+claim_id: null
+type: Insight
+paraphrase: "Humanity's historic agenda — famine, plague, and war — has, on a trend-extrapolation, shifted toward engineering health, happiness, and quasi-divine control; a reading of a trend, not a prediction."
+quotation: null
+quotation_translation: null
+source:
+  author: Yuval Noah Harari
+  work: Homo Deus
+  passage: "ch. 1"
+  translator: null
+  edition_year: 2016
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/big-history
+era: 2016
+register: argument
+claim_type: prudential
+polarity: cautionary
+conditionality: conditional
+life_domains: [technology, society, health, meaning]
+life_stages: [adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/01-big-history.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "Report label: high. Re-derivation: report 'prudential/speculative', 'speculative' -> prudential/conditional. FLAG: the 'famine/plague/war solved' framing predates COVID-19 and looks over-confident; Harari hedges it as a trend. Critic Thiessen notes 'immortality, bliss, divinity' are not new ambitions. Narayanan (Current Affairs, 2022) argues Harari 'sacrifices science for sensationalism.' Not established fact."

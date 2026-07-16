@@ -1,0 +1,37 @@
+id: u-0362
+claim_id: null
+type: Insight
+paraphrase: "The ultimate cause of uneven wealth and power is geography and biogeography — who had domesticable plants and animals and an east-west axis for their spread — not innate differences between peoples."
+quotation: null
+quotation_translation: null
+source:
+  author: Jared Diamond
+  work: "Guns, Germs, and Steel"
+  passage: "Prologue / Part I"
+  translator: null
+  edition_year: 1997
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/big-history
+era: 1997
+register: argument
+claim_type: observational
+polarity: descriptive
+conditionality: contested
+life_domains: [society, self-understanding]
+life_stages: [adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/01-big-history.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "Report label: high. Re-derivation: report 'interpretive (contested explanation)', polarity 'anti-racist/anti-innatist' -> observational/descriptive (canonical enums have no 'anti-racist'); 'contested' kept. Anti-racist purpose respected even by critics; the determinist mechanism is contested (see u-0364 / Blaut, u-0365 / Chira-Botero-Gray). Pulitzer 1998."

@@ -1,0 +1,37 @@
+id: u-0397
+claim_id: null
+type: Practice
+paraphrase: "A 30-day break from optional technologies, followed by deliberate, rule-bound reintroduction of only those that pass a strict value test, resets one's digital life more effectively than incremental tweaks."
+quotation: null
+quotation_translation: null
+source:
+  author: Cal Newport
+  work: Digital Minimalism
+  passage: "The Digital Declutter"
+  translator: null
+  edition_year: 2019
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/digital-minimalism
+era: 2019
+register: principle
+claim_type: prudential
+polarity: prescriptive
+conditionality: conditional
+life_domains: [daily-habits]
+life_stages: [adult]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/03-attention-tech.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "Report label: practice; report confidence high. Efficacy claims are anecdotal/testimonial, not from controlled trials. Framed as permanent transformation, not detox."

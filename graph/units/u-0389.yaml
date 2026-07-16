@@ -1,0 +1,37 @@
+id: u-0389
+claim_id: null
+type: Danger
+paraphrase: "Longtermism can function as a dangerous ideology: by valuing vast hypothetical future populations it may license neglect of present suffering and injustice, concentrate power among wealthy elites, and rationalize harmful near-term trade-offs."
+quotation: null
+quotation_translation: null
+source:
+  author: "Émile P. Torres"
+  work: "Why longtermism is the world's most dangerous secular credo"
+  passage: "Aeon (2021); Salon (2022)"
+  translator: null
+  edition_year: 2021
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/critique-of-longtermism
+era: 2021
+register: argument
+claim_type: normative
+polarity: cautionary
+conditionality: contested
+life_domains: [ethics, politics, justice]
+life_stages: [adult, midlife]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/02-existential-risk.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "Report label: dissent; report confidence high. FIRST-CLASS DISSENT — carry at parity wherever longtermism is presented, not in a trailing criticism ghetto. Torres (with Gebru) developed the 'TESCREAL' critique; a former insider turned prominent critic. The FTX/Sam Bankman-Fried collapse (Nov 2022) intensified these concerns. Torres targets radical/strong longtermism most sharply; 'most dangerous secular credo' is their characterization, not fact."

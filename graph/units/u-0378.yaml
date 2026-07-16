@@ -1,0 +1,37 @@
+id: u-0378
+claim_id: null
+type: Danger
+paraphrase: "IF a first superintelligence achieved rapid recursive self-improvement and a surprise lead, it could gain a decisive strategic advantage and form a singleton shaping the entire future — a conditional scenario, not a forecast."
+quotation: null
+quotation_translation: null
+source:
+  author: Nick Bostrom
+  work: "Superintelligence: Paths, Dangers, Strategies"
+  passage: "ch. 5 (pp. 78ff)"
+  translator: null
+  edition_year: 2014
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/existential-risk
+era: 2014
+register: argument
+claim_type: prudential
+polarity: cautionary
+conditionality: conditional
+life_domains: [governance, geopolitics, technology]
+life_stages: [adult, midlife]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/02-existential-risk.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "Report label: scenario; report confidence high. Do not present as forecast — explicitly a conditional scenario, not a prediction. Contested by nuclear-revolution/MAD counter-models. Named terms: decisive strategic advantage, singleton."

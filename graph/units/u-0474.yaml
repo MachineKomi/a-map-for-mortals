@@ -1,0 +1,37 @@
+id: u-0474
+claim_id: null
+type: Consequence
+paraphrase: "The claim that we systematically overestimate the intensity of future feelings may be partly a measurement artifact: when asked precisely about feelings toward the focal event, people predict intensity fairly accurately (Levine et al. challenge)."
+quotation: null
+quotation_translation: null
+source:
+  author: "Levine, Lench, Kaplan & Safer"
+  work: "Accuracy and Artifact: Reexamining the Intensity Bias in Affective Forecasting"
+  passage: "JPSP 103(4):584-605"
+  translator: null
+  edition_year: 2012
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/judgement-science
+era: 2012
+register: argument
+claim_type: empirical
+polarity: cautionary
+conditionality: contested
+life_domains: [wellbeing, decision-making]
+life_stages: [adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/05-judgement-science.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "Report confidence: high. CONTESTED-FINDING FLAG: UNRESOLVED ADVERSARIAL DISPUTE. Wilson & Gilbert (2013, 'The impact bias is alive and well') rebut, arguing Levine et al. miscoded and omitted contradicting studies; Levine et al. (2013, 'Like Schrodinger's cat, the impact bias is both dead and alive') reply. Duration overestimation is less contested than intensity. Represent both sides; do not present impact bias as settled at full strength."

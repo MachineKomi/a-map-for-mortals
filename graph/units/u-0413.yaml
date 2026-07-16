@@ -1,0 +1,37 @@
+id: u-0413
+claim_id: null
+type: Insight
+paraphrase: "The capacity to be alone with oneself is a precondition for genuine relationship: if we cannot tolerate solitude, we turn to others (or devices) only to reduce anxiety rather than to truly connect."
+quotation: null
+quotation_translation: null
+source:
+  author: Sherry Turkle
+  work: Reclaiming Conversation
+  passage: "also Alone Together (2011)"
+  translator: null
+  edition_year: 2015
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/solitude
+era: 2015
+register: narrative
+claim_type: normative
+polarity: prescriptive
+conditionality: conditional
+life_domains: [mental-health, relationships]
+life_stages: [youth, adult]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/03-attention-tech.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "Report label: claim; report confidence high. Converges with Newport's solitude-deprivation (u-0396) and the contemplative-tradition solitude cluster (report convergence E.4)."

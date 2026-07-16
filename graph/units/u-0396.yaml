@@ -1,0 +1,37 @@
+id: u-0396
+claim_id: null
+type: Insight
+paraphrase: "A modern harm is solitude deprivation — spending almost no time alone with one's own thoughts, free of input from other minds — which erodes self-reflection and emotional balance."
+quotation: null
+quotation_translation: "solitude deprivation"
+source:
+  author: Cal Newport
+  work: Digital Minimalism
+  passage: "Spend Time Alone (solitude definition drawn from Kethledge & Erwin, Lead Yourself First)"
+  translator: null
+  edition_year: 2019
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/solitude
+era: 2019
+register: principle
+claim_type: empirical
+polarity: cautionary
+conditionality: contested
+life_domains: [mental-health, daily-habits]
+life_stages: [youth, adult]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/03-attention-tech.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "Report label: concept; report confidence high. 'solitude deprivation' is Newport's coined term. The definitional/prudential point (solitude != isolation) is strong; the causal appeal to teen-mental-health data borrows contested empirical authority (Newport invokes Twenge/iGen data as a 'canary in the coal mine') — flag. Report claim_type 'empirical-but-contested / normative' mapped to empirical with contested flag in conditionality."

@@ -1,0 +1,37 @@
+id: u-0444
+claim_id: null
+type: Insight
+paraphrase: "Believers and unbelievers alike seek fullness, and both live under cross-pressures between transcendence and closed immanence."
+quotation: null
+quotation_translation: "fullness"
+source:
+  author: Charles Taylor
+  work: "A Secular Age"
+  passage: null
+  translator: null
+  edition_year: 2007
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/secularization
+era: 2007
+register: argument
+claim_type: observational
+polarity: prescriptive
+conditionality: conditional
+life_domains: [meaning, self]
+life_stages: [adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/04-secular-meaning.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "Report confidence: high. Coined term 'fullness' recorded (also 'cross-pressure'). claim_type interpretive/phenomenological -> observational; polarity affirming->prescriptive; conditionality argued position -> conditional. Cultivates empathy across belief/unbelief."

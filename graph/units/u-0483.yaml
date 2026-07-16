@@ -1,0 +1,37 @@
+id: u-0483
+claim_id: null
+type: Practice
+paraphrase: "Identifying one's signature strengths and using them in new ways, or practising structured gratitude, can produce small but real increases in wellbeing."
+quotation: null
+quotation_translation: null
+source:
+  author: "Seligman, Steen, Park & Peterson"
+  work: "Positive Psychology Progress: Empirical Validation of Interventions"
+  passage: "American Psychologist 60"
+  translator: null
+  edition_year: 2005
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/judgement-science
+era: 2005
+register: argument
+claim_type: empirical
+polarity: prescriptive
+conditionality: conditional
+life_domains: [wellbeing, self, relationships]
+life_stages: [adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/05-judgement-science.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "Report confidence: high. EFFECTS ARE SMALL, not the large effects popularisation implies. White, Uttl & Holder (2019, PLOS ONE) re-analysis found that after correcting for small-sample bias, positive-psychology-intervention effects on wellbeing are small (and effects on depression variable/often non-significant); the two earlier meta-analyses reported wellbeing effects of r = .29 (Sin & Lyubomirsky 2009) and r = .17 (Bolier et al. 2013). Cross-cultural gratitude meta-analysis (PNAS, 145 papers, N~24,804): small pooled effect (Hedges' g = 0.19). Cross-ref report 08; FLAG FOR MERGE."

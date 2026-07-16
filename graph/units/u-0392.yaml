@@ -1,0 +1,37 @@
+id: u-0392
+claim_id: null
+type: Insight
+paraphrase: "Switching between tasks leaves attention residue that degrades cognitive performance on the next task."
+quotation: null
+quotation_translation: null
+source:
+  author: Sophie Leroy
+  work: Deep Work
+  passage: "drawing on Leroy's 2009 attention-residue research"
+  translator: null
+  edition_year: 2016
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/attention-economy
+era: 2016
+register: principle
+claim_type: empirical
+polarity: cautionary
+conditionality: conditional
+life_domains: [work, learning]
+life_stages: [adult]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/03-attention-tech.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "Report label: concept; report confidence high (concept traces to Leroy, not Newport). The concept of 'attention residue' originates with Sophie Leroy (2009); Newport popularized it in Deep Work (2016) — author field set to Leroy per misattribution watchlist F.4. Empirical; effect sizes in the original lab studies are modest."

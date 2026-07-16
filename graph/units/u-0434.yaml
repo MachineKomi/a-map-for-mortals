@@ -1,0 +1,37 @@
+id: u-0434
+claim_id: null
+type: Consequence
+paraphrase: "Logotherapy proposes clinical techniques -- paradoxical intention and dereflection -- for meaning-based (noogenic) neuroses; efficacy is weakly evidenced."
+quotation: null
+quotation_translation: null
+source:
+  author: Viktor Frankl
+  work: "The Will to Meaning"
+  passage: null
+  translator: null
+  edition_year: 1969
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/secular-meaning
+era: 1969
+register: principle
+claim_type: empirical
+polarity: descriptive
+conditionality: contested
+life_domains: [health, self]
+life_stages: [adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/04-secular-meaning.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "CRITICAL -- THIN EVIDENCE BASE. Report confidence: high (that Frankl proposed these); LOW that efficacy is established. Thir & Batthyany systematic review (in Logotherapy and Existential Analysis, Springer 2016, pp. 53-74) surveyed 42 studies (2010-2015) -- base still developing. Hong et al. meta-analysis (J Psychiatr Ment Health Nurs 2025) reports positive effects but weak methodology: 4 RCTs of 19 studies, methodological heterogeneity, predominance of Korea studies limits generalisability. Pytell calls logotherapy 'authoritarian.' KEEP the philosophy of meaning (SM-01..04) DISTINCT from these clinical claims. type clinical concept -> Consequence; claim_type empirical (efficacy claim) -> empirical; polarity neutral->descriptive; conditionality contested preserved. Also in The Doctor and the Soul."

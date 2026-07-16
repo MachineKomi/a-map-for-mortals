@@ -1,0 +1,37 @@
+id: u-0418
+claim_id: null
+type: Practice
+paraphrase: "Haidt proposes four norms: no smartphones before high school (~14), no social media before 16, phone-free schools, and far more unsupervised play and childhood independence."
+quotation: null
+quotation_translation: null
+source:
+  author: Jonathan Haidt
+  work: The Anxious Generation
+  passage: "Part 4"
+  translator: null
+  edition_year: 2024
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/teen-mental-health-debate
+era: 2024
+register: principle
+claim_type: prudential
+polarity: prescriptive
+conditionality: contested
+life_domains: [parenting, education, policy]
+life_stages: [child, youth]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/03-attention-tech.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "Report label: prescription; report confidence high. Note the split: on PHYSICAL-WORLD risk Haidt urges LESS protection; on DIGITAL risk, MORE. Collective-action framing (Wait Until 8th) — structural pole of the meta-fork (no single family can opt out). Policy uptake is real (u-0420) even where the underlying science is contested. Report claim_type 'prudential / normative (policy)' mapped to prudential."

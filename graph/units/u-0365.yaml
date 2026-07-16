@@ -1,0 +1,37 @@
+id: u-0365
+claim_id: null
+type: Insight
+paraphrase: "A 2024 quantitative test found Diamond's 'axis of orientation' hypothesis only weakly supported: ecologically similar societies share more cultural traits, but Eurasia is not significantly more ecologically homogeneous than other continents — so latitude is 'not destiny.'"
+quotation: null
+quotation_translation: "latitude, like genetics and ecology, is not destiny"
+source:
+  author: "Angela M. Chira, Carlos A. Botero & Russell D. Gray"
+  work: "Geography is not destiny: A quantitative test of Diamond's axis of orientation hypothesis"
+  passage: "Evolutionary Human Sciences 6:e5"
+  translator: null
+  edition_year: 2024
+  language: en
+  url: "https://doi.org/10.1017/ehs.2023.34"
+  urn: null
+tradition: contemporary/big-history
+era: 2024
+register: argument
+claim_type: empirical
+polarity: descriptive
+conditionality: conditional
+life_domains: [society, self-understanding]
+life_stages: [adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/01-big-history.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "Report label: high (verified vs. primary source). Re-derivation: report 'empirical (genuine hypothesis test)', 'robust (within operationalization)' -> empirical/conditional (genuine published hypothesis test -> empirical; 'robust-within-operationalization' is not universal). Strongest empirical anchor in the block. Abstract nuance: supports Diamond's intuition that ecological similarity aids transmission but finds the effect weaker and Eurasia not uniquely homogeneous. url carried from the report's DOI."

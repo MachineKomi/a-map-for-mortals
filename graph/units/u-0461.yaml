@@ -1,0 +1,37 @@
+id: u-0461
+claim_id: null
+type: Insight
+paraphrase: "Longtermism holds that positively influencing the long-run future is a key moral priority of our time; critics warn it can license neglect of present suffering."
+quotation: null
+quotation_translation: null
+source:
+  author: William MacAskill
+  work: "What We Owe the Future"
+  passage: null
+  translator: null
+  edition_year: 2022
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/effective-altruism
+era: 2022
+register: argument
+claim_type: normative
+polarity: descriptive
+conditionality: contested
+life_domains: [ethics, meaning]
+life_stages: [adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/04-secular-meaning.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "Report confidence: high. LONGTERMISM CONTESTED. Longtermism: positively influencing the long-run future is a key moral priority of our time (MacAskill's framing). Draws on Derek Parfit (future generations) and Nick Bostrom/Toby Ord (existential risk). Critics (Emile P. Torres, 'Against Longtermism,' Aeon 2021) argue it can license neglect of present, concrete suffering in favour of speculative future populations; Torres's characterisations are polemical opinion, contested by EA-aligned writers. claim_type normative; polarity contested->descriptive; conditionality CONTESTED->contested. NOTE: author is MacAskill (not Singer). MacAskill's framing sentence held back from quotation_translation (not in the S1 coined-term rid list) -- captured here and in paraphrase."

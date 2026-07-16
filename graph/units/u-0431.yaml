@@ -1,0 +1,37 @@
+id: u-0431
+claim_id: null
+type: Insight
+paraphrase: "The primary human motivation is a striving to find meaning, rather than pleasure (Freud) or power (Adler)."
+quotation: null
+quotation_translation: "the will to meaning"
+source:
+  author: Viktor Frankl
+  work: "The Will to Meaning"
+  passage: null
+  translator: null
+  edition_year: 1969
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/secular-meaning
+era: 1969
+register: principle
+claim_type: metaphysical
+polarity: prescriptive
+conditionality: contested
+life_domains: [meaning, work, self]
+life_stages: [young-adult, adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/04-secular-meaning.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "Report confidence: high (term is Frankl's). ASSERTED PREMISE, not demonstrated -- empirically weak as a universal motivation claim; Frankl offers no proof that objective values exist. Coined term 'the will to meaning' recorded in quotation_translation. claim_type metaphysical/psychological -> metaphysical; conditionality contested preserved. Also elaborated in Man's Search for Meaning Part Two."

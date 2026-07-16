@@ -1,0 +1,37 @@
+id: u-0470
+claim_id: null
+type: Consequence
+paraphrase: "People predict the valence of future feelings reasonably well but systematically overestimate how intense and long-lasting those feelings will be (impact bias), though the intensity component is contested."
+quotation: null
+quotation_translation: null
+source:
+  author: "Wilson, Wheatley, Meyers, Gilbert & Axsom"
+  work: "Focalism: A Source of Durability Bias in Affective Forecasting"
+  passage: "JPSP 78(5):821-836"
+  translator: null
+  edition_year: 2000
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/judgement-science
+era: 2000
+register: argument
+claim_type: empirical
+polarity: cautionary
+conditionality: conditional
+life_domains: [wellbeing, decision-making, relationships, consumption]
+life_stages: [adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/05-judgement-science.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "Report confidence: high. Valence-accurate/intensity-and-duration-erred distinction well established (Wilson & Gilbert 2003 four-component framework). Mainstream consensus treats it as robust, BUT see u-0473 for the Levine et al. (2012) artifact challenge — intensity component contested. No large pre-registered multi-lab replication located; rests on conceptual replications + reviews. Cross-ref report 08 (resilience trajectories, post-traumatic growth); FLAG FOR MERGE."

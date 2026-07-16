@@ -1,0 +1,37 @@
+id: u-0380
+claim_id: null
+type: Practice
+paraphrase: "Rather than halting progress wholesale, we should influence its sequence: retard dangerous technologies and accelerate protective ones, especially those that reduce existential risk."
+quotation: null
+quotation_translation: "trying to retard the implementation of dangerous technologies and accelerate implementation of beneficial technologies, especially those that ameliorate the hazards posed by other technologies"
+source:
+  author: Nick Bostrom
+  work: "Existential Risks / Superintelligence: Paths, Dangers, Strategies"
+  passage: "Existential Risks (2002); Superintelligence (2014), pp. 229–237"
+  translator: null
+  edition_year: 2002
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/philosophy-of-technology
+era: 2002
+register: principle
+claim_type: prudential
+polarity: prescriptive
+conditionality: conditional
+life_domains: [technology, governance, policy]
+life_stages: [adult, midlife]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/02-existential-risk.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "Report label: principle; report confidence high. Endorsed by Ord (The Precipice, 2020); the shared constructive middle path of the risk community. Assumes we can actually influence sequencing; bridges the progress-vs-safety fork."

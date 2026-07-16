@@ -1,0 +1,37 @@
+id: u-0449
+claim_id: null
+type: Insight
+paraphrase: "A partial, rooted cosmopolitanism owes real obligations to all humans while legitimately holding special local loyalties."
+quotation: null
+quotation_translation: null
+source:
+  author: Kwame Anthony Appiah
+  work: "Cosmopolitanism"
+  passage: null
+  translator: null
+  edition_year: 2006
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/cosmopolitanism
+era: 2006
+register: argument
+claim_type: normative
+polarity: prescriptive
+conditionality: conditional
+life_domains: [ethics, community, politics]
+life_stages: [adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/04-secular-meaning.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "Report confidence: high. Appiah's argued liberal-humanist position, not consensus. claim_type normative; polarity affirming->prescriptive; conditionality argued position -> conditional. Rejects both pure impartiality and tribal exclusion."

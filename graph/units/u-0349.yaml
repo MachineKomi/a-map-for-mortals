@@ -1,0 +1,37 @@
+id: u-0349
+claim_id: null
+type: Insight
+paraphrase: "Money is the most universal system of mutual trust humans have built, converting almost anything into anything and letting strangers who share no language, religion, or morality cooperate."
+quotation: null
+quotation_translation: "Money is the only trust system created by humans that can bridge almost any cultural gap."
+source:
+  author: Yuval Noah Harari
+  work: Sapiens
+  passage: "ch. 10"
+  translator: null
+  edition_year: 2014
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/big-history
+era: 2014
+register: argument
+claim_type: observational
+polarity: descriptive
+conditionality: conditional
+life_domains: [work, society, money]
+life_stages: [adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/01-big-history.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "Report label: high. Re-derivation: report 'interpretive/observational', polarity 'ambivalent' -> observational/descriptive (canonical enums have no 'ambivalent'); no explicit conditionality -> conditional. Carries one short attributed Harari formulation in quotation_translation exactly as the report records it. Guards against commodification of what should not be priced."

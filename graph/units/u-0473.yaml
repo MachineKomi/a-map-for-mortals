@@ -1,0 +1,37 @@
+id: u-0473
+claim_id: null
+type: Practice
+paraphrase: "Because our intuitions about what will make us happy are unreliable, it can pay to consult how similar choices actually made other people feel rather than trusting our imagination."
+quotation: null
+quotation_translation: null
+source:
+  author: Daniel Gilbert
+  work: "Stumbling on Happiness"
+  passage: "concluding chapters (surrogation)"
+  translator: null
+  edition_year: 2006
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/secular-meaning
+era: 2006
+register: argument
+claim_type: prudential
+polarity: prescriptive
+conditionality: conditional
+life_domains: [wellbeing, decision-making, consumption]
+life_stages: [adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/05-judgement-science.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "Report confidence: medium. PRUDENTIAL, not empirical — a recommendation drawn from empirical findings; the underlying 'surrogation' evidence is thinner than the forecasting-error evidence. Must not borrow empirical authority. Cross-ref report 08 money-wellbeing; FLAG FOR MERGE."

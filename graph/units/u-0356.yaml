@@ -1,0 +1,37 @@
+id: u-0356
+claim_id: null
+type: Danger
+paraphrase: "Intelligence is decoupling from consciousness: machines may match or exceed humans at task after task without being conscious, so value could drift away from humans absent any 'robot uprising.'"
+quotation: null
+quotation_translation: null
+source:
+  author: Yuval Noah Harari
+  work: Homo Deus
+  passage: null
+  translator: null
+  edition_year: 2016
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/big-history
+era: 2016
+register: argument
+claim_type: prudential
+polarity: cautionary
+conditionality: conditional
+life_domains: [work, technology, society]
+life_stages: [adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/01-big-history.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "Report label: high. Re-derivation: report 'prudential/speculative', 'speculative' -> prudential/conditional; type Danger, polarity cautionary. Conceptual distinction is useful; labor-market conclusions contested by economists citing historical job creation. Cites both Homo Deus (2016) and 21 Lessons (2018); primary citation is Homo Deus."

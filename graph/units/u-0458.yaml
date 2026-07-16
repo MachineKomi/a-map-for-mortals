@@ -1,0 +1,37 @@
+id: u-0458
+claim_id: null
+type: Practice
+paraphrase: "Effective altruism applies evidence and reason to maximise impact per resource, including career choices such as earning to give."
+quotation: null
+quotation_translation: null
+source:
+  author: Peter Singer
+  work: "The Most Good You Can Do"
+  passage: null
+  translator: null
+  edition_year: 2015
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/effective-altruism
+era: 2015
+register: argument
+claim_type: normative
+polarity: prescriptive
+conditionality: contested
+life_domains: [ethics, money, work]
+life_stages: [young-adult, adult, midlife]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/04-secular-meaning.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "Report confidence: high. EA is a LIVE movement, not consensus. 'Earning to give' was 80,000 Hours' early flagship (MacAskill's working definition: deliberate high-earning plus donating at least 20% of income); by mid-2015 the org walked it back, publishing that 'only a small proportion of people should earn to give long term.' The impact measurements (QALYs, charity effectiveness) are the EMPIRICAL part -- separable from the NORMATIVE claim that one ought to maximise. type movement -> Practice; claim_type normative; conditionality CONTESTED -> contested. Also MacAskill, Doing Good Better (2015); 80,000 Hours (founded 2011)."

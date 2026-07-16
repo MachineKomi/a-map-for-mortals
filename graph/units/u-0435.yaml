@@ -1,0 +1,37 @@
+id: u-0435
+claim_id: null
+type: Insight
+paraphrase: "Much human striving is an unconscious defence against the terror of mortality, with culture and heroism as systems that lend a sense of transcendence."
+quotation: null
+quotation_translation: null
+source:
+  author: Ernest Becker
+  work: "The Denial of Death"
+  passage: null
+  translator: null
+  edition_year: 1973
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/mortality-denial
+era: 1973
+register: principle
+claim_type: observational
+polarity: descriptive
+conditionality: conditional
+life_domains: [self, culture, mortality, meaning]
+life_stages: [adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/04-secular-meaning.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "Report confidence: high. Largely interpretive/psychodynamic framework -- Becker offers no experimental proof. claim_type interpretive/observational (framework, not proven) -> observational; polarity diagnostic->descriptive; conditionality conditional preserved."

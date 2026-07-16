@@ -1,0 +1,37 @@
+id: u-0448
+claim_id: null
+type: Danger
+paraphrase: "The chief objection to Wolf's objective component: who decides objective attractiveness, and is the answer too thin, elitist, or under-defended?"
+quotation: null
+quotation_translation: null
+source:
+  author: Susan Wolf
+  work: "Meaning in Life and Why It Matters"
+  passage: "p. 47"
+  translator: null
+  edition_year: 2010
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/meaning-philosophy
+era: 2010
+register: argument
+claim_type: normative
+polarity: cautionary
+conditionality: contested
+life_domains: [meaning, ethics]
+life_stages: [adult]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/04-secular-meaning.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "CRITICAL -- PRESERVE DISSENT. The chief objection to Wolf's objective component: who decides 'objective attractiveness'? Wolf's own answer is deliberately modest/intersubjective (roughly, what many people over long spans have valued), which critics (Metz; SEP 'The Meaning of Life'; Arpaly; Koethe) find either too thin, potentially elitist, or under-defended. type critique -> Danger; claim_type normative (meta-level dispute) -> normative; polarity critical -> cautionary; conditionality contested. Guards against covert elitism and unexamined relativism. Do NOT blend into SM-16."

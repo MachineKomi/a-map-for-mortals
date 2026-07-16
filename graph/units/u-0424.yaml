@@ -1,0 +1,37 @@
+id: u-0424
+claim_id: null
+type: Consequence
+paraphrase: "Part of the apparent rise in teen mental-health crises may be a measurement artifact: a 2011 US screening-guideline change and a mid-2010s change in coding suicidal ideation coincided with inflection points, while actual self-harm, suicide attempts, and completed suicides stayed relatively flat in the data studied."
+quotation: null
+quotation_translation: null
+source:
+  author: '("To What Extent Are Trends in Teen Mental Health Driven by Changes in Reporting?")'
+  work: "Journal of Human Resources"
+  passage: "New Jersey hospital-visit data, 2008-2019 (2024)"
+  translator: null
+  edition_year: 2024
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/teen-mental-health-debate
+era: 2024
+register: argument
+claim_type: empirical
+polarity: descriptive
+conditionality: contested
+life_domains: [mental-health, policy]
+life_stages: [youth]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/03-attention-tech.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "Report label: counter-claim; report confidence MEDIUM-HIGH (single-state New Jersey hospital data; not necessarily generalizable). USPSTF recommended screening adolescent girls for depression in 2011; ideation coding changed 2015-2017. Haidt counters that completed-suicide and ER self-harm data (esp. for younger girls) rose independently of coding — both partly true depending on dataset; present as genuine uncertainty. Key skeptic unit paired with Haidt's causal claim (u-0416)."

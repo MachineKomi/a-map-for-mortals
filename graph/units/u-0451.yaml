@@ -1,0 +1,37 @@
+id: u-0451
+claim_id: null
+type: Insight
+paraphrase: "Fallibilism plus value-pluralism: knowledge is provisional and many ways of life are worthwhile, yet not everything goes."
+quotation: null
+quotation_translation: "fallibilism"
+source:
+  author: Kwame Anthony Appiah
+  work: "Cosmopolitanism"
+  passage: "p. 144"
+  translator: null
+  edition_year: 2006
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/cosmopolitanism
+era: 2006
+register: argument
+claim_type: normative
+polarity: prescriptive
+conditionality: conditional
+life_domains: [ethics, self, meaning]
+life_stages: [adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/04-secular-meaning.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "Report confidence: high. Coined term 'fallibilism' recorded (Appiah's gloss). claim_type normative/epistemic -> normative (epistemic is not a canonical enum value; normative is the load-bearing primary). Appiah is a value-pluralist, NOT a relativist. conditionality argued position -> conditional."

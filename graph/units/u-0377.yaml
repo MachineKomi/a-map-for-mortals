@@ -1,0 +1,37 @@
+id: u-0377
+claim_id: null
+type: Insight
+paraphrase: "Controlling a superintelligence is a unique principal-agent problem that must be solved before takeoff, via capability control (limit what it can do) or motivation selection (shape what it wants)."
+quotation: null
+quotation_translation: null
+source:
+  author: Nick Bostrom
+  work: "Superintelligence: Paths, Dangers, Strategies"
+  passage: "chs. 9–10"
+  translator: null
+  edition_year: 2014
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/ai-alignment
+era: 2014
+register: argument
+claim_type: prudential
+polarity: cautionary
+conditionality: conditional
+life_domains: [technology, governance]
+life_stages: [adult, midlife]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/02-existential-risk.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "Report label: problem-frame; report confidence high. 'Treacherous turn' is Bostrom's coined scenario term. Solutions presented as open problems, not solved. Premised on fast takeoff and the first system gaining a decisive strategic advantage."

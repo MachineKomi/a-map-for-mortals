@@ -1,0 +1,37 @@
+id: u-0352
+claim_id: null
+type: Insight
+paraphrase: "A gene's-eye inversion — 'wheat domesticated us' — noting that domesticated species and cultivators co-evolved, so evolutionary success (more copies) can coincide with more individual suffering."
+quotation: null
+quotation_translation: null
+source:
+  author: Yuval Noah Harari
+  work: Sapiens
+  passage: "ch. 5"
+  translator: null
+  edition_year: 2014
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/big-history
+era: 2014
+register: metaphor
+claim_type: observational
+polarity: descriptive
+conditionality: conditional
+life_domains: [self-understanding, society]
+life_stages: [adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/01-big-history.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "Report label: high. Re-derivation: report 'interpretive (rhetorical reframing of a real point)' -> observational; no explicit conditionality -> conditional. register set to 'metaphor' (the unit IS the memorable inversion); the sound sub-claim is fitness != welfare, distinguished from the rhetorical flourish. Guards against conflating population success with wellbeing."

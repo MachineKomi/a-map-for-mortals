@@ -1,0 +1,37 @@
+id: u-0459
+claim_id: null
+type: Danger
+paraphrase: "Effective altruism is seriously contested on demandingness, institutional depoliticisation, over-quantification, longtermism, and the FTX collapse."
+quotation: null
+quotation_translation: null
+source:
+  author: Amia Srinivasan
+  work: "Stop the Robot Apocalypse"
+  passage: "London Review of Books 37:18, 24 Sept 2015"
+  translator: null
+  edition_year: 2015
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/effective-altruism
+era: 2015
+register: argument
+claim_type: normative
+polarity: cautionary
+conditionality: contested
+life_domains: [ethics, money, politics]
+life_stages: [adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/04-secular-meaning.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "CRITICAL -- PRESERVE DISSENT VERBATIM, DO NOT BLEND. EA is seriously contested on five axes: (a) demandingness; (b) the institutional/justice critique; (c) over-quantification; (d) longtermism controversies; (e) the FTX/Sam Bankman-Fried collapse. Srinivasan verbatim (LRB 37:18, 24 Sept 2015): EA 'does not address the deep sources of global misery -- international trade and finance, debt, nationalism, imperialism, racial and gender-based subordination, war, environmental degradation, corruption, exploitation of labour ... Effective altruism doesn't try to understand how power works, except to better align itself with it. In this sense it leaves everything just as it is.' Lisa Herzog presses a parallel institutional critique. FTX: the exchange collapsed and filed for bankruptcy 11 Nov 2022; SBF -- a self-described effective altruist mentored by MacAskill, whose FTX Future Fund (led by MacAskill and Nick Beckstead) had stated ~$160M committed to ~110 nonprofits by Sept 2022 -- was convicted on all seven fraud counts (2 Nov 2023) and sentenced to 25 years (28 Mar 2024). Counterpoint for balance: Singer argued there is no DIRECT relationship between SBF's crimes and EA's core claims. type critique cluster -> Danger; claim_type normative (critique); polarity critical->cautionary; conditionality contested. Cluster also includes Adams, Crary & Gruen (eds.), The Good It Promises, the Harm It Does (2023); MacAskill, What We Owe the Future (2022)."

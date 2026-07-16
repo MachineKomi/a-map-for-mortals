@@ -1,0 +1,37 @@
+id: u-0376
+claim_id: null
+type: Insight
+paraphrase: "A wide range of final goals implies similar instrumental sub-goals such as self-preservation and resource acquisition, so even a benign-seeming objective could drive dangerous power-seeking."
+quotation: null
+quotation_translation: "Several instrumental values can be identified which are convergent in the sense that their attainment would increase the chances of the agent's goal being realized for a wide range of final goals and a wide range of situations"
+source:
+  author: Nick Bostrom
+  work: "Superintelligence: Paths, Dangers, Strategies"
+  passage: "ch. 7, p. 109"
+  translator: null
+  edition_year: 2014
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/ai-alignment
+era: 2014
+register: argument
+claim_type: prudential
+polarity: cautionary
+conditionality: conditional
+life_domains: [technology, governance]
+life_stages: [adult, midlife]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/02-existential-risk.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "Report label: thesis; report confidence high. Credit Omohundro (2008) for the precursor 'basic AI drives'; Bostrom named the thesis. Formal work (Turner et al. 2021) supports option/survival-preservation only, not Bostrom's full list of convergent drives. Not a prediction."

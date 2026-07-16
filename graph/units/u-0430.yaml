@@ -1,0 +1,37 @@
+id: u-0430
+claim_id: null
+type: Insight
+paraphrase: "Meaning can be found even in unavoidable suffering, because when a situation cannot be changed one remains free to choose the attitude taken toward it."
+quotation: null
+quotation_translation: null
+source:
+  author: Viktor Frankl
+  work: "Man's Search for Meaning"
+  passage: "Part Two"
+  translator: null
+  edition_year: 1984
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/secular-meaning
+era: 1946
+register: principle
+claim_type: normative
+polarity: prescriptive
+conditionality: conditional
+life_domains: [meaning, adversity, work, love]
+life_stages: [adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/04-secular-meaning.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "Report confidence: high (idea); memoir details contested (see MW-02: Pytell/Langer vs Batthyany). Treat camp observations as interpretive testimony, not proven psychology. Polarity affirming->prescriptive; conditionality conditional preserved; claim_type normative + observational (memoir) -> normative."

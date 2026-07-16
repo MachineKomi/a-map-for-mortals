@@ -1,0 +1,37 @@
+id: u-0467
+claim_id: null
+type: Insight
+paraphrase: "When forming a judgement we treat the information in front of us as if it were the whole story, neglecting what we cannot see — what you see is all there is (WYSIATI)."
+quotation: null
+quotation_translation: "what you see is all there is"
+source:
+  author: Daniel Kahneman
+  work: "Thinking, Fast and Slow"
+  passage: "Ch. 7 (WYSIATI)"
+  translator: null
+  edition_year: 2011
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/judgement-science
+era: 2011
+register: argument
+claim_type: empirical
+polarity: cautionary
+conditionality: conditional
+life_domains: [decision-making, work, relationships]
+life_stages: [adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/05-judgement-science.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "Report confidence: high. WYSIATI is a coined term (the acronym); an interpretive umbrella over several biases rather than a single measured effect. Empirical/observational."

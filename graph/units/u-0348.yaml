@@ -1,0 +1,37 @@
+id: u-0348
+claim_id: null
+type: Insight
+paraphrase: "The distinctive human trick is talking about things that do not physically exist — gods, laws, futures — which lets belief substitute for face-to-face trust and breaks the small-group cooperation ceiling."
+quotation: null
+quotation_translation: null
+source:
+  author: Yuval Noah Harari
+  work: Sapiens
+  passage: "ch. 2"
+  translator: null
+  edition_year: 2014
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/big-history
+era: 2014
+register: argument
+claim_type: observational
+polarity: descriptive
+conditionality: contested
+life_domains: [society, community, self-understanding]
+life_stages: [adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/01-big-history.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "Report label: high (position), low (timing). Re-derivation: report 'interpretive (contested empirical sub-claims)' -> observational; 'contested' kept. FLAG: the ~150 'Dunbar's number' (Dunbar 1992) is itself contested — Lindenfors et al. 2021 reanalysis gave estimates as high as 520 with CIs 'far too large to specify any one estimate.' Hallpike and Chomsky dispute the sharp 'Cognitive Revolution'; Chomsky's 'fanciful' characterization is reported secondhand (unverified). Timing contested, not established."

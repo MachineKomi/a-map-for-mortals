@@ -1,0 +1,37 @@
+id: u-0485
+claim_id: null
+type: Insight
+paraphrase: "People report their most rewarding experiences not in idle relaxation but in flow — total absorption in an activity that stretches their skills to meet a clear, challenging goal with immediate feedback."
+quotation: null
+quotation_translation: "flow"
+source:
+  author: Mihaly Csikszentmihalyi
+  work: "Flow: The Psychology of Optimal Experience"
+  passage: "challenge-skill balance, clear goals, feedback"
+  translator: null
+  edition_year: 1990
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/secular-meaning
+era: 1990
+register: argument
+claim_type: empirical
+polarity: descriptive
+conditionality: conditional
+life_domains: [work, wellbeing, self]
+life_stages: [adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/05-judgement-science.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "Report confidence: high. Phenomenological description is durable and the Experience Sampling Method (real-time pager reports) was a genuine methodological advance. BUT operationalisation is contested: flow is variously modelled as discrete vs continuous, relies heavily on self-report, is hard to distinguish from enjoyment/engagement, and causal claims are unclear. 'Flow' is a coined term. Empirical, qualified."

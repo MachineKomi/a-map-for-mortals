@@ -1,0 +1,37 @@
+id: u-0383
+claim_id: null
+type: Insight
+paraphrase: "Natural existential risks (asteroids, supervolcanoes) are real but small, since we have survived 2,000 centuries of them, while the dominant modern risks are anthropogenic — especially unaligned AI and engineered pandemics."
+quotation: null
+quotation_translation: null
+source:
+  author: Toby Ord
+  work: "The Precipice: Existential Risk and the Future of Humanity"
+  passage: "chs. 3–5"
+  translator: null
+  edition_year: 2020
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/existential-risk
+era: 2020
+register: argument
+claim_type: empirical
+polarity: cautionary
+conditionality: conditional
+life_domains: [technology, governance, ethics]
+life_stages: [adult, midlife]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/02-existential-risk.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "Report label: taxonomy; report confidence high. Distinguish the well-grounded natural-risk bounds (survival over 2,000 centuries) from the speculative anthropogenic estimates — they do not have equal epistemic status. Even natural figures contested: Salotti (2022) ~1 in 300M for extinction-level asteroid vs Ord's ~1 in 1M."

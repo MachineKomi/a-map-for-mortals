@@ -1,0 +1,37 @@
+id: u-0468
+claim_id: null
+type: Consequence
+paraphrase: "People chronically underestimate how long tasks will take and how much they will cost, even when burned by the same optimism before — the planning fallacy."
+quotation: null
+quotation_translation: null
+source:
+  author: "Kahneman & Tversky"
+  work: "Intuitive Prediction: Biases and Corrective Procedures"
+  passage: "Thinking, Fast and Slow Ch. 23"
+  translator: null
+  edition_year: 1979
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/judgement-science
+era: 1979
+register: argument
+claim_type: empirical
+polarity: cautionary
+conditionality: conditional
+life_domains: [work, decision-making, self]
+life_stages: [adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/05-judgement-science.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "Report confidence: high. Well-supported and widely replicated in project-management data; remedy proposed is 'reference-class forecasting'. Empirical, robust."

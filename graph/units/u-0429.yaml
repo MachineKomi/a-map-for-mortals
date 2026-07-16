@@ -1,0 +1,37 @@
+id: u-0429
+claim_id: null
+type: Insight
+paraphrase: "The persuasive-design techniques Harris critiques descend from B.J. Fogg's captology/persuasive-technology lab at Stanford, which studied how computers change behavior — a lineage that produced both wellness apps and engagement-maximizing dark patterns."
+quotation: null
+quotation_translation: null
+source:
+  author: B.J. Fogg
+  work: Persuasive Technology
+  passage: "Stanford Persuasive Technology Lab (now Behavior Design Lab)"
+  translator: null
+  edition_year: 2002
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/persuasive-design-critique
+era: 2002
+register: argument
+claim_type: observational
+polarity: descriptive
+conditionality: conditional
+life_domains: [technology]
+life_stages: []
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/03-attention-tech.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "Report label: context; report confidence high. Included as LINEAGE/CONTEXT, NOT ENDORSEMENT. Fogg wrote the first book chapter on the ethics of persuasive tech (2002) and mentored Harris; he argues he warned about misuse and disputes being blamed for downstream misuse. era set to 2002 (Persuasive Technology publication). life_stages empty as the report provides none (the unit describes a scholarly lineage, not stage-targeted counsel)."

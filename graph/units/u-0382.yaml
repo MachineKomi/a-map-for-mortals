@@ -1,0 +1,37 @@
+id: u-0382
+claim_id: null
+type: Consequence
+paraphrase: "Ord's rough personal estimate is about a one-in-six chance of existential catastrophe this century, dominated by anthropogenic risks — an order-of-magnitude judgment, not a precise measurement."
+quotation: null
+quotation_translation: "I put the existential risk this century at around one in six: Russian roulette."
+source:
+  author: Toby Ord
+  work: "The Precipice: Existential Risk and the Future of Humanity"
+  passage: "p. 30; Table 6.1, ch. 6"
+  translator: null
+  edition_year: 2020
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/existential-risk
+era: 2020
+register: argument
+claim_type: empirical
+polarity: cautionary
+conditionality: conditional
+life_domains: [governance, ethics, technology]
+life_stages: [adult, midlife]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/02-existential-risk.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "Report label: estimate; report confidence high. Empirical but a SUBJECTIVE BAYESIAN estimate under deep uncertainty — heavily caveated by Ord ('right order of magnitude, not a precise probability'). The single most-cited and most-contested number in the field. Per-risk: unaligned AI ~1 in 10; engineered pandemics ~1 in 30; nuclear/climate ~1 in 1,000; total natural ~1 in 10,000. Critics (Thorstad, Fodor) argue several figures are too high."

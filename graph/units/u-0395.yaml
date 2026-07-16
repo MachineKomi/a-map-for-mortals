@@ -1,0 +1,37 @@
+id: u-0395
+claim_id: null
+type: Insight
+paraphrase: "Choose technologies deliberately by asking whether each directly serves something you deeply value, keeping only a few optimized tools and cheerfully missing out on the rest."
+quotation: null
+quotation_translation: "digital minimalism"
+source:
+  author: Cal Newport
+  work: Digital Minimalism
+  passage: "Part 1"
+  translator: null
+  edition_year: 2019
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/digital-minimalism
+era: 2019
+register: principle
+claim_type: prudential
+polarity: prescriptive
+conditionality: conditional
+life_domains: [daily-habits, work, relationships]
+life_stages: [youth, young-adult, adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/03-attention-tech.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "Report label: concept; report confidence high. 'digital minimalism' is Newport's coined term. Sits on the individual-responsibility pole of the meta-fork. Three principles: clutter is costly; optimization matters; intentionality is satisfying. Report claim_type 'normative / prudential' mapped to prudential (both valid; prudential chosen as the more specific action-guiding reading)."

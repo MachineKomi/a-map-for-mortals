@@ -1,0 +1,37 @@
+id: u-0350
+claim_id: null
+type: Insight
+paraphrase: "The Agricultural Revolution may have been a mixed bargain rather than pure progress: it multiplied humans while leaving individual farmers harder labor, worse diets, more disease, and steeper hierarchy than foragers."
+quotation: null
+quotation_translation: "history's biggest fraud"
+source:
+  author: Yuval Noah Harari
+  work: Sapiens
+  passage: "ch. 5"
+  translator: null
+  edition_year: 2014
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/big-history
+era: 2014
+register: argument
+claim_type: observational
+polarity: cautionary
+conditionality: contested
+life_domains: [work, society, meaning]
+life_stages: [adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/01-big-history.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "Report label: high. Re-derivation: report 'interpretive (contested empirical core)' -> observational (do NOT tag empirical — Harari's provocation, not a test); 'contested' kept. FLAG: rests on Sahlins's 'original affluent society' (1966/1972, Lee's !Kung data), whose leisure figures were later challenged for excluding food-processing/firewood labor and downplaying infant mortality/disease. 'Biggest fraud' is Harari's phrase, echoes Diamond's 1987 'Worst Mistake.' Genuinely contested."

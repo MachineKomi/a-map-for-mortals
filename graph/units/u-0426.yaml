@@ -1,0 +1,37 @@
+id: u-0426
+claim_id: null
+type: Insight
+paraphrase: "Attention-economy products compete by exploiting ever-lower, more automatic parts of human psychology to capture attention — a race to the bottom of the brain stem — pitting engineered persuasion against users' considered interests."
+quotation: null
+quotation_translation: "race to the bottom of the brain stem"
+source:
+  author: Tristan Harris
+  work: "Time Well Spent / Center for Humane Technology materials"
+  passage: "Time Well Spent (2016); TED talk (2017); CHT materials"
+  translator: null
+  edition_year: 2016
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/persuasive-design-critique
+era: 2016
+register: argument
+claim_type: observational
+polarity: cautionary
+conditionality: conditional
+life_domains: [technology, mental-health, civic-life]
+life_stages: [young-adult, adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/03-attention-tech.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "Report label: concept; report confidence high. 'race to the bottom of the brain stem' is Tristan Harris's coined phrase. Former Google design ethicist; studied under B.J. Fogg; builds on Herbert Simon's information/attention scarcity (do not attribute the attention-economy concept to Harris — Simon 1971 is primary). Structural-critique pole of the meta-fork; The Social Dilemma (2020) amplified it. Some scholars caution the 'hijacking/addiction' framing outruns the addiction evidence. Report claim_type 'observational / normative' mapped to observational."

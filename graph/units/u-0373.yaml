@@ -1,0 +1,37 @@
+id: u-0373
+claim_id: null
+type: Danger
+paraphrase: "Information networks do not automatically yield truth or wisdom; societies flourish when they build self-correcting institutions, and the deepest AI danger is delegating power to systems optimized for engagement or control rather than truth."
+quotation: null
+quotation_translation: null
+source:
+  author: Yuval Noah Harari
+  work: Nexus
+  passage: null
+  translator: null
+  edition_year: 2024
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/big-history
+era: 2024
+register: argument
+claim_type: prudential
+polarity: cautionary
+conditionality: conditional
+life_domains: [society, technology, community]
+life_stages: [adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/01-big-history.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "Report label: high. Re-derivation: report 'prudential/speculative', 'speculative' -> prudential/conditional; type Danger, polarity cautionary. Harari is a Distinguished Research Fellow at Cambridge's Centre for the Study of Existential Risk; co-authored the Oct 2023 'Managing AI Risks in an Era of Rapid Progress' paper (with Hinton, Bengio) and associated with the May 2023 Center for AI Safety Statement. 'Self-correcting institutions' is his most constructive point. Critics note his liberal-institutionalist framing and reductive treatment of 'information.' Nexus treated lightly by design."

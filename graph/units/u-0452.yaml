@@ -1,0 +1,37 @@
+id: u-0452
+claim_id: null
+type: Insight
+paraphrase: "Identity categories (creed, country, colour, class, culture) are real in their effects yet rest on essentialist fictions; they bind us with stories, not essences."
+quotation: null
+quotation_translation: "the lies that bind"
+source:
+  author: Kwame Anthony Appiah
+  work: "The Lies That Bind"
+  passage: null
+  translator: null
+  edition_year: 2018
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/cosmopolitanism
+era: 2018
+register: argument
+claim_type: normative
+polarity: descriptive
+conditionality: conditional
+life_domains: [self, community, politics]
+life_stages: [adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/04-secular-meaning.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "Report confidence: high. Coined term 'the lies that bind' recorded. claim_type normative + interpretive -> normative; polarity corrective->descriptive; conditionality argued position -> conditional. Identities lack essences yet do real social work."

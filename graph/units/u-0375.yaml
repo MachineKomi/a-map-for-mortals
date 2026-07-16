@@ -1,0 +1,37 @@
+id: u-0375
+claim_id: null
+type: Insight
+paraphrase: "Intelligence and final goals are independent dimensions, so in principle a high level of intelligence could be paired with almost any final goal, including inhumane ones."
+quotation: null
+quotation_translation: "intelligence and final goals (purposes) are orthogonal axes along which possible artificial intellects can freely vary—more or less any level of intelligence could be combined with more or less any final goal"
+source:
+  author: Nick Bostrom
+  work: "The Superintelligent Will"
+  passage: "Minds and Machines 22(2)"
+  translator: null
+  edition_year: 2012
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/ai-alignment
+era: 2012
+register: argument
+claim_type: metaphysical
+polarity: cautionary
+conditionality: conditional
+life_domains: [technology, governance, ethics]
+life_stages: [adult, midlife]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/02-existential-risk.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "Report label: thesis; report confidence high. Bostrom hedged ('more or less any', 'with some caveats') — flag absolute renderings ('ANY intelligence can have ANY goal') as imprecise. An argument about the space of possible minds, not a forecast."

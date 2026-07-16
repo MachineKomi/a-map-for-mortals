@@ -1,0 +1,37 @@
+id: u-0355
+claim_id: null
+type: Danger
+paraphrase: "'Dataism' is an emerging value system that treats the universe as data flows and judges entities by their contribution to information processing; if it displaces humanism, human experience could seem dispensable."
+quotation: null
+quotation_translation: "Dataism"
+source:
+  author: Yuval Noah Harari
+  work: Homo Deus
+  passage: null
+  translator: null
+  edition_year: 2016
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/big-history
+era: 2016
+register: argument
+claim_type: prudential
+polarity: cautionary
+conditionality: conditional
+life_domains: [technology, society, self-understanding, meaning]
+life_stages: [adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/01-big-history.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "Report label: high. Re-derivation: report 'prudential/speculative (named ideal-type)', 'speculative' -> prudential/conditional; type set to Danger (a constructed warning), polarity cautionary. FLAG: an explicitly constructed warning, not a claim dataism is true. Critics argue Harari's own 'humans are algorithms' reductionism is metaphysics presented as science. 'Dataism' term carried in quotation_translation exactly as the report records it."

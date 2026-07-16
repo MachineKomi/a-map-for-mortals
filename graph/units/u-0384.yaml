@@ -1,0 +1,37 @@
+id: u-0384
+claim_id: null
+type: Insight
+paraphrase: "Because humanity's potential future is enormous — possibly millions of generations — safeguarding it is among the most important moral tasks of our time; existential catastrophe would foreclose all future value."
+quotation: null
+quotation_translation: null
+source:
+  author: Toby Ord
+  work: "The Precipice: Existential Risk and the Future of Humanity"
+  passage: "chs. 2, 8"
+  translator: null
+  edition_year: 2020
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/longtermism
+era: 2020
+register: principle
+claim_type: normative
+polarity: prescriptive
+conditionality: conditional
+life_domains: [ethics, meaning, governance]
+life_stages: [adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/02-existential-risk.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "Report label: normative-argument; report confidence high. Ord argues this converges across many moral traditions, not only utilitarianism; critics dispute the convergence claim. 'Long Reflection' and 'existential security' are Ord's coined terms; the Long Reflection is itself criticized as dubious/impractical."

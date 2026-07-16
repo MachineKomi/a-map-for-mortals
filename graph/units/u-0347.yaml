@@ -1,0 +1,37 @@
+id: u-0347
+claim_id: null
+type: Insight
+paraphrase: "Large-scale cooperation among strangers is made possible by shared fictions — money, nations, law, religion, corporations — that exist only because enough people jointly believe in them."
+quotation: null
+quotation_translation: null
+source:
+  author: Yuval Noah Harari
+  work: Sapiens
+  passage: "Part One"
+  translator: null
+  edition_year: 2014
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/big-history
+era: 2014
+register: argument
+claim_type: observational
+polarity: descriptive
+conditionality: conditional
+life_domains: [society, community, self-understanding, work]
+life_stages: [adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/01-big-history.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "Report label: high (position). Re-derivation: report 'interpretive/observational' -> observational; 'robust-but-interpretive' -> conditional. Idea longstanding in social science (Durkheim, Searle, Anderson); Harari's contribution is synthesis/framing, not discovery. Cross-ref ancient 'myths that bind' — do not re-extract."

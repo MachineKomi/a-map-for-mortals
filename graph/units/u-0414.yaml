@@ -1,0 +1,37 @@
+id: u-0414
+claim_id: null
+type: Insight
+paraphrase: "Three 'great untruths' harm young people: fragility ('what doesn't kill you makes you weaker'), emotional reasoning ('always trust your feelings'), and us-vs-them ('life is a battle between good and evil people')."
+quotation: null
+quotation_translation: null
+source:
+  author: Greg Lukianoff & Jonathan Haidt
+  work: The Coddling of the American Mind
+  passage: "Part 1"
+  translator: null
+  edition_year: 2018
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/teen-mental-health-debate
+era: 2018
+register: argument
+claim_type: normative
+polarity: cautionary
+conditionality: contested
+life_domains: [education, mental-health, civic-life]
+life_stages: [youth, young-adult]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/03-attention-tech.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "Report label: concept; report confidence high. Expansion of a 2015 Atlantic essay. Draws on CBT and Stoicism (Epictetus). Influential but CONTESTED — critics argue 'safetyism' is overstated and the campus focus selective; carry dissent. Report claim_type 'normative (framed as a psychological claim)' mapped to normative."

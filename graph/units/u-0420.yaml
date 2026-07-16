@@ -1,0 +1,37 @@
+id: u-0420
+claim_id: null
+type: Insight
+paraphrase: "The Anxious Generation has had outsized real-world influence: it directly inspired Australia's world-first under-16 social-media ban (in force 10 December 2025) and has fed school phone-ban movements even as the underlying science remains disputed."
+quotation: null
+quotation_translation: null
+source:
+  author: Jonathan Haidt
+  work: The Anxious Generation
+  passage: "policy uptake (Australia Online Safety Amendment (Social Media Minimum Age) Act 2024; CBS/CNBC/Tes reporting Dec 2025)"
+  translator: null
+  edition_year: 2024
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/teen-mental-health-debate
+era: 2026
+register: argument
+claim_type: observational
+polarity: descriptive
+conditionality: conditional
+life_domains: [policy, education, parenting]
+life_stages: [child, youth]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/03-attention-tech.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "Report label: observation; report confidence high. INFLUENCE != VINDICATION. Ban efficacy is itself unstudied/contested; note circumvention and multiple-account concerns. Ten platforms removed 4.7 million under-16 accounts by mid-Dec 2025 per Australia's eSafety Commissioner report (16 Jan 2026); law faces a High Court challenge from two 15-year-olds. era set to 2026 (most recent dated policy event)."

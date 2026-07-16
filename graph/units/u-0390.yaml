@@ -1,0 +1,37 @@
+id: u-0390
+claim_id: null
+type: Dilemma
+paraphrase: "Longtermist expected-value reasoning risks fanaticism: tiny probabilities of astronomically large payoffs could dominate every decision — the structure of 'Pascal's mugging' — though defenders reply the strongest case does not depend on such minuscule probabilities."
+quotation: null
+quotation_translation: null
+source:
+  author: "Bostrom, Yudkowsky, Tarsney, Crary"
+  work: "Pascal's Mugging and the fanaticism critiques"
+  passage: "Bostrom (2009); Yudkowsky (2007); Tarsney, Synthese (2023); Crary (2023)"
+  translator: null
+  edition_year: 2009
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/critique-of-longtermism
+era: 2009
+register: argument
+claim_type: normative
+polarity: cautionary
+conditionality: contested
+life_domains: [ethics, decision-making, policy]
+life_stages: [adult, midlife]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/02-existential-risk.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "Report label: dissent/problem; report confidence high. BOTH an internal AND an external critique — Bostrom himself named Pascal's mugging. Tarsney's models show the case for longtermism is robust on non-tiny probabilities under expectational reasoning, but depends on 'Pascalian' probabilities on some worldviews. Critics also raise a linguistic worry: 'human extinction' gets redefined to exclude posthuman successors. Edition_year taken from the earliest named source (Bostrom 2009)."

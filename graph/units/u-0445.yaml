@@ -1,0 +1,37 @@
+id: u-0445
+claim_id: null
+type: Insight
+paraphrase: "A meaningful life arises where subjective attraction meets objective attractiveness -- being gripped by, and engaged with, things genuinely worth loving."
+quotation: null
+quotation_translation: "meaning arises when subjective attraction meets objective attractiveness"
+source:
+  author: Susan Wolf
+  work: "Meaning in Life and Why It Matters"
+  passage: "p. 26"
+  translator: null
+  edition_year: 2010
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/meaning-philosophy
+era: 2010
+register: argument
+claim_type: normative
+polarity: prescriptive
+conditionality: contested
+life_domains: [work, love, meaning]
+life_stages: [adult]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/04-secular-meaning.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "Report confidence: high. Wolf's formula recorded in quotation_translation (MW-07: genuinely Wolf's, p. 26; BOTH halves required and indissociable -- not mere 'follow your passion'). claim_type normative/metaethical -> normative; polarity affirming->prescriptive; conditionality contested (objective component disputed)."

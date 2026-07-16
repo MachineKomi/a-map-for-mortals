@@ -1,0 +1,37 @@
+id: u-0481
+claim_id: null
+type: Practice
+paraphrase: "How we habitually explain setbacks — as permanent/pervasive/personal (pessimistic) versus temporary/specific/external (optimistic) — predicts vulnerability to helplessness and depression, and this explanatory style can be deliberately shifted."
+quotation: null
+quotation_translation: null
+source:
+  author: Martin Seligman
+  work: "Learned Optimism"
+  passage: "explanatory style; ABCDE technique"
+  translator: null
+  edition_year: 1990
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/judgement-science
+era: 1990
+register: argument
+claim_type: empirical
+polarity: prescriptive
+conditionality: conditional
+life_domains: [wellbeing, work, self]
+life_stages: [adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/05-judgement-science.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "Report confidence: high. Empirical core (explanatory style <-> depression, and CBT-adjacent ABCDE reframing) reasonably supported; the freestanding 'learned optimism' application is a weaker version of CBT machinery. Penn Resiliency Program meta-analysis (Brunwasser et al. 2009, 17 trials) found only modest effects on adolescent depressive symptoms. Cross-ref report 08 resilience; FLAG FOR MERGE."

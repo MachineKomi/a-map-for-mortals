@@ -1,0 +1,37 @@
+id: u-0478
+claim_id: null
+type: Insight
+paraphrase: "People differ in decision style — maximisers search exhaustively for the best option while satisficers stop at good-enough — and maximising is associated with more regret and lower reported satisfaction, though the link is measurement-contested and culturally moderated."
+quotation: null
+quotation_translation: null
+source:
+  author: "Schwartz, Ward, Monterosso, Lyubomirsky, White & Lehman"
+  work: "Maximizing Versus Satisficing: Happiness Is a Matter of Choice"
+  passage: "JPSP 83"
+  translator: null
+  edition_year: 2002
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/judgement-science
+era: 2002
+register: argument
+claim_type: empirical
+polarity: descriptive
+conditionality: contested
+life_domains: [decision-making, wellbeing, consumption]
+life_stages: [adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/05-judgement-science.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "Report confidence: high. CONTESTED MEASUREMENT: the original 13-item Maximization Scale has poor psychometric properties; Diab, Gillespie & Highhouse (2008, 'Are Maximizers Really Unhappy?') found with a cleaner measure that maximisers are 'just as happy as satisficers' apart from more regret. The maximizer-unhappiness link is culturally moderated (Roets, Schwartz & Guan 2012: present in US/Western Europe, absent in China). Cross-ref report 08 (habit/decision material); FLAG FOR MERGE."

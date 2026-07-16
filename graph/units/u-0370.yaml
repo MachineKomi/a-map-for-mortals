@@ -1,0 +1,37 @@
+id: u-0370
+claim_id: null
+type: Insight
+paraphrase: "Cosmic and human history can be read as rare islands of increasing complexity that arise only under narrow 'Goldilocks conditions' and are sustained by continuous energy flows — so complexity is precious, improbable, and fragile."
+quotation: null
+quotation_translation: null
+source:
+  author: David Christian
+  work: Maps of Time
+  passage: null
+  translator: null
+  edition_year: 2004
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/big-history
+era: 2004
+register: argument
+claim_type: observational
+polarity: descriptive
+conditionality: conditional
+life_domains: [self-understanding, meaning, society, technology]
+life_stages: [adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/01-big-history.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "Report label: high. Re-derivation: report 'interpretive framework (grounded in thermodynamics)', 'interpretive' -> observational/conditional (a framework grounded in real thermodynamics but itself an interpretive move). Eight 'thresholds'; popularized via the Gates-funded Big History Project. An organizing heuristic, not established periodization; see u-0372 (Aeon meta-critique)."

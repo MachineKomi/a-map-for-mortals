@@ -1,0 +1,37 @@
+id: u-0428
+claim_id: null
+type: Practice
+paraphrase: "The remedy is humane technology: realigning design incentives so products compete to serve users' considered goals (time well spent) rather than to maximize engagement, plus structural/regulatory correction."
+quotation: null
+quotation_translation: "time well spent"
+source:
+  author: Tristan Harris
+  work: "Time Well Spent / Center for Humane Technology"
+  passage: "Time Well Spent (2016); CHT"
+  translator: null
+  edition_year: 2016
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/persuasive-design-critique
+era: 2016
+register: argument
+claim_type: normative
+polarity: prescriptive
+conditionality: conditional
+life_domains: [technology, policy]
+life_stages: [young-adult, adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/03-attention-tech.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "Report label: prescription; report confidence high. 'time well spent' is Harris/CHT's coined program name. In 2018 Facebook, Apple, and Google adopted 'time well spent'/digital-wellbeing language and screen-time features — critics note the phrase was partly CO-OPTED by the very companies it targeted (a cautionary tale about reform-from-within). Structural pole of the meta-fork."

@@ -1,0 +1,37 @@
+id: u-0486
+claim_id: null
+type: Consequence
+paraphrase: "People adapt hedonically to many major life changes, drifting back toward a baseline level of happiness, so both windfalls and misfortunes affect long-run wellbeing less than we expect — though the strong set-point reading is contested."
+quotation: null
+quotation_translation: null
+source:
+  author: "Brickman, Coates & Janoff-Bulman"
+  work: "Lottery Winners and Accident Victims: Is Happiness Relative?"
+  passage: "JPSP 36"
+  translator: null
+  edition_year: 1978
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/judgement-science
+era: 1978
+register: argument
+claim_type: empirical
+polarity: descriptive
+conditionality: contested
+life_domains: [wellbeing, consumption, self]
+life_stages: [adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/05-judgement-science.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "Report confidence: high. CONTESTED IN STRONG FORM. Original evidence mixed and samples small (lottery winners were slightly, non-significantly happier than controls). Lucas et al. (2003, 2004) and Diener, Lucas & Scollon (2006, 'Beyond the Hedonic Treadmill') show adaptation is NOT complete — set points are partly heritable but can shift, and events like disability and long-term unemployment leave lasting dents. Weak claim (huge external events matter less long-run than expected) survives; strong claim (full return to a fixed neutral set point) does not. Cross-ref report 08 money-wellbeing, resilience trajectories; FLAG FOR MERGE."

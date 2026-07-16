@@ -1,0 +1,37 @@
+id: u-0465
+claim_id: null
+type: Consequence
+paraphrase: "Whether a choice is framed as a gain or a loss shifts preferences even when the options are logically identical (framing effect)."
+quotation: null
+quotation_translation: null
+source:
+  author: "Tversky & Kahneman"
+  work: "The Framing of Decisions and the Psychology of Choice"
+  passage: "Science 211"
+  translator: null
+  edition_year: 1981
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/judgement-science
+era: 1981
+register: argument
+claim_type: empirical
+polarity: cautionary
+conditionality: conditional
+life_domains: [decision-making, wellbeing, work]
+life_stages: [adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/05-judgement-science.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "Report confidence: high. Classic Asian-disease framing effect robust and directly replicated (Data Colada #11), though magnitude often smaller than the original and moderated by context."

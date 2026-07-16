@@ -1,0 +1,37 @@
+id: u-0402
+claim_id: null
+type: Insight
+paraphrase: "Re-grounding attention in one's physical place and local ecology (bioregionalism) — learning the more-than-human world around you — counters species loneliness and provides a shared, common reference point that platforms cannot."
+quotation: null
+quotation_translation: null
+source:
+  author: Jenny Odell
+  work: How to Do Nothing
+  passage: "draws on Peter Berg's bioregionalism and Pauline Oliveros's deep listening"
+  translator: null
+  edition_year: 2019
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/attention-economy
+era: 2019
+register: argument
+claim_type: normative
+polarity: prescriptive
+conditionality: conditional
+life_domains: [environment, community, mental-health]
+life_stages: [adult]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/03-attention-tech.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "Report label: concept; report confidence high. Birdwatching as paradigm of trained attention; 'deep listening' coined by Pauline Oliveros. Critics (e.g. The Nation) find the nature-turn 'a touch too mystical' — carry that dissent."

@@ -1,0 +1,37 @@
+id: u-0393
+claim_id: null
+type: Practice
+paraphrase: "Focus is protected best by ritual and structure — fixed routines, time-blocking, dedicated space, and a hard stop to the workday — rather than by willpower alone."
+quotation: null
+quotation_translation: null
+source:
+  author: Cal Newport
+  work: Deep Work
+  passage: "Rules 1 & 4 (fixed-schedule productivity)"
+  translator: null
+  edition_year: 2016
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/digital-minimalism
+era: 2016
+register: principle
+claim_type: prudential
+polarity: prescriptive
+conditionality: conditional
+life_domains: [work, daily-habits]
+life_stages: [adult]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/03-attention-tech.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "Report label: practice; report confidence high. Individual-responsibility framing — sits on the individual pole of the meta-fork."

@@ -1,0 +1,37 @@
+id: u-0423
+claim_id: null
+type: Consequence
+paraphrase: "Christopher Ferguson's meta-analyses find screen/social-media use plays little role in mental-health outcomes and no evidence it drives suicidal ideation, framing the current alarm as a recurring technological moral panic."
+quotation: null
+quotation_translation: null
+source:
+  author: Christopher Ferguson
+  work: "Like This Meta-Analysis: Screen Media and Mental Health (and companion meta-analyses)"
+  passage: "meta-analyses (2021, 2024)"
+  translator: null
+  edition_year: 2024
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/teen-mental-health-debate
+era: 2024
+register: argument
+claim_type: empirical
+polarity: descriptive
+conditionality: contested
+life_domains: [mental-health]
+life_stages: [youth]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/03-attention-tech.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "Report label: counter-claim; report confidence high. Notes middle-aged men have far higher suicide rates than teen girls; points to alternative predictors (fatherlessness, inequality). Haidt's team (After Babel) published a detailed critique alleging coding errors in Ferguson's experiment meta-analysis that, if corrected, would flip statistical significance — CONTESTED on both methods and conclusions. Key skeptic unit paired with Haidt's causal claim (u-0416)."

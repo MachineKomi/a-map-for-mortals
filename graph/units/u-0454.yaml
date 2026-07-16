@@ -1,0 +1,37 @@
+id: u-0454
+claim_id: null
+type: Insight
+paraphrase: "'Western civilization' is not a coherent, bounded essence; the golden-nugget narrative ignores that classical learning was preserved through the Muslim world."
+quotation: null
+quotation_translation: "There is no such thing as Western civilization"
+source:
+  author: Kwame Anthony Appiah
+  work: "There Is No Such Thing as Western Civilization"
+  passage: "The Guardian, 9 Nov 2016 (BBC Reith Lectures)"
+  translator: null
+  edition_year: 2016
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/cosmopolitanism
+era: 2016
+register: argument
+claim_type: normative
+polarity: descriptive
+conditionality: contested
+life_domains: [culture, politics]
+life_stages: [adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/04-secular-meaning.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "Report confidence: high. Coined phrase 'There is no such thing as Western civilization' recorded (Guardian essay / Reith; also Lies That Bind ch. 'Culture'). PRESERVE DISSENT -- a rhetorical/philosophical thesis vigorously disputed (Quillette, Hedgehog Review reply that ill-defined boundaries do not make a concept incoherent). claim_type normative + historical-interpretive -> normative; polarity corrective->descriptive; conditionality contested. Appiah is a value-pluralist, not a relativist (SM-22)."

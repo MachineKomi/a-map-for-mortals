@@ -1,0 +1,37 @@
+id: u-0439
+claim_id: null
+type: Insight
+paraphrase: "The modern self is buffered -- insulated behind a boundary from a once-porous openness to spirits, cosmic forces, and enchantment."
+quotation: null
+quotation_translation: "buffered self"
+source:
+  author: Charles Taylor
+  work: "A Secular Age"
+  passage: null
+  translator: null
+  edition_year: 2007
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/secularization
+era: 2007
+register: argument
+claim_type: observational
+polarity: descriptive
+conditionality: conditional
+life_domains: [self, culture, meaning]
+life_stages: [adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/04-secular-meaning.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "Report confidence: high. Coined term 'buffered self' recorded (also 'porous self'). Interpretive philosophy/history, not empirical sociology. claim_type interpretive -> observational; polarity diagnostic->descriptive; conditionality argued position -> conditional."

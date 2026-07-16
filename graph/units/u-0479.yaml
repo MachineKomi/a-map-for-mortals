@@ -1,0 +1,37 @@
+id: u-0479
+claim_id: null
+type: Consequence
+paraphrase: "Grit is presented as a strong predictor of achievement, but meta-analysis shows it predicts performance only modestly and overlaps almost entirely with the established trait of conscientiousness (jangle fallacy)."
+quotation: null
+quotation_translation: null
+source:
+  author: "Duckworth, Peterson, Matthews & Kelly"
+  work: "Grit: Perseverance and Passion for Long-Term Goals"
+  passage: "JPSP 92"
+  translator: null
+  edition_year: 2007
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/judgement-science
+era: 2007
+register: argument
+claim_type: empirical
+polarity: cautionary
+conditionality: contested
+life_domains: [work, self, wellbeing]
+life_stages: [young-adult, adult]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/05-judgement-science.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "Report confidence: high. CONTESTED-FINDING FLAG. Critiqued by Credé, Tynan & Harms (2017, 'Much Ado About Grit', JPSP 113:492-511; 584 effect sizes, 88 samples, N=66,807). Verbatim: the higher-order structure of grit 'is not confirmed', grit 'is only moderately correlated with performance and retention', and grit 'is very strongly correlated with conscientiousness' (pooled rho = .842 — near-complete overlap, a jangle fallacy). Perseverance-of-effort facet carries most of the (small) predictive value with some incremental validity over conscientiousness. Do NOT present as robust large-effect."

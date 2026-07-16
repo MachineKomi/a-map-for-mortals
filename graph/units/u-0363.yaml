@@ -1,0 +1,37 @@
+id: u-0363
+claim_id: null
+type: Insight
+paraphrase: "Guns, steel, and germs were proximate instruments of conquest, but explanation should push to ultimate causes — why some peoples had them first — a discipline of not stopping at the nearest cause."
+quotation: null
+quotation_translation: null
+source:
+  author: Jared Diamond
+  work: "Guns, Germs, and Steel"
+  passage: "Prologue"
+  translator: null
+  edition_year: 1997
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/big-history
+era: 1997
+register: principle
+claim_type: prudential
+polarity: prescriptive
+conditionality: conditional
+life_domains: [self-understanding, work]
+life_stages: [adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/01-big-history.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "Report label: high. Re-derivation: report 'prudential (method) / interpretive (application)', 'robust (as method)' -> prudential/conditional; register principle (clean methodological norm). Imported from evolutionary biology; portable even for readers who reject Diamond's conclusions."

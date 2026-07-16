@@ -1,0 +1,37 @@
+id: u-0416
+claim_id: null
+type: Insight
+paraphrase: "Between roughly 2010 and 2015 childhood was rewired from a play-based to a phone-based mode, and this — Haidt argues — is the major cause of a synchronized rise in teen anxiety, depression, and self-harm across several countries."
+quotation: null
+quotation_translation: "the great rewiring"
+source:
+  author: Jonathan Haidt
+  work: The Anxious Generation
+  passage: null
+  translator: null
+  edition_year: 2024
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/teen-mental-health-debate
+era: 2024
+register: argument
+claim_type: empirical
+polarity: cautionary
+conditionality: contested
+life_domains: [parenting, mental-health, education]
+life_stages: [child, youth]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/03-attention-tech.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "Report label: claim; report confidence high (as Haidt's argued position). GENUINELY CONTESTED CAUSAL CLAIM — MUST travel paired with at least one skeptic unit (u-0421 Odgers / u-0422 Orben-Przybylski / u-0423 Ferguson / u-0424 reporting-artifact). Do NOT present as established fact: population-level causation remains unsettled and effect sizes are disputed. Haidt concedes he is 'promoting a social change program before the scientific community has reached full agreement.' Per rule 8, tagged claim_type: empirical, conditionality: contested."

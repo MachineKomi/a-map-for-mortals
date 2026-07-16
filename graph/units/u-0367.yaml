@@ -1,0 +1,37 @@
+id: u-0367
+claim_id: null
+type: Insight
+paraphrase: "The recurring engine of collapse is the gap between the short-term interests of decision-makers and the long-term interests of the whole — directly applicable to modern environmental governance."
+quotation: null
+quotation_translation: null
+source:
+  author: Jared Diamond
+  work: Collapse
+  passage: null
+  translator: null
+  edition_year: 2005
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/big-history
+era: 2005
+register: principle
+claim_type: prudential
+polarity: cautionary
+conditionality: conditional
+life_domains: [society, community, work]
+life_stages: [adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/01-big-history.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "Report label: high. Re-derivation: report 'prudential', 'robust' -> prudential/conditional; polarity cautionary. Survives even if specific case studies (Easter Island) are contested; the structural insight is separable from disputed archaeology. Guards against tragedy-of-the-commons and elite short-termism."

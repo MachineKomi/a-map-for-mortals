@@ -1,0 +1,37 @@
+id: u-0433
+claim_id: null
+type: Insight
+paraphrase: "One can say yes to life even amid pain, guilt, and death -- an earned optimism that does not deny the tragic."
+quotation: null
+quotation_translation: "tragic optimism"
+source:
+  author: Viktor Frankl
+  work: "Man's Search for Meaning"
+  passage: "The Case for a Tragic Optimism (1984 postscript)"
+  translator: null
+  edition_year: 1984
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/secular-meaning
+era: 1984
+register: principle
+claim_type: normative
+polarity: prescriptive
+conditionality: conditional
+life_domains: [meaning, adversity, self]
+life_stages: [adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/04-secular-meaning.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "Report confidence: high. Coined term 'tragic optimism' recorded in quotation_translation (1984 postscript stance). conditionality conditional preserved."

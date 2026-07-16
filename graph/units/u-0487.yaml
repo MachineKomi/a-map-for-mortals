@@ -1,0 +1,37 @@
+id: u-0487
+claim_id: null
+type: Consequence
+paraphrase: "Even expert professional judgements of identical cases vary alarmingly from person to person and occasion to occasion — this noise is a large, under-recognised source of error distinct from bias, and it can be reduced with structured procedures."
+quotation: null
+quotation_translation: "noise"
+source:
+  author: "Kahneman, Sibony & Sunstein"
+  work: "Noise: A Flaw in Human Judgment"
+  passage: "noise audits; decision hygiene"
+  translator: null
+  edition_year: 2021
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/judgement-science
+era: 2021
+register: argument
+claim_type: empirical
+polarity: cautionary
+conditionality: conditional
+life_domains: [work, decision-making]
+life_stages: [adult]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/05-judgement-science.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "Report confidence: high. Complement to the biases literature (bias = systematic directional error; noise = unwanted variability). Insurance-company noise audit: median difference between underwriters' premiums for identical cases was 55% (claims adjusters' payouts 43%) — five times the ~10% variability executives predicted. Remedies ('decision hygiene,' structured aggregation, independent judgements) are argued recommendations (prudential). 'Noise' is a coined term-of-art. Lead thread for later waves."

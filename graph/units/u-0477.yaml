@@ -1,0 +1,37 @@
+id: u-0477
+claim_id: null
+type: Consequence
+paraphrase: "When 50 choice-overload experiments are pooled, the average effect of assortment size on satisfaction and motivation is essentially zero, with the phenomenon appearing only under specific, not-yet-fully-identified conditions."
+quotation: null
+quotation_translation: null
+source:
+  author: "Scheibehenne, Greifeneder & Todd"
+  work: "Can There Ever Be Too Many Options? A Meta-Analytic Review of Choice Overload"
+  passage: "Journal of Consumer Research 37(3):409-425"
+  translator: null
+  edition_year: 2010
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/judgement-science
+era: 2010
+register: argument
+claim_type: empirical
+polarity: cautionary
+conditionality: contested
+life_domains: [consumption, decision-making, wellbeing]
+life_stages: [adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/05-judgement-science.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "Report confidence: high. CONTESTED-FINDING FLAG / paradigm 'recurrence != proof' case. The meta-analytic null (63 conditions from 50 experiments, N=5036, mean effect 'virtually zero') is itself robust; it is the choice-overload EFFECT that is contested. Later work (Chernev, Bockenholt & Goodman 2015) identifies moderators (choice-set complexity, decision-task difficulty, preference uncertainty, decision goal). Cross-ref report 08."

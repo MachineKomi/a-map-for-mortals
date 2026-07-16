@@ -1,0 +1,37 @@
+id: u-0368
+claim_id: null
+type: Insight
+paraphrase: "The Easter Island 'ecocide' case — Diamond's showcase parable of self-destruction — has been substantially challenged: revisionists attribute deforestation heavily to introduced rats and the real population collapse to post-contact disease and slave raids, not pre-contact self-destruction."
+quotation: null
+quotation_translation: null
+source:
+  author: Terry Hunt & Carl Lipo
+  work: "Ecological Catastrophe and Collapse: The Myth of 'Ecocide' on Rapa Nui"
+  passage: null
+  translator: null
+  edition_year: 2009
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/big-history
+era: 2009
+register: argument
+claim_type: empirical
+polarity: descriptive
+conditionality: contested
+life_domains: [society, self-understanding]
+life_stages: [adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/01-big-history.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "Report label: high. Re-derivation: report 'empirical (evidence-based revision) + ongoing contest', 'contested' -> empirical/contested (genuine evidence-based revision -> empirical; live debate -> contested). FLAG: clearest case of a Diamond parable outrunning its evidence. 2024 Nature study (Moreno-Mayar et al., 15 ancient genomes, DOI 10.1038/s41586-024-07881-4) found no severe pre-1800s bottleneck; Malaspinas: 'a stably growing population from the 13th century through to European contact.' Diamond has defended his account; debate is live — the simple 'ecocide' story should NOT be repeated as fact. PRESERVE DISSENT. Primary citation is Hunt & Lipo (2009); cross-ref report 08."

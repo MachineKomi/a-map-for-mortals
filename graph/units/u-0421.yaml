@@ -1,0 +1,37 @@
+id: u-0421
+claim_id: null
+type: Consequence
+paraphrase: "Developmental psychologist Candice Odgers argues Haidt's thesis is not supported by science: decades of research yield a mix of no, small and mixed associations, mostly correlational, and mistaking correlation for causation risks distracting from the real drivers of youth distress."
+quotation: null
+quotation_translation: "not supported by science"
+source:
+  author: Candice Odgers
+  work: "The great rewiring: is social media really behind an epidemic of teenage mental illness? (Nature)"
+  passage: "Nature, 29 March 2024"
+  translator: null
+  edition_year: 2024
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/teen-mental-health-debate
+era: 2024
+register: argument
+claim_type: empirical
+polarity: descriptive
+conditionality: contested
+life_domains: [mental-health, policy]
+life_stages: [youth]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/03-attention-tech.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "Report label: counter-claim; report confidence high. UC-Irvine psychologist; also argues reverse causation (already-struggling youth use platforms differently). Haidt published a point-by-point rebuttal; the 'reverse causation only' framing is itself disputed — present as LIVE DEBATE. This is the key skeptic unit that must travel paired with Haidt's causal claim (u-0416). 'not supported by science' is Odgers's verbatim phrase from the Nature review."

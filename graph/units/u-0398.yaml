@@ -1,0 +1,37 @@
+id: u-0398
+claim_id: null
+type: Insight
+paraphrase: "Demanding, skilled, often analog leisure and real-world social activity are more restorative and satisfying than passive digital consumption."
+quotation: null
+quotation_translation: null
+source:
+  author: Cal Newport
+  work: Digital Minimalism
+  passage: "Reclaim Leisure (invokes Arnold Bennett)"
+  translator: null
+  edition_year: 2019
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/digital-minimalism
+era: 2019
+register: principle
+claim_type: prudential
+polarity: prescriptive
+conditionality: conditional
+life_domains: [leisure, relationships, craft]
+life_stages: [young-adult, adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/03-attention-tech.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "Report label: claim; report confidence high. Draws on Arnold Bennett's How to Live on 24 Hours a Day. Report claim_type 'normative / prudential' mapped to prudential."

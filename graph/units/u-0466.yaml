@@ -1,0 +1,37 @@
+id: u-0466
+claim_id: null
+type: Consequence
+paraphrase: "People weigh losses more heavily than equivalent gains, producing risk-aversion for gains and risk-seeking to avoid losses — though the magnitude and universality of this asymmetry are contested."
+quotation: null
+quotation_translation: null
+source:
+  author: "Kahneman & Tversky"
+  work: "Prospect Theory: An Analysis of Decision under Risk"
+  passage: "Econometrica 47"
+  translator: null
+  edition_year: 1979
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/judgement-science
+era: 1979
+register: argument
+claim_type: empirical
+polarity: cautionary
+conditionality: contested
+life_domains: [decision-making, consumption, work]
+life_stages: [adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/05-judgement-science.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "Report confidence: high. CONTESTED IN MAGNITUDE/UNIVERSALITY. Gal & Rucker (2018) conclude 'current evidence does not support that losses, on balance, tend to be any more impactful than gains'; Simonson & Kivetz (2018) defend a moderated version. Asymmetric weighting over substantial stakes survives (Walasek, Mullett & Stewart). Best framed as contingent/moderated, not a universal law."

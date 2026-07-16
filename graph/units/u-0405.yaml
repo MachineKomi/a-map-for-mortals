@@ -1,0 +1,37 @@
+id: u-0405
+claim_id: null
+type: Insight
+paraphrase: "Becoming more efficient tends to generate more demands, not more freedom — the decks refill, and you will never get on top of everything."
+quotation: null
+quotation_translation: null
+source:
+  author: Oliver Burkeman
+  work: Four Thousand Weeks
+  passage: "The Efficiency Trap"
+  translator: null
+  edition_year: 2021
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/finitude
+era: 2021
+register: principle
+claim_type: observational
+polarity: cautionary
+conditionality: conditional
+life_domains: [work, time, daily-habits]
+life_stages: [adult]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/03-attention-tech.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "Report label: concept; report confidence high. Invokes Hofstadter's Law. Report claim_type 'observational / prudential' mapped to observational."

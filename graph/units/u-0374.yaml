@@ -1,0 +1,37 @@
+id: u-0374
+claim_id: null
+type: Insight
+paraphrase: "The very traits that make macro-history compelling — sweep, simplicity, memorable reversal — are what make it unreliable; a gripping single-cause story should raise, not lower, one's skepticism."
+quotation: null
+quotation_translation: null
+source:
+  author: "various (synthesis; Ian Parker / Chira, Botero & Gray)"
+  work: "Synthesis across wave-3 report sources"
+  passage: null
+  translator: null
+  edition_year: null
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/big-history
+era: null
+register: principle
+claim_type: prudential
+polarity: cautionary
+conditionality: conditional
+life_domains: [self-understanding, work]
+life_stages: [adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/01-big-history.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "Report label: high. Re-derivation: report 'prudential (reading wisdom)', 'robust' -> prudential/conditional (kept conditional not universal-ish — reading rule, not a law); type Insight, polarity cautionary. Author set to synthesis per S1 rules (no single named thinker; draws on Ian Parker's New Yorker piece on Sapiens' 'critical neglect' and Chira/Botero/Gray 2024 on single-factor explanations). Harari's Oxford doctoral advisor Steven Gunn: Sapiens works by asking 'questions so large that nobody can say ... we think this bit's wrong.' The block's self-aware capstone."

@@ -1,0 +1,37 @@
+id: u-0475
+claim_id: null
+type: Danger
+paraphrase: "Beyond a threshold of adequate options, adding still more choices can reduce satisfaction and increase regret and decision-paralysis rather than improving welfare — though the general effect is contested and heavily moderated."
+quotation: null
+quotation_translation: null
+source:
+  author: Barry Schwartz
+  work: "The Paradox of Choice"
+  passage: "Why More Is Less"
+  translator: null
+  edition_year: 2004
+  language: en
+  url: null
+  urn: null
+tradition: contemporary/secular-meaning
+era: 2004
+register: argument
+claim_type: empirical
+polarity: cautionary
+conditionality: contested
+life_domains: [consumption, decision-making, wellbeing]
+life_stages: [adult, midlife, elder]
+endorsement: n/a
+attribution_confidence: attested
+verification:
+  status: pending-primary
+  method: "attested by wave-3 report; wording not yet checked against a primary edition"
+  checked_against: null
+  date: null
+copyright_flag: in-copyright
+prov:
+  source_report: corpus/reports/wave-3/05-judgement-science.md
+  extracted_by: "claude-code:s1-wave3-v1"
+  pass: 2
+  date: 2026-07-16
+notes: "Report confidence: high. GENUINELY CONTESTED — see u-0476 (jam study) and u-0477 (meta-null). Strong general claim NOT supported by meta-analysis; effect heavily moderated. Schwartz's argued position, not established fact."
