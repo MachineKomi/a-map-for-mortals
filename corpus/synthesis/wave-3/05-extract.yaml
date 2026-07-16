@@ -1,0 +1,237 @@
+report: wave-3/05-judgement-science
+extracted: 2026-07-16
+units:
+  - rid: 3e-001
+    claim: Human thinking runs on two modes — a fast, automatic, intuitive mode and a slow, effortful, deliberative mode — and most everyday judgement is handled by the fast mode, efficient but prone to systematic error.
+    type: Insight
+    claim_type: empirical
+    author: Daniel Kahneman
+    tradition: contemporary/judgement-science
+    stages: [adult, midlife, elder]
+    domains: [decision-making, work, self]
+    conf: attested
+  - rid: 3e-002
+    claim: An arbitrary starting number can drag our numerical estimates toward it, even when we know it is irrelevant — the anchoring effect.
+    type: Consequence
+    claim_type: empirical
+    author: Tversky & Kahneman
+    tradition: contemporary/judgement-science
+    stages: [adult, midlife]
+    domains: [decision-making, consumption, work]
+    conf: attested
+  - rid: 3e-003
+    claim: We judge how likely or frequent something is by how easily examples come to mind, so vivid, recent, or heavily-reported events feel more probable than they are — the availability heuristic.
+    type: Consequence
+    claim_type: empirical
+    author: Tversky & Kahneman
+    tradition: contemporary/judgement-science
+    stages: [adult, midlife]
+    domains: [decision-making, wellbeing, consumption]
+    conf: attested
+  - rid: 3e-004
+    claim: The way a choice is worded — as a gain or as a loss — shifts what people prefer, even when the options are logically identical (framing effect).
+    type: Consequence
+    claim_type: empirical
+    author: Tversky & Kahneman
+    tradition: contemporary/judgement-science
+    stages: [adult, midlife]
+    domains: [decision-making, wellbeing, work]
+    conf: attested
+  - rid: 3e-005
+    claim: People tend to weigh a loss more heavily than an equivalent gain, making them risk-averse for gains and risk-seeking to avoid losses — though magnitude and universality are contested.
+    type: Consequence
+    claim_type: empirical
+    author: Kahneman & Tversky
+    tradition: contemporary/judgement-science
+    stages: [adult, midlife]
+    domains: [decision-making, consumption, work]
+    conf: attested
+  - rid: 3e-006
+    claim: When forming a judgement we treat the information immediately in front of us as if it were the whole story, ignoring what we cannot see — "what you see is all there is."
+    type: Insight
+    claim_type: empirical
+    author: Daniel Kahneman
+    tradition: contemporary/judgement-science
+    stages: [adult, midlife]
+    domains: [decision-making, work, relationships]
+    conf: attested
+  - rid: 3e-007
+    claim: People chronically underestimate how long tasks will take and how much they will cost, even when burned by the same optimism before — the planning fallacy.
+    type: Consequence
+    claim_type: empirical
+    author: Kahneman & Tversky
+    tradition: contemporary/judgement-science
+    stages: [adult, midlife]
+    domains: [work, decision-making, self]
+    conf: attested
+  - rid: 3e-008
+    claim: The social-priming studies that suggested subtle cues automatically steer behaviour largely failed to replicate, and the author who popularised them publicly retracted his confidence.
+    type: Danger
+    claim_type: empirical
+    author: Daniel Kahneman
+    tradition: contemporary/judgement-science
+    stages: [adult, midlife]
+    domains: [decision-making, self]
+    conf: attested
+  - rid: 3e-009
+    claim: People are reasonably good at predicting whether a future event will feel good or bad, but systematically overestimate how intense and long-lasting those feelings will be — the impact bias.
+    type: Consequence
+    claim_type: empirical
+    author: Gilbert & Wilson
+    tradition: contemporary/judgement-science
+    stages: [adult, midlife]
+    domains: [wellbeing, decision-making, relationships]
+    conf: attested
+  - rid: 3e-010
+    claim: We adapt to good and bad changes faster than we expect because a "psychological immune system" quietly softens bad experiences, and we neglect it when forecasting.
+    type: Insight
+    claim_type: empirical
+    author: Gilbert et al.
+    tradition: contemporary/judgement-science
+    stages: [adult, midlife]
+    domains: [wellbeing, relationships, self]
+    conf: attested
+  - rid: 3e-011
+    claim: A big reason we mis-predict future feelings is focalism — we imagine the one event in isolation and forget how much the rest of ordinary life will dilute its effect.
+    type: Insight
+    claim_type: empirical
+    author: Wilson et al.
+    tradition: contemporary/judgement-science
+    stages: [adult, midlife]
+    domains: [wellbeing, decision-making]
+    conf: attested
+  - rid: 3e-012
+    claim: Because we mis-forecast our feelings, our intuitions about what will make us happy are unreliable; it can pay to consult how similar choices actually made others feel.
+    type: Practice
+    claim_type: prudential
+    author: Daniel Gilbert
+    tradition: contemporary/judgement-science
+    stages: [adult, midlife]
+    domains: [wellbeing, decision-making, consumption]
+    conf: attested
+  - rid: 3e-013
+    claim: The claim that we overestimate the intensity of future feelings may be partly a measurement artifact — when asked precisely, people predict intensity fairly accurately (contested).
+    type: Consequence
+    claim_type: empirical
+    author: Levine et al.
+    tradition: contemporary/judgement-science
+    stages: [adult]
+    domains: [wellbeing, decision-making]
+    conf: attested
+  - rid: 3e-014
+    claim: Beyond a threshold of adequate options, adding still more choices can reduce satisfaction and increase regret and paralysis rather than improving welfare.
+    type: Danger
+    claim_type: empirical
+    author: Barry Schwartz
+    tradition: contemporary/judgement-science
+    stages: [adult, midlife]
+    domains: [consumption, decision-making, wellbeing]
+    conf: attested
+  - rid: 3e-015
+    claim: In the jam study, a display of 24 varieties drew more browsers but produced far fewer purchases than a display of 6, suggesting large assortments can demotivate choice.
+    type: Consequence
+    claim_type: empirical
+    author: Iyengar & Lepper
+    tradition: contemporary/judgement-science
+    stages: [adult]
+    domains: [consumption, decision-making]
+    conf: attested
+  - rid: 3e-016
+    claim: When 50 choice-overload experiments are pooled, the average effect of assortment size on satisfaction is essentially zero, with the phenomenon appearing only under specific conditions.
+    type: Consequence
+    claim_type: empirical
+    author: Scheibehenne, Greifeneder & Todd
+    tradition: contemporary/judgement-science
+    stages: [adult]
+    domains: [consumption, decision-making, wellbeing]
+    conf: attested
+  - rid: 3e-017
+    claim: '"Maximisers" search exhaustively for the best option while "satisficers" stop at good-enough; maximising tends to be associated with more regret and lower reported satisfaction (measurement contested).'
+    type: Insight
+    claim_type: empirical
+    author: Schwartz et al.
+    tradition: contemporary/judgement-science
+    stages: [adult, midlife]
+    domains: [decision-making, wellbeing, consumption]
+    conf: attested
+  - rid: 3e-018
+    claim: Grit — perseverance for long-term goals — predicts achievement only modestly and overlaps almost entirely with conscientiousness, so the popular equation of grit with success oversells a modest effect.
+    type: Consequence
+    claim_type: empirical
+    author: Duckworth; Credé et al.
+    tradition: contemporary/judgement-science
+    stages: [young-adult, adult]
+    domains: [work, self, wellbeing]
+    conf: attested
+  - rid: 3e-019
+    claim: Effort matters for achievement, but the popular equation of grit with guaranteed success can shade into blaming individuals for structural obstacles.
+    type: Danger
+    claim_type: normative
+    author: "—"
+    tradition: contemporary/judgement-science
+    stages: [young-adult, adult]
+    domains: [work, self, education]
+    conf: attested
+  - rid: 3e-020
+    claim: How we habitually explain setbacks — as permanent/pervasive/personal versus temporary/specific/external — predicts vulnerability to helplessness, and this explanatory style can be deliberately shifted.
+    type: Practice
+    claim_type: empirical
+    author: Martin Seligman
+    tradition: contemporary/judgement-science
+    stages: [adult, midlife]
+    domains: [wellbeing, work, self]
+    conf: attested
+  - rid: 3e-021
+    claim: Wellbeing is better understood as several distinct ingredients — positive emotion, engagement, relationships, meaning, and accomplishment (PERMA) — rather than a single feeling of pleasure.
+    type: Insight
+    claim_type: normative
+    author: Martin Seligman
+    tradition: contemporary/judgement-science
+    stages: [adult, midlife]
+    domains: [wellbeing, relationships, work]
+    conf: attested
+  - rid: 3e-022
+    claim: Identifying one's "signature strengths" and using them in new ways, or practising structured gratitude, can produce small but real increases in wellbeing.
+    type: Practice
+    claim_type: empirical
+    author: Seligman et al.
+    tradition: contemporary/judgement-science
+    stages: [adult, midlife]
+    domains: [wellbeing, self, relationships]
+    conf: attested
+  - rid: 3e-023
+    claim: The claim that flourishing requires a precise positive-to-negative emotion ratio of about 3-to-1 was shown to rest on misapplied mathematics and formally retracted — a cautionary tale about false precision.
+    type: Danger
+    claim_type: empirical
+    author: Fredrickson & Losada; Brown, Sokal & Friedman
+    tradition: contemporary/judgement-science
+    stages: [adult, midlife]
+    domains: [wellbeing, self]
+    conf: attested
+  - rid: 3e-024
+    claim: People report their most rewarding experiences in "flow" — total absorption in an activity that stretches their skills to meet a clear, challenging goal with immediate feedback.
+    type: Insight
+    claim_type: empirical
+    author: Mihaly Csikszentmihalyi
+    tradition: contemporary/judgement-science
+    stages: [adult, midlife]
+    domains: [work, wellbeing, self]
+    conf: attested
+  - rid: 3e-025
+    claim: People adapt hedonically to many major life changes, drifting back toward a baseline, so both windfalls and misfortunes affect long-run wellbeing less than expected — though strong-form adaptation is contested.
+    type: Consequence
+    claim_type: empirical
+    author: Brickman et al.
+    tradition: contemporary/judgement-science
+    stages: [adult, midlife]
+    domains: [wellbeing, consumption, self]
+    conf: attested
+  - rid: 3e-026
+    claim: Even expert judgements of identical cases vary alarmingly — this "noise" is a large, under-recognised source of error distinct from bias, and it can be reduced with structured procedures.
+    type: Consequence
+    claim_type: empirical
+    author: Kahneman, Sibony & Sunstein
+    tradition: contemporary/judgement-science
+    stages: [adult, midlife]
+    domains: [work, decision-making]
+    conf: attested

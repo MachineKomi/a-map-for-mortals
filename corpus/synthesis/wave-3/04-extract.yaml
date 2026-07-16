@@ -1,0 +1,291 @@
+report: wave-3/04-secular-meaning
+extracted: 2026-07-16
+units:
+  - rid: sm-01
+    claim: Meaning can be found even in unavoidable suffering; when a situation cannot be changed, we are still free to choose the attitude we take toward it.
+    type: Insight
+    claim_type: normative
+    author: Viktor Frankl
+    tradition: contemporary/secular-meaning
+    stages: [adult, midlife, elder]
+    domains: [suffering, illness, work, love]
+    conf: attested
+  - rid: sm-02
+    claim: The primary human motivation is a striving to find meaning, not (per Freud) pleasure or (per Adler) power — "the will to meaning."
+    type: Insight
+    claim_type: metaphysical
+    author: Viktor Frankl
+    tradition: contemporary/secular-meaning
+    stages: [adult, midlife, elder]
+    domains: [meaning, vocation]
+    conf: attested
+  - rid: sm-03
+    claim: Meaning is accessed in three ways — through creative work and deeds, through love and encounter, and through the stance we take toward unavoidable suffering.
+    type: Insight
+    claim_type: prudential
+    author: Viktor Frankl
+    tradition: contemporary/secular-meaning
+    stages: [adult, midlife, elder]
+    domains: [work, love, adversity]
+    conf: attested
+  - rid: sm-04
+    claim: One can say "yes to life" even amid pain, guilt, and death — an earned optimism that does not deny the tragic ("tragic optimism").
+    type: Virtue
+    claim_type: normative
+    author: Viktor Frankl
+    tradition: contemporary/secular-meaning
+    stages: [adult, midlife, elder]
+    domains: [meaning, adversity]
+    conf: attested
+  - rid: sm-05
+    claim: Logotherapy proposes clinical techniques — paradoxical intention and dereflection — for meaning-based neuroses; the efficacy evidence base is thin and heterogeneous.
+    type: Consequence
+    claim_type: empirical
+    author: Viktor Frankl
+    tradition: contemporary/secular-meaning
+    stages: [adult, midlife]
+    domains: [mental-health]
+    conf: attested
+  - rid: sm-06
+    claim: Much of human striving is an unconscious defence against the terror of our own mortality; culture and heroism are systems that let us feel we transcend death.
+    type: Insight
+    claim_type: observational
+    author: Ernest Becker
+    tradition: contemporary/secular-meaning
+    stages: [adult, midlife, elder]
+    domains: [meaning, culture, mortality]
+    conf: attested
+  - rid: sm-07
+    claim: We pursue symbolic "immortality projects" — works, families, causes, faiths — through which our symbolic self can outlast our animal body.
+    type: Insight
+    claim_type: observational
+    author: Ernest Becker
+    tradition: contemporary/secular-meaning
+    stages: [adult, midlife, elder]
+    domains: [meaning, family, vocation]
+    conf: attested
+  - rid: sm-08
+    claim: We maintain a "vital lie" — a necessary self-protecting illusion (character armour) that shields us from full awareness of helplessness and death.
+    type: Insight
+    claim_type: observational
+    author: Ernest Becker
+    tradition: contemporary/secular-meaning
+    stages: [adult, midlife]
+    domains: [self, meaning]
+    conf: attested
+  - rid: sm-09
+    claim: Terror Management Theory operationalised Becker — mortality salience was claimed to increase defence of one's cultural worldview; the effect's replication is contested.
+    type: Consequence
+    claim_type: empirical
+    author: Greenberg, Pyszczynski & Solomon
+    tradition: contemporary/secular-meaning
+    stages: [adult]
+    domains: [meaning, culture, mortality]
+    conf: attested
+  - rid: sm-10
+    claim: The modern self is "buffered" — insulated behind a boundary from a once-"porous" openness to spirits, cosmic forces, and enchantment.
+    type: Insight
+    claim_type: observational
+    author: Charles Taylor
+    tradition: contemporary/secular-meaning
+    stages: [adult, midlife, elder]
+    domains: [religion, self, culture]
+    conf: attested
+  - rid: sm-11
+    claim: Moderns inhabit an "immanent frame" — a self-sufficient natural order within which life is lived, which can be held "open" or "closed" to transcendence.
+    type: Insight
+    claim_type: metaphysical
+    author: Charles Taylor
+    tradition: contemporary/secular-meaning
+    stages: [adult, midlife, elder]
+    domains: [meaning, religion]
+    conf: attested
+  - rid: sm-12
+    claim: '"Secularity 3" is not the mere absence of religion but a condition in which belief is only one contestable option among many, no longer the taken-for-granted default.'
+    type: Insight
+    claim_type: observational
+    author: Charles Taylor
+    tradition: contemporary/secular-meaning
+    stages: [adult, midlife, elder]
+    domains: [religion, culture, meaning]
+    conf: attested
+  - rid: sm-13
+    claim: The "nova effect" is the modern explosion of spiritual and anti-spiritual options once an exclusive-humanist alternative to Christianity became live.
+    type: Insight
+    claim_type: observational
+    author: Charles Taylor
+    tradition: contemporary/secular-meaning
+    stages: [adult, midlife]
+    domains: [religion, culture]
+    conf: attested
+  - rid: sm-14
+    claim: Secularisation is not a "subtraction story" but a positive reconstruction of new self-understandings, itself with roots in Reformed Christianity.
+    type: Insight
+    claim_type: observational
+    author: Charles Taylor
+    tradition: contemporary/secular-meaning
+    stages: [adult, midlife, elder]
+    domains: [religion, culture, self]
+    conf: attested
+  - rid: sm-15
+    claim: Believers and unbelievers alike seek "fullness" and both live under "cross-pressures" between transcendence and closed immanence.
+    type: Insight
+    claim_type: observational
+    author: Charles Taylor
+    tradition: contemporary/secular-meaning
+    stages: [adult, midlife, elder]
+    domains: [meaning, religion]
+    conf: attested
+  - rid: sm-16
+    claim: A meaningful life arises where subjective attraction meets objective attractiveness — being gripped by, and actively engaged with, things genuinely worth loving.
+    type: Insight
+    claim_type: normative
+    author: Susan Wolf
+    tradition: contemporary/secular-meaning
+    stages: [adult, midlife]
+    domains: [vocation, relationships, projects]
+    conf: attested
+  - rid: sm-17
+    claim: Fulfilment counts toward meaning only when its object is independently worthwhile (fitting) — the "Fitting Fulfilment" view.
+    type: Insight
+    claim_type: normative
+    author: Susan Wolf
+    tradition: contemporary/secular-meaning
+    stages: [adult, midlife]
+    domains: [meaning, vocation]
+    conf: attested
+  - rid: sm-18
+    claim: Meaning is a third category of value, distinct from happiness (self-interest) and morality (impartial concern) — many "reasons of love" are neither egoistic nor dutiful.
+    type: Insight
+    claim_type: normative
+    author: Susan Wolf
+    tradition: contemporary/secular-meaning
+    stages: [adult, midlife]
+    domains: [meaning, ethics, relationships]
+    conf: attested
+  - rid: sm-19
+    claim: The chief objection to Wolf's view — who decides "objective attractiveness"? — her own intersubjective answer is modest, which critics find too thin or under-defended.
+    type: Danger
+    claim_type: normative
+    author: "—"
+    tradition: contemporary/secular-meaning
+    stages: [adult]
+    domains: [meaning, ethics]
+    conf: attested
+  - rid: sm-20
+    claim: A "partial" cosmopolitanism — we owe real obligations to all humans and may legitimately hold special local loyalties to kin, community, and country.
+    type: Insight
+    claim_type: normative
+    author: Kwame Anthony Appiah
+    tradition: contemporary/secular-meaning
+    stages: [adult, midlife, elder]
+    domains: [ethics, politics, global-justice]
+    conf: attested
+  - rid: sm-21
+    claim: Cross-difference conversation matters more than agreement — we can get used to one another and coordinate in practice even without shared foundations.
+    type: Practice
+    claim_type: prudential
+    author: Kwame Anthony Appiah
+    tradition: contemporary/secular-meaning
+    stages: [adult, midlife]
+    domains: [community, civic-life, ethics]
+    conf: attested
+  - rid: sm-22
+    claim: Fallibilism plus value-pluralism — our knowledge is provisional, and there are many worthwhile ways to live, but not everything goes.
+    type: Insight
+    claim_type: normative
+    author: Kwame Anthony Appiah
+    tradition: contemporary/secular-meaning
+    stages: [adult, midlife]
+    domains: [ethics, meaning]
+    conf: attested
+  - rid: sm-23
+    claim: Identity categories — creed, country, colour, class, culture — are real in their effects yet rest on essentialist fictions; they bind us with stories, not essences.
+    type: Insight
+    claim_type: observational
+    author: Kwame Anthony Appiah
+    tradition: contemporary/secular-meaning
+    stages: [adult, midlife]
+    domains: [identity, politics, culture]
+    conf: attested
+  - rid: sm-24
+    claim: Identities are "labels" governed by social scripts; recognising they are invented reveals they can be reinvented.
+    type: Insight
+    claim_type: normative
+    author: Kwame Anthony Appiah
+    tradition: contemporary/secular-meaning
+    stages: [adult, midlife]
+    domains: [identity, meaning]
+    conf: attested
+  - rid: sm-25
+    claim: '"Western civilisation" is not a coherent, bounded inheritance; the golden-nugget narrative ignores that classical learning was preserved through the Muslim world and that cultures are not sealed wholes.'
+    type: Insight
+    claim_type: observational
+    author: Kwame Anthony Appiah
+    tradition: contemporary/secular-meaning
+    stages: [adult, midlife]
+    domains: [culture, education, identity]
+    conf: attested
+  - rid: sm-26
+    claim: If you can prevent something very bad at little cost to yourself, you must — and distance and numbers do not lessen the obligation.
+    type: Insight
+    claim_type: normative
+    author: Peter Singer
+    tradition: contemporary/secular-meaning
+    stages: [adult, midlife]
+    domains: [charity, global-poverty, ethics]
+    conf: attested
+  - rid: sm-27
+    claim: If it is in our power to prevent something bad without sacrificing anything of comparable moral importance, we ought to do it.
+    type: Insight
+    claim_type: normative
+    author: Peter Singer
+    tradition: contemporary/secular-meaning
+    stages: [adult, midlife]
+    domains: [ethics, charity]
+    conf: attested
+  - rid: sm-28
+    claim: Moral progress can be pictured as a widening circle of concern — from self to family to nation to all humanity and beyond to sentient animals.
+    type: Insight
+    claim_type: normative
+    author: Peter Singer
+    tradition: contemporary/secular-meaning
+    stages: [adult, midlife]
+    domains: [ethics, meaning]
+    conf: attested
+  - rid: sm-29
+    claim: Effective altruism applies this logic — do the most good you can using evidence and reason to maximise impact per resource, including career choices.
+    type: Practice
+    claim_type: normative
+    author: Peter Singer; MacAskill
+    tradition: contemporary/secular-meaning
+    stages: [young-adult, adult, midlife]
+    domains: [career, philanthropy, ethics]
+    conf: attested
+  - rid: sm-30
+    claim: Effective altruism is seriously contested — on demandingness, on entrenching the global order that produces poverty, on over-quantification, and through the FTX collapse.
+    type: Danger
+    claim_type: normative
+    author: Srinivasan et al.
+    tradition: contemporary/secular-meaning
+    stages: [adult, midlife]
+    domains: [ethics, politics, philanthropy]
+    conf: attested
+  - rid: sm-31
+    claim: Singer ties the wrongness of killing to a being's capacity for future-oriented preferences; he defends some non-voluntary euthanasia of severely disabled infants, which disability-rights groups condemn as ableist.
+    type: Dilemma
+    claim_type: normative
+    author: Peter Singer
+    tradition: contemporary/secular-meaning
+    stages: [adult]
+    domains: [ethics, bioethics, identity]
+    conf: attested
+  - rid: sm-32
+    claim: Longtermism — positively influencing the long-run future is a key moral priority — is contested; critics argue it can license neglect of present, concrete suffering in favour of speculative future populations.
+    type: Dilemma
+    claim_type: normative
+    author: MacAskill; Torres
+    tradition: contemporary/secular-meaning
+    stages: [adult, midlife]
+    domains: [ethics, meaning]
+    conf: attested

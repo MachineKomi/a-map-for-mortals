@@ -1,0 +1,147 @@
+report: wave-3/02-existential-risk
+extracted: 2026-07-16
+units:
+  - rid: bostrom-orthogonality
+    claim: Intelligence and final goals are independent dimensions — in principle almost any level of intelligence can be paired with almost any final goal, so being highly intelligent does not entail having humane or wise goals.
+    type: Insight
+    claim_type: metaphysical
+    author: Nick Bostrom
+    tradition: contemporary/existential-risk
+    stages: [adult, midlife]
+    domains: [technology, governance, ethics]
+    conf: attested
+  - rid: bostrom-instrumental-convergence
+    claim: A wide range of final goals implies similar intermediate goals — self-preservation, goal-content integrity, cognitive enhancement, resource acquisition — so even a benign-seeming goal can motivate dangerous power-seeking.
+    type: Danger
+    claim_type: prudential
+    author: Nick Bostrom
+    tradition: contemporary/existential-risk
+    stages: [adult, midlife]
+    domains: [technology, governance]
+    conf: attested
+  - rid: bostrom-control-problem
+    claim: Controlling a superintelligence is a unique principal–agent problem that must be solved before the system becomes superintelligent; the two broad methods are capability control (limit what it can do) and motivation selection (shape what it wants).
+    type: Dilemma
+    claim_type: prudential
+    author: Nick Bostrom
+    tradition: contemporary/existential-risk
+    stages: [adult, midlife]
+    domains: [technology, governance]
+    conf: attested
+  - rid: bostrom-decisive-strategic-advantage
+    claim: A first superintelligence that undergoes rapid recursive self-improvement could gain a "decisive strategic advantage" — enough of a lead to form a "singleton" shaping the entire future.
+    type: Danger
+    claim_type: prudential
+    author: Nick Bostrom
+    tradition: contemporary/existential-risk
+    stages: [adult, midlife]
+    domains: [governance, technology]
+    conf: attested
+  - rid: bostrom-vulnerable-world
+    claim: Technological invention is like drawing balls from an urn; most are beneficial or mixed, but there may be a "black ball" — a technology that by default devastates civilisation — and we have avoided one so far by luck, not wisdom.
+    type: Danger
+    claim_type: prudential
+    author: Nick Bostrom
+    tradition: contemporary/existential-risk
+    stages: [adult, midlife]
+    domains: [technology, governance, security]
+    conf: attested
+  - rid: bostrom-differential-tech-development
+    claim: Rather than halt progress wholesale, we should influence its sequence — retard dangerous technologies and accelerate protective ones (especially those that reduce existential risk).
+    type: Practice
+    claim_type: prudential
+    author: Nick Bostrom
+    tradition: contemporary/existential-risk
+    stages: [adult, midlife]
+    domains: [technology, governance, policy]
+    conf: attested
+  - rid: ord-existential-risk-definition
+    claim: An existential catastrophe is the destruction of humanity's long-term potential — via extinction, unrecoverable collapse, or permanent dystopia; existential risk is the probability of such an outcome.
+    type: Insight
+    claim_type: normative
+    author: Toby Ord
+    tradition: contemporary/existential-risk
+    stages: [adult, midlife]
+    domains: [ethics, governance]
+    conf: attested
+  - rid: ord-one-in-six
+    claim: Ord's rough personal estimate is about a one-in-six chance of existential catastrophe this century, dominated by anthropogenic risks — order-of-magnitude judgments, not precise measurements.
+    type: Consequence
+    claim_type: empirical
+    author: Toby Ord
+    tradition: contemporary/existential-risk
+    stages: [adult, midlife]
+    domains: [governance, ethics, technology]
+    conf: attested
+  - rid: ord-natural-vs-anthropogenic
+    claim: Natural risks are real but small; the dominant modern risks are anthropogenic — especially unaligned AI and engineered pandemics.
+    type: Consequence
+    claim_type: empirical
+    author: Toby Ord
+    tradition: contemporary/existential-risk
+    stages: [adult, midlife]
+    domains: [technology, governance, ethics]
+    conf: attested
+  - rid: ord-moral-weight-future
+    claim: Because humanity's potential future is enormous, safeguarding that future is among the most important moral tasks of our time; existential catastrophe would betray past generations and foreclose all future value.
+    type: Insight
+    claim_type: normative
+    author: Toby Ord
+    tradition: contemporary/existential-risk
+    stages: [adult, midlife, elder]
+    domains: [ethics, meaning, governance]
+    conf: attested
+  - rid: macaskill-longtermism
+    claim: Longtermism — positively influencing the long-term future is a key moral priority of our time — rests on three premises (future people count morally, there may be very many of them, we can make their lives go better).
+    type: Insight
+    claim_type: normative
+    author: William MacAskill
+    tradition: contemporary/existential-risk
+    stages: [adult, midlife]
+    domains: [ethics, career, philanthropy]
+    conf: attested
+  - rid: macaskill-value-lock-in
+    claim: Values are contingent and malleable now but could become "locked in" — an event causing a single value system to persist for an extremely long time — so preserving plasticity and moral option-value matters.
+    type: Danger
+    claim_type: prudential
+    author: William MacAskill
+    tradition: contemporary/existential-risk
+    stages: [adult, midlife]
+    domains: [ethics, governance, technology]
+    conf: attested
+  - rid: russell-standard-model-problem
+    claim: The "standard model" of AI — machines optimising a fixed, human-specified objective — is the root of the control problem, because we cannot fully and correctly specify our objectives.
+    type: Dilemma
+    claim_type: prudential
+    author: Stuart Russell
+    tradition: contemporary/existential-risk
+    stages: [adult, midlife]
+    domains: [technology, governance]
+    conf: attested
+  - rid: russell-provably-beneficial
+    claim: Build machines that are uncertain about human preferences and treat human behaviour as evidence of them; such machines defer to humans, ask permission, and have a positive incentive to allow themselves to be switched off.
+    type: Practice
+    claim_type: prudential
+    author: Stuart Russell
+    tradition: contemporary/existential-risk
+    stages: [adult, midlife]
+    domains: [technology, governance]
+    conf: attested
+  - rid: torres-longtermism-critique
+    claim: Longtermism can function as a dangerous ideology — by valuing vast hypothetical future populations it may license neglect of present suffering and injustice, concentrate power among elites, and rationalise harmful near-term trade-offs.
+    type: Danger
+    claim_type: normative
+    author: Émile P. Torres
+    tradition: contemporary/existential-risk
+    stages: [adult, midlife]
+    domains: [ethics, politics, justice]
+    conf: attested
+  - rid: fanaticism-pascals-mugging
+    claim: Longtermist expected-value reasoning risks "fanaticism" — tiny probabilities of astronomically large payoffs could dominate every decision, the structure of "Pascal's mugging," which many find a reductio.
+    type: Dilemma
+    claim_type: normative
+    author: Bostrom; Tarsney et al.
+    tradition: contemporary/existential-risk
+    stages: [adult, midlife]
+    domains: [ethics, decision-making]
+    conf: attested

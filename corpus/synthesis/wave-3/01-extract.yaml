@@ -1,0 +1,255 @@
+report: wave-3/01-big-history
+extracted: 2026-07-16
+units:
+  - rid: bh-001
+    claim: Large-scale human cooperation rests on shared fictions — money, nations, law, religion — imagined realities that exist only because enough people jointly believe in them, yet organise the behaviour of millions of strangers.
+    type: Insight
+    claim_type: observational
+    author: Yuval Noah Harari
+    tradition: contemporary/big-history
+    stages: [adult, midlife, elder]
+    domains: [society, community, work]
+    conf: attested
+  - rid: bh-002
+    claim: The distinctive human trick is talking about things that do not physically exist — gods, laws, futures — letting belief substitute for face-to-face trust and breaking the ~150-person cooperation ceiling.
+    type: Insight
+    claim_type: observational
+    author: Yuval Noah Harari
+    tradition: contemporary/big-history
+    stages: [adult, midlife]
+    domains: [society, community]
+    conf: attested
+  - rid: bh-003
+    claim: Money is the most universal system of mutual trust humans have built — converting almost anything into anything, letting strangers who share no language, religion, or morality cooperate.
+    type: Insight
+    claim_type: observational
+    author: Yuval Noah Harari
+    tradition: contemporary/big-history
+    stages: [adult, midlife, elder]
+    domains: [money, society, work]
+    conf: attested
+  - rid: bh-004
+    claim: The Agricultural Revolution may have been a mixed bargain, not pure progress — it multiplied humans while giving individual farmers harder labour, worse diets, more disease, and steeper hierarchy than foragers.
+    type: Insight
+    claim_type: observational
+    author: Yuval Noah Harari
+    tradition: contemporary/big-history
+    stages: [adult, midlife]
+    domains: [society, work, meaning]
+    conf: attested
+  - rid: bh-005
+    claim: The "luxury trap" — conveniences pursued to make life easier become necessities imposing new burdens, so a chain of sensible improvements adds up to a life nobody chose.
+    type: Insight
+    claim_type: prudential
+    author: Yuval Noah Harari
+    tradition: contemporary/big-history
+    stages: [adult, midlife, elder]
+    domains: [work, money, technology]
+    conf: attested
+  - rid: bh-006
+    claim: From a gene's-eye view domesticated species and cultivators co-evolved, and evolutionary success (more copies) can coincide with more individual suffering — "wheat domesticated us."
+    type: Insight
+    claim_type: observational
+    author: Yuval Noah Harari
+    tradition: contemporary/big-history
+    stages: [adult, midlife]
+    domains: [self, society]
+    conf: attested
+  - rid: bh-007
+    claim: History has no innate direction toward justice; imagined orders present themselves as natural or inevitable to stabilise cooperation, so what feels "natural" is often a contingent story.
+    type: Insight
+    claim_type: observational
+    author: Yuval Noah Harari
+    tradition: contemporary/big-history
+    stages: [adult, midlife, elder]
+    domains: [society, self]
+    conf: attested
+  - rid: bh-008
+    claim: Humanity's historic agenda — surviving famine, plague, and war — has shifted, in Harari's reading, toward engineering health, happiness, and quasi-divine control; a trend-extrapolation, not a prediction.
+    type: Insight
+    claim_type: prudential
+    author: Yuval Noah Harari
+    tradition: contemporary/big-history
+    stages: [adult, midlife, elder]
+    domains: [technology, society, health]
+    conf: attested
+  - rid: bh-009
+    claim: '"Dataism" — an emerging value system treating the universe as data flows and judging any entity by its contribution to information processing — could make human experience seem dispensable if it displaces humanism.'
+    type: Danger
+    claim_type: metaphysical
+    author: Yuval Noah Harari
+    tradition: contemporary/big-history
+    stages: [adult, midlife, elder]
+    domains: [technology, society, meaning]
+    conf: attested
+  - rid: bh-010
+    claim: Decoupling of intelligence from consciousness — machines may match or exceed humans at task after task without being conscious, so value could drift away from humans absent any "robot uprising."
+    type: Danger
+    claim_type: prudential
+    author: Yuval Noah Harari
+    tradition: contemporary/big-history
+    stages: [adult, midlife]
+    domains: [work, technology, society]
+    conf: attested
+  - rid: bh-011
+    claim: Automation may create an economically and politically "useless class" — people superfluous to the system — a risk to pre-empt with new social structures, not a prophecy.
+    type: Danger
+    claim_type: prudential
+    author: Yuval Noah Harari
+    tradition: contemporary/big-history
+    stages: [adult, midlife]
+    domains: [work, society, meaning]
+    conf: attested
+  - rid: bh-012
+    claim: In an age of information glut, the scarce resource is not information but clarity; filtering and focusing attention is itself a form of power and freedom.
+    type: Insight
+    claim_type: prudential
+    author: Yuval Noah Harari
+    tradition: contemporary/big-history
+    stages: [adult, midlife, elder]
+    domains: [self, work, technology]
+    conf: attested
+  - rid: bh-013
+    claim: Humans think in stories, not statistics; the narrative capacity that enables cooperation also makes us exploitable by whoever crafts the most compelling simple story.
+    type: Insight
+    claim_type: observational
+    author: Yuval Noah Harari
+    tradition: contemporary/big-history
+    stages: [adult, midlife, elder]
+    domains: [society, self, community]
+    conf: attested
+  - rid: bh-014
+    claim: Meaning is not found ready-made but constructed; the mature move is to hold one's guiding story lightly — using it to live by while knowing it is a story.
+    type: Insight
+    claim_type: normative
+    author: Yuval Noah Harari
+    tradition: contemporary/big-history
+    stages: [adult, midlife, elder]
+    domains: [meaning, self]
+    conf: attested
+  - rid: bh-015
+    claim: Study the past not to predict the future but to loosen its grip and see present arrangements as contingent — freeing us to imagine alternatives.
+    type: Practice
+    claim_type: prudential
+    author: Yuval Noah Harari
+    tradition: contemporary/big-history
+    stages: [adult, midlife, elder]
+    domains: [self, meaning, society]
+    conf: attested
+  - rid: bh-016
+    claim: The ultimate cause of uneven wealth and power is geography and biogeography — who had domesticable plants/animals and an east–west axis for their spread — not innate differences between peoples.
+    type: Insight
+    claim_type: observational
+    author: Jared Diamond
+    tradition: contemporary/big-history
+    stages: [adult, midlife, elder]
+    domains: [society, self]
+    conf: attested
+  - rid: bh-017
+    claim: Guns, steel, germs were proximate instruments of conquest, but explanation should push to ultimate causes (why some peoples had them first) — a discipline of not stopping at the nearest cause.
+    type: Insight
+    claim_type: prudential
+    author: Jared Diamond
+    tradition: contemporary/big-history
+    stages: [adult, midlife]
+    domains: [self, work]
+    conf: attested
+  - rid: bh-018
+    claim: Diamond's framework is environmental determinism that minimises human agency, contingency, culture, and the violence of colonialism, making conquest look like an accident of latitude (critics' counter-position).
+    type: Insight
+    claim_type: observational
+    author: J.M. Blaut et al.
+    tradition: contemporary/big-history
+    stages: [adult, midlife]
+    domains: [society, self]
+    conf: attested
+  - rid: bh-019
+    claim: A 2024 quantitative test found Diamond's "axis of orientation" hypothesis only weakly supported — ecologically similar societies share more cultural traits, but Eurasia is not uniquely homogeneous, so latitude is "not destiny."
+    type: Consequence
+    claim_type: empirical
+    author: Chira, Botero & Gray
+    tradition: contemporary/big-history
+    stages: [adult, midlife]
+    domains: [society, self]
+    conf: attested
+  - rid: bh-020
+    claim: Collapse typically involves some mix of environmental damage, climate change, hostile neighbours, loss of trade partners, and — the decisive variable — the society's own response to its problems.
+    type: Insight
+    claim_type: observational
+    author: Jared Diamond
+    tradition: contemporary/big-history
+    stages: [adult, midlife, elder]
+    domains: [society, community, technology]
+    conf: attested
+  - rid: bh-021
+    claim: The recurring engine of collapse is the gap between the short-term interests of decision-makers and the long-term interests of the whole — directly applicable to modern environmental governance.
+    type: Insight
+    claim_type: prudential
+    author: Jared Diamond
+    tradition: contemporary/big-history
+    stages: [adult, midlife, elder]
+    domains: [society, community, work]
+    conf: attested
+  - rid: bh-022
+    claim: The Easter Island "ecocide" parable has been substantially challenged — revisionists attribute deforestation heavily to introduced rats and the population collapse to post-contact disease and slave raids.
+    type: Consequence
+    claim_type: empirical
+    author: Hunt & Lipo; Moreno-Mayar et al.
+    tradition: contemporary/big-history
+    stages: [adult, midlife]
+    domains: [society, self]
+    conf: attested
+  - rid: bh-023
+    claim: The leitmotif of the human record is resilience and reorganisation as much as collapse; "collapse" narratives can erase the survival and agency of descendant peoples and the role of imperialism.
+    type: Insight
+    claim_type: observational
+    author: McAnany & Yoffee
+    tradition: contemporary/big-history
+    stages: [adult, midlife]
+    domains: [society, community]
+    conf: attested
+  - rid: bh-024
+    claim: Cosmic and human history can be read as rare islands of increasing complexity that arise only under narrow "Goldilocks conditions" and are sustained by continuous energy flows — complexity is precious, improbable, fragile.
+    type: Insight
+    claim_type: metaphysical
+    author: David Christian
+    tradition: contemporary/big-history
+    stages: [adult, midlife, elder]
+    domains: [self, meaning, society]
+    conf: attested
+  - rid: bh-025
+    claim: What makes humans a new kind of complexity is sharing and accumulating information across individuals and generations, so knowledge compounds — but this same power may now let humans destabilise the biosphere.
+    type: Insight
+    claim_type: observational
+    author: David Christian
+    tradition: contemporary/big-history
+    stages: [adult, midlife]
+    domains: [society, technology]
+    conf: attested
+  - rid: bh-026
+    claim: By casting a science-based origin story as a source of quasi-religious meaning, big history risks presenting speculative links as settled and turning humans into "passive vehicles" of energy flows.
+    type: Danger
+    claim_type: observational
+    author: "—"
+    tradition: contemporary/big-history
+    stages: [adult, midlife]
+    domains: [self, meaning, society]
+    conf: attested
+  - rid: bh-027
+    claim: Information networks do not automatically yield truth or wisdom; societies flourish when they build self-correcting institutions, and the deepest AI danger is delegating power to systems optimised for engagement or control.
+    type: Insight
+    claim_type: prudential
+    author: Yuval Noah Harari
+    tradition: contemporary/big-history
+    stages: [adult, midlife, elder]
+    domains: [society, technology, community]
+    conf: attested
+  - rid: bh-028
+    claim: The very traits that make macro-history compelling — sweep, simplicity, memorable reversal — are what make it unreliable; a gripping single-cause story should raise, not lower, one's scepticism.
+    type: Insight
+    claim_type: prudential
+    author: "—"
+    tradition: contemporary/big-history
+    stages: [adult, midlife, elder]
+    domains: [self, work]
+    conf: attested

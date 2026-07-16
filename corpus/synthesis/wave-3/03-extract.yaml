@@ -1,0 +1,354 @@
+report: wave-3/03-attention-tech
+extracted: 2026-07-16
+units:
+  - rid: 3c-newport-deepwork-define
+    claim: Sustained, distraction-free concentration on cognitively demanding tasks is a distinct mode of work that produces disproportionate value and is increasingly rare.
+    type: Insight
+    claim_type: prudential
+    author: Cal Newport
+    tradition: contemporary/attention-economy
+    stages: [young-adult, adult, midlife]
+    domains: [work, learning, craft]
+    conf: attested
+  - rid: 3c-newport-attention-residue
+    claim: Switching between tasks leaves "attention residue" that degrades cognitive performance on the next task.
+    type: Consequence
+    claim_type: empirical
+    author: Sophie Leroy (via Newport)
+    tradition: contemporary/attention-economy
+    stages: [adult, midlife]
+    domains: [work, learning]
+    conf: attested
+  - rid: 3c-newport-rituals
+    claim: Focus is protected best by ritual and structure — fixed routines, time-blocking, dedicated space, and a hard stop to the workday — rather than by willpower alone.
+    type: Practice
+    claim_type: prudential
+    author: Cal Newport
+    tradition: contemporary/attention-economy
+    stages: [adult, midlife]
+    domains: [work, daily-habits]
+    conf: attested
+  - rid: 3c-newport-boredom-tolerance
+    claim: Constant novelty-seeking on demand erodes the capacity to concentrate; deliberately tolerating boredom retrains the mind for depth.
+    type: Practice
+    claim_type: prudential
+    author: Cal Newport
+    tradition: contemporary/attention-economy
+    stages: [youth, adult, midlife]
+    domains: [work, mental-health, daily-habits]
+    conf: attested
+  - rid: 3c-newport-digital-minimalism-define
+    claim: Choose technologies deliberately by asking whether each directly serves something you deeply value, keeping only a few optimised tools and cheerfully missing out on the rest.
+    type: Practice
+    claim_type: normative
+    author: Cal Newport
+    tradition: contemporary/attention-economy
+    stages: [youth, young-adult, adult, midlife, elder]
+    domains: [daily-habits, work, relationships]
+    conf: attested
+  - rid: 3c-newport-solitude-deprivation
+    claim: A modern harm is "solitude deprivation" — spending almost no time alone with one's own thoughts, free of input from other minds — which erodes self-reflection and emotional balance.
+    type: Danger
+    claim_type: observational
+    author: Cal Newport
+    tradition: contemporary/attention-economy
+    stages: [youth, adult, midlife]
+    domains: [mental-health, daily-habits]
+    conf: attested
+  - rid: 3c-newport-declutter
+    claim: A 30-day break from optional technologies, followed by deliberate, rule-bound reintroduction of only those that pass a strict value test, resets one's digital life more effectively than incremental tweaks.
+    type: Practice
+    claim_type: prudential
+    author: Cal Newport
+    tradition: contemporary/attention-economy
+    stages: [adult, midlife]
+    domains: [daily-habits]
+    conf: attested
+  - rid: 3c-newport-high-quality-leisure
+    claim: Demanding, skilled, often analog leisure and real-world social activity are more restorative and satisfying than passive digital consumption.
+    type: Insight
+    claim_type: prudential
+    author: Cal Newport
+    tradition: contemporary/attention-economy
+    stages: [young-adult, adult, midlife, elder]
+    domains: [leisure, relationships, craft]
+    conf: attested
+  - rid: 3c-odell-doing-nothing
+    claim: '"Doing nothing" means refusing the attention economy''s demand for constant productivity — not idleness, but disengaging from extractive attention and reengaging with something more worthwhile.'
+    type: Insight
+    claim_type: normative
+    author: Jenny Odell
+    tradition: contemporary/attention-economy
+    stages: [adult, midlife]
+    domains: [work, civic-life, mental-health]
+    conf: attested
+  - rid: 3c-odell-attention-as-resistance
+    claim: Attention is among the last resources we can still choose to withhold, so redirecting it deliberately is itself an act of resistance.
+    type: Insight
+    claim_type: normative
+    author: Jenny Odell
+    tradition: contemporary/attention-economy
+    stages: [adult, midlife]
+    domains: [civic-life, mental-health]
+    conf: attested
+  - rid: 3c-odell-refusal-in-place
+    claim: Total retreat from society is impossible and evasive; better to practise "refusal-in-place" — staying within the world while withholding compliance and redirecting attention.
+    type: Practice
+    claim_type: normative
+    author: Jenny Odell
+    tradition: contemporary/attention-economy
+    stages: [adult, midlife]
+    domains: [civic-life, community]
+    conf: attested
+  - rid: 3c-odell-bioregionalism
+    claim: Re-grounding attention in one's physical place and local ecology counters "species loneliness" and provides a shared, common reference point that platforms cannot.
+    type: Practice
+    claim_type: normative
+    author: Jenny Odell
+    tradition: contemporary/attention-economy
+    stages: [adult, midlife]
+    domains: [environment, community, mental-health]
+    conf: attested
+  - rid: 3c-odell-maintenance-over-novelty
+    claim: A culture that prizes novelty and growth undervalues maintenance and care, though care of bodies, relationships, and environments is as productive as making anything new.
+    type: Insight
+    claim_type: normative
+    author: Jenny Odell
+    tradition: contemporary/attention-economy
+    stages: [adult, midlife]
+    domains: [relationships, environment, work]
+    conf: attested
+  - rid: 3c-burkeman-finitude-is-the-point
+    claim: Our limited time is not an obstacle to a meaningful life but the condition that makes choices meaningful; finitude is the point, not the problem.
+    type: Insight
+    claim_type: metaphysical
+    author: Oliver Burkeman
+    tradition: contemporary/attention-economy
+    stages: [adult, midlife, elder]
+    domains: [meaning, time, mental-health]
+    conf: attested
+  - rid: 3c-burkeman-efficiency-trap
+    claim: Becoming more efficient tends to generate more demands, not more freedom — the decks refill, and you will never get on top of everything.
+    type: Insight
+    claim_type: observational
+    author: Oliver Burkeman
+    tradition: contemporary/attention-economy
+    stages: [adult, midlife]
+    domains: [work, time, daily-habits]
+    conf: attested
+  - rid: 3c-burkeman-cosmic-insignificance
+    claim: Recognising that your life is cosmically insignificant is liberating rather than depressing — it releases you from impossible standards and lets a wider range of ordinary things count as meaningful.
+    type: Insight
+    claim_type: prudential
+    author: Oliver Burkeman
+    tradition: contemporary/attention-economy
+    stages: [adult, midlife, elder]
+    domains: [meaning, mental-health]
+    conf: attested
+  - rid: 3c-burkeman-settling-as-freedom
+    claim: Every commitment forecloses countless alternatives, and that is precisely what gives it meaning; choosing to settle on a few things is freedom, not loss.
+    type: Insight
+    claim_type: normative
+    author: Oliver Burkeman
+    tradition: contemporary/attention-economy
+    stages: [adult, midlife]
+    domains: [relationships, meaning, work]
+    conf: attested
+  - rid: 3c-burkeman-distraction-as-avoidance
+    claim: Distraction is often not a failure of willpower but a flight from the discomfort of confronting our finitude and what truly matters; attention is where we meet reality.
+    type: Insight
+    claim_type: observational
+    author: Oliver Burkeman
+    tradition: contemporary/attention-economy
+    stages: [adult, midlife]
+    domains: [mental-health, daily-habits]
+    conf: attested
+  - rid: 3c-turkle-alone-together
+    claim: Networked devices leave us "alone together" — constantly connected yet more isolated — because mediated contact substitutes for the demands and rewards of genuine presence.
+    type: Danger
+    claim_type: observational
+    author: Sherry Turkle
+    tradition: contemporary/attention-economy
+    stages: [youth, adult, midlife]
+    domains: [relationships, mental-health, family]
+    conf: attested
+  - rid: 3c-turkle-illusion-of-companionship
+    claim: We are drawn to technologies that offer the illusion of companionship without the demands of friendship, because they let us feel connected while remaining in control.
+    type: Danger
+    claim_type: observational
+    author: Sherry Turkle
+    tradition: contemporary/attention-economy
+    stages: [adult, midlife]
+    domains: [relationships, mental-health]
+    conf: attested
+  - rid: 3c-turkle-sociable-robots
+    claim: Humans are vulnerable to "pretend empathy" — we experience robots' simulated care as if it were real, which raises ethical questions about substituting machines for human presence.
+    type: Danger
+    claim_type: observational
+    author: Sherry Turkle
+    tradition: contemporary/attention-economy
+    stages: [elder, adult]
+    domains: [relationships, elder-care, mental-health]
+    conf: attested
+  - rid: 3c-turkle-reclaim-conversation
+    claim: Open-ended, face-to-face conversation is where empathy, intimacy, and self-knowledge develop; a "flight from conversation" erodes these capacities, but they can be deliberately reclaimed.
+    type: Practice
+    claim_type: prudential
+    author: Sherry Turkle
+    tradition: contemporary/attention-economy
+    stages: [adult, midlife, elder]
+    domains: [relationships, family, work, education]
+    conf: attested
+  - rid: 3c-turkle-solitude-enables-relationship
+    claim: The capacity to be alone with oneself is a precondition for genuine relationship; if we cannot tolerate solitude, we turn to others only to reduce anxiety rather than to truly connect.
+    type: Insight
+    claim_type: normative
+    author: Sherry Turkle
+    tradition: contemporary/attention-economy
+    stages: [youth, adult, midlife]
+    domains: [mental-health, relationships]
+    conf: attested
+  - rid: 3c-coddling-three-untruths
+    claim: Three "great untruths" harm young people — fragility, emotional reasoning, and us-vs-them — each the opposite of ancient wisdom and cognitive-behavioural therapy.
+    type: Danger
+    claim_type: normative
+    author: Lukianoff & Haidt
+    tradition: contemporary/attention-economy
+    stages: [youth, young-adult]
+    domains: [education, mental-health, civic-life]
+    conf: attested
+  - rid: 3c-coddling-antifragility
+    claim: The mind, like the immune system, is "antifragile" — it needs exposure to stressors, discomfort, and disagreement to develop; overprotection deprives young people of what they need to grow.
+    type: Insight
+    claim_type: prudential
+    author: Lukianoff & Haidt
+    tradition: contemporary/attention-economy
+    stages: [child, youth]
+    domains: [education, parenting, mental-health]
+    conf: attested
+  - rid: 3c-haidt-great-rewiring
+    claim: Between roughly 2010 and 2015 childhood was "rewired" from a play-based to a phone-based mode — Haidt argues this is the major cause of a synchronised rise in teen anxiety, depression, and self-harm.
+    type: Danger
+    claim_type: empirical
+    author: Jonathan Haidt
+    tradition: contemporary/attention-economy
+    stages: [child, youth]
+    domains: [parenting, mental-health, education]
+    conf: attested
+  - rid: 3c-haidt-four-harms
+    claim: Haidt names four "foundational harms" of a phone-based childhood — social deprivation, sleep deprivation, attention fragmentation, and addiction.
+    type: Danger
+    claim_type: empirical
+    author: Jonathan Haidt
+    tradition: contemporary/attention-economy
+    stages: [child, youth]
+    domains: [mental-health, parenting, education]
+    conf: attested
+  - rid: 3c-haidt-four-reforms
+    claim: Haidt proposes four norms — no smartphones before high school, no social media before 16, phone-free schools, and far more unsupervised play and childhood independence.
+    type: Practice
+    claim_type: prudential
+    author: Jonathan Haidt
+    tradition: contemporary/attention-economy
+    stages: [child, youth]
+    domains: [parenting, education, policy]
+    conf: attested
+  - rid: 3c-haidt-play-based-childhood
+    claim: Free, unsupervised, risky play is essential to healthy development; its decline from overprotective parenting is a co-cause, alongside phones, of rising fragility and anxiety.
+    type: Insight
+    claim_type: prudential
+    author: Jonathan Haidt
+    tradition: contemporary/attention-economy
+    stages: [child]
+    domains: [parenting, childhood-development]
+    conf: attested
+  - rid: 3c-haidt-policy-uptake
+    claim: The Anxious Generation directly inspired Australia's world-first under-16 social-media ban and has fed school phone-ban movements even as the underlying science remains disputed.
+    type: Consequence
+    claim_type: observational
+    author: "—"
+    tradition: contemporary/attention-economy
+    stages: [adult, midlife]
+    domains: [policy, education, parenting]
+    conf: attested
+  - rid: 3c-odgers-critique
+    claim: Candice Odgers argues Haidt's thesis is "not supported by science" — decades of research yield a mix of no, small, and mixed associations, mostly correlational.
+    type: Consequence
+    claim_type: empirical
+    author: Candice Odgers
+    tradition: contemporary/attention-economy
+    stages: [adult]
+    domains: [mental-health, policy]
+    conf: attested
+  - rid: 3c-orben-przybylski-tiny-effects
+    claim: Specification-curve analysis found digital-technology use explains at most about 0.4% of the variation in adolescent well-being — smaller than wearing glasses or eating potatoes.
+    type: Consequence
+    claim_type: empirical
+    author: Orben & Przybylski
+    tradition: contemporary/attention-economy
+    stages: [adult]
+    domains: [mental-health]
+    conf: attested
+  - rid: 3c-ferguson-moral-panic
+    claim: Ferguson's meta-analyses find screen/social-media use plays little role in mental-health outcomes and no evidence it drives suicidal ideation, framing the alarm as a recurring "technological moral panic."
+    type: Consequence
+    claim_type: empirical
+    author: Christopher Ferguson
+    tradition: contemporary/attention-economy
+    stages: [adult]
+    domains: [mental-health]
+    conf: attested
+  - rid: 3c-reporting-artifact
+    claim: Part of the apparent rise in teen mental-health crises may be a measurement artifact — screening-guideline and coding changes coincided with inflection points while actual self-harm stayed relatively flat.
+    type: Consequence
+    claim_type: empirical
+    author: "—"
+    tradition: contemporary/attention-economy
+    stages: [adult]
+    domains: [mental-health, policy]
+    conf: attested
+  - rid: 3c-haidt-side-causal-case
+    claim: Haidt and Twenge argue the case is not merely correlational — converging evidence, dose-response curves for heavy-using girls, and the international synchronicity of the downturn support a causal reading.
+    type: Consequence
+    claim_type: empirical
+    author: Haidt & Twenge
+    tradition: contemporary/attention-economy
+    stages: [adult]
+    domains: [mental-health]
+    conf: attested
+  - rid: 3c-harris-race-to-bottom
+    claim: Attention-economy products compete by exploiting ever-lower parts of human psychology to capture attention — a "race to the bottom of the brain stem."
+    type: Danger
+    claim_type: observational
+    author: Tristan Harris
+    tradition: contemporary/attention-economy
+    stages: [adult, midlife, elder]
+    domains: [technology, mental-health, civic-life]
+    conf: attested
+  - rid: 3c-harris-asymmetry-of-power
+    claim: There is a profound asymmetry between designers — armed with data, A/B testing, and behavioural science — and individual users; framing overuse as personal failure ignores that a thousand engineers shape the pull.
+    type: Danger
+    claim_type: normative
+    author: Tristan Harris
+    tradition: contemporary/attention-economy
+    stages: [adult, midlife]
+    domains: [technology, civic-life]
+    conf: attested
+  - rid: 3c-harris-humane-design
+    claim: The remedy is "humane technology" — realigning design incentives so products compete to serve users' considered goals rather than to maximise engagement, plus structural/regulatory correction.
+    type: Practice
+    claim_type: normative
+    author: Tristan Harris
+    tradition: contemporary/attention-economy
+    stages: [adult, midlife, elder]
+    domains: [technology, policy]
+    conf: attested
+  - rid: 3c-fogg-persuasive-lineage
+    claim: The persuasive-design techniques Harris critiques descend from B.J. Fogg's "captology" lab at Stanford, which studied how computers change behaviour.
+    type: Insight
+    claim_type: observational
+    author: B.J. Fogg
+    tradition: contemporary/attention-economy
+    stages: [adult]
+    domains: [technology]
+    conf: attested
