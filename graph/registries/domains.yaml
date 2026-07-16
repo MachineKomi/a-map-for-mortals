@@ -1,463 +1,508 @@
 entries:
 - raw: self
-  count: 104
+  count: 131
   canonical_id: self
 - raw: work
-  count: 63
+  count: 102
   canonical_id: work
+- raw: meaning
+  count: 56
+  canonical_id: meaning
 - raw: adversity
-  count: 48
+  count: 52
   canonical_id: adversity
+- raw: ethics
+  count: 48
+  canonical_id: ethics
+- raw: society
+  count: 44
+  canonical_id: society
+- raw: community
+  count: 39
+  canonical_id: community
 - raw: money
-  count: 33
+  count: 38
   canonical_id: money
 - raw: death
   count: 28
   canonical_id: death
-- raw: ethics
+- raw: relationships
   count: 27
-  canonical_id: ethics
-- raw: meaning
+  canonical_id: relationships
+- raw: decision-making
+  count: 26
+  canonical_id: decision-making
+- raw: love
+  count: 25
+  canonical_id: love
+- raw: technology
   count: 24
-  canonical_id: meaning
-- raw: community
-  count: 24
-  canonical_id: community
+  canonical_id: technology
 - raw: anxiety
   count: 23
   canonical_id: anxiety
+- raw: family
+  count: 22
+  canonical_id: family
 - raw: knowledge
   count: 22
   canonical_id: knowledge
-- raw: society
-  count: 21
-  canonical_id: society
-- raw: family
-  count: 20
-  canonical_id: family
-- raw: love
-  count: 20
-  canonical_id: love
+- raw: mental-health
+  count: 22
+  canonical_id: mental-health
+- raw: politics
+  count: 22
+  canonical_id: politics
 - raw: nature
   count: 20
   canonical_id: nature
+- raw: self-understanding
+  count: 20
+  canonical_id: self-understanding
 - raw: friendship
   count: 19
   canonical_id: friendship
 - raw: conflict
   count: 18
   canonical_id: conflict
-- raw: politics
-  count: 17
-  canonical_id: politics
+- raw: governance
+  count: 18
+  canonical_id: governance
+- raw: health
+  count: 18
+  canonical_id: health
 - raw: justice
-  count: 17
+  count: 18
   canonical_id: justice
+- raw: wellbeing
+  count: 17
+  canonical_id: wellbeing
 - raw: faith
   count: 16
   canonical_id: faith
-- raw: health
-  count: 15
-  canonical_id: health
 - raw: ambition
   count: 15
   canonical_id: ambition
+- raw: mortality
+  count: 15
+  canonical_id: mortality
+- raw: education
+  count: 14
+  canonical_id: education
 - raw: grief
   count: 14
   canonical_id: grief
-- raw: mortality
-  count: 14
-  canonical_id: mortality
 - raw: inner-life
   count: 14
   canonical_id: inner-life
 - raw: character
   count: 13
   canonical_id: character
-- raw: relationships
-  count: 13
-  canonical_id: relationships
 - raw: happiness
   count: 12
   canonical_id: happiness
 - raw: aging
   count: 11
   canonical_id: ageing
+- raw: culture
+  count: 11
+  canonical_id: culture
+- raw: consumption
+  count: 10
+  canonical_id: consumption
 - raw: desire
   count: 10
   canonical_id: desire
 - raw: statecraft
   count: 10
   canonical_id: statecraft
+- raw: career
+  count: 9
+  canonical_id: career
 - raw: leadership
   count: 9
   canonical_id: leadership
 - raw: legacy
   count: 9
   canonical_id: legacy
+- raw: negotiation
+  count: 8
+  canonical_id: negotiation
 - raw: speech
   count: 8
   canonical_id: speech
 - raw: spirituality
   count: 8
   canonical_id: spirituality
-- raw: decision-making
-  count: 8
-  canonical_id: decision-making
-- raw: negotiation
-  count: 8
-  canonical_id: negotiation
-- raw: career
-  count: 8
-  canonical_id: career
 - raw: authenticity
   count: 7
   canonical_id: authenticity
-- raw: identity
+- raw: daily-habits
   count: 7
-  canonical_id: identity
+  canonical_id: daily-habits
 - raw: gender
   count: 7
   canonical_id: gender
-- raw: solitude
-  count: 6
-  canonical_id: solitude
+- raw: identity
+  count: 7
+  canonical_id: identity
+- raw: parenting
+  count: 7
+  canonical_id: parenting
+- raw: policy
+  count: 7
+  canonical_id: policy
 - raw: ageing
   count: 6
   canonical_id: ageing
-- raw: education
+- raw: civic-life
   count: 6
-  canonical_id: education
-- raw: fame
-  count: 5
-  canonical_id: fame
+  canonical_id: civic-life
+- raw: solitude
+  count: 6
+  canonical_id: solitude
 - raw: aesthetics
   count: 5
   canonical_id: aesthetics
-- raw: truth
+- raw: fame
   count: 5
-  canonical_id: truth
+  canonical_id: fame
 - raw: marriage
   count: 5
   canonical_id: marriage
+- raw: professional-ethics
+  count: 5
+  canonical_id: professional-ethics
 - raw: reputation
   count: 5
   canonical_id: reputation
 - raw: social
   count: 5
   canonical_id: social
-- raw: professional-ethics
+- raw: truth
   count: 5
-  canonical_id: professional-ethics
+  canonical_id: truth
 - raw: courage
   count: 4
   canonical_id: courage
 - raw: fate
   count: 4
   canonical_id: fate
-- raw: governance
+- raw: learning
   count: 4
-  canonical_id: governance
+  canonical_id: learning
 - raw: power
   count: 4
   canonical_id: power
 - raw: risk
   count: 4
   canonical_id: risk
+- raw: time
+  count: 4
+  canonical_id: time
 - raw: anger
   count: 3
   canonical_id: anger
-- raw: freedom
-  count: 3
-  canonical_id: freedom
-- raw: wealth
-  count: 3
-  canonical_id: wealth
 - raw: autonomy
   count: 3
   canonical_id: autonomy
 - raw: care
   count: 3
   canonical_id: care
-- raw: self-cultivation
+- raw: craft
   count: 3
-  canonical_id: self-cultivation
+  canonical_id: craft
+- raw: freedom
+  count: 3
+  canonical_id: freedom
 - raw: medicine
   count: 3
   canonical_id: medicine
-- raw: joy
-  count: 2
-  canonical_id: joy
-- raw: change
-  count: 2
-  canonical_id: change
-- raw: gratitude
-  count: 2
-  canonical_id: gratitude
-- raw: emotions
-  count: 2
-  canonical_id: emotions
-- raw: sleep
-  count: 2
-  canonical_id: sleep
-- raw: goals
-  count: 2
-  canonical_id: goals
-- raw: suffering
-  count: 2
-  canonical_id: suffering
-- raw: practice
-  count: 2
-  canonical_id: practice
-- raw: metaphysics
-  count: 2
-  canonical_id: metaphysics
-- raw: duty
-  count: 2
-  canonical_id: duty
-- raw: memory
-  count: 2
-  canonical_id: memory
-- raw: learning
-  count: 2
-  canonical_id: learning
-- raw: culture
-  count: 2
-  canonical_id: culture
-- raw: vocation
-  count: 2
-  canonical_id: vocation
-- raw: transcendence
-  count: 2
-  canonical_id: transcendence
+- raw: self-cultivation
+  count: 3
+  canonical_id: self-cultivation
+- raw: wealth
+  count: 3
+  canonical_id: wealth
 - raw: art
   count: 2
   canonical_id: art
 - raw: attention
   count: 2
   canonical_id: attention
-- raw: devotion
-  count: 2
-  canonical_id: devotion
-- raw: moral-imagination
-  count: 2
-  canonical_id: moral-imagination
-- raw: humility
-  count: 2
-  canonical_id: humility
-- raw: empathy
-  count: 2
-  canonical_id: empathy
 - raw: authority
   count: 2
   canonical_id: authority
-- raw: cosmology
+- raw: change
   count: 2
-  canonical_id: cosmology
-- raw: contentment
-  count: 2
-  canonical_id: contentment
-- raw: time
-  count: 2
-  canonical_id: time
-- raw: wisdom
-  count: 2
-  canonical_id: wisdom
-- raw: war
-  count: 2
-  canonical_id: war
-- raw: self-knowledge
-  count: 2
-  canonical_id: self-knowledge
+  canonical_id: change
 - raw: competition
   count: 2
   canonical_id: competition
-- raw: economics
+- raw: contentment
   count: 2
-  canonical_id: economics
-- raw: law
+  canonical_id: contentment
+- raw: cosmology
   count: 2
-  canonical_id: law
+  canonical_id: cosmology
+- raw: devotion
+  count: 2
+  canonical_id: devotion
 - raw: diplomacy
   count: 2
   canonical_id: diplomacy
-- raw: trust
+- raw: duty
   count: 2
-  canonical_id: trust
-- raw: institutions
+  canonical_id: duty
+- raw: economics
   count: 2
-  canonical_id: institutions
+  canonical_id: economics
+- raw: emotions
+  count: 2
+  canonical_id: emotions
+- raw: empathy
+  count: 2
+  canonical_id: empathy
+- raw: environment
+  count: 2
+  canonical_id: environment
 - raw: expertise
   count: 2
   canonical_id: expertise
+- raw: goals
+  count: 2
+  canonical_id: goals
+- raw: gratitude
+  count: 2
+  canonical_id: gratitude
+- raw: humility
+  count: 2
+  canonical_id: humility
+- raw: institutions
+  count: 2
+  canonical_id: institutions
+- raw: joy
+  count: 2
+  canonical_id: joy
+- raw: law
+  count: 2
+  canonical_id: law
+- raw: memory
+  count: 2
+  canonical_id: memory
+- raw: metaphysics
+  count: 2
+  canonical_id: metaphysics
+- raw: moral-imagination
+  count: 2
+  canonical_id: moral-imagination
 - raw: planning
   count: 2
   canonical_id: planning
-- raw: youth
-  count: 1
-  canonical_id: youth
-- raw: art-of-living
-  count: 1
-  canonical_id: art-of-living
-- raw: child-rearing
-  count: 1
-  canonical_id: parenting
-- raw: moral-psychology
-  count: 1
-  canonical_id: moral-psychology
-- raw: parenting
-  count: 1
-  canonical_id: parenting
-- raw: habit
-  count: 1
-  canonical_id: habit
-- raw: spiritual-practice
-  count: 1
-  canonical_id: spiritual-practice
-- raw: destiny
-  count: 1
-  canonical_id: destiny
-- raw: communication
-  count: 1
-  canonical_id: communication
-- raw: strategy
-  count: 1
-  canonical_id: strategy
-- raw: survival
-  count: 1
-  canonical_id: survival
-- raw: religion
-  count: 1
-  canonical_id: religion
-- raw: reconciliation
-  count: 1
-  canonical_id: reconciliation
-- raw: embodiment
-  count: 1
-  canonical_id: embodiment
-- raw: public-life
-  count: 1
-  canonical_id: public-life
-- raw: everyday-life
-  count: 1
-  canonical_id: everyday-life
-- raw: stewardship
-  count: 1
-  canonical_id: stewardship
-- raw: hope
-  count: 1
-  canonical_id: hope
-- raw: equanimity
-  count: 1
-  canonical_id: equanimity
-- raw: reasoning
-  count: 1
-  canonical_id: reasoning
-- raw: motive
-  count: 1
-  canonical_id: motive
-- raw: renunciation
-  count: 1
-  canonical_id: renunciation
-- raw: belonging
-  count: 1
-  canonical_id: belonging
-- raw: wonder
-  count: 1
-  canonical_id: wonder
-- raw: resilience
-  count: 1
-  canonical_id: resilience
-- raw: usefulness
-  count: 1
-  canonical_id: usefulness
-- raw: generativity
-  count: 1
-  canonical_id: generativity
-- raw: adaptation
-  count: 1
-  canonical_id: adaptation
-- raw: life-review
-  count: 1
-  canonical_id: life-review
-- raw: forgiveness
-  count: 1
-  canonical_id: forgiveness
-- raw: fear
-  count: 1
-  canonical_id: fear
-- raw: development
-  count: 1
-  canonical_id: development
-- raw: regret
-  count: 1
-  canonical_id: regret
+- raw: practice
+  count: 2
+  canonical_id: practice
+- raw: self-knowledge
+  count: 2
+  canonical_id: self-knowledge
+- raw: sleep
+  count: 2
+  canonical_id: sleep
+- raw: suffering
+  count: 2
+  canonical_id: suffering
+- raw: transcendence
+  count: 2
+  canonical_id: transcendence
+- raw: trust
+  count: 2
+  canonical_id: trust
+- raw: vocation
+  count: 2
+  canonical_id: vocation
+- raw: war
+  count: 2
+  canonical_id: war
+- raw: wisdom
+  count: 2
+  canonical_id: wisdom
 - raw: acceptance
   count: 1
   canonical_id: acceptance
+- raw: adaptation
+  count: 1
+  canonical_id: adaptation
 - raw: agency
   count: 1
   canonical_id: agency
-- raw: pleasure
+- raw: art-of-living
   count: 1
-  canonical_id: pleasure
-- raw: tragedy
+  canonical_id: art-of-living
+- raw: belonging
   count: 1
-  canonical_id: tragedy
+  canonical_id: belonging
+- raw: business
+  count: 1
+  canonical_id: business
+- raw: child-rearing
+  count: 1
+  canonical_id: parenting
+- raw: childhood-development
+  count: 1
+  canonical_id: childhood-development
+- raw: communication
+  count: 1
+  canonical_id: communication
 - raw: compassion
   count: 1
   canonical_id: compassion
-- raw: language
-  count: 1
-  canonical_id: language
-- raw: obsession
-  count: 1
-  canonical_id: obsession
-- raw: growth
-  count: 1
-  canonical_id: growth
-- raw: generosity
-  count: 1
-  canonical_id: generosity
-- raw: peace
-  count: 1
-  canonical_id: peace
-- raw: social-conduct
-  count: 1
-  canonical_id: social-conduct
-- raw: craft
-  count: 1
-  canonical_id: craft
-- raw: perception
-  count: 1
-  canonical_id: perception
-- raw: order
-  count: 1
-  canonical_id: order
-- raw: patience
-  count: 1
-  canonical_id: patience
-- raw: self-protection
-  count: 1
-  canonical_id: self-protection
-- raw: management
-  count: 1
-  canonical_id: management
 - raw: confidentiality
   count: 1
   canonical_id: confidentiality
 - raw: cooperation
   count: 1
   canonical_id: cooperation
-- raw: opportunity
+- raw: destiny
   count: 1
-  canonical_id: opportunity
-- raw: teams
+  canonical_id: destiny
+- raw: development
   count: 1
-  canonical_id: teams
-- raw: business
+  canonical_id: development
+- raw: elder-care
   count: 1
-  canonical_id: business
+  canonical_id: elder-care
+- raw: embodiment
+  count: 1
+  canonical_id: embodiment
+- raw: equanimity
+  count: 1
+  canonical_id: equanimity
+- raw: everyday-life
+  count: 1
+  canonical_id: everyday-life
 - raw: expectation
   count: 1
   canonical_id: expectation
+- raw: fear
+  count: 1
+  canonical_id: fear
+- raw: forgiveness
+  count: 1
+  canonical_id: forgiveness
+- raw: generativity
+  count: 1
+  canonical_id: generativity
+- raw: generosity
+  count: 1
+  canonical_id: generosity
+- raw: geopolitics
+  count: 1
+  canonical_id: geopolitics
+- raw: growth
+  count: 1
+  canonical_id: growth
+- raw: habit
+  count: 1
+  canonical_id: habit
+- raw: hope
+  count: 1
+  canonical_id: hope
+- raw: language
+  count: 1
+  canonical_id: language
+- raw: leisure
+  count: 1
+  canonical_id: leisure
+- raw: life-review
+  count: 1
+  canonical_id: life-review
+- raw: management
+  count: 1
+  canonical_id: management
+- raw: moral-psychology
+  count: 1
+  canonical_id: moral-psychology
+- raw: motive
+  count: 1
+  canonical_id: motive
+- raw: obsession
+  count: 1
+  canonical_id: obsession
+- raw: opportunity
+  count: 1
+  canonical_id: opportunity
+- raw: order
+  count: 1
+  canonical_id: order
+- raw: patience
+  count: 1
+  canonical_id: patience
+- raw: peace
+  count: 1
+  canonical_id: peace
+- raw: perception
+  count: 1
+  canonical_id: perception
+- raw: philanthropy
+  count: 1
+  canonical_id: philanthropy
+- raw: pleasure
+  count: 1
+  canonical_id: pleasure
+- raw: public-life
+  count: 1
+  canonical_id: public-life
+- raw: reasoning
+  count: 1
+  canonical_id: reasoning
+- raw: reconciliation
+  count: 1
+  canonical_id: reconciliation
+- raw: regret
+  count: 1
+  canonical_id: regret
+- raw: religion
+  count: 1
+  canonical_id: religion
+- raw: renunciation
+  count: 1
+  canonical_id: renunciation
+- raw: resilience
+  count: 1
+  canonical_id: resilience
+- raw: security
+  count: 1
+  canonical_id: security
+- raw: self-protection
+  count: 1
+  canonical_id: self-protection
+- raw: social-conduct
+  count: 1
+  canonical_id: social-conduct
+- raw: spiritual-practice
+  count: 1
+  canonical_id: spiritual-practice
+- raw: stewardship
+  count: 1
+  canonical_id: stewardship
+- raw: strategy
+  count: 1
+  canonical_id: strategy
+- raw: survival
+  count: 1
+  canonical_id: survival
+- raw: teams
+  count: 1
+  canonical_id: teams
+- raw: tragedy
+  count: 1
+  canonical_id: tragedy
+- raw: usefulness
+  count: 1
+  canonical_id: usefulness
+- raw: wonder
+  count: 1
+  canonical_id: wonder
+- raw: youth
+  count: 1
+  canonical_id: youth

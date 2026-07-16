@@ -2,10 +2,10 @@
 
 **The master tracker.** Updated by Claude Code after every wave (Runbook P2, and again each wave in P5). This is the source of coordination truth — it lives in the repo, not in any chat. *(Template below; replace the example rows as real data lands.)*
 
-- **Last updated:** 2026-07-07 (wave-2 extracted + synthesised; extracts in `corpus/synthesis/wave-2/`)
-- **Current wave:** 2 (fully processed at report level)
-- **Saturation status:** no signal — wave-2 ran at 90% of wave-1's unit volume with ~50 NEW tradition tags (deliberate gap-filling breadth). First honest saturation read comes after corpus-wide claim-merging (P6) or wave-3.
-- **Reports held:** 15 (all validated + extracted) · **Report-level units:** 346 (wave-1: 182 · wave-2: 164) · **Graph:** 33 units minted, 32 verified, 33 claims + 23 edges adjudicated (walking skeleton) · **Named dilemmas:** 82 report-level (38 + 44)
+- **Last updated:** 2026-07-16 (wave-3 ingested: 141 modern-thinkers units minted u-0347..u-0487; extracts in `corpus/synthesis/wave-3/`)
+- **Current wave:** 3 (ingested at report level; Gate-C spot-check audit clean)
+- **Saturation status:** no signal — wave-3 added 141 units across 5 NEW `contemporary/*` facets (modern life & living thinkers), the corpus's largest prior skew. First honest saturation read comes after corpus-wide claim-merging (P6).
+- **Reports held:** 20 (all validated + extracted) · **Report-level units:** 487 (wave-1: 182 · wave-2: 164 · wave-3: 141) · **Graph:** 487 units in store (33 skeleton + 313 P4 + 141 wave-3); 33 claims + 23 edges adjudicated (walking skeleton — corpus-wide S3/S4 pending) · **Named dilemmas:** 82+ report-level (pre-wave-3; wave-3 forks counted at S3)
 
 ---
 
@@ -30,6 +30,11 @@ Depth: `none` · `survey` (breadth pass) · `deep` (focused extraction).
 | Practical/strategic — wave-2 | survey | `wave-2/07-practical-strategic.md` | validated: 24 units; realpolitik cautionary/descriptive never endorsed; Hippocratic counter-pole first-class; watchlist traces "ends justify means"→Ovid, "first do no harm"→19th c. |
 | World folk & proverbial — wave-2 | survey | `wave-2/08-folk-proverbial.md` | validated: 10 units + 6 contradicting pairs as first-class forks + 6 independence-GRADED convergences (transmitted-by-default discipline); "interesting times" & "two wolves" debunked with sources |
 | Empirical evidence base | survey | `08-empirical.md` | validated: 26 graded findings (A–E rubric) + mapping table; replication-crisis-aware (ego depletion, marshmallow, positivity ratio foregrounded as failed/contested); causal honesty good; WEIRD skew flagged not quantified |
+| Modern big history — **wave-3** | survey | `wave-3/01-big-history.md` | ingested 2026-07-16: 28 units (Harari, Diamond, Christian); interpretive/observational throughout — Harari/Diamond contested, only Chira/Botero/Gray 2024 + Rapa Nui revision tagged `empirical`; Easter-Island ecocide carried as overturned; **all `in-copyright`, paraphrase-only** |
+| Existential risk & AI — **wave-3** | survey | `wave-3/02-existential-risk.md` | ingested: 16 units (Bostrom, Ord, MacAskill, Russell); prudential/speculative never tagged empirical; Torres longtermism critique + Pascal's-mugging dissent preserved first-class; all `in-copyright` |
+| Attention & technology — **wave-3** | survey | `wave-3/03-attention-tech.md` | ingested: 39 units (Newport, Odell, Burkeman, Turkle, Haidt, Harris); teen-mental-health causal claim modeled as a **live two-sided debate** (Haidt u-0416 ↔ Odgers/Orben-Przybylski/Ferguson u-0421..0423); meta-fork individual-vs-structural preserved; Turkle ethnographic-not-causal; all `in-copyright` |
+| Meaning & morality in a secular age — **wave-3** | survey | `wave-3/04-secular-meaning.md` | ingested: 32 units (Frankl, Becker, Taylor, Wolf, Appiah, Singer); Frankl philosophy-of-meaning kept distinct from logotherapy clinical claims (thin evidence); TMT `empirical`+`contested` (Many Labs 4 failure); Singer disability position `normative`, argued-and-widely-rejected with dissent central; all `in-copyright` |
+| Modern science of judgement — **wave-3** | survey | `wave-3/05-judgement-science.md` | ingested: 26 units (Kahneman, Gilbert, Schwartz, Duckworth, Seligman); replication-crisis candid — priming retraction + positivity-ratio retraction carried, grit = jangle fallacy (ρ=.842 w/ conscientiousness), choice-overload meta-null; **heavy FLAG-FOR-MERGE with report 08** at S3; all `in-copyright` |
 
 ## 2 · Coverage by life-stage & domain (the book's spine)
 
@@ -71,18 +76,20 @@ Flag thin cells — the book is ordered by life-stage (SPEC §8), so each stage 
 | ~~P1~~ | ~~Women's voices across eras~~ | FED by wave-2/04 (28 units); residual thinness: Mirabai, Edith Stein, elder voices | closed 2026-07-07 |
 | P1→P2 | Child + elder life-stages | partially FED by wave-2/05 (5 read-aloud child + 8 elder units); still the thinnest stages — keep feeding via depth passes (Confucian filial piety, more read-aloud material) | reduced 2026-07-07 |
 | ~~P2~~ | ~~Persian/Zoroastrian; practical/strategic; world proverbs~~ | FED by wave-2/06, /07, /08 | closed 2026-07-07 |
-| **P0** | **Modern life & contemporary thinkers (WAVE-3)** | **The corpus is rich in ancient/pre-20thC wisdom and thin on the questions that define a contemporary life — technology, attention, the long future, meaning in a secular age, the modern science of judgement. Named request: Harari, Bostrom, and that vein.** | **prompts ready** (`prompts/deep-research/wave-3-modern-thinkers.md`, 5 queries); outputs → `corpus/reports/wave-3/`; **in-copyright → transformative paraphrase-first discipline (see prompt)** |
+| ~~P0~~ | ~~Modern life & contemporary thinkers (WAVE-3)~~ | FED by wave-3 (5 reports, 141 units); transformative paraphrase-first discipline held — all `in-copyright`, `original_quote` null-by-default, no verbatim-print candidates | closed 2026-07-16 |
 | P2 | Non-Western + 20th-century literature | 07-literary is canon-Western, pre-1900 | queued |
 | P2 | Islamic doctrinal & Talmudic reasoning depth | 05 leans Sufi-poetic; jurisprudential ethics and disputational wisdom absent | queued |
 | P2 | Depth passes (Epictetus, Analects, Gita, Shakespeare…) | surveys aren't the digging | from reports' §C/§G |
 
-**Wave-3 modern-thinker facets (planned — one report each, `contemporary/*` tradition tag):**
-`big-history` (3a: Harari · Diamond) · `existential-risk` (3b: Bostrom · Ord · MacAskill · Russell) ·
-`attention-economy` (3c: Newport · Odell · Burkeman · Turkle · Haidt-critically) · `secular-meaning`
-(3d: Frankl · Becker · Taylor · Wolf · Appiah · Singer) · `judgement-science` (3e: Kahneman · Gilbert
-· Schwartz · Duckworth-critically — overlaps report 08, flag for merge). Copyright discipline is
-mandatory: `original_quote` null-by-default, `copyright_flag: in-copyright`, ideas carried as
-own-words `canonical_claim`; the print gate then bars verbatim automatically.
+**Wave-3 modern-thinker facets (LANDED 2026-07-16 — one report each, `contemporary/*` tradition tag):**
+`big-history` (28 units: Harari · Diamond · Christian) · `existential-risk` (16: Bostrom · Ord ·
+MacAskill · Russell) · `attention-economy` (39: Newport · Odell · Burkeman · Turkle · Haidt-critically) ·
+`secular-meaning` (32: Frankl · Becker · Taylor · Wolf · Appiah · Singer) · `judgement-science`
+(26: Kahneman · Gilbert · Schwartz · Duckworth-critically — overlaps report 08, flagged FOR MERGE at S3).
+Copyright discipline held across all 141: `original_quote` null-by-default (45 short coined-term
+quotes only), `copyright_flag: in-copyright` throughout, ideas carried as own-words `canonical_claim`;
+no unit is a verbatim-print candidate. Gate-C spot-check audit: **zero material defects**
+(`ops/audits/2026-07-16-wave3-gateC-audit.md`).
 
 ### P1 validation log (2026-07-06)
 All 7 landed reports passed shape validation (independent fresh-context review per report; method disclosed: reviewer shares model weights with pipeline). Common findings: all six expected sections present in every content report; misattribution watchlists uniformly strong (13 Greco-Roman, 10 Nietzsche, 7 Abrahamic, 10 modern-West, 8 literary cases); no fabricated citations detected on sampling (empirical report's 5 most-load-bearing citations verified against originals); locator quality high (standard scholarly numbering throughout). Recurring caveats to carry into ingestion (S1/S2): (1) reports' own "verified" labels are **claims, not verifications** — everything enters `attested` per METHODOLOGY §2 regardless of report labels; (2) several units flagged by the reports themselves as needing primary-text confirmation (e.g. 4 Ludovici-translation Nietzsche quotes, Wordsworth + Grand Inquisitor units in 07); (3) translation copyright must be tracked at unit level (Kaufmann, P&V, Fagles, Nicholson etc. in copyright; PD alternatives named per report); (4) all content reports lean adult/midlife — child/elder chapters underfed.
@@ -133,6 +140,7 @@ All 7 landed reports passed shape validation (independent fresh-context review p
 |---|---|---|---|---|---|---|---|
 | 1 | 7 (of 8; 04-eastern missing) | **182** | 38 (≈10 distinct cross-report forks after first-pass dedup) | 29 (12 cross-report clusters) | 35 | ~25 (normalise at S1) | baseline; unit `verified` labels are the **reports' claims** — everything enters the graph `attested` (METHODOLOGY §2) |
 | 2 | 8 (the gap-filling wave) | **164** | 44 | 36 (heavily FOR-MERGE-flagged against wave-1) | 34 | ~50 new raw tags (Eastern streams, 8 Indigenous peoples, African peoples, Persian, strategic, proverbial, women's) | novelty very high by design — no saturation signal; 13 Indigenous units carry consent-gate/record-only CARE flags; 8 dubious units are watchlist-adjacent by intent (FitzGerald etc.) |
+| 3 | 5 (the modern-thinkers wave) | **141** | ~20 (modern forks: useful-story-vs-truth · progress-vs-costs · effort-vs-acceptance · individual-vs-structural · optimism-vs-vigilance) | ~8 (modern↔ancient hypotheses: Burkeman finitude ↔ carpe diem; Stoic control ↔ digital minimalism; Becker denial-of-death ↔ memento mori — all TO TEST at S4, not asserted) | ~10 (mostly internal to the wave; meta-fork individual-vs-structural is the deepest) | 5 NEW `contemporary/*` facets (big-history · existential-risk · attention-economy · secular-meaning · judgement-science) | biggest prior skew now fed; novelty high; **all `in-copyright`** so contributes insights via paraphrase only, never verbatim; judgement-science heavily FOR-MERGE with report 08 at S3; replication-crisis candid (priming/positivity-ratio retractions, grit jangle, choice-overload null carried) |
 
 > **Saturation watch:** when "new canonical claims / new dilemmas / new traditions" trend toward zero across waves, the corpus is approaching broad-enough. (Runbook P5 — Claude proposes, Jason decides.)
 

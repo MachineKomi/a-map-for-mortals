@@ -34,4 +34,4 @@ prov:
   extracted_by: "claude-code:s1-wave3-v1"
   pass: 2
   date: 2026-07-16
-notes: "Report label: estimate; report confidence high. Empirical but a SUBJECTIVE BAYESIAN estimate under deep uncertainty — heavily caveated by Ord ('right order of magnitude, not a precise probability'). The single most-cited and most-contested number in the field. Per-risk: unaligned AI ~1 in 10; engineered pandemics ~1 in 30; nuclear/climate ~1 in 1,000; total natural ~1 in 10,000. Critics (Thorstad, Fodor) argue several figures are too high."
+notes: "Report label: estimate; report confidence high. Empirical but a SUBJECTIVE BAYESIAN estimate under deep uncertainty — heavily caveated by Ord ('right order of magnitude, not a precise probability'). Ord's own framing (80,000 Hours podcast): business-as-usual is roughly 'two bullets in the chamber' (~1 in 3), of which we'll likely remove one, hence the headline ~1 in 6. The single most-cited and most-contested number in the field. Per-risk: unaligned AI ~1 in 10; engineered pandemics ~1 in 30; nuclear/climate ~1 in 1,000; total natural ~1 in 10,000. Critics (Thorstad, Fodor) argue several figures are too high."
