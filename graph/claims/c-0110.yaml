@@ -1,0 +1,45 @@
+id: c-0110
+canonical_claim: "An arbitrary starting number can drag numerical estimates toward it even when we know it is irrelevant (anchoring effect)."
+claim_type: empirical
+polarity: cautionary
+conditionality: conditional
+member_units: [u-0463]
+robustness_profile:
+  recurrence:
+    rating: low
+    certainty: high
+    basis: "empirical finding — recurrence not the relevant axis; see empirical_support"
+  source_diversity:
+    rating: moderate
+    certainty: moderate
+    basis: "replicated across pricing, negotiation, legal sentencing; WEIRD-sample caveats on the unit"
+  temporal_spread:
+    rating: moderate
+    certainty: high
+    basis: "1974 origin, continually replicated"
+  claim_type_dim:
+    rating: high
+    certainty: high
+    basis: "directly testable; among the most replicable effects in the field"
+  empirical_support:
+    rating: high
+    certainty: moderate
+    basis: "robust but not universal — adjustment occurs mainly for self-generated anchors (Epley & Gilovich)"
+  contestation:
+    rating: moderate
+    certainty: moderate
+    basis: "the effect's magnitude and boundary conditions are moderated; the basic phenomenon is not in doubt"
+  attribution_integrity:
+    rating: high
+    certainty: moderate
+    basis: "attested by wave-3 report; Tversky & Kahneman 1974 (Science 185)"
+  survives_scrutiny:
+    rating: high
+    certainty: moderate
+    basis: "well-replicated; survived the replication crisis comparatively well"
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave3-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-17
+notes: "Singleton. Tversky & Kahneman anchoring (1974). DISTINCT from the other heuristics-and-biases findings (c-0111 availability, c-0112 framing, c-0113 loss-aversion, c-0114 WYSIATI, c-0115 planning-fallacy)."

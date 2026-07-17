@@ -1,0 +1,45 @@
+id: c-0131
+canonical_claim: "The once-celebrated claim that flourishing requires a precise positive-to-negative emotion ratio of about 3-to-1 was shown to rest on misapplied mathematics and was formally retracted — a cautionary tale about false precision in wellbeing science."
+claim_type: empirical
+polarity: cautionary
+conditionality: conditional
+member_units: [u-0484]
+robustness_profile:
+  recurrence:
+    rating: low
+    certainty: high
+    basis: "empirical finding — recurrence not the relevant axis; see empirical_support"
+  source_diversity:
+    rating: moderate
+    certainty: moderate
+    basis: "Brown, Sokal & Friedman 2013 debunking (American Psychologist 68) and the formal American Psychologist retraction"
+  temporal_spread:
+    rating: moderate
+    certainty: high
+    basis: "Fredrickson & Losada 2005 origin, retracted 2013"
+  claim_type_dim:
+    rating: high
+    certainty: high
+    basis: "directly testable — and the modelling was tested and found to be nonsense"
+  empirical_support:
+    rating: high
+    certainty: high
+    basis: "RETRACTION: the 2.9013 ratio and 11.6346 upper bound declared invalid; Brown et al. concluded the claim 'is entirely unfounded'; American Psychologist formally retracted the modelling"
+  contestation:
+    rating: low
+    certainty: high
+    basis: "broad consensus the precise ratio is nonsense; Fredrickson conceded the maths was 'questionable' but kept a weaker 'higher positivity is generally better within bounds' claim"
+  attribution_integrity:
+    rating: high
+    certainty: moderate
+    basis: "attested by wave-3 report; Fredrickson & Losada 2005 (American Psychologist 60); retraction 2013"
+  survives_scrutiny:
+    rating: high
+    certainty: high
+    basis: "the RETRACTION is robust; that the precise ratio is nonsense is now settled; model case of science self-correcting"
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave3-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-17
+notes: "Singleton. Fredrickson & Losada 3:1 positivity ratio (2005), retracted 2013 (Brown, Sokal & Friedman). RETRACTION FLAG — the precise ratio is settled nonsense; a weaker 'higher positivity generally better within bounds' survives but is not this claim. Model case of science self-correcting."

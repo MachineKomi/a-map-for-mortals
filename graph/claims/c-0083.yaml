@@ -1,0 +1,21 @@
+id: c-0083
+canonical_claim: "Money is the most universal system of mutual trust humans have built, able to bridge almost any cultural gap and let strangers who share no language, religion, or morality cooperate."
+claim_type: observational
+polarity: descriptive
+conditionality: conditional
+member_units: [u-0349]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress; no independent convergence graded yet"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "observational — money-as-trust framing; mainstream in economic anthropology"}
+  empirical_support: {rating: low, certainty: low, basis: "no direct test wired; interpretive framing"}
+  contestation: {rating: moderate, certainty: moderate, basis: "the trust-function is widely accepted; the strong universality and the commodification risk are debated"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by wave-3 report; one short attributed Harari formulation carried on the unit"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "no known refutation; guards against commodifying what should not be priced"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave3-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-17
+notes: "Singleton. Harari 'money as universal mutual trust' (Sapiens ch. 10). DISTINCT from c-0081 (shared fictions generally) — this is the specific money-as-trust proposition. Do NOT merge with report-08 money-wellbeing (c-0026/c-0027): those are empirical income-vs-wellbeing findings, a different proposition."

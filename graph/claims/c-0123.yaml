@@ -1,0 +1,45 @@
+id: c-0123
+canonical_claim: "In the famous jam study, a 24-variety tasting display drew more browsers but produced far fewer purchases than a 6-variety display, suggesting large assortments can demotivate choice."
+claim_type: empirical
+polarity: descriptive
+conditionality: contested
+member_units: [u-0476]
+robustness_profile:
+  recurrence:
+    rating: low
+    certainty: high
+    basis: "empirical finding — recurrence not the relevant axis; see empirical_support"
+  source_diversity:
+    rating: low
+    certainty: moderate
+    basis: "a single real field experiment (Draeger's, Menlo Park); became a cultural touchstone beyond its weight"
+  temporal_spread:
+    rating: low
+    certainty: high
+    basis: "single 2000 study"
+  claim_type_dim:
+    rating: high
+    certainty: high
+    basis: "directly testable"
+  empirical_support:
+    rating: low
+    certainty: moderate
+    basis: "a single field experiment; counts: 24-jam attracted ~60% vs ~40% for 6-jam, but of stoppers only 3% bought at 24-jam vs 30% at 6-jam; the general effect is contested by c-0124 (meta-null)"
+  contestation:
+    rating: high
+    certainty: moderate
+    basis: "the general choice-overload effect it inspired is contested by u-0477/c-0124 (Scheibehenne et al. 2010 meta-analytic null)"
+  attribution_integrity:
+    rating: high
+    certainty: moderate
+    basis: "attested by wave-3 report; Iyengar & Lepper 2000 (JPSP 79, Study 1)"
+  survives_scrutiny:
+    rating: low
+    certainty: moderate
+    basis: "the single result stands as observed but does not generalize; the meta-null (c-0124) undercuts the broad inference"
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave3-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-17
+notes: "Singleton. Iyengar & Lepper jam study (2000). SPLIT from u-0477 (c-0124, meta-analytic null) per cardinal rule and FLAGGED for adversarial review — a single field result and the aggregate that contests it are distinct propositions with different generality. Express contest as an S4 UNDERMINED_BY/QUALIFIES edge. DISTINCT from c-0122 (Schwartz's general thesis)."

@@ -1,0 +1,45 @@
+id: c-0126
+canonical_claim: "Grit is presented as a strong predictor of achievement, but meta-analysis shows it predicts performance only modestly and overlaps almost entirely with the established trait of conscientiousness (jangle fallacy)."
+claim_type: empirical
+polarity: cautionary
+conditionality: contested
+member_units: [u-0479]
+robustness_profile:
+  recurrence:
+    rating: low
+    certainty: high
+    basis: "empirical finding — recurrence not the relevant axis; see empirical_support"
+  source_diversity:
+    rating: high
+    certainty: moderate
+    basis: "Credé, Tynan & Harms 2017 meta-analysis: 584 effect sizes, 88 samples, N=66,807"
+  temporal_spread:
+    rating: moderate
+    certainty: high
+    basis: "Duckworth 2007 origin, critiqued 2017 onward"
+  claim_type_dim:
+    rating: high
+    certainty: high
+    basis: "directly testable"
+  empirical_support:
+    rating: high
+    certainty: high
+    basis: "large meta-analysis: higher-order structure of grit 'is not confirmed'; grit 'only moderately correlated with performance and retention'; 'very strongly correlated with conscientiousness' (pooled rho = .842, near-complete overlap)"
+  contestation:
+    rating: moderate
+    certainty: moderate
+    basis: "the perseverance-of-effort facet carries most of the (small) predictive value with some incremental validity over conscientiousness"
+  attribution_integrity:
+    rating: high
+    certainty: moderate
+    basis: "attested by wave-3 report; Duckworth et al. 2007 (JPSP 92); Credé et al. 2017 (JPSP 113)"
+  survives_scrutiny:
+    rating: high
+    certainty: high
+    basis: "the meta-analytic critique is robust; do NOT present grit as a robust large-effect"
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave3-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-17
+notes: "Singleton. Duckworth grit (2007) as critiqued by Credé, Tynan & Harms 2017 meta-analysis. CONTESTED-FINDING FLAG: jangle fallacy, near-complete overlap with conscientiousness. Do NOT present as robust large-effect. DISTINCT from c-0127 (the normative over-reach caution)."

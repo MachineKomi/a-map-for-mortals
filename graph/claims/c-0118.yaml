@@ -1,0 +1,45 @@
+id: c-0118
+canonical_claim: "We adapt to good and bad changes faster than expected because an unnoticed set of coping mechanisms — a psychological immune system — quietly softens bad experiences, and we neglect it when forecasting."
+claim_type: empirical
+polarity: descriptive
+conditionality: conditional
+member_units: [u-0471]
+robustness_profile:
+  recurrence:
+    rating: low
+    certainty: high
+    basis: "empirical finding — recurrence not the relevant axis; see empirical_support"
+  source_diversity:
+    rating: moderate
+    certainty: moderate
+    basis: "Gilbert/Wilbert research line; coined 'psychological immune system' and 'immune neglect'"
+  temporal_spread:
+    rating: moderate
+    certainty: high
+    basis: "1998 origin, ongoing"
+  claim_type_dim:
+    rating: high
+    certainty: high
+    basis: "directly testable"
+  empirical_support:
+    rating: moderate
+    certainty: moderate
+    basis: "durability bias for negative events is the better-supported half; the immune-neglect mechanism is the explanatory model"
+  contestation:
+    rating: moderate
+    certainty: moderate
+    basis: "the durability-bias half is better supported than the specific immune-mechanism framing"
+  attribution_integrity:
+    rating: high
+    certainty: moderate
+    basis: "attested by wave-3 report; Gilbert, Pinel, Wilson, Blumberg & Wheatley 1998 (JPSP 75)"
+  survives_scrutiny:
+    rating: moderate
+    certainty: moderate
+    basis: "the descriptive adaptation claim survives; the mechanistic label is interpretive"
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave3-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-17
+notes: "Singleton. Gilbert/Wilson 'psychological immune system' / immune neglect (1998). DISTINCT from c-0117 (impact bias as a measured overestimate) — this is the explanatory mechanism. Thematic overlap with report-08 resilience material but a distinct proposition; express kinship as an S4 edge, do not merge."

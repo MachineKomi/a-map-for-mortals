@@ -1,0 +1,45 @@
+id: c-0099
+canonical_claim: "A 2024 quantitative test found Diamond's 'axis of orientation' hypothesis only weakly supported: ecologically similar societies share more cultural traits, but Eurasia is not significantly more ecologically homogeneous than other continents — latitude is 'not destiny.'"
+claim_type: empirical
+polarity: descriptive
+conditionality: conditional
+member_units: [u-0365]
+robustness_profile:
+  recurrence:
+    rating: low
+    certainty: high
+    basis: "empirical finding — recurrence not the relevant axis; see empirical_support"
+  source_diversity:
+    rating: moderate
+    certainty: moderate
+    basis: "single published hypothesis test; independent of Diamond's own synthesis"
+  temporal_spread:
+    rating: low
+    certainty: high
+    basis: "contemporary research literature only (2024)"
+  claim_type_dim:
+    rating: high
+    certainty: high
+    basis: "directly testable — a genuine published hypothesis test (Evolutionary Human Sciences 6:e5, 2024)"
+  empirical_support:
+    rating: moderate
+    certainty: moderate
+    basis: "strongest empirical anchor in the block; supports Diamond's intuition that ecological similarity aids transmission but finds the effect weaker and Eurasia not uniquely homogeneous; robust within its operationalization"
+  contestation:
+    rating: moderate
+    certainty: moderate
+    basis: "contests the strong form of c-0096's axis claim; operationalization choices debatable but not contested as a study"
+  attribution_integrity:
+    rating: high
+    certainty: moderate
+    basis: "attested by wave-3 report (verified vs primary source); DOI 10.1017/ehs.2023.34 on the unit"
+  survives_scrutiny:
+    rating: moderate
+    certainty: moderate
+    basis: "a recent single test; no replication located yet; treat as provisional-but-genuine evidence"
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave3-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-17
+notes: "Singleton. Chira, Botero & Gray 2024 axis-of-orientation test — one of two genuinely-empirical units in the big-history block. claim_type empirical (genuine hypothesis test, not interpretive). Partially undercuts c-0096's strong axis-determinism; express as an S4 QUALIFIES/UNDERMINED_BY edge. Abstract nuance: ecological similarity aids transmission weakly, Eurasia not uniquely homogeneous."

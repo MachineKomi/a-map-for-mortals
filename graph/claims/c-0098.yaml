@@ -1,0 +1,45 @@
+id: c-0098
+canonical_claim: "Critics' counter-position: Diamond's framework is environmental determinism that minimizes human agency, contingency, culture, and the violence of colonialism, making conquest look like an accident of latitude."
+claim_type: observational
+polarity: descriptive
+conditionality: contested
+member_units: [u-0364]
+robustness_profile:
+  recurrence:
+    rating: low
+    certainty: low
+    basis: "provisional — corpus-wide S3 in progress; no independent convergence graded yet"
+  source_diversity:
+    rating: moderate
+    certainty: moderate
+    basis: "Blaut plus Antrosio and the Questioning Collapse (2010) tradition in the same block"
+  temporal_spread:
+    rating: low
+    certainty: low
+    basis: "provisional — S3 in progress"
+  claim_type_dim:
+    rating: moderate
+    certainty: high
+    basis: "observational — a scholarly counter-argument; PRESERVE DISSENT, do not smooth into c-0096"
+  empirical_support:
+    rating: low
+    certainty: low
+    basis: "no direct test wired; an argued critique"
+  contestation:
+    rating: high
+    certainty: moderate
+    basis: "this IS the contest of c-0096; Diamond denies being a determinist, critics reply the two books deliver a 'one-two punch'"
+  attribution_integrity:
+    rating: moderate
+    certainty: moderate
+    basis: "attested by wave-3 report; Antrosio 'academic porn' characterization attested"
+  survives_scrutiny:
+    rating: moderate
+    certainty: low
+    basis: "no clean refutation of the critique; the agency-vs-structure debate is live"
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave3-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-17
+notes: "Singleton. Blaut et al. environmental-determinism critique of Diamond (2000). PRESERVE DISSENT — counter-position to c-0096, NOT a merge. Express as S4 QUALIFIES/CONTRADICTS edge."

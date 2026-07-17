@@ -1,0 +1,45 @@
+id: c-0105
+canonical_claim: "What makes humans a new kind of complexity is sharing and accumulating information across individuals and generations, so knowledge compounds — but this same power may now let humans destabilize the biosphere."
+claim_type: observational
+polarity: descriptive
+conditionality: conditional
+member_units: [u-0371]
+robustness_profile:
+  recurrence:
+    rating: low
+    certainty: low
+    basis: "provisional — corpus-wide S3 in progress; no independent convergence graded yet"
+  source_diversity:
+    rating: low
+    certainty: low
+    basis: "provisional — S3 in progress"
+  temporal_spread:
+    rating: low
+    certainty: low
+    basis: "provisional — S3 in progress"
+  claim_type_dim:
+    rating: moderate
+    certainty: high
+    basis: "observational — the two-edged 'collective learning' thesis; descriptive captures the ambivalent valence"
+  empirical_support:
+    rating: low
+    certainty: low
+    basis: "no direct test wired; convergence-to-test per report section E"
+  contestation:
+    rating: moderate
+    certainty: moderate
+    basis: "the descriptive thesis is widely accepted; the agency-of-humanity over its own momentum is debatable"
+  attribution_integrity:
+    rating: moderate
+    certainty: moderate
+    basis: "attested by wave-3 report; not yet primary-verified"
+  survives_scrutiny:
+    rating: moderate
+    certainty: low
+    basis: "no known refutation"
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave3-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-17
+notes: "Singleton. Christian collective-learning / Threshold 6 (Maps of Time, 2004). DISTINCT from c-0104 (complexity framework) — this is the distinct human-information-compounds thesis."

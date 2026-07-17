@@ -1,0 +1,45 @@
+id: c-0113
+canonical_claim: "People weigh losses more heavily than equivalent gains, producing risk-aversion for gains and risk-seeking to avoid losses — though the magnitude and universality of this asymmetry are contested."
+claim_type: empirical
+polarity: cautionary
+conditionality: contested
+member_units: [u-0466]
+robustness_profile:
+  recurrence:
+    rating: low
+    certainty: high
+    basis: "empirical finding — recurrence not the relevant axis; see empirical_support"
+  source_diversity:
+    rating: moderate
+    certainty: moderate
+    basis: "prospect-theory research line plus its critics (Gal & Rucker 2018) and defenders (Simonson & Kivetz 2018)"
+  temporal_spread:
+    rating: moderate
+    certainty: high
+    basis: "1979 origin, contested 2018 onward"
+  claim_type_dim:
+    rating: high
+    certainty: high
+    basis: "directly testable"
+  empirical_support:
+    rating: moderate
+    certainty: moderate
+    basis: "CONTESTED IN MAGNITUDE/UNIVERSALITY: Gal & Rucker (2018) find current evidence does not support that losses are on balance more impactful than gains; asymmetric weighting over substantial stakes survives (Walasek, Mullett & Stewart)"
+  contestation:
+    rating: high
+    certainty: moderate
+    basis: "live debate on magnitude/universality; best framed as contingent/moderated, not a universal law"
+  attribution_integrity:
+    rating: high
+    certainty: moderate
+    basis: "attested by wave-3 report; Kahneman & Tversky 1979 (Econometrica 47)"
+  survives_scrutiny:
+    rating: moderate
+    certainty: moderate
+    basis: "the strong universal reading is weakened; the contingent/moderated reading survives"
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave3-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-17
+notes: "Singleton. Kahneman & Tversky prospect theory / loss-aversion (1979). CONTESTED IN MAGNITUDE/UNIVERSALITY — do NOT present as a universal law. DISTINCT from c-0112 framing (the framing effect is a downstream consequence, but a separable proposition)."

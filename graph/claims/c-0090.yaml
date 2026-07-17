@@ -1,0 +1,45 @@
+id: c-0090
+canonical_claim: "Intelligence is decoupling from consciousness: machines may match or exceed humans at task after task without being conscious, so value could drift away from humans absent any 'robot uprising.'"
+claim_type: prudential
+polarity: cautionary
+conditionality: conditional
+member_units: [u-0356]
+robustness_profile:
+  recurrence:
+    rating: low
+    certainty: low
+    basis: "provisional — corpus-wide S3 in progress; no independent convergence graded yet"
+  source_diversity:
+    rating: low
+    certainty: low
+    basis: "provisional — S3 in progress"
+  temporal_spread:
+    rating: low
+    certainty: low
+    basis: "provisional — S3 in progress"
+  claim_type_dim:
+    rating: moderate
+    certainty: high
+    basis: "prudential/speculative — the conceptual distinction (intelligence != consciousness) is useful; labor-market conclusions contested"
+  empirical_support:
+    rating: low
+    certainty: low
+    basis: "no direct test wired; economists cite historical job creation against the labor-displacement conclusion"
+  contestation:
+    rating: high
+    certainty: moderate
+    basis: "labor-market conclusions contested; the conceptual decoupling is debated by consciousness researchers"
+  attribution_integrity:
+    rating: moderate
+    certainty: moderate
+    basis: "attested by wave-3 report; primary citation Homo Deus (2016)"
+  survives_scrutiny:
+    rating: moderate
+    certainty: low
+    basis: "no clean refutation; the conceptual point endures even as specific forecasts are contested"
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave3-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-17
+notes: "Singleton. Harari intelligence-vs-consciousness decoupling (Homo Deus). DISTINCT from c-0089 (dataism) and c-0091 (useless class)."

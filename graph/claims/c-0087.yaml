@@ -1,0 +1,21 @@
+id: c-0087
+canonical_claim: "History has no innate direction toward justice; imagined orders present themselves as natural or inevitable to stabilize cooperation, so what feels 'natural' is often a contingent story."
+claim_type: observational
+polarity: descriptive
+conditionality: conditional
+member_units: [u-0353]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress; no independent convergence graded yet"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "observational — an interpretive stance, not a proof; counterweight to Whiggish progress stories"}
+  empirical_support: {rating: low, certainty: low, basis: "no direct test wired"}
+  contestation: {rating: moderate, certainty: moderate, basis: "the anti-Whiggish stance is widely shared among historians; the stronger 'no direction at all' is debatable"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by wave-3 report; not yet primary-verified"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "no known refutation; guards against naturalizing the contingent and ideology"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave3-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-17
+notes: "Singleton. Harari on imagined orders presenting as natural (Sapiens ch. 6). DISTINCT from c-0081 (shared fictions enable cooperation) — this is the distinct 'naturalization masks contingency' thesis."

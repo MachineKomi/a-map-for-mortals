@@ -1,0 +1,45 @@
+id: c-0089
+canonical_claim: "'Dataism' is an emerging value system that treats the universe as data flows and judges entities by their contribution to information processing; if it displaces humanism, human experience could seem dispensable."
+claim_type: prudential
+polarity: cautionary
+conditionality: conditional
+member_units: [u-0355]
+robustness_profile:
+  recurrence:
+    rating: low
+    certainty: low
+    basis: "provisional — corpus-wide S3 in progress; no independent convergence graded yet"
+  source_diversity:
+    rating: low
+    certainty: low
+    basis: "provisional — S3 in progress"
+  temporal_spread:
+    rating: low
+    certainty: low
+    basis: "provisional — S3 in progress"
+  claim_type_dim:
+    rating: moderate
+    certainty: high
+    basis: "prudential/speculative — an explicitly constructed warning (named ideal-type), not a claim dataism is true"
+  empirical_support:
+    rating: low
+    certainty: low
+    basis: "no direct test wired; speculative value-system projection"
+  contestation:
+    rating: high
+    certainty: moderate
+    basis: "critics argue Harari's own 'humans are algorithms' reductionism is metaphysics presented as science"
+  attribution_integrity:
+    rating: moderate
+    certainty: moderate
+    basis: "attested by wave-3 report; not yet primary-verified"
+  survives_scrutiny:
+    rating: moderate
+    certainty: low
+    basis: "a constructed caution, not a forecast; keep it as warning, not fact"
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave3-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-17
+notes: "Singleton. Harari 'Dataism' (Homo Deus). A constructed warning, not a claim dataism is true or inevitable. DISTINCT from c-0090 (intelligence decoupling from consciousness)."

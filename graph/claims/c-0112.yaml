@@ -1,0 +1,45 @@
+id: c-0112
+canonical_claim: "Whether a choice is framed as a gain or a loss shifts preferences even when the options are logically identical (framing effect)."
+claim_type: empirical
+polarity: cautionary
+conditionality: conditional
+member_units: [u-0465]
+robustness_profile:
+  recurrence:
+    rating: low
+    certainty: high
+    basis: "empirical finding — recurrence not the relevant axis; see empirical_support"
+  source_diversity:
+    rating: moderate
+    certainty: moderate
+    basis: "classic Asian-disease paradigm directly replicated (Data Colada #11)"
+  temporal_spread:
+    rating: moderate
+    certainty: high
+    basis: "1981 origin, continually replicated"
+  claim_type_dim:
+    rating: high
+    certainty: high
+    basis: "directly testable"
+  empirical_support:
+    rating: high
+    certainty: moderate
+    basis: "classic framing effect robust and directly replicated, though magnitude often smaller than the original and moderated by context"
+  contestation:
+    rating: moderate
+    certainty: moderate
+    basis: "basic effect robust; effect size moderated by context"
+  attribution_integrity:
+    rating: high
+    certainty: moderate
+    basis: "attested by wave-3 report; Tversky & Kahneman 1981 (Science 211)"
+  survives_scrutiny:
+    rating: high
+    certainty: moderate
+    basis: "directly replicated; survived the replication crisis"
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave3-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-17
+notes: "Singleton. Tversky & Kahneman framing effect (1981). DISTINCT from c-0113 loss-aversion (prospect theory) and the other heuristics."

@@ -1,0 +1,45 @@
+id: c-0092
+canonical_claim: "In an age of information glut the scarce resource is not information but clarity; filtering and focusing attention is itself a form of power and freedom."
+claim_type: prudential
+polarity: prescriptive
+conditionality: conditional
+member_units: [u-0358]
+robustness_profile:
+  recurrence:
+    rating: low
+    certainty: low
+    basis: "provisional — corpus-wide S3 in progress; no independent convergence graded yet"
+  source_diversity:
+    rating: low
+    certainty: low
+    basis: "provisional — S3 in progress"
+  temporal_spread:
+    rating: low
+    certainty: low
+    basis: "provisional — S3 in progress"
+  claim_type_dim:
+    rating: moderate
+    certainty: high
+    basis: "prudential — one of the least contested, most portable units; register aphorism"
+  empirical_support:
+    rating: low
+    certainty: low
+    basis: "no direct test wired; intuitive and widely echoed"
+  contestation:
+    rating: low
+    certainty: moderate
+    basis: "among the least contested Harari units"
+  attribution_integrity:
+    rating: moderate
+    certainty: moderate
+    basis: "attested by wave-3 report; one attributed short formulation carried on the unit"
+  survives_scrutiny:
+    rating: moderate
+    certainty: low
+    basis: "no known refutation; guards against distraction and manipulation"
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave3-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-17
+notes: "Singleton. Harari 'clarity is power' (21 Lessons, 2018). Aphorism; Harari links it to his Vipassana practice. Highly portable."

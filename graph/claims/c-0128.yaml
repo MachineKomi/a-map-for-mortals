@@ -1,0 +1,45 @@
+id: c-0128
+canonical_claim: "How we habitually explain setbacks — as permanent/pervasive/personal (pessimistic) versus temporary/specific/external (optimistic) — predicts vulnerability to helplessness and depression, and this explanatory style can be deliberately shifted."
+claim_type: empirical
+polarity: prescriptive
+conditionality: conditional
+member_units: [u-0481]
+robustness_profile:
+  recurrence:
+    rating: low
+    certainty: high
+    basis: "empirical finding — recurrence not the relevant axis; see empirical_support"
+  source_diversity:
+    rating: moderate
+    certainty: moderate
+    basis: "Seligman explanatory-style line plus Penn Resiliency Program trials (Brunwasser et al. 2009, 17 trials)"
+  temporal_spread:
+    rating: moderate
+    certainty: high
+    basis: "1990 origin, ongoing"
+  claim_type_dim:
+    rating: high
+    certainty: high
+    basis: "directly testable"
+  empirical_support:
+    rating: moderate
+    certainty: moderate
+    basis: "empirical core (explanatory style <-> depression, CBT-adjacent ABCDE reframing) reasonably supported; Penn Resiliency Program meta-analysis found only MODEST effects on adolescent depressive symptoms; the freestanding 'learned optimism' application is a weaker version of CBT machinery"
+  contestation:
+    rating: moderate
+    certainty: moderate
+    basis: "the explanatory-style/depression link is supported; the effect size of the intervention is modest"
+  attribution_integrity:
+    rating: high
+    certainty: moderate
+    basis: "attested by wave-3 report; Seligman Learned Optimism (1990)"
+  survives_scrutiny:
+    rating: moderate
+    certainty: moderate
+    basis: "the core link survives; the application is modest, not transformative"
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave3-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-17
+notes: "Singleton. Seligman explanatory style / learned optimism (1990). Empirical core supported; intervention effects modest. Thematic overlap with report-08 resilience (c-0031) but a distinct proposition (explanatory-style mechanism vs modal-trajectory finding); express kinship as an S4 edge, do not merge."

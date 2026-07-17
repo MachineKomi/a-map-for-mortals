@@ -1,0 +1,45 @@
+id: c-0107
+canonical_claim: "Information networks do not automatically yield truth or wisdom; societies flourish when they build self-correcting institutions, and the deepest AI danger is delegating power to systems optimized for engagement or control rather than truth."
+claim_type: prudential
+polarity: cautionary
+conditionality: conditional
+member_units: [u-0373]
+robustness_profile:
+  recurrence:
+    rating: low
+    certainty: low
+    basis: "provisional — corpus-wide S3 in progress; no independent convergence graded yet"
+  source_diversity:
+    rating: low
+    certainty: low
+    basis: "provisional — S3 in progress"
+  temporal_spread:
+    rating: low
+    certainty: low
+    basis: "provisional — S3 in progress"
+  claim_type_dim:
+    rating: moderate
+    certainty: high
+    basis: "prudential/speculative — 'self-correcting institutions' is Harari's most constructive point"
+  empirical_support:
+    rating: low
+    certainty: low
+    basis: "no direct test wired; institutional arguments rather than measured effects"
+  contestation:
+    rating: high
+    certainty: moderate
+    basis: "critics note Harari's liberal-institutionalist framing and reductive treatment of 'information'"
+  attribution_integrity:
+    rating: moderate
+    certainty: moderate
+    basis: "attested by wave-3 report; Harari is a Distinguished Research Fellow at Cambridge's CSER; co-authored the Oct 2023 AI-risk paper"
+  survives_scrutiny:
+    rating: moderate
+    certainty: low
+    basis: "no clean refutation; the self-correcting-institutions point is durable even where the AI framing is debated"
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave3-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-17
+notes: "Singleton. Harari Nexus (2024) on self-correcting institutions and AI. DISTINCT from c-0093 (narrative cognition) — this is the distinct information-networks/institutional point. Nexus treated lightly by design."

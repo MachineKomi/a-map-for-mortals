@@ -1,0 +1,45 @@
+id: c-0133
+canonical_claim: "People adapt hedonically to many major life changes, drifting back toward a baseline level of happiness, so both windfalls and misfortunes affect long-run wellbeing less than we expect — though the strong set-point reading is contested."
+claim_type: empirical
+polarity: descriptive
+conditionality: contested
+member_units: [u-0486]
+robustness_profile:
+  recurrence:
+    rating: low
+    certainty: high
+    basis: "empirical finding — recurrence not the relevant axis; see empirical_support"
+  source_diversity:
+    rating: high
+    certainty: moderate
+    basis: "Brickman, Coates & Janoff-Bulman 1978 plus Lucas et al. 2003/2004 and Diener, Lucas & Scollon 2006 re-analyses"
+  temporal_spread:
+    rating: moderate
+    certainty: high
+    basis: "1978 origin, contested 2003 onward"
+  claim_type_dim:
+    rating: high
+    certainty: high
+    basis: "directly testable"
+  empirical_support:
+    rating: moderate
+    certainty: moderate
+    basis: "CONTESTED IN STRONG FORM: original evidence mixed and samples small (lottery winners slightly, non-significantly happier than controls); Lucas et al. 2003/2004 and Diener, Lucas & Scollon 2006 show adaptation is NOT complete — set points partly heritable but can shift, and events like disability and long-term unemployment leave lasting dents"
+  contestation:
+    rating: high
+    certainty: moderate
+    basis: "weak claim (huge external events matter less long-run than expected) survives; strong claim (full return to a fixed neutral set point) does not"
+  attribution_integrity:
+    rating: high
+    certainty: moderate
+    basis: "attested by wave-3 report; Brickman, Coates & Janoff-Bulman 1978 (JPSP 36)"
+  survives_scrutiny:
+    rating: moderate
+    certainty: moderate
+    basis: "the weak/contingent reading survives; the strong fixed-set-point reading is refuted"
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave3-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-17
+notes: "Singleton. Brickman et al. hedonic adaptation / 'hedonic treadmill' (1978). CONTESTED IN STRONG FORM — weak claim survives, strong fixed-set-point claim does not. NOT a duplicate of report-08 (c-0028 habit is distinct; c-0030/c-0031 PTG/resilience are distinct findings); express kinship as S4 edges, do not merge."

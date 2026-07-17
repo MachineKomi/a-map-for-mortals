@@ -1,0 +1,45 @@
+id: c-0116
+canonical_claim: "The social-priming studies that suggested subtle cues automatically steer behaviour largely failed to replicate, and the author who popularised them publicly retracted his confidence in them."
+claim_type: empirical
+polarity: cautionary
+conditionality: conditional
+member_units: [u-0469]
+robustness_profile:
+  recurrence:
+    rating: low
+    certainty: high
+    basis: "empirical finding — recurrence not the relevant axis; see empirical_support"
+  source_diversity:
+    rating: moderate
+    certainty: moderate
+    basis: "multiple failed replication attempts; Kahneman's 2017 retraction comment confirmed by Retraction Watch"
+  temporal_spread:
+    rating: moderate
+    certainty: high
+    basis: "original priming studies 1990s-2000s; failures and retraction 2012-2017"
+  claim_type_dim:
+    rating: high
+    certainty: high
+    basis: "directly testable — and tested, and found wanting"
+  empirical_support:
+    rating: high
+    certainty: high
+    basis: "the finding 'this claim was wrong' is itself robust; model case of science self-correcting"
+  contestation:
+    rating: low
+    certainty: high
+    basis: "broad consensus that social priming failed to replicate"
+  attribution_integrity:
+    rating: high
+    certainty: moderate
+    basis: "attested by wave-3 report; Kahneman 2017 retraction comment (Replicability-Index) verified"
+  survives_scrutiny:
+    rating: high
+    certainty: high
+    basis: "the retraction is settled; Kahneman noted the 'special irony' that his 1971 'law of small numbers' paper warned against exactly this"
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave3-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-17
+notes: "Singleton. Kahneman's 2017 retraction of social-priming confidence. A meta-finding about replication failure — distinct from the robust heuristics core (c-0110..c-0115). Model case of science self-correcting."

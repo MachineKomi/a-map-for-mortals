@@ -1,0 +1,45 @@
+id: c-0096
+canonical_claim: "The ultimate cause of uneven wealth and power across peoples is geography and biogeography — who had domesticable plants and animals and an east-west axis for their spread — not innate differences between peoples."
+claim_type: observational
+polarity: descriptive
+conditionality: contested
+member_units: [u-0362]
+robustness_profile:
+  recurrence:
+    rating: low
+    certainty: low
+    basis: "provisional — corpus-wide S3 in progress; no independent convergence graded yet"
+  source_diversity:
+    rating: moderate
+    certainty: moderate
+    basis: "Diamond's thesis plus its critics (Blaut u-0364, Chira-Botero-Gray u-0365) and revisionists in the same block"
+  temporal_spread:
+    rating: low
+    certainty: low
+    basis: "provisional — S3 in progress"
+  claim_type_dim:
+    rating: moderate
+    certainty: high
+    basis: "observational — an interpretive/explanatory thesis; the determinist mechanism is contested (see u-0364, u-0365)"
+  empirical_support:
+    rating: low
+    certainty: moderate
+    basis: "Diamond's framework is an interpretive synthesis, not a controlled test; the axis-of-orientation sub-claim is only weakly supported by Chira-Botero-Gray 2024 (u-0365)"
+  contestation:
+    rating: high
+    certainty: moderate
+    basis: "Blaut (u-0364) calls it environmental determinism minimizing agency/colonial violence; Chira-Botero-Gray 2024 finds latitude 'not destiny'; anti-racist purpose respected even by critics"
+  attribution_integrity:
+    rating: moderate
+    certainty: moderate
+    basis: "attested by wave-3 report; Pulitzer 1998; not yet primary-verified"
+  survives_scrutiny:
+    rating: moderate
+    certainty: low
+    basis: "no clean refutation; the strong axis-determinism is weakened by u-0365, the anti-innatist purpose endures"
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave3-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-17
+notes: "Singleton. Diamond GGS ultimate-cause thesis (1997). SPLIT from its critics: u-0364 (Blaut, c-0098) and u-0365 (Chira-Botero-Gray, c-0099) are DISTINCT counter-positions, not merges. Express contest as S4 edges."

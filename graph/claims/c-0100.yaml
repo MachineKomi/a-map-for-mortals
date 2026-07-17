@@ -1,0 +1,45 @@
+id: c-0100
+canonical_claim: "Collapse typically involves some mix of environmental damage, climate change, hostile neighbors, loss of trade partners, and — the decisive variable — the society's own response to its problems."
+claim_type: observational
+polarity: descriptive
+conditionality: conditional
+member_units: [u-0366]
+robustness_profile:
+  recurrence:
+    rating: low
+    certainty: low
+    basis: "provisional — corpus-wide S3 in progress; no independent convergence graded yet"
+  source_diversity:
+    rating: low
+    certainty: low
+    basis: "provisional — S3 in progress"
+  temporal_spread:
+    rating: low
+    certainty: low
+    basis: "provisional — S3 in progress"
+  claim_type_dim:
+    rating: moderate
+    certainty: high
+    basis: "observational — an analytic framework/checklist, not a tested result (do NOT tag empirical)"
+  empirical_support:
+    rating: low
+    certainty: low
+    basis: "no direct test wired; a heuristic applied to case studies, several of which are contested (see u-0368/c-0102)"
+  contestation:
+    rating: high
+    certainty: moderate
+    basis: "critics call it too simple; 'choose to fail' is said to unfairly moralize victims of colonialism (see u-0369/c-0104)"
+  attribution_integrity:
+    rating: moderate
+    certainty: moderate
+    basis: "attested by wave-3 report; not yet primary-verified"
+  survives_scrutiny:
+    rating: moderate
+    certainty: low
+    basis: "the framework endures as a checklist; its case applications are contested"
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave3-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-17
+notes: "Singleton. Diamond Collapse five-factor framework (2005). DISTINCT from c-0101 (the short-term-vs-long-term structural gap) and c-0102 (Easter Island revision). A framework, not an empirical result."

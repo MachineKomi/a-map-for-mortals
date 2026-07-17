@@ -1,0 +1,45 @@
+id: c-0111
+canonical_claim: "We judge frequency and probability by how easily examples come to mind, so vivid, recent or heavily-reported events feel more probable than they are (availability heuristic)."
+claim_type: empirical
+polarity: cautionary
+conditionality: conditional
+member_units: [u-0464]
+robustness_profile:
+  recurrence:
+    rating: low
+    certainty: high
+    basis: "empirical finding — recurrence not the relevant axis; see empirical_support"
+  source_diversity:
+    rating: moderate
+    certainty: moderate
+    basis: "core, well-replicated; underlies risk-misperception research"
+  temporal_spread:
+    rating: moderate
+    certainty: high
+    basis: "1974 origin, continually replicated"
+  claim_type_dim:
+    rating: high
+    certainty: high
+    basis: "directly testable"
+  empirical_support:
+    rating: high
+    certainty: moderate
+    basis: "core, well-replicated; underlies risk misperception (fearing rare vivid dangers over common ones)"
+  contestation:
+    rating: moderate
+    certainty: moderate
+    basis: "the basic effect is robust; magnitude and application contexts vary"
+  attribution_integrity:
+    rating: high
+    certainty: moderate
+    basis: "attested by wave-3 report; Tversky & Kahneman 1974 (Science 185)"
+  survives_scrutiny:
+    rating: high
+    certainty: moderate
+    basis: "survived the replication crisis comparatively well"
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave3-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-17
+notes: "Singleton. Tversky & Kahneman availability heuristic (1974). DISTINCT from the other heuristics-and-biases findings."

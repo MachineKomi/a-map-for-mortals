@@ -1,0 +1,21 @@
+id: c-0084
+canonical_claim: "The Agricultural Revolution was a mixed bargain rather than pure progress: it multiplied humans while leaving the average individual with harder labor, worse diet, more disease, and steeper hierarchy than foraging."
+claim_type: observational
+polarity: cautionary
+conditionality: contested
+member_units: [u-0350]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress; no independent convergence graded yet"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "observational — Harari's provocation resting on contested archaeology (do NOT tag empirical; it is not a test)"}
+  empirical_support: {rating: low, certainty: low, basis: "rests on Sahlins's 'original affluent society' (1966/1972, Lee's !Kung data), whose leisure figures were later challenged for excluding food-processing/firewood labor and downplaying infant mortality/disease"}
+  contestation: {rating: high, certainty: moderate, basis: "genuinely contested; the empirical core (forager welfare vs early farmer welfare) is disputed by later archaeology"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by wave-3 report; 'biggest fraud' is Harari's phrase echoing Diamond's 1987 'Worst Mistake'"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "no clean refutation; the strong 'fraud' framing outruns evidence, the mixed-bargain core is defensible"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave3-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-17
+notes: "Singleton. Harari 'history's biggest fraud' (Sapiens ch. 5). DISTINCT from c-0085 (luxury trap, u-0351) and c-0086 ('wheat domesticated us', u-0352): each is a distinct Harari move on the agricultural-bargain theme."

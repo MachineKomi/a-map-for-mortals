@@ -1,0 +1,21 @@
+id: c-0088
+canonical_claim: "On a trend-extrapolation, humanity's historic agenda (famine, plague, war) has shifted toward engineering health, happiness, and quasi-divine control — a reading of a trend, not a prediction."
+claim_type: prudential
+polarity: cautionary
+conditionality: conditional
+member_units: [u-0354]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress; no independent convergence graded yet"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "prudential/speculative — a trend reading, not a forecast"}
+  empirical_support: {rating: low, certainty: low, basis: "no direct test wired; the 'famine/plague/war solved' framing predates COVID-19 and looks over-confident"}
+  contestation: {rating: high, certainty: moderate, basis: "critic Thiessen notes 'immortality, bliss, divinity' are not new ambitions; Narayanan (Current Affairs 2022) argues Harari 'sacrifices science for sensationalism'; trend disputed"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by wave-3 report; Harari hedges it as a trend"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "no clean refutation; the strong 'solved' framing is over-confident, the trend observation less so"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave3-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-17
+notes: "Singleton. Harari Homo Deus (ch. 1). Speculative trend reading — not established fact. DISTINCT from c-0089/c-0090/c-0091 (dataism, intelligence-decoupling, useless class)."

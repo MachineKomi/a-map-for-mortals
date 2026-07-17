@@ -1,0 +1,45 @@
+id: c-0129
+canonical_claim: "Wellbeing is better understood as several distinct ingredients — positive emotion, engagement, relationships, meaning, and accomplishment (PERMA) — rather than a single feeling of pleasure."
+claim_type: normative
+polarity: descriptive
+conditionality: conditional
+member_units: [u-0482]
+robustness_profile:
+  recurrence:
+    rating: low
+    certainty: low
+    basis: "provisional — corpus-wide S3 in progress; no independent convergence graded yet"
+  source_diversity:
+    rating: low
+    certainty: low
+    basis: "provisional — S3 in progress"
+  temporal_spread:
+    rating: low
+    certainty: low
+    basis: "provisional — S3 in progress"
+  claim_type_dim:
+    rating: moderate
+    certainty: high
+    basis: "normative/definitional — a proposal about what wellbeing IS, not an empirical discovery; best tagged as a design/organising framework"
+  empirical_support:
+    rating: low
+    certainty: moderate
+    basis: "its wellbeing-outcome claims are weaker than its popularity implies; largely redundant with prior theory (e.g. self-determination theory) at the measurement layer"
+  contestation:
+    rating: moderate
+    certainty: moderate
+    basis: "the framework is useful for design; its empirical-outcome claims are modest and partly redundant"
+  attribution_integrity:
+    rating: moderate
+    certainty: moderate
+    basis: "attested by wave-3 report; Seligman Flourish (2011); 'PERMA' is a coined acronym"
+  survives_scrutiny:
+    rating: moderate
+    certainty: low
+    basis: "useful as organising framework; weaker as empirical model"
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave3-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-17
+notes: "Singleton. Seligman PERMA model (Flourish, 2011). A normative/definitional proposal, not an empirical discovery — do not present its outcome claims at the strength its popularity implies. DISTINCT from c-0130 (signature-strengths/gratitude interventions)."

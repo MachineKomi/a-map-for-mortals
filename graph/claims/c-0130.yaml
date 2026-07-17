@@ -1,0 +1,45 @@
+id: c-0130
+canonical_claim: "Identifying one's signature strengths and using them in new ways, or practising structured gratitude, can produce small but real increases in wellbeing."
+claim_type: empirical
+polarity: prescriptive
+conditionality: conditional
+member_units: [u-0483]
+robustness_profile:
+  recurrence:
+    rating: low
+    certainty: high
+    basis: "empirical finding — recurrence not the relevant axis; see empirical_support"
+  source_diversity:
+    rating: moderate
+    certainty: moderate
+    basis: "Seligman et al. 2005 plus Sin & Lyubomirsky 2009 and Bolier et al. 2013 meta-analyses, White, Uttl & Holder 2019 re-analysis, and a PNAS cross-cultural gratitude meta-analysis"
+  temporal_spread:
+    rating: moderate
+    certainty: high
+    basis: "2005-2019 literature"
+  claim_type_dim:
+    rating: high
+    certainty: high
+    basis: "directly testable"
+  empirical_support:
+    rating: moderate
+    certainty: moderate
+    basis: "EFFECTS ARE SMALL: White, Uttl & Holder 2019 (PLOS ONE) found after correcting for small-sample bias, PPI effects on wellbeing are small and effects on depression variable/often non-significant; earlier meta-analyses reported wellbeing effects r=.29 (Sin & Lyubomirsky 2009) and r=.17 (Bolier et al. 2013); cross-cultural gratitude meta (PNAS, 145 papers, N~24,804) pooled effect Hedges' g=0.19"
+  contestation:
+    rating: moderate
+    certainty: moderate
+    basis: "the direction of effect is supported; the magnitude is small and earlier large effects were inflated by small-sample bias"
+  attribution_integrity:
+    rating: high
+    certainty: moderate
+    basis: "attested by wave-3 report; Seligman, Steen, Park & Peterson 2005 (American Psychologist 60)"
+  survives_scrutiny:
+    rating: moderate
+    certainty: moderate
+    basis: "small-but-real effects survive bias correction; do NOT present as large effects"
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave3-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-17
+notes: "Singleton. Seligman et al. signature-strengths/gratitude positive-psychology interventions (2005). EFFECTS ARE SMALL — not the large effects popularisation implies. DISTINCT from c-0129 (PERMA definitional model). NOT a duplicate of any report-08 unit; express kinship as an S4 edge, do not merge."

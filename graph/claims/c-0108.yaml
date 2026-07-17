@@ -1,0 +1,45 @@
+id: c-0108
+canonical_claim: "The very traits that make macro-history compelling — sweep, simplicity, memorable reversal — are what make it unreliable; a gripping single-cause story should raise, not lower, one's skepticism."
+claim_type: prudential
+polarity: cautionary
+conditionality: conditional
+member_units: [u-0374]
+robustness_profile:
+  recurrence:
+    rating: low
+    certainty: low
+    basis: "provisional — corpus-wide S3 in progress; no independent convergence graded yet"
+  source_diversity:
+    rating: moderate
+    certainty: moderate
+    basis: "synthesis drawing on Ian Parker's New Yorker piece and Chira/Botero/Gray 2024"
+  temporal_spread:
+    rating: low
+    certainty: low
+    basis: "provisional — S3 in progress"
+  claim_type_dim:
+    rating: moderate
+    certainty: high
+    basis: "prudential — a reading-wisdom rule, not a law; the block's self-aware capstone"
+  empirical_support:
+    rating: low
+    certainty: low
+    basis: "no direct test wired; an epistemic caution"
+  contestation:
+    rating: moderate
+    certainty: moderate
+    basis: "the caution is defensible and widely shared among historians"
+  attribution_integrity:
+    rating: moderate
+    certainty: moderate
+    basis: "author 'various (synthesis)' per S1 rules; draws on Parker and Chira/Botero/Gray"
+  survives_scrutiny:
+    rating: moderate
+    certainty: low
+    basis: "no known refutation; the block's self-aware capstone"
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave3-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-17
+notes: "Singleton. Synthesis capstone: compelling single-cause macro-history is unreliable. Author 'various (synthesis)' per S1 rules. The block's self-aware capstone — keep as the epistemic-caution rule over the whole big-history tradition."

@@ -1,0 +1,45 @@
+id: c-0124
+canonical_claim: "When 50 choice-overload experiments are pooled, the average effect of assortment size on satisfaction and motivation is essentially zero, with the phenomenon appearing only under specific, not-yet-fully-identified conditions."
+claim_type: empirical
+polarity: cautionary
+conditionality: contested
+member_units: [u-0477]
+robustness_profile:
+  recurrence:
+    rating: low
+    certainty: high
+    basis: "empirical finding — recurrence not the relevant axis; see empirical_support"
+  source_diversity:
+    rating: high
+    certainty: moderate
+    basis: "63 conditions from 50 experiments, N=5036; later Chernev, Bockenholt & Goodman 2015 moderator analysis"
+  temporal_spread:
+    rating: moderate
+    certainty: high
+    basis: "2010 meta-analysis; 2015 moderator follow-up"
+  claim_type_dim:
+    rating: high
+    certainty: high
+    basis: "directly testable — a meta-analytic aggregation"
+  empirical_support:
+    rating: high
+    certainty: high
+    basis: "the meta-analytic null is itself robust (mean effect 'virtually zero'); it is the choice-overload EFFECT that is contested — paradigm 'recurrence != proof' case"
+  contestation:
+    rating: high
+    certainty: moderate
+    basis: "this IS the contest of c-0122/c-0123; later work identifies moderators (choice-set complexity, decision-task difficulty, preference uncertainty, decision goal)"
+  attribution_integrity:
+    rating: high
+    certainty: moderate
+    basis: "attested by wave-3 report; Scheibehenne, Greifeneder & Todd 2010 (J Consumer Research 37)"
+  survives_scrutiny:
+    rating: high
+    certainty: high
+    basis: "the meta-null is robust; moderators identified by 2015 follow-up"
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave3-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-17
+notes: "Singleton. Scheibehenne, Greifeneder & Todd 2010 choice-overload meta-analytic null. SPLIT from u-0476 (c-0123, jam study) per cardinal rule and FLAGGED for adversarial review — the meta-null is a distinct aggregate proposition contesting the single study. Express as an S4 UNDERMINED_BY/QUALIFIES edge on c-0122/c-0123. The meta-null is robust; the choice-overload effect is what is contested."

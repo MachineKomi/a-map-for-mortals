@@ -1,0 +1,45 @@
+id: c-0127
+canonical_claim: "Effort and perseverance matter for achievement, but the popular equation of grit with guaranteed success oversells a modest, largely already-known effect and can shade into blaming individuals for structural obstacles."
+claim_type: normative
+polarity: cautionary
+conditionality: conditional
+member_units: [u-0480]
+robustness_profile:
+  recurrence:
+    rating: low
+    certainty: low
+    basis: "provisional — corpus-wide S3 in progress; no independent convergence graded yet"
+  source_diversity:
+    rating: low
+    certainty: low
+    basis: "provisional — S3 in progress"
+  temporal_spread:
+    rating: low
+    certainty: low
+    basis: "provisional — S3 in progress"
+  claim_type_dim:
+    rating: moderate
+    certainty: high
+    basis: "normative/prudential caution — must NOT borrow empirical authority; the concern about individualising structural problems is an argued position, not a measured finding"
+  empirical_support:
+    rating: low
+    certainty: moderate
+    basis: "no direct test wired; rests on the empirical critique in c-0126 but is itself a normative caution"
+  contestation:
+    rating: moderate
+    certainty: moderate
+    basis: "the over-reach caution is widely shared; the structural-blame concern is an argued position"
+  attribution_integrity:
+    rating: moderate
+    certainty: moderate
+    basis: "attested by wave-3 report; Credé, Tynan & Harms 2017 (JPSP 113)"
+  survives_scrutiny:
+    rating: moderate
+    certainty: low
+    basis: "the caution is defensible; keep distinct from the empirical meta-critique (c-0126)"
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave3-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-17
+notes: "Singleton. Credé et al. grit-overreach normative caution. NORMATIVE/PRUDENTIAL — must not borrow empirical authority. DISTINCT from c-0126 (the empirical meta-critique of grit). Thematic overlap with report-08 self-control-narrative critiques; express kinship as an S4 edge, do not merge."

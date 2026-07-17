@@ -1,0 +1,45 @@
+id: c-0132
+canonical_claim: "People report their most rewarding experiences not in idle relaxation but in flow — total absorption in an activity that stretches their skills to meet a clear, challenging goal with immediate feedback."
+claim_type: empirical
+polarity: descriptive
+conditionality: conditional
+member_units: [u-0485]
+robustness_profile:
+  recurrence:
+    rating: low
+    certainty: high
+    basis: "empirical finding — recurrence not the relevant axis; see empirical_support"
+  source_diversity:
+    rating: moderate
+    certainty: moderate
+    basis: "Csikszentmihalyi Experience Sampling Method research line"
+  temporal_spread:
+    rating: moderate
+    certainty: high
+    basis: "1990 origin (and earlier ESM work), ongoing"
+  claim_type_dim:
+    rating: high
+    certainty: moderate
+    basis: "directly testable as a phenomenological description; operationalisation contested"
+  empirical_support:
+    rating: moderate
+    certainty: moderate
+    basis: "phenomenological description is durable and the Experience Sampling Method was a genuine methodological advance; BUT operationalisation is contested (discrete vs continuous, heavy self-report reliance, hard to distinguish from enjoyment/engagement, causal claims unclear)"
+  contestation:
+    rating: moderate
+    certainty: moderate
+    basis: "the description endures; the construct's measurement and causal claims are debated"
+  attribution_integrity:
+    rating: high
+    certainty: moderate
+    basis: "attested by wave-3 report; Csikszentmihalyi Flow (1990); 'flow' is a coined term"
+  survives_scrutiny:
+    rating: moderate
+    certainty: moderate
+    basis: "the phenomenology survives; the measurement/causal claims are qualified"
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave3-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-17
+notes: "Singleton. Csikszentmihalyi flow / challenge-skill balance (1990). Empirical, qualified — phenomenological description durable, operationalisation and causal claims contested. DISTINCT from the affective-forecasting and choice clusters."

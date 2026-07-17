@@ -1,0 +1,45 @@
+id: c-0103
+canonical_claim: "The leitmotif of the human record is resilience and reorganization as much as collapse; 'collapse' narratives can erase the survival and agency of descendant peoples and the role of imperialism."
+claim_type: observational
+polarity: descriptive
+conditionality: contested
+member_units: [u-0369]
+robustness_profile:
+  recurrence:
+    rating: low
+    certainty: low
+    basis: "provisional — corpus-wide S3 in progress; no independent convergence graded yet"
+  source_diversity:
+    rating: moderate
+    certainty: moderate
+    basis: "McAnany & Yoffee (eds.) grew from an American Anthropological Association panel; multiple contributors"
+  temporal_spread:
+    rating: low
+    certainty: low
+    basis: "provisional — S3 in progress"
+  claim_type_dim:
+    rating: moderate
+    certainty: high
+    basis: "observational — a scholarly counter-thesis; PRESERVE DISSENT, do not smooth into c-0100/c-0101"
+  empirical_support:
+    rating: low
+    certainty: low
+    basis: "no direct test wired; an argued re-reading of collapse cases"
+  contestation:
+    rating: high
+    certainty: moderate
+    basis: "this IS the contest of c-0100/c-0101; Diamond wrote a sharply critical Nature review without noting the book targeted his own work"
+  attribution_integrity:
+    rating: moderate
+    certainty: moderate
+    basis: "attested by wave-3 report; not yet primary-verified"
+  survives_scrutiny:
+    rating: moderate
+    certainty: low
+    basis: "no clean refutation; guards against collapse-fatalism and erasure of survivors"
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave3-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-17
+notes: "Singleton. McAnany & Yoffee Questioning Collapse (2010) resilience counter-thesis. PRESERVE DISSENT — counter-position to Diamond's collapse framing (c-0100/c-0101), NOT a merge."

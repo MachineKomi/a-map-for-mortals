@@ -1,0 +1,45 @@
+id: c-0120
+canonical_claim: "Because our intuitions about what will make us happy are unreliable, it can pay to consult how similar choices actually made other people feel rather than trusting our imagination (surrogation)."
+claim_type: prudential
+polarity: prescriptive
+conditionality: conditional
+member_units: [u-0473]
+robustness_profile:
+  recurrence:
+    rating: low
+    certainty: low
+    basis: "provisional — corpus-wide S3 in progress; no independent convergence graded yet"
+  source_diversity:
+    rating: low
+    certainty: low
+    basis: "provisional — S3 in progress"
+  temporal_spread:
+    rating: low
+    certainty: low
+    basis: "provisional — S3 in progress"
+  claim_type_dim:
+    rating: moderate
+    certainty: high
+    basis: "prudential — a recommendation drawn from empirical findings; the underlying 'surrogation' evidence is thinner than the forecasting-error evidence"
+  empirical_support:
+    rating: low
+    certainty: moderate
+    basis: "must NOT borrow empirical authority; the surrogation evidence base is thinner than the forecasting-error findings it rests on"
+  contestation:
+    rating: moderate
+    certainty: moderate
+    basis: "the prudential advice is defensible; its evidentiary base is modest"
+  attribution_integrity:
+    rating: moderate
+    certainty: moderate
+    basis: "attested by wave-3 report; Gilbert Stumbling on Happiness (2006)"
+  survives_scrutiny:
+    rating: moderate
+    certainty: low
+    basis: "the recommendation is reasonable; do not present it as empirically established at the strength of the forecasting findings"
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave3-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-17
+notes: "Singleton. Gilbert surrogation (Stumbling on Happiness). PRUDENTIAL, not empirical — a recommendation; must not borrow empirical authority. DISTINCT from c-0026/c-0027 (report-08 money-wellbeing): those are empirical income-vs-wellbeing findings; this is a distinct prudential recommendation that merely references them."

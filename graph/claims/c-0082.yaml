@@ -1,0 +1,21 @@
+id: c-0082
+canonical_claim: "The distinctive human trick is talking about things that do not physically exist, letting belief substitute for face-to-face trust and break the small-group cooperation ceiling."
+claim_type: observational
+polarity: descriptive
+conditionality: contested
+member_units: [u-0348]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress; no independent convergence graded yet"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "observational; the ~150 Dunbar ceiling it leans on is itself contested (Lindenfors et al. 2021 reanalysis gave estimates up to ~520)"}
+  empirical_support: {rating: low, certainty: low, basis: "no direct test wired; rests on contested Dunbar-number and Cognitive-Revolution timing claims"}
+  contestation: {rating: high, certainty: moderate, basis: "Hallpike and Chomsky dispute the sharp 'Cognitive Revolution'; Dunbar number contested; timing not established"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by wave-3 report; Chomsky 'fanciful' characterization secondhand/unverified"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "no clean refutation; the strong timing/Dunbar sub-claims are shaky, the broad thesis less so"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave3-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-17
+notes: "Singleton. Harari fictive-language / Cognitive Revolution (Sapiens ch. 2). FLAG: the ~150 Dunbar number and the sharp 'Cognitive Revolution' timing are contested. The broad 'language about absent fictions enables scale' thesis is more durable than its specific timing/number sub-claims."

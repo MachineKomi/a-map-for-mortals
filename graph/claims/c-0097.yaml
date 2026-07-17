@@ -1,0 +1,45 @@
+id: c-0097
+canonical_claim: "Guns, steel, and germs were proximate instruments of conquest, but explanation should push to ultimate causes — why some peoples had them first — a discipline of not stopping at the nearest cause."
+claim_type: prudential
+polarity: prescriptive
+conditionality: conditional
+member_units: [u-0363]
+robustness_profile:
+  recurrence:
+    rating: low
+    certainty: low
+    basis: "provisional — corpus-wide S3 in progress; no independent convergence graded yet"
+  source_diversity:
+    rating: low
+    certainty: low
+    basis: "provisional — S3 in progress"
+  temporal_spread:
+    rating: low
+    certainty: low
+    basis: "provisional — S3 in progress"
+  claim_type_dim:
+    rating: moderate
+    certainty: high
+    basis: "prudential (method) — a clean methodological norm imported from evolutionary biology; portable even for readers who reject Diamond's conclusions"
+  empirical_support:
+    rating: low
+    certainty: low
+    basis: "no direct test wired; the method itself is robust independent of its application"
+  contestation:
+    rating: moderate
+    certainty: moderate
+    basis: "the method is widely accepted; its application (u-0362/c-0096) is what is contested"
+  attribution_integrity:
+    rating: moderate
+    certainty: moderate
+    basis: "attested by wave-3 report; not yet primary-verified"
+  survives_scrutiny:
+    rating: moderate
+    certainty: low
+    basis: "no known refutation of the method"
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave3-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-17
+notes: "Singleton. Diamond ultimate-vs-proximate cause method (GGS Prologue). The method is separable from the contested application (c-0096). DISTINCT from c-0096."

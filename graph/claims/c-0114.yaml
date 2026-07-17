@@ -1,0 +1,45 @@
+id: c-0114
+canonical_claim: "When forming a judgement we treat the information in front of us as if it were the whole story, neglecting what we cannot see — what you see is all there is (WYSIATI)."
+claim_type: empirical
+polarity: cautionary
+conditionality: conditional
+member_units: [u-0467]
+robustness_profile:
+  recurrence:
+    rating: low
+    certainty: high
+    basis: "empirical finding — recurrence not the relevant axis; see empirical_support"
+  source_diversity:
+    rating: moderate
+    certainty: moderate
+    basis: "an interpretive umbrella over several biases rather than a single measured effect"
+  temporal_spread:
+    rating: moderate
+    certainty: high
+    basis: "2011 formulation over earlier base-rate-neglect research"
+  claim_type_dim:
+    rating: high
+    certainty: moderate
+    basis: "directly testable as a tendency; the coined term is an umbrella, not a single effect"
+  empirical_support:
+    rating: moderate
+    certainty: moderate
+    basis: "the underlying phenomena (base-rate neglect, substitution) are supported; WYSIATI itself is an interpretive label"
+  contestation:
+    rating: moderate
+    certainty: moderate
+    basis: "the umbrella is widely used; its status as a single empirical claim is debatable"
+  attribution_integrity:
+    rating: high
+    certainty: moderate
+    basis: "attested by wave-3 report; Kahneman Tf&S ch. 7"
+  survives_scrutiny:
+    rating: moderate
+    certainty: moderate
+    basis: "the descriptive tendency is robust; the coined-term reification is an interpretive move"
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave3-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-17
+notes: "Singleton. Kahneman WYSIATI (Tf&S ch. 7). A coined-term umbrella over several biases, not a single measured effect. DISTINCT from the specific biases it subsumes."

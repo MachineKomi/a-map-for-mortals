@@ -1,0 +1,45 @@
+id: c-0121
+canonical_claim: "The claim that we systematically overestimate the intensity of future feelings may be partly a measurement artifact: when asked precisely about feelings toward the focal event, people predict intensity fairly accurately."
+claim_type: empirical
+polarity: cautionary
+conditionality: contested
+member_units: [u-0474]
+robustness_profile:
+  recurrence:
+    rating: low
+    certainty: high
+    basis: "empirical finding — recurrence not the relevant axis; see empirical_support"
+  source_diversity:
+    rating: moderate
+    certainty: moderate
+    basis: "Levine et al. 2012 plus the adversarial exchange with Wilson & Gilbert 2013"
+  temporal_spread:
+    rating: moderate
+    certainty: high
+    basis: "2012 challenge, 2013 replies; unresolved"
+  claim_type_dim:
+    rating: high
+    certainty: high
+    basis: "directly testable"
+  empirical_support:
+    rating: moderate
+    certainty: moderate
+    basis: "Levine, Lench, Kaplan & Safer 2012 (JPSP 103) artifact analysis; contested by Wilson & Gilbert 2013 rebuttal"
+  contestation:
+    rating: high
+    certainty: moderate
+    basis: "UNRESOLVED ADVERSARIAL DISPUTE: Wilson & Gilbert (2013) rebut arguing miscoding/omission; Levine et al. (2013) reply; duration overestimation less contested than intensity"
+  attribution_integrity:
+    rating: high
+    certainty: moderate
+    basis: "attested by wave-3 report; Levine et al. 2012 (JPSP 103:584-605)"
+  survives_scrutiny:
+    rating: moderate
+    certainty: moderate
+    basis: "the challenge is live and unresolved; represent both sides, do not present impact bias as settled at full strength"
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave3-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-17
+notes: "Singleton. Levine et al. 2012 artifact challenge to the impact bias. SPLIT from u-0470 (c-0117, impact bias) per cardinal rule and FLAGGED for adversarial review — a finding + its unresolved contest are distinct propositions with different conditionality (conditional vs contested). Express as an S4 UNDERMINED_BY/QUALIFIES edge on c-0117. Represent both sides."

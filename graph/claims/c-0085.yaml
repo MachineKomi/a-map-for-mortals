@@ -1,0 +1,21 @@
+id: c-0085
+canonical_claim: "Conveniences pursued to make life easier tend to become necessities that impose new burdens, so a chain of sensible improvements can add up to a life nobody chose (the 'luxury trap')."
+claim_type: prudential
+polarity: cautionary
+conditionality: conditional
+member_units: [u-0351]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress; no independent convergence graded yet"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "prudential — a tendency rule applied to individual life, generalizing beyond the contested archaeology"}
+  empirical_support: {rating: low, certainty: low, basis: "no direct test wired; the individual-life application is portable independent of the agricultural evidence"}
+  contestation: {rating: moderate, certainty: moderate, basis: "the prudential pattern is intuitive and unrefuted; the strength of 'trap' inevitability is hedged by Harari himself"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by wave-3 report; not yet primary-verified"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "no known refutation; guards against the hedonic treadmill"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave3-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-17
+notes: "Singleton. Harari 'luxury trap' (Sapiens ch. 5). A prudential rule separable from the contested archaeology. DISTINCT from c-0084 (agricultural mixed-bargain) and c-0086 (wheat-domesticated-us)."

@@ -1,0 +1,45 @@
+id: c-0094
+canonical_claim: "Meaning is not found ready-made but constructed; the mature move is to hold one's guiding story lightly — using it to live by while knowing it is a story — rather than literalizing it or nihilistically discarding all stories."
+claim_type: normative
+polarity: prescriptive
+conditionality: conditional
+member_units: [u-0360]
+robustness_profile:
+  recurrence:
+    rating: low
+    certainty: low
+    basis: "provisional — corpus-wide S3 in progress; no independent convergence graded yet"
+  source_diversity:
+    rating: low
+    certainty: low
+    basis: "provisional — S3 in progress"
+  temporal_spread:
+    rating: low
+    certainty: low
+    basis: "provisional — S3 in progress"
+  claim_type_dim:
+    rating: moderate
+    certainty: high
+    basis: "normative — a clean normative/prudential unit; draws on Buddhist framings, Harari's personal synthesis"
+  empirical_support:
+    rating: low
+    certainty: low
+    basis: "no direct test wired; convergence with Stoic/Buddhist non-attachment is to-be-tested, not auto-asserted"
+  contestation:
+    rating: moderate
+    certainty: moderate
+    basis: "the stance is defensible; its equivalence to classical non-attachment is unproven"
+  attribution_integrity:
+    rating: moderate
+    certainty: moderate
+    basis: "attested by wave-3 report; not yet primary-verified"
+  survives_scrutiny:
+    rating: moderate
+    certainty: low
+    basis: "no known refutation; over-application risk (flattening all commitment) noted"
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave3-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-17
+notes: "Singleton. Harari hold-stories-lightly (21 Lessons, Part V). CONVERGENCE-TO-TEST with Stoic/Buddhist non-attachment — do not auto-assert equivalence; express as an S4 edge if warranted."
