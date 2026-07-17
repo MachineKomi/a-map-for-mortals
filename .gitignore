@@ -11,3 +11,6 @@ tools/bin/
 book/generator/fonts/
 # QA rasters are regenerable
 book/renders/qa/
+
+# plan-mode artifacts (local agent state)
+.zcode/
