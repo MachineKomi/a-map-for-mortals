@@ -1,0 +1,21 @@
+id: c-0140
+canonical_claim: "A modern harm is 'solitude deprivation' — almost no time alone with one's own thoughts, free of input from other minds — which erodes self-reflection and emotional balance."
+claim_type: empirical
+polarity: cautionary
+conditionality: contested
+member_units: [u-0396]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: high, certainty: high, basis: "empirical harm claim"}
+  empirical_support: {rating: low, certainty: moderate, basis: "the definitional point (solitude != isolation) is strong; the causal appeal to teen-mental-health data borrows contested Twenge/iGen authority"}
+  contestation: {rating: moderate, certainty: moderate, basis: "conditionality contested — causal appeal rests on disputed teen-mental-health data"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by wave-3 report; 'solitude deprivation' is Newport's coined term"}
+  survives_scrutiny: {rating: low, certainty: low, basis: "definitional point survives; causal warrant contested"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave3-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-17
+notes: "Singleton. Newport solitude deprivation (Digital Minimalism 2019). SPLIT from u-0413 (Turkle solitude-as-precondition-for-relationship): this is a HARM-OF-ABSENCE claim (empirical/cautionary/contested); that is a PRECONDITION-FOR-RELATIONSHIP claim (normative/prescriptive/conditional). Different propositions. Express kinship as S4 CONVERGES_WITH edge, do not merge."

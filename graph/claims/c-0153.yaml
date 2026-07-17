@@ -1,0 +1,21 @@
+id: c-0153
+canonical_claim: "Networked devices leave us 'alone together' — constantly connected yet more isolated — because mediated contact substitutes for the demands and rewards of genuine presence."
+claim_type: observational
+polarity: cautionary
+conditionality: conditional
+member_units: [u-0409]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "observational/interpretive claim"}
+  empirical_support: {rating: low, certainty: moderate, basis: "ETHNOGRAPHIC/qualitative-interview evidence, NOT causal experiments — should not be over-read as causal proof"}
+  contestation: {rating: moderate, certainty: moderate, basis: "qualitative evidence limits causal claims; a shift from Turkle's earlier techno-optimism"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by wave-3 report; 'alone together' is Turkle's title/coined framing"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "descriptively resonant; causal reading unsupported"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave3-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-17
+notes: "Singleton. Turkle 'alone together' (2011), coined framing. Ethnographic, not causal. SPLIT from c-0154 (illusion-of-companhip): that names the MOTIVATION; this names the STATE. Different propositions."

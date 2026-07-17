@@ -1,0 +1,21 @@
+id: c-0173
+canonical_claim: "The persuasive-design techniques Harris critiques descend from B.J. Fogg's captology / persuasive-technology program at Stanford, which studied how computers change behavior — a lineage that produced both wellness apps and engagement-maximizing dark patterns."
+claim_type: observational
+polarity: descriptive
+conditionality: conditional
+member_units: [u-0429]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "observational/historical-lineage claim"}
+  empirical_support: {rating: moderate, certainty: moderate, basis: "documented scholarly lineage (Persuasive Technology 2002; Stanford lab)"}
+  contestation: {rating: moderate, certainty: moderate, basis: "Fogg himself disputes being blamed for downstream misuse and argues he warned about it — included as LINEAGE/CONTEXT, NOT ENDORSEMENT"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by wave-3 report; captology is Fogg's coinage; he mentored Harris"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "lineage is factual; the normative blame is contested"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave3-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-17
+notes: "Singleton. Fogg captology / persuasive-tech lineage (2002). INCLUDED AS LINEAGE/CONTEXT, NOT ENDORSEMENT — Fogg disputes blame for downstream misuse. era 2002 (Persuasive Technology publication). Fogg mentored Harris. DISTINCT from c-0170..c-0172 (Harris critique): this is the historical provenance of the techniques, a descriptive lineage claim."

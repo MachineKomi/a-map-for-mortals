@@ -1,0 +1,21 @@
+id: c-0168
+canonical_claim: "Part of the apparent rise in teen mental-health crises may be a measurement artifact: a 2011 US screening-guideline change and a mid-2010s change in coding suicidal ideation coincided with inflection points, while actual self-harm, attempts, and completed suicides stayed relatively flat."
+claim_type: empirical
+polarity: descriptive
+conditionality: contested
+member_units: [u-0424]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: high, certainty: high, basis: "empirical measurement/artifact claim"}
+  empirical_support: {rating: low, certainty: moderate, basis: "single-state New Jersey hospital-visit data 2008-2019 (Journal of Human Resources 2024); not necessarily generalizable; report confidence MEDIUM-HIGH"}
+  contestation: {rating: high, certainty: high, basis: "Haidt counters that completed-suicide and ER self-harm data (esp. for younger girls) rose independently of coding — both partly true depending on dataset. Contest expressed as S4 IN_TENSION_WITH to c-0160, NOT a merge. conditionality: contested."}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by wave-3 report; USPSTF 2011 screening rec; ideation coding changed 2015-2017"}
+  survives_scrutiny: {rating: low, certainty: low, basis: "single-state data; present as genuine uncertainty, not settled"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave3-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-17
+notes: "Singleton. Reporting/measurement-artifact skeptic (Journal of Human Resources 2024, NJ data). KEY SKEPTIC claim paired with c-0160 via S4 edge. SPLIT from other skeptics: this is the MEASUREMENT-ARTIFACT argument specifically. Single-state data limits generalizability; present as uncertainty."

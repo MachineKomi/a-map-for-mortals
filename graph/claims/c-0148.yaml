@@ -1,0 +1,21 @@
+id: c-0148
+canonical_claim: "Our limited time (about four thousand weeks in an 80-year life) is not an obstacle to a meaningful life but the condition that makes choices meaningful: finitude is the point, not the problem."
+claim_type: metaphysical
+polarity: prescriptive
+conditionality: conditional
+member_units: [u-0404]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "metaphysical/existential thesis"}
+  empirical_support: {rating: low, certainty: high, basis: "not an empirical claim; metaphysical framing of finitude"}
+  contestation: {rating: low, certainty: moderate, basis: "uncontested as a metaphysical position"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by wave-3 report; draws on Heidegger's being-towards-death"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "coherent existential reframe; convergence-to-test with ancient carpe-diem/memento-mori cluster"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave3-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-17
+notes: "Singleton. Burkeman Four Thousand Weeks (2021). Metaphysical finitude thesis. Convergence-to-test with ancient carpe-diem/memento-mori cluster (report E.1) via S4 CONVERGES_WITH, not a merge."

@@ -1,0 +1,21 @@
+id: c-0164
+canonical_claim: "The Anxious Generation has had outsized real-world influence: it directly inspired Australia's world-first under-16 social-media ban (in force 10 Dec 2025) and school phone-ban movements, even as the underlying science remains disputed."
+claim_type: observational
+polarity: descriptive
+conditionality: conditional
+member_units: [u-0420]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "observational/descriptive claim about policy uptake"}
+  empirical_support: {rating: moderate, certainty: moderate, basis: "dated policy events: Australia Online Safety Amendment (Social Media Minimum Age) Act 2024; eSafety Commissioner report 16 Jan 2026 (ten platforms removed 4.7M under-16 accounts by mid-Dec 2025)"}
+  contestation: {rating: moderate, certainty: moderate, basis: "INFLUENCE != VINDICATION; ban efficacy itself unstudied/contested; law faces a High Court challenge from two 15-year-olds; circumvention/multiple-account concerns"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by wave-3 report"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "the influence fact is robust; the efficacy is not"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave3-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-17
+notes: "Singleton. Haidt Anxious Generation policy-uptake (observational). INFLUENCE != VINDICATION. A descriptive observation about the book's real-world impact, NOT an endorsement of the causal thesis (c-0160) — keep distinct. era 2026 (most recent dated policy event)."

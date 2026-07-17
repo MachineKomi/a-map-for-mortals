@@ -1,0 +1,21 @@
+id: c-0144
+canonical_claim: "Attention is among the last resources we can still choose to withhold, so redirecting it deliberately is itself an act of resistance."
+claim_type: normative
+polarity: prescriptive
+conditionality: conditional
+member_units: [u-0400]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "normative argument about attention as resource"}
+  empirical_support: {rating: low, certainty: moderate, basis: "normative/political claim, not empirical"}
+  contestation: {rating: low, certainty: moderate, basis: "framing is coherent; the political valence is debated"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by wave-3 report; attention-economy concept is Simon 1971, NOT Odell (watchlist F.6)"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "coherent as normative claim"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave3-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-17
+notes: "Singleton. Odell attention-as-resistance (How to Do Nothing). SPLIT from c-0143 (refusal-of-productivity): that is a refusal thesis; this is attention-as-withholdable-resource. SPLIT from c-0174? no. DISTINCT also from the Harris 'race to the bottom of the brain stem' (c-0170): Harris describes capture mechanics; Odell frames withdrawal as agency. Express via S4 edge."

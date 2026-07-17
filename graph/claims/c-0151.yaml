@@ -1,0 +1,21 @@
+id: c-0151
+canonical_claim: "Every commitment forecloses countless alternatives, and that is what gives it meaning: settling on and committing to a few things is freedom, not loss (the joy of missing out)."
+claim_type: normative
+polarity: prescriptive
+conditionality: conditional
+member_units: [u-0407]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "normative claim about commitment"}
+  empirical_support: {rating: low, certainty: moderate, basis: "normative/evaluative claim; invokes Heidegger"}
+  contestation: {rating: low, certainty: moderate, basis: "uncontested as a value claim"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by wave-3 report"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "coherent reframe of FOMO"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave3-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-17
+notes: "Singleton. Burkeman joy-of-missing-out / commitment (Four Thousand Weeks). 'decide' from Latin decidere 'to cut off'. DISTINCT from c-0150 (insignificance) and c-0148 (finitude): this is the commitment/foreclosure thesis."

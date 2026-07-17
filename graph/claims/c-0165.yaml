@@ -1,0 +1,21 @@
+id: c-0165
+canonical_claim: "Decades of research yield a mix of no, small and mixed associations between social-media use and youth mental ill-health, mostly correlational; mistaking correlation for causation risks distracting from the real drivers of youth distress."
+claim_type: empirical
+polarity: descriptive
+conditionality: contested
+member_units: [u-0421]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: high, certainty: high, basis: "empirical review/synthesis"}
+  empirical_support: {rating: moderate, certainty: moderate, basis: "Odgers Nature review (29 March 2024); also argues reverse causation (already-struggling youth use platforms differently)"}
+  contestation: {rating: high, certainty: high, basis: "THE SKEPTIC POLE of the live debate — this is one side contesting c-0160. Haidt published a point-by-point rebuttal; the 'reverse causation only' framing is itself disputed. Contest expressed as S4 IN_TENSION_WITH / UNDERMINED_BY to c-0160, NOT a merge. conditionality: contested preserved."}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by wave-3 report; UC-Irvine psychologist Candice Odgers; 'not supported by science' is her verbatim phrase"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "a serious scientific dissent; present as LIVE DEBATE"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave3-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-17
+notes: "Singleton. Odgers skeptic counter-claim (Nature 2024). KEY SKEPTIC claim that must travel paired with the Haidt causal thesis (c-0160) via S4 IN_TENSION_WITH/UNDERMINED_BY — a claim and its contest are DISTINCT propositions (cardinal rule, confirmed by batch-2 adversarial pass). Do NOT merge with c-0160. SPLIT from the other skeptic claims (c-0166 effect-size, c-0167 moral-panic, c-0168 measurement-artifact): each is a distinct argument."

@@ -1,0 +1,21 @@
+id: c-0158
+canonical_claim: "Three 'great untruths' harm young people: fragility ('what doesn't kill you makes you weaker'), emotional reasoning ('always trust your feelings'), and us-vs-them ('life is a battle between good and evil people')."
+claim_type: normative
+polarity: cautionary
+conditionality: contested
+member_units: [u-0414]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "normative claim framed as a psychological claim"}
+  empirical_support: {rating: low, certainty: moderate, basis: "draws on CBT and Stoicism; empirical warrant contested"}
+  contestation: {rating: moderate, certainty: moderate, basis: "CONTESTED — critics argue 'safetyism' is overstated and the campus focus selective; carries conditionality: contested"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by wave-3 report; expansion of a 2015 Atlantic essay"}
+  survives_scrutiny: {rating: low, certainty: low, basis: "influential but contested; carry dissent"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave3-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-17
+notes: "Singleton. Lukianoff & Haidt three-great-untruths (Coddling of the American Mind 2018). CONTESTED — conditionality: contested. SPLIT from c-0159 (antifragility): that is the POSITIVE developmental thesis (needs stressors); this is the ENUMERATION of harmful beliefs. Different propositions."

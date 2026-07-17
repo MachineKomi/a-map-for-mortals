@@ -1,0 +1,21 @@
+id: c-0157
+canonical_claim: "The capacity to be alone with oneself is a precondition for genuine relationship: if we cannot tolerate solitude, we turn to others (or devices) only to reduce anxiety rather than to truly connect."
+claim_type: normative
+polarity: prescriptive
+conditionality: conditional
+member_units: [u-0413]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "normative precondition claim"}
+  empirical_support: {rating: low, certainty: moderate, basis: "interpretive/clinical claim"}
+  contestation: {rating: low, certainty: moderate, basis: "coherent; converges with contemplative-tradition solitude cluster"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by wave-3 report"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "coherent precondition claim"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave3-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-17
+notes: "Singleton. Turkle solitude-as-precondition-for-relationship (Reclaiming Conversation / Alone Together). SPLIT from c-0140 (Newport solitude-DEPRIVATION): that is a HARM-OF-ABSENCE claim (empirical/cautionary/contested); this is a PRECONDITION-FOR-RELATIONSHIP claim (normative/prescriptive/conditional). Different proposition, different type/polarity/conditionality. Express kinship via S4 CONVERGES_WITH edge to c-0140 and the contemplative-tradition solitude cluster (E.4), do not merge."

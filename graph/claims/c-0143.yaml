@@ -1,0 +1,21 @@
+id: c-0143
+canonical_claim: "'Doing nothing' is a refusal of the attention economy's demand for constant productivity — not idleness, but disengaging from extractive attention toward something more worthwhile."
+claim_type: normative
+polarity: prescriptive
+conditionality: conditional
+member_units: [u-0399]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "normative argument"}
+  empirical_support: {rating: low, certainty: moderate, basis: "structural/cultural critique, not an empirical claim"}
+  contestation: {rating: low, certainty: moderate, basis: "anti-capitalist framing; contested politically but coherent as a position"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by wave-3 report; Odell does NOT invoke Simone Weil (misattribution watchlist)"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "coherent structural critique"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave3-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-17
+notes: "Singleton. Odell How to Do Nothing (2019). Structural-critique pole of the attention meta-fork. SPLIT from c-0144 (attention-as-withholdable-resource): refusal-of-productivity vs attention-as-resistance are related but distinct propositions."

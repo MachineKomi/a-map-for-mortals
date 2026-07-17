@@ -1,0 +1,21 @@
+id: c-0162
+canonical_claim: "Four norms would counter a phone-based childhood: no smartphones before high school (~14), no social media before 16, phone-free schools, and far more unsupervised play and childhood independence."
+claim_type: prudential
+polarity: prescriptive
+conditionality: contested
+member_units: [u-0418]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "prudential/policy prescription"}
+  empirical_support: {rating: low, certainty: moderate, basis: "policy uptake is real even where the underlying science is contested"}
+  contestation: {rating: moderate, certainty: moderate, basis: "conditionality contested — the prescription inherits the contested status of the causal thesis (c-0160)"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by wave-3 report; collective-action framing (Wait Until 8th)"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "a defensible prescription whose warrant is contested"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave3-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-17
+notes: "Singleton. Haidt four-norms prescription (Anxious Generation Part 4). Structural pole of the meta-fork (no single family can opt out). Note the split: on PHYSICAL-WORLD risk Haidt urges LESS protection; on DIGITAL risk, MORE. DISTINCT from c-0160 (diagnosis) — this is the remedy; carries contested via the underlying thesis."

@@ -1,0 +1,21 @@
+id: c-0152
+canonical_claim: "Distraction is often not a willpower failure but a flight from the discomfort of confronting finitude and what truly matters; attention is where we meet reality."
+claim_type: observational
+polarity: cautionary
+conditionality: conditional
+member_units: [u-0408]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "observational/phenomenological claim"}
+  empirical_support: {rating: low, certainty: moderate, basis: "phenomenological observation; parallels Zen Buddhism"}
+  contestation: {rating: low, certainty: moderate, basis: "a productive dissent WITHIN the attention block — locates the pull partly inside us, not only in design (preserve, do not prune)"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by wave-3 report"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "coherent; productive internal dissent to the pure external-capture framing"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave3-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-17
+notes: "Singleton. Burkeman distraction-as-flight (Four Thousand Weeks). PRODUCTIVE DISSENT to Harris/Newport's external-capture framing — locates the pull partly INSIDE us. Preserve as dissent; express tension via S4 IN_TENSION_WITH/QUALIFIES edge to the capture claims, do not merge."

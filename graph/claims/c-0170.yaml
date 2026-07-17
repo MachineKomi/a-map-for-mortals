@@ -1,0 +1,21 @@
+id: c-0170
+canonical_claim: "Attention-economy products compete by exploiting ever-lower, more automatic parts of human psychology to capture attention — a 'race to the bottom of the brain stem' — pitting engineered persuasion against users' considered interests."
+claim_type: observational
+polarity: cautionary
+conditionality: conditional
+member_units: [u-0426]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "observational/structural critique"}
+  empirical_support: {rating: low, certainty: moderate, basis: "some scholars caution the 'hijacking/addiction' framing outruns the addiction evidence"}
+  contestation: {rating: moderate, certainty: moderate, basis: "the capture framing is contested by scholars who find the addiction metaphor overstated"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by wave-3 report; 'race to the bottom of the brain stem' is Harris's coined phrase; attention-economy concept = Simon 1971 (watchlist F.6)"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "influential framing; The Social Dilemma (2020) amplified it"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave3-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-17
+notes: "Singleton. Harris/CHT 'race to the bottom of the brain stem' (2016), coined phrase. Structural-critique pole of the attention meta-fork. Former Google design ethicist; studied under Fogg. Builds on Simon (do not attribute attention-economy to Harris). SPLIT from c-0171 (designer-user asymmetry): that is the power-asymmetry framing; this is the capture-dynamics framing. SPLIT from c-0144 (Odell attention-as-resistance): Odell frames withdrawal as agency; Harris describes capture mechanics."

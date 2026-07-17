@@ -1,0 +1,21 @@
+id: c-0136
+canonical_claim: "Switching between tasks leaves attention residue that degrades performance on the next task."
+claim_type: empirical
+polarity: cautionary
+conditionality: conditional
+member_units: [u-0392]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: high, certainty: high, basis: "empirical — directly testable"}
+  empirical_support: {rating: moderate, certainty: moderate, basis: "Leroy 2009 lab studies; effect sizes modest in the original work"}
+  contestation: {rating: low, certainty: moderate, basis: "effect replicated though magnitude modest; not strongly contested"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "concept traces to Leroy (2009), not Newport; wave-3 report flags the misattribution (watchlist F.4)"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "real but modest; do not over-claim magnitude"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave3-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-17
+notes: "Singleton. Leroy attention-residue (2009), as popularized by Newport. Author is Leroy, not Newport (misattribution watchlist F.4). DISTINCT from c-0135 (deep-work prudential thesis); this is the underlying cognitive mechanism."

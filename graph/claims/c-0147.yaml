@@ -1,0 +1,21 @@
+id: c-0147
+canonical_claim: "A culture that prizes novelty and growth undervalues maintenance and care, though care of bodies, relationships, and environments is as productive as making anything new."
+claim_type: normative
+polarity: prescriptive
+conditionality: conditional
+member_units: [u-0403]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "normative value claim"}
+  empirical_support: {rating: low, certainty: moderate, basis: "normative/evaluative claim, not empirical"}
+  contestation: {rating: low, certainty: moderate, basis: "uncontested as a value claim"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by wave-3 report"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "coherent value reframe"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave3-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-17
+notes: "Singleton. Odell maintenance-vs-novelty (How to Do Nothing). DISTINCT from the rest of the Odell block: this is a value claim about care/production, not an attention-as-resistance thesis."

@@ -1,0 +1,21 @@
+id: c-0166
+canonical_claim: "Digital-technology use explains at most about 0.4% of the variation in adolescent well-being — an association smaller than or comparable to wearing glasses or eating potatoes."
+claim_type: empirical
+polarity: descriptive
+conditionality: contested
+member_units: [u-0422]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: high, certainty: high, basis: "empirical effect-size finding"}
+  empirical_support: {rating: moderate, certainty: moderate, basis: "Orben & Przybylski Nature Human Behaviour (2019); specification-curve analysis across large datasets; median beta ~ -0.03 to -0.05"}
+  contestation: {rating: high, certainty: high, basis: "UNRESOLVED — Twenge/Haidt reply that six analytic choices shrank a real effect (esp. for girls, ~r=0.15-0.20); Orben & Przybylski rejoin that re-running with the requested changes leaves effects still tiny. Contest expressed as S4 IN_TENSION_WITH to c-0160, NOT a merge. conditionality: contested."}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by wave-3 report; 'potatoes/glasses' is the famous rhetorical device"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "a methodologically strong dissent; present as UNRESOLVED"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave3-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-17
+notes: "Singleton. Orben & Przybylski specification-curve effect-size skeptic (2019). KEY SKEPTIC claim paired with c-0160 via S4 edge. SPLIT from c-0165 (Odgers no/small/mixed review): this is the specific tiny-effect-size finding; that is the broader correlation-is-not-causation argument. Both skeptical but distinct propositions."
