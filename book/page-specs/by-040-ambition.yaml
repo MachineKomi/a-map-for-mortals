@@ -1,27 +1,26 @@
 id: by-040-ambition
 stage: building-years
 sequence: 40
-form: trade-off-spectrum
+form: comparison-columns
 traced: true
-refs: [c-0022, c-0014, c-0015, c-0011]
+fork_ref: f-0002          # the columns are DERIVED from this fork's poles + hypothesised conditions (round-3 P1-forks redesign 2026-07-16) — the conditional counsel no longer lives in page copy
+refs: [c-0011, c-0022, c-0014, c-0015]
 register: {reading_level: adult, density: mid, colour_energy: mid}
-verbatim_quotes: [c-0014, c-0015]
 copy:
   eyebrow: "FORK TWO · AMBITION AND PEACE"
   title: {editorial: "The wager and the desperation"}
   intro:
     - assert: a-0020
-    - assert: a-0021
-  spectra:
-    - left: {editorial: "Striving"}
-      right: {editorial: "Contentment"}
-      left_curdle: {editorial: "Faust's forfeit — a life spent arriving, never living"}
-      right_curdle: {editorial: "quiet desperation — resignation wearing peace's clothes"}
-      note: {editorial: "Your answer is a spot on this line, and it moves as life moves — and the ditch takes more than one shape: driven-ness that never stops, quiet giving-up, and forever getting ready."}
+    - editorial: "The same restlessness, an older voice insists, need not be a wager at all."
+  columns:
+    - pole: serve     # -> fork f-0002 pole 'serve' supplies title + speaks-to/trusts/curdles-into/take-it-when
+      accent: pink
+      quote_ref: c-0011
+    - pole: wager
+      accent: orange
+      quote_ref: {ref: c-0022, excerpt: "“Ah, still delay—thou art so fair!”"}
   caption:
-    editorial: "A trade-off, drawn in <b>equal colour — neither end is the wiser one here</b>. Both are good; both go sour if you overdo them. Where you stand is a call you'll <b>tend</b> to remake each decade, and this book holds honest voices for every spot on the line."
-  outro:
-    - assert: a-0022
-  lesson:
-    editorial: "Ask your striving what it's for. Ask your peace what it's avoiding."
-notes: "Spectrum form (§6 B). Migrated at Gate E (ops/adjudications/2026-07-07-gateE-by040-050.md): Faust pact-terms and the two-ditches distinction gated as a-0020/a-0021; Qoheleth as a-0022 — the 'because nothing lasts, not despite it' flourish dropped (not grounded in the held verse). Pole names are furniture; curdle notes and lesson remain declared editorial. Equal-status neutral poles per SPEC §2 amendment."
+    - assert: a-0030
+    - editorial: "The <b>take it when*</b> rows are the book's hypotheses, not sourced findings — they live in the fork object (f-0002) as untested conditions."
+    - editorial: "<b>Ask your striving what it's for. Ask your peace what it's avoiding.</b>"
+notes: "REDESIGNED 2026-07-16 (round-3 P1-forks; ops/adjudications/2026-07-16-fork-ambition-by040.md). Was trade-off-spectrum with a forced 'Striving ⟷ Contentment' line — the round-3 review found that frame misrepresents the content (Faust is cautionary 'not counsel'; Thoreau/Pascal are diagnoses of the ditch, not a pole). Form follows content (R-V3): the ambition fork is structurally unlike the time fork — not two choosable counsels but a wager most voices warn against (Faust c-0022) against a counsel that reframes what the striving is FOR (Qoheleth c-0011, honest labour enjoyed now). The two columns are the two MODES OF STRIVING (serves / wagers), derived from graph/forks/f-0002; the ditch voices (Thoreau c-0014 / Pascal c-0015) enter as the wager pole's failure_mode (the 'curdles into' row) and are named in the caption (a-0021). The conditional counsel ('take it when*') is gated in the fork object, not page copy — fixes the round-3 stop condition. a-0030 (new) marks the fork unresolved and the conditions as hypotheses, mirroring page 6's a-0019. Held quotes (c-0011 Eccl 2:24 KJV / c-0022 Faust) pass the print gate. Faust pole accent orange (cautionary) / Qoheleth pole pink per SPEC §2 amended palette — equal-status colour would misrepresent that one pole IS adjudicated cautionary here (unlike the time fork's two-positive-counsels neutrality). The redundant Qoheleth outro (was a-0022, duplicated the serve column's c-0011 quote) was dropped and a-0021 moved to caption for content fit (the ditches ARE the caption's subject) — fixes a pagination orphan. Fork passed a mandatory fresh-context adversarial pass (circularity test FAILED to convict the conditions; two minor edits accepted: the serve-test workaholic false-positive danger + the 'enough'-vocabulary tilt disclosed). Part of the recurring 'enough' fork (SPEC §9)."

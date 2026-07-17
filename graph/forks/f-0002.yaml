@@ -1,0 +1,51 @@
+id: f-0002
+question: "When does your striving serve the life you are living, and when does it postpone it?"
+claim_type_mix: [prudential]
+relation_refs: [e-0023, e-0009]   # the IN_TENSION_WITH edges holding the fork: Qoheleth↔Faust (e-0023, moderate); Faust↔readiness (e-0009, high). No single edge holds this fork the way e-0008 holds the time fork — the ambition tension is distributed.
+head_ref: c-0015                  # Pascal's "we never live, only hope to" stands at the head as the DIAGNOSIS the fork turns on
+poles:
+  - key: serve
+    claim_ref: c-0011
+    label: "Striving that serves the life"
+    speaks_to: "the worker whose effort is part of the life they would choose, not merely its price"
+    trusts: "honest labour enjoyed now, in the face of impermanence"
+    protects: [presence, the-work-itself-as-good, enough-in-this-hour]
+    costs: [can-mistake-dissipation-for-contentment]
+    failure_mode: "labour curdles into quietism — calling avoidance 'enough'"
+  - key: wager
+    claim_ref: c-0022
+    label: "Striving that wagers the life"
+    speaks_to: "the striver holding the present as the cost of a future that will finally be enough"
+    trusts: "the next milestone; the 'more' that lies beyond now"
+    protects: [ambition, not-settling, the-unfinished]
+    costs: [postponement, the-bet-that-can-never-be-won, forfeits-the-present]
+    failure_mode: "Faust's forfeit — a whole life spent getting ready to live, or Pascal's — arranging to be happy and so never being it"
+conditions:
+  # Which mode the striving is in, and when. NONE of these is evidence-backed —
+  # they are the book's editorial reading of the sources, so they are all
+  # `hypothesised`, never `supported`. A page rendering them must mark them as
+  # the book's hypotheses.
+  supported: []
+  hypothesised:
+    - pole: serve
+      when: "you can name the good the work serves, and you would still choose to be doing some of it even if the goal never arrives"
+    - pole: wager
+      when: "the 'enough' you are striving toward has no fixed shape, only 'more than now' — and the present counts only as its cost"
+actor_context: "an adult in the building years, carrying ambitions and obligations, for whom striving has become the question rather than the answer"
+time_horizon: "the tension is about whether the present hour belongs to the life or is held against it"
+counterexamples:
+  - "the person whose striving and whose life are the same activity — for whom the wager never arises because the work is not held against a later 'enough'"
+  - "the person in genuine privation, for whom 'is my striving serving or postponing the life?' is the wrong question — survival striving is not a wager one chose"
+  - "the young with little yet built, for whom betting on a future is less a postponement than the only move available"
+danger_conditions:
+  - "using 'my striving serves the life' to justify never resting, never being present, or abandoning the people the life is for"
+  - "using 'striving wagers the life' to condemn all ambition, including the kind that builds what others depend on"
+  - "the serve test ('you would still choose to be doing some of it even if the goal never arrives') can also be passed by compulsive or escapist labour — work used to avoid the life wears the same profile as work loved for its own sake, so 'name the good the work serves' must mean a good beyond keeping yourself occupied, or the test rubber-stamps the workaholic"
+unresolved:
+  - "whether either mode is more often the trap, or whether the same striving is serve-for-one and wager-for-another depending on what it is for — the conditions above are untested editorial hypotheses, not findings"
+mandatory_dissent_refs: []   # the fork is itself the dissent — Faust (cautionary, not counsel) against Qoheleth's ordinary joy
+dossier_ref: null            # no confirmation dossier: a prudential fork whose conditions are hypothesised, not evidence-backed (like f-0001)
+status: poles-mapped         # NOT dossier-complete — conditions are hypothesised; see conditions.hypothesised
+adjudication_refs: ["ops/adjudications/2026-07-16-fork-ambition-by040.md"]
+prov: {minted_by: "claude-code:fork-ambition-v1", date: 2026-07-16}
+notes: "Second FORK object (round-3 P1-forks; page-4 redesign). Holds the ambition fork's conditional counsel ('when does striving serve vs postpone the life') in a structured, gated object rather than in editorial page copy (round-3 stop condition: 'a fork's conditions exist only in page copy'). STRUCTURAL DIFFERENCE FROM f-0001 (time): the time fork is two positive counsels held in tension by one high edge (e-0008); THIS fork is not two choosable counsels — Faust (c-0022) is CAUTIONARY ('not counsel' per a-0020) and the other ambition voices are DIAGNOSES of the ditch (Thoreau c-0014 / Pascal c-0015 have no tension edge). So the poles here are the two MODES OF STRIVING (serves / wagers), not two virtues on a line. The 'serve' pole is Qoheleth's honest-labour-enjoyed-now (c-0011) — which includes striving, not quietism; the 'wager' pole names Faust's bet-with-forfeit-terms (c-0022) as a mode to be warned against, not endorsed. The ditch voices enter the page as the 'wager' pole's failure_mode (Thoreau's quiet desperation / Pascal's perpetual arranging). DISCLOSED TILTS (kept, on the record): (1) the head c-0015 (Pascal) is NOT neutral — it diagnoses the wager pole, agreeing with the 'serve' direction (mirrors f-0001's Seneca-head disclosure); (2) putting Qoheleth as the 'serve' pole could tilt toward rest, but the pole text specifies honest LABOUR (striving) not quietism, and the lesson's two-sided self-examination ('Ask your striving what it's for; ask your peace what it's avoiding') holds the balance; (3) claim_type_mix kept [prudential] — Faust's metaphysical tag stays on its CLAIM, not promoted onto the fork's prudential counsel, and any normative premise (you ought not abandon the people the life is for) stays confined to danger_conditions, disclosed not promoted (per f-0001 precedent). (4) VOCABULARY TILT: the fork's shared currency is the word 'enough' — in the question, in serve's protects ('enough-in-this-hour'), and in wager's when ('the enough you are striving toward'). 'Enough' is contentment's word, not ambition's, so framing the whole ambition question as a question of sufficiency is a mild structural lean toward the serve/contentment side; kept because c-0011 is itself a sufficiency claim (joy in this hour's portion) and because the wager `when` turns 'enough' back against the wager pole (a shapeless 'enough' is the tell), but the lean is real and now on the record rather than smuggled. MANDATORY ADVERSARIAL PASS run on the conditions (see adjudication_refs) — the f-0001 pilot's lesson was that fork conditions can be CIRCULAR; the two 'when' clauses here were drafted to name independent, checkable signals (whether the present activity is itself the life vs whether the present is held as mere cost) and survive the adversarial test recorded in the adjudication file."

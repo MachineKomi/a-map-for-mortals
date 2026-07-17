@@ -1,0 +1,23 @@
+id: a-0030
+kind: relation-summary
+text: 'This is not striving against contentment — it is a question about your striving itself. Qoheleth''s honest labour enjoyed now and Faust''s bet on a satisfaction that never arrives are two modes of the same effort, and the ditch between them is a life spent arranging to be happy and so never being it. The book does not resolve it for you.'
+claim_refs:
+- c-0011
+- c-0022
+- c-0015
+relation_refs:
+- e-0023
+- e-0009
+mandatory_caveats:
+- does not resolve it
+prohibited_phrasings:
+- the wiser course is
+- resolves in favour
+- Faust counsels
+status: approved-for-package-01v2
+adjudication_refs:
+- ops/adjudications/2026-07-16-fork-ambition-by040.md
+prov:
+  minted_by: claude-code:fork-ambition-v1
+  date: 2026-07-16
+notes: 'Page-4 caption (redesign 2026-07-16). Mirrors a-0019 (page 6): marks the fork unresolved and the conditions as the book''s hypotheses, not findings. Rests on e-0023 (Qoheleth c-0011 ↔ Faust c-0022, IN_TENSION_WITH moderate — the ambition-vs-peace fork''s present-joy pole, added at adjudication) and e-0009 (Faust c-0022 ↔ readiness c-0021, IN_TENSION_WITH high — the Building-Years altitude of the effort-vs-acceptance master fork). c-0015 (Pascal) is carried as the ditch diagnosis, not a pole — consistent with the fork f-0002 design where the ditch voices (Thoreau/Pascal) enter as the wager pole''s failure_mode. The Faust framing respects a-0020''s "not counsel" gate: Faust names the wager to be warned against, not endorsed (prohibited phrasings block "Faust counsels"). The final sentence holds the book back from resolving what the fork deliberately leaves open.'

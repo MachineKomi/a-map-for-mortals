@@ -355,7 +355,13 @@ def form_comparison_columns(spec, g):
     for col in c["columns"]:
         q = ""
         if col.get("quote_ref"):
-            text, credit = g.printable_quote(col["quote_ref"])
+            # quote_ref may be a bare id (c-xxxx) or a mapping {ref, excerpt} for a
+            # shorter verbatim excerpt (segments verified inside printable_quote).
+            qref = col["quote_ref"]
+            if isinstance(qref, dict):
+                text, credit = g.printable_quote(qref["ref"], excerpt=qref.get("excerpt"))
+            else:
+                text, credit = g.printable_quote(qref)
             q = (f'<div class="cquote">{esc(text)}</div>'
                  f'<div class="ccredit">— {esc(credit)}</div>')
         if fork:
@@ -539,7 +545,8 @@ FURNITURE_KEYS = {
     "h",            # a comparison-row header label ("speaks to", "trusts")
     "x_label", "y_label",  # chart axis names (locators)
 }
-CONFIG_KEYS = {"accent", "quote_ref", "independence", "pole"}  # non-display tokens (style/graph refs) — pass through untraced; refs are gated where consumed
+CONFIG_KEYS = {"accent", "quote_ref", "independence", "pole",
+               "ref", "excerpt"}  # non-display tokens (style/graph refs) — pass through untraced; refs are gated where consumed (ref/excerpt are sub-keys of a quote_ref mapping)
 
 
 def resolve_copy(node, g, ctx, key=None):
@@ -668,7 +675,7 @@ h2.title {{ font-family:'Lora'; font-weight:600; font-size:20pt; line-height:1.1
 p {{ font-size:11.2pt; line-height:1.52; color:{INK2}; margin:0 0 8px; }}
 p.lead {{ font-size:12.2pt; color:{INK}; }}
 em {{ color:{INK}; }}
-.fig {{ margin:8px 0 6px; break-inside:avoid; }}
+.fig {{ margin:6px 0 4px; break-inside:avoid; }}
 .cap {{ font-family:'Poppins'; font-size:8.6pt; line-height:1.5; color:{INK3}; text-align:center;
         margin:6px auto 0; max-width:150mm; }}
 .cap b {{ color:{INK2}; font-weight:600; }}
@@ -728,7 +735,7 @@ em {{ color:{INK}; }}
 .ctitle {{ font-family:'Lora'; font-weight:600; font-size:13.5pt; color:{INK}; margin-bottom:8px; }}
 .cquote {{ font-family:'Lora'; font-style:italic; font-size:10.6pt; line-height:1.5; color:{INK}; }}
 .ccredit {{ font-family:'Poppins'; font-size:7.6pt; letter-spacing:.4px; color:{INK3}; margin:5px 0 10px; }}
-.crow {{ margin-bottom:8px; }}
+.crow {{ margin-bottom:6px; }}
 .ch {{ font-family:'Poppins'; font-weight:600; font-size:7.8pt; letter-spacing:1.2px;
   text-transform:uppercase; color:{INK3}; }}
 .cv {{ font-family:'Lora'; font-size:10.2pt; line-height:1.45; color:{INK2}; }}

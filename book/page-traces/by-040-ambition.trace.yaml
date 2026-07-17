@@ -1,5 +1,5 @@
 page: by-040-ambition
-form: trade-off-spectrum
+form: comparison-columns
 edition: building-years-v0.2.0
 blocks:
 - type: editorial
@@ -15,78 +15,73 @@ blocks:
   adjudication:
   - ops/adjudications/2026-07-07-gateE-by040-050.md
   status: approved-for-package-01v2
-- type: assertion:source-summary
-  id: a-0021
+- type: editorial
   field: intro
-  sources:
-    claim_refs:
-    - c-0014
-    - c-0015
-  adjudication:
-  - ops/adjudications/2026-07-07-gateE-by040-050.md
-  status: approved-for-package-01v2
-- type: editorial
-  field: left
-  chars: 8
-  text: Striving
-- type: editorial
-  field: right
-  chars: 11
-  text: Contentment
-- type: editorial
-  field: left_curdle
-  chars: 53
-  text: Faust's forfeit — a life spent arriving, never living
-- type: editorial
-  field: right_curdle
-  chars: 55
-  text: quiet desperation — resignation wearing peace's clothes
-- type: editorial
-  field: note
-  chars: 179
-  text: 'Your answer is a spot on this line, and it moves as life moves — and the ditch takes more than one shape:
-    driven-ness that never stops, quiet giving-up, and forever getting ready.'
-- type: editorial
+  chars: 74
+  text: The same restlessness, an older voice insists, need not be a wager at all.
+- type: assertion:relation-summary
+  id: a-0030
   field: caption
-  chars: 256
-  text: A trade-off, drawn in <b>equal colour — neither end is the wiser one here</b>. Both are good; both go sour
-    if you overdo them. Where you stand is a call you'll <b>tend</b> to remake each decade, and this book holds
-    honest voices for every spot on the line.
-- type: assertion:source-summary
-  id: a-0022
-  field: outro
   sources:
     claim_refs:
     - c-0011
+    - c-0022
+    - c-0015
+    relation_refs:
+    - e-0023
+    - e-0009
   adjudication:
-  - ops/adjudications/2026-07-07-gateE-by040-050.md
+  - ops/adjudications/2026-07-16-fork-ambition-by040.md
   status: approved-for-package-01v2
 - type: editorial
-  field: lesson
-  chars: 67
-  text: Ask your striving what it's for. Ask your peace what it's avoiding.
+  field: caption
+  chars: 141
+  text: The <b>take it when*</b> rows are the book's hypotheses, not sourced findings — they live in the fork object
+    (f-0002) as untested conditions.
+- type: editorial
+  field: caption
+  chars: 74
+  text: <b>Ask your striving what it's for. Ask your peace what it's avoiding.</b>
 - type: verbatim-quote
-  claim: c-0014
-  unit: u-0014
-  field: quotation
-  gate:
-    attribution: verified-primary
-    copyright: public-domain
-    rights_status: unit-flag:public-domain
-    spdx: null
-    checked_against: 'https://www.gutenberg.org/cache/epub/205/pg205.txt · Walden, and On The Duty Of Civil Disobedience,
-      Project Gutenberg #2'
-  excerpted: false
-- type: verbatim-quote
-  claim: c-0015
-  unit: u-0015
+  claim: c-0011
+  unit: u-0011
   field: quotation_translation
   gate:
     attribution: verified-primary
     copyright: public-domain
     rights_status: unit-flag:public-domain
     spdx: null
-    checked_against: 'https://www.gutenberg.org/cache/epub/18269/pg18269.txt · Pascal''s Pensées, trans. W. F. Trotter,
-      Project Gutenberg #1826'
+    checked_against: 'https://www.gutenberg.org/cache/epub/10/pg10.txt · Project Gutenberg ebook #10, KJV, Ecclesiastes
+      ch. 2 · matched text: '
   excerpted: false
+- type: fork-pole
+  fork: f-0002
+  pole: serve
+  fields:
+  - label
+  - speaks_to
+  - trusts
+  - failure_mode
+  condition: hypothesised
+- type: verbatim-quote
+  claim: c-0022
+  unit: u-0022
+  field: quotation_translation
+  gate:
+    attribution: verified-primary
+    copyright: public-domain
+    rights_status: unit-flag:public-domain
+    spdx: null
+    checked_against: 'https://www.gutenberg.org/cache/epub/2229/pg2229.txt · Project Gutenberg #2229, Faust: Der
+      Tragödie erster Teil, public '
+  excerpted: true
+- type: fork-pole
+  fork: f-0002
+  pole: wager
+  fields:
+  - label
+  - speaks_to
+  - trusts
+  - failure_mode
+  condition: hypothesised
 furniture_strings: 1

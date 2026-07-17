@@ -288,10 +288,14 @@ def main():
             for r in spec.get("refs") or []:
                 if r not in claims and r not in units:
                     errors.append(f"{rel}: ref {r} does not exist")
-            # column quote_refs are declared too
+            # column quote_refs are declared too (may be a bare id or {ref, excerpt})
             for col in (spec.get("copy", {}).get("columns") or []):
-                if col.get("quote_ref"):
-                    declared.add(col["quote_ref"])
+                qr = col.get("quote_ref")
+                if qr:
+                    ref = qr["ref"] if isinstance(qr, dict) else qr
+                    declared.add(ref)
+                    if ref not in claims:
+                        errors.append(f"{rel}: column quote_ref {ref} does not exist")
             for item in spec.get("body") or []:
                 if isinstance(item, dict) and "assert" in item:
                     aid = item["assert"]
