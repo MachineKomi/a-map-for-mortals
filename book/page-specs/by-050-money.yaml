@@ -5,7 +5,7 @@ form: threshold-curve
 traced: true
 refs: [c-0026, c-0027, c-0013]
 register: {reading_level: adult, density: high, colour_energy: low}
-verbatim_quotes: [c-0013]
+verbatim_quotes: [{ref: c-0013, excerpt: "We have already seen, in general, that what a man is contributes much more to his happiness than what he has, or how he is regarded by others."}]
 copy:
   eyebrow: "FORK TWO · WHAT THE STUDIES SAY ABOUT MONEY"
   title: {editorial: "What money tracks — a contested association"}
@@ -13,12 +13,24 @@ copy:
     - assert: a-0023
   x_label: "household income (log scale)"
   y_label: "experienced well-being"
-  band_label: {editorial: "flattening band\n($100k–$200k,\ncontested)"}
-  main_label: {editorial: "upper quantiles:\nkeep rising"}
-  minority_label: {editorial: "lower quantiles:\nflatter above ~$100k"}
+  contested_band:
+    from: 0.50        # ~$100k
+    to: 0.80          # ~$200k
+    label: "where the flattening sits\ndepends on the model"
+  curves:
+    - breakpoint: 0.55          # ~$100k — KKM 2023 / Rohrer-Wenz 2024 lower-quantile reading
+      after: 0.03               # lower conditional quantiles flatten (near-flat tail)
+      style: solid
+      color: PINK
+      label: "flattening ~$100k\n(lower conditional quantiles)"
+    - breakpoint: 0.76          # ~$200k — Bennedsen 2024
+      after: 0.13               # keeps climbing past the ~$100k break, then plateaus later/higher
+      style: dashed
+      color: ORANGE
+      label: "plateau ~$200k\n(Bennedsen 2024)"
   caption:
-    - editorial: "<b>Schematic curves — one model's direction, not plotted data; competing analyses place the flattening differently (below).</b>"
+    - editorial: "<b>Schematic curves — competing models' directions, not plotted data.</b> Below the band they agree; inside it, they don't."
     - assert: a-0024
   outro:
     - assert: a-0025
-notes: "Threshold-curve form (§6 C). RE-ADJUDICATED against verified primary sources 2026-07-07 (round-3 P0-7): labels use conditional-quantile language (not 'unhappiest ~15–20%', which read a distributional result as a subgroup of people — the exact overreading Rohrer & Wenz 2024 flag); band spans the contested $100k–$200k range (Bennedsen 2024); title now association language; a-0024/a-0025 re-adjudicated. DOSSIER-BACKED 2026-07-08: the empirical dossier `d-0002` (KKM 2023 / Rohrer-Wenz 2024 / Bennedsen 2024, with permitted/prohibited inferences) now structurally backs a-0024 (findings) and a-0025 (synthesis), both carrying `dossier_ref: d-0002`. OWED (still not done, honestly): a chart that draws the competing (~$200k Bennedsen) model shape alongside the ~$100k reading — the figure still shows one curve. See ops/adjudications/2026-07-07-gateE-by040-050.md and d-0002."
+notes: "Threshold-curve form (§6 C). RE-ADJUDICATED against verified primary sources 2026-07-07 (round-3 P0-7): labels use conditional-quantile language (not 'unhappiest ~15–20%', which read a distributional result as a subgroup of people — the exact overreading Rohrer & Wenz 2024 flag); title is association language; a-0024/a-0025 re-adjudicated. DOSSIER-BACKED 2026-07-08: the empirical dossier `d-0002` (KKM 2023 / Rohrer-Wenz 2024 / Bennedsen 2024, with permitted/prohibited inferences) structurally backs a-0024 (findings) and a-0025 (synthesis), both carrying `dossier_ref: d-0002`. COMPETING-MODEL CHART 2026-07-17 (closes the owed item recorded in d-0002 and ops/adjudications/2026-07-07-gateE-by040-050.md): the figure now draws BOTH model shapes over a shared log-income axis — a solid 'flattening ~$100k' curve (KKM/Rohrer-Wenz lower-conditional-quantile reading) and a dashed 'plateau ~$200k' curve (Bennedsen 2024) — with a wide contested band spanning $100k–$200k. Both curves rise together below the band (the one permitted inference: experienced well-being tracks log-income), then diverge inside it. The figure shows the contest the caption/dossier describe instead of declaring one curve 'the' result. Schematic — model directions, never plotted data; no causal claim; the lower-quantile subtlety stays in the label, not misrepresented as a subgroup of people. See ops/adjudications/2026-07-17-by050-competing-chart.md."

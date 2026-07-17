@@ -314,32 +314,87 @@ def form_spectrum(spec, g):
 
 
 def form_threshold_curve(spec, g):
-    """Dose-response with an honest contested band (SPEC §6 C)."""
+    """Dose-response curve(s) with an honest contested band (SPEC §6 C).
+
+    Two config shapes are supported (form follows content):
+      LEGACY (single model): copy holds x_label/y_label/band_label/main_label/
+        minority_label — one solid + one dashed schematic curve at a fixed band.
+      COMPETING MODELS: copy holds x_label/y_label/curves[] (each {breakpoint,
+        after, style, label, color}) + contested_band {from, to, label}. Curves
+        share a log-income rise below their breakpoint then take their `after`
+        slope — schematic model DIRECTIONS, never plotted data. Used by the
+        money page to show the ~$100k vs ~$200k plateau contest the dossier
+        (d-0002) records, so the figure shows the disagreement the caption
+        describes instead of declaring one curve 'the' result.
+    """
     c = spec["copy"]
-    W, H = 760, 300
+    W, H = 760, 270
     x0, y0, x1, y1 = 90, 250, 700, 46
+    span = x1 - x0 - 60
+    rise = y0 - y1
+    px = lambda t: x0 + 26 + t * span
+    # log-income rise (the one thing all models agree on): well-being ~ log(income)
+    log_rise = lambda t: math.log1p(9 * t) / math.log(10)
     b = [f'<line x1="{x0}" y1="{y0}" x2="{x1}" y2="{y0}" stroke="{INK2}" stroke-width="1.6"/>',
          f'<line x1="{x0}" y1="{y0}" x2="{x0}" y2="{y1}" stroke="{INK2}" stroke-width="1.6"/>',
          tlines(c["x_label"], (x0 + x1) / 2, y0 + 34, 0, 11, INK2, 500),
          tlines(c["y_label"], x0 - 14, y1 - 18, 0, 11, INK2, 500, anchor="start")]
-    pts = []
-    for i in range(31):
-        t = i / 30
-        pts.append((x0 + 26 + t * (x1 - x0 - 60), y0 - 36 - (y0 - y1 - 120) * math.log1p(9 * t) / math.log(10)))
-    b.append('<polyline points="' + " ".join(f"{x:.0f},{y:.0f}" for x, y in pts) +
-             f'" fill="none" stroke="{PINK}" stroke-width="3.2"/>')
-    pts2 = []
-    for i in range(31):
-        t = i / 30
-        base = math.log1p(9 * min(t, 0.55)) / math.log(10) + (0.05 * (t - 0.55) if t > 0.55 else 0)
-        pts2.append((x0 + 26 + t * (x1 - x0 - 60), y0 - 20 - (y0 - y1 - 190) * base))
-    b.append('<polyline points="' + " ".join(f"{x:.0f},{y:.0f}" for x, y in pts2) +
-             f'" fill="none" stroke="{ORANGE}" stroke-width="2.6" stroke-dasharray="7 5"/>')
-    bx = x0 + 26 + 0.55 * (x1 - x0 - 60)
-    b.append(f'<rect x="{bx - 34:.0f}" y="{y1}" width="88" height="{y0 - y1}" fill="{ORANGE_T}" opacity="0.55"/>')
-    b.append(tlines(c["band_label"], bx + 10, y1 + 16, 13, 9.5, "#8a4a26", 500))
-    b.append(tlines(c["main_label"], x1 - 4, pts[-1][1] - 16, 13, 10.5, PINK, 600, anchor="end"))
-    b.append(tlines(c["minority_label"], x1 - 4, pts2[-1][1] + 26, 13, 10.5, "#b85a30", 600, anchor="end"))
+
+    if c.get("curves"):
+        # --- contested band first (behind the curves) ---
+        cb = c["contested_band"]
+        bx0 = px(cb["from"])
+        bx1 = px(cb["to"])
+        b.append(f'<rect x="{bx0:.0f}" y="{y1}" width="{bx1 - bx0:.0f}" height="{y0 - y1}" '
+                 f'fill="{ORANGE_T}" opacity="0.5"/>')
+        bcx = (bx0 + bx1) / 2
+        b.append(tlines(cb["label"], bcx, y1 + 14, 12, 8.6, "#8a4a26", 500))
+        # --- competing model curves ---
+        _palette = {"PINK": PINK, "ORANGE": ORANGE, "INK": INK, "INK2": INK2}
+        end_pts = []
+        for cv in c["curves"]:
+            brk = cv["breakpoint"]      # t in [0,1] where this model's plateau begins
+            after = cv["after"]         # residual slope fraction after the breakpoint (0=flat)
+            color = _palette.get(cv.get("color", "PINK"), PINK)
+            dash = ' stroke-dasharray="7 5"' if cv.get("style") == "dashed" else ""
+            pts = []
+            for i in range(41):
+                t = i / 40
+                if t <= brk:
+                    v = log_rise(t)
+                else:
+                    # continue from the value at brk, add a small linear tail (`after`)
+                    v = log_rise(brk) + after * log_rise(1.0) * (t - brk) / (1.0 - brk)
+                pts.append((px(t), y0 - 24 - (rise - 140) * v))
+            b.append('<polyline points="' + " ".join(f"{x:.0f},{y:.0f}" for x, y in pts) +
+                     f'" fill="none" stroke="{color}" stroke-width="2.8"{dash}/>')
+            end_pts.append((cv, pts[-1]))
+        # labels at each curve's right end, stacked to avoid overlap
+        for idx, (cv, (ex, ey)) in enumerate(sorted(end_pts, key=lambda e: e[1][1])):
+            anchor = "end"
+            ly = ey - 14 - idx * 26
+            lcol = _palette.get(cv.get("color", "PINK"), PINK)
+            b.append(tlines(cv["label"], x1 - 4, ly, 12, 10, lcol, 600, anchor=anchor))
+    else:
+        # --- legacy single-model path (unchanged behaviour) ---
+        pts = []
+        for i in range(31):
+            t = i / 30
+            pts.append((px(t), y0 - 36 - (rise - 120) * log_rise(t)))
+        b.append('<polyline points="' + " ".join(f"{x:.0f},{y:.0f}" for x, y in pts) +
+                 f'" fill="none" stroke="{PINK}" stroke-width="3.2"/>')
+        pts2 = []
+        for i in range(31):
+            t = i / 30
+            base = log_rise(min(t, 0.55)) + (0.05 * (t - 0.55) if t > 0.55 else 0)
+            pts2.append((px(t), y0 - 20 - (rise - 190) * base))
+        b.append('<polyline points="' + " ".join(f"{x:.0f},{y:.0f}" for x, y in pts2) +
+                 f'" fill="none" stroke="{ORANGE}" stroke-width="2.6" stroke-dasharray="7 5"/>')
+        bx = px(0.55)
+        b.append(f'<rect x="{bx - 34:.0f}" y="{y1}" width="88" height="{y0 - y1}" fill="{ORANGE_T}" opacity="0.55"/>')
+        b.append(tlines(c["band_label"], bx + 10, y1 + 16, 13, 9.5, "#8a4a26", 500))
+        b.append(tlines(c["main_label"], x1 - 4, pts[-1][1] - 16, 13, 10.5, PINK, 600, anchor="end"))
+        b.append(tlines(c["minority_label"], x1 - 4, pts2[-1][1] + 26, 13, 10.5, "#b85a30", 600, anchor="end"))
     return svg(W, H, "".join(b))
 
 
@@ -544,9 +599,13 @@ FURNITURE_KEYS = {
     "name",         # a voice's source name (locator, e.g. "Epictetus")
     "h",            # a comparison-row header label ("speaks to", "trusts")
     "x_label", "y_label",  # chart axis names (locators)
+    "label",        # figure-internal curve/band labels (locators, like axis names)
 }
+# non-display tokens (style/graph refs) — pass through untraced; refs are gated where consumed.
+# ref/excerpt are sub-keys of a quote_ref mapping; style/color/breakpoint/after/from/to
+# configure a threshold-curve's competing curves and contested band.
 CONFIG_KEYS = {"accent", "quote_ref", "independence", "pole",
-               "ref", "excerpt"}  # non-display tokens (style/graph refs) — pass through untraced; refs are gated where consumed (ref/excerpt are sub-keys of a quote_ref mapping)
+               "ref", "excerpt", "style", "color", "breakpoint", "after", "from", "to"}
 
 
 def resolve_copy(node, g, ctx, key=None):
