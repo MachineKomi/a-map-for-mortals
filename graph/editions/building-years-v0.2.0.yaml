@@ -1,0 +1,99 @@
+# Edition manifest — frozen 2026-07-17. See runbook P8 / METHODOLOGY §1.
+# Cut by tools/cut_edition.py; the git tag 'building-years-v0.2.0' pins the exact commit.
+id: building-years-v0.2.0
+cut_date: '2026-07-17'
+status: frozen
+scope: The Building Years chapter (9 page-specs) — the walking-skeleton stress chapter.
+  NOT the complete book v1 (the corpus-wide S3/S4 clustering is pending).
+included_page_specs:
+- by-010-opener
+- by-020-carrying
+- by-030-judgment
+- by-040-ambition
+- by-050-money
+- by-060-time
+- by-070-suffering
+- by-080-help
+- by-090-close
+store_counts:
+  units: 488
+  units_by_attribution:
+    verified-secondary: 9
+    verified-primary: 24
+    attested: 422
+    apocryphal: 2
+    communal: 25
+    dubious: 6
+  units_by_verification:
+    pending-primary: 452
+    verified-primary: 28
+    verified-secondary: 8
+  units_by_copyright:
+    public-domain: 179
+    unknown: 98
+    in-copyright: 211
+  claims: 34
+  claims_by_status:
+    candidate: 1
+    adjudicated: 33
+  edges: 23
+  assertions: 30
+  forks: 2
+  dossiers: 2
+render:
+  html: book\renders\building-years-v0.2.0.html
+  html_sha256: ec39ce9671aaf7dead178905e4de4426dfcc2e013e08320bff9e2b7c52932cec
+  pdf: book\renders\building-years-v0.2.0.pdf
+  pdf_sha256: 21b38ead4c273cf3aac0ed626de574370bc893a37ceb0630c95f0a8ba9cfbc86
+  pdf_bytes: 99525
+  note: The HTML is the generator's deterministic output and is the reproducibility
+    anchor (re-running build_book.py reproduces it byte-identical). The PDF is a WeasyPrint
+    projection that embeds a creation timestamp, so its hash varies across renders
+    even for identical content; verify content via the HTML hash.
+ingredient_hashes:
+  graph/units:
+    files: 488
+    sha256: f4b62a444649467d935ae4818e2ceb55690e52b7661d66a54132aa882e7a9f66
+  graph/claims:
+    files: 34
+    sha256: 122d3e61bfd5b724009b492b9ef4cad686397dd27da6c39cc7a3aff465b39680
+  graph/edges:
+    files: 23
+    sha256: ddc46cdde7c8f8bc86285970fb5cd4d4073f92c3733aa63c742e00d8050443b0
+  graph/assertions:
+    files: 30
+    sha256: 20844f32525231a852c480e25975d2198d2f0334a935223ec2c159e865516523
+  graph/forks:
+    files: 2
+    sha256: 87fa71e56b934ee36a7c256d9eca4e351ff14406444b6c5886b64a0331272c3e
+  graph/dossiers:
+    files: 2
+    sha256: 3a87896e9a1e15839addb9a4e315d73747cf8473174f97d72a17eeeddfbfe5b5
+  graph/interpretations:
+    files: 3
+    sha256: fe36095441341c7a36f9e8fbacc36371fe8b5b9e435814f5fd715d777944ffc5
+  book/page-specs:
+    files: 9
+    sha256: c42a242f6acc2bea5700a97995ab11d227347eeb1b2ce26b3e3fe254497ed0f5
+  book/generator/build_book.py:
+    sha256: df77322365019d04f2c3180bb2c39029d2c8e471599289a24039242dc443b61b
+  graph/approvals/building-years-v0.2.0.yaml:
+    sha256: 4f239d5ba6f3088e996d4c4916a9c9c925900af6d3227e7ae243d3d678490a1a
+reproducibility: From the tagged commit, re-running `python book/generator/build_book.py`
+  must reproduce a PDF whose sha256 matches render.pdf_sha256. Every store ingredient's
+  concatenated sha256 is recorded under ingredient_hashes; any later edit to a unit,
+  claim, edge, assertion, fork, dossier, page-spec, or the generator itself is detectable
+  as a hash mismatch against this manifest.
+known_limits:
+- 'Skeleton-scale claims/edges only (33 claims, 23 edges) — the 454 units minted in
+  P4/wave-3 carry claim_id: null until the corpus-wide S3/S4 pass.'
+- Content under re-adjudication per external review round 3; this is a traced-system
+  proof + stress-page rebuild, not a Gate-E epistemic proof.
+- Wave-3 units (u-0347..u-0487) are attested/pending-primary and in-copyright — not
+  print-gate candidates; their insights reach a page only as paraphrase, never verbatim.
+note: 'First hash-closed mini-edition (recovery #5). The Building Years stress chapter
+  after the round-3 recovery: stress-page rebuilds complete (fork objects f-0001/f-0002,
+  empirical dossier d-0002, competing-model chart, adversarial passes on pages 2/7/8).
+  Skeleton-scale graph (33 claims/23 edges); corpus-wide S3/S4 pending. Cut after
+  E-0003 confirmed (methodology settled). HTML hash is the reproducibility anchor
+  (PDF carries creation timestamp).'
