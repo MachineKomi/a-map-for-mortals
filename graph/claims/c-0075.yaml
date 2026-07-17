@@ -1,21 +1,21 @@
 id: c-0075
-canonical_claim: "If it is in our power to prevent something very bad at little cost to ourselves, we ought to do it — and distance and numbers do not lessen the obligation."
+canonical_claim: "If it is in our power to prevent something bad without sacrificing anything of comparable moral importance, we ought to do it."
 claim_type: normative
 polarity: prescriptive
 conditionality: contested
-member_units: [u-0455, u-0456]
+member_units: [u-0456]
 robustness_profile:
   recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress; no independent convergence graded yet"}
   source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
   temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
-  claim_type_dim: {rating: moderate, certainty: high, basis: "normative — Singer's rescue principle; the paradigmatic demandingness example"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "normative — Singer's strong rescue maxim (the demanding version, to the threshold of comparable-moral-importance sacrifice)"}
   empirical_support: {rating: low, certainty: low, basis: "no direct empirical test wired"}
   contestation: {rating: high, certainty: moderate, basis: "the demandingness objection; conditionality: contested"}
   attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by wave-3 report; not yet primary-verified"}
-  survives_scrutiny: {rating: moderate, certainty: low, basis: "no known refutation; over-application risk noted"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "no known refutation; the demandingness objection is the standing critique"}
 status: adjudicated  # publish-ready SUSPENDED per round-3
 prov:
   minted_by: "claude-code:s3-wave3-v1"
-  adversarial_pass: "queued"
+  adversarial_pass: "fresh-context subagent 2026-07-17 (shared weights, disclosed) — SPLIT applied: u-0455 removed to c-0080"
   date: 2026-07-17
-notes: "MERGE (FLAGGED FOR ADVERSARIAL REVIEW). u-0455 (pond illustration: 'distance and numbers do not lessen the obligation') and u-0456 (formal maxim: 'prevent something bad without sacrificing anything of comparable moral importance') both state Singer's rescue principle from the same 1972 paper (Famine, Affluence, and Morality) — u-0456 is the underlying principle, u-0455 its canonical illustration plus the distance/numbers corollaries. Same proposition, same author, same work, same year — merged per the task's own example ('two units both restating Singer's rescue principle'). Both members agree on claim_type (normative), polarity (prescriptive), conditionality (contested). If the adversarial pass judges the distance/numbers corollary a DISTINCT sub-claim, split back to two singletons. Singer (1972)."
+notes: "Singer's FORMAL rescue maxim (Famine, Affluence, and Morality, 1972) — the strong/demanding version: the obligation holds up to the point of 'comparable moral importance' sacrifice. SPLIT from u-0455 by adversarial pass 2026-07-17: the merged canonical had silently adopted u-0455's weaker 'little cost' framing and dropped this demanding core — a real distortion. u-0455 (the pond illustration + the distance/numbers corollary) is now its own claim c-0080. The two propositions differ in demandingness threshold; same-paper is not sufficient to merge when the propositions differ (cardinal rule: splitting reversible, bad merges poison)."

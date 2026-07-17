@@ -1,0 +1,21 @@
+id: c-0080
+canonical_claim: "If you can prevent something very bad at little cost to yourself you must — and distance and numbers do not lessen the obligation."
+claim_type: normative
+polarity: prescriptive
+conditionality: contested
+member_units: [u-0455]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress; no independent convergence graded yet"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "normative — Singer's pond illustration + the anti-proximity/anti-numbers corollary"}
+  empirical_support: {rating: low, certainty: low, basis: "no direct empirical test wired"}
+  contestation: {rating: high, certainty: moderate, basis: "the demandingness objection; conditionality: contested"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by wave-3 report; not yet primary-verified"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "no known refutation; over-application risk noted"}
+status: adjudicated  # publish-ready SUSPENDED per round-3
+prov:
+  minted_by: "claude-code:s3-wave3-v1"
+  adversarial_pass: "fresh-context subagent 2026-07-17 (shared weights, disclosed) — SPLIT out of c-0075"
+  date: 2026-07-17
+notes: "Singer's pond illustration (the easy/undisputed case, bootstrapping agreement) PLUS the distinct corollary that distance and numbers do not lessen the obligation (Famine, Affluence, and Morality, 1972). SPLIT from c-0075 by adversarial pass 2026-07-17: this is the weaker-threshold ('little cost') version plus an independent sub-thesis, not the same proposition as c-0075's strong maxim ('comparable moral importance'). Related to c-0075 as illustration-to-principle; an S4 REFINES or ADDRESSES edge may link them. The corollary is what extends the pond case to global famine."
