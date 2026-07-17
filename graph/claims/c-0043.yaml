@@ -1,0 +1,21 @@
+id: c-0043
+canonical_claim: "Natural existential risks are real but small, since we have survived 2,000 centuries of them, while the dominant modern risks are anthropogenic — especially unaligned AI and engineered pandemics."
+claim_type: empirical
+polarity: cautionary
+conditionality: conditional
+member_units: [u-0383]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress; no independent convergence graded yet"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "empirical taxonomy — natural-risk bounds well-grounded, anthropogenic estimates speculative and not of equal epistemic status"}
+  empirical_support: {rating: low, certainty: moderate, basis: "natural bounds from survival over 2,000 centuries; anthropogenic figures more speculative"}
+  contestation: {rating: moderate, certainty: moderate, basis: "natural figures contested too: Salotti (2022) ~1-in-300M extinction-level asteroid vs Ord ~1-in-1M"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by wave-3 report; not yet primary-verified"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "no known refutation; over-application risk noted"}
+status: adjudicated  # publish-ready SUSPENDED per round-3
+prov:
+  minted_by: "claude-code:s3-wave3-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-17
+notes: "Singleton. Ord natural-vs-anthropogenic risk taxonomy (The Precipice chs.3-5, 2020). Distinguish well-grounded natural bounds from speculative anthropogenic estimates. claim_type empirical (per unit)."

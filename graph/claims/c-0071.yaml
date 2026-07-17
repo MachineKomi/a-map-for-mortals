@@ -1,0 +1,21 @@
+id: c-0071
+canonical_claim: "Fallibilism plus value-pluralism: knowledge is provisional and many ways of life are worthwhile, yet not everything goes."
+claim_type: normative
+polarity: prescriptive
+conditionality: conditional
+member_units: [u-0451]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress; no independent convergence graded yet"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "normative/epistemic — Appiah is a value-pluralist, NOT a relativist"}
+  empirical_support: {rating: low, certainty: low, basis: "no direct empirical test wired"}
+  contestation: {rating: moderate, certainty: moderate, basis: "argued epistemic/normative position; conditionality: conditional"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by wave-3 report; not yet primary-verified"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "no known refutation; over-application risk noted"}
+status: adjudicated  # publish-ready SUSPENDED per round-3
+prov:
+  minted_by: "claude-code:s3-wave3-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-17
+notes: "Singleton. Appiah fallibilism + value-pluralism (Cosmopolitanism p.144, 2006). Appiah is a value-pluralist, NOT a relativist. claim_type normative (epistemic not a canonical enum value; normative load-bearing, per unit)."

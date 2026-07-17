@@ -1,0 +1,21 @@
+id: c-0049
+canonical_claim: "Longtermist expected-value reasoning risks fanaticism: tiny probabilities of astronomically large payoffs could dominate every decision — the structure of 'Pascal's mugging' — though defenders reply the strongest case does not depend on such minuscule probabilities."
+claim_type: normative
+polarity: cautionary
+conditionality: contested
+member_units: [u-0390]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress; no independent convergence graded yet"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "normative — both internal (Bostrom himself named Pascal's mugging) and external critique"}
+  empirical_support: {rating: low, certainty: low, basis: "no direct empirical test wired"}
+  contestation: {rating: high, certainty: moderate, basis: "internal and external critique; Tarsney's models show the case is robust on non-tiny probabilities but depends on 'Pascalian' ones on some worldviews"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by wave-3 report; not yet primary-verified"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "no known refutation; over-application risk noted"}
+status: adjudicated  # publish-ready SUSPENDED per round-3
+prov:
+  minted_by: "claude-code:s3-wave3-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-17
+notes: "Singleton. Fanaticism / Pascal's-mugging critique of longtermist EV reasoning (Bostrom 2009; Yudkowsky 2007; Tarsney 2023; Crary 2023). Both internal and external critique. claim_type normative (per unit)."

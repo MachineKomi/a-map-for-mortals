@@ -1,0 +1,21 @@
+id: c-0053
+canonical_claim: "One can say yes to life even amid pain, guilt, and death — an earned optimism that does not deny the tragic."
+claim_type: normative
+polarity: prescriptive
+conditionality: conditional
+member_units: [u-0433]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress; no independent convergence graded yet"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "normative — Frankl's 'tragic optimism' stance"}
+  empirical_support: {rating: low, certainty: low, basis: "no direct empirical test wired"}
+  contestation: {rating: moderate, certainty: moderate, basis: "interpretive/phenomenological stance; conditionality: conditional"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by wave-3 report; not yet primary-verified"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "no known refutation; over-application risk noted"}
+status: adjudicated  # publish-ready SUSPENDED per round-3
+prov:
+  minted_by: "claude-code:s3-wave3-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-17
+notes: "Singleton. Frankl 'tragic optimism' (1984 postscript to Man's Search for Meaning). claim_type normative (per unit). DISTINCT from c-0050 (the suffering-attitude mechanism): this is the broader yes-to-life stance across pain, guilt, and death."

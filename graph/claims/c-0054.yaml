@@ -1,0 +1,21 @@
+id: c-0054
+canonical_claim: "Logotherapy proposes clinical techniques — paradoxical intention and dereflection — for meaning-based (noogenic) neuroses."
+claim_type: empirical
+polarity: descriptive
+conditionality: contested
+member_units: [u-0434]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress; no independent convergence graded yet"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "empirical — clinical-efficacy claim; thin evidence base"}
+  empirical_support: {rating: low, certainty: moderate, basis: "THIN EVIDENCE BASE: Hong et al. meta-analysis (2025) reports positive effects but weak methodology (4 RCTs of 19 studies, heterogeneity, Korea predominance); Thir & Batthyany review base still developing"}
+  contestation: {rating: high, certainty: moderate, basis: "Pytell calls logotherapy 'authoritarian'; efficacy contested; conditionality: contested"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by wave-3 report; not yet primary-verified"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "no known refutation; over-application risk noted — keep DISTINCT from the philosophy of meaning (c-0050..c-0053)"}
+status: adjudicated  # publish-ready SUSPENDED per round-3
+prov:
+  minted_by: "claude-code:s3-wave3-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-17
+notes: "Singleton. Frankl logotherapy clinical techniques (The Will to Meaning, 1969). THIN EVIDENCE BASE — high confidence Frankl proposed these, LOW that efficacy is established. Keep the clinical claim DISTINCT from the philosophy of meaning. claim_type empirical (per unit)."

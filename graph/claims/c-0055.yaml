@@ -1,0 +1,21 @@
+id: c-0055
+canonical_claim: "Much human striving is an unconscious defence against the terror of mortality, with culture and heroism as systems that lend a sense of transcendence."
+claim_type: observational
+polarity: descriptive
+conditionality: conditional
+member_units: [u-0435]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress; no independent convergence graded yet"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "observational — interpretive/psychodynamic framework, not experimentally proven"}
+  empirical_support: {rating: low, certainty: low, basis: "Becker offers no experimental proof"}
+  contestation: {rating: moderate, certainty: moderate, basis: "interpretive framework; tested indirectly via TMT (c-0058), which is itself contested"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by wave-3 report; not yet primary-verified"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "no known refutation; over-application risk noted"}
+status: adjudicated  # publish-ready SUSPENDED per round-3
+prov:
+  minted_by: "claude-code:s3-wave3-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-17
+notes: "Singleton. Becker mortality-terror thesis (The Denial of Death, 1973). Interpretive/psychodynamic framework. claim_type observational (per unit)."

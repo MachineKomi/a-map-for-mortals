@@ -1,0 +1,21 @@
+id: c-0035
+canonical_claim: "Intelligence and final goals are independent dimensions, so in principle a high level of intelligence could be paired with almost any final goal."
+claim_type: metaphysical
+polarity: cautionary
+conditionality: conditional
+member_units: [u-0375]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress; no independent convergence graded yet"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "metaphysical — a claim about the space of possible minds, not a forecast"}
+  empirical_support: {rating: low, certainty: low, basis: "no direct empirical test wired"}
+  contestation: {rating: moderate, certainty: moderate, basis: "Bostrom himself hedges ('more or less any'); absolute renderings flagged as imprecise on u-0375"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by wave-3 report; not yet primary-verified"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "no known refutation; over-application risk noted"}
+status: adjudicated  # publish-ready SUSPENDED per round-3
+prov:
+  minted_by: "claude-code:s3-wave3-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-17
+notes: "Singleton. Bostrom orthogonality thesis (The Superintelligent Will, 2012). An argument about possible minds, not a prediction. claim_type metaphysical (per unit)."

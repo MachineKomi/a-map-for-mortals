@@ -1,0 +1,21 @@
+id: c-0037
+canonical_claim: "Controlling a superintelligence is a unique principal-agent problem requiring capability control or motivation selection, to be solved before takeoff."
+claim_type: prudential
+polarity: cautionary
+conditionality: conditional
+member_units: [u-0377]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress; no independent convergence graded yet"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "prudential problem-frame; solutions presented as open problems"}
+  empirical_support: {rating: low, certainty: low, basis: "no direct empirical test wired"}
+  contestation: {rating: moderate, certainty: moderate, basis: "premised on fast takeoff and decisive strategic advantage (u-0378); contested by alternative takeoff models"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by wave-3 report; not yet primary-verified"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "no known refutation; over-application risk noted"}
+status: adjudicated  # publish-ready SUSPENDED per round-3
+prov:
+  minted_by: "claude-code:s3-wave3-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-17
+notes: "Singleton. Bostrom control problem (Superintelligence chs.9-10, 2014). 'Treacherous turn' is his coined scenario term. claim_type prudential (per unit)."

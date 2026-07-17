@@ -1,0 +1,21 @@
+id: c-0072
+canonical_claim: "Identity categories (creed, country, colour, class, culture) are real in their effects yet rest on essentialist fictions; they bind us with stories, not essences."
+claim_type: normative
+polarity: descriptive
+conditionality: conditional
+member_units: [u-0452]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress; no independent convergence graded yet"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "normative/interpretive — identities lack essences yet do real social work"}
+  empirical_support: {rating: low, certainty: low, basis: "no direct empirical test wired"}
+  contestation: {rating: moderate, certainty: moderate, basis: "interpretive thesis; conditionality: conditional"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by wave-3 report; not yet primary-verified"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "no known refutation; over-application risk noted"}
+status: adjudicated  # publish-ready SUSPENDED per round-3
+prov:
+  minted_by: "claude-code:s3-wave3-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-17
+notes: "Singleton. Appiah 'the lies that bind' (The Lies That Bind, 2018). DISTINCT from c-0073 (identities as reinventable scripts): this is the essences-vs-effects diagnosis, that the reinvention prescription. claim_type normative (per unit)."

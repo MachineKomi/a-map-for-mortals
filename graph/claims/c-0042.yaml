@@ -1,0 +1,21 @@
+id: c-0042
+canonical_claim: "A rough personal estimate of about a one-in-six chance of existential catastrophe this century, dominated by anthropogenic risks — an order-of-magnitude judgment, not a precise measurement."
+claim_type: empirical
+polarity: cautionary
+conditionality: conditional
+member_units: [u-0382]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress; no independent convergence graded yet"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "empirical but a SUBJECTIVE BAYESIAN estimate under deep uncertainty"}
+  empirical_support: {rating: low, certainty: moderate, basis: "subjective estimate, not a measurement; heavily caveated by Ord"}
+  contestation: {rating: high, certainty: moderate, basis: "the single most-cited and most-contested number in the field; critics (Thorstad, Fodor) argue several per-risk figures are too high"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by wave-3 report; not yet primary-verified"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "no known refutation; over-application risk noted — do not present as precise"}
+status: adjudicated  # publish-ready SUSPENDED per round-3
+prov:
+  minted_by: "claude-code:s3-wave3-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-17
+notes: "Singleton. Ord's ~1-in-6 (Russian roulette) estimate (The Precipice, 2020). Subjective Bayesian estimate, not a measurement. claim_type empirical (per unit)."

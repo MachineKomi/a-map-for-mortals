@@ -1,0 +1,27 @@
+# S3 candidate clusters — candidate-only; adjudicate MERGE/SPLIT each.
+generated: '2026-07-17'
+method: lexical Jaccard overlap >= 0.3 on content words, within primary life-domain.
+  CANDIDATE-ONLY — an adjudicator merges or splits each group. Bad merges poison;
+  splitting is reversible. Cross-check with embeddings deferred (sentence-transformers
+  not installed); disagreement -> keep split.
+threshold: 0.3
+unclustered_total: 454
+candidate_groups: 1
+units_in_groups: 2
+singletons: 452
+groups:
+- domain: ethics
+  avg_overlap: 0.37
+  units:
+  - id: u-0385
+    tradition: contemporary/longtermism
+    claim_type: normative
+    paraphrase: 'Longtermism holds that positively influencing the long-term future
+      is a key moral priority of our time, resting on three premises: future people
+      count, there may be very many of them, and we can make their lives go better.'
+  - id: u-0461
+    tradition: contemporary/effective-altruism
+    claim_type: normative
+    paraphrase: Longtermism holds that positively influencing the long-run future
+      is a key moral priority of our time; critics warn it can license neglect of
+      present suffering.

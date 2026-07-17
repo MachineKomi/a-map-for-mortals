@@ -1,0 +1,21 @@
+id: c-0044
+canonical_claim: "Because humanity's potential future is enormous — possibly millions of generations — safeguarding it is among the most important moral tasks of our time."
+claim_type: normative
+polarity: prescriptive
+conditionality: conditional
+member_units: [u-0384]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress; no independent convergence graded yet"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "normative — moral-priority argument from the scale of future value"}
+  empirical_support: {rating: low, certainty: low, basis: "no direct empirical test wired"}
+  contestation: {rating: moderate, certainty: moderate, basis: "Ord argues convergence across many moral traditions; critics dispute the convergence claim; Long Reflection criticized as dubious/impractical"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by wave-3 report; not yet primary-verified"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "no known refutation; over-application risk noted"}
+status: adjudicated  # publish-ready SUSPENDED per round-3
+prov:
+  minted_by: "claude-code:s3-wave3-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-17
+notes: "Singleton. Ord's case for safeguarding the long-term future (The Precipice chs.2,8, 2020). Kin to c-0034 (longtermism) but DISTINCT framing: this is Ord's moral-priority-from-enormous-future argument, not MacAskill's three-premise definition — kept split per cardinal rule. claim_type normative (per unit)."

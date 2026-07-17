@@ -1,0 +1,21 @@
+id: c-0051
+canonical_claim: "The primary human motivation is a striving to find meaning, rather than pleasure (Freud) or power (Adler)."
+claim_type: metaphysical
+polarity: prescriptive
+conditionality: contested
+member_units: [u-0431]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress; no independent convergence graded yet"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "metaphysical — asserted premise, not demonstrated; empirically weak as a universal-motivation claim"}
+  empirical_support: {rating: low, certainty: low, basis: "Frankl offers no proof that objective values exist; an asserted premise"}
+  contestation: {rating: moderate, certainty: moderate, basis: "empirically weak as a universal motivation claim; conditionality: contested"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by wave-3 report; not yet primary-verified"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "no known refutation; over-application risk noted"}
+status: adjudicated  # publish-ready SUSPENDED per round-3
+prov:
+  minted_by: "claude-code:s3-wave3-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-17
+notes: "Singleton. Frankl 'will to meaning' (The Will to Meaning, 1969). Asserted premise, not demonstrated. claim_type metaphysical (per unit)."

@@ -1,0 +1,21 @@
+id: c-0039
+canonical_claim: "Technological invention is like drawing balls from an urn: most are beneficial or mixed, but there may be a 'black ball' that by default devastates civilization — and we have avoided one so far by luck, not wisdom."
+claim_type: metaphysical
+polarity: cautionary
+conditionality: conditional
+member_units: [u-0379]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress; no independent convergence graded yet"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "metaphysical hypothesis about the space of possible technologies"}
+  empirical_support: {rating: low, certainty: low, basis: "no direct empirical test wired; explicitly an open question per Bostrom"}
+  contestation: {rating: moderate, certainty: moderate, basis: "Bostrom does NOT assert a black ball has been drawn; mass-surveillance stabilization is the most-criticized element (a dilemma, not an endorsement)"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by wave-3 report; not yet primary-verified"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "no known refutation; over-application risk noted"}
+status: adjudicated  # publish-ready SUSPENDED per round-3
+prov:
+  minted_by: "claude-code:s3-wave3-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-17
+notes: "Singleton. Bostrom vulnerable-world hypothesis (Global Policy 2019). Explicitly conditional, not an assertion. claim_type metaphysical (per unit)."

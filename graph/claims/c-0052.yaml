@@ -1,0 +1,21 @@
+id: c-0052
+canonical_claim: "Meaning is accessed in three ways: through creative work or deeds, through love and encounter, and through the stance taken toward unavoidable suffering."
+claim_type: prudential
+polarity: prescriptive
+conditionality: conditional
+member_units: [u-0432]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress; no independent convergence graded yet"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "prudential — Frankl's three-paths framework"}
+  empirical_support: {rating: low, certainty: low, basis: "no direct empirical test wired"}
+  contestation: {rating: moderate, certainty: moderate, basis: "interpretive framework; conditionality: conditional"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by wave-3 report; not yet primary-verified"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "no known refutation; over-application risk noted"}
+status: adjudicated  # publish-ready SUSPENDED per round-3
+prov:
+  minted_by: "claude-code:s3-wave3-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-17
+notes: "Singleton. Frankl's three paths to meaning (Man's Search for Meaning Part Two, 1984 ed.). claim_type prudential (per unit). DISTINCT from c-0050 (attitude-toward-suffering alone): this is the broader three-paths taxonomy, of which suffering is only one route."

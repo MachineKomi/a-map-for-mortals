@@ -1,0 +1,21 @@
+id: c-0077
+canonical_claim: "Effective altruism applies evidence and reason to maximise impact per resource, including career choices such as earning to give."
+claim_type: normative
+polarity: prescriptive
+conditionality: contested
+member_units: [u-0458]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress; no independent convergence graded yet"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "normative — EA is a LIVE movement, not consensus; empirical impact-measurements separable from the normative claim"}
+  empirical_support: {rating: low, certainty: moderate, basis: "impact measurements (QALYs, charity effectiveness) are the separable EMPIRICAL part"}
+  contestation: {rating: high, certainty: moderate, basis: "EA seriously contested on five axes (see c-0078); 'earning to give' walked back by 80,000 Hours; FTX collapse; conditionality: contested"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by wave-3 report; not yet primary-verified"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "no known refutation; over-application risk noted"}
+status: adjudicated  # publish-ready SUSPENDED per round-3
+prov:
+  minted_by: "claude-code:s3-wave3-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-17
+notes: "Singleton. Singer effective-altruism movement (The Most Good You Can Do, 2015). EA is a LIVE movement, not consensus. claim_type normative (per unit)."

@@ -1,0 +1,21 @@
+id: c-0040
+canonical_claim: "Rather than halting progress wholesale, we should influence its sequence: retard dangerous technologies and accelerate protective ones, especially those that reduce existential risk."
+claim_type: prudential
+polarity: prescriptive
+conditionality: conditional
+member_units: [u-0380]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress; no independent convergence graded yet"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "prudential principle"}
+  empirical_support: {rating: low, certainty: low, basis: "no direct empirical test wired"}
+  contestation: {rating: moderate, certainty: moderate, basis: "assumes we can actually influence sequencing; conditionality: conditional"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by wave-3 report; not yet primary-verified"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "endorsed by Ord (The Precipice); no known refutation; over-application risk noted"}
+status: adjudicated  # publish-ready SUSPENDED per round-3
+prov:
+  minted_by: "claude-code:s3-wave3-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-17
+notes: "Singleton. Bostrom differential technological development (Existential Risks 2002; Superintelligence 2014). Endorsed by Ord — the constructive middle path of the risk community. claim_type prudential (per unit)."

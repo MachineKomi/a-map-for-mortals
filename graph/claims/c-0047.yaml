@@ -1,0 +1,21 @@
+id: c-0047
+canonical_claim: "Build machines that are uncertain about human preferences and treat human behavior as evidence of them, so they defer, ask permission, and have a positive incentive to allow themselves to be switched off — 'provably beneficial AI'."
+claim_type: prudential
+polarity: prescriptive
+conditionality: conditional
+member_units: [u-0388]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress; no independent convergence graded yet"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "prudential research direction; 'provably' aspirational, formal proofs remain open"}
+  empirical_support: {rating: low, certainty: low, basis: "a research DIRECTION, not an established result"}
+  contestation: {rating: moderate, certainty: moderate, basis: "Russell concedes 'safe and controllable' lack precise formal definitions; 'provably' aspirational"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by wave-3 report; not yet primary-verified"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "no known refutation; over-application risk noted"}
+status: adjudicated  # publish-ready SUSPENDED per round-3
+prov:
+  minted_by: "claude-code:s3-wave3-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-17
+notes: "Singleton. Russell provably-beneficial-AI proposal (Human Compatible p.173, 2019). Research direction, not a result. DISTINCT from c-0046 (the diagnosis); this is the prescription. claim_type prudential (per unit)."

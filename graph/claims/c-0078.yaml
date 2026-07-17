@@ -1,0 +1,21 @@
+id: c-0078
+canonical_claim: "Effective altruism is seriously contested on demandingness, institutional depoliticisation, over-quantification, longtermism, and the FTX collapse."
+claim_type: normative
+polarity: cautionary
+conditionality: contested
+member_units: [u-0459]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress; no independent convergence graded yet"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "normative — five-axis critique cluster of EA"}
+  empirical_support: {rating: low, certainty: low, basis: "no direct empirical test wired"}
+  contestation: {rating: high, certainty: moderate, basis: "FIRST-CLASS DISSENT to c-0077; Srinivasan: EA 'does not address the deep sources of global misery ... leaves everything just as it is'; FTX/SBF fraud (convicted 7 counts, 25yr); conditionality: contested"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by wave-3 report; not yet primary-verified"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "no known refutation; over-application risk noted — Singer counters no DIRECT link between SBF and EA's core claims"}
+status: adjudicated  # publish-ready SUSPENDED per round-3
+prov:
+  minted_by: "claude-code:s3-wave3-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-17
+notes: "Singleton. Srinivasan EA critique (LRB 37:18, 2015). PRESERVE DISSENT VERBATIM — do NOT blend into c-0077. Cluster includes Adams/Crary/Gruen (2023) and Herzog's parallel institutional critique. claim_type normative (per unit)."

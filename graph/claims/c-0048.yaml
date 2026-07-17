@@ -1,0 +1,21 @@
+id: c-0048
+canonical_claim: "Longtermism can function as a dangerous ideology: by valuing vast hypothetical future populations it may license neglect of present suffering and injustice, concentrate power among wealthy elites, and rationalize harmful near-term trade-offs."
+claim_type: normative
+polarity: cautionary
+conditionality: contested
+member_units: [u-0389]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress; no independent convergence graded yet"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "normative — ideological critique"}
+  empirical_support: {rating: low, certainty: low, basis: "no direct empirical test wired"}
+  contestation: {rating: high, certainty: moderate, basis: "FIRST-CLASS DISSENT to c-0034; targets radical/strong longtermism most sharply; 'most dangerous secular credo' is Torres's characterization, not fact"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by wave-3 report; not yet primary-verified"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "FTX/SBF collapse (Nov 2022) intensified these concerns; no known refutation; over-application risk noted"}
+status: adjudicated  # publish-ready SUSPENDED per round-3
+prov:
+  minted_by: "claude-code:s3-wave3-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-17
+notes: "Singleton. Torres longtermism critique (Aeon/Salon 2021-22). FIRST-CLASS DISSENT — carry at parity with c-0034 (longtermism), not in a trailing criticism ghetto. Torres/Gebru developed the 'TESCREAL' critique. claim_type normative (per unit)."

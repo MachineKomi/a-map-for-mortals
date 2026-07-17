@@ -1,0 +1,21 @@
+id: c-0063
+canonical_claim: "Secularisation is not a subtraction of religion revealing a rational self that was always there, but a positive reconstruction with roots in reformed Christianity."
+claim_type: observational
+polarity: descriptive
+conditionality: contested
+member_units: [u-0443]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress; no independent convergence graded yet"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "observational — interpretive contested historical thesis"}
+  empirical_support: {rating: low, certainty: low, basis: "no direct empirical test wired"}
+  contestation: {rating: high, certainty: moderate, basis: "FREQUENTLY MISREAD: Taylor REJECTS subtraction stories; some reviewers find it defensive/Catholic-inflected; conditionality: contested"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by wave-3 report; not yet primary-verified"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "no known refutation; over-application risk noted — do not invert Taylor's meaning"}
+status: adjudicated  # publish-ready SUSPENDED per round-3
+prov:
+  minted_by: "claude-code:s3-wave3-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-17
+notes: "Singleton. Taylor rejection of 'subtraction story' (A Secular Age, 2007). FREQUENTLY MISREAD — Taylor rejects, not endorses, subtraction stories. claim_type observational (per unit)."
