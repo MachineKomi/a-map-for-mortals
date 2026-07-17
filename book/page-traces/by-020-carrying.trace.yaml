@@ -57,8 +57,8 @@ blocks:
   text: hadith, at-Tirmidhi · chain grading contested
 - type: editorial
   field: meta
-  chars: 28
-  text: Shakespeare · 1606 · lineage
+  chars: 65
+  text: Shakespeare · 1606 · shown as lineage, not independent recurrence
 - type: assertion:relation-summary
   id: a-0028
   field: frays

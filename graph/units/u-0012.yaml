@@ -40,7 +40,7 @@ rights:
     attribution_text: "trans. Joseph B. Meszler, CC BY 4.0, via Sefaria"
     modifications: none
     checked_at: 2026-07-06
-    escalation: "E-0002 open — Jason may prefer the Sefaria Community Translation (CC0) over Meszler (CC-BY); both are print-eligible, so the gate passes either way"
+    escalation: "E-0002 CLOSED 2026-07-17 — Jason approved Meszler CC-BY + attribution; the held wording above is the decided print translation"
   quotation:
     status: public-domain   # Hebrew, Torat Emet 363, PD
     licence_url: null

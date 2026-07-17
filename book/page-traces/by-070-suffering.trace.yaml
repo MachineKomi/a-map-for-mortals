@@ -8,9 +8,9 @@ blocks:
   text: Does the load make you stronger?
 - type: editorial
   field: intro
-  chars: 184
-  text: One of the oldest comforts in this whole collection says the load itself teaches you something — and we're
-    printing it <em>with its asterisk</em>, because the evidence pulls both ways.
+  chars: 208
+  text: 'One of the oldest comforts in this whole collection says the load itself teaches you something — and we''re
+    printing it <em>with its asterisk</em>: the two voices press the comfort, and the studies qualify it.'
 - type: editorial
   field: kicker
   chars: 51
@@ -94,7 +94,7 @@ blocks:
   status: approved-for-package-01v2
 - type: editorial
   field: pill
-  chars: 112
-  text: texts checked (Smyth · Ludovici) · claim contested — the evidence cuts both ways · print only with this
-    asterisk
+  chars: 139
+  text: texts checked (Smyth · Ludovici) · claim contested — the studies qualify the comfort, they don't confirm
+    it · print only with this asterisk
 furniture_strings: 3

@@ -17,7 +17,7 @@ copy:
     - {name: "Epictetus", meta: {editorial: "Stoic · c. 108 CE"}, independence: partial}
     - {name: "Rabbi Tarfon", meta: {editorial: "Mishnah, Avot · c. 200 CE"}, independence: partial}
     - {name: "'Tie your camel'", meta: {editorial: "hadith, at-Tirmidhi · chain grading contested"}, independence: partial}
-    - {name: "Edgar, in Lear", meta: {editorial: "Shakespeare · 1606 · lineage"}, independence: weak}
+    - {name: "Edgar, in Lear", meta: {editorial: "Shakespeare · 1606 · shown as lineage, not independent recurrence"}, independence: weak}
   frays: {assert: a-0028}
   caption:
     editorial: "Solid lines: <b>partial, argued independence</b>. Dashed: <b>lineage</b> — an idea that travelled, which is a different thing from one worked out twice. Convergence is robustness, not proof."

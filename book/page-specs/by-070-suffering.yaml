@@ -9,7 +9,7 @@ copy:
   eyebrow: "FORK FOUR · THE WEIGHT THAT STRENGTHENS?"
   title: {editorial: "Does the load make you stronger?"}
   intro:
-    - editorial: "One of the oldest comforts in this whole collection says the load itself teaches you something — and we're printing it <em>with its asterisk</em>, because the evidence pulls both ways."
+    - editorial: "One of the oldest comforts in this whole collection says the load itself teaches you something — and we're printing it <em>with its asterisk</em>: the two voices press the comfort, and the studies qualify it."
   kicker: {editorial: "WISDOM NODE · CONTESTED · PRINTED WITH ITS ASTERISK"}
   claim_label: {assert: a-0011}
   voices:
@@ -26,5 +26,5 @@ copy:
   evidence:
     - assert: a-0015
     - assert: a-0016
-  pill: {editorial: "texts checked (Smyth · Ludovici) · claim contested — the evidence cuts both ways · print only with this asterisk"}
+  pill: {editorial: "texts checked (Smyth · Ludovici) · claim contested — the studies qualify the comfort, they don't confirm it · print only with this asterisk"}
 notes: "The honest-asterisk showpiece: renders e-0006 (lineage), the resilience qualifier and the measurement critique in one card. Migrated at Gate E (ops/adjudications/2026-07-07-gateE-by070.md): composite claim label gated as a-0011 (editorial-synthesis, popular unconditional forms prohibited); Frazier design error repaired in a-0015; full Galatzer-Levy author list in a-0016. Claim label is the qualified composite, not Nietzsche's words."
