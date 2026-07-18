@@ -1,0 +1,21 @@
+id: c-0185
+canonical_claim: "Great thoughts come from the heart — from feeling, not detached reason."
+claim_type: observational
+polarity: descriptive
+conditionality: contested
+member_units: [u-0115]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "observational — generalisation about cognition"}
+  empirical_support: {rating: low, certainty: moderate, basis: "loosely consistent with affect-as-information research; not a direct test"}
+  contestation: {rating: high, certainty: moderate, basis: "contested by rationalist frames (Spinoza, Kant) that prize detached reason"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by report; maxim numbering edition-dependent"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "no known refutation; over-application risk noted"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Vauvenargues Reflexions et maximes 127 (Furne 1857 numbering)."

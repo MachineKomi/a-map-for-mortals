@@ -1,0 +1,21 @@
+id: c-0386
+canonical_claim: "Reality is continual flux: the same river is never the same river, because new waters are ever flowing through it."
+claim_type: metaphysical
+polarity: descriptive
+conditionality: contested
+member_units: [u-0034]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress; convergence candidate: Nietzsche's explicit endorsement (u-0061/u-0062) and Eastern flux lineages — convergence is robustness, not truth"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "metaphysical thesis about the nature of reality"}
+  empirical_support: {rating: low, certainty: low, basis: "metaphysical, not empirical"}
+  contestation: {rating: moderate, certainty: moderate, basis: "contested: Plato's flux reading (Cratylus 402a) may overstate Heraclitus, who emphasises stability-through-change"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "fragment genuine (DK B12); English 'after Kirk & Raven' (1957, in-copyright) — wording paraphrase-pending, replace with PD rendering (e.g. Burnet 1912) at S2"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "flux thesis durable; exact scope debated"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Heraclitus, DK 22 B12 (cf. B49a, B91); the 'you cannot step in the same river twice' is a popular compression, not the fragment. SPLIT from u-0062 (the generalised flux thesis via Nietzsche's report): u-0034 is the specific river fragment, differently attested. Copyright: quoted English follows Kirk & Raven (in-copyright); Greek original PD — re-source wording before print."

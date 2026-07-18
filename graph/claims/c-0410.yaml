@@ -1,0 +1,21 @@
+id: c-0410
+canonical_claim: "Test your life by asking whether you could will it, unchanged, again and innumerable times — and live so that you could."
+claim_type: normative
+polarity: prescriptive
+conditionality: conditional
+member_units: [u-0058]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "normative life-test (the eternal recurrence as a test of affirmation), NOT cosmology"}
+  empirical_support: {rating: low, certainty: low, basis: "normative thought-experiment, not empirical"}
+  contestation: {rating: moderate, certainty: moderate, basis: "contested: whether one ought to live so is itself the question the test poses"}
+  attribution_integrity: {rating: high, certainty: moderate, basis: "report grade: verified [that grade is exactly the over-trust the Gate C rerun corrects]. GATE C RERUN MATERIAL FIX 2026-07-07: source.translator:Thomas Common was FALSE — the held wording is a Kaufmann-style rendering, not Common's archaic diction. Field cleared, copyright_flag set in-copyright; wording must NOT be printed until Common's §341 PD text (Gutenberg #52124) is line-matched at Gate F"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "durable as a life-test; the cosmological version is mainly Nachlass"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Nietzsche, The Gay Science §341 'The Heaviest Burden' — the eternal recurrence as a life-test (parable register). NACHLASS CAVEAT: in the published works eternal recurrence is a life-test, not a metaphysical proof; the cosmological version is mainly Nachlass. WILL-TO-POWER QUARANTINE: never cite the Förster-Nietzsche/Gast 'Will to Power' compilation as doctrinal support. Ecce Homo (on Zarathustra §1) calls it the 'highest possible formula of affirmation'. TRANSLATION CAVEAT (DEFERRED TO GATE F): held wording resembles the in-copyright Kaufmann rendering — copyright_flag in-copyright until Common's §341 PD text is line-matched at Gate F. Do NOT upgrade this deferred verification."

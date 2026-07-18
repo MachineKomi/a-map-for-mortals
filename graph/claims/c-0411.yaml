@@ -1,0 +1,21 @@
+id: c-0411
+canonical_claim: "One who has a why for living can bear almost any how."
+claim_type: prudential
+polarity: descriptive
+conditionality: conditional
+member_units: [u-0059]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "prudential tendency claim linking purpose to endurance"}
+  empirical_support: {rating: moderate, certainty: moderate, basis: "consistent with meaning-purpose research (Frankl); not a direct test of this aphorism"}
+  contestation: {rating: low, certainty: moderate, basis: "low contestation as a tendency claim"}
+  attribution_integrity: {rating: high, certainty: moderate, basis: "report grade: verified (with paraphrase caveat). WATCHLIST: the popular wording 'He who has a why to live for can bear with almost any how' is Viktor Frankl's paraphrase (1946), which Frankl credited to Nietzsche — the verbatim is Nietzsche's, the popular form is Frankl's. German original held and PD (1889)"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "durable; the popular form is Frankl's paraphrase"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Nietzsche, Twilight of the Idols 'Maxims and Arrows' §12. German original PD (1889). WATCHLIST: the popular English 'He who has a why to live for can bear with almost any how' is Viktor Frankl's paraphrase (Man's Search for Meaning, 1946), credited to Nietzsche — the verbatim is Nietzsche's, the popular form is Frankl's. Both Kaufmann and Ludovici omit the aphorism's second half ('Man does not strive for pleasure; only the Englishman does.'). COPYRIGHT CAVEAT (DEFERRED TO GATE F): English translator ambiguous in report (Kaufmann in-copyright vs Ludovici 1911 PD) — line-match vs Gutenberg #52263 before print; PD alternative (Ludovici) exists, never fabricate its wording. Do NOT upgrade this deferred verification."

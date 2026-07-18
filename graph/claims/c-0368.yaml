@@ -1,0 +1,21 @@
+id: c-0368
+canonical_claim: "Women's apparent weakness is manufactured by mis-education, not nature; educate women as rational creatures so they govern themselves rather than charm others."
+claim_type: normative
+polarity: prescriptive
+conditionality: conditional
+member_units: [u-0251]
+robustness_profile:
+  recurrence: {rating: moderate, certainty: low, basis: "provisional — corpus-wide S3 in progress; convergence candidate 'education as the lever of equality' with Ban Zhao (u-0243/c-0271), de Pizan (u-0249/c-0366), Astell (u-0250/c-0367) — candidate, not proof; cross-tradition S4 edges, NOT merges (each states a distinct proposition)"}
+  source_diversity: {rating: moderate, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: moderate, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "normative per the report's unit block, minted on its prescriptive core; note the report's prose labels the argument 'empirical + normative' — the causal sub-claim that female weakness is produced by mis-education is an observational generalisation, not tested empirics"}
+  empirical_support: {rating: low, certainty: low, basis: "the causal sub-claim is an observational generalisation, not tested empirics"}
+  contestation: {rating: moderate, certainty: moderate, basis: "conditionality conditional; the mis-education thesis is an interpretive generalisation"}
+  attribution_integrity: {rating: high, certainty: moderate, basis: "report label 'verified' re-labelled 'attested' per S1 rules; TRANSMISSION direct; PD per report (1792)"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "Wollstonecraft on mis-education and self-governance; DISTINCT from de Pizan and Astell"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Mary Wollstonecraft, A Vindication of the Rights of Woman (1792). Report unit (womens-voices). TRANSMISSION (extract): direct. PD per report. Cultivates reason and independence; guards against dependence and vanity (report fields). Claim_type kept normative per the report's unit block, but note the report's prose labels the argument 'empirical + normative' — the causal sub-claim that female weakness is produced by mis-education is an observational generalisation, not tested empirics; the unit is minted on its prescriptive core. Report forks: autonomy-vs-relation (autonomy pole); convergence candidate 'education as the lever of equality' with Ban Zhao, de Pizan, Astell — cross-tradition S4 edges, not merges. DISTINCT from de Pizan (sex-as-measure) and Astell (freedom/subjection dilemma): this is the manufactured-weakness + self-governance thesis. Life_stages derived by minting agent (extract left empty)."

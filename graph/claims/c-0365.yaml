@@ -1,0 +1,21 @@
+id: c-0365
+canonical_claim: "When disturbed or afraid, anchor yourself in what does not change: everything passes, and equanimity follows from resting on the unchanging."
+claim_type: prudential
+polarity: prescriptive
+conditionality: conditional
+member_units: [u-0248]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "prudential (equanimity counsel) per extract; the report also reads it as metaphysical — 'solo Dios basta' grounds the counsel in a metaphysical claim; noted, not flattened"}
+  empirical_support: {rating: low, certainty: low, basis: "equanimity counsel, not a measured claim"}
+  contestation: {rating: low, certainty: moderate, basis: "low contestation as equanimity counsel"}
+  attribution_integrity: {rating: high, certainty: moderate, basis: "report label 'verified' — the strongest attestation in Teresa's poetry: found in her breviary in her own hand (autograph); 16th-c. Spanish text PD; Peers translation PD; Kavanaugh (ICS 1985) in-copyright; WATCHLIST: 'Christ has no body now but yours' is of DISPUTED Teresian authorship — do not attach to her without verification"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "Teresa's 'Nada te turbe'; guard the disputed-authorship watchlist"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Teresa of Avila, 'Nada te turbe' (poem found written in her own hand in her breviary). Report unit (womens-voices). AUTHENTICITY CAVEAT (report/Kavanaugh, ICS 1985): the wider Teresa poetry corpus has general authentication problems (lack of autographs, mixture with other Carmelites' verse); THIS poem is among the best-attested — the strongest attestation in Teresa's poetry: found in her breviary in her own hand (autograph). TRANSMISSION: direct (autograph). claim_type kept prudential (equanimity counsel) per extract; the report also reads it as metaphysical — 'solo Dios basta' grounds the counsel in a metaphysical claim; noted, not flattened. COPYRIGHT: 16th-c. Spanish text PD; Peers translation PD; Kavanaugh (ICS 1985) in-copyright. WATCHLIST: 'Christ has no body now but yours' is of DISPUTED Teresian authorship — do not attach to her without verification. Cultivates (per report): patience, equanimity; guards against anxiety, agitation. life_stages left empty per report."

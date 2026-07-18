@@ -1,0 +1,21 @@
+id: c-0440
+canonical_claim: "Sleep deprivation and restriction reliably worsen mood — a large loss of positive mood, a moderate rise in negative mood — and impair emotion regulation, across converging meta-analyses."
+claim_type: empirical
+polarity: descriptive
+conditionality: universal-ish
+member_units: [u-0177]
+robustness_profile:
+  recurrence: {rating: low, certainty: high, basis: "empirical finding — recurrence not the relevant axis; see empirical_support"}
+  source_diversity: {rating: moderate, certainty: moderate, basis: "three meta-analyses (64 studies) corroborated by 2024 Psychological Bulletin meta (154 studies); mixed samples"}
+  temporal_spread: {rating: low, certainty: high, basis: "contemporary research literature only"}
+  claim_type_dim: {rating: high, certainty: high, basis: "empirical — testable; graded on the unit"}
+  empirical_support: {rating: high, certainty: moderate, basis: "evidence grade A — converging meta-analyses; large effect on positive mood, negative mood g=0.45"}
+  contestation: {rating: low, certainty: moderate, basis: "direction robust; caveat mostly short-term lab studies"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested; Tomaso, Johnson & Nelson 2021 (Sleep); URL held on unit"}
+  survives_scrutiny: {rating: high, certainty: moderate, basis: "report's most robust health finding ('Grade A… foundational'); supports 'protect your sleep'"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Tomaso, Johnson & Nelson 2021 (Sleep); report finding. Universal-ish: the report's most robust health finding. Large negative effect on positive mood; adaptive emotion regulation g=−0.32. DISTINCT from c-0441 (amygdala fMRI mechanism): that is the neural mechanism (one small study), this is the population mood/ regulation meta-analysis — different proposition, NOT merged. Both support 'protect your sleep'."

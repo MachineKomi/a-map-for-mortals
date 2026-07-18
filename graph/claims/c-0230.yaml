@@ -1,0 +1,21 @@
+id: c-0230
+canonical_claim: "Hope is an indestructible, undemanding presence within the self that sustains us in hardship."
+claim_type: observational
+polarity: descriptive
+conditionality: universal-ish
+member_units: [u-0160]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "observational — definition-poem metaphor"}
+  empirical_support: {rating: low, certainty: low, basis: "no direct empirical test wired"}
+  contestation: {rating: moderate, certainty: moderate, basis: "universal-ish; hope's indestructibility is rhetorically absolute"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "poem text PD; Johnson/Franklin editorial apparatus in copyright — cite the text, not the edition"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "no known refutation; over-application risk noted"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Emily Dickinson '\"Hope\" is the thing with feathers' (Fr314/J254, c.1861). ENDORSEMENT=ENDORSED — a definition poem, no dramatic undercut."

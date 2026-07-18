@@ -1,0 +1,21 @@
+id: c-0306
+canonical_claim: "Do not be anxious about material provision; trust providence, and let each day carry its own trouble."
+claim_type: normative
+polarity: prescriptive
+conditionality: contested
+member_units: [u-0095]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "normative — the counsel is normative, grounded in a metaphysical providence claim (never empirical); report's dual 'normative/metaphysical' narrowed to normative"}
+  empirical_support: {rating: low, certainty: low, basis: "religious providence counsel, not empirically testable"}
+  contestation: {rating: high, certainty: moderate, basis: "strong-providence pole of FORK-6 (submission vs striving), against 'tie your camel' (Tirmidhi 2517) and Avot 2:16; report T-5: a live, signed debate"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by wave-1 report; KJV 1611 wording pending primary check"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "the lilies-of-the-field counsel; SPLIT from the trust/effort debate — a CONVERGES_WITH edge to the FORK-6 poles, NOT a merge"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Matthew 6:28,34 (Sermon on the Mount, KJV). Report unit (lilies/anxiety). Report's dual 'normative/metaphysical' narrowed to normative — the counsel is normative, grounded in a metaphysical providence claim (never empirical). Strong-providence pole of FORK-6 (submission vs striving), against 'tie your camel' (Tirmidhi 2517) and Avot 2:16; report T-5: within the corpus the trust-vs-effort balance is a live, signed debate — CONVERGES_WITH edges to Qur'an 65:3 (u-0103) and Job 1:21 (u-0082), NOT merges."

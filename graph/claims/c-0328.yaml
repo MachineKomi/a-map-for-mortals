@@ -1,0 +1,21 @@
+id: c-0328
+canonical_claim: "Enduring words can preserve a name beyond death: the poet expects his completed work, not his body, to survive him."
+claim_type: observational
+polarity: descriptive
+conditionality: conditional
+member_units: [u-0293]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "observational — a claim about legacy via enduring words; the contrasting answer to mortality (legacy) vs the carpe-diem cluster"}
+  empirical_support: {rating: low, certainty: low, basis: "legacy claim, not a measured claim"}
+  contestation: {rating: moderate, certainty: moderate, basis: "the legacy pole of the legacy-vs-present-moment fork (report fork #8) against the carpe-diem cluster (u-0288/c-0323)"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "report label 'probable'; Ferdowsi's authorial coda in his own voice (speaker = poet, not a character); report's misattribution watchlist warns most circulating 'Shahnameh quotes' are loose paraphrases; this wording must be verified against Davis 2006 print (report Lead #3) before quoting; Davis 2006 in-copyright (PD alternatives: Warner & Warner, Helen Zimmern)"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "Ferdowsi's closing verses; the legacy-vs-present-moment fork"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Ferdowsi, Shahnameh, closing verses (Davis 2006). Report unit FE-04. Ferdowsi's authorial coda in his own voice (speaker = poet, not a character), so endorsement: endorsed. Report's misattribution watchlist warns most circulating 'Shahnameh quotes' are loose paraphrases; this wording must be verified against Davis 2006 print (report Lead #3) before quoting. Davis 2006 in-copyright; PD alternatives: Warner & Warner, Helen Zimmern. Contrasting answer to mortality (legacy) vs the carpe-diem cluster (u-0288/c-0323) — report fork #8 — CONVERGES_WITH edge (as opposing pole), NOT a merge. Ferdowsi was a Muslim preserving a Zoroastrian worldview, though this unit is his own statement, not inherited Zoroastrian material."

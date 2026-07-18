@@ -1,0 +1,21 @@
+id: c-0290
+canonical_claim: "There is a fitting time for every contrary experience — birth and death, and every purpose under heaven."
+claim_type: observational
+polarity: descriptive
+conditionality: universal-ish
+member_units: [u-0079]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "observational — a descriptive catalogue of life's contrary seasons, not counsel or command"}
+  empirical_support: {rating: low, certainty: low, basis: "phenomenological catalogue, not a measured claim"}
+  contestation: {rating: low, certainty: moderate, basis: "low contestation as a descriptive observation"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by wave-1 report; KJV 1611 wording pending primary check; held translation truncated by report at 'a time to die...' (ellipsis is the report's own)"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "widely cited poem; the full span (through 3:8) to be captured at primary verification"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Ecclesiastes 3:1-2 (KJV, truncated). Report unit HW-06. Claim_type observational (a descriptive catalogue of life's contrary seasons). The held translation is truncated by the report at 'a time to die...' (ellipsis is the report's own; the poem continues through 3:8) — capture the full span decision at primary verification."

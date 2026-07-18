@@ -1,0 +1,21 @@
+id: c-0304
+canonical_claim: "Love even enemies, on the model of a God who is impartial — giving sun and rain to good and evil alike."
+claim_type: normative
+polarity: prescriptive
+conditionality: contested
+member_units: [u-0093]
+robustness_profile:
+  recurrence: {rating: moderate, certainty: low, basis: "report convergence CONV-3 (golden-rule / one-body cluster with Hillel and Saadi's Bani Adam) — rated among the most genuinely independent convergences in the report; provisional until corpus-wide pass"}
+  source_diversity: {rating: moderate, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: moderate, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "normative — a command to love enemies; religious claim, not empirical"}
+  empirical_support: {rating: low, certainty: low, basis: "religious ethic, not empirically testable"}
+  contestation: {rating: moderate, certainty: moderate, basis: "mercy pole of FORK-1 (justice vs mercy) and love pole of FORK-4 (fear vs love as motive); the enemy-love demand is the demanding extreme"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by wave-1 report; KJV 1611 wording pending primary check"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "the Sermon on the Mount's distinctive demand; cross-tradition kinship is S4 CONVERGES_WITH edges, NOT merges"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Matthew 5:44-45 (Sermon on the Mount, KJV). Report unit (enemy-love). Member of the golden-rule / one-body solidarity convergence cluster with Hillel (Avot 1:14/u-0083) and Saadi's Bani Adam (u-0099/u-0302) — report CONV-3, rated among the most genuinely independent convergences; these are CONVERGES_WITH edges, NOT merges (the three are distinct propositions: Jesus' enemy-love, Hillel's self/other/now triad, Saadi's one-body sympathy). Mercy pole of FORK-1 and love pole of FORK-4. Religious claim: normative, not empirical."

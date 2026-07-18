@@ -1,0 +1,21 @@
+id: c-0372
+canonical_claim: "Conceptual frameworks work like plumbing — invisible infrastructure that shapes everything and is noticed only when it fails and the trouble surfaces."
+claim_type: observational
+polarity: descriptive
+conditionality: universal-ish
+member_units: [u-0255]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "observational — a metaphor about the function of conceptual frameworks"}
+  empirical_support: {rating: low, certainty: low, basis: "metaphor, not a measured claim"}
+  contestation: {rating: low, certainty: moderate, basis: "low contestation as a metaphor"}
+  attribution_integrity: {rating: moderate, certainty: low, basis: "RIGHTS-RESTRICTED, QUOTE-MINIMALLY: Midgley IN COPYRIGHT per report — only the short fragment the report records is held; print gate blocks verbatim regardless; report label 'verified' re-labelled 'attested' per S1 rules; report gives no year for the plumbing essay (Midgley 1919-2018); TRANSMISSION direct"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "Midgley's plumbing metaphor; guards against scientism and reductionism"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Mary Midgley, Utopias, Dolphins and Computers / The Essential Mary Midgley (essay year not given by report). Report unit (womens-voices). RIGHTS-RESTRICTED, QUOTE-MINIMALLY: Midgley IN COPYRIGHT per report — only the short fragment the report records is held; print gate blocks verbatim regardless. TRANSMISSION (extract): direct. Guards against scientism, reductionism and conceptual 'bad plumbing' (report fields). The report's fuller gloss: invisible 'until... the smell coming up from below is so bad that we are forced to take up the floorboards'. Report dates only 'modern'; Midgley 1919-2018, essay year not given. Life_stages derived by minting agent (extract left empty)."

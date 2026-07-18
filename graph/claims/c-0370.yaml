@@ -1,0 +1,21 @@
+id: c-0370
+canonical_claim: "Practise attention to beauty and to the independent reality of other people; such 'unselfing' dissolves the ego and is the ground of virtue."
+claim_type: normative
+polarity: prescriptive
+conditionality: conditional
+member_units: [u-0254]
+robustness_profile:
+  recurrence: {rating: moderate, certainty: low, basis: "provisional — corpus-wide S3 in progress; FLAG FOR MERGE (per report and extract): convergence with Weil's 'attention' unit held by the modern-philosophy report (u-0145) — take Murdoch only for what the Weil unit omits; convergence candidate 'non-instrumental orientation to the ultimate' with Rabia (u-0256/c-0372), Julian (u-0247/c-0364), Akka Mahadevi (u-0257/c-0373) — claim types differ (normative here, metaphysical for the mystics), do not flatten into one node; cross-tradition S4 edges, NOT merges"}
+  source_diversity: {rating: moderate, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: moderate, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "normative — attention/unselfing as the ground of virtue"}
+  empirical_support: {rating: low, certainty: low, basis: "moral-philosophical counsel, not a measured claim"}
+  contestation: {rating: low, certainty: moderate, basis: "low contestation as attention counsel"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "report label 'verified' re-labelled 'attested' per S1 rules; RIGHTS-RESTRICTED, QUOTE-MINIMALLY: Murdoch IN COPYRIGHT per report — only the single line the report records is held; print gate blocks verbatim regardless; quoted line is from 'The Sublime and the Good' (Chicago Review, 1959); TRANSMISSION direct"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "Murdoch on attention/unselfing; PRESERVE the differing claim types vs the mystic convergence candidates"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Iris Murdoch, The Sovereignty of Good (1970); the quoted line is from 'The Sublime and the Good' (Chicago Review, 1959). Report unit (womens-voices). RIGHTS-RESTRICTED, QUOTE-MINIMALLY: Murdoch IN COPYRIGHT per report — only the single line the report records is held; print gate blocks verbatim regardless. TRANSMISSION (extract): direct. Cultivates humility, attention, love; guards against egoism ('the fat relentless ego') and self-absorption (report fields). FLAG FOR MERGE (per report and extract): convergence with Weil's 'attention' unit held by the modern-philosophy report (u-0145) — take Murdoch only for what the Weil unit omits; also convergence candidate 'non-instrumental orientation to the ultimate' with Rabia (u-0256), Julian (u-0247), Akka Mahadevi (u-0257) — claim types differ (normative here, metaphysical for the mystics), do not flatten into one node (cross-tradition S4 edges, not merges). Murdoch bridges the autonomy-vs-relation fork: autonomy through attending to the other's reality. Life_stages derived by minting agent (extract left empty)."

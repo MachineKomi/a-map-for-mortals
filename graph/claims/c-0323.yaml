@@ -1,0 +1,21 @@
+id: c-0323
+canonical_claim: "Since yesterday is dead and tomorrow unborn, do not fret over either while today is sweet — fill the cup now."
+claim_type: prudential
+polarity: prescriptive
+conditionality: conditional
+member_units: [u-0288]
+robustness_profile:
+  recurrence: {rating: moderate, certainty: low, basis: "cross-tradition convergence with Horace 'carpe diem' and Ecclesiastes (and Zuhayr u-0298 on the uncertainty of tomorrow) — FLAG THE VICTORIAN FILTER: FitzGerald sharpened the hedonism and suppressed the Sufi reading; provisional until corpus-wide pass"}
+  source_diversity: {rating: moderate, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: moderate, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "prudential — carpe-diem counsel"}
+  empirical_support: {rating: low, certainty: low, basis: "carpe-diem counsel, not a measured claim"}
+  contestation: {rating: moderate, certainty: moderate, basis: "the Victorian-filter caveat; also one pole of the legacy-vs-present-moment fork against Ferdowsi's poetic immortality (u-0293)"}
+  attribution_integrity: {rating: high, certainty: moderate, basis: "report label 'dubious' KEPT; credited to FitzGerald as crafter (report speaker_context: 'FitzGerald phrasing; carpe diem strain'); underlying corpus largely pseudepigraphic; FitzGerald text is PD; cite the edition; mandatory display tag per report: 'FitzGerald, not Khayyam'"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "FitzGerald/FitzGerald discipline: do NOT upgrade 'dubious'; one pole of the legacy-vs-present-moment fork"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. FitzGerald, Rubaiyat of Omar Khayyam, quatrain XXXVII (1st ed.) / XLVIII (5th ed.). Report unit KH-04. Report label 'dubious' KEPT per its per-quatrain treatment — FitzGerald/FitzGerald discipline: do NOT upgrade. Cross-tradition convergence with Horace 'carpe diem' and Ecclesiastes (and Zuhayr u-0298 on the uncertainty of tomorrow) — FLAG THE VICTORIAN FILTER: FitzGerald sharpened the hedonism and suppressed the Sufi reading (report Stage-3: link to the Horace/Ecclesiastes/Siduri cluster with a visible 'Victorian filter' annotation) — CONVERGES_WITH edges, NOT merges. Also one pole of the legacy-vs-present-moment fork against Ferdowsi's poetic immortality (u-0293/c-0328). Mandatory display tag per report: 'FitzGerald, not Khayyam'. SPLIT from c-0320 (present-goods-suffice): that is the bread/wine/verse framing; this is the fret-not-over-time framing."

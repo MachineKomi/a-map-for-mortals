@@ -1,0 +1,21 @@
+id: c-0354
+canonical_claim: "The individual self is identified with ultimate reality — the mahavakya 'tat tvam asi' — though the grammar and meaning of the formula are contested."
+claim_type: metaphysical
+polarity: descriptive
+conditionality: contested
+member_units: [u-0197]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "metaphysical identity claim — never empirical"}
+  empirical_support: {rating: low, certainty: low, basis: "metaphysical thesis, not a measured claim"}
+  contestation: {rating: high, certainty: moderate, basis: "CONTESTED READING (carried as conditionality: contested): Brereton/Olivelle argue the grammar does not support 'That thou art' and render 'that's how you are, Svetaketu' — a significant divergence from the Advaita reading; preserve both"}
+  attribution_integrity: {rating: high, certainty: moderate, basis: "report label 'verified'; Müller, SBE vol. 1, 1879 PD per report; one of the four mahavakyas; scripture (teaching dialogue), not literary characterisation, so endorsement n/a; Olivelle (Oxford) in-copyright modern standard"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "the Chandogya mahavakya; PRESERVE the Advaita vs Brereton/Olivelle grammatical divergence"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Anonymous, Chandogya Upanishad 6.8.7. Report unit (eastern). One of the four mahavakyas. Metaphysical identity claim — never empirical. CONTESTED READING (carried as conditionality: contested): Brereton/Olivelle argue the grammar does not support 'That thou art' and render 'that's how you are, Svetaketu' — a significant divergence from the Advaita reading; preserve both. Spoken by Uddalaka to his son Svetaketu within a teaching dialogue; scripture, not literary characterisation, so endorsement n/a. In-copyright modern standard: Olivelle (Oxford). Müller, SBE vol. 1, 1879 PD per report."

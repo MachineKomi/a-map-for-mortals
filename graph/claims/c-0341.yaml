@@ -1,0 +1,21 @@
+id: c-0341
+canonical_claim: "The spontaneous alarm anyone feels on seeing a child about to fall into a well is evidence that humans have innate sprouts of virtue."
+claim_type: observational
+polarity: descriptive
+conditionality: contested
+member_units: [u-0184]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "observational — an armchair generalisation about human moral psychology from a thought experiment, NOT study-backed empirical evidence (RE-DERIVED from report's 'empirical' label)"}
+  empirical_support: {rating: low, certainty: low, basis: "thought-experiment generalisation, not tested empirics"}
+  contestation: {rating: high, certainty: moderate, basis: "PRESERVE DISSENT: sits on the nature-good-vs-bad fork against Xunzi ch. 23 (u-0185/c-0342); scholarly caution — 'duan' as 'sprout' vs 'tip' is contested (Van Norden); 2A6 alone underdetermines the cultivationist reading"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "report label 'verified' re-labelled 'attested' per S1 rules; quoted wording is the report's composite 'after Legge/Van Norden' — copyright unknown (Legge 1895 PD exists for the underlying text); D.C. Lau (Penguin) and Van Norden (Hackett) in-copyright standards"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "Mencius 2A6, the child-in-the-well; PRESERVE the fork against Xunzi"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Mencius, 2A6. Report unit (eastern). RE-DERIVATION: report/extract labelled claim_type empirical and polarity prescriptive; re-derived as observational/descriptive — an armchair generalisation about human moral psychology from a thought experiment, not study-backed empirical evidence and not advice. Four sprouts = ren, yi, li, zhi. Scholarly caution kept: 'duan' as 'sprout' vs 'tip' is contested (Van Norden, Warp/Weft/Way), and 2A6 alone underdetermines the cultivationist reading. Sits on the nature-good-vs-bad fork against Xunzi ch. 23 (u-0185/c-0342, preserved dissent, unresolved within Confucianism). Quoted wording is the report's composite 'after Legge/Van Norden' — copyright unknown; Legge 1895 PD exists for the underlying text. D.C. Lau (Penguin) and Van Norden (Hackett) in-copyright standards."

@@ -1,0 +1,21 @@
+id: c-0302
+canonical_claim: "Observation of society contradicts the doctrine that piety brings prosperity and wickedness brings ruin."
+claim_type: observational
+polarity: descriptive
+conditionality: contested
+member_units: [u-0091]
+robustness_profile:
+  recurrence: {rating: moderate, certainty: low, basis: "the observed failure of retribution theology recurs across the corpus (Job, Psalm 73, Ludlul) — report T-1 analogue, FORK-2; provisional until corpus-wide pass"}
+  source_diversity: {rating: moderate, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: moderate, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "observational — an observed contradiction of retribution doctrine, not counsel"}
+  empirical_support: {rating: low, certainty: low, basis: "theodicy observation, not a measured claim"}
+  contestation: {rating: high, certainty: moderate, basis: "conditionality contested: a dialogue poem between sufferer and friend; the quoted protest is the sufferer's voice and the poem leaves it unresolved — 'protest with no answer' (report), against Ludlul's restoration ending (u-0090); also in open tension with Proverbs' retribution theology"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by wave-1 report; Lambert 1960 in copyright; authorship: acrostic names Saggil-kinam-ubbib; URL is the report's citation link, not a primary edition"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "the Babylonian Theodicy's unresolved protest preserves dissent — FORK-2 theodicy, CONVERGES_WITH edges, NOT merges"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Babylonian Theodicy (Saggil-kinam-ubbib, Lambert 1960). Report unit (Babylonian Theodicy). Authorship: acrostic names Saggil-kinam-ubbib. Endorsement ambiguous (no report label): dialogue poem between sufferer and friend; the quoted protest is the sufferer's voice and the poem leaves it unresolved — 'protest with no answer' (report), against Ludlul's restoration ending (u-0090; report T-2). Also in open tension with Proverbs' retribution theology (report T-1 analogue, FORK-2 pole B). Part of FORK-2 (theodicy) — CONVERGES_WITH edges, NOT merges; PRESERVE DISSENT (the unresolved protest is the load-bearing point)."

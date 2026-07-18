@@ -1,0 +1,21 @@
+id: c-0177
+canonical_claim: "What pass for virtues are, most often, disguised vices serving self-interest."
+claim_type: observational
+polarity: cautionary
+conditionality: contested
+member_units: [u-0107]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "observational — generalisation about conduct"}
+  empirical_support: {rating: low, certainty: moderate, basis: "consistent with (but not a test of) moral-psychology of motivated action"}
+  contestation: {rating: high, certainty: moderate, basis: "maximally cynical; a universal reduction that many traditions reject"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by report; not yet primary-verified"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "true as tendency; over-application flattens genuine virtue"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. La Rochefoucauld Maximes epigraph (added 4th ed. 1675; standard 1678 5th ed.). conditionality contested — the reduction is tendentious."

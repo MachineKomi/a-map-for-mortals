@@ -1,0 +1,21 @@
+id: c-0433
+canonical_claim: "A large marshmallow-test replication (N≈900) found each extra minute waited at age 4 predicted only ~0.1 SD higher age-15 achievement — about half the original correlation, cut by ~two-thirds after family-background and cognitive controls."
+claim_type: empirical
+polarity: descriptive
+conditionality: contested
+member_units: [u-0170]
+robustness_profile:
+  recurrence: {rating: low, certainty: high, basis: "empirical finding — recurrence not the relevant axis; see empirical_support"}
+  source_diversity: {rating: low, certainty: moderate, basis: "single large conceptual replication; US sample; more diverse than Mischel's original"}
+  temporal_spread: {rating: low, certainty: high, basis: "contemporary research literature only"}
+  claim_type_dim: {rating: high, certainty: high, basis: "empirical — directly testable; graded on the unit"}
+  empirical_support: {rating: moderate, certainty: moderate, basis: "evidence grade B for the attenuation finding; far larger and more diverse than Mischel's original"}
+  contestation: {rating: high, certainty: moderate, basis: "conditionality: contested — Sperber et al. 2024 null; defenders note censoring may bias toward zero"}
+  attribution_integrity: {rating: high, certainty: moderate, basis: "attested; Watts, Duncan & Quan 2018 (Psychological Science); URL held on unit"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "qualifies/contradicts 'delay gratification and you'll succeed'; the attenuation survives controls"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Watts, Duncan & Quan 2018 (Psychological Science); report finding F13. CONTESTED. The attenuation (original ~0.2 SD/min → ~0.1 SD/min, cut by ~two-thirds after controls) is the claim. Contrast c-0431 (Dunedin self-control gradient, which survives sibling controls): DIFFERENT construct (delay-of-gratification at 4) and DIFFERENT finding (attenuation), NOT merged."

@@ -1,0 +1,21 @@
+id: c-0398
+canonical_claim: "The Epicurean four-part cure: do not fear the gods, do not worry about death, what is good is easy to obtain, and what is terrible is easy to endure."
+claim_type: prudential
+polarity: prescriptive
+conditionality: contested
+member_units: [u-0046]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "prudential tetrad; first two limbs rest on contested metaphysical premises (nature of gods, mortality of soul)"}
+  empirical_support: {rating: low, certainty: low, basis: "prudential, not measured"}
+  contestation: {rating: moderate, certainty: moderate, basis: "contested as a cure because the first two limbs depend on contested metaphysics"}
+  attribution_integrity: {rating: moderate, certainty: low, basis: "report label: probable; the four-line mnemonic is Philodemus' compression (PHerc 1005), not Epicurus' own wording; underlying Principal Doctrines 1-4 genuine. Translation 'after D.S. Hutchinson' likely in-copyright — do not print verbatim without a rights check"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "durable as a summary; compression marker required"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Tetrapharmakos (Philodemus' summary of Principal Doctrines 1-4; PHerc 1005 col. 5.9-14). DISTINCT from u-0045 (death-is-nothing as standalone argument) and u-0047 (desire taxonomy): these are distinct Epicurean propositions, framed at different levels. Ingest with a visible 'compression' marker. Translation 'after D.S. Hutchinson' likely in-copyright — rights check before print."

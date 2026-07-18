@@ -1,0 +1,21 @@
+id: c-0438
+canonical_claim: "People with some lifetime adversity report lower distress, less impairment, fewer PTSD symptoms, and higher life satisfaction than those with either high or zero adversity — a U-shaped dose-response."
+claim_type: empirical
+polarity: descriptive
+conditionality: conditional
+member_units: [u-0175]
+robustness_profile:
+  recurrence: {rating: low, certainty: high, basis: "empirical finding — recurrence not the relevant axis; see empirical_support"}
+  source_diversity: {rating: low, certainty: moderate, basis: "longitudinal national sample plus lab studies; US sample"}
+  temporal_spread: {rating: low, certainty: high, basis: "contemporary research literature only"}
+  claim_type_dim: {rating: high, certainty: high, basis: "empirical — testable; graded on the unit"}
+  empirical_support: {rating: moderate, certainty: moderate, basis: "evidence grade C — longitudinal national sample + lab studies; multiple Seery studies"}
+  contestation: {rating: moderate, certainty: moderate, basis: "holds only for MODERATE adversity — a dose-response curve; extreme adversity harms"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested; Seery, Holman & Silver 2010 (JPSP)"}
+  survives_scrutiny: {rating: moderate, certainty: moderate, basis: "qualifies 'what doesn't kill you makes you stronger'; report Tier-3: do not romanticise adversity, never prescribe suffering"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Seery, Holman & Silver 2010 (JPSP); report finding. U-shaped: some adversity better than none or much. Conditional — moderate adversity only; extreme adversity harms. Qualifies 'what doesn't kill you makes you stronger'. NOTE: distinct from any post-traumatic-growth finding (PTG is in c-0030/c-0031 range) — this is the adversity-dose-response, NOT merged."

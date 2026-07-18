@@ -1,0 +1,21 @@
+id: c-0351
+canonical_claim: "Yoga is the stilling of the mind's fluctuations, achieved through sustained practice (abhyasa) and non-attachment (vairagya)."
+claim_type: prudential
+polarity: prescriptive
+conditionality: conditional
+member_units: [u-0194]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress; convergence candidate (non-attachment <-> ataraxia, with Stoic/wave-1 material) per report Stage 3 — candidate, not conclusion"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "prudential Practice — a programme for stilling mental agitation; the soteriological payoff beyond tranquillity would be metaphysical and is not asserted here"}
+  empirical_support: {rating: low, certainty: low, basis: "practice programme, not a measured claim"}
+  contestation: {rating: low, certainty: moderate, basis: "low contestation as a definitional practice programme"}
+  attribution_integrity: {rating: high, certainty: moderate, basis: "report label 'verified'; quoted wording is the ancient Sanskrit sutra itself, not a modern translation; Sutra 1.2 definitional, with 1.12 on the means; Bryant 2009 in-copyright modern standard; Vivekananda translation PD per report inventory"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "Patanjali's definition of yoga; no physical postures in the definition (report)"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Patanjali, Yoga Sutras 1.2 (with 1.12 on the means). Report unit (eastern). Sutra 1.2 is definitional in form; held as prudential Practice because its function is a programme for stilling mental agitation, per 1.12 (abhyasa + vairagya) — the soteriological payoff beyond tranquillity would be metaphysical and is not asserted here. No physical postures in the definition (report). In-copyright modern standard: Bryant 2009; Vivekananda translation is PD per report inventory. Quoted wording is the ancient Sanskrit sutra itself. Edge candidate (FOR MERGE with Stoic/wave-1 material): non-attachment <-> ataraxia convergence, per report Stage 3 — candidate, not conclusion (cross-tradition S4 edge, not a merge)."

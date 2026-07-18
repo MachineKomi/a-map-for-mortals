@@ -1,0 +1,21 @@
+id: c-0188
+canonical_claim: "The most wasted of all days is the one on which one has not laughed."
+claim_type: prudential
+polarity: prescriptive
+conditionality: conditional
+member_units: [u-0118]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "prudential — commendation of laughter"}
+  empirical_support: {rating: moderate, certainty: low, basis: "consistent with humour/wellbeing research; not a direct test"}
+  contestation: {rating: moderate, certainty: moderate, basis: "conditional — not every serious day is wasted"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by report; numbering unstable across editions"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "no known refutation; over-application risk noted"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Chamfort Maximes et pensees (posthumous 1795). claim_type prudential re-derived vs report."

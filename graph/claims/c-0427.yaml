@@ -1,0 +1,21 @@
+id: c-0427
+canonical_claim: "In the Harvard Study of Adult Development, relationship satisfaction at age 50 predicted physical health at age 80 better than cholesterol did — but the cohort is all-male, narrow, and non-representative."
+claim_type: empirical
+polarity: descriptive
+conditionality: conditional
+member_units: [u-0164]
+robustness_profile:
+  recurrence: {rating: low, certainty: high, basis: "empirical finding — recurrence not the relevant axis; see empirical_support"}
+  source_diversity: {rating: low, certainty: moderate, basis: "single longitudinal cohort (Harvard Study of Adult Development); all-male, WEIRD, era-bound"}
+  temporal_spread: {rating: low, certainty: high, basis: "contemporary research literature only"}
+  claim_type_dim: {rating: high, certainty: high, basis: "empirical — testable in tendency; graded on the unit"}
+  empirical_support: {rating: low, certainty: moderate, basis: "evidence grade C–D — longitudinal cohort but popularised mainly in a trade book; no single definitive peer-reviewed effect size"}
+  contestation: {rating: moderate, certainty: moderate, basis: "treat as hypothesis-consistent illustration, not decisive proof; severe sex/WEIRD limits"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested at author/book level; trade book (Waldinger & Schulz 2023)"}
+  survives_scrutiny: {rating: low, certainty: moderate, basis: "headline claims appear largely in popular book/TED rather than as a single peer-reviewed effect"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Waldinger & Schulz, The Good Life (2023); report finding F3. Harvard Study of Adult Development (begun 1938, 724 men; women excluded). DISTINCT from c-0032 (Holt-Lunstad survival OR) and c-0426 (isolation/loneliness mortality) — this is relationship-satisfaction-at-50 predicting health-at-80 in one narrow cohort: a distinct finding, NOT merged. Severe WEIRD/sex limits; popularised in trade book."

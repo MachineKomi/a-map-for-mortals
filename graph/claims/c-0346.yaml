@@ -1,0 +1,21 @@
+id: c-0346
+canonical_claim: "Rulers keep ministers in line through the two handles of punishment and reward, not through moral appeal — a description of how power works, offered against virtue-based statecraft."
+claim_type: prudential
+polarity: descriptive
+conditionality: conditional
+member_units: [u-0189]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "prudential kept in the report's descriptive framing (per S1 rule on realpolitik counsel) — a counter-voice, not an endorsement of coercion by the graph"}
+  empirical_support: {rating: low, certainty: low, basis: "political realism, not a measured claim"}
+  contestation: {rating: high, certainty: moderate, basis: "explicitly rejects Confucian ren/yi as useless for statecraft; sits on the virtue-rule vs coercive-rule tension against Confucian virtue-rule and the Kural's moral statecraft"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "report label 'verified' re-labelled 'attested' per S1 rules; Watson (Columbia) in-copyright; Liao (1939) named as complete but PD status not established by report; ellipsis in quotation_translation is the report's own"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "Han Feizi's two handles; PRESERVE as a counter-voice, not endorsed counsel"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Han Feizi, 'The Two Handles'. Report unit (eastern). Descriptive/prudential political realism kept in the report's descriptive framing (per S1 rule on realpolitik counsel) — a counter-voice, not an endorsement of coercion by the graph. Explicitly rejects Confucian ren/yi as useless for statecraft; two handles = punishment (xing) and reward (de). Han Fei was Xunzi's student; forced to suicide 233 BCE. Sits on the virtue-rule vs coercive-rule tension against Confucian virtue-rule and the Kural's moral statecraft. Ellipsis in quotation_translation is the report's own. Watson (Columbia) in-copyright; Liao (1939) named as complete but PD status not established by report."

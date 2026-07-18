@@ -1,0 +1,21 @@
+id: c-0448
+canonical_claim: "Advice framed as loving guidance can be manipulation toward mere worldly success — Johnson's verdict on Chesterfield's Letters as teaching 'the morals of a whore, and the manners of a dancing-master'."
+claim_type: normative
+polarity: cautionary
+conditionality: conditional
+member_units: [u-0265]
+robustness_profile:
+  recurrence: {rating: moderate, certainty: low, basis: "provisional — corpus-wide S3 in progress; convergence candidate: the undercut-advice-giver motif (cf. Polonius)"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "normative — an evaluative verdict on manipulative counsel"}
+  empirical_support: {rating: low, certainty: low, basis: "evaluative verdict, not a measured claim"}
+  contestation: {rating: low, certainty: moderate, basis: "low contestation as an evaluative verdict"}
+  attribution_integrity: {rating: high, certainty: moderate, basis: "attested; Johnson as recorded by Boswell, Life of Johnson (1791); report label verified. The unit's wisdom is JOHNSON's verdict, not Chesterfield's counsel"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "paradigm undercut-advice-giver (cf. Polonius); distinct proposition from the Polonius units"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Johnson (recorded by Boswell, Life of Johnson 1791) on Chesterfield's Letters; report (wave-2 childhood-old-age). Report label verified. The wisdom is Johnson's evaluative verdict, not Chesterfield's counsel — Johnson speaks in his own voice via Boswell (endorsement n/a). Copyright unknown — Boswell 1791 near-certainly PD by age but report's PD table covers only Chesterfield ('Mixed'); left unknown pending S2."

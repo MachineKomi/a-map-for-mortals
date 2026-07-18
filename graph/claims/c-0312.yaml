@@ -1,0 +1,21 @@
+id: c-0312
+canonical_claim: "The soul, severed from its source, laments its separation and longs to return."
+claim_type: metaphysical
+polarity: descriptive
+conditionality: contested
+member_units: [u-0101]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "metaphysical — a claim about the soul's exile and longing; never empirical"}
+  empirical_support: {rating: low, certainty: low, basis: "mystical anthropology, not empirically testable"}
+  contestation: {rating: moderate, certainty: moderate, basis: "conditionality contested; a specifically Sufi metaphysics of separation"}
+  attribution_integrity: {rating: high, certainty: moderate, basis: "attested by wave-1 report; Nicholson in copyright (cited); PD fallback Whinfield 1887; WATCHLIST (high relevance, report section g): the Rumi internet-quote ecosystem is heavily contaminated — verify any Rumi wording ONLY against Nicholson (1926) or Whinfield (1887, PD); never seed Barksian text as primary"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "the reed-flute proem; opening of the Masnavi"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Rumi, Masnavi I.1 (Nicholson 1926). Report unit (Rumi). Metaphysical claim, never empirical. Reed-flute proem; opening of the Masnavi. WATCHLIST (high relevance, report section g): the Rumi internet-quote ecosystem is heavily contaminated — Coleman Barks produces interpretive 'versions', not translations (does not read Persian; Shackle: 'not so much a paraphrase as a parody'), and popular Rumi quotes ('Out beyond ideas of wrongdoing...', 'Do not feel lonely...') are dubious-to-apocryphal; verify any Rumi wording ONLY against Nicholson (1926) or Whinfield (1887, PD); never seed Barksian text as primary. Nicholson in copyright (cited); PD fallback Whinfield 1887."

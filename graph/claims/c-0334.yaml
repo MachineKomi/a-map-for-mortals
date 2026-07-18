@@ -1,0 +1,21 @@
+id: c-0334
+canonical_claim: "Whoever hoards his wealth and withholds help from his own people tends to be abandoned and blamed by them; generosity holds the community together."
+claim_type: prudential
+polarity: cautionary
+conditionality: conditional
+member_units: [u-0300]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "prudential — a cautionary consequence-statement about hoarding; the generosity prescription is implicit; RE-DERIVATION DIFFERENCE: report tags polarity prescriptive, but the quoted evidence is a cautionary consequence-statement (kept cautionary here)"}
+  empirical_support: {rating: low, certainty: low, basis: "social-consequence counsel, not a measured claim"}
+  contestation: {rating: low, certainty: moderate, basis: "low contestation as a generosity norm"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "report label 'probable'; Zuhayr's own gnomic voice; endorsement: endorsed; translator unidentified — copyright unknown; PD locators: Jones (1782), Lyall (1930); Arberry 1957 in-copyright"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "the muruwwa (manly virtue) ethic; pairs with Saadi's Bani Adam (c-0310) in the self-vs-community fork"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Zuhayr ibn Abi Sulma, Mu'allqa, gnomic (hikma) section (translator unidentified). Report unit MU-03. RE-DERIVATION DIFFERENCE: report tags polarity prescriptive, but the quoted evidence is a cautionary consequence-statement about hoarding (kept cautionary here; the generosity prescription is implicit). The muruwwa (manly virtue) ethic. Context: the ode was composed after the ~40-year War of Dhis and al-Ghabra (Banu 'Abs vs Banu Dhubyan, c. 560s-600s CE) and praises the peacemakers Harim ibn Sinan and al-Harith ibn 'Awf, who paid the blood money over three years. Translator unidentified — copyright unknown; PD locators: Jones (1782), Lyall (1930); Arberry 1957 in-copyright. Pairs with Saadi's Bani Adam (c-0310) in the self-vs-community fork — CONVERGES_WITH edge, NOT a merge."

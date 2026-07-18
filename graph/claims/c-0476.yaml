@@ -1,0 +1,21 @@
+id: c-0476
+canonical_claim: "Deferring the declaration of your intentions raises your standing and shields you from criticism; a measure of mystery invites veneration."
+claim_type: prudential
+polarity: prescriptive
+conditionality: conditional
+member_units: [u-0318]
+robustness_profile:
+  recurrence: {rating: high, certainty: moderate, basis: "provisional — corpus-wide S3 in progress; convergence: Sun Tzu deception (c-0463), Machiavelli appearances (c-0480) — perception-management cluster, three traditions"}
+  source_diversity: {rating: moderate, certainty: low, basis: "provisional — S3 in progress; single Spanish-Jesuit/Baroque source at this scale"}
+  temporal_spread: {rating: high, certainty: moderate, basis: "provisional — 1647"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "prudential — court-prudence counsel for adversarial/competitive social arenas, not endorsed as universal ethics"}
+  empirical_support: {rating: low, certainty: low, basis: "court counsel, not a measured claim"}
+  contestation: {rating: moderate, certainty: moderate, basis: "report flags Gracián's own bound on it ('a wicked will envenoms all excellences' = c-0479); cross-stream tension: strategic secrecy vs Hippocratic transparency/fiduciary secrecy (u-0333)"}
+  attribution_integrity: {rating: high, certainty: moderate, basis: "attested; Gracián, Art of Worldly Wisdom Maxim iii (Jacobs 1892, PD)"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "the strategic-suspense counsel; DISTINCT from c-0477 (seem-and-be), c-0478 (appearances), c-0479 (cypher your tastes)"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Baltasar Gracián, Art of Worldly Wisdom (Oráculo Manual) Maxim iii 'Llevar sus cosas con suspencion' (Jacobs 1892, PD); report (wave-2 practical-strategic). Report label verified. Court-prudence counsel — a conditional strategy for adversarial/competitive social arenas, not endorsed as universal ethics; report flags Gracián's own bound on it ('a wicked will envenoms all excellences' = c-0479). Sharp cross-stream tension: Gracián's strategic secrecy vs Hippocratic transparency/fiduciary secrecy (u-0333). DISTINCT proposition from c-0476/c-0477/c-0478: each is a separate Gracián maxim, NOT merged."

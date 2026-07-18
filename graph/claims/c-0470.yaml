@@ -1,0 +1,21 @@
+id: c-0470
+canonical_claim: "Where no enforcing authority wields punishment, the strong devour the weak (the 'law of the fish'); under its protection, the weak can resist the strong."
+claim_type: prudential
+polarity: descriptive
+conditionality: conditional
+member_units: [u-0312]
+robustness_profile:
+  recurrence: {rating: high, certainty: moderate, basis: "provisional — corpus-wide S3 in progress; strong convergence: Machiavelli on cruelty well-used (c-0483) — the ends-vs-means fork; Indian and Italian statecraft independently"}
+  source_diversity: {rating: moderate, certainty: low, basis: "provisional — S3 in progress; single Indian-statecraft source at this scale"}
+  temporal_spread: {rating: high, certainty: moderate, basis: "provisional — c. 3rd c. BCE composite (dating genuinely contested)"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "prudential — describes what happens absent enforcement; the prudential force (order requires danda) is conditional, not an endorsement of coercion"}
+  empirical_support: {rating: low, certainty: low, basis: "statecraft counsel, not a measured claim"}
+  contestation: {rating: moderate, certainty: moderate, basis: "tension with Hippocratic 'do no harm' counter-pole; realpolitik framing"}
+  attribution_integrity: {rating: high, certainty: moderate, basis: "attested; Kautilya, Arthashastra Book I Ch. IV (Shamasastry 1915, PD). Matsyanyaya = 'law of the fish'. Kautilya's dating contested — do not present a single confident date"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "the matsyanyaya (law-of-the-fish) realpolitik claim; DISTINCT from c-0471 (danda secures progress) — related but distinct propositions"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Kautilya, Arthashastra Book I Ch. IV 'The End of Sciences' (Shamasastry 1915, PD); report (wave-2 practical-strategic). Report label verified. Matsyanyaya = 'law of the fish'. Realpolitik framing kept descriptive — describes what happens absent enforcement; the prudential force is conditional, not an endorsement of coercion. Beware online paraphrases mislabeling the chapter 'The Life of the King'. Kautilya's dating genuinely contested (3rd c. BCE composite vs redactions to c. 150 CE) — do not present a single confident date. Cross-reference Machiavelli on cruelty well-used (c-0483). DISTINCT from c-0471 (danda-secures-progress): both invoke danda but this is law-of-the-fish (why enforcement is needed), that is danda-underwriting-all-goods — NOT merged."

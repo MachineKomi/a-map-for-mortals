@@ -1,0 +1,21 @@
+id: c-0335
+canonical_claim: "War, once kindled, becomes a monstrous, self-perpetuating force that devours its makers, breeding famine and desolation."
+claim_type: observational
+polarity: cautionary
+conditionality: universal-ish
+member_units: [u-0301]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "observational — a metaphorical observation about war's self-perpetuating dynamics"}
+  empirical_support: {rating: low, certainty: low, basis: "political observation, not a measured claim"}
+  contestation: {rating: moderate, certainty: moderate, basis: "PRESERVE DISSENT: a rare pre-Islamic minority voice for peace/reconciliation over glorified warfare"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "report label 'probable'; PARAPHRASE of Zuhayr's famous metaphor — War depicted as a foul monster, the mother of twin-born Famine and Desolation; imagery noted by W.A. Clouston, Arabian Poetry (1881, PD); report instructs: verify a verbatim translation before publishing as a quote; PD locators Jones (1782), Lyall (1930); Arberry 1957 in-copyright; no verbatim quotation held — copyright unknown"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "Zuhayr's anti-war stance — a rare pre-Islamic minority voice for peace"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Zuhayr ibn Abi Sulma, Mu'allqa, war-monster passage (paraphrase). Report unit MU-04. PARAPHRASE of Zuhayr's famous metaphor — War depicted as a foul monster, the mother of twin-born Famine and Desolation; imagery noted by W.A. Clouston, Arabian Poetry (1881, PD). Report instructs: verify a verbatim translation before publishing as a quote; no verbatim quotation held — copyright unknown. Endorsement: endorsed — Zuhayr's own anti-war stance: PRESERVE DISSENT as a rare pre-Islamic minority voice for peace/reconciliation over glorified warfare (composed after the War of Dhis and al-Ghabra, praising the peacemakers who paid the blood money)."

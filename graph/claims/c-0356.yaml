@@ -1,0 +1,21 @@
+id: c-0356
+canonical_claim: "No vice is as destructive as hatred and no fortitude equals patience; since aggressors are themselves driven by conditions, anger at them is irrational, so patience should be deliberately cultivated."
+claim_type: prudential
+polarity: prescriptive
+conditionality: conditional
+member_units: [u-0199]
+robustness_profile:
+  recurrence: {rating: moderate, certainty: low, basis: "provisional — corpus-wide S3 in progress; CONVERGES_WITH Stoic material (determinism argument vv.22-30, aggressors driven by conditions so anger is as irrational as anger at a stick) per report Stage 3 — record as convergence_candidate edge, threshold: independent origination + no transmission + matching mechanism; kin to the Kural forbearance unit (u-0195/c-0352) and Dhammapada non-hatred (u-0191/c-0348) — cross-tradition edge candidates, not merges"}
+  source_diversity: {rating: moderate, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: moderate, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "prudential as anger-management counsel; NOTE the merit framing (6.1: one flash of anger destroys merit gathered over a thousand aeons) rests on karmic bookkeeping, which is metaphysical — the prudential tag covers the patience counsel, not the karma claim"}
+  empirical_support: {rating: low, certainty: low, basis: "prudential counsel, not a measured claim"}
+  contestation: {rating: moderate, certainty: moderate, basis: "SEP (Goodman) notes interpretive dispute over Shantideva's exact form of determinism"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "report label 'verified'; Crosby & Skilton (Oxford 1995) in-copyright; PD alternative not identified"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "Shantideva on patience; PRESERVE distinct from the Dhammapada non-hatred claim (different proposition)"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Shantideva, Bodhicaryavatara 6.2 (with 6.1 and the determinism argument at 6.22-30). Report unit (eastern). Prudential as anger-management counsel; NOTE the merit framing (6.1: one flash of anger destroys merit gathered over a thousand aeons) rests on karmic bookkeeping, which is metaphysical — the prudential tag covers the patience counsel, not the karma claim. FOR MERGE (edge candidate, CONVERGES_WITH Stoic material): determinism argument vv.22-30 (aggressors driven by conditions, so anger is as irrational as anger at a stick) converges with Stoic/CBT reframing of anger, per report Stage 3 — record as convergence_candidate edge, threshold: independent origination + no transmission + matching mechanism (cross-tradition S4 edge, not a merge). SEP (Goodman) notes interpretive dispute over Shantideva's exact form of determinism. DISTINCT from the Dhammapada non-hatred claim (u-0191/c-0348): that is how hatred de-escalates; this is a virtue-ranking + cultivation argument. Crosby & Skilton (Oxford 1995) in-copyright."

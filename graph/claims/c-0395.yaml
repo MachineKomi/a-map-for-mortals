@@ -1,0 +1,21 @@
+id: c-0395
+canonical_claim: "Stop debating what a good person should be; be one."
+claim_type: normative
+polarity: prescriptive
+conditionality: universal-ish
+member_units: [u-0043]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "normative counsel on conduct-over-discourse"}
+  empirical_support: {rating: low, certainty: low, basis: "normative, not empirical"}
+  contestation: {rating: low, certainty: moderate, basis: "low contestation as prescriptive counsel"}
+  attribution_integrity: {rating: high, certainty: moderate, basis: "verified (watchlist #1: genuine, Meditations 10.16). The crisp 'Waste no more time arguing...' is Staniforth 1964 (in-copyright) — deliberately NOT used; Long's PD 1862 rendering quoted"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "durable prescriptive counsel"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Marcus Aurelius, Meditations 10.16. DISTINCT from u-0044 (best revenge). Copyright: Long (1862) PD; Staniforth (1964) in-copyright deliberately avoided."

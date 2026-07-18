@@ -1,0 +1,21 @@
+id: c-0369
+canonical_claim: "Every occupation should be open to women; individual capacity, not sex, should decide who fills which office."
+claim_type: normative
+polarity: prescriptive
+conditionality: conditional
+member_units: [u-0252]
+robustness_profile:
+  recurrence: {rating: moderate, certainty: low, basis: "provisional — corpus-wide S3 in progress; convergence candidate 'education/capacity as the lever of equality' with Ban Zhao, de Pizan, Astell, Wollstonecraft — candidate, not proof; cross-tradition S4 edges, NOT merges (each states a distinct proposition)"}
+  source_diversity: {rating: moderate, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: moderate, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "normative — a principle of open occupation by capacity"}
+  empirical_support: {rating: low, certainty: low, basis: "normative principle, not a measured claim"}
+  contestation: {rating: low, certainty: moderate, basis: "low contestation as capacity-based openness"}
+  attribution_integrity: {rating: high, certainty: moderate, basis: "report label 'verified' re-labelled 'attested' per S1 rules; TRANSMISSION direct; PD (Greeley & McElrath 1845) per report"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "Fuller on capacity-based occupation; DISTINCT from the de Pizan/Astell/Wollstonecraft cluster"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Margaret Fuller, Woman in the Nineteenth Century (1845). Report unit (womens-voices). TRANSMISSION (extract): direct. PD (Greeley & McElrath 1845) per report. Fuller quote in the report's fuller form: 'But if you ask me what offices [women] may fill, I reply — any... let them be sea-captains, if you will.' Report fork: voice-vs-silence (voice pole, with Enheduanna, Hypatia, Astell). Convergence candidate 'education/capacity as the lever of equality' with Ban Zhao, de Pizan, Astell, Wollstonecraft — cross-tradition S4 edges, not merges. DISTINCT: this is the open-occupation-by-capacity principle, not the mis-education (Wollstonecraft), freedom/subjection dilemma (Astell), or sex-as-measure (de Pizan) claims. Life_stages derived by minting agent (extract left empty)."

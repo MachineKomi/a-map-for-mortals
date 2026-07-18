@@ -1,0 +1,21 @@
+id: c-0224
+canonical_claim: "People survive not by self-care or foresight but by love for one another."
+claim_type: normative
+polarity: prescriptive
+conditionality: universal-ish
+member_units: [u-0154]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "normative — religious-normative claim"}
+  empirical_support: {rating: low, certainty: low, basis: "no direct empirical test wired — never empirical"}
+  contestation: {rating: moderate, certainty: moderate, basis: "universal-ish; the didactic register reads as sermon"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by report; Maude 1906 PD; rooted in 1 John"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "no known refutation; over-application risk noted"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Tolstoy What Men Live By (1885) — angel Michael's revelation. ENDORSEMENT=ENDORSED: a post-conversion didactic parable; reads as sermon. DISTINCT from c-0223 (different Tolstoy work/proposition). Candidate convergence with Christian agape / Buddhist interdependence (S4, not merge)."

@@ -1,0 +1,21 @@
+id: c-0371
+canonical_claim: "'Woman' is a role constituted by social formation over a lifetime, not a destiny fixed by biology at birth."
+claim_type: observational
+polarity: descriptive
+conditionality: conditional
+member_units: [u-0253]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "observational (RE-DERIVATION: report unit block said 'descriptive', not a valid claim_type; extract said observational) — per SEP, cited by the report, a phenomenological description of social constitution, not essentialism and not tested empirics"}
+  empirical_support: {rating: low, certainty: low, basis: "phenomenological description, not tested empirics"}
+  contestation: {rating: moderate, certainty: moderate, basis: "Beauvoir's constructed-'woman' sits in tension with essentialist readings of care ethics (cf. u-0258/c-0374, u-0259/c-0375)"}
+  attribution_integrity: {rating: moderate, certainty: low, basis: "RIGHTS-RESTRICTED, QUOTE-MINIMALLY: Beauvoir and both major English translations IN COPYRIGHT per report — only the single famous sentence the report records is held; print gate blocks verbatim regardless; report label 'verified' re-labelled 'attested' per S1 rules; TRANSLATOR DISCREPANCY in report: its citation names Borde & Malovany-Chevallier (2010) while its quoted wording is Parshley's (1953) — resolve at S2 primary verification; TRANSMISSION direct"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "Beauvoir's 'one is not born, but rather becomes, a woman'; PRESERVE the tension with essentialist care-ethics readings"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Simone de Beauvoir, The Second Sex (Le Deuxieme Sexe), vol. 2 opening (1949). Report unit (womens-voices). RIGHTS-RESTRICTED, QUOTE-MINIMALLY: Beauvoir and both major English translations IN COPYRIGHT per report — only the single famous sentence the report records is held; print gate blocks verbatim regardless. TRANSMISSION (extract): direct. TRANSLATOR DISCREPANCY in report: its citation names Borde & Malovany-Chevallier (2010, 'One is not born but becomes woman') while its quoted wording is Parshley's (1953) — resolve at S2 primary verification. Re-derivation: claim_type observational (report unit block said 'descriptive', not a valid claim_type; extract said observational) — per SEP, cited by the report, a phenomenological description of social constitution, not essentialism and not tested empirics. Report tensions: autonomy-vs-relation (autonomy pole); Beauvoir's constructed-'woman' sits in tension with essentialist readings of care ethics (cf. u-0258/c-0374, u-0259/c-0375). Life_stages derived by minting agent (extract left empty): the 'becoming' spans formation from childhood."

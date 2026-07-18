@@ -1,0 +1,21 @@
+id: c-0465
+canonical_claim: "Accurate knowledge of both yourself and your adversary is the precondition of reliable success in conflict."
+claim_type: prudential
+polarity: prescriptive
+conditionality: universal-ish
+member_units: [u-0307]
+robustness_profile:
+  recurrence: {rating: high, certainty: moderate, basis: "provisional — corpus-wide S3 in progress; strong convergence: know-thyself counsel recurs across traditions"}
+  source_diversity: {rating: moderate, certainty: low, basis: "provisional — S3 in progress; single Chinese-military source at this scale"}
+  temporal_spread: {rating: high, certainty: moderate, basis: "provisional — c. 5th c. BCE; know-thyself motif ancient and persistent"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "prudential — self-knowledge + adversary-knowledge as precondition of success"}
+  empirical_support: {rating: low, certainty: low, basis: "strategic counsel, not a measured claim"}
+  contestation: {rating: low, certainty: moderate, basis: "one of the few near-universal (not merely conditional) claims in the strategic corpus per report — hence universal-ish"}
+  attribution_integrity: {rating: high, certainty: moderate, basis: "attested; Sun Tzu, Art of War Ch. III §18 (Giles 1910, PD)"}
+  survives_scrutiny: {rating: high, certainty: moderate, basis: "near-universal self/adversary-knowledge counsel; DISTINCT proposition"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Sun Tzu, Art of War Ch. III §18 (Giles 1910, PD); report (wave-2 practical-strategic). Report label verified. Per report, one of the few near-universal (not merely conditional) claims in the strategic corpus — hence universal-ish. DISTINCT proposition from c-0463/c-0464, NOT merged."

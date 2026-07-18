@@ -1,0 +1,21 @@
+id: c-0343
+canonical_claim: "Accomplish things without forcing them (wu-wei): the Way does nothing, and yet nothing is left undone."
+claim_type: prudential
+polarity: prescriptive
+conditionality: conditional
+member_units: [u-0186]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "prudential — counsel on effective, non-forcing action"}
+  empirical_support: {rating: low, certainty: low, basis: "prudential counsel, not a measured claim"}
+  contestation: {rating: moderate, certainty: moderate, basis: "textual core of the self-cultivation-vs-spontaneity fork against Confucian xiushen/li (headline dilemma of the eastern report)"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "report label 'verified' re-labelled 'attested' per S1 rules; quoted wording is D.C. Lau (Penguin, in-copyright); Legge 1891 PD variant held in notes; report flags Legge's Christianising register"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "wu-wei; SPLIT from ch. 48 (decrease) and ch. 2 — distinct Daodejing points; Slingerland (Trying Not to Try) named as best modern bridge"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Laozi (traditional attribution), Daodejing 37. Report unit (eastern). PD alternative wording held by report — Legge (1891): 'The Tao in its regular course does nothing for the sake of doing it, and so there is nothing which it does not do.' Report flags Legge's Christianising register. Pair with ch. 48 (decrease and decrease again) and ch. 2 — SPLIT: these are distinct points. Textual core of the self-cultivation-vs-spontaneity fork against Confucian xiushen/li (headline dilemma of this report). Slingerland (Trying Not to Try) named as best modern bridge on wu-wei. Quoted wording D.C. Lau (Penguin, in-copyright)."

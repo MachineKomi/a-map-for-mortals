@@ -1,0 +1,21 @@
+id: c-0348
+canonical_claim: "Hatred is not brought to an end by answering it with hatred; only non-hatred ends it."
+claim_type: prudential
+polarity: prescriptive
+conditionality: universal-ish
+member_units: [u-0191]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress; convergence with Shantideva (u-0199/c-0356) is intra-Buddhist (shared tradition), NOT independent origination — do not count as cross-tradition robustness; kin to the Kural forbearance unit (u-0195/c-0352) on the retaliation-vs-forbearance fork (cross-tradition edge, not merge)"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "prudential counsel about how conflict actually de-escalates, despite the verse's 'law eternal' phrasing — not an empirical law and not lent metaphysical authority"}
+  empirical_support: {rating: low, certainty: low, basis: "prudential counsel, not a measured claim"}
+  contestation: {rating: low, certainty: moderate, basis: "low contestation as de-escalation counsel"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "report label 'verified' re-labelled 'attested' per S1 rules; Buddharakkhita (BPS 1985) in-copyright; Müller SBE PD variant held in notes; verified genuine anchor per the report, pending primary check"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "Dhammapada v.5; PRESERVE distinct from the Shantideva patience claim (different proposition)"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Buddha (attributed; via the Dhammapada, Pali canon), v. 5 (Yamakavagga). Report unit (eastern). PD alternative wording held by report — Müller (SBE): 'hatred ceases by love.' Held as prudential counsel about how conflict actually de-escalates, despite the verse's 'law eternal' phrasing — not an empirical law and not lent metaphysical authority. Convergence with Shantideva Bodhicaryavatara ch. 6 (u-0199/c-0356) is intra-Buddhist (shared tradition), NOT independent origination — do not count as cross-tradition robustness; the two are DISTINCT claims (this is how hatred de-escalates; that is a virtue-ranking + cultivation argument). Kin to the Kural forbearance unit (u-0195/c-0352) — cross-tradition edge, not merge. General report caution: fabricated Buddha quotes dominate search results; this verse is a verified genuine anchor per the report, pending primary check. Buddharakkhita (BPS 1985) in-copyright."

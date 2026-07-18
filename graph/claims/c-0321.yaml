@@ -1,0 +1,21 @@
+id: c-0321
+canonical_claim: "What is once done is written for good — no piety, cleverness, or tears can call it back or cancel any part of it."
+claim_type: observational
+polarity: descriptive
+conditionality: universal-ish
+member_units: [u-0286]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "observational — on the irreversibility of the past; reads as fatalism but functions as a clarity/acceptance teaching (report note)"}
+  empirical_support: {rating: low, certainty: low, basis: "the irreversibility observation is phenomenological, not a measured claim"}
+  contestation: {rating: low, certainty: moderate, basis: "low contestation as a description of the past's irreversibility"}
+  attribution_integrity: {rating: high, certainty: moderate, basis: "report label 'dubious' KEPT; credited to FitzGerald as crafter — iconic FitzGerald phrasing (the moving-finger image is his crafting); wording = FitzGerald, sentiment = broadly Khayyamic; underlying corpus largely pseudepigraphic; FitzGerald text is PD; cite the edition (1st-ed. LI / 5th-ed. LXXI); mandatory display tag per report: 'FitzGerald, not Khayyam'"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "addresses the fate-vs-will and control-vs-acceptance forks; FitzGerald/FitzGerald discipline: do NOT upgrade 'dubious'"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. FitzGerald, Rubaiyat of Omar Khayyam, quatrain LI (1st ed.) / LXXI (5th ed.). Report unit KH-02. Report label 'dubious' KEPT per its per-quatrain treatment — FitzGerald/FitzGerald discipline: do NOT upgrade. Credited to FitzGerald as crafter: iconic FitzGerald phrasing — the moving-finger image is his crafting; wording = FitzGerald, sentiment = broadly Khayyamic. Underlying corpus largely pseudepigraphic. Reads as fatalism but functions as a clarity/acceptance teaching (report note) — hence observational/descriptive on the irreversibility of the past, addressing the fate-vs-will and control-vs-acceptance forks. FitzGerald text is PD; cite the edition (1st-ed. LI / 5th-ed. LXXI). Mandatory display tag per report: 'FitzGerald, not Khayyam'."

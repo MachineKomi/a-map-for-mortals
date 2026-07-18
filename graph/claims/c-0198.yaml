@@ -1,0 +1,21 @@
+id: c-0198
+canonical_claim: "Blessedness is not the reward of virtue but virtue itself — the good life is not paid for by happiness; it is the happiness."
+claim_type: metaphysical
+polarity: descriptive
+conditionality: contested
+member_units: [u-0128]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "metaphysical — identity-claim within Spinoza's system"}
+  empirical_support: {rating: low, certainty: low, basis: "no direct empirical test wired"}
+  contestation: {rating: high, certainty: moderate, basis: "contested by reward/consequence frames of virtue"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by report; final proposition of the Ethics"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "no known refutation; over-application risk noted"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Spinoza Ethics V P42 (E5p42). Converges with (but is not identical to) the Stoic 'virtue is its own reward' — check independence before any merge."

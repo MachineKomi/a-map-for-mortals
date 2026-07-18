@@ -1,0 +1,21 @@
+id: c-0223
+canonical_claim: "Flourishing requires many conditions to go right at once; failure can come from any single one missing."
+claim_type: observational
+polarity: descriptive
+conditionality: contested
+member_units: [u-0153]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "observational — generalisation about flourishing"}
+  empirical_support: {rating: moderate, certainty: moderate, basis: "the 'Anna Karenina principle' is used in statistics/ecology; literary origin"}
+  contestation: {rating: high, certainty: moderate, basis: "ENDORSEMENT=COMPLICATED — the novel contains no ideally happy family and tests/partly subverts the maxim"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by report; Maude 1918 PD; the novel's own treatment complicates the maxim"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "no known refutation; over-application risk noted"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Tolstoy Anna Karenina Part 1 Ch.1 (opening) — Narrator. ENDORSEMENT=COMPLICATED: the novel tests and partly subverts its own opening thesis. DISTINCT from c-0224 (different Tolstoy work/proposition)."

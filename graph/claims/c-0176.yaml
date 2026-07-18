@@ -1,0 +1,21 @@
+id: c-0176
+canonical_claim: "The greatest accomplishment is self-possession — knowing how to belong to oneself."
+claim_type: normative
+polarity: prescriptive
+conditionality: conditional
+member_units: [u-0106]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "normative — commendation of a posture"}
+  empirical_support: {rating: low, certainty: low, basis: "no direct empirical test wired"}
+  contestation: {rating: moderate, certainty: moderate, basis: "self-possession vs. relational-bond frames pull against it"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by report; not yet primary-verified"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "no known refutation; over-application risk (isolation) noted"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Montaigne Essais I.39 'De la solitude'."

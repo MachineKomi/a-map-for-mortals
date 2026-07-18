@@ -1,0 +1,21 @@
+id: c-0204
+canonical_claim: "Like porcupines huddling on a cold day, people need one another's warmth but wound one another at close range; politeness and manners function as the tolerable middle distance."
+claim_type: observational
+polarity: cautionary
+conditionality: universal-ish
+member_units: [u-0134]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "observational — parable of social distance"}
+  empirical_support: {rating: moderate, certainty: low, basis: "consistent with relational-distance and politeness research; not a direct test"}
+  contestation: {rating: moderate, certainty: moderate, basis: "universal-ish; optimal distance varies by relationship"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by report; Saunders anthology is a rearrangement, not 1:1 §396"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "no known refutation; over-application risk noted"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Schopenhauer Parerga und Paralipomena II ch.31 §396 (1851), via Saunders 'Studies in Pessimism' (1890, PD). NEVER pair Saunders wording with a bare §396 citation. Candidate convergence with Confucian li / Aristotle proportionate friendship (S4, not merge)."

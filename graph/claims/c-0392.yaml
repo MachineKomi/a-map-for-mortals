@@ -1,0 +1,21 @@
+id: c-0392
+canonical_claim: "Moral virtue is formed by habituation: people become just by doing just acts, temperate by temperate acts, brave by brave acts."
+claim_type: observational
+polarity: descriptive
+conditionality: universal-ish
+member_units: [u-0040]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "observational generalisation about how character forms"}
+  empirical_support: {rating: low, certainty: low, basis: "argued from experience rather than systematic evidence; consistent with modern habit-formation research but not a direct test"}
+  contestation: {rating: low, certainty: moderate, basis: "low contestation as a descriptive generalisation"}
+  attribution_integrity: {rating: high, certainty: moderate, basis: "verified; Ross (1908) PD. RE-DERIVATION: report labels empirical/prescriptive; re-derived observational/descriptive (the passage states a generalisation; prescriptive use is downstream)"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "durable; basis of the misattributed Durant line 'We are what we repeatedly do'"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Aristotle, Nicomachean Ethics II.1 (1103a17-1103b2). DISTINCT from the mean (u-0039), function argument (u-0041), and one-swallow (u-0042). Watchlist #8: 'We are what we repeatedly do. Excellence, then, is not an act, but a habit' is Will Durant's 1926 summary, misattributed to Aristotle — this passage is the genuine basis; credit Durant summarising Aristotle. Copyright: Ross (1908) PD."

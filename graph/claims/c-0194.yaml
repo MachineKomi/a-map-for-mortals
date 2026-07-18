@@ -1,0 +1,21 @@
+id: c-0194
+canonical_claim: "Human unhappiness has a single root: the inability to stay quietly at rest in one room — we flee stillness into diversion."
+claim_type: observational
+polarity: cautionary
+conditionality: conditional
+member_units: [u-0124]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "observational — generalisation about restlessness"}
+  empirical_support: {rating: moderate, certainty: moderate, basis: "consistent with 'diversion'/intolerance-of-solitude research (Wilson et al. 2014 shock studies)"}
+  contestation: {rating: moderate, certainty: moderate, basis: "'single root' is rhetorically absolute; kept conditional"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by report; cross-ref Lafuma/Sellier/Brunschvicg numbering"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "no known refutation; over-application risk noted"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Pascal Pensees Lafuma 136 / Sellier 168 / Brunschvicg 139 ('Divertissement'). 'tout le malheur' is Pascal's rhetoric; kept conditional not universal."

@@ -1,0 +1,21 @@
+id: c-0462
+canonical_claim: "On Bettelheim's interpretive theory, unsanitised fairy tales help children safely process fear and existential dilemmas through symbolic engagement."
+claim_type: observational
+polarity: descriptive
+conditionality: contested
+member_units: [u-0279]
+robustness_profile:
+  recurrence: {rating: moderate, certainty: low, basis: "provisional — corpus-wide S3 in progress; convergence candidate: the protect-vs-prepare fork (symbolic engagement with fear)"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress; single Freudian literary-criticism source"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "observational — an adult-facing interpretive claim ABOUT children (guidance for parents/educators on the protect-vs-prepare fork). An influential CLAIM, NOT settled science"}
+  empirical_support: {rating: low, certainty: moderate, basis: "dated Freudian frame; 1991 plagiarism allegations (parallels to J. Heuscher) per report. Hold as influential claim, not science"}
+  contestation: {rating: high, certainty: moderate, basis: "conditionality: contested — report attribution label 'dubious (interpretation)'; validity of the interpretation carried here"}
+  attribution_integrity: {rating: high, certainty: high, basis: "attested to Bettelheim's book; the report's 'dubious' attaches to the validity of the interpretation, not attribution. Quotation fragmentary exactly as held (ellipsis and bracketed '[inner]' are the report's) — do not complete"}
+  survives_scrutiny: {rating: low, certainty: moderate, basis: "influential but contested interpretive claim; IN COPYRIGHT (Knopf 1976) — quote briefly"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Bruno Bettelheim, The Uses of Enchantment (Knopf 1976); report (wave-2 childhood-old-age). STAGING OVERRIDE (P1 validator flag, carried from extract): report staged this [child], overridden to [adult] — this is an adult-facing interpretive claim ABOUT children (guidance for parents/educators on the protect-vs-prepare fork), not child-stage wisdom. Report attribution label 'dubious (interpretation)' re-derived to attested: attribution to Bettelheim's book is not in doubt; 'dubious' attaches to validity of interpretation, carried here and in conditionality: contested. Quotation fragmentary exactly as held (ellipsis and '[inner]' are the report's) — do not complete; 'through symbolic engagement' is the report's gloss outside quote marks. Report polarity label was prescriptive — re-derived to descriptive. Hold as an influential CLAIM, useful for the protecting-vs-preparing fork, NOT settled science: dated Freudian frame; 1991 plagiarism allegations per report. IN COPYRIGHT (Knopf 1976)."

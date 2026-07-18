@@ -1,0 +1,21 @@
+id: c-0225
+canonical_claim: "Each person is responsible before everyone for everything; recognising this shared guilt is the ground of active love."
+claim_type: normative
+polarity: prescriptive
+conditionality: contested
+member_units: [u-0155]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "normative — religious-moral claim"}
+  empirical_support: {rating: low, certainty: low, basis: "no direct empirical test wired"}
+  contestation: {rating: high, certainty: moderate, basis: "contested — Ivan's counter-argument (suffering of children) and Smerdyakov's evasion frame it as hard, not easy"}
+  attribution_integrity: {rating: low, certainty: moderate, basis: "copyright_flag unknown — held wording may match P&V (©1990), not the cited Garnett 1912 PD; verify before print"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "no known refutation; over-application risk noted"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Dostoevsky The Brothers Karamazov Book VI — Elder Zosima repeating his brother Markel. ENDORSEMENT=ENDORSED but not easy: set against Ivan's rebellion and Smerdyakov's evasion. COPYRIGHT CAUTION: wording may be P&V (in copyright), not Garnett PD."

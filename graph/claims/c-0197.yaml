@@ -1,0 +1,21 @@
+id: c-0197
+canonical_claim: "The free person thinks of nothing less than of death; their wisdom is a meditation on life, not on death."
+claim_type: metaphysical
+polarity: prescriptive
+conditionality: contested
+member_units: [u-0127]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "metaphysical — proposition about the 'free man', deployed prescriptively"}
+  empirical_support: {rating: low, certainty: low, basis: "no direct empirical test wired"}
+  contestation: {rating: high, certainty: moderate, basis: "direct counterpoint to memento-mori streams (Stoic/Christian) — preserve the tension, do not harmonise"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by report; not yet primary-verified"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "no known refutation; over-application risk noted"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Spinoza Ethics IV P67 (E4p67). Source is the Ethics; popular attribution to Tractatus Politicus is loose. CONVERGES_WITH/S4 candidate vs Stoic death-meditation — do NOT merge."

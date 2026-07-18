@@ -1,0 +1,21 @@
+id: c-0189
+canonical_claim: "Teaching a thing is a second act of learning it: the teacher learns the material again in making it teachable."
+claim_type: observational
+polarity: descriptive
+conditionality: conditional
+member_units: [u-0119]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "observational — generalisation about pedagogy"}
+  empirical_support: {rating: moderate, certainty: moderate, basis: "consistent with the 'protégé/testing effect' in learning research"}
+  contestation: {rating: low, certainty: moderate, basis: "broadly accepted; sizing of the benefit is conditional"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by report; not yet primary-verified"}
+  survives_scrutiny: {rating: high, certainty: low, basis: "well-supported tendency; low contestation"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Joseph Joubert Pensees (posthumous 1838)."

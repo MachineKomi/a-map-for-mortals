@@ -1,0 +1,21 @@
+id: c-0287
+canonical_claim: "Pride tends to precede ruin; an arrogant spirit tends to precede a fall."
+claim_type: prudential
+polarity: cautionary
+conditionality: conditional
+member_units: [u-0076]
+robustness_profile:
+  recurrence: {rating: moderate, certainty: low, basis: "report convergence CONV-4 (humility cluster with Ptahhotep Maxim 1 and a Kempis I.5) — but lineage caveat: shared didactic-instruction genre inflates apparent convergence; provisional until corpus-wide pass"}
+  source_diversity: {rating: moderate, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: moderate, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "prudential — the surface form is an observational generalisation but its function in Proverbs is cautionary counsel; tendency (not destiny) preserved"}
+  empirical_support: {rating: low, certainty: low, basis: "no direct empirical test wired"}
+  contestation: {rating: low, certainty: moderate, basis: "low contestation as tendency"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by wave-1 report; KJV 1611 wording pending primary check"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "widely attested counsel; cross-tradition kinship (humility) is an S4 CONVERGES_WITH edge, NOT a merge"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Proverbs 16:18 (KJV). Report unit HW-03. Part of report convergence CONV-4 (humility cluster) — the CONVERGES_WITH edges (Ptahhotep Maxim 1/u-0085, a Kempis I.5/u-0098) are cross-tradition kinship, NOT S3 merges; the shared didactic-instruction genre caveat is recorded."

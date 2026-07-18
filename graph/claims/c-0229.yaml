@@ -1,0 +1,21 @@
+id: c-0229
+canonical_claim: "It is better to have loved and lost than never to have loved at all."
+claim_type: prudential
+polarity: prescriptive
+conditionality: contested
+member_units: [u-0159]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "prudential — evaluative counsel on love/grief"}
+  empirical_support: {rating: low, certainty: low, basis: "no direct empirical test wired"}
+  contestation: {rating: moderate, certainty: moderate, basis: "a counter-proverb exists ('what you never had, you never miss'); situated at a specific stage of mourning"}
+  attribution_integrity: {rating: high, certainty: moderate, basis: "attested by report; PD; commonly misattributed to Shakespeare — it is Tennyson"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "conviction held against sorrow — preserve the dissent"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Tennyson In Memoriam A.H.H. Canto XXVII (1850). ENDORSEMENT=ENDORSED but situated at a specific stage of mourning, not detached doctrine. Watchlist: misattributed to Shakespeare."

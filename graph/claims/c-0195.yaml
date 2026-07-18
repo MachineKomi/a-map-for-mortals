@@ -1,0 +1,21 @@
+id: c-0195
+canonical_claim: "The heart has its own reasons, which reason does not know — a mode of knowing distinct from and inaccessible to discursive reason."
+claim_type: metaphysical
+polarity: descriptive
+conditionality: contested
+member_units: [u-0125]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "metaphysical — claim about a faculty of knowing"}
+  empirical_support: {rating: low, certainty: low, basis: "no direct empirical test wired"}
+  contestation: {rating: high, certainty: moderate, basis: "contested by rationalist/empiricist epistemologies"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by report; often quoted out of context as romantic sentiment"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "no known refutation; over-application risk (romantic misreading) noted"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Pascal Pensees Lafuma 423 / Sellier 680 / Brunschvicg 277. In context the 'heart' is primarily an organ of religious knowledge, not romance."

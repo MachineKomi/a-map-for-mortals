@@ -1,0 +1,21 @@
+id: c-0182
+canonical_claim: "How long our passions last is no more within our control than how long we live."
+claim_type: observational
+polarity: descriptive
+conditionality: conditional
+member_units: [u-0112]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "observational — generalisation about affect"}
+  empirical_support: {rating: low, certainty: moderate, basis: "consistent with affect-duration research; not a direct test"}
+  contestation: {rating: moderate, certainty: moderate, basis: "conditional — some regulation of affect is possible"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by report; not yet primary-verified"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "no known refutation; over-application risk noted"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. La Rochefoucauld Maximes no. 5 (1678 5th ed.)."

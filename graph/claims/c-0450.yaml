@@ -1,0 +1,21 @@
+id: c-0450
+canonical_claim: "Worldly prudence (niti) is best taught to the young through nested, entertaining animal stories illustrating 'the wise conduct of life'."
+claim_type: prudential
+polarity: prescriptive
+conditionality: conditional
+member_units: [u-0267]
+robustness_profile:
+  recurrence: {rating: moderate, certainty: low, basis: "provisional — corpus-wide S3 in progress; convergence candidate: Aesop (u-0261), Bidpai tradition — story-as-pedagogy"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress; single Sanskrit niti-shastra source"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "prudential — counsel on pedagogy of prudence (realpolitik niti, not simple virtue)"}
+  empirical_support: {rating: low, certainty: low, basis: "pedagogical counsel, not a measured claim"}
+  contestation: {rating: low, certainty: moderate, basis: "low contestation as pedagogical framing"}
+  attribution_integrity: {rating: moderate, certainty: low, basis: "report label PROBABLE; attribution to Vishnu Sharma is traditional, not verified authorship. Held English appears a DESCRIPTION of the frame narrative (likely Ryder front matter), not a translation of the Sanskrit frame — confirm locus at S2"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "frame-story pedagogy; contrast Aesop (u-0261): Panchatantra teaches strategic realpolitik, not simple virtue — keep distinct"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. attrib. Vishnu Sharma, Panchatantra (c. 200 BCE; Ryder 1925 tr., PD); report (wave-2 childhood-old-age). Report label PROBABLE — attribution traditional. WORDING CAVEAT: held English is a description of the frame (likely Ryder front matter), not a translation of the Sanskrit — confirm exact locus at S2. Bears on the protecting-vs-preparing fork. DISTINCT from Aesop (u-0261): Panchatantra teaches realpolitik niti, not simple virtue."

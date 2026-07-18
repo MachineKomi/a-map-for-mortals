@@ -1,0 +1,21 @@
+id: c-0218
+canonical_claim: "For human beings existence precedes essence: we first exist, without a given nature, and define ourselves through our choices — in that sense we are condemned to be free."
+claim_type: metaphysical
+polarity: descriptive
+conditionality: contested
+member_units: [u-0148]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "metaphysical — thesis about human nature/freedom"}
+  empirical_support: {rating: low, certainty: low, basis: "no direct empirical test wired"}
+  contestation: {rating: high, certainty: high, basis: "LIVE controversy — essentialist/determinist traditions reject it; cf. the freedom fork vs Spinoza"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by report; Sartre IN COPYRIGHT — paraphrase only"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "no known refutation; over-application risk noted"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Jean-Paul Sartre L'existentialisme est un humanisme (1946). RIGHTS-RESTRICTED, PARAPHRASE-ONLY. The normative charge (authenticity, responsibility) is downstream — belongs to companion units/edges. The Spinoza-vs-Sartre freedom fork is partly terminological."

@@ -1,0 +1,21 @@
+id: c-0314
+canonical_claim: "Whoever relies on God finds God sufficient for them; God accomplishes His purpose."
+claim_type: metaphysical
+polarity: descriptive
+conditionality: universal-ish
+member_units: [u-0103]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "metaphysical — a theological promise (reliance -> sufficiency), never empirical; report's dual 'metaphysical/normative' narrowed to metaphysical"}
+  empirical_support: {rating: low, certainty: low, basis: "theological promise, not empirically testable"}
+  contestation: {rating: high, certainty: moderate, basis: "tawakkul pole of FORK-6 (submission vs striving); report T-5: within Islam the tawakkul/asbab balance is a live, signed debate, against Tirmidhi 2517 'tie your camel' and Avot 2:16"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by wave-1 report; Sahih International is in copyright — the print gate needs a PD Qur'an translation (none listed in this report's inventory; flag for sourcing)"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "Qur'an 65:3; the tawakkul/trust-vs-effort debate is preserved as a live fork"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Qur'an 65:3 (Surah At-Talaq; Sahih International). Report unit (Qur'an tawakkul). RE-DERIVATIONS: report's dual 'metaphysical/normative' narrowed to metaphysical (theological promise, never empirical); polarity re-derived as descriptive against the report's prescriptive — the verse states a conditional consequence (reliance -> sufficiency), matching type Consequence, though it functions as encouragement to rely. Conditionality universal-ish qualified 'within tradition' by the report. Tawakkul pole of FORK-6 (submission vs striving) against Tirmidhi 2517 'tie your camel' and Avot 2:16 (report T-5: within Islam the tawakkul/asbab balance is a live, signed debate) — CONVERGES_WITH edges to Mt 6:34 (u-0095) and Job 1:21 (u-0082), NOT merges. source.author null by design (scripture). Sahih International in copyright — flag for a PD Qur'an translation for print."

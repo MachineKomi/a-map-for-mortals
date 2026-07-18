@@ -1,0 +1,21 @@
+id: c-0250
+canonical_claim: "Many Diné stories are sacred and restricted to winter-only telling; access to them is governed by the tradition itself."
+claim_type: normative
+polarity: prescriptive
+conditionality: conditional
+member_units: [u-0222]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "singleton at mint; cross-tradition convergence is an S4 edge hypothesis, not counted as recurrence — pending corpus-wide edge pass"}
+  source_diversity: {rating: low, certainty: low, basis: "single source tradition at mint — pending S4 edge pass"}
+  temporal_spread: {rating: low, certainty: low, basis: "single attestation point at mint — pending S4 edge pass"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "normative claim — testable in tendency only"}
+  empirical_support: {rating: low, certainty: low, basis: "no direct empirical test wired at mint"}
+  contestation: {rating: moderate, certainty: moderate, basis: "conditionality: conditional — domain-scoped, not universal"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "communal; record-only stub by design — content not extracted"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "the restriction is well-documented; publication of any content is gated"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "RECORD-ONLY stub (CARE): content deliberately not extracted; sacred/restricted. This claim records only the existence and scope of the restriction. Threshold to publish any content: explicit community/consent documentation or an established public, community-authored source. No quotation held and none to be sought without that gate."

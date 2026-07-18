@@ -1,0 +1,21 @@
+id: c-0243
+canonical_claim: "In deliberation, keep in view the welfare of the whole people — not only the present generation but the coming ones, including the unborn whose faces are yet beneath the ground."
+claim_type: normative
+polarity: prescriptive
+conditionality: universal-ish
+member_units: [u-0215]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "singleton at mint; cross-tradition convergence is an S4 edge hypothesis, not counted as recurrence — pending corpus-wide edge pass"}
+  source_diversity: {rating: low, certainty: low, basis: "single source tradition at mint — pending S4 edge pass"}
+  temporal_spread: {rating: low, certainty: low, basis: "single attestation point at mint — pending S4 edge pass"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "normative claim — testable in tendency only"}
+  empirical_support: {rating: low, certainty: low, basis: "no direct empirical test wired at mint"}
+  contestation: {rating: moderate, certainty: low, basis: "conditionality: universal-ish — assumed broadly applicable"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "communal oral tradition in Parker's 1916 PD rendering; cross-check against Onondaga Nation sources at S2"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "the ethic is authentic; the 'seventh-generation' slogan is a modern distillation, not verbatim"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Haudenosaunee Great Law of Peace (Kaianere'kó:wa) in Parker's 1916 rendering. Communal oral constitutional tradition. MISATTRIBUTION WATCHLIST: the popular 'seventh-generation' slogan is NOT in written transcriptions of the Great Law — the ethic is authentically rooted here but the slogan is a modern distillation. CONSENT GATE: do not publish before a community-source consent audit. Era given is the Parker rendering's date; the oral tradition long predates it."

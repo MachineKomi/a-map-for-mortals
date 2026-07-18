@@ -1,0 +1,21 @@
+id: c-0403
+canonical_claim: "The philosopher's whole life is a preparation for death; old age need not be feared if life has been well used."
+claim_type: prudential
+polarity: prescriptive
+conditionality: conditional
+member_units: [u-0051]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "prudential counsel on life-as-preparation-for-death"}
+  empirical_support: {rating: low, certainty: low, basis: "prudential, not measured"}
+  contestation: {rating: low, certainty: moderate, basis: "low contestation as counsel"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "report label: probable; Cicero transmitting Plato (Phaedo 64a-67e) — credit both. Yonge/Peabody PD. Report Stage-5 flag: the exact Latin of Tusc. I.30.74 is currently sourced secondhand and needs a targeted primary-text check"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "durable counsel; transmission layered"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Cicero (transmitting Plato), Tusculan Disputations I.30.74 — 'tota...philosophorum vita commentatio mortis est'. Credit both Cicero and Plato (Phaedo 64a-67e). Ingest with a visible transmission marker. Copyright: Yonge/Peabody PD; Latin exact wording needs primary check at Stage 5."

@@ -1,0 +1,21 @@
+id: c-0299
+canonical_claim: "Do not associate with a hot-tempered man, nor seek him out for conversation."
+claim_type: prudential
+polarity: cautionary
+conditionality: conditional
+member_units: [u-0088]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "prudential, cautionary — avoidance counsel about bad company"}
+  empirical_support: {rating: low, certainty: low, basis: "social-conduct counsel, not a measured claim"}
+  contestation: {rating: low, certainty: moderate, basis: "low contestation as avoidance counsel"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by wave-1 report; WORDING/EDITION CAUTION: the report credits ANET but links Wikipedia, and the diction suggests the wording may derive from an older (possibly PD) translation — establish the real edition at S2"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "avoidance counsel; lineage to Proverbs 22:24-25 is a candidate INFLUENCED edge"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Instruction of Amenemope, ch.10 (ANET, edition unresolved). Report unit ANE-04. The report's canonical claim adds the rationale 'lest you learn his ways', which is explicit in the Proverbs 22:24-25 parallel it cites but NOT in the two quoted lines — the canonical claim hews to the quoted evidence; the rationale is recorded here only. LINEAGE: INFLUENCED-edge candidate towards Proverbs 22:24-25 (see u-0077). WORDING/EDITION CAUTION carried."

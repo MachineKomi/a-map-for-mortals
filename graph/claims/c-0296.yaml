@@ -1,0 +1,21 @@
+id: c-0296
+canonical_claim: "Do not presume on your learning: skill has no ceiling, and wisdom may be found in anyone, ignorant or sage alike."
+claim_type: prudential
+polarity: prescriptive
+conditionality: universal-ish
+member_units: [u-0085]
+robustness_profile:
+  recurrence: {rating: moderate, certainty: low, basis: "report convergence CONV-4 (humility cluster with Proverbs 16:18 and a Kempis I.5) — lineage caveat: shared didactic-instruction genre across ~3,500 years inflates apparent convergence; provisional until corpus-wide pass"}
+  source_diversity: {rating: moderate, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: moderate, certainty: low, basis: "~3,500 years from the Maxims of Ptahhotep to a Kempis; provisional until corpus-wide pass"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "prudential — counsel about intellectual humility and where wisdom may be found, not a moral command; report's dual 'prudential/normative' re-derived to prudential"}
+  empirical_support: {rating: low, certainty: low, basis: "epistemic-humility counsel, not a measured claim"}
+  contestation: {rating: low, certainty: moderate, basis: "low contestation as intellectual-humility counsel"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by wave-1 report; Gunn 1906 wording pending primary check (Gutenberg); translation caveat: Gunn 1906 is PD but dated — prefer Lichtheim's modern rendering (in copyright) where nuance matters"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "the report calls the Maxims 'the oldest book'; cross-tradition kinship (humility) is S4 CONVERGES_WITH edges, NOT merges"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Maxims of Ptahhotep, Maxim 1 (Gunn 1906). Report unit ANE-01. Part of report convergence CONV-4 (humility cluster with Proverbs 16:18/u-0076 and a Kempis I.5/u-0098) — CONVERGES_WITH edges, NOT merges; the shared didactic-instruction genre caveat is recorded. Translation caveat: Gunn 1906 is PD but dated — prefer Lichtheim (in copyright) where nuance matters; any print use stays with the PD Gunn wording."

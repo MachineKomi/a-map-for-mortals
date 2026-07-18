@@ -1,0 +1,21 @@
+id: c-0309
+canonical_claim: "Judge what is said by its content, not by the authority of the one who says it."
+claim_type: prudential
+polarity: prescriptive
+conditionality: universal-ish
+member_units: [u-0098]
+robustness_profile:
+  recurrence: {rating: moderate, certainty: low, basis: "report CONV-4: converges with Ptahhotep Maxim 1 on epistemic humility — shared didactic-instruction genre inflates the convergence; provisional until corpus-wide pass"}
+  source_diversity: {rating: moderate, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: moderate, certainty: low, basis: "~3,500 years from Ptahhotep to a Kempis; provisional until corpus-wide pass"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "prudential — epistemic advice; report's dual 'prudential/normative' narrowed to prudential"}
+  empirical_support: {rating: low, certainty: low, basis: "epistemic counsel, not a measured claim"}
+  contestation: {rating: low, certainty: moderate, basis: "low contestation as epistemic advice"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by wave-1 report; SOURCING CAVEAT: this wording is cited only to Goodreads and its English version/translator is unidentified — copyright_flag unknown until the wording is matched to an edition"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "a Kempis on epistemic humility; CONVERGES_WITH edge to Ptahhotep, NOT a merge"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Thomas a Kempis, Imitation of Christ I.5 (translator unidentified). Report unit (a Kempis epistemic). Report's dual 'prudential/normative' narrowed to prudential (epistemic advice). SOURCING CAVEAT: this wording is cited only to Goodreads and its English version/translator is unidentified — copyright_flag unknown until the wording is matched to an edition (the work has multiple PD English versions, incl. the CCEL text used for u-0097); modern-sounding phrasing suggests a modern translation. Report CONV-4: converges with Ptahhotep Maxim 1 (u-0085) on epistemic humility — CONVERGES_WITH edge, NOT a merge; the shared didactic-instruction genre caveat is recorded."

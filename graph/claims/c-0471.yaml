@@ -1,0 +1,21 @@
+id: c-0471
+canonical_claim: "The science of government (danda, punishment) is what secures, improves, and distributes acquisitions; on it the worldly progress of all is said to depend."
+claim_type: prudential
+polarity: prescriptive
+conditionality: conditional
+member_units: [u-0313]
+robustness_profile:
+  recurrence: {rating: moderate, certainty: low, basis: "provisional — corpus-wide S3 in progress; convergence candidate: ordered-rule-underwrites-all-goods (dandaniti doctrine)"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress; single Indian-statecraft source at this scale"}
+  temporal_spread: {rating: high, certainty: moderate, basis: "provisional — c. 3rd c. BCE composite (dating contested)"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "prudential — a claim about what statecraft requires; cautionary/descriptive framing overall, not a moral endorsement"}
+  empirical_support: {rating: low, certainty: low, basis: "statecraft counsel, not a measured claim"}
+  contestation: {rating: moderate, certainty: moderate, basis: "realpolitik counsel; conditional prudence, not universal ethics"}
+  attribution_integrity: {rating: high, certainty: moderate, basis: "attested; Kautilya, Arthashastra Book I Ch. IV (Shamasastry 1915, PD). Kautilya's dating contested"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "dandaniti — ordered rule underwrites all other goods; DISTINCT from c-0470 (law-of-the-fish): this is the positive claim that danda secures progress, that is the negative-why-enforcement-is-needed claim"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Kautilya, Arthashastra Book I Ch. IV (Shamasastry 1915, PD); report (wave-2 practical-strategic). Report label verified. Dandaniti — the doctrine that ordered rule underwrites all other goods. Realpolitik counsel kept in cautionary/descriptive framing: a claim about what statecraft requires, not a moral endorsement. Kautilya's dating contested. DISTINCT from c-0470 (law-of-the-fish): both invoke danda, but this is the positive danda-secures-progress claim, c-0470 is the negative law-of-the-fish claim — NOT merged."

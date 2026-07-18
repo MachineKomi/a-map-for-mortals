@@ -1,0 +1,21 @@
+id: c-0193
+canonical_claim: "Reading builds a well-stocked mind, conversation a quick one, and writing a precise one — use all three deliberately."
+claim_type: prudential
+polarity: prescriptive
+conditionality: conditional
+member_units: [u-0123]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "prudential — counsel on mental faculties"}
+  empirical_support: {rating: moderate, certainty: low, basis: "consistent with writing-to-learn and discourse research; not a direct test"}
+  contestation: {rating: low, certainty: moderate, basis: "broadly accepted counsel"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by report; not yet primary-verified"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "no known refutation; over-application risk noted"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Francis Bacon 'Of Studies' (Essays 1625). DISTINCT from c-0191 (same essay): this is the three-faculties maxim (reading/conference/writing); c-0191 is the three-ends maxim."

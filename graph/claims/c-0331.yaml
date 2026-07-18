@@ -1,0 +1,21 @@
+id: c-0331
+canonical_claim: "On the path to wisdom, inherited religious dogma must be abandoned in the Valley of the Quest, and the uselessness of worldly knowledge accepted in the Valley of Insight."
+claim_type: prudential
+polarity: prescriptive
+conditionality: conditional
+member_units: [u-0297]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "convergence candidate per report: Khayyam's skepticism (u-0289/c-0324) and Socratic 'know that you know nothing' — report notes recurrence is not proof; provisional until corpus-wide pass"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "prudential — a practice on the mystical path, though the path's goal is metaphysical"}
+  empirical_support: {rating: low, certainty: low, basis: "mystical-path counsel, not a measured claim"}
+  contestation: {rating: moderate, certainty: moderate, basis: "a specifically Sufi (Attar) practice-frame"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "report label 'communal' re-labelled 'attested' (named author's structured allegory); PARAPHRASE, not a quote; the seven valleys are the poem's own teaching frame; endorsement: endorsed; Darbandi & Davis (Penguin 1984) in-copyright; no wording held, copyright unknown; Wolpe 2017 alternative (Lead #10)"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "the seven valleys (Quest, Love, Insight/Understanding, Detachment, Unity, Bewilderment, Poverty/Nothingness) are the poem's own teaching frame"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Attar, Conference of the Birds, the Seven Valleys (Darbandi & Davis 1984, paraphrase). Report unit (Attar-Valleys). PARAPHRASE, not a quote. The seven valleys: Quest, Love, Insight/Understanding, Detachment, Unity, Bewilderment, Poverty/Nothingness. Endorsement: endorsed — the valleys are the poem's own teaching frame. Prudential (a practice on the mystical path), though the path's goal is metaphysical. SPLIT from c-0313 (the Simorgh revelation): that is the metaphysical climax (seeker = sought); this is the prudential path-discipline (abandon dogma, accept the uselessness of worldly knowledge) — distinct propositions within the same poem. Convergence candidate per report: Khayyam's skepticism (u-0289/c-0324) and Socratic 'know that you know nothing' — CONVERGES_WITH edges, NOT merges."

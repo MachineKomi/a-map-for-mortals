@@ -1,0 +1,21 @@
+id: c-0327
+canonical_claim: "Do not harm even an ant carrying its grain — the smallest life has a soul, and sweet life is precious; needless harm is the mark of unjust power."
+claim_type: normative
+polarity: prescriptive
+conditionality: universal-ish
+member_units: [u-0292]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "normative — a sanctity-of-life injunction; addresses the power-vs-justice fork"}
+  empirical_support: {rating: low, certainty: low, basis: "ethical injunction, not empirically testable"}
+  contestation: {rating: low, certainty: moderate, basis: "low contestation as a sanctity-of-life norm"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "report label 'probable', normalised to 'attested'; WORDING CAUTION: the English translator is unknown ('English tr. varies' per report) — verify the exact translator and edition before any quotation use; copyright_flag 'unknown' until the wording's edition is established; report watchlist item 6 applies (circulating Shahnameh quotes are often loose paraphrases); PD English alternatives for the Shahnameh generally: Warner & Warner, Helen Zimmern"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "one of Ferdowsi's most-quoted couplets on the sanctity of life; justice (dad) is the Shahnameh's central political value — addresses the power-vs-justice fork"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Ferdowsi, Shahnameh, couplet 'Miyazar muri ke dane-kash ast...' (translator unknown). Report unit FE-03. One of Ferdowsi's most-quoted couplets on the sanctity of life; justice (dad) is the Shahnameh's central political value — addresses the power-vs-justice fork. WORDING CAUTION: the English translator is unknown ('English tr. varies' per report) — verify the exact translator and edition before any quotation use; copyright_flag 'unknown' until the wording's edition is established. Report watchlist item 6 applies (circulating Shahnameh quotes are often loose paraphrases). Only the transliterated Persian incipit is held; full original at verification."

@@ -1,0 +1,21 @@
+id: c-0332
+canonical_claim: "A long life teaches what happened today and yesterday, but of what tomorrow will bring one remains ignorant."
+claim_type: observational
+polarity: descriptive
+conditionality: universal-ish
+member_units: [u-0298]
+robustness_profile:
+  recurrence: {rating: moderate, certainty: low, basis: "strong convergence candidate per report with FitzGerald-Khayyam KH-04 (u-0288/c-0323) and the Horace/Ecclesiastes/Siduri uncertainty-of-tomorrow cluster; provisional until corpus-wide pass"}
+  source_diversity: {rating: moderate, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: moderate, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "observational — a gnomic observation about the limits of foreknowledge"}
+  empirical_support: {rating: low, certainty: low, basis: "epistemic observation, not a measured claim"}
+  contestation: {rating: low, certainty: moderate, basis: "low contestation as an observation about uncertain tomorrow"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "report label 'probable'; Zuhayr's own first-person gnomic voice ('the practical wisdom of a sober man of the world'), not character speech; endorsement: endorsed; wording from The Sacred Books & Early Literature of the East, Vol. V (1917, PD); report establishes this and the Jones (1782) / Lyall (1930) renderings as PD locators; Arberry, The Seven Odes (1957) is the in-copyright scholarly alternative (Lead #4); Zuhayr c. 520-c. 609 CE"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "Zuhayr's gnomic voice; the uncertainty-of-tomorrow cluster"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Zuhayr ibn Abi Sulma, Mu'allqa, gnomic (hikma) closing section (Sacred Books & Early Literature of the East, Vol. V, 1917, PD). Report unit MU-01. Endorsement: endorsed — Zuhayr's own first-person gnomic voice ('the practical wisdom of a sober man of the world'), not character speech. Zuhayr c. 520-c. 609 CE. Wording from the 1917 Sacred Books anthology (PD); Jones (1782) / Lyall (1930) renderings are PD locators; Arberry 1957 is the in-copyright scholarly alternative (Lead #4). Strong convergence candidate per report with FitzGerald-Khayyam KH-04 (u-0288/c-0323) and the Horace/Ecclesiastes/Siduri uncertainty-of-tomorrow cluster — CONVERGES_WITH edges, NOT merges."

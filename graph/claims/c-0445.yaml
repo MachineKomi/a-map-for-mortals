@@ -1,0 +1,21 @@
+id: c-0445
+canonical_claim: "Late-life satisfaction tracks distance from death more than chronological age: it holds relatively steady until a transition roughly four years before death, when decline sharply accelerates."
+claim_type: empirical
+polarity: descriptive
+conditionality: universal-ish
+member_units: [u-0182]
+robustness_profile:
+  recurrence: {rating: low, certainty: high, basis: "empirical finding — recurrence not the relevant axis; see empirical_support"}
+  source_diversity: {rating: low, certainty: moderate, basis: "single national panel analysis (SOEP); German sample"}
+  temporal_spread: {rating: low, certainty: high, basis: "contemporary research literature only"}
+  claim_type_dim: {rating: high, certainty: high, basis: "empirical — testable; graded on the unit"}
+  empirical_support: {rating: moderate, certainty: moderate, basis: "evidence grade B/C — large longitudinal panel (22-year SOEP, N=1,637 deceased adults aged 70–100); replication unassessed"}
+  contestation: {rating: moderate, certainty: moderate, basis: "based on one national panel; universal-ish as a robust pattern but not multi-panel"}
+  attribution_integrity: {rating: high, certainty: moderate, basis: "attested; Gerstorf et al. 2008 (Developmental Psychology); URL held on unit"}
+  survives_scrutiny: {rating: moderate, certainty: moderate, basis: "supports 'end-of-life well-being declines'; transition ~4 years before death where decline roughly tripled"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Gerstorf et al. 2008 (Developmental Psychology); report finding. Terminal-decline pattern (distance-to-death, not chronological age). DISTINCT from c-0444 (positive emotion ratio with age) and c-0442 (age U-curve): this is the distance-to-death terminal-decline finding, NOT merged."

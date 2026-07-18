@@ -1,0 +1,21 @@
+id: c-0473
+canonical_claim: "A power too weak for open confrontation should adopt strategic indifference and waiting (upeksha) rather than provoke a stronger neighbour."
+claim_type: prudential
+polarity: prescriptive
+conditionality: conditional
+member_units: [u-0315]
+robustness_profile:
+  recurrence: {rating: high, certainty: moderate, basis: "provisional — corpus-wide S3 in progress; convergence candidate: Sun Tzu's subdue-without-fighting (c-0464) — win-without-fighting / patience of the weak"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress; single Indian-statecraft source at this scale"}
+  temporal_spread: {rating: high, certainty: moderate, basis: "provisional — c. 3rd c. BCE composite (dating contested)"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "prudential — counsel of strategic waiting for the weak"}
+  empirical_support: {rating: low, certainty: low, basis: "statecraft counsel, not a measured claim"}
+  contestation: {rating: moderate, certainty: moderate, basis: "realpolitik counsel; the scholars' link of upeksha to later 'soft power'/endurance ideas is interpretive — do not present as Kautilya's own claim"}
+  attribution_integrity: {rating: moderate, certainty: low, basis: "report label probable; concept attested but NO verbatim wording held — report records the concept only. Report glosses upeksha as 'observance of neutrality' / diplomatic indifference, a stance for the king 'devoid of necessary strength'. Report also points to Kamandaka's Nitisara for elaboration. copyright_flag unknown because no quoted wording is held (Shamasastry 1915 edition itself is PD)"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "the strategic-indifference counsel for the weak; DISTINCT from c-0471 (danda secures progress) and c-0472 (sixfold policy). Candidate convergence with Sun Tzu subdue-without-fighting (c-0464)"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Kautilya, Arthashastra Book VII (Shamasastry 1915, PD); report (wave-2 practical-strategic). Report label probable. Concept attested; exact single-line quote NOT isolated — report glosses upeksha as 'observance of neutrality' / diplomatic indifference, a stance for the king 'devoid of necessary strength'. Report also points to Kamandaka's Nitisara for elaboration. Scholars' link of upeksha to later 'soft power'/endurance ideas flagged by the report as interpretive — do not present as Kautilya's own claim. copyright_flag unknown because no quoted wording is held (the Shamasastry 1915 edition itself is PD). Candidate convergence: Sun Tzu's subdue-without-fighting (c-0464). DISTINCT proposition from c-0471/c-0472, NOT merged."

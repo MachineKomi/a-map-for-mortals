@@ -1,0 +1,21 @@
+id: c-0407
+canonical_claim: "Whoever cherishes the golden mean avoids both the squalor of poverty and the envied excess of a palace."
+claim_type: prudential
+polarity: prescriptive
+conditionality: conditional
+member_units: [u-0055]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress; convergence candidate: Aristotle's mean (u-0039), Hesiod's due measure (u-0053) — 'aurea mediocritas' is Horace's coinage; convergence is robustness, not truth"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "prudential counsel on the mean in fortune"}
+  empirical_support: {rating: low, certainty: low, basis: "prudential, not measured"}
+  contestation: {rating: low, certainty: moderate, basis: "low contestation as counsel"}
+  attribution_integrity: {rating: high, certainty: moderate, basis: "report label: verified; Latin original PD; Conington (1882) PD. TRANSLATION CAVEAT: the parenthetical English may be a literal gloss rather than Conington's 1882 verse rendering — confirm whose wording at S2"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "durable; wording attribution to confirm"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Horace, Odes 2.10.5-8 — 'aurea mediocritas' (Horace's coinage). DISTINCT from Aristotle's mean (u-0039): different author, register, and framing (poetic vs philosophical). Copyright: Conington (1882) PD; TRANSLATION CAVEAT — confirm the English is Conington's verse, not a literal gloss (the sibling carpe diem unit needed exactly this correction)."

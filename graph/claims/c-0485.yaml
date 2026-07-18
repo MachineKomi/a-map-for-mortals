@@ -1,0 +1,21 @@
+id: c-0485
+canonical_claim: "If a ruler cannot be both loved and feared, it is safer to be feared than loved, because love breaks when it no longer serves men's interests while dread of punishment holds — but above all avoid being hated."
+claim_type: prudential
+polarity: cautionary
+conditionality: contested
+member_units: [u-0327]
+robustness_profile:
+  recurrence: {rating: moderate, certainty: low, basis: "provisional — corpus-wide S3 in progress; convergence candidate: fear-vs-love counsel in leadership"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress; single Italian-Renaissance source at this scale"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "prudential — cautionary realpolitik counsel, NOT endorsed"}
+  empirical_support: {rating: low, certainty: low, basis: "statecraft counsel, not a measured claim"}
+  contestation: {rating: high, certainty: moderate, basis: "ESSENTIAL QUALIFICATION (report): Machiavelli immediately adds the prince must above all avoid being HATED — meme-culture omits the qualification; do not print the fear counsel without it. Direct internal tension with Discourses I.58 ('the people are wiser', u-0330) — Machiavelli against himself; preserve, do not collapse"}
+  attribution_integrity: {rating: high, certainty: moderate, basis: "attested; Machiavelli, The Prince Ch. XVII (Marriott 1908, PD)"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "the fear-over-love counsel WITH the avoid-hatred qualification; cautionary realpolitik, NOT endorsed. DISTINCT from c-0486 (cruelty well used)"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Niccolò Machiavelli, The Prince Ch. XVII (Marriott 1908, PD); report (wave-2 practical-strategic). Report label verified — downgraded to attested per S1 rule 1 pending primary check. ESSENTIAL QUALIFICATION (report): Machiavelli immediately adds that the prince must above all avoid being HATED — meme-culture omits the qualification; do not print the fear counsel without it. The canonical_claim carries the avoid-hatred qualification. Cautionary realpolitik, not endorsed. Report flags direct internal tension with Discourses I.58 ('the people are wiser', u-0330) — Machiavelli against himself; preserve, do not collapse. DISTINCT from c-0486 (cruelty well used, same chapter but a distinct proposition), NOT merged."

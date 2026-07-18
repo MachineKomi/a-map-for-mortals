@@ -1,0 +1,21 @@
+id: c-0175
+canonical_claim: "Much suffering comes from anticipated misfortunes that never arrive; guard against catastrophising."
+claim_type: observational
+polarity: cautionary
+conditionality: conditional
+member_units: [u-0105]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "observational — generalisation about mental life"}
+  empirical_support: {rating: moderate, certainty: moderate, basis: "consistent with CBT/anxiety-research on catastrophising"}
+  contestation: {rating: moderate, certainty: moderate, basis: "sizing of unrealised misfortunes is conditional"}
+  attribution_integrity: {rating: low, certainty: high, basis: "APOCRYPHAL as Montaigne; sentiment traced to Seneca Ep. 13.4 — do NOT print under Montaigne"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "sentiment robust; attribution is not"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. APOCRYPHAL/floating attribution (popular English form; also floated for Seneca, Twain, Churchill). Authentic sentiment: Seneca Moral Epistles 13.4. Route misattribution edge to Seneca source if an S3 wave mints it. NOT a print candidate under the Montaigne attribution."

@@ -1,0 +1,21 @@
+id: c-0457
+canonical_claim: "People age well by selecting fewer goals, optimising the capacities they retain, and compensating for losses through alternative means — the SOC model of adaptive ageing."
+claim_type: empirical
+polarity: descriptive
+conditionality: conditional
+member_units: [u-0274]
+robustness_profile:
+  recurrence: {rating: low, certainty: high, basis: "empirical model — recurrence not the relevant axis; see empirical_support"}
+  source_diversity: {rating: moderate, certainty: moderate, basis: "meta-model of adaptive lifespan development with empirical support across studies"}
+  temporal_spread: {rating: low, certainty: high, basis: "contemporary research literature only"}
+  claim_type_dim: {rating: high, certainty: high, basis: "empirical — a model with empirical support; graded on the unit. A MODEL, NOT A LAW (report's emphatic tag)"}
+  empirical_support: {rating: moderate, certainty: moderate, basis: "meta-model with empirical support; no effect sizes or replication figures given in report; 'successful aging' research has normative baggage"}
+  contestation: {rating: moderate, certainty: moderate, basis: "the 'successful aging' framing carries normative baggage about what counts as success"}
+  attribution_integrity: {rating: high, certainty: moderate, basis: "attested; Paul B. Baltes & Margret M. Baltes 1990 (Successful Aging, CUP)"}
+  survives_scrutiny: {rating: moderate, certainty: moderate, basis: "describes how adaptive ageing proceeds; prescriptive use is downstream. IN COPYRIGHT (CUP 1990) — print gate governs"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Paul B. Baltes & Margret M. Baltes, 'Selective Optimization with Compensation' (SOC) model, in Successful Aging (CUP 1990); report (wave-2 childhood-old-age). Report label verified. A MODEL, NOT A LAW (report's emphatic tag). Report polarity label was prescriptive — re-derived to descriptive: the quoted claim describes how adaptive ageing proceeds; prescriptive use is downstream. IN COPYRIGHT (CUP 1990). Operationalises the middle path of the fighting-vs-befriending fork."

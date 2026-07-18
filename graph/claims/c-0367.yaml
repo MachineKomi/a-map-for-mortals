@@ -1,0 +1,21 @@
+id: c-0367
+canonical_claim: "If natural freedom belongs to all human beings, then women's subjection in marriage is unjust — either the universal premise must be honoured for women or it is not honestly held."
+claim_type: normative
+polarity: cautionary
+conditionality: contested
+member_units: [u-0250]
+robustness_profile:
+  recurrence: {rating: moderate, certainty: low, basis: "provisional — corpus-wide S3 in progress; convergence candidate 'education/freedom as the lever of equality' with Ban Zhao (u-0243/c-0271), de Pizan (u-0249/c-0366), Wollstonecraft (u-0251/c-0368) — candidate, not proof; cross-tradition S4 edges, NOT merges (each states a distinct proposition)"}
+  source_diversity: {rating: moderate, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: moderate, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "normative — a dilemma exposing an inconsistency in the freedom/subjection premise"}
+  empirical_support: {rating: low, certainty: low, basis: "normative dilemma, not a measured claim"}
+  contestation: {rating: high, certainty: moderate, basis: "READING CONTESTED, preserved not resolved: Springborg/Kinnaird read the line as ironic Tory critique of Lockean/Whig contractarianism; Broad reads it as a literal claim that wives are wrongfully subject to husbands' arbitrary will — hence conditionality: contested and Dilemma type kept"}
+  attribution_integrity: {rating: high, certainty: moderate, basis: "report label 'verified' re-labelled 'attested' per S1 rules; TRANSMISSION direct; text PD per report source table (1706)"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "Astell's marriage-slavery dilemma; PRESERVE the contested readings"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Mary Astell, Some Reflections upon Marriage, 1706 Preface. Report unit (womens-voices). TRANSMISSION (extract): direct. Text PD per report source table. READING CONTESTED, preserved not resolved: Springborg/Kinnaird read the line as ironic Tory critique of Lockean/Whig contractarianism; Broad reads it as a literal claim that wives are wrongfully subject to husbands' arbitrary will — hence conditionality: contested and Dilemma type kept from the report. Report forks: voice-vs-silence (voice pole) and autonomy-vs-relation (autonomy pole); convergence candidate 'education as the lever of equality' with Ban Zhao, de Pizan, Wollstonecraft (candidate, not proof) — cross-tradition S4 edges, not merges. DISTINCT from de Pizan (sex-as-measure) and Wollstonecraft (manufactured-weakness): this is a dilemma about the freedom/subjection inconsistency. Life_stages derived by minting agent (extract left empty)."

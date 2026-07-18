@@ -1,0 +1,21 @@
+id: c-0307
+canonical_claim: "The human heart is made for God and remains restless until it rests in God."
+claim_type: metaphysical
+polarity: descriptive
+conditionality: contested
+member_units: [u-0096]
+robustness_profile:
+  recurrence: {rating: moderate, certainty: low, basis: "report CONV-5: shares a Neoplatonic (Plotinus) lineage with al-Ghazali's interior turn (u-0100) — cross-pollination, NOT independent convergence; provisional until corpus-wide pass"}
+  source_diversity: {rating: moderate, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: moderate, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "metaphysical — a claim about the heart's teleology, kept non-empirical"}
+  empirical_support: {rating: low, certainty: low, basis: "theological anthropology, not empirically testable"}
+  contestation: {rating: moderate, certainty: moderate, basis: "conditionality contested; the restlessness-until-God claim is a specifically Augustinian/Christian teleology"}
+  attribution_integrity: {rating: high, certainty: moderate, basis: "Latin held from the report; Pusey 1838, PD; WATCHLIST (report): genuine, but the smooth modern 'our hearts are restless until they rest in You' is translation drift — the PD Pusey reads as quoted here"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "the opening of the Confessions; the al-Ghazali convergence is cross-pollination via Plotinus, NOT independent"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Augustine, Confessions 1.1.1 (Pusey 1838, PD; Latin held). Report unit (Augustine). Metaphysical claim, never empirical. Report CONV-5: shares a Neoplatonic (Plotinus) lineage with al-Ghazali's interior turn (u-0100) — cross-pollination, NOT independent convergence (report's explicit flag) — a CONVERGES_WITH edge, NOT a merge. WATCHLIST: genuine, but the smooth modern 'our hearts are restless until they rest in You' is translation drift — the PD Pusey reads as quoted here. Love pole of FORK-4."

@@ -1,0 +1,21 @@
+id: c-0313
+canonical_claim: "The divine sought outside is discovered to be the seekers' own collective self: the goal of the quest is internal — the seekers and the sought are one."
+claim_type: metaphysical
+polarity: descriptive
+conditionality: contested
+member_units: [u-0102, u-0296]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "metaphysical — a claim about the identity of seeker and sought; never empirical"}
+  empirical_support: {rating: low, certainty: low, basis: "mystical metaphysics, not empirically testable"}
+  contestation: {rating: moderate, certainty: moderate, basis: "conditionality contested; a specifically Sufi (Attar) metaphysics of the divine-within"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "MERGE of two units carrying the SAME Attar maxim (Conference of the Birds, Simorgh climax); u-0102 credits Davis & Darbandi (in copyright), u-0296 credits Darbandi & Davis 1984 (in copyright); NO verbatim quotation held in either — both summarise the parable's resolution; copyright_flag unknown since no wording is held; PD lead per inventory is the FitzGerald precis"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "the Simorgh revelation (si morgh = thirty birds); the climax turns on a Persian pun"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "MERGE (FLAGGED per the report's cross-report overlap note). u-0102 (wave-1, Near-Eastern report) and u-0296 (wave-2, Persian report) carry the SAME Attar proposition — the Conference of the Birds Simorgh revelation: the thirty birds (si morgh) who survive the quest find that the Simorgh they sought is themselves (the climax turns on a Persian pun). The two are genuinely the same proposition (same author, same work, same climactic scene), so merged here; the cardinal rule is satisfied. NO verbatim quotation is held in either unit — both summarise the parable's resolution; u-0102 credits Davis & Darbandi, u-0296 credits Darbandi & Davis 1984 (both in copyright); no wording held, so copyright_flag unknown. The wave-2 unit (u-0296) notes it 'Develops Attar beyond the one unit held in the Near-Eastern report' — confirming the intended cross-report consolidation. Sufi unit — Attar is not named on the Rumi/Hafiz watchlist, but the same quarantine applies: no popular renderings admitted without matching a scholarly edition."

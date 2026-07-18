@@ -1,0 +1,21 @@
+id: c-0326
+canonical_claim: "Even the mightiest hero cannot escape fate: the paradigmatic tragedy frames the meeting of father and unrecognised son as fated and unavoidable."
+claim_type: observational
+polarity: cautionary
+conditionality: contested
+member_units: [u-0291]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "observational — a narrative observation about fate's unavoidability, voiced through tragedy"}
+  empirical_support: {rating: low, certainty: low, basis: "narrative observation, not a measured claim"}
+  contestation: {rating: high, certainty: moderate, basis: "the paradigmatic Persian fate-vs-will unit: sits in TENSION with Zoroastrian free will (u-0280/c-0315); report Stage-3 cluster ZO-01 <-> FE-02 <-> KH-03 <-> MU-02; PRESERVE the dissent (Noldeke and Khaleghi-Motlagh note Ferdowsi's contradictory posture — a deist/monotheist tempering fate with 'reason and sanity against the cruelty of fate' per Dabashi)"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "PARAPHRASE-PENDING (report Stage-2 retirement queue): this is a PARAPHRASE of a narrative episode, NOT a quotation — do not publish as a verbatim quote until checked against Davis 2006; report label attribution_confidence 'communal', RE-DERIVATION normalised to 'attested' — the Shahnameh is a named-author literary work, not an oral/communal unit"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "the Rostam-Sohrab tragedy; PRESERVE the contested fatalism and Ferdowsi's contradictory posture"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Ferdowsi, Shahnameh, 'Rostam and Sohrab' episode (paraphrase only). Report unit FE-02. PARAPHRASE-PENDING (report Stage-2 retirement queue): this is a PARAPHRASE of a narrative episode, NOT a quotation — do not publish as a verbatim quote until checked against Davis 2006 (report Lead #3); upgrade attribution_confidence only on a matched page/verse in a named scholarly edition. No verbatim quotation held, so copyright_flag 'unknown'. The paradigmatic Persian fate-vs-will unit: sits in TENSION with Zoroastrian free will (u-0280/c-0315); report Stage-3 cluster ZO-01 <-> FE-02 <-> KH-03 <-> MU-02 — CONVERGES_WITH edges (as opposing poles), NOT merges. PRESERVE DISSENT: Noldeke and Khaleghi-Motlagh note Ferdowsi's contradictory posture — a deist/monotheist tempering fate with 'reason and sanity against the cruelty of fate' (Dabashi). Ghazanfari 2011 (report Lead #8) bears on whether this fatalism is inherited Zoroastrian material or Ferdowsi's own."

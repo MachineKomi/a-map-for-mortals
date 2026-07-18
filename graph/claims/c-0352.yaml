@@ -1,0 +1,21 @@
+id: c-0352
+canonical_claim: "Forbearance and non-retaliation stand higher than revenge."
+claim_type: normative
+polarity: prescriptive
+conditionality: conditional
+member_units: [u-0195]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress; kin to the Shantideva patience unit (u-0199/c-0356) and the Dhammapada non-hatred unit (u-0191/c-0348) on the retaliation-vs-forbearance fork — cross-tradition edge candidates, not merges"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "normative — a virtue-ranking of forbearance over retaliation"}
+  empirical_support: {rating: low, certainty: low, basis: "normative counsel, not a measured claim"}
+  contestation: {rating: low, certainty: moderate, basis: "low contestation as forbearance counsel"}
+  attribution_integrity: {rating: moderate, certainty: low, basis: "report label 'probable'; WORDING PENDING — report flags the exact couplet as still to be pinned before publishing at verified, do not promote until pinned; target edition (Pope 1886) PD; translation caveat: Pope was a Christian missionary, occasional Christian-moralising overlay"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "the Kural on forbearance; do not promote to verified until the couplet is pinned"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Tiruvalluvar, Tirukkural, Book I, ch. 16 (Forbearance); exact couplet not yet pinned. Report unit (eastern). WORDING PENDING: report flags the exact couplet as still to be pinned before publishing at verified — do not promote until pinned. Translation caveat: Pope was a Christian missionary; report flags occasional Christian-moralising overlay in his rendering. The Kural itself is secular and names no deity in its ethics (report). Kin to the Shantideva patience unit (u-0199/c-0356) on the retaliation-vs-forbearance fork — cross-tradition edge, not merge. Report label: probable. No verbatim wording held; target edition (Pope 1886) is PD per report."

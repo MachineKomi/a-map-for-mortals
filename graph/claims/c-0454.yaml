@@ -1,0 +1,21 @@
+id: c-0454
+canonical_claim: "As an actor may win approval without playing to the final line, a wise person's life can be complete without running to its last possible moment."
+claim_type: prudential
+polarity: prescriptive
+conditionality: conditional
+member_units: [u-0271]
+robustness_profile:
+  recurrence: {rating: moderate, certainty: low, basis: "provisional — corpus-wide S3 in progress; convergence candidate: completeness-as-not-maximal-length recurs (Seneca, Stoic exit ethics)"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress; single Roman source (one work)"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "prudential — counsel on how to hold one's exit; metaphysical component (death not to be feared) implicit"}
+  empirical_support: {rating: low, certainty: low, basis: "prudential metaphor, not a measured claim"}
+  contestation: {rating: moderate, certainty: moderate, basis: "in-text tension with §26 'actively resist' old age — preserve, do not collapse"}
+  attribution_integrity: {rating: high, certainty: moderate, basis: "attested; Cicero De Senectute §70 (Peabody 1884, PD); report verified. Quotation begins lowercase exactly as held"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "the actor-exit metaphor; DISTINCT from the other De Senectute rebuttals"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Cicero, De Senectute §70 (Peabody 1884, PD); report (wave-2 childhood-old-age). Report label verified. Report claim_type was 'prudential / metaphysical (on death)' — re-derived to prudential; the counsel is how to hold one's exit, metaphysics implicit. Speaker: Cato the Elder (endorsed, strong but literary). Quotation begins lowercase exactly as held — do not 'correct'. Preserve in-text tension with §26 'actively resist'. Feeds living-for-time-left-vs-as-if-whole. DISTINCT proposition, NOT merged."

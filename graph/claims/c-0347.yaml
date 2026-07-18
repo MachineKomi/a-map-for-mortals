@@ -1,0 +1,21 @@
+id: c-0347
+canonical_claim: "You are entitled to the action itself, never to its fruits: act without making the outcome your motive — which is not the same as not caring about results."
+claim_type: normative
+polarity: prescriptive
+conditionality: conditional
+member_units: [u-0190]
+robustness_profile:
+  recurrence: {rating: moderate, certainty: low, basis: "PRIME convergence candidate with the Stoic dichotomy of control — FLAG FOR MERGE with prior Stoic report; do not re-extract the Western side; robustness signal, not proof; reclassify as possible borrowing if a Hellenistic-Indian transmission channel is found; provisional until corpus-wide pass"}
+  source_diversity: {rating: moderate, certainty: low, basis: "provisional — S3 in progress; convergence with Stoic material is cross-tradition, recorded as an edge candidate not a merge"}
+  temporal_spread: {rating: moderate, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "normative — counsel on the right relation to action and outcome"}
+  empirical_support: {rating: low, certainty: low, basis: "normative counsel, not a measured claim"}
+  contestation: {rating: moderate, certainty: moderate, basis: "report stresses the verse means action without attachment to results, NOT 'do not care about results'; Gandhi (1925) and Shankara/Ramanuja commentaries diverge on nuance"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "report label 'verified' re-labelled 'attested' per S1 rules; endorsement 'complicated' is the minting agent's call — spoken by Krishna to Arjuna on the battlefield, authoritative counsel within the Gita itself, but character speech within an epic (character is not author); report internally inconsistent on PD status (Edgerton 1944/Besant vs 'PD-ish' hedge) — check before print"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "the Gita's non-attachment-to-fruits counsel; cross-tradition kinship (Stoic) is an S4 edge, not a merge"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Bhagavad Gita (Krishna to Arjuna), 2.47. Report unit (eastern). Endorsement 'complicated' is the minting agent's call (report gives no label): spoken by Krishna to Arjuna on the battlefield — authoritative counsel within the Gita itself, but character speech within an epic; report's caveat: character is not author, do not read endorsement flatly; Gandhi (Young India, 1925) and Shankara/Ramanuja commentaries diverge on nuance. Report stresses the verse means action without attachment to results, NOT 'do not care about results'. PRIME convergence candidate with the Stoic dichotomy of control — FLAG FOR MERGE with prior Stoic report; do not re-extract the Western side; robustness signal, not proof; reclassify as possible borrowing if a Hellenistic-Indian transmission channel is found. Copyright internally inconsistent (Edgerton 1944/Besant vs 'PD-ish') — check before print."

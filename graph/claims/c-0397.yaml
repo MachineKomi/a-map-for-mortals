@@ -1,0 +1,21 @@
+id: c-0397
+canonical_claim: "Death is nothing to us: while we exist death is not present, and when death is present we no longer exist."
+claim_type: metaphysical
+polarity: descriptive
+conditionality: contested
+member_units: [u-0045]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "metaphysical — rests on the Epicurean theses that death is annihilation and that what we do not experience cannot harm us"}
+  empirical_support: {rating: low, certainty: low, basis: "metaphysical, never empirical"}
+  contestation: {rating: high, certainty: moderate, basis: "contested: a deprivation-account objector rejects that what we do not experience cannot harm us"}
+  attribution_integrity: {rating: high, certainty: moderate, basis: "verified; transmitted via Diogenes Laertius, Lives X. Hicks (1925) PD"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "durable as an argument; the deprivation objection is live"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Epicurus, Letter to Menoeceus §125 (via Diogenes Laertius, Lives X); cf. Principal Doctrines 2. DISTINCT from u-0046 (the four-part Tetrapharmakos): the death-is-nothing limb is one part of that cure, but the propositions are framed at different levels. Copyright: Hicks (1925) PD."

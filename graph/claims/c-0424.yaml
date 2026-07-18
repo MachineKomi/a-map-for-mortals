@@ -1,0 +1,21 @@
+id: c-0424
+canonical_claim: "Perfection requires a 'divine wickedness' — sweetness fused with bite."
+claim_type: observational
+polarity: descriptive
+conditionality: conditional
+member_units: [u-0072]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "observational/aesthetic claim about perfection"}
+  empirical_support: {rating: low, certainty: low, basis: "aesthetic judgement, not measured"}
+  contestation: {rating: moderate, certainty: moderate, basis: "contested: the claim is indexed to Nietzsche's own taste ('unthinkable to me')"}
+  attribution_integrity: {rating: high, certainty: moderate, basis: "report grade: verified — report marks this Ludovici wording 'FULLY VERIFIED verbatim' against Gutenberg #52190; per S1 rules it enters as attested, S2 performs the primary line-match. The quotation is NIETZSCHE on Heine (approval evidence and claim wording coincide)"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "durable as Nietzsche's aesthetic; conditional on his taste"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Heine (as characterised by Nietzsche), Ecce Homo 'Why I Am So Clever' §4. The quotation is Nietzsche on Heine (approval evidence and claim wording coincide). Re-derivation: report claim_type 'observational/aesthetic' → observational; conditionality: conditional (indexed to Nietzsche's own taste: 'unthinkable to me'). WORDING CAVEAT: the popular form 'Heine gave me the HIGHEST CONCEPTION of the lyric poet' is the Kaufmann (in-copyright) / older anonymous rendering; the Ludovici 1911 PD text reads 'the most perfect idea of what a lyrical poet could be' — print must use Ludovici. Copyright: Ludovici (1911) PD (Gutenberg #52190)."

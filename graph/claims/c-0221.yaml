@@ -1,0 +1,21 @@
+id: c-0221
+canonical_claim: "Cleverness is not the same as wisdom; true wisdom accepts human limits and reveres what is greater than human striving."
+claim_type: normative
+polarity: cautionary
+conditionality: contested
+member_units: [u-0151]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "normative — commendation of humility"}
+  empirical_support: {rating: low, certainty: low, basis: "no direct empirical test wired"}
+  contestation: {rating: high, certainty: moderate, basis: "ENDORSEMENT=COMPLICATED — the Bacchae fiercely complicates its own lesson; Dionysus's 'wisdom' is also cruel"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "report PROBABLE; Murray's English is interpretive (he admitted interpolating a line)"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "no known refutation; over-application risk noted"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Euripides Bacchae second stasimon — the Chorus of Asian Bacchant women. ENDORSEMENT=COMPLICATED: the play stages Pentheus torn apart by his mother. Murray 1906 English is interpretive; the literal 'cleverness is not wisdom' comes from in-copyright modern translations and is NOT held."

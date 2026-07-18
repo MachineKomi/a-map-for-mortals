@@ -1,0 +1,21 @@
+id: c-0486
+canonical_claim: "On Machiavelli's argument, a few decisive severities used once tend to injure fewer people overall than the continued disorders a ruler permits through excess of tenderness."
+claim_type: prudential
+polarity: cautionary
+conditionality: contested
+member_units: [u-0328]
+robustness_profile:
+  recurrence: {rating: high, certainty: moderate, basis: "provisional — corpus-wide S3 in progress; strong convergence: Kautilya's danda (c-0470/c-0471) — the ends-vs-means fork, Indian and Italian statecraft independently"}
+  source_diversity: {rating: moderate, certainty: low, basis: "provisional — S3 in progress; single Italian-Renaissance source at this scale"}
+  temporal_spread: {rating: high, certainty: moderate, basis: "provisional — written 1513, published 1532"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "prudential — a contested consequence-tendency claim within adversarial statecraft, NOT life-wisdom and NOT a moral licence. ETHICALLY SPIKY (report's flag preserved)"}
+  empirical_support: {rating: low, certainty: low, basis: "statecraft counsel, not a measured claim"}
+  contestation: {rating: high, certainty: moderate, basis: "the core ends-vs-means clash of the whole map; the opposing pole is the Hippocratic 'do good or do no harm' (u-0332). The Prince's contested ironic/satirical status (Rousseau) also applies"}
+  attribution_integrity: {rating: high, certainty: moderate, basis: "attested; Machiavelli, The Prince Ch. XVII (Marriott 1908, PD). Report's trailing ellipsis preserved as held"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "the cruelty-well-used consequence-tendency; CAUTIONARY/DESCRIPTIVE, NOT endorsed. DISTINCT from c-0485 (fear-over-love, same chapter but a distinct proposition)"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Niccolò Machiavelli, The Prince Ch. XVII (Marriott 1908, PD); report (wave-2 practical-strategic). Report label verified — downgraded to attested per S1 rule 1 pending primary check. ETHICALLY SPIKY (report's flag preserved exactly): mark CAUTIONARY/DESCRIPTIVE, NOT endorsed — a contested consequence-tendency claim within adversarial statecraft, not life-wisdom and not a moral licence. Report cross-references Kautilya's danda (c-0470/c-0471) as the Indian statecraft parallel, and names the opposing pole: the Hippocratic 'do good or do no harm' (u-0332) — the core ends-vs-means clash of the whole map. The Prince's contested ironic/satirical status (Rousseau) also applies here. Report's trailing ellipsis preserved as held. DISTINCT from c-0485 (fear-over-love): same chapter, but cruelty-well-used is a distinct proposition, NOT merged."

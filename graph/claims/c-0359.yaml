@@ -1,0 +1,21 @@
+id: c-0359
+canonical_claim: "Sensitivity to the pathos of things (mono no aware): awareness of impermanence intensifies rather than diminishes the felt beauty of what passes."
+claim_type: observational
+polarity: descriptive
+conditionality: conditional
+member_units: [u-0202]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress; kin to the Kenko impermanence-as-precious unit (u-0203/c-0360) — both Japanese and both on impermanence/beauty, but DISTINCT claims (Norinaga's aesthetic theory of sensitivity vs Kenko's preciousness-from-uncertainty); cross-tradition impermanence-as-beauty is an S4 edge candidate, not a merge"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "observational/aesthetic, not prescriptive doctrine"}
+  empirical_support: {rating: low, certainty: low, basis: "aesthetic theory, not a measured claim"}
+  contestation: {rating: moderate, certainty: moderate, basis: "RECEPTION CAVEAT (report key finding 4): the canonical formulation of mono no aware is a reception fixed by Norinaga's 1799 treatise — a polemic rejecting the then-dominant Buddhist/Confucian moral readings of Genji — not a timeless doctrine; the concept existed in Heian literature but its theoretical precision is 18th-c."}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "report label 'verified'; Marra/Harper translations modern; report does not establish the quoted wording's edition status (copyright unknown); WATCHLIST: 'mono no aware' is Norinaga's later interpretive term, NOT Murasaki's phrase"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "mono no aware; PRESERVE the 1799 reception caveat"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Motoori Norinaga, Genji monogatari Tama no Ogushi (1799). Report unit (eastern). Observational/aesthetic, not prescriptive doctrine. RECEPTION CAVEAT (report key finding 4): the canonical formulation of mono no aware is a reception fixed by Norinaga's 1799 treatise — a polemic rejecting the then-dominant Buddhist/Confucian moral readings of Genji — not a timeless doctrine; the concept existed in Heian literature but its theoretical precision is 18th-c. Bracketed '[Genji was written]' is the report's own interpolation marker, preserved as given. Cross-check anchor: SEP, Japanese Aesthetics. Marra/Harper translations are modern; report does not establish the quoted wording's edition status. DISTINCT from the Kenko impermanence-as-precious unit (u-0203/c-0360): that is an aphorism on preciousness-from-uncertainty; this is an aesthetic theory of sensitivity."

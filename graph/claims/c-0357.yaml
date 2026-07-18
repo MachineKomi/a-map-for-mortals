@@ -1,0 +1,21 @@
+id: c-0357
+canonical_claim: "All phenomena are empty of inherent existence, and conventional truth is distinct from ultimate truth."
+claim_type: metaphysical
+polarity: descriptive
+conditionality: contested
+member_units: [u-0200]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "metaphysical, never empirical; deliberately apophatic"}
+  empirical_support: {rating: low, certainty: low, basis: "metaphysical thesis, not a measured claim"}
+  contestation: {rating: high, certainty: moderate, basis: "interpretation heavily contested among Madhyamaka scholars — guard against both reification and nihilism readings (report)"}
+  attribution_integrity: {rating: moderate, certainty: low, basis: "report label 'probable'; QUARANTINE (report Stage 2): wording unverified this pass — do not publish any quote until verse pinned against the Garfield print edition; if the check fails, report recommends dropping the unit rather than downgrading; no verbatim wording held; target edition (Garfield, Oxford 1995) in-copyright"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "Nagarjuna's emptiness; PRESERVE the reification/nihilism guard"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Nagarjuna, Mulamadhyamakakarika (chapter/verse still to be pinned). Report unit (eastern). QUARANTINE (report Stage 2): wording unverified this pass — do not publish any quote until verse pinned against the Garfield print edition; if the check fails, report recommends dropping the unit rather than downgrading. Metaphysical, never empirical. Deliberately apophatic; interpretation heavily contested among Madhyamaka scholars — guard against both reification and nihilism readings (report). Report label: probable. No verbatim wording held; target edition (Garfield, Oxford 1995) in-copyright."

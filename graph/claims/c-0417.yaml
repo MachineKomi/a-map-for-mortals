@@ -1,0 +1,21 @@
+id: c-0417
+canonical_claim: "Discipline your contradictions into a whole — create yourself — rather than amputating what does not fit."
+claim_type: normative
+polarity: prescriptive
+conditionality: conditional
+member_units: [u-0065]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "normative counsel on self-formation"}
+  empirical_support: {rating: low, certainty: low, basis: "normative, not measured"}
+  contestation: {rating: moderate, certainty: moderate, basis: "contested: presented as a rare exemplary achievement, not universal counsel"}
+  attribution_integrity: {rating: high, certainty: high, basis: "verified-primary: Gate C audit replaced the report's Kaufmann/Hollingdale-style rendering with Ludovici's PD text line-matched against Gutenberg #52263. The quotation is NIETZSCHE'S characterisation of Goethe, not Goethe's own words"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "durable as a Nietzschean ideal; conditional on the aim"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Goethe (as characterised by Nietzsche), Twilight of the Idols 'Skirmishes in a War with the Age' §49-51. The quotation is Nietzsche's characterisation of Goethe ('he disciplined himself into a harmonious whole, he created himself'), not Goethe's own words. RESOLVED 2026-07-07 (Gate C follow-up): §49 confirmed against Gutenberg #52263 and held wording replaced with Ludovici's verbatim (OCR artefacts 'justifies and, affirms' and 'highest Of all faiths' retained as-transcribed — check against a print scan before book use). Translation-title caveat: Ludovici's 'Skirmishes in a War with the Age' = Kaufmann/Hollingdale 'Skirmishes/Expeditions of an Untimely Man'; section numbers identical. Copyright: Ludovici (1911) PD."

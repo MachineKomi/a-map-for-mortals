@@ -1,0 +1,21 @@
+id: c-0477
+canonical_claim: "Substance alone is not enough: things must both be done and be seen to be done — to be of use and to know how to show yourself of use is to be twice as useful."
+claim_type: prudential
+polarity: prescriptive
+conditionality: conditional
+member_units: [u-0319]
+robustness_profile:
+  recurrence: {rating: high, certainty: moderate, basis: "provisional — corpus-wide S3 in progress; convergence: Machiavelli Prince 18 appearances (c-0480), Sun Tzu deception — perception-management cluster"}
+  source_diversity: {rating: moderate, certainty: low, basis: "provisional — S3 in progress; single Spanish-Jesuit/Baroque source at this scale"}
+  temporal_spread: {rating: high, certainty: moderate, basis: "provisional — 1647"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "prudential — counsel on managing perception; court counsel, not endorsed"}
+  empirical_support: {rating: low, certainty: low, basis: "court counsel, not a measured claim"}
+  contestation: {rating: moderate, certainty: moderate, basis: "prudential court counsel, not a moral endorsement"}
+  attribution_integrity: {rating: high, certainty: high, basis: "RESOLVED 2026-07-07: Jacobs's PD wording of Maxim cxxx captured and verified (Gate C/F follow-up, report lead G2) from Internet Archive 1904 Macmillan reprint. The familiar 'Do, but also seem' is Maurer's (©1992) — never print it as Jacobs"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "the do-and-be-seen counsel; DISTINCT from the suspense (c-0476), appearances (c-0478), and cypher (c-0479) maxims"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Baltasar Gracián, Art of Worldly Wisdom Maxim cxxx 'Do and be seen Doing' (Jacobs 1892 tr., wording checked to 1904 Macmillan reprint); report (wave-2 practical-strategic). Report label probable. RESOLVED 2026-07-07: Jacobs's PD wording captured and verified (Gate C/F follow-up, report lead G2) from Internet Archive scan of the 1904 Macmillan reprint (artofworldlywisd00gracuoft). The familiar 'Do, but also seem' remains Maurer's (©1992) rendering — never print it as Jacobs. Edition_year kept 1892 (translation's first publication); wording checked to the 1904 reprint. Convergence: Machiavelli Prince 18 appearances, Gracián Maxim 99, Sun Tzu deception — perception-management cluster. DISTINCT proposition, NOT merged."

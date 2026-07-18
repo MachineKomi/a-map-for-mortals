@@ -1,0 +1,21 @@
+id: c-0329
+canonical_claim: "Speech is held to be the first manifestation of existence; without speech the world has no voice, and eloquent language grounds moral guidance."
+claim_type: metaphysical
+polarity: descriptive
+conditionality: contested
+member_units: [u-0294]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "metaphysical — a claim about language and existence; not empirical"}
+  empirical_support: {rating: low, certainty: low, basis: "metaphysical claim, not empirically testable"}
+  contestation: {rating: moderate, certainty: moderate, basis: "conditionality contested; a specifically Nizami poetics-of-language claim"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "report label 'probable'; Nizami (honorific 'Hakim', Wise Man) speaking in his own introduction; report instructs: confirm translator/edition for the English wording; ellipsis in the quotation is the report's own; copyright unknown until the English translator is identified"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "Nizami likening his poetry to a source of moral guidance; authorial voice"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Nizami Ganjavi, Makhzan al-Asrar, introduction (translator unidentified). Report unit (Nizami-Makhzan). Authorial voice — Nizami (honorific 'Hakim', Wise Man) speaking in his own introduction, likening his poetry to a source of moral guidance; endorsement: endorsed. Metaphysical claim about language and existence — not empirical. Report instructs: confirm translator/edition for the English wording; ellipsis in the quotation is the report's own. Copyright unknown until the English translator is identified."

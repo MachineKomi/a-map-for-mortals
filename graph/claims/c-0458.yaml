@@ -1,0 +1,21 @@
+id: c-0458
+canonical_claim: "Erikson's eighth stage: reviewing one's life in old age yields either integrity — acceptance that the life had meaning, allowing equanimity toward death — or despair over missed opportunities."
+claim_type: observational
+polarity: descriptive
+conditionality: contested
+member_units: [u-0275]
+robustness_profile:
+  recurrence: {rating: low, certainty: high, basis: "observational frame — recurrence not the relevant axis; see empirical_support"}
+  source_diversity: {rating: low, certainty: moderate, basis: "single psychodynamic developmental frame; life-review therapy has some empirical support"}
+  temporal_spread: {rating: low, certainty: high, basis: "contemporary research literature only"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "observational — a theoretical frame, not a law. A FRAME, NOT A LAW (report's emphatic tag)"}
+  empirical_support: {rating: low, certainty: moderate, basis: "a theoretical frame; life-review therapy has some empirical support for reducing depression (report); the paired virtue is 'wisdom'"}
+  contestation: {rating: moderate, certainty: moderate, basis: "Joan Erikson later proposed a ninth stage; psychodynamic frame debated"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested to the frame; report's quoted wording is explicitly a PARAPHRASE per APA Dictionary of Psychology, not verbatim Erikson — held out of quotation fields. Verbatim needs primary check against Childhood and Society (Norton 1950)"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "a theoretical frame for life-review; IN COPYRIGHT (Norton). Feeds living-for-time-left-vs-as-if-whole; cf. generativity (stage 7) and c-0456"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Erik Erikson, Childhood and Society (Norton 1950), eighth psychosocial stage (integrity vs despair); report (wave-2 childhood-old-age). Report label verified. A FRAME, NOT A LAW (report's emphatic tag). No verbatim Erikson quotation held: the report's wording is explicitly cited as 'paraphrase per APA Dictionary of Psychology' — kept out of quotation fields per honesty contract; verbatim needs primary check. Report claim_type 'observational (model)' held. Joan Erikson later proposed a ninth stage. IN COPYRIGHT (Norton)."

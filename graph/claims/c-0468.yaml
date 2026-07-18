@@ -1,0 +1,21 @@
+id: c-0468
+canonical_claim: "The warrior's path is defined by the resolute acceptance of one's own death."
+claim_type: metaphysical
+polarity: prescriptive
+conditionality: contested
+member_units: [u-0310]
+robustness_profile:
+  recurrence: {rating: high, certainty: moderate, basis: "provisional — corpus-wide S3 in progress; convergence: death-acceptance counsel recurs across warrior/mystical traditions"}
+  source_diversity: {rating: moderate, certainty: low, basis: "provisional — S3 in progress; single Japanese bushido/Zen source at this scale"}
+  temporal_spread: {rating: high, certainty: moderate, basis: "provisional — written 1643-45"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "metaphysical — a definitional claim about the nature of the Way within the bushido/Zen framework, not empirical and not mere prudential advice"}
+  empirical_support: {rating: low, certainty: low, basis: "metaphysical/definitional claim, not a measured one"}
+  contestation: {rating: moderate, certainty: moderate, basis: "frame-specific; the Dokkodo (separate late Musashi text) carries an ascetic version"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "report label probable; Musashi, Book of Five Rings, Ground Book (Harris 1974 tr.). IN COPYRIGHT"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "the warrior's death-acceptance counsel; DISTINCT from the disciplined code (c-0467)"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Miyamoto Musashi, Book of Five Rings, Ground Book (Harris 1974 tr.); report (wave-2 practical-strategic). Report label probable. Harris 1974 IN COPYRIGHT — short fragment held; paraphrase posture for the book per report. claim_type metaphysical concurs with report: a definitional claim about the nature of the Way within the bushido/Zen framework. Cross-reference Dokkodo (separate late Musashi text) for the ascetic version. DISTINCT proposition, NOT merged."

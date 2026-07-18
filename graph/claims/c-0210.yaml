@@ -1,0 +1,21 @@
+id: c-0210
+canonical_claim: "Trust yourself: self-trust is the root from which virtue and achievement grow."
+claim_type: normative
+polarity: prescriptive
+conditionality: contested
+member_units: [u-0140]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "normative — commendation of self-trust"}
+  empirical_support: {rating: moderate, certainty: low, basis: "consistent with self-efficacy research; not a direct test"}
+  contestation: {rating: high, certainty: moderate, basis: "contested by humility/tradition-authority frames"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by report; the 'root of all virtue' claim is stronger than the quoted line alone"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "no known refutation; over-application risk (self-certainty) noted"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Emerson 'Self-Reliance' (1841). Report's 'root of all virtue and achievement' is stronger than the quoted line alone — flagged for S2 scrutiny."

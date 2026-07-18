@@ -1,0 +1,21 @@
+id: c-0456
+canonical_claim: "The old plant trees for a generation whose shade they will never enjoy — labouring for an age that is not their own."
+claim_type: normative
+polarity: prescriptive
+conditionality: universal-ish
+member_units: [u-0273]
+robustness_profile:
+  recurrence: {rating: high, certainty: moderate, basis: "provisional — corpus-wide S3 in progress; strong convergence: generativity/legacy counsel recurs across traditions (Erikson stage 7, the 'plant trees' motif)"}
+  source_diversity: {rating: moderate, certainty: low, basis: "provisional — S3 in progress; one ancient source (Statius via Cicero) at this scale, but the motif is cross-cultural"}
+  temporal_spread: {rating: moderate, certainty: moderate, basis: "provisional — 2nd c. BCE source via 1st c. BCE Cicero; motif persists"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "normative — other-regarding counsel (benefit another age), not self-interested prudence"}
+  empirical_support: {rating: low, certainty: low, basis: "normative counsel, not a measured claim"}
+  contestation: {rating: low, certainty: moderate, basis: "low contestation as generativity counsel"}
+  attribution_integrity: {rating: high, certainty: moderate, basis: "attested; Caecilius Statius, Synephebi (fragment) quoted in Cicero De Senectute §24. MISATTRIBUTION WATCHLIST (report item 2): the modern 'A society grows great when old men plant trees…' is NOT ancient (Quote Investigator: 20th-c. motivational; Waitley 1980s) — this Statius line is the genuine ancient source; never attach the modern wording"}
+  survives_scrutiny: {rating: high, certainty: moderate, basis: "the genuine ancient generativity motif; cf. Erikson generativity (stage 7). DISTINCT proposition"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Caecilius Statius, Synephebi (fragment, 2nd c. BCE) preserved in Cicero De Senectute §24 (Latin 'serit arbores, quae alteri saeclo prosint'); report (wave-2 childhood-old-age). Report label verified. MISATTRIBUTION WATCHLIST (report item 2): the modern 'A society grows great when old men plant trees in whose shade they know they shall never sit' is NOT ancient — Quote Investigator traces it to 20th-c. motivational writing (Waitley 1980s); THIS Statius line via Cicero is the genuine ancient source; never attach the modern wording. Report label 'normative (prudential)' re-derived to normative: other-regarding, not self-interested prudence. PD per report."

@@ -1,0 +1,21 @@
+id: c-0464
+canonical_claim: "The highest strategic skill is not winning every battle but achieving the aim without fighting at all — breaking the enemy's resistance by other means."
+claim_type: prudential
+polarity: prescriptive
+conditionality: conditional
+member_units: [u-0306]
+robustness_profile:
+  recurrence: {rating: high, certainty: moderate, basis: "provisional — corpus-wide S3 in progress; convergence candidate: Kautilya's upeksha (c-0471, win-without-fighting / patience of the weak)"}
+  source_diversity: {rating: moderate, certainty: low, basis: "provisional — S3 in progress; single Chinese-military source at this scale"}
+  temporal_spread: {rating: high, certainty: moderate, basis: "provisional — c. 5th c. BCE"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "prudential — counsel to prize restraint and economy of force"}
+  empirical_support: {rating: low, certainty: low, basis: "strategic counsel, not a measured claim"}
+  contestation: {rating: low, certainty: moderate, basis: "low contestation as restraint counsel; tempers the deception/aggression units"}
+  attribution_integrity: {rating: high, certainty: moderate, basis: "attested; Sun Tzu, Art of War Ch. III §2 (Giles 1910, PD). MISATTRIBUTION WATCHLIST: 'The supreme art of war is to subdue the enemy without fighting' is a PARAPHRASE, not the Giles text"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "restraint counsel; DISTINCT from the deception anchor (c-0463)"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Sun Tzu, Art of War Ch. III (Attack by Stratagem) §2 (Giles 1910, PD); report (wave-2 practical-strategic). Report label verified. MISATTRIBUTION WATCHLIST: the popular 'The supreme art of war is to subdue the enemy without fighting' is a PARAPHRASE, not the Giles text — use the genuine wording held here. Tempers the deception/aggression units: Sun Tzu prizes restraint and economy of force. Candidate convergence with Kautilya's upeksha (c-0471). DISTINCT proposition, NOT merged."

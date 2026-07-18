@@ -1,0 +1,21 @@
+id: c-0409
+canonical_claim: "Learn, more and more, to see what is necessary in things as beautiful — amor fati as a practice of perception."
+claim_type: normative
+polarity: prescriptive
+conditionality: conditional
+member_units: [u-0057]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "normative — a resolution to practise a way of seeing"}
+  empirical_support: {rating: low, certainty: low, basis: "normative, not measured"}
+  contestation: {rating: moderate, certainty: moderate, basis: "contested: amor fati as a stance is disputed (is necessity to be affirmed?)"}
+  attribution_integrity: {rating: high, certainty: high, basis: "verified-primary: Gate C audit replaced the report's Kaufmann-style wording with Common's PD text line-matched against Gutenberg #52124. Copyright: Common (1910) PD"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "durable as a Nietzschean stance; contested as universal counsel"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Nietzsche, The Gay Science §276 — amor fati (Practice register: a resolution to practise a way of seeing). RESOLVED 2026-07-07 (Gate C follow-up): the report-supplied English matched Kaufmann's diction, not Common's — held wording is now Common's PD text line-matched against Gutenberg #52124. Companion to the Ecce Homo amor fati declaration (separate unit, not in this batch). Copyright: Common (1910) PD."

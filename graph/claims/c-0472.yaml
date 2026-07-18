@@ -1,0 +1,21 @@
+id: c-0472
+canonical_claim: "Foreign policy follows relative power: the inferior makes peace, the superior wages war, and the equal — neither vulnerable nor strong enough to destroy — observes neutrality."
+claim_type: prudential
+polarity: prescriptive
+conditionality: conditional
+member_units: [u-0314]
+robustness_profile:
+  recurrence: {rating: high, certainty: moderate, basis: "provisional — corpus-wide S3 in progress; strong convergence: Thucydides Melian dialogue (c-0473) — power-asymmetry realism, Indian and Greek, independently"}
+  source_diversity: {rating: moderate, certainty: low, basis: "provisional — S3 in progress; single Indian-statecraft source at this scale"}
+  temporal_spread: {rating: high, certainty: moderate, basis: "provisional — c. 3rd c. BCE composite (dating contested)"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "prudential — conditional prudence in an adversarial arena; the shadgunya (six measures of policy)"}
+  empirical_support: {rating: low, certainty: low, basis: "statecraft counsel, not a measured claim"}
+  contestation: {rating: moderate, certainty: moderate, basis: "realpolitik counsel; not endorsed as universal ethics"}
+  attribution_integrity: {rating: high, certainty: moderate, basis: "attested; Kautilya, Arthashastra Book VII Ch. I (Shamasastry 1915, PD). The four upayas (sama/dana/bheda/danda) are the tactical companion set — lead G1, not yet isolated verbatim"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "the sixfold power-asymmetry policy; DISTINCT from c-0470/c-0471"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Kautilya, Arthashastra Book VII (The End of the Six-Fold Policy) Ch. I (Shamasastry 1915, PD); report (wave-2 practical-strategic). Report label verified. The shadgunya (six measures of policy). Candidate convergence flagged by report: near-identical power-asymmetry logic to the Melian dialogue ('strong do what they can' = c-0473), Indian and Greek, independently. The four upayas (sama/conciliation, dana/gifts, bheda/dissension, danda/force) are the tactical companion set — lead G1, not yet isolated verbatim. Realpolitik counsel: conditional prudence, not universal ethics. DISTINCT proposition, NOT merged."

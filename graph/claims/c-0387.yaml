@@ -1,0 +1,21 @@
+id: c-0387
+canonical_claim: "A person's character is their guiding spirit (daimon): what one habitually is tends to shape what befalls one."
+claim_type: observational
+polarity: descriptive
+conditionality: contested
+member_units: [u-0035]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "observational generalisation linking character to fate"}
+  empirical_support: {rating: low, certainty: low, basis: "aphoristic, not measured"}
+  contestation: {rating: moderate, certainty: moderate, basis: "contested gloss: 'character is fate' over-translates daimon ('divinity/guiding spirit'), which is not simply 'fate'"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "fragment genuine (DK 22 B119); the three-word English gloss is a traditional rendering tied to no edition — prefer quoting the Greek in print"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "sentiment durable; the English compression is interpretive"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Heraclitus, DK 22 B119. Greek original PD; Kirk & Raven leave daimon untranslated — the English 'character is fate' is a contested traditional gloss, not tied to a PD edition, hence conditionality: contested."

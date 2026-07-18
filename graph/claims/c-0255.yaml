@@ -1,0 +1,21 @@
+id: c-0255
+canonical_claim: "For Whanganui iwi the river is an ancestor and an indivisible living whole, to be approached as such rather than owned and managed."
+claim_type: metaphysical
+polarity: prescriptive
+conditionality: conditional
+member_units: [u-0227]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "singleton at mint; cross-tradition convergence is an S4 edge hypothesis, not counted as recurrence — pending corpus-wide edge pass"}
+  source_diversity: {rating: low, certainty: low, basis: "single source tradition at mint — pending S4 edge pass"}
+  temporal_spread: {rating: low, certainty: low, basis: "single attestation point at mint — pending S4 edge pass"}
+  claim_type_dim: {rating: low, certainty: high, basis: "metaphysical claim — not empirically falsifiable as stated"}
+  empirical_support: {rating: low, certainty: low, basis: "no direct empirical test wired at mint"}
+  contestation: {rating: moderate, certainty: moderate, basis: "conditionality: conditional — domain-scoped, not universal"}
+  attribution_integrity: {rating: moderate, certainty: low, basis: "attested; report does not name the publication carrying the quote; fragmentary wording"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "no known refutation; over-application risk noted where relevant"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Gerrard Albert (Whanganui iwi lead negotiator), 2017. The METAPHYSICAL claim of a living community — never empirical; distinct from the legal fact (u-0226). Related pepeha: 'Ko au te awa, ko te awa ko au'. CONSENT GATE applies. Counter-evidence held (report §E): Krech, The Ecological Indian (1999) — tendencies, not destinies."

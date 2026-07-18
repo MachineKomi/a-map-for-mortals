@@ -1,0 +1,21 @@
+id: c-0441
+canonical_claim: "After a single night without sleep the amygdala reacts far more strongly to aversive images and loses its regulatory connection to the medial prefrontal cortex — a suggestive mechanism for sleep's role in emotion."
+claim_type: empirical
+polarity: descriptive
+conditionality: conditional
+member_units: [u-0178]
+robustness_profile:
+  recurrence: {rating: low, certainty: high, basis: "empirical finding — recurrence not the relevant axis; see empirical_support"}
+  source_diversity: {rating: low, certainty: moderate, basis: "single small fMRI experiment; Western sample"}
+  temporal_spread: {rating: low, certainty: high, basis: "contemporary research literature only"}
+  claim_type_dim: {rating: high, certainty: high, basis: "empirical — testable; graded on the unit"}
+  empirical_support: {rating: low, certainty: moderate, basis: "evidence grade C/D — small experimental fMRI (N=26); suggestive mechanism; replication unassessed"}
+  contestation: {rating: moderate, certainty: moderate, basis: "circadian confound; small N"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested; Yoo, Gujar, Hu, Jolesz & Walker 2007 (Current Biology)"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "supports 'sleep regulates emotion' as a mechanism; +60% amygdala activation, ~3× activated volume, lost mPFC connectivity"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Yoo et al. 2007 (Current Biology); report finding. Suggestive neural MECHANISM (small N=26). DISTINCT from c-0440 (sleep-deprivation mood/ regulation meta-analysis): that is the population-level mood effect, this is the single-study fMRI mechanism — different proposition, NOT merged."

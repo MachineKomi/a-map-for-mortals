@@ -1,0 +1,21 @@
+id: c-0377
+canonical_claim: "A community speaks protection, grace, and peace aloud over its children in a set blessing."
+claim_type: normative
+polarity: prescriptive
+conditionality: universal-ish
+member_units: [u-0260]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "normative chosen (a prescribed communal practice); the invoked content (divine blessing) is metaphysical — never empirical"}
+  empirical_support: {rating: low, certainty: low, basis: "a prescribed communal practice, not a measured claim"}
+  contestation: {rating: low, certainty: moderate, basis: "low contestation as a blessing practice; conditionality report's 'universal-ish (within tradition)' — the within-tradition qualifier matters"}
+  attribution_integrity: {rating: high, certainty: moderate, basis: "report label 'verified'; KJV 1611 wording PD; Hebrew MT to be captured at S2; Ketef Hinnom scrolls (excavated 1979, Gabriel Barkay) are the oldest surviving Hebrew Bible text, ~400 yrs older than the Dead Sea Scrolls"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "the Priestly Blessing; PRESERVE the within-tradition qualifier"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Priestly tradition (Hebrew Bible), Book of Numbers (Priestly Blessing) 6:24-26. Report unit (childhood-old-age). Read-aloud register unit — simple surface kept; report proposes it as an ideal opening page; recited by parents over children on Friday nights in Jewish practice. Report's register 'blessing / poem' mapped to nearest enum 'poem'. Claim-type: normative chosen (a prescribed communal practice); the invoked content (divine blessing) is metaphysical — never empirical. Conditionality: report's 'universal-ish (within tradition)' — the within-tradition qualifier matters. Ketef Hinnom scrolls (excavated 1979, Gabriel Barkay) are the oldest surviving Hebrew Bible text, ~400 yrs older than the Dead Sea Scrolls. KJV 1611 wording, PD; Hebrew MT to be captured at S2."

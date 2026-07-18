@@ -1,0 +1,21 @@
+id: c-0202
+canonical_claim: "Two things fill the mind with ever new and increasing admiration and awe: the starry heavens above and the moral law within."
+claim_type: metaphysical
+polarity: descriptive
+conditionality: universal-ish
+member_units: [u-0132]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "metaphysical — awe attaches to the moral law's supersensible stature"}
+  empirical_support: {rating: low, certainty: low, basis: "no direct empirical test wired"}
+  contestation: {rating: moderate, certainty: moderate, basis: "universal-ish first-person observation; the metaphysics is contested"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by report; held German contains an ellipsis to restore at verification"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "no known refutation; over-application risk noted"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Kant Critique of Practical Reason, Conclusion (1788). Held German wording carries an ellipsis to restore from a primary edition."

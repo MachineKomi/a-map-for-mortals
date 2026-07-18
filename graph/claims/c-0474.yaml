@@ -1,0 +1,21 @@
+id: c-0474
+canonical_claim: "Between unequal powers, appeals to justice are moot: questions of right arise only between equals, while the strong act on their advantage and the weak endure what they must."
+claim_type: observational
+polarity: descriptive
+conditionality: contested
+member_units: [u-0316]
+robustness_profile:
+  recurrence: {rating: high, certainty: moderate, basis: "provisional — corpus-wide S3 in progress; strong convergence: Kautilya sixfold policy (c-0472) — power-asymmetry realism, Greek and Indian, independently"}
+  source_diversity: {rating: moderate, certainty: low, basis: "provisional — S3 in progress; single Greek-historiography source at this scale (OVERLAP: Thucydides also held as Nietzsche's exemplar; this is the strategic angle only)"}
+  temporal_spread: {rating: high, certainty: moderate, basis: "provisional — text c. 400 BCE; events dramatised c. 416 BCE"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "observational — a descriptive generalisation about how power behaves; polarity descriptive. RE-DERIVATION: report tags 'descriptive'; re-derived to observational"}
+  empirical_support: {rating: low, certainty: low, basis: "descriptive realism, not a measured claim"}
+  contestation: {rating: moderate, certainty: moderate, basis: "CHARACTER SPEECH (Athenian envoys); the Melians reject it; Melos destroyed but Athens ultimately loses the war — narrative arc as implicit critique of pure expediency; endorsement: undercut"}
+  attribution_integrity: {rating: high, certainty: moderate, basis: "attested; Thucydides, History of the Peloponnesian War 5.89 (Melian Dialogue) (Crawley 1874, PD)"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "descriptive realism about power, never endorsed; DISTINCT from c-0475 (hope the weak's danger)"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Thucydides, History of the Peloponnesian War 5.89 (Melian Dialogue) (Crawley 1874, PD); report (wave-2 practical-strategic). Report label verified. CHARACTER SPEECH: spoken by the ATHENIAN ENVOYS in a dramatised (reconstructed, not transcribed) dialogue — a character-position, not Thucydides' own view. The Melians reject it; Melos destroyed, but Athens ultimately loses the war — narrative arc as implicit critique of pure expediency, hence endorsement: undercut. RE-DERIVATION: report tags claim_type 'descriptive'; re-derived to observational. OVERLAP FLAG: Thucydides also held as Nietzsche's approved exemplar; this unit is the strategic angle only. Candidate convergence with Kautilya's sixfold policy (c-0472). DISTINCT from c-0475 (hope as the weak's danger): this is the strong/weak justice thesis, that is the counsel against hope — NOT merged."

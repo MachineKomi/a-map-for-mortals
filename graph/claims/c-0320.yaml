@@ -1,0 +1,21 @@
+id: c-0320
+canonical_claim: "Simple present goods — bread, wine, verse, a companion — can make even a wilderness paradise enough."
+claim_type: prudential
+polarity: prescriptive
+conditionality: conditional
+member_units: [u-0285]
+robustness_profile:
+  recurrence: {rating: moderate, certainty: low, basis: "convergence candidate with the Horace carpe diem / Ecclesiastes / Siduri cluster — FLAG THE VICTORIAN FILTER (FitzGerald sharpened the hedonism and suppressed the Sufi reading); provisional until corpus-wide pass"}
+  source_diversity: {rating: moderate, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: moderate, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "prudential — counsel to embrace simple present goods"}
+  empirical_support: {rating: low, certainty: low, basis: "carpe-diem counsel, not a measured claim"}
+  contestation: {rating: moderate, certainty: moderate, basis: "the Victorian-filter caveat: FitzGerald sharpened the hedonism and suppressed the Sufi reading"}
+  attribution_integrity: {rating: high, certainty: moderate, basis: "report label 'dubious' KEPT per its per-quatrain treatment; credited to FitzGerald as crafter — this is his Victorian recomposition ('transmogrification', 'very un-literal' — his words), NOT a literal Khayyam quatrain; sentiment belongs to 'the Khayyam tradition'; FitzGerald FUSED Bodleian Ouseley-MS quatrains No.149 and No.155 into this single stanza; underlying corpus largely pseudepigraphic; held quotation matched verbatim against the Fifth Edition (Gutenberg #246); FitzGerald text is PD; mandatory display tag per report: 'FitzGerald, not Khayyam'"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "FitzGerald-FitzGerald discipline: do NOT upgrade 'dubious'; ALWAYS cite the edition (1st- vs 5th-ed. wordings differ materially)"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. FitzGerald, Rubaiyat of Omar Khayyam, quatrain XII (5th ed.) / XI (1st ed.). Report unit KH-01. Report label 'dubious' KEPT per its per-quatrain treatment — FitzGerald/FitzGerald discipline: do NOT upgrade. Credited to FitzGerald as crafter: this is his Victorian recomposition, NOT a literal Khayyam quatrain; sentiment belongs to 'the Khayyam tradition'. FitzGerald FUSED Bodleian Ouseley-MS quatrains No.149 and No.155 into this single stanza; underlying corpus largely pseudepigraphic — do not assert Khayyam wrote any given quatrain. ALWAYS cite the edition (1st- vs 5th-ed. wordings differ materially). Mandatory display tag per report: 'FitzGerald, not Khayyam'. Convergence candidate with the Horace carpe diem / Ecclesiastes (u-0078) / Siduri (u-0089) cluster — flag the Victorian filter. Literal comparators: Avery & Heath-Stubbs 1979, Dick Davis 2010, Juan Cole 2020 (all in-copyright). SPLIT from the carpe-diem claim (u-0288/c-0323): that is the fret-not-about-time framing; this is the present-goods-suffice framing."

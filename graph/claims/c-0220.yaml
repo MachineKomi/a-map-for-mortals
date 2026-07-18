@@ -1,0 +1,21 @@
+id: c-0220
+canonical_claim: "No life can be judged fortunate until it has ended free of pain."
+claim_type: observational
+polarity: cautionary
+conditionality: universal-ish
+member_units: [u-0150]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "observational — generalisation about fortune"}
+  empirical_support: {rating: low, certainty: low, basis: "no direct empirical test wired"}
+  contestation: {rating: moderate, certainty: moderate, basis: "universal-ish; the 'count no man happy' claim is rhetorically absolute"}
+  attribution_integrity: {rating: low, certainty: moderate, basis: "copyright_flag unknown — held wording may match in-copyright Fitts & Fitzgerald (1949), not the cited Storr 1912 PD; verify before print"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "no known refutation; over-application risk noted"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Sophocles Oedipus Rex closing lines (~1684) — the Chorus. ENDORSEMENT=ENDORSED by the play. COPYRIGHT CAUTION: held wording may be Fitts & Fitzgerald (1949, in copyright), not Storr 1912 PD. Echoes Solon's maxim (cf. u-0052)."

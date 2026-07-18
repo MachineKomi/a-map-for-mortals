@@ -1,0 +1,21 @@
+id: c-0318
+canonical_claim: "The ethical life is the alignment of good thoughts, good words, and good deeds — welcoming them wherever they are realised, and never denigrating the good."
+claim_type: normative
+polarity: prescriptive
+conditionality: universal-ish
+member_units: [u-0283]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "normative — an ethical-alignment formula; religious claim, not empirical"}
+  empirical_support: {rating: low, certainty: low, basis: "religious ethic, not empirically testable"}
+  contestation: {rating: low, certainty: moderate, basis: "low contestation as the unifying motto of living Zoroastrianism"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by wave-2 report; RE-DERIVATION: attribution_confidence set to 'communal' — the Yasna Haptanghaiti is an anonymous communal liturgy, not by Zarathustra personally; Narten 1986 / Hintze 2007 (modern scholarly edition) in copyright; PD alternative Mills, SBE 1887; report Lead #1: get verbatim Y35.2 from Hintze in print"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "the humata/huxta/hvarsta formula — 'the unifying motto of living Zoroastrianism' per Boyce; addresses the word/deed-integrity fork (report fork 7)"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Yasna Haptanghaiti, Yasna 35.2 (Narten 1986 rendering via Encyclopaedia Iranica). Report unit ZO-04. RE-DERIVATION: attribution_confidence 'communal' — the Yasna Haptanghaiti is an anonymous communal liturgy attributed to the tradition, not to Zarathustra personally (report dates it slightly post-Zarathustra). The humata/huxta/hvarsta formula — 'the unifying motto of living Zoroastrianism' per Boyce. NOT in Insler (the YH is outside his 1975 volume): standard authority is Narten 1986 (German); Hintze, A Zoroastrian Liturgy (2007) is the modern scholarly edition — report Lead #1 says get verbatim Y35.2 from Hintze in print. Narten/EIr rendering in copyright; PD alternative Mills, SBE 1887. Addresses the word/deed-integrity fork (report fork 7)."

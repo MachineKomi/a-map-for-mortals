@@ -1,0 +1,21 @@
+id: c-0316
+canonical_claim: "Reality is framed as two opposed primal spirits — the good and the bad — expressed in thought, word, and action, between which the beneficent have chosen correctly."
+claim_type: metaphysical
+polarity: descriptive
+conditionality: contested
+member_units: [u-0281]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "metaphysical — a cosmological claim about two primal spirits; NOT empirical (per report and honesty contract)"}
+  empirical_support: {rating: low, certainty: low, basis: "cosmological claim, not empirically testable"}
+  contestation: {rating: high, certainty: moderate, basis: "conditionality 'contested': 21st-c. scholarship reads the dualism as ethical/psychological within a unified creation rather than ontological (two co-eternal substances) — the older view; how this is presented depends on this unsettled question; the most contested stanza in the Gathas"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by wave-2 report; Insler 1975 in copyright (PD alternative Mills, SBE 1887); Insler renders xvafna 'renowned to be in conflict'; Humbach/Bartholomae render it 'dream/dream-vision'; WATCHLIST: Wikiquote versified 'Insler' renderings do not match his actual prose"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "the dualism's interpretation is unsettled; PRESERVE the scholarly dissent"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Gathas, Yasna 30.3 (Insler 1975). Report unit ZO-02. The most contested stanza in the Gathas: Insler renders xvafna 'renowned to be in conflict'; Humbach/Bartholomae render it 'dream/dream-vision'. Claim_type metaphysical, NOT empirical. Conditionality 'contested' PRESERVES DISSENT: 21st-c. scholarship reads the dualism as ethical/psychological within a unified creation rather than ontological (two co-eternal substances) — the older view; how this unit is presented depends on this unsettled question. WATCHLIST carried (Wikiquote versified renderings do not match Insler's prose)."

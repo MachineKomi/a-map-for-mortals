@@ -1,0 +1,21 @@
+id: c-0479
+canonical_claim: "Keep your intentions and even your tastes concealed, since whatever others learn of your inclinations they can exploit by opposing or flattering them."
+claim_type: prudential
+polarity: prescriptive
+conditionality: conditional
+member_units: [u-0321]
+robustness_profile:
+  recurrence: {rating: high, certainty: moderate, basis: "provisional — corpus-wide S3 in progress; convergence: strategic-secrecy counsel (Sun Tzu deception)"}
+  source_diversity: {rating: moderate, certainty: low, basis: "provisional — S3 in progress; single Spanish-Jesuit/Baroque source at this scale"}
+  temporal_spread: {rating: high, certainty: moderate, basis: "provisional — 1647"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "prudential — self-protective counsel in an adversarial/court domain"}
+  empirical_support: {rating: low, certainty: low, basis: "court counsel, not a measured claim"}
+  contestation: {rating: moderate, certainty: moderate, basis: "sharp cross-stream tension flagged by report: direct inversion of Hippocratic confidentiality (u-0333) — Gracián's secrecy is self-protective/strategic, the physician's is other-protective/fiduciary"}
+  attribution_integrity: {rating: high, certainty: moderate, basis: "attested; Gracián, Art of Worldly Wisdom Maxim xcviii (98) (Jacobs 1892, PD). Report's ellipsis in the quotation preserved as held"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "the cypher-your-tastes counsel; prudential in an adversarial/court domain, not a moral endorsement. DISTINCT proposition"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Baltasar Gracián, Art of Worldly Wisdom Maxim xcviii (98) 'Write your Intentions in Cypher' (Jacobs 1892, PD); report (wave-2 practical-strategic). Report label verified — downgraded to attested per S1 rule 1 pending primary check. Jacobs 1892 PD per report. Report's ellipsis in the quotation preserved as held. Sharp cross-stream tension flagged by report: direct inversion of Hippocratic confidentiality (u-0333) — Gracián's secrecy is self-protective/strategic, the physician's is other-protective/fiduciary. DISTINCT proposition from the other Gracián maxims, NOT merged."

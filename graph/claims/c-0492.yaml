@@ -1,0 +1,21 @@
+id: c-0492
+canonical_claim: "The best physician must also be a philosopher — trained in logic and natural science and bound by ethics, with contempt for money and cultivated self-control constitutive of, not incidental to, medical competence."
+claim_type: normative
+polarity: prescriptive
+conditionality: conditional
+member_units: [u-0334]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 complete 2026-07-18"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "normative — virtue made CONSTITUTIVE of expertise"}
+  empirical_support: {rating: low, certainty: low, basis: "no direct empirical test wired"}
+  contestation: {rating: moderate, certainty: moderate, basis: "the strongest counter-claim to Gracián's prudence-over-ethics (report: 'the anti-Gracián: principle first'); converges with Gracián's own u-0322 and the Hippocratic oath on skill-bounded-by-character"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by report; not yet primary-verified. COPYRIGHT: quoted wording is P. N. Singer's Loeb translation, IN COPYRIGHT (lead G5)"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "the virtue-as-constitutive-of-expertise thesis; cite the essay, not a detached quote-site one-liner"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Galen, That the Best Physician is Also a Philosopher (Kühn vol. I, 57–61K; P. N. Singer Loeb translation, IN COPYRIGHT); report (wave-2 practical-strategic). Report label verified — downgraded to attested per S1 rule 1 pending primary check. COPYRIGHT: quoted wording is P. N. Singer's Loeb translation, IN COPYRIGHT — for print, paraphrase or short fragments only; locate a pre-1929 PD English rendering or cite the Greek (report lead G5). Greek title Ὅτι ἄριστος ἰατρὸς καὶ φιλόσοφος (Kühn vol. I). Galen makes virtue CONSTITUTIVE of expertise — the strongest counter-claim to Gracián's prudence-over-ethics (report: 'the anti-Gracián: principle first'); converges with Gracián's own u-0322 and the Hippocratic oath on skill-bounded-by-character. WATCHLIST: (a) the bare one-line 'best physician is also a philosopher' circulates on quote-sites detached from the essay's argument — cite the essay, not a quote-site; (b) 'primum non nocere' is sometimes attributed to Galen — no evidence, and Galen wrote in Greek, not Latin (Cedric Smith 2005). DISTINCT proposition from the Hippocratic units (c-0489..c-0491), NOT merged."

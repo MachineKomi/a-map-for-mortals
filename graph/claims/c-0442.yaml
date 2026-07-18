@@ -1,0 +1,21 @@
+id: c-0442
+canonical_claim: "Well-being appears to trace a U-shape across adulthood on average — high in youth, dipping to a midlife low, then rising — but the pattern is specification-dependent and disputed as an artifact of statistical controls."
+claim_type: empirical
+polarity: descriptive
+conditionality: contested
+member_units: [u-0179]
+robustness_profile:
+  recurrence: {rating: low, certainty: high, basis: "empirical finding — recurrence not the relevant axis; see empirical_support"}
+  source_diversity: {rating: moderate, certainty: moderate, basis: "Blanchflower reports U-shapes across hundreds of datasets; cross-national samples"}
+  temporal_spread: {rating: low, certainty: high, basis: "contemporary research literature only"}
+  claim_type_dim: {rating: high, certainty: high, basis: "empirical — testable; graded on the unit"}
+  empirical_support: {rating: low, certainty: moderate, basis: "evidence grade D — contested cross-sectional and panel data; direction depends on controls/specification"}
+  contestation: {rating: high, certainty: moderate, basis: "conditionality: contested — Galambos et al. 2020 and Bartram 2023 argue the U is an artifact of controls"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested; Blanchflower 2021; Blanchflower & Graham 2021"}
+  survives_scrutiny: {rating: low, certainty: moderate, basis: "qualifies 'midlife is the low point; it gets better'; neither robust nor universal per critics"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Blanchflower 2021 (dataset synthesis); report finding. CONTESTED. Midlife nadir (~mid-40s–50s). DISTINCT from c-0443 (young people's mental-health decline flattening the U-curve): that is a time-period/ cohort shift in the curve, this is the existence of the U-curve itself — related but distinct propositions, NOT merged."

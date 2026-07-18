@@ -1,0 +1,21 @@
+id: c-0480
+canonical_claim: "Great ability joined to ill will is a monstrosity: a wicked will poisons every excellence, and aided by knowledge it ruins only with greater subtlety."
+claim_type: normative
+polarity: cautionary
+conditionality: universal-ish
+member_units: [u-0322]
+robustness_profile:
+  recurrence: {rating: high, certainty: moderate, basis: "provisional — corpus-wide S3 in progress; strong convergence: virtue-binds-competence counter-pole (Galen u-0334, Hippocratic oath) — the strategist stream's own gesture at the moral counter-pole"}
+  source_diversity: {rating: moderate, certainty: low, basis: "provisional — S3 in progress; single Spanish-Jesuit/Baroque source at this scale"}
+  temporal_spread: {rating: high, certainty: moderate, basis: "provisional — 1647"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "normative — shows Gracián is NOT amoral: his prudence is bounded by character"}
+  empirical_support: {rating: low, certainty: low, basis: "moral-character counsel, not a measured claim"}
+  contestation: {rating: low, certainty: moderate, basis: "low contestation as a character-bounds-competence norm"}
+  attribution_integrity: {rating: moderate, certainty: low, basis: "report label probable; Gracián, Art of Worldly Wisdom (Jacobs 1892, PD). Exact maxim number unverified (report lead G2, likely Maxim 4 area)"}
+  survives_scrutiny: {rating: high, certainty: moderate, basis: "the strategist stream's own moral bound; converges with Galen (u-0334) and the Hippocratic oath (u-0332). DISTINCT proposition"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Baltasar Gracián, Art of Worldly Wisdom, Jacobs 'Leading Maxims'/notes area (exact maxim number unverified, report lead G2, likely Maxim 4 area) (Jacobs 1892, PD); report (wave-2 practical-strategic). Report label probable — kept as attested per S1 rule 1; report asks to verify the exact maxim number in Jacobs before quoting. Shows Gracián is NOT amoral: his prudence is bounded by character — the strategist stream's own gesture at the virtue-binds-competence counter-pole (converges with Galen u-0334 and the Hippocratic oath). DISTINCT proposition, NOT merged."

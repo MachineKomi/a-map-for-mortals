@@ -1,0 +1,21 @@
+id: c-0432
+canonical_claim: "Ego depletion — willpower as a depletable daily resource — FAILED a preregistered 23-lab replication (N=2,141) finding essentially no effect; the classic effect as operationalized is likely not real."
+claim_type: empirical
+polarity: descriptive
+conditionality: conditional
+member_units: [u-0169]
+robustness_profile:
+  recurrence: {rating: low, certainty: high, basis: "empirical finding — recurrence not the relevant axis; see empirical_support"}
+  source_diversity: {rating: low, certainty: moderate, basis: "multi-lab registered replication + bias-corrected reanalysis; Western lab samples"}
+  temporal_spread: {rating: low, certainty: high, basis: "contemporary research literature only"}
+  claim_type_dim: {rating: high, certainty: high, basis: "empirical — directly testable; graded on the unit"}
+  empirical_support: {rating: low, certainty: moderate, basis: "evidence grade E — FAILED REPLICATION; original meta-analysis inflated by publication bias (Carter & McCullough 2015)"}
+  contestation: {rating: high, certainty: moderate, basis: "the failed replication is now the dominant reading; classic model contradicted"}
+  attribution_integrity: {rating: high, certainty: moderate, basis: "attested; Hagger & Chatzisarantis 2016 (registered report); URL held on unit"}
+  survives_scrutiny: {rating: low, certainty: moderate, basis: "likely not real as classically operationalized"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Hagger & Chatzisarantis 2016 (23 labs, N=2,141); report finding F10. FAILED REPLICATION — Danger-type cautionary exhibit per P4; foregrounded by the report. Contradicts 'willpower is a finite daily resource' (Baumeister et al. 1998 model). NOTE: the replication FAILURE is the claim; never merge with any unit asserting ego depletion is real."

@@ -1,0 +1,21 @@
+id: c-0394
+canonical_claim: "Flourishing is not established by a brief spell of good fortune and needs some external goods: one swallow does not make a summer."
+claim_type: observational
+polarity: descriptive
+conditionality: conditional
+member_units: [u-0042]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress; convergence candidate: 'count no man happy until he is dead' (u-0052)"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "observational generalisation about the time-extent of flourishing"}
+  empirical_support: {rating: low, certainty: low, basis: "conceptual claim about eudaimonia, not measured"}
+  contestation: {rating: moderate, certainty: moderate, basis: "contested vs Stoic sufficiency-of-virtue (report contradiction #2: NE I.8-10 vs Stoic orthodoxy)"}
+  attribution_integrity: {rating: high, certainty: moderate, basis: "verified; Ross (1908) PD"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "durable; candidate CONTRADICTS edge vs Stoic virtue-sufficiency at synthesis"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Aristotle, Nicomachean Ethics I.7 (1098a18-20) and I.8 (1099a31-b8) on external goods. DISTINCT from the mean (u-0039), habituation (u-0040), and function argument (u-0041). Direct contrast with the Stoic claim that virtue alone suffices for eudaimonia — candidate CONTRADICTS edge at synthesis. Copyright: Ross (1908) PD."

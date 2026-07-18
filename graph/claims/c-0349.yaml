@@ -1,0 +1,21 @@
+id: c-0349
+canonical_claim: "Mind comes first: mental states are led and shaped by mind, and their consequences follow from it."
+claim_type: observational
+polarity: descriptive
+conditionality: conditional
+member_units: [u-0192]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "observational (RE-DERIVED from report's 'prudential' label) — a generalisation about mental causality, not advice (its prescriptive payoff comes in the verse's continuation, not quoted here)"}
+  empirical_support: {rating: low, certainty: low, basis: "armchair generalisation, not tested empirics"}
+  contestation: {rating: moderate, certainty: moderate, basis: "TRANSLATION CAUTION: 'all' is Buddharakkhita's insertion, not in the Pali (Norman, Thanissaro diverge); MISATTRIBUTION WATCHLIST: do NOT over-read as idealism — 'we are what we think' is Byrom's loose paraphrase, 'mind is everything' a hard fake; not held as metaphysical idealism"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "report label 'verified' re-labelled 'attested' per S1 rules; Buddharakkhita (BPS 1985) in-copyright; Müller SBE PD exists for the underlying text; Sanskrit/Pali opening phrase held only"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "Dhammapada v.1; guard against the idealist misreadings"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Buddha (attributed; via the Dhammapada, Pali canon), v. 1 (Yamakavagga). Report unit (eastern). RE-DERIVATION: report/extract labelled claim_type prudential and polarity prescriptive; re-derived as observational/descriptive — the verse as held is a generalisation about mental causality, not advice (its prescriptive payoff comes in the verse's continuation, not quoted here). TRANSLATION CAUTION (per report): 'all' is Buddharakkhita's insertion, not in the Pali (Bhikkhu Dhammanando/K.R. Norman); Norman renders 'Mental phenomena are preceded by mind'; Thanissaro 'Phenomena are preceded by the heart.' MISATTRIBUTION WATCHLIST: do NOT over-read as idealism — 'we are what we think' is Byrom's loose paraphrase, and 'mind is everything' is a hard fake. Not held as metaphysical idealism. Buddharakkhita (BPS 1985) in-copyright; Müller SBE PD exists for the underlying text."

@@ -1,0 +1,21 @@
+id: c-0393
+canonical_claim: "The human good is activity of the soul in accordance with virtue, sustained over a complete life."
+claim_type: normative
+polarity: descriptive
+conditionality: conditional
+member_units: [u-0041]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "normative account of the human good stated in descriptive form (the function argument)"}
+  empirical_support: {rating: low, certainty: low, basis: "normative-metaphysical argument, not empirical"}
+  contestation: {rating: moderate, certainty: moderate, basis: "function argument widely contested (the move from function to good)"}
+  attribution_integrity: {rating: high, certainty: moderate, basis: "verified; Ross (1908) PD"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "durable as a framing of eudaimonia; premises debated"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Aristotle, Nicomachean Ethics I.7 (1097b22-1098a20) — the function (ergon) argument. DISTINCT from the mean (u-0039), habituation (u-0040), and one-swallow (u-0042). Copyright: Ross (1908) PD."

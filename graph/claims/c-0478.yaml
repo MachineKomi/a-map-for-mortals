@@ -1,0 +1,21 @@
+id: c-0478
+canonical_claim: "People generally judge by appearances rather than by inner reality: few look inside, most settle for the outside."
+claim_type: observational
+polarity: descriptive
+conditionality: conditional
+member_units: [u-0320]
+robustness_profile:
+  recurrence: {rating: high, certainty: moderate, basis: "provisional — corpus-wide S3 in progress; strong convergence: Machiavelli Prince 18 'everyone sees what you appear to be' (c-0480) and Sun Tzu deception — three independent traditions on perception vs reality"}
+  source_diversity: {rating: moderate, certainty: low, basis: "provisional — S3 in progress; single Spanish-Jesuit/Baroque source at this scale"}
+  temporal_spread: {rating: high, certainty: moderate, basis: "provisional — 1647"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "observational — a generalisation about social judgment; descriptive, not an endorsement of managing appearances"}
+  empirical_support: {rating: low, certainty: low, basis: "observational generalisation, not a measured claim"}
+  contestation: {rating: low, certainty: moderate, basis: "low contestation as a descriptive generalisation"}
+  attribution_integrity: {rating: high, certainty: moderate, basis: "attested; Gracián, Art of Worldly Wisdom Maxim xcix (99) (Jacobs 1892, PD)"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "the appearance-over-substance observation; DISTINCT from the do-and-be-seen counsel (c-0477): this is descriptive, c-0477 is prescriptive"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Baltasar Gracián, Art of Worldly Wisdom Maxim xcix (99) 'Reality and Appearance' (Jacobs 1892, PD); report (wave-2 practical-strategic). Report label verified. Observational generalisation about social judgment — descriptive, not an endorsement of managing appearances. Candidate convergence flagged by report: Machiavelli Prince 18 (c-0480) and Sun Tzu's deception doctrine — three independent traditions on perception vs reality. NOTE: DISTINCT from c-0477 (do-and-be-seen, prescriptive) — c-0478 is the descriptive observation that people judge by appearances; related but distinct propositions, NOT merged per cardinal rule."

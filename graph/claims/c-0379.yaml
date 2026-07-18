@@ -1,0 +1,21 @@
+id: c-0379
+canonical_claim: "The wonder of childhood forms the adult self and can re-instruct it."
+claim_type: observational
+polarity: descriptive
+conditionality: contested
+member_units: [u-0262]
+robustness_profile:
+  recurrence: {rating: moderate, certainty: low, basis: "provisional — corpus-wide S3 in progress; convergence candidate with Matthew 18:3 (u-0263) on 'the child re-teaches the adult' — cross-tradition recurrence, not verification; cross-tradition S4 edge, not a merge"}
+  source_diversity: {rating: moderate, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: moderate, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "observational (Romantic-descriptive) — a poetic/metaphorical claim, not empirical"}
+  empirical_support: {rating: low, certainty: low, basis: "poetic/metaphorical claim, not tested empirics"}
+  contestation: {rating: moderate, certainty: moderate, basis: "conditionality: contested — a Romantic-poetic claim, not an empirical generalisation"}
+  attribution_integrity: {rating: high, certainty: moderate, basis: "report label 'verified'; WATCHLIST (report item 7): the line is 'father OF the Man', NOT 'father to the Man' — Hopkins's parody uses 'to'; do not conflate; first-person lyric in the poet's own voice (speaker context; report assigns no literary-endorsement label); PD (1807)"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "Wordsworth's 'The Child is father of the Man'; guard the 'of' vs 'to' conflation"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. William Wordsworth, 'My Heart Leaps Up', lines 7-9 (1807). Report unit (childhood-old-age). WATCHLIST (report item 7): the line is 'father OF the Man', NOT 'father to the Man' — Hopkins's parody uses 'to' ('The child is father to the man! / How can he be?'); do not conflate. First-person lyric in the poet's own voice (speaker context; report assigns no literary-endorsement label). Claim-type: observational (Romantic-descriptive) — a poetic/metaphorical claim, not empirical. Read-aloud register unit — simple surface kept. Convergence candidate with Matthew 18:3 (u-0263) on 'the child re-teaches the adult' — cross-tradition recurrence, not verification (S4 edge, not a merge). PD (1807)."

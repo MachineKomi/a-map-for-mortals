@@ -1,0 +1,21 @@
+id: c-0294
+canonical_claim: "Self-regard and regard for others must be held together, and acted on now rather than deferred."
+claim_type: normative
+polarity: prescriptive
+conditionality: universal-ish
+member_units: [u-0083]
+robustness_profile:
+  recurrence: {rating: moderate, certainty: low, basis: "report convergence CONV-3 (golden-rule / one-body cluster with the Sermon on the Mount and Saadi's Bani Adam) — rated among the most genuinely independent convergences in the report; provisional until corpus-wide pass"}
+  source_diversity: {rating: moderate, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: moderate, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "normative — duty-framed questions about obligation to self and others"}
+  empirical_support: {rating: low, certainty: low, basis: "ethical claim, not empirically testable"}
+  contestation: {rating: low, certainty: moderate, basis: "low contestation as a balance-of-duties norm"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by wave-1 report; WORDING CAUTION: the report credits Taylor 1897 but its citation link is a secondary web page, and a sibling S2 check found the report's 'Taylor' wording was NOT in fact Taylor's — this unit's wording carries the same risk and must be checked against Taylor's text (archive.org sayingsofjewish00tayl) at S2"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "Hillel's triad; cross-tradition kinship (golden rule) is S4 CONVERGES_WITH edges, NOT merges"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Pirkei Avot 1:14 (Hillel). Report unit HW-11. Part of report convergence CONV-3 (golden-rule / one-body cluster with the Sermon on the Mount u-0093 and Saadi's Bani Adam u-0099/u-0302) — rated among the most genuinely independent convergences; these are CONVERGES_WITH edges, NOT merges (the three are distinct propositions: Hillel's self/other/now triad, Jesus' enemy-love, Saadi's one-body sympathy). WORDING CAUTION carried: copyright_flag 'unknown' rather than public-domain until the wording's edition is established (Taylor 1897 itself is PD)."

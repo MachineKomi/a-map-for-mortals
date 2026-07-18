@@ -1,0 +1,21 @@
+id: c-0235
+canonical_claim: "Personhood is attained, not given at birth: one becomes a person in proportion as one discharges the obligations of communal life — duties primary, rights secondary."
+claim_type: normative
+polarity: prescriptive
+conditionality: contested
+member_units: [u-0207]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "singleton at mint; cross-tradition convergence is an S4 edge hypothesis, not counted as recurrence — pending corpus-wide edge pass"}
+  source_diversity: {rating: low, certainty: low, basis: "single source tradition at mint — pending S4 edge pass"}
+  temporal_spread: {rating: low, certainty: low, basis: "single attestation point at mint — pending S4 edge pass"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "normative claim — testable in tendency only"}
+  empirical_support: {rating: low, certainty: low, basis: "no direct empirical test wired at mint"}
+  contestation: {rating: high, certainty: moderate, basis: "conditionality: contested — directly rebutted by Gyekye (u-0208); report rec.1 ingests as a CONTESTED node"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "report states p.176 passage 'verified verbatim'; held at attested pending independent primary check"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "no known refutation; over-application risk noted where relevant"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Menkiti's radical/processual communitarianism (Person and Community in African Traditional Thought, 1984). One pole of the contested individual-vs-community fork. DIRECTLY REBUTTED by Gyekye's moderate view (u-0208); Wiredu's consensus variant is a third position — preserve the dissent, do not merge. Companion passage p.171: 'the reality of the communal world takes precedence over the reality of individual life histories.' In-copyright (1984) — print gate applies."

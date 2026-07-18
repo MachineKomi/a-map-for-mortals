@@ -1,0 +1,21 @@
+id: c-0292
+canonical_claim: "God answers the sufferer not with reasons but with the vastness of creation, which the sufferer did not witness and cannot fathom."
+claim_type: metaphysical
+polarity: descriptive
+conditionality: contested
+member_units: [u-0081]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "metaphysical — a claim about how the divine answers suffering, kept non-empirical per claim-type discipline"}
+  empirical_support: {rating: low, certainty: low, basis: "theological claim, not empirically testable"}
+  contestation: {rating: moderate, certainty: moderate, basis: "conditionality contested: the non-answer answer contrasts with Ludlul's restoration and the Babylonian Theodicy's unresolved protest (FORK-2)"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by wave-1 report; KJV 1611 wording pending primary check"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "the report notes Job's theodicy frame parallels Mesopotamian texts (partial independence only)"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Job 38:4 (KJV). Report unit HW-09. Claim_type metaphysical (a claim about how the divine answers suffering), kept non-empirical. Speaker context: the voice from the whirlwind (God) addressing Job within the book's dialogue frame; endorsement stays n/a with this context recorded. Part of FORK-2 (theodicy): the non-answer answer contrasts with Ludlul's restoration (u-0090) and the Babylonian Theodicy's unresolved protest (u-0091) — CONVERGES_WITH edges, NOT merges."

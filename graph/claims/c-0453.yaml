@@ -1,0 +1,21 @@
+id: c-0453
+canonical_claim: "Elders remain useful because great things are done by counsel, influence, and deliberate judgment — capacities old age retains and deepens — not by bodily strength or speed."
+claim_type: prudential
+polarity: prescriptive
+conditionality: conditional
+member_units: [u-0270]
+robustness_profile:
+  recurrence: {rating: moderate, certainty: low, basis: "provisional — corpus-wide S3 in progress; convergence candidate: counsel-and-judgment-as-the-elder's-asset recurs"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress; single Roman source (one work)"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "prudential — counsel on the retained strengths of age; rebuttal to charge 1"}
+  empirical_support: {rating: low, certainty: low, basis: "prudential counsel, not a measured claim"}
+  contestation: {rating: low, certainty: moderate, basis: "low contestation as counsel"}
+  attribution_integrity: {rating: high, certainty: moderate, basis: "attested; Cicero De Senectute §17 (Peabody 1884, PD); report verified to section number. WATCHLIST (report item 5): popular web wording is Falconer/Loeb 1923 (in copyright); use Peabody 1884"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "rebuttal to charge 1 (c-0451); DISTINCT from the character-not-age key (c-0452) and the other rebuttals"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Cicero, De Senectute §17 (Peabody 1884, PD); report (wave-2 childhood-old-age). Report label verified. Rebuttal to charge 1 of the four charges (c-0451). Spoken by Cato the Elder, Cicero's mouthpiece (endorsed, strong but literary). The ellipsis in the quotation is held in the report exactly — do not complete. Feeds the holding-on-vs-handing-over fork. DISTINCT proposition from the other De Senectute units, NOT merged."

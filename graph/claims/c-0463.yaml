@@ -1,0 +1,21 @@
+id: c-0463
+canonical_claim: "In armed conflict, controlling what the adversary perceives is the foundational method; warfare operates through deception."
+claim_type: prudential
+polarity: descriptive
+conditionality: conditional
+member_units: [u-0305]
+robustness_profile:
+  recurrence: {rating: high, certainty: moderate, basis: "provisional — corpus-wide S3 in progress; strong convergence: Gracián perception-management (c-0475..c-0478) and Machiavelli appearances (c-0480) — three independent traditions on perception vs reality; robustness, not truth"}
+  source_diversity: {rating: moderate, certainty: low, basis: "provisional — S3 in progress; single Chinese-military source at this scale"}
+  temporal_spread: {rating: high, certainty: moderate, basis: "provisional — c. 5th c. BCE; motif persists across millennia"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "prudential — realpolitik description of how adversarial conflict operates; cautionary about naivety, NOT a moral endorsement of deception"}
+  empirical_support: {rating: low, certainty: low, basis: "strategic counsel, not a measured claim"}
+  contestation: {rating: moderate, certainty: moderate, basis: "tension with Musashi's 'do not think dishonestly' (c-0467) — inward self-honesty vs outward feints"}
+  attribution_integrity: {rating: high, certainty: moderate, basis: "attested; Sun Tzu, Art of War Ch. I §18 (Giles 1910, PD). MISATTRIBUTION WATCHLIST: 'Appear weak when you are strong…' is a modern compression; 'keep your friends close…' (Godfather II 1974) and 'bodies floating down the river' (Clavell's Shogun 1975) are NOT Sun Tzu"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "anchors the deception cluster (§§18-19); DISTINCT from c-0464 (win without fighting)"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Sun Tzu, Art of War Ch. I (Laying Plans) §18 (Giles 1910, PD); report (wave-2 practical-strategic). Report label verified. Realpolitik counsel — polarity descriptive: a description of how adversarial conflict operates, cautionary about naivety, NOT a moral endorsement. MISATTRIBUTION WATCHLIST: 'Appear weak when you are strong, and strong when you are weak' is a modern compression; 'keep your friends close and your enemies closer' (Godfather Part II, 1974) and 'bodies floating down the river' (Clavell's Shogun, 1975) are NOT Sun Tzu. DISTINCT proposition from c-0464..c-0466, NOT merged."

@@ -1,0 +1,21 @@
+id: c-0406
+canonical_claim: "Justice (dikē) outlasts violence in the end, and hubris comes back to harm the one who wields it."
+claim_type: normative
+polarity: prescriptive
+conditionality: contested
+member_units: [u-0054]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "normative exhortation grounded in divine order (Dikē daughter of Zeus)"}
+  empirical_support: {rating: low, certainty: low, basis: "normative/theological, not measured"}
+  contestation: {rating: moderate, certainty: moderate, basis: "contested: the claimed tendency ('justice wins at the end of the race') is plainly not exceptionless"}
+  attribution_integrity: {rating: high, certainty: moderate, basis: "report label: verified; Evelyn-White (1914) PD"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "durable as moral exhortation; the tendency is hedged"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Hesiod, Works and Days 213-218 (cf. 256-262 on Dikē daughter of Zeus). Re-derivation: the quoted line reads as a tendency claim about outcomes, but in context it is Hesiod's moral exhortation to Perses grounded in divine order — normative/prescriptive kept, conditionality: contested since the tendency is not exceptionless. One of the report's Stage-1 high-confidence core units. Copyright: Evelyn-White (1914) PD."

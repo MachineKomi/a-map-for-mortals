@@ -1,0 +1,21 @@
+id: c-0260
+canonical_claim: "Meahcci names relational, productive land lived in through practice; rendering it as 'wilderness' is a mistranslation."
+claim_type: observational
+polarity: descriptive
+conditionality: universal-ish
+member_units: [u-0232]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "singleton at mint; cross-tradition convergence is an S4 edge hypothesis, not counted as recurrence — pending corpus-wide edge pass"}
+  source_diversity: {rating: low, certainty: low, basis: "single source tradition at mint — pending S4 edge pass"}
+  temporal_spread: {rating: low, certainty: low, basis: "single attestation point at mint — pending S4 edge pass"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "observational claim — checkable against the source/phenomenon"}
+  empirical_support: {rating: low, certainty: low, basis: "no direct empirical test wired at mint"}
+  contestation: {rating: moderate, certainty: low, basis: "conditionality: universal-ish — assumed broadly applicable"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "named authors, journal citation; article status unverified"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "no known refutation; over-application risk noted where relevant"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Joks, Østmo & Law, 'Verbing meahcci: Living Sámi lands' (The Sociological Review 68(2), 2020). Scholarly observation about a Sámi concept — observational, not prudential. Translation loss flagged by the report as real: meahcci resists English glossing. Part of the relational-land cluster; Krech (1999) attached as counter-evidence."

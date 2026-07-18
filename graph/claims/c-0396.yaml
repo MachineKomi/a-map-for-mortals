@@ -1,0 +1,21 @@
+id: c-0396
+canonical_claim: "The best revenge is to refuse to become like the one who wronged you."
+claim_type: prudential
+polarity: prescriptive
+conditionality: conditional
+member_units: [u-0044]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "prudential counsel on response to wrongdoing"}
+  empirical_support: {rating: low, certainty: low, basis: "prudential, not measured"}
+  contestation: {rating: low, certainty: moderate, basis: "low contestation as counsel"}
+  attribution_integrity: {rating: high, certainty: moderate, basis: "verified (watchlist #2: genuine, Meditations 6.6). Long (1862) PD"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "durable counsel against imitation of wrongdoers"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Marcus Aurelius, Meditations 6.6. DISTINCT from u-0043 (be a good man). Copyright: Long (1862) PD."

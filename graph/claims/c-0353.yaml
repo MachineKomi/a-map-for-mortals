@@ -1,0 +1,21 @@
+id: c-0353
+canonical_claim: "The path to realisation of the Self is arduous — as hard to walk as the sharpened edge of a razor."
+claim_type: metaphysical
+polarity: prescriptive
+conditionality: conditional
+member_units: [u-0196]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "metaphysical (path to the Self / highest realisation), never empirical"}
+  empirical_support: {rating: low, certainty: low, basis: "soteriological metaphor, not a measured claim"}
+  contestation: {rating: low, certainty: moderate, basis: "low contestation as metaphor; translation divergence Olivelle 'poets say' vs Müller 'the wise say'"}
+  attribution_integrity: {rating: high, certainty: moderate, basis: "report label 'verified'; Müller, SBE vol. 15, 1884 PD per report; MISATTRIBUTION WATCHLIST: the popular 'Arise, awake, and stop not till the goal is reached' is Vivekananda's paraphrase NOT scripture; Maugham's Razor's Edge epigraph inserts 'to Salvation', not in the Sanskrit — run through the misattribution gate before print"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "the razor's-edge metaphor; guard the Vivekananda/Maugham misattributions"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Anonymous, Katha Upanishad 1.3.14. Report unit (eastern). Metaphysical (path to the Self / highest realisation), never empirical. MISATTRIBUTION WATCHLIST: the popular 'Arise, awake, and stop not till the goal is reached' is Vivekananda's paraphrase, NOT scripture; Maugham's Razor's Edge epigraph inserts 'to Salvation', not in the Sanskrit — run through the misattribution gate before print. Translation divergence: Olivelle renders 'poets say' (kavayah) vs Müller's 'the wise say'. In-copyright modern standard: Olivelle (Oxford). Müller, SBE vol. 15, 1884 PD per report."

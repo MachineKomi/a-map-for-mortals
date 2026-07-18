@@ -1,0 +1,21 @@
+id: c-0400
+canonical_claim: "On the Epicurean account, atoms swerve unpredictably at no fixed time or place, breaking strict causal necessity and thereby leaving room for free will."
+claim_type: metaphysical
+polarity: descriptive
+conditionality: contested
+member_units: [u-0048]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "metaphysical — a physics-of-freedom thesis, never empirical"}
+  empirical_support: {rating: low, certainty: low, basis: "metaphysical/cosmological, not empirical"}
+  contestation: {rating: high, certainty: moderate, basis: "contested: the clinamen is criticised as ad hoc — introduced precisely to break the determinism Epicurean physics otherwise implies"}
+  attribution_integrity: {rating: moderate, certainty: low, basis: "report label: probable; Lucretius is our fullest source for Epicurus' physics, which mostly does not survive. Munro (1864) and Leonard (1916) both PD"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "durable as a historical thesis; the ad-hoc objection is live"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Lucretius, De Rerum Natura II.216-293 — the clinamen (atomic swerve). Metaphysical claim (a physics-of-freedom thesis), never empirical. Copyright: Munro (1864) and Leonard (1916) both PD."

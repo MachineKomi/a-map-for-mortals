@@ -1,0 +1,21 @@
+id: c-0402
+canonical_claim: "Suspending judgment (epoché) on undecidable questions tends to be followed by tranquillity (ataraxia) — arriving unbidden rather than by direct pursuit."
+claim_type: prudential
+polarity: prescriptive
+conditionality: contested
+member_units: [u-0050]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "prudential — the school's own tendency claim about the epoché-to-ataraxia link"}
+  empirical_support: {rating: low, certainty: low, basis: "prudential tendency claim, not measured"}
+  contestation: {rating: moderate, certainty: moderate, basis: "contested outside the school: whether epoché really yields ataraxia is disputed"}
+  attribution_integrity: {rating: high, certainty: moderate, basis: "report label: verified. COPYRIGHT CAVEAT: the quoted English's translator is ambiguous between Bury (Loeb 1933, PD status unestablished) and Mates (in-copyright) — resolve before print"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "durable within Pyrrhonism; the link is the school's own claim"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Sextus Empiricus, Outlines of Pyrrhonism I.8 (and I.12 'Concerning the End'). Ataraxia arrives 'as a shadow follows the body' — unintended, not pursued directly. Pyrrhonian skepticism is DISTINCT from Academic skepticism (which Sextus says wrongly asserts knowledge is impossible). COPYRIGHT CAVEAT (Gate F candidate): translator ambiguous between Bury (1933) and Mates (in-copyright) — line-match before print."

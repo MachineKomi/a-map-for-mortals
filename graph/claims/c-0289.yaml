@@ -1,0 +1,21 @@
+id: c-0289
+canonical_claim: "All human striving is fleeting; nothing is permanently gained 'under the sun'."
+claim_type: observational
+polarity: descriptive
+conditionality: contested
+member_units: [u-0078]
+robustness_profile:
+  recurrence: {rating: moderate, certainty: low, basis: "the impermanence datum recurs across the corpus (Siduri, FitzGerald-Khayyam, a Kempis); lineage-suspect in places — provisional until corpus-wide pass"}
+  source_diversity: {rating: moderate, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: moderate, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "observational — a generalisation about the human condition, not empirical measurement and not counsel"}
+  empirical_support: {rating: low, certainty: low, basis: "phenomenological observation, not a measured claim"}
+  contestation: {rating: high, certainty: moderate, basis: "conditionality contested: the same impermanence datum yields opposite prescriptions (FORK-3: seize ordinary joy vs renounce the world); intra-Hebrew tension with Proverbs' retribution confidence is a signed disagreement"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by wave-1 report; KJV 1611 wording pending primary check; Qoheleth anonymous, traditional Solomonic attribution"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "Qoheleth's programmatic thesis; the joy-prescription side is carried by a separate unit/claim"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Ecclesiastes 1:2 (KJV). Report unit HW-05. Claim_type observational (a generalisation about the human condition). Conditionality contested: the same impermanence datum yields opposite prescriptions (FORK-3: seize ordinary joy vs renounce the world), and intra-Hebrew tension with Proverbs' retribution confidence is a signed disagreement. The joy-prescription side of Ecclesiastes is a SEPARATE claim (sibling unit u-0011/its own claim) — SPLIT preserved. Era -250 per report's Hellenistic dating."

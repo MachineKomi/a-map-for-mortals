@@ -1,0 +1,21 @@
+id: c-0319
+canonical_claim: "The divine is apprehended through the mind — as the father of good thinking, the creator of truth, and the lord of existence."
+claim_type: metaphysical
+polarity: descriptive
+conditionality: contested
+member_units: [u-0284]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "metaphysical — a theological claim about how the divine is apprehended; never empirical"}
+  empirical_support: {rating: low, certainty: low, basis: "theological claim, not empirically testable"}
+  contestation: {rating: moderate, certainty: moderate, basis: "conditionality contested; a specifically Zoroastrian theology of Mazda"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by wave-2 report; WORDING IS FRAGMENTARY: the ellipses in the quotation are genuine — the verse number (Y31.8) is secure but only a partial Insler wording could be verified online; report FLAG: use the fuller Insler text only after checking the physical 1975 volume (Lead #2); Insler 1975 in copyright (PD alternative Mills, SBE 1887)"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "the core concept — Mazda as father of Vohu Manah (Good Thinking) and creator of Asa — is stable across Jafarey, Kanga, and Irani renderings"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Gathas, Yasna 31.8 (Insler 1975, FRAGMENTARY). Report unit ZO-05. WORDING IS FRAGMENTARY: the ellipses in the quotation are genuine — the verse number (Y31.8) is secure but only a partial Insler wording could be verified online; report FLAG: use the fuller Insler text only after checking the physical 1975 volume (Lead #2). The report notes this was a subagent-sourced item. Core concept — Mazda as father of Vohu Manah (Good Thinking) and creator of Asa — is stable across Jafarey, Kanga, and Irani renderings. Claim_type metaphysical (theological claim), never empirical."

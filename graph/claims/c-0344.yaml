@@ -1,0 +1,21 @@
+id: c-0344
+canonical_claim: "A journey of a thousand li begins beneath one's feet: great undertakings start from the first small step."
+claim_type: prudential
+polarity: prescriptive
+conditionality: universal-ish
+member_units: [u-0187]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "prudential — counsel to begin"}
+  empirical_support: {rating: low, certainty: low, basis: "prudential counsel, not a measured claim"}
+  contestation: {rating: low, certainty: moderate, basis: "low contestation as beginnings counsel"}
+  attribution_integrity: {rating: high, certainty: moderate, basis: "report label 'verified' re-labelled 'attested' per S1 rules; Legge 1891 PD anchor; MISATTRIBUTION WATCHLIST: genuine Daodejing ch. 64 (Laozi) but frequently misattributed to Confucius — the attribution, not the text, is the fake"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "the thousand-li aphorism; guard the Laozi attribution against the Confucius misattribution"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Laozi (traditional attribution), Daodejing 64. Report unit (eastern). MISATTRIBUTION WATCHLIST: genuine Daodejing ch. 64 (Laozi) but frequently misattributed to Confucius — the attribution, not the text, is the fake. Literal rendering: 'begins beneath one's feet'; 'with a single step' is a legitimate idiomatic rendering. One li is roughly 0.31 mi, so 'thousand miles' is idiomatic, not literal. Same chapter also warns against spoiling things on the verge of success (effort-vs-acceptance fork). Legge 1891 PD."

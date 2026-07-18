@@ -1,0 +1,21 @@
+id: c-0418
+canonical_claim: "The 'criminal' and underground types reveal truths about the soul that respectable morality conceals."
+claim_type: observational
+polarity: descriptive
+conditionality: conditional
+member_units: [u-0066]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "observational generalisation about psychology and morality"}
+  empirical_support: {rating: low, certainty: low, basis: "psychological-literary claim, not measured"}
+  contestation: {rating: moderate, certainty: moderate, basis: "contested: Nietzsche endorses the psychological insight and repudiates Dostoevsky's Christian conclusions — tension within convergence"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "report grade: verified (approval). Approved-precursor unit; Nietzsche calls Dostoevsky 'the only psychologist... from whom I had anything to learn' (Twilight 'Skirmishes' §45), grateful 'however much he goes against my deepest instincts'. No Dostoevsky verbatim held — copyright unknown"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "durable as psychological insight; the Christianity/pity tension is live"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Dostoevsky (no specific novel named in report; PD availability via Garnett translations) — an approved-precursor unit. CONDITIONALITY/TENSION (preserve, do not resolve): Nietzsche endorses the psychological insight and repudiates Dostoevsky's Christian conclusions — tension within convergence over Christianity and pity. No verbatim quotation held — copyright unknown."

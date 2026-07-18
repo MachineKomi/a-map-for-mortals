@@ -1,0 +1,21 @@
+id: c-0374
+canonical_claim: "Attachment to mortal, decaying goods — worldly marriage included — obstructs union with the divine; the perishable is to be renounced."
+claim_type: metaphysical
+polarity: cautionary
+conditionality: contested
+member_units: [u-0257]
+robustness_profile:
+  recurrence: {rating: moderate, certainty: low, basis: "provisional — corpus-wide S3 in progress; convergence candidate 'non-instrumental orientation to the ultimate' with Rabia (u-0256/c-0373), Julian (u-0247/c-0364), Murdoch (u-0254/c-0370) — candidate, not proof; claim types differ, do not flatten into one node; cross-tradition S4 edges, NOT merges"}
+  source_diversity: {rating: moderate, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: moderate, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "metaphysical — a renunciant thesis on the perishable vs the divine; never empirical"}
+  empirical_support: {rating: low, certainty: low, basis: "devotional thesis, not a measured claim"}
+  contestation: {rating: moderate, certainty: moderate, basis: "report forks: instrumental-vs-non-instrumental devotion and the examined life under constraint (she walked out of a forced marriage); translation caveat Niranjana (1992) critiques Ramanujan's rendering as universalizing for a Western audience"}
+  attribution_integrity: {rating: moderate, certainty: low, basis: "RIGHTS-RESTRICTED: Ramanujan's translation IN COPYRIGHT per report — only the short lines the report records are held; Vishwanatha's forthcoming Murty Classical Library translation flagged as rights-clean replacement; report label 'probable' re-labelled 'attested' per S1 rules; TRANSMISSION direct (~350 vachanas attributed via her ankita Chennamallikarjuna, not autograph manuscripts)"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "Akka Mahadevi's renunciant vachana; PRESERVE the differing claim types vs the convergence candidates"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Akka Mahadevi, vachana (signed with her ankita 'Chennamallikarjuna'). Report unit (womens-voices). RIGHTS-RESTRICTED: Ramanujan's translation IN COPYRIGHT per report (Speaking of Siva, Penguin, 1973) — only the short lines the report records are held; Vishwanatha's forthcoming Murty Classical Library translation flagged as rights-clean replacement. TRANSMISSION (extract): 'direct (~350 vachanas attributed via her ankita Chennamallikarjuna, not autograph manuscripts)'. Translation caveat: Niranjana (Siting Translation, 1992) critiques Ramanujan's rendering as universalizing for a Western audience. Report forks: instrumental-vs-non-instrumental devotion and the examined life under constraint (she walked out of a forced marriage); convergence candidate 'non-instrumental orientation to the ultimate' with Rabia (u-0256), Julian (u-0247), Murdoch (u-0254) — candidate, not proof (cross-tradition S4 edges, not merges). Life_stages derived by minting agent (extract left empty)."

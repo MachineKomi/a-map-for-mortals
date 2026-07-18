@@ -1,0 +1,21 @@
+id: c-0366
+canonical_claim: "A person's sex is not a fair measure of their moral or intellectual worth, and education amends and ennobles character regardless of it."
+claim_type: normative
+polarity: prescriptive
+conditionality: conditional
+member_units: [u-0249]
+robustness_profile:
+  recurrence: {rating: moderate, certainty: low, basis: "provisional — corpus-wide S3 in progress; convergence candidate 'education as the lever of equality' with Ban Zhao (u-0243/c-0271), Astell (u-0250/c-0367), Wollstonecraft (u-0251/c-0368) across 1,700 years — independent convergence (candidate, not proof); cross-tradition S4 edges, NOT merges (each states a distinct proposition)"}
+  source_diversity: {rating: moderate, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: moderate, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "normative — a defence of women's moral/intellectual capacity against misogynist authority"}
+  empirical_support: {rating: low, certainty: low, basis: "normative argument, not a measured claim"}
+  contestation: {rating: moderate, certainty: moderate, basis: "SPEAKER CONTEXT: spoken by the allegorical Lady Reason; the author 'elsewhere counsels wifely subjection — likely a strategic dilution to avoid censure or punishment' — encode the tension, do not resolve it; endorsement set 'complicated'"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "report label 'verified' re-labelled 'attested' per S1 rules; Richards (Persea 1982) in-copyright; Brown-Grant (Penguin) also in-copyright — snippet held pending rights review; TRANSMISSION direct (constrained/coded voice)"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "de Pizan's defence of women's capacity; PRESERVE the strategic-dilution tension"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Christine de Pizan, The Book of the City of Ladies, Part 1, §9.3 (spoken by Lady Reason). Report unit (womens-voices). SPEAKER CONTEXT (report): spoken by the allegorical Lady Reason, in a work written as a response to misogynist authority (Jean de Meun's Roman de la Rose); the author 'elsewhere counsels wifely subjection — likely a strategic dilution to avoid censure or punishment' — encode the tension, do not resolve it. Endorsement set 'complicated' on that basis (report gave the context but no enum label): Lady Reason speaks the author's defense, yet the report notes de Pizan 'undercuts her own catalogue with conventional wifely advice'. TRANSMISSION: direct (constrained/coded voice per report's voice-vs-silence fork). COPYRIGHT: Richards (Persea 1982) in-copyright; Brown-Grant (Penguin) also in-copyright — snippet held pending rights review. Report convergence: education-as-the-lever-of-equality with Ban Zhao, Astell, Wollstonecraft (independent convergence across 1,700 years) — cross-tradition S4 edges, not merges. life_stages left empty per report."

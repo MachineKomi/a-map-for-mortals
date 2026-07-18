@@ -1,0 +1,21 @@
+id: c-0293
+canonical_claim: "One enters and leaves life with nothing; loss as well as gain can be met with acceptance that blesses the giver in both."
+claim_type: normative
+polarity: prescriptive
+conditionality: contested
+member_units: [u-0082]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "normative — a commended posture of acceptance and blessing amid loss; the giver-and-taker framing is metaphysical warrant, kept non-empirical"}
+  empirical_support: {rating: low, certainty: low, basis: "religious acceptance counsel, not empirically testable"}
+  contestation: {rating: moderate, certainty: moderate, basis: "conditionality contested: the acceptance posture sits inside the corpus-wide submission-vs-striving fork (FORK-6, grouped with Qur'an 65:3 and Mt 6:34 against tie-your-camel/Avot effort counsel)"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by wave-1 report; KJV 1611 wording pending primary check"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "Job's prose-prologue response; the frame narrative itself approves the response (1:22)"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Job 1:21 (KJV). Report unit HW-10. Report's dual 'metaphysical/normative' re-derived to normative (a commended posture of acceptance; the giver-and-taker framing is metaphysical warrant, kept non-empirical). Speaker context: Job in the prose prologue, immediately after losing children and property; endorsement stays n/a, noting the frame narrative itself approves the response (1:22). Conditionality contested per FORK-6 (submission vs striving) against tie-your-camel/Avot effort counsel — CONVERGES_WITH edges, NOT merges."

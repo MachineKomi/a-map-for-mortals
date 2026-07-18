@@ -1,0 +1,21 @@
+id: c-0364
+canonical_claim: "Suffering and sin do not have the final word; ultimate reality is love, and in the end all shall be well."
+claim_type: metaphysical
+polarity: descriptive
+conditionality: contested
+member_units: [u-0247]
+robustness_profile:
+  recurrence: {rating: moderate, certainty: low, basis: "provisional — corpus-wide S3 in progress; convergence candidate 'non-instrumental orientation to the ultimate' with Rabia (u-0256/c-0372), Akka Mahadevi (u-0257/c-0373), Murdoch (u-0254/c-0370) — claim types differ, do not flatten into one node; cross-tradition S4 edge, not a merge"}
+  source_diversity: {rating: moderate, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: moderate, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "metaphysical — theodicy under suffering; never empirical"}
+  empirical_support: {rating: low, certainty: low, basis: "theological vision, not a measured claim"}
+  contestation: {rating: moderate, certainty: moderate, basis: "theodicy under suffering; conditionality kept contested per report"}
+  attribution_integrity: {rating: high, certainty: moderate, basis: "report label 'verified' re-labelled 'attested' per S1 rules; Warrack (1901) translation PD per report; Windeatt (OUP 2015) in-copyright; TRANSMISSION direct — earliest surviving English-language book by a woman"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "Julian's 'all shall be well'; PRESERVE the convergence-candidates' differing claim types"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Julian of Norwich, Revelations of Divine Love, ch. 27. Report unit (womens-voices). TRANSMISSION: direct — earliest surviving English-language book by a woman. Companion line held by the report (ch. 86): 'Love was our Lord's meaning.' Theodicy under suffering; conditionality kept contested per report. Re-derivation differs from report: polarity set descriptive (report: prescriptive) — the claim asserts what ultimate reality is like; its consoling, hope-grounding use is downstream. COPYRIGHT: Warrack (1901) translation PD per report; Windeatt (OUP 2015) in-copyright. Report convergence: non-instrumental orientation to the ultimate, with Rabia (Sufi), Akka Mahadevi (Bhakti), Murdoch (secular Platonist) — claim types differ, do not flatten into one node (cross-tradition S4 edges, not merges). Cultivates (per report): hope, trust; guards against despair."

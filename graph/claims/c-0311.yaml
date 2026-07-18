@@ -1,0 +1,21 @@
+id: c-0311
+canonical_claim: "Knowledge of oneself is the key and nearest gateway to knowledge of God."
+claim_type: metaphysical
+polarity: prescriptive
+conditionality: contested
+member_units: [u-0100]
+robustness_profile:
+  recurrence: {rating: moderate, certainty: low, basis: "report CONV-5: converges with Augustine's interior turn (u-0096) via a shared Neoplatonic (Plotinus) lineage — cross-pollination, NOT independent convergence; provisional until corpus-wide pass"}
+  source_diversity: {rating: moderate, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: moderate, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "metaphysical — a claim about the relation of self-knowledge to knowledge of God; never empirical; report's dual 'metaphysical/normative' narrowed to metaphysical"}
+  empirical_support: {rating: low, certainty: low, basis: "theological epistemology, not empirically testable"}
+  contestation: {rating: moderate, certainty: moderate, basis: "conditionality contested; a specifically Sufi epistemology"}
+  attribution_integrity: {rating: high, certainty: moderate, basis: "attested by wave-1 report; Field 1910, PD; Kimiya-yi Sa'adat is Ghazali's own Persian abridgement of the Ihya"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "al-Ghazali's interior turn; the Augustine convergence is cross-pollination via Plotinus, NOT independent"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Al-Ghazali, The Alchemy of Happiness (Field 1910, PD). Report unit (al-Ghazali). Report's dual 'metaphysical/normative' narrowed to metaphysical (never empirical). Report CONV-5: converges with Augustine's interior turn (u-0096) via a shared Neoplatonic (Plotinus) lineage — cross-pollination, NOT independent convergence (report's explicit flag) — a CONVERGES_WITH edge, NOT a merge. Sufi unit — Rumi/Hafiz pseudo-quote watchlist: al-Ghazali is not himself on the watchlist and this wording comes from a named PD translation, but the same quarantine discipline applies to any popular Sufi quote entering this cluster."

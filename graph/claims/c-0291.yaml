@@ -1,0 +1,21 @@
+id: c-0291
+canonical_claim: "The righteous can suffer while the wicked prosper — a standing scandal the sufferer records from inside the experience of envy and near-loss of faith."
+claim_type: observational
+polarity: descriptive
+conditionality: contested
+member_units: [u-0080]
+robustness_profile:
+  recurrence: {rating: moderate, certainty: low, basis: "the problem of the prosperity of the wicked recurs across the corpus (Job, Ludlul, Babylonian Theodicy) — report FORK-2 theodicy; provisional until corpus-wide pass"}
+  source_diversity: {rating: moderate, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: moderate, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "observational — an observation about desert and outcome, NOT empirical (no measurement) and not counsel"}
+  empirical_support: {rating: low, certainty: low, basis: "theodicy observation, not a measured claim"}
+  contestation: {rating: high, certainty: moderate, basis: "conditionality contested: the psalm itself later reverses the verdict (deferred justice); report FORK-2 (theodicy) preserves this as an open cross-cultural question alongside Job, Ludlul, and the Babylonian Theodicy"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by wave-1 report; KJV 1611 wording pending primary check; held wording splices vv.3 and 13 with the report's own ellipsis"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "the report calls Psalm 73 'theodicy in miniature'; the psalm's own reversal (deferred justice) is a live tension"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Psalms 73:3,13 (KJV, spliced). Report unit HW-08. Claim_type observational (an observation about desert and outcome, NOT empirical and not counsel). The held wording splices vv.3 and 13 with the report's own ellipsis. Conditionality contested: the psalm itself later reverses the verdict (deferred justice), and FORK-2 (theodicy) preserves this as an open question alongside Job (u-0081), Ludlul (u-0090), and the Babylonian Theodicy (u-0091) — these are CONVERGES_WITH edges, NOT merges."

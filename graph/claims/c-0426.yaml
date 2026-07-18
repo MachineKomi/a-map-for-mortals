@@ -1,0 +1,21 @@
+id: c-0426
+canonical_claim: "Social isolation, loneliness, and living alone each raise mortality risk by roughly 26–32% in meta-analysis, with stronger effects in those under 65; observational."
+claim_type: empirical
+polarity: descriptive
+conditionality: conditional
+member_units: [u-0163]
+robustness_profile:
+  recurrence: {rating: low, certainty: high, basis: "empirical finding — recurrence not the relevant axis; see empirical_support"}
+  source_diversity: {rating: low, certainty: moderate, basis: "single meta-analysis family (Holt-Lunstad); Western-dominant samples"}
+  temporal_spread: {rating: low, certainty: high, basis: "contemporary research literature only"}
+  claim_type_dim: {rating: high, certainty: high, basis: "empirical — directly testable; graded on the unit"}
+  empirical_support: {rating: moderate, certainty: moderate, basis: "evidence grade C — meta-analysis of 70 studies; strong/consistent but observational"}
+  contestation: {rating: moderate, certainty: moderate, basis: "association itself not contested; causal direction open (reverse causation, baseline-health/SES confounding)"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested at venue/year level; paper title not held — venue/journal only on the unit"}
+  survives_scrutiny: {rating: moderate, certainty: moderate, basis: "consistent with Holt-Lunstad 2010 (c-0032); replication-aware"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Holt-Lunstad et al. 2015 (Perspectives on Psychological Science); report finding F2. OR 1.29 social isolation, 1.26 loneliness, 1.32 living alone, after confound controls. DISTINCT from c-0032 (Holt-Lunstad 2010 survival OR 1.50) — that is relationship-strength predicting survival; this is isolation/loneliness/living-alone predicting mortality in a separate 2015 meta-analysis: NOT merged. Clustering posture: singleton; kinship to c-0032 expressed as edge, not merge."

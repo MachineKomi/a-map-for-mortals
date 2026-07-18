@@ -1,0 +1,21 @@
+id: c-0376
+canonical_claim: "Care and justice orientations do not in fact divide along gender lines; both should be de-gendered rather than coded female and male."
+claim_type: normative
+polarity: cautionary
+conditionality: contested
+member_units: [u-0259]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "normative per report and extract, with the composite noted — the claim carries a descriptive component (no actual gender division in orientations) inside a normative programme (de-moralize gender)"}
+  empirical_support: {rating: low, certainty: low, basis: "the descriptive component is an interpretive generalisation, not tested empirics"}
+  contestation: {rating: high, certainty: moderate, basis: "ATTACHED CRITIQUE in the CARE-VS-JUSTICE FORK (contested, do not resolve): this unit is the de-gendering pole against Gilligan (u-0258/c-0375) and Noddings; guards against gender-essentialism"}
+  attribution_integrity: {rating: moderate, certainty: low, basis: "RIGHTS-RESTRICTED, QUOTE-MINIMALLY: contemporary journal article, IN COPYRIGHT (report's blanket note covers the 20th-century ethics-of-care debate) — only the bracketed short line the report records is held; the report's own square-bracket interpolations are preserved as given, not smoothed; report label 'verified' re-labelled 'attested' per S1 rules; TRANSMISSION direct"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "Friedman's de-gendering critique; PRESERVE as the opposing pole to Gilligan (u-0258/c-0375)"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Marilyn Friedman, Beyond Caring: The De-Moralization of Gender (Canadian Journal of Philosophy, Supp. Vol. 13, 1987: 87-110; repr. in Held (ed.), Justice and Care, Westview, 1995, 61-77). Report unit (womens-voices). RIGHTS-RESTRICTED, QUOTE-MINIMALLY: contemporary journal article, IN COPYRIGHT (report's blanket note covers the 20th-century ethics-of-care debate) — only the bracketed short line the report records is held; the report's own square-bracket interpolations are preserved as given, not smoothed. TRANSMISSION (extract): direct. ATTACHED CRITIQUE in the CARE-VS-JUSTICE FORK (contested, do not resolve): this unit is the de-gendering pole against Gilligan (u-0258/c-0375) and Noddings; guards against gender-essentialism (report field). The claim carries a descriptive component (no actual gender division in orientations) inside a normative programme (de-moralize gender); minted normative per report and extract, with the composite noted. SPLIT from Gilligan (u-0258/c-0375): opposing poles of the contested fork. Life_stages derived by minting agent (extract left empty)."

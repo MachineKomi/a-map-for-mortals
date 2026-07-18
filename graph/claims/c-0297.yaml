@@ -1,0 +1,21 @@
+id: c-0297
+canonical_claim: "Truth and justice (Ma'at) endure; within this tradition they are held never to be finally overthrown."
+claim_type: metaphysical
+polarity: descriptive
+conditionality: contested
+member_units: [u-0086]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "metaphysical — a claim about the cosmic endurance of Ma'at, kept non-empirical per claim-type discipline"}
+  empirical_support: {rating: low, certainty: low, basis: "cosmological claim, not empirically testable"}
+  contestation: {rating: high, certainty: moderate, basis: "conditionality contested — the claim that justice is never finally overthrown is exactly what the theodicy stream (FORK-2: Job, Babylonian Theodicy) contests"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by wave-1 report; Gunn 1906 wording pending primary check; translation caveat: Gunn 1906 is PD but dated"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "the endurance-of-Ma'at claim is directly contested by the theodicy observations"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Maxims of Ptahhotep, Maxim 5 (Gunn 1906). Report unit ANE-02. Claim_type metaphysical (a claim about the cosmic endurance of Ma'at). RE-DERIVATION DIFFERENCE: report polarity was 'prescriptive', but the quoted evidence is a declarative statement about Truth's endurance, not an imperative — polarity re-derived to descriptive; the implied counsel (align with Ma'at) is noted, not smuggled into the labels. Conditionality contested: the claim that justice is never finally overthrown is exactly what the theodicy stream (FORK-2: Job/u-0081, Babylonian Theodicy/u-0091) contests — CONVERGES_WITH edges, NOT merges."

@@ -1,0 +1,21 @@
+id: c-0425
+canonical_claim: "Intellectual honesty — refusing to dress thought in poetry or rhetoric — is itself a virtue."
+claim_type: normative
+polarity: prescriptive
+conditionality: universal-ish
+member_units: [u-0073]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "normative claim about intellectual honesty as a virtue"}
+  empirical_support: {rating: low, certainty: low, basis: "normative, not measured"}
+  contestation: {rating: low, certainty: moderate, basis: "low contestation as a virtue claim"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "report grade: verified (qualified approval). APPROVED DIMENSION ONLY: Schopenhauer as exemplar of intellectual honesty and the solitary thinker; Nietzsche repudiates his pessimism and denial of the will-to-life. The quotation is Nietzsche's characterisation, not Schopenhauer's own words. COPYRIGHT: translator of the quoted English unnamed in report → unknown"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "durable as a virtue claim; the Schopenhauer ambivalence is live"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Schopenhauer (as characterised by Nietzsche), Schopenhauer as Educator (Untimely Meditations III) — intellectual honesty as a virtue. APPROVED DIMENSION ONLY: Schopenhauer as exemplar of intellectual honesty and the solitary thinker; Nietzsche repudiates his pessimism and denial of the will-to-life — in Twilight he calls the philosophy a 'nihilistic devaluation of life' (and Schopenhauer 'the last German of any consequence'). Preserve the ambivalence as a live tension; exclude the metaphysics of resignation. DISTINCT from u-0067 (Stendhal) and u-0064 (Thucydites): distinct author within the intellectual-honesty cluster. COPYRIGHT: translator unnamed in report → unknown; identify the edition before print; never fabricate PD wording."

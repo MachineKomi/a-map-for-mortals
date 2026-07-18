@@ -1,0 +1,21 @@
+id: c-0422
+canonical_claim: "There is no cosmic purpose, no moral world-order, and no free will in the traditional sense."
+claim_type: metaphysical
+polarity: descriptive
+conditionality: universal-ish
+member_units: [u-0070]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "metaphysical thesis about teleology, moral order, and the will"}
+  empirical_support: {rating: low, certainty: low, basis: "metaphysical, not empirical"}
+  contestation: {rating: high, certainty: moderate, basis: "contested by every teleological and libertarian-will metaphysics"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "report grade: verified (approval, qualified). The quotation is Nietzsche's summary of Spinoza's doctrine (postcard to Overbeck, 30 July 1881), not Spinoza's text. TENSION: 'I have a precursor' vs Nietzsche's later critique of Spinozan conatus/self-preservation (GS §349, BGE §13) — approval real but qualified"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "durable as naturalised ethics; the approval tension is live"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Spinoza (per Nietzsche's postcard to Franz Overbeck, 30 July 1881) — Nietzsche summarises Spinoza's doctrine in five points: denies freedom of the will, teleology, the moral world order, the unegoistic, and evil. The quotation is Nietzsche's summary, not Spinoza's text. TENSION (preserve, do not resolve): 'I have a precursor' vs Nietzsche's later critique of Spinozan conatus/self-preservation (GS §349, BGE §13) — approval real but qualified. KAUFMANN COPYRIGHT FLAG: the only English wording held is Walter Kaufmann's (The Portable Nietzsche, 1954, in-copyright) — print gate blocks it; PD alternative is the German original (KSB vol. VI) or Spinoza's own doctrine (Elwes Ethics translation). No PD English wording held — do not fabricate."

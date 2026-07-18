@@ -1,0 +1,21 @@
+id: c-0414
+canonical_claim: "All is becoming; reality is flux, not permanence."
+claim_type: metaphysical
+polarity: descriptive
+conditionality: universal-ish
+member_units: [u-0062]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress; convergence candidate: Nietzsche's being-is-fiction (u-0061) and the river fragment (u-0034) — convergence = robustness, not truth"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "metaphysical thesis about reality as becoming"}
+  empirical_support: {rating: low, certainty: low, basis: "metaphysical, not empirical"}
+  contestation: {rating: high, certainty: moderate, basis: "contested by metaphysics of being/substance"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "approved-precursor unit; Nietzsche's explicit reverence attests the stance, but no verbatim fragment held — Heraclitus' own fragments are inherently fragmentary. Copyright unknown"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "durable as a Heraclitean thesis; no verbatim held"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Heraclitus (generalised flux thesis; no verbatim held) — an approved-precursor unit via Nietzsche's reverence ('With high reverence I except the name of Heraclitus', Twilight 'Reason' §2; Ecce Homo BT §3). SPLIT from u-0034 (the specific river fragment, DK B12, differently attested) and u-0061 (Nietzsche's published endorsement): these are distinct attestations of the flux theme. No verbatim quotation held — copyright unknown."

@@ -1,0 +1,21 @@
+id: c-0466
+canonical_claim: "Protracted conflict tends to exhaust and harm even the eventual victor; no state is said to have benefited from prolonged warfare."
+claim_type: observational
+polarity: cautionary
+conditionality: conditional
+member_units: [u-0308]
+robustness_profile:
+  recurrence: {rating: high, certainty: moderate, basis: "provisional — corpus-wide S3 in progress; convergence: war-of-attrition caution recurs across strategic thought"}
+  source_diversity: {rating: moderate, certainty: low, basis: "provisional — S3 in progress; single Chinese-military source at this scale"}
+  temporal_spread: {rating: high, certainty: moderate, basis: "provisional — c. 5th c. BCE"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "observational — an ancient generalisation from historical observation ('no instance'), not a systematically evidenced empirical finding"}
+  empirical_support: {rating: low, certainty: low, basis: "historical generalisation, not a tested finding"}
+  contestation: {rating: low, certainty: moderate, basis: "low contestation as attrition caution"}
+  attribution_integrity: {rating: high, certainty: moderate, basis: "attested; Sun Tzu, Art of War Ch. II §7 (Giles 1910, PD). RE-DERIVATION: report tags claim_type empirical; re-derived to observational — treating it as empirical would overstate its evidential grade"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "tempers the deception/aggression units — Sun Tzu prizes speed and conservation, not war for its own sake. DISTINCT proposition"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Sun Tzu, Art of War Ch. II (Waging War) §7 (Giles 1910, PD); report (wave-2 practical-strategic). Report label verified. RE-DERIVATION: report tags claim_type empirical; re-derived to observational — an ancient generalisation from historical observation ('no instance'), not a systematically evidenced empirical finding. Tempers the deception/aggression units. DISTINCT proposition, NOT merged."

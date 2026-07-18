@@ -1,0 +1,21 @@
+id: c-0430
+canonical_claim: "Tracking over 24,000 people, average life satisfaction returned toward baseline within about two years of marriage, leaving at most a small lasting boost, with large individual differences."
+claim_type: empirical
+polarity: descriptive
+conditionality: conditional
+member_units: [u-0167]
+robustness_profile:
+  recurrence: {rating: low, certainty: high, basis: "empirical finding — recurrence not the relevant axis; see empirical_support"}
+  source_diversity: {rating: low, certainty: moderate, basis: "single large German panel; WEIRD"}
+  temporal_spread: {rating: low, certainty: high, basis: "contemporary research literature only"}
+  claim_type_dim: {rating: high, certainty: high, basis: "empirical — testable; graded on the unit"}
+  empirical_support: {rating: moderate, certainty: moderate, basis: "evidence grade B/C — large longitudinal panel (>24,000); largely upheld"}
+  contestation: {rating: moderate, certainty: moderate, basis: "adaptation reading contested by Easterlin (table caveat)"}
+  attribution_integrity: {rating: high, certainty: moderate, basis: "attested; Lucas, Clark, Georgellis & Diener 2003 (JPSP); PubMed URL held on unit"}
+  survives_scrutiny: {rating: moderate, certainty: moderate, basis: "hedonic adaptation with individual variation; replication-aware"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Lucas, Clark, Georgellis & Diener 2003 (Journal of Personality and Social Psychology); report finding F8. German (SOEP) panel. Supports 'this too shall pass / hedonic adaptation is real, with variation'; qualifies 'marriage makes you lastingly happier'."

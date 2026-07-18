@@ -1,0 +1,21 @@
+id: c-0455
+canonical_claim: "The old are not worse placed than the young: what the young merely hope for — a long life — the old have already attained."
+claim_type: prudential
+polarity: descriptive
+conditionality: conditional
+member_units: [u-0272]
+robustness_profile:
+  recurrence: {rating: moderate, certainty: low, basis: "provisional — corpus-wide S3 in progress; convergence candidate: the consolation against envy-of-youth recurs"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress; single Roman source (one work)"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "prudential — descriptive-comparative consolation, not a command"}
+  empirical_support: {rating: low, certainty: low, basis: "consolation, not a measured claim"}
+  contestation: {rating: low, certainty: moderate, basis: "low contestation as consolation"}
+  attribution_integrity: {rating: high, certainty: moderate, basis: "attested; Cicero De Senectute §68 (Peabody 1884, PD); report verified"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "descriptive-comparative consolation; conditional per the work's key (§7, §65, c-0452); guards against envy of youth. DISTINCT proposition, NOT merged"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Cicero, De Senectute §68 (Peabody 1884, PD); report (wave-2 childhood-old-age). Report label verified. Descriptive-comparative consolation (polarity descriptive). Conditional per the work's own key (§7, §65 = c-0452): old age good only for those with the means within themselves. Feeds living-for-time-left-vs-as-if-whole. DISTINCT proposition from the other De Senectute units, NOT merged."

@@ -1,0 +1,21 @@
+id: c-0340
+canonical_claim: "Do not impose on others what you yourself would not want done to you (shu, reciprocity)."
+claim_type: normative
+polarity: prescriptive
+conditionality: universal-ish
+member_units: [u-0183]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress; cross-tradition Golden Rule convergences (Hillel, Christian, etc.) are S4 edge candidates, not merges — recurrence is not proof"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "normative — the negative Golden Rule as a rule of conduct"}
+  empirical_support: {rating: low, certainty: low, basis: "normative counsel, not a measured claim"}
+  contestation: {rating: low, certainty: moderate, basis: "low contestation as reciprocity counsel; the cultivation-is-hard datum (Analects 5.12) noted"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "report label 'verified' re-labelled 'attested' per S1 rules; Legge 1893 PD anchor; numbering discrepancy Legge 15.23 = Watson/Slingerland 15.24; report flags Legge's Christianising register"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "the negative Golden Rule; cross-tradition kinship expressed as S4 edges, not merges"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Confucius (Analects, compiled by disciples), 15.24 (Legge 15.23). Report unit (eastern). The negative Golden Rule. 'Shu' variously rendered reciprocity (Legge), consideration, sympathetic understanding, altruism (Chan). Analects 5.12 shows Zigong told by Confucius he has NOT mastered this — cultivation-is-hard datum. Report flags Legge's Christianising register generally; Slingerland (2003) and Watson (2007) named as in-copyright modern standards. Numbering discrepancy: Legge 15.23 = Watson/Slingerland 15.24. Cross-tradition Golden Rule convergences (Hillel, Christian, etc.) are S4 edge candidates, NOT merges."

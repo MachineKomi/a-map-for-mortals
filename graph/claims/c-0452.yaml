@@ -1,0 +1,21 @@
+id: c-0452
+canonical_claim: "The miseries commonly blamed on old age are really faults of character, not of age."
+claim_type: prudential
+polarity: cautionary
+conditionality: conditional
+member_units: [u-0269]
+robustness_profile:
+  recurrence: {rating: moderate, certainty: low, basis: "provisional — corpus-wide S3 in progress; the character-vs-age distinction recurs across ageing counsel"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress; single Roman source (one work)"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "prudential — the conditionality key of the whole work: old age tolerable only for those with the means within themselves"}
+  empirical_support: {rating: low, certainty: low, basis: "prudential dictum, not a measured claim"}
+  contestation: {rating: moderate, certainty: moderate, basis: "tension with Beauvoir's dissent that the ancients romanticise age and ignore its social marginalisation — preserve"}
+  attribution_integrity: {rating: high, certainty: moderate, basis: "attested; Cicero De Senectute §7 (repeated §65) (Peabody 1884, PD); report verified to section number"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "THE CONDITIONALITY KEY of the work; distinct from the set-up (c-0451) and the other rebuttals (c-0453..c-0455)"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Cicero, De Senectute §7 (repeated §65) (Peabody 1884, PD); report (wave-2 childhood-old-age). Report label verified. THE CONDITIONALITY KEY of the whole work: old age is tolerable only for those with the means within themselves — a tendency, not a destiny. Spoken by Cato the Elder, Cicero's mouthpiece (endorsed, strong but literary). DISTINCT from the set-up (c-0451) and the other rebuttals: this is the character-not-age key, NOT merged."

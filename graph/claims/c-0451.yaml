@@ -1,0 +1,21 @@
+id: c-0451
+canonical_claim: "Old age is charged with four evils — withdrawal from affairs, weakened body, lost pleasure, and nearness of death — each of which can be answered."
+claim_type: prudential
+polarity: descriptive
+conditionality: contested
+member_units: [u-0268]
+robustness_profile:
+  recurrence: {rating: moderate, certainty: low, basis: "provisional — corpus-wide S3 in progress; convergence candidate: the four-charges schema recurs in ageing discourse"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress; single Roman source (one work)"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "prudential — sets up four charges each then rebutted with prudential/normative argument, not empirical findings"}
+  empirical_support: {rating: low, certainty: low, basis: "argumentative set-up, not a measured claim"}
+  contestation: {rating: moderate, certainty: moderate, basis: "tension preserved: Nussbaum praises the work but notes the schema omits friendship; Beauvoir (La Vieillesse 1970) the dissenting voice on romanticising age"}
+  attribution_integrity: {rating: high, certainty: moderate, basis: "attested; Cicero De Senectute §15 (Peabody 1884, PD). WATCHLIST (report item 5): popular web wording is the IN-COPYRIGHT Falconer/Loeb 1923 — use Peabody 1884"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "the set-up of the four charges; DISTINCT from the rebuttals (c-0452 character-not-age; c-0453 counsel; c-0454 actor metaphor; c-0455 lived-long)"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Cicero, Cato Maior de Senectute §15 (Peabody 1884, PD); report (wave-2 childhood-old-age). Report label verified. Spoken by Cato the Elder (84), Cicero's mouthpiece; endorsement 'endorsed' (strong but literary). This unit SETS UP the four charges; the rebuttals are SEPARATE claims (c-0452..c-0455). WATCHLIST (report item 5): popular web wording is Falconer/Loeb 1923 (in copyright); use Peabody 1884. Preserve Beauvoir's dissent."

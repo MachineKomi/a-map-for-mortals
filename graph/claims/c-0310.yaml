@@ -1,0 +1,21 @@
+id: c-0310
+canonical_claim: "Humankind is of one essence, like limbs of a single body; whoever feels no sympathy for others' pain does not deserve to be called human."
+claim_type: normative
+polarity: prescriptive
+conditionality: universal-ish
+member_units: [u-0099, u-0302]
+robustness_profile:
+  recurrence: {rating: moderate, certainty: low, basis: "report CONV-3 (golden-rule / one-body cluster with Hillel and the Sermon on the Mount) — rated among the most genuinely independent convergences in the report; provisional until corpus-wide pass"}
+  source_diversity: {rating: moderate, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: moderate, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "normative — a duty of human sympathy grounded in shared essence; religious/ethical claim, not empirical"}
+  empirical_support: {rating: low, certainty: low, basis: "ethical claim, not empirically testable"}
+  contestation: {rating: low, certainty: moderate, basis: "low contestation as a sympathy norm; the within-tradition scope is broadened by Saadi's universal 'children of Adam' framing"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "MERGE of two units carrying the SAME Saadi maxim (Gulistan ch.1 story 10 'Bani Adam'); u-0099 credits Rehatsek 1888 (PD), u-0302's translator unresolved (Gate C rerun cleared a wrong 'Dick Davis' credit) — wording/edition still to be established at S2; TEXT-CRITICAL FORK: yek peykar ('one body') vs yekdigar ('each other') readings; Foroughi's standard edition reads yekdigar"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "the UN-carpet couplet; cross-tradition kinship (golden rule) is S4 CONVERGES_WITH edges, NOT merges"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "MERGE (FLAGGED per the report's cross-report overlap note). u-0099 (wave-1, Near-Eastern report HW-13) and u-0302 (wave-2, Persian report) carry the SAME Saadi maxim — Gulistan ch.1 story 10 'Bani Adam' — in different English renderings. Both units' notes flag 'FLAG FOR MERGE: overlaps the wave-1 Near-Eastern report'. The two are genuinely the same proposition (one-body / human sympathy), so merged here; the cardinal rule is satisfied (identical proposition, same author, same work, same passage). u-0099 credits Rehatsek 1888 (PD); u-0302's translator is unresolved (Gate C rerun cleared a wrong 'Dick Davis' credit; copyright_flag kept in-copyright conservatively). TEXT-CRITICAL FORK: banl adam a'za-ye yekdigar-and ('limbs of one another', in all early MSS) vs yek peykar-and ('one body'); the UN carpet's Persian uses yekdigar while the English UN plaque uses Eastwick's 1880 rendering of the later yek peykar variant — do not present either as definitively original; flag before any 'one body' framing goes to print. Report CONV-3: golden-rule / one-body cluster with Hillel (u-0083) and Mt 5:44 (u-0093), ~13 centuries and little direct contact apart — CONVERGES_WITH edges, NOT further merges (the three are distinct propositions)."

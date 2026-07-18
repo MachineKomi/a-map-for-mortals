@@ -1,0 +1,21 @@
+id: c-0337
+canonical_claim: "If you desire power, desire contentment above all: contentment is its own kingdom."
+claim_type: prudential
+polarity: prescriptive
+conditionality: conditional
+member_units: [u-0304]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress; convergence candidate: Stoic and Epicurean 'enough' ethics (contentment-as-wealth) — recurrence is not proof"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "prudential — counsel to value contentment over power"}
+  empirical_support: {rating: low, certainty: low, basis: "contentment counsel, not a measured claim"}
+  contestation: {rating: low, certainty: moderate, basis: "low contestation as contentment counsel"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "report label 'probable'; Saadi's moral of the story, authorial voice; endorsement: endorsed; report instructs: verify exact translator/edition ('English tr. varies') — copyright unknown until traced; PD candidates Rehatsek 1888, Eastwick 1880; Davis 2002 in-copyright"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "Saadi on contentment-as-wealth; SPLIT from the one-body sympathy claim (c-0310) and the speech-restraint claim (c-0336): these are distinct Saadi points"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Saadi, Gulistan, Ch.2 'On the Morals of Dervishes', Story 28 (translator unidentified). Report unit (Saadi-contentment). FLAG FOR MERGE (report): overlaps the wave-1 Near-Eastern report (05); adab angle only — verified DISTINCT from the Bani Adam claim (c-0310): this is contentment counsel, not one-body sympathy, so NOT merged. Report label: probable. Report instructs: verify exact translator/edition ('English tr. varies') — copyright unknown until traced; PD candidates Rehatsek 1888, Eastwick 1880; Davis 2002 in-copyright. Endorsement: endorsed — Saadi's moral of the story, authorial voice. Convergence candidate: Stoic and Epicurean 'enough' ethics (contentment-as-wealth) — recurrence is not proof."

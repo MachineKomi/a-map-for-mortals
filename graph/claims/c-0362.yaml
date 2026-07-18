@@ -1,0 +1,21 @@
+id: c-0362
+canonical_claim: "Fiction exists to preserve and pass on the texture of human life; its truth is not reducible to literal fact."
+claim_type: normative
+polarity: prescriptive
+conditionality: conditional
+member_units: [u-0245]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "normative — a defence of fiction's truth-function"}
+  empirical_support: {rating: low, certainty: low, basis: "literary argument, not a measured claim"}
+  contestation: {rating: moderate, certainty: moderate, basis: "SPEAKER CONTEXT: the defence of fiction (monogatari) is spoken by the CHARACTER Genji, not in Murasaki's own voice — endorsement set 'complicated' on that basis"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "report label 'verified' re-labelled 'attested' per S1 rules; Tyler (Viking 2001) in-copyright — snippet held pending rights review; WATCHLIST: 'mono no aware' is Norinaga's later term, NOT Murasaki's phrase; TRANSMISSION direct (her own composition)"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "the Genji defence of fiction; do NOT equate character speech with authorial endorsement"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Murasaki Shikibu, The Tale of Genji, ch. 25 'The Fireflies' (Hotaru). Report unit (womens-voices). SPEAKER CONTEXT (report): the defense of fiction (monogatari) is spoken by the CHARACTER Genji, not in Murasaki's own voice — 'readers have long heard [Murasaki's] voice through his' (Tyler), but 'do NOT equate with authorial endorsement outright'; endorsement set 'complicated' on that basis (report gave the context but no enum label). WATCHLIST: 'mono no aware' is Motoori Norinaga's (1730-1801) later interpretive term, NOT Murasaki's phrase — Tyler notes 'the expression does not occur in the tale'. COPYRIGHT: Tyler (Viking 2001) in-copyright — snippet held pending rights review. TRANSMISSION: direct (her own composition). life_stages left empty per report (no stage-specific application given)."

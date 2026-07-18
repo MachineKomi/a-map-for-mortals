@@ -1,0 +1,21 @@
+id: c-0336
+canonical_claim: "Interrupting others' conversation to display one's own knowledge only makes one's ignorance notorious; speak with restraint."
+claim_type: prudential
+polarity: cautionary
+conditionality: conditional
+member_units: [u-0303]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "prudential — social-conduct counsel on restraint in speech"}
+  empirical_support: {rating: low, certainty: low, basis: "social-conduct counsel, not a measured claim"}
+  contestation: {rating: low, certainty: moderate, basis: "low contestation as speech-restraint counsel"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "Saadi's direct authorial counsel in the maxims chapter; endorsement: endorsed; GATE C RERUN FIX 2026-07-07: the report NOMINATED Ross 1900 but the held wording is the Gladwin/Rehatsek-lineage phrasing common to several PD translations — which specific PD translator is unresolved, so the Ross credit is not asserted until Gate F line-match; copyright_flag KEPT public-domain because ALL candidate translators (Gladwin 1806 #82, Eastwick 1852 #82, Burton 1888 #58, Ross 1900 #96) are public-domain — so PD-in-outcome is safe even though the identity is not — but no verbatim may be printed as 'Ross' until matched"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "Saadi's adab counsel; SPLIT from the one-body sympathy claim (c-0310) and the contentment claim (c-0337): these are distinct Saadi points"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Saadi, Gulistan, Ch.8 'Rules for Conduct in Life' (Ross 1900 #96 numbering; translator unresolved). Report unit (Saadi-adab/interrupting). FLAG FOR MERGE (report): overlaps the wave-1 Near-Eastern report (05); adab angle only — verified DISTINCT from the Bani Adam claim (c-0310): this is speech-restraint counsel, not one-body sympathy, so NOT merged. Endorsement: endorsed — Saadi's direct authorial counsel in the maxims chapter. GATE C RERUN FIX 2026-07-07 (round-3 P0-1, full-batch re-audit): 'translator: James Ross' was an UNVERIFIED structured field carrying a public-domain determination; the report only nominated Ross 1900; the held wording ('makes notorious his own stock of ignorance') is the Gladwin/Rehatsek-lineage phrasing shared across several PD translations, so the specific translator is unresolved. Translator cleared to null pending a Gate F wording-match. copyright_flag KEPT public-domain because ALL candidate translators are PD — so PD-in-outcome is safe even though the identity is not — but no verbatim may be printed as 'Ross' until matched."

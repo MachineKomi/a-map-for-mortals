@@ -1,0 +1,21 @@
+id: c-0491
+canonical_claim: "Whatever the physician sees or hears in the course of practice that ought not be spoken of abroad must be kept secret."
+claim_type: normative
+polarity: prescriptive
+conditionality: universal-ish
+member_units: [u-0333]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 complete 2026-07-18"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "normative — a fiduciary rule of professional secrecy"}
+  empirical_support: {rating: low, certainty: low, basis: "no direct empirical test wired"}
+  contestation: {rating: moderate, certainty: moderate, basis: "the Hippocratic counter-pole to Gracián's 'cypher' secrecy (u-0321) — same practice, opposite moral logic: other-protective/fiduciary vs self-protective/strategic; a contradiction-to-test on secrecy's moral valence, not a convergence"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by report; not yet primary-verified. Authorship is corpus-level, not Hippocrates personally"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "the fiduciary-secrecy duty; contrast with strategic secrecy is preserved, not collapsed"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Hippocratic corpus, The Oath (Francis Adams 1849, PD); report (wave-2 practical-strategic). Report label verified (Adams 1849 PD) — downgraded to attested per S1 rule 1 pending primary check. Report's contrast preserved: Gracián's 'cypher' secrecy (u-0321) is self-protective/strategic, Hippocratic secrecy is other-protective/fiduciary — same practice, opposite moral logic; a contradiction-to-test on secrecy's moral valence, not a convergence. DISTINCT proposition from c-0489 (Oath, benefit-and-abstain) and c-0490 (Epidemics, do good/do no harm), NOT merged. Report's ellipsis preserved as held."

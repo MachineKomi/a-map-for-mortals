@@ -1,0 +1,21 @@
+id: c-0431
+canonical_claim: "In the Dunedin cohort, childhood self-control predicted adult physical health, substance dependence, finances, and (non-)criminal conviction along a gradient, independent of IQ and social class, confirmed by sibling comparisons."
+claim_type: empirical
+polarity: descriptive
+conditionality: conditional
+member_units: [u-0168]
+robustness_profile:
+  recurrence: {rating: low, certainty: high, basis: "empirical finding — recurrence not the relevant axis; see empirical_support"}
+  source_diversity: {rating: low, certainty: moderate, basis: "single large prospective cohort (Dunedin) plus sibling fixed-effects; New Zealand sample"}
+  temporal_spread: {rating: low, certainty: high, basis: "contemporary research literature only"}
+  claim_type_dim: {rating: high, certainty: high, basis: "empirical — testable; graded on the unit"}
+  empirical_support: {rating: moderate, certainty: moderate, basis: "evidence grade B/C — strong prospective + sibling-comparison design; causally suggestive but observational; trait self-control correlates with SES/confounds"}
+  contestation: {rating: moderate, certainty: moderate, basis: "in tension with the marshmallow-test attenuation (c-0433); net qualified in report"}
+  attribution_integrity: {rating: high, certainty: moderate, basis: "attested; Moffitt et al. 2011 (PNAS); DOI held on unit"}
+  survives_scrutiny: {rating: moderate, certainty: moderate, basis: "survives sibling controls; replication-aware"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Moffitt et al. 2011 (PNAS); report finding F9. Dunedin cohort (1,037 children followed to age 32). Sits in tension with the marshmallow-test attenuation (c-0433/u-0170): that attenuates the bivariate correlation after controls, this survives sibling fixed-effects — DIFFERENT designs, DIFFERENT constructs (broad self-control gradient vs delay-of-gratification), NOT merged. Supports 'discipline pays off long-term'."

@@ -1,0 +1,21 @@
+id: c-0435
+canonical_claim: "In meta-analysis, gratitude interventions reduce depression and anxiety only modestly (g≈0.27 for depression), with larger apparent effects against waitlist than active controls."
+claim_type: empirical
+polarity: descriptive
+conditionality: conditional
+member_units: [u-0172]
+robustness_profile:
+  recurrence: {rating: low, certainty: high, basis: "empirical finding — recurrence not the relevant axis; see empirical_support"}
+  source_diversity: {rating: low, certainty: moderate, basis: "meta-analysis of 27 studies (N=3,675); Western samples"}
+  temporal_spread: {rating: low, certainty: high, basis: "contemporary research literature only"}
+  claim_type_dim: {rating: high, certainty: high, basis: "empirical — testable; graded on the unit"}
+  empirical_support: {rating: low, certainty: moderate, basis: "evidence grade D/E for clinically meaningful effects — converging meta-analyses; small and control-dependent"}
+  contestation: {rating: moderate, certainty: moderate, basis: "corroborated by Davis et al. 2016 (limited effects); enthusiasm to be tempered"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested; Cregg & Cheavens 2021 meta-analysis; URL held on unit (journal/title not given)"}
+  survives_scrutiny: {rating: moderate, certainty: moderate, basis: "report Tier-3: gratitude journals may yield small benefits but should not displace evidence-based treatment"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Cregg & Cheavens 2021 meta-analysis (27 studies); report finding F16. Practice-type (an evaluated intervention). Qualifies 'count your blessings'. RELATED but DISTINCT from c-0436 (PPI well-being effect shrinks to r≈0.10) — that is the broader positive-psychology-intervention bias-corrected effect, this is the gratitude-intervention meta-analysis specifically: different scope and metric, NOT merged."

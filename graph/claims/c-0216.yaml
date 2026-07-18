@@ -1,0 +1,21 @@
+id: c-0216
+canonical_claim: "Great evil is often committed not by monsters but by ordinary, thoughtless functionaries who fail to think about what they are doing — evil can be banal."
+claim_type: observational
+polarity: cautionary
+conditionality: contested
+member_units: [u-0146]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "observational — interpretive generalisation from trial reportage"}
+  empirical_support: {rating: low, certainty: moderate, basis: "contested historiography (Stangneth argues Eichmann's thoughtlessness was performance); NOT systematically tested"}
+  contestation: {rating: high, certainty: high, basis: "heavily contested among historians — do not present as established fact"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by report; Arendt IN COPYRIGHT — only the four-word title phrase held"}
+  survives_scrutiny: {rating: low, certainty: moderate, basis: "GENUINELY CONTESTED historiographically"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Hannah Arendt Eichmann in Jerusalem (1963) — 'the banality of evil'. RIGHTS-RESTRICTED, PARAPHRASE-ONLY. claim_type observational re-derived vs report's 'empirical' (interpretive generalisation, heavily contested)."

@@ -1,0 +1,21 @@
+id: c-0467
+canonical_claim: "Mastery rests on a disciplined code: honesty of mind, constant training, broad acquaintance with many arts, and discarding whatever is useless."
+claim_type: prudential
+polarity: prescriptive
+conditionality: conditional
+member_units: [u-0309]
+robustness_profile:
+  recurrence: {rating: high, certainty: moderate, basis: "provisional — corpus-wide S3 in progress; convergence: the disciplined-mastery code recurs (Stoic askesis, craft-mastery counsel)"}
+  source_diversity: {rating: moderate, certainty: low, basis: "provisional — S3 in progress; single Japanese bushido/Zen source at this scale"}
+  temporal_spread: {rating: high, certainty: moderate, basis: "provisional — written 1643-45"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "prudential — a disciplined code of self-cultivation"}
+  empirical_support: {rating: low, certainty: low, basis: "craft-mastery counsel, not a measured claim"}
+  contestation: {rating: moderate, certainty: moderate, basis: "tension: 'do not think dishonestly' vs Sun Tzu/Gracián deception cluster — inward self-honesty vs outward feints"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "report label probable; Musashi, Book of Five Rings, Ground Book 'nine principles' (Harris 1974 tr.). The nine-principle list is stable across translations (Wilson, Cleary)"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "the disciplined-code counsel; DISTINCT from c-0468 (resolute acceptance of death) and c-0469 (perceptual distance)"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Miyamoto Musashi, Book of Five Rings (Go Rin no Sho), Ground Book 'nine principles' (Harris 1974 tr.); report (wave-2 practical-strategic). Report label probable. Harris 1974 translation IN COPYRIGHT — only a short fragment held for research; PARAPHRASE POSTURE for the book per report (or short fragments only). The nine-principle list is stable across translations (Wilson, Cleary). 'Do not think dishonestly' stands in tension with the Sun Tzu/Gracián deception cluster — inward self-honesty vs outward feints, flagged by report as a tension to test. DISTINCT proposition, NOT merged."

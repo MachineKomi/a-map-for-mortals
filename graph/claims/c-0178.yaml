@@ -1,0 +1,21 @@
+id: c-0178
+canonical_claim: "Self-love is the greatest of all flatterers — it distorts all self-knowledge."
+claim_type: observational
+polarity: cautionary
+conditionality: universal-ish
+member_units: [u-0108]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "observational — generalisation about self-knowledge"}
+  empirical_support: {rating: moderate, certainty: moderate, basis: "consistent with bias-research (self-serving bias, Dunning-Kruger)"}
+  contestation: {rating: moderate, certainty: moderate, basis: "universal-ish; some reflective self-knowledge survives"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by report; not yet primary-verified"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "no known refutation; over-application risk noted"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. La Rochefoucauld Maximes no. 2 (1678 5th ed.). DISTINCT from c-0177 (epigraph): maxim 2 names amour-propre as flatterer specifically."

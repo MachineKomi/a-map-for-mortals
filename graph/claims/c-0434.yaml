@@ -1,0 +1,21 @@
+id: c-0434
+canonical_claim: "Satisfying needs and wants boosts happiness but tracks little meaning; giving, self-expression, and integrating past/present/future track meaning but not happiness — higher stress/worry go with more meaning but less happiness."
+claim_type: empirical
+polarity: descriptive
+conditionality: conditional
+member_units: [u-0171]
+robustness_profile:
+  recurrence: {rating: low, certainty: high, basis: "empirical finding — recurrence not the relevant axis; see empirical_support"}
+  source_diversity: {rating: low, certainty: moderate, basis: "single cross-sectional US online survey; WEIRD"}
+  temporal_spread: {rating: low, certainty: high, basis: "contemporary research literature only"}
+  claim_type_dim: {rating: high, certainty: high, basis: "empirical — testable; graded on the unit"}
+  empirical_support: {rating: low, certainty: moderate, basis: "evidence grade D — cross-sectional correlational; partly exploratory/self-defined; constructs overlap substantially (r≈0.53)"}
+  contestation: {rating: moderate, certainty: moderate, basis: "replication unassessed; overlapping constructs"}
+  attribution_integrity: {rating: high, certainty: moderate, basis: "attested; Baumeister, Vohs, Aaker & Garbinsky 2013 (Journal of Positive Psychology); URL held on unit"}
+  survives_scrutiny: {rating: low, certainty: moderate, basis: "supports 'pursue meaning, not just pleasure' only qualified — constructs distinct but heavily overlapping"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Baumeister, Vohs, Aaker & Garbinsky 2013 (Journal of Positive Psychology); report finding F15. US national online survey (N=397). Happiness and meaning overlap substantially (~half shared variance; UK Biobank phenotypic r≈0.53). Supports (qualified) 'pursue meaning, not just pleasure'."

@@ -1,0 +1,21 @@
+id: c-0388
+canonical_claim: "Cheerfulness (euthymia) tends to come from moderation in enjoyment and due proportion in life, not from excess."
+claim_type: prudential
+polarity: prescriptive
+conditionality: conditional
+member_units: [u-0036]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress; convergence candidate: Epicurean ataraxia (report's own note)"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "prudential counsel toward moderation"}
+  empirical_support: {rating: low, certainty: low, basis: "prudential counsel, not a measured claim"}
+  contestation: {rating: low, certainty: moderate, basis: "low contestation as moderation-counsel"}
+  attribution_integrity: {rating: moderate, certainty: low, basis: "report grade: probable — survives only via doxography (Stobaeus); wording reconstructed. English 'after Freeman' (1948) — PD status not established; re-source at S2"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "moderation-cheerfulness link anticipates Epicurean ataraxia"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Democritus, DK 68 B191 (via Stobaeus). Doxographical transmission; English 'after Freeman (1948)' — treat wording as paraphrase-pending and re-source at S2."

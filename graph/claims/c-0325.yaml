@@ -1,0 +1,21 @@
+id: c-0325
+canonical_claim: "Existence is a riddle no one unravels; do not waste your labour on the surface of stories but look for the truths behind the signs."
+claim_type: prudential
+polarity: prescriptive
+conditionality: conditional
+member_units: [u-0290]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "prudential — counsel to seek the truths behind signs"}
+  empirical_support: {rating: low, certainty: low, basis: "hermeneutic counsel, not a measured claim"}
+  contestation: {rating: low, certainty: moderate, basis: "low contestation as interpretive counsel"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "report label 'probable', normalised to 'attested'; WORDING UNVERIFIED-TO-PAGE (report Lead #3): confirm exact wording and page against Davis 2006 print; report watchlist item 6 warns most circulating 'Shahnameh quotes' online are loose paraphrases; Davis 2006 in-copyright (PD alternatives: Warner & Warner, Helen Zimmern)"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "Ferdowsi's authorial commentary voice (narrator = poet), delivered after cumulative tragedy; his narratorial moralizing is generally taken as the author's own (Dabashi)"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Ferdowsi, Shahnameh (Davis 2006). Report unit FE-01. Endorsement 'endorsed' derived from report speaker_context: Ferdowsi's authorial commentary voice (narrator = poet), delivered after cumulative tragedy; his narratorial moralizing is generally taken as the author's own (Dabashi). WORDING UNVERIFIED-TO-PAGE (report Lead #3): confirm exact wording and page against Davis 2006 print before any quotation use — report watchlist item 6 warns most circulating 'Shahnameh quotes' online are loose paraphrases. Davis translation IN-COPYRIGHT — print gate applies; PD alternatives: Warner & Warner, Helen Zimmern. Note Ferdowsi was a Muslim preserving a Zoroastrian worldview — not a primary Zoroastrian source."

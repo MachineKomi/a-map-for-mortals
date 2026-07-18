@@ -1,0 +1,21 @@
+id: c-0488
+canonical_claim: "Taken on balance, the multitude is wiser and more constant in its judgments than a single prince — Machiavelli holds the governments of the people to be better than those of princes."
+claim_type: observational
+polarity: descriptive
+conditionality: contested
+member_units: [u-0330]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 complete 2026-07-18"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "observational — a comparative generalisation from historical observation, not a tested finding"}
+  empirical_support: {rating: low, certainty: low, basis: "no direct empirical test wired"}
+  contestation: {rating: moderate, certainty: moderate, basis: "directly contradicts the 'feared prince' reading (u-0327); Machiavelli against himself — preserve the tension, do not collapse"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by report; not yet primary-verified — wording pending against Detmold 1882 I.58 (lead G3)"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "the pro-popular-government thesis; representing only the Prince-Machiavelli would falsify the record"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Niccolò Machiavelli, Discourses on Livy Book I Ch. LVIII (Detmold 1882, PD); report (wave-2 practical-strategic). Report label probable — kept as attested per S1 rule 1. RE-DERIVATION: report tags claim_type empirical; re-derived to observational — a comparative generalisation from historical observation, not a tested finding (S1 rule 2). WORDING PENDING: report holds only a short fragment; flags 'verify Detmold's exact wording of I.58 before quoting verbatim' (lead G3). Report instruction preserved: directly contradicts the 'feared prince' reading (u-0327) — Machiavelli against himself; preserve the tension, do not collapse. THE republican Machiavelli. DISTINCT proposition from the Prince units (c-0482..c-0486), NOT merged."

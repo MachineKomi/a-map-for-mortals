@@ -1,0 +1,21 @@
+id: c-0254
+canonical_claim: "New Zealand law makes the Whanganui River (Te Awa Tupua) a legal person, with all the rights, powers, duties, and liabilities of one."
+claim_type: empirical
+polarity: descriptive
+conditionality: conditional
+member_units: [u-0226]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "singleton at mint; cross-tradition convergence is an S4 edge hypothesis, not counted as recurrence — pending corpus-wide edge pass"}
+  source_diversity: {rating: low, certainty: low, basis: "single source tradition at mint — pending S4 edge pass"}
+  temporal_spread: {rating: low, certainty: low, basis: "single attestation point at mint — pending S4 edge pass"}
+  claim_type_dim: {rating: high, certainty: high, basis: "empirical / documentary claim — checkable against the source"}
+  empirical_support: {rating: high, certainty: high, basis: "statute text externally checkable; report grades verified"}
+  contestation: {rating: moderate, certainty: moderate, basis: "conditionality: conditional — domain-scoped, not universal"}
+  attribution_integrity: {rating: high, certainty: high, basis: "statute enacted in English; promote at S2 against the official NZ legislation text"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "no known refutation; over-application risk noted where relevant"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Te Awa Tupua (Whanganui River Claims Settlement) Act 2017, s14(1). A LEGAL/DOCUMENTARY FACT (empirical), kept DISTINCT from the metaphysical claim that the river is an ancestor (u-0227). Within NZ jurisdiction. Licensing of statute text not established."

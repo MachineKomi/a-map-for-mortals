@@ -1,0 +1,21 @@
+id: c-0481
+canonical_claim: "Enemies, handled well, are useful — their hostility can sharpen and inform you rather than merely wound."
+claim_type: prudential
+polarity: prescriptive
+conditionality: conditional
+member_units: [u-0323]
+robustness_profile:
+  recurrence: {rating: moderate, certainty: low, basis: "provisional — corpus-wide S3 in progress; convergence candidate: enemies-as-utility counsel"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress; single Spanish-Jesuit/Baroque source at this scale"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "prudential — counsel on using enemies"}
+  empirical_support: {rating: low, certainty: low, basis: "court counsel, not a measured claim"}
+  contestation: {rating: low, certainty: moderate, basis: "low contestation as counsel"}
+  attribution_integrity: {rating: moderate, certainty: low, basis: "report label probable; Gracián, Art of Worldly Wisdom Maxim lxxxiv (84) (Jacobs 1892, PD). WORDING PENDING: report holds only the maxim title; flags 'verify Jacobs full wording of #84 before quoting beyond the title' (lead G2)"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "the enemies-as-utility counsel; DISTINCT proposition"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Baltasar Gracián, Art of Worldly Wisdom Maxim lxxxiv (84) 'Make use of your Enemies' (Jacobs 1892, PD); report (wave-2 practical-strategic). Report label probable — kept as attested per S1 rule 1. WORDING PENDING: report holds only the maxim title ('Make use of your Enemies'); it flags 'verify Jacobs' full wording of #84 before quoting beyond the title' (lead G2) — the bracketed '[Maxim 84]' in the report is editorial and excluded here. DISTINCT proposition, NOT merged."

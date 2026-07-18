@@ -1,0 +1,21 @@
+id: c-0219
+canonical_claim: "Life is a brief, meaningless performance that signifies nothing."
+claim_type: metaphysical
+polarity: descriptive
+conditionality: contested
+member_units: [u-0149]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "metaphysical — nihilist claim"}
+  empirical_support: {rating: low, certainty: low, basis: "no direct empirical test wired"}
+  contestation: {rating: high, certainty: high, basis: "ENDORSEMENT=UNDERCUT — the play frames this as the terminal wage of ambition, NOT Shakespeare's own metaphysics"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by report; genuine Macbeth 5.5; PD"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "dramatic speech, not doctrine — never flatten the irony"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Shakespeare Macbeth 5.5 — Macbeth on hearing of Lady Macbeth's death. ENDORSEMENT=UNDERCUT: speaker nihilism framed by the play as the wage of choosing ambition over loyalty/love. DISTINCT from authorial counsel."

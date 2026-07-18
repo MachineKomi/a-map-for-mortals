@@ -1,0 +1,21 @@
+id: c-0333
+canonical_claim: "Death cannot be averted by fearing it; it finds whoever it seeks, even one who climbs to the sky on a ladder."
+claim_type: observational
+polarity: cautionary
+conditionality: universal-ish
+member_units: [u-0299]
+robustness_profile:
+  recurrence: {rating: moderate, certainty: low, basis: "fatalist strain within pre-Islamic hikma: report links it to the fate-vs-will fork — converges with Shahnameh FE-02 (u-0291/c-0326) and contrasts with Zoroastrian free will ZO-01 (u-0280/c-0315); preserve as a live contested fork, not a consensus; provisional until corpus-wide pass"}
+  source_diversity: {rating: moderate, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: moderate, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "observational — a gnomic observation about death's unavoidability"}
+  empirical_support: {rating: low, certainty: low, basis: "mortality observation, not a measured claim"}
+  contestation: {rating: high, certainty: moderate, basis: "fatalist strain within pre-Islamic hikma; contrasts with Zoroastrian free will — preserve as a live contested fork, not a consensus"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "report label 'probable'; Zuhayr's own gnomic voice; endorsement: endorsed; translator for the English wording unidentified ('English tr. varies') — verify exact translator; PD locators per report: Jones (1782), Lyall (1930), and the 1917 Sacred Books anthology; Arberry 1957 is the in-copyright scholarly version; copyright unknown until the rendering is traced"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "the fate-vs-will fork; CONVERGES_WITH edges (as opposing poles), NOT merges"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Zuhayr ibn Abi Sulma, Mu'allqa, gnomic (hikma) section (translator unidentified). Report unit MU-02. Fatalist strain within pre-Islamic hikma: report links it to the fate-vs-will fork — converges with Shahnameh FE-02 (u-0291/c-0326) and contrasts with Zoroastrian free will ZO-01 (u-0280/c-0315); PRESERVE as a live contested fork, not a consensus — CONVERGES_WITH edges (as opposing poles), NOT merges. Endorsement: endorsed — Zuhayr's own gnomic voice. Translator for the English wording unidentified ('English tr. varies') — verify exact translator; PD locators: Jones (1782), Lyall (1930), 1917 Sacred Books anthology; Arberry 1957 in-copyright; copyright unknown until traced."

@@ -1,0 +1,21 @@
+id: c-0179
+canonical_claim: "Hypocrisy is the homage vice pays to virtue — even pretence testifies to virtue's prestige."
+claim_type: observational
+polarity: descriptive
+conditionality: conditional
+member_units: [u-0109]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "observational — sociological generalisation"}
+  empirical_support: {rating: low, certainty: moderate, basis: "consistent with norms-research on prestige; not a direct test"}
+  contestation: {rating: moderate, certainty: moderate, basis: "conditional — vice need not always honour virtue"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by report; not yet primary-verified"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "no known refutation; over-application risk noted"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. La Rochefoucauld Maximes no. 218 (1678 5th ed.)."

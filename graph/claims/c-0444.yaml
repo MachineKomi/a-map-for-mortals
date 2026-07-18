@@ -1,0 +1,21 @@
+id: c-0444
+canonical_claim: "Emotional experience tends to improve with age — the ratio of positive to negative emotion rises, with greater stability and complexity — and more positive everyday emotion predicts lower mortality."
+claim_type: empirical
+polarity: descriptive
+conditionality: conditional
+member_units: [u-0181]
+robustness_profile:
+  recurrence: {rating: low, certainty: high, basis: "empirical finding — recurrence not the relevant axis; see empirical_support"}
+  source_diversity: {rating: low, certainty: moderate, basis: "single 10-year longitudinal experience-sampling study; US sample"}
+  temporal_spread: {rating: low, certainty: high, basis: "contemporary research literature only"}
+  claim_type_dim: {rating: high, certainty: high, basis: "empirical — testable; graded on the unit"}
+  empirical_support: {rating: moderate, certainty: moderate, basis: "evidence grade B/C — longitudinal experience-sampling (N≈184, 5×/day, three waves over 10 years); robust to personality/health controls; replication unassessed"}
+  contestation: {rating: moderate, certainty: moderate, basis: "cohort vs age effects hard to separate"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested; Carstensen et al. 2011 (Psychology and Aging)"}
+  survives_scrutiny: {rating: moderate, certainty: moderate, basis: "supports 'old age can be emotionally good'; positive emotion predicts lower mortality over ~13 years"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Carstensen et al. 2011 (Psychology and Aging); report finding. DISTINCT from c-0442 (age well-being U-curve) and c-0445 (terminal decline near death): this is the positive-emotion-ratio-with-age and its mortality link — distinct propositions, NOT merged."

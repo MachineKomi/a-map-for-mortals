@@ -1,0 +1,21 @@
+id: c-0246
+canonical_claim: "All beings are related: humans, animals, land, and cosmos form one web of kinship."
+claim_type: metaphysical
+polarity: descriptive
+conditionality: universal-ish
+member_units: [u-0218]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "singleton at mint; cross-tradition convergence is an S4 edge hypothesis, not counted as recurrence — pending corpus-wide edge pass"}
+  source_diversity: {rating: low, certainty: low, basis: "single source tradition at mint — pending S4 edge pass"}
+  temporal_spread: {rating: low, certainty: low, basis: "single attestation point at mint — pending S4 edge pass"}
+  claim_type_dim: {rating: low, certainty: high, basis: "metaphysical claim — not empirically falsifiable as stated"}
+  empirical_support: {rating: low, certainty: low, basis: "no direct empirical test wired at mint"}
+  contestation: {rating: moderate, certainty: low, basis: "conditionality: universal-ish — assumed broadly applicable"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "communal ceremonial phrase; the expanded modern 'prayer' is NOT verified traditional text"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "no known refutation; over-application risk noted where relevant"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Lakota: Mitákuye Oyás'iŋ ('all my relations / we are all related'). Claim_type metaphysical, never empirical. MISATTRIBUTION WATCHLIST: the widely circulated expanded 'Mitakuye Oyasin prayer' is a modern devotional composition, NOT verified traditional text — this claim holds only the traditional phrase. CONSENT GATE applies. Translation loss is real (cf. u-0219)."

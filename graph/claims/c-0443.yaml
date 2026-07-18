@@ -1,0 +1,21 @@
+id: c-0443
+canonical_claim: "The deterioration of young people's mental health since ~2012 may be flattening or eliminating the age U-curve, replacing the midlife hump in ill-being with a monotonic rise in well-being across age."
+claim_type: empirical
+polarity: descriptive
+conditionality: contested
+member_units: [u-0180]
+robustness_profile:
+  recurrence: {rating: low, certainty: high, basis: "empirical finding — recurrence not the relevant axis; see empirical_support"}
+  source_diversity: {rating: low, certainty: moderate, basis: "repeated cross-sections (US BRFSS 2009–2022 + international); some working-paper form"}
+  temporal_spread: {rating: low, certainty: high, basis: "contemporary research literature only"}
+  claim_type_dim: {rating: high, certainty: high, basis: "empirical — testable; graded on the unit"}
+  empirical_support: {rating: low, certainty: moderate, basis: "evidence grade C/D — robust trend but contested cause; some analyses working papers"}
+  contestation: {rating: high, certainty: moderate, basis: "conditionality: contested — cause (smartphones/social media the leading proposed driver) is contested"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested; Blanchflower, Bryson & Xu 2024/2025"}
+  survives_scrutiny: {rating: low, certainty: moderate, basis: "qualifies/contradicts 'things improve with age'"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Blanchflower, Bryson & Xu 2024/2025; report finding. CONTESTED. A time-period/ cohort shift in the age U-curve. DISTINCT from c-0442 (the existence of the U-curve): related (this modifies that) but a distinct proposition about recent cohort change, NOT merged. WEIRD samples."

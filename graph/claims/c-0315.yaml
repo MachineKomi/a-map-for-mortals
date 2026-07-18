@@ -1,0 +1,21 @@
+id: c-0315
+canonical_claim: "Each person must listen, reflect with a clear mind, and choose for themselves between the two paths — truth and the lie; no one else can make the choice."
+claim_type: normative
+polarity: prescriptive
+conditionality: universal-ish
+member_units: [u-0280]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "normative — a free-will ethics; the Gathic claim is normative/metaphysical, NOT an empirical claim about honesty's payoffs"}
+  empirical_support: {rating: low, certainty: low, basis: "religious ethics, not empirically testable"}
+  contestation: {rating: high, certainty: moderate, basis: "anchor of the fate-vs-will fork: directly opposed by the fatalist strain in FitzGerald-Khayyam (u-0287), Ferdowsi's Rostam-Sohrab (u-0291), and Zuhayr (u-0298/u-0299); preserve as a live contested fork"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by wave-2 report; Insler 1975 in copyright (PD alternative Mills, SBE 1887); Insler himself called 'great retribution' (yah) 'at best a guess'; WATCHLIST: versified 'Insler' renderings of Y30.2-30.3 on Wikiquote do NOT match his actual 1975 prose — use only the prose wording held here"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "Boyce and Encyclopaedia Iranica treat this verse as the cornerstone of Zoroastrian free-will ethics — an explicit rejection of predestination"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Gathas, Yasna 30.2 (Insler 1975). Report unit ZO-01. Convergence CANDIDATE with the project's 'truth above all' — the Gathic claim is normative/metaphysical, NOT an empirical claim about honesty's payoffs; flag, don't force. Anchor of the fate-vs-will fork: directly opposed by the fatalist strain in FitzGerald-Khayyam (u-0287), Ferdowsi's Rostam-Sohrab (u-0291), and Zuhayr (u-0298/u-0299) — CONVERGES_WITH edges (as opposing poles), NOT merges. Asha translation is unsettled (Insler 'truth'; Bartholomae/Mills 'righteousness / cosmic order'). WATCHLIST carried (Wikiquote versified renderings do not match Insler's prose)."

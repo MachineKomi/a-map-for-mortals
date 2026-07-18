@@ -1,0 +1,21 @@
+id: c-0447
+canonical_claim: "Maturity is a composure that meets triumph and disaster and treats those two impostors just the same."
+claim_type: normative
+polarity: prescriptive
+conditionality: conditional
+member_units: [u-0264]
+robustness_profile:
+  recurrence: {rating: moderate, certainty: low, basis: "provisional — corpus-wide S3 in progress; convergence candidate: Stoic equanimity toward fortune"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress; single Victorian-Stoic source"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "normative — an ideal of character (equanimity)"}
+  empirical_support: {rating: low, certainty: low, basis: "character-ideal, not a measured claim"}
+  contestation: {rating: moderate, certainty: moderate, basis: "rival young-adult ideal: Kipling's Stoic self-mastery vs Wallace's conscious empathy (c-0449)"}
+  attribution_integrity: {rating: high, certainty: moderate, basis: "attested; Kipling 'If—' 1910 (PD per report US; CHECK TERRITORY before print). Dual framing: Leander Starr Jameson the inspiration; addressed to John Kipling (killed at Loos 1915) — retrospective tragic irony. Eliot/Neruda dissents held critically"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "Victorian-Stoic self-mastery; distinct from Wallace's empathy (c-0449); gendered address noted"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Kipling, 'If—' (1910, in Rewards and Fairies); report (wave-2 childhood-old-age). WATCHLIST (report item 6): dual framing — Jameson inspiration + paternal address to John Kipling (killed at Loos 1915). Gendered address ('you'll be a Man, my son') noted. Rival young-adult ideal to Wallace (c-0449). PD US per report; CHECK TERRITORY before print."

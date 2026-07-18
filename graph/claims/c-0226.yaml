@@ -1,0 +1,21 @@
+id: c-0226
+canonical_claim: "Society treats a wealthy single man as obliged to marry — a 'universal truth' that in fact exposes the economic pressure on women to secure husbands."
+claim_type: observational
+polarity: descriptive
+conditionality: contested
+member_units: [u-0156]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "observational — social-generalisation (ironised)"}
+  empirical_support: {rating: low, certainty: low, basis: "no direct empirical test wired"}
+  contestation: {rating: high, certainty: high, basis: "ENDORSEMENT=UNDERCUT — the flagship irony case; the narrator states it, the book dismantles it"}
+  attribution_integrity: {rating: high, certainty: moderate, basis: "attested by report; PD; most celebrated ironic sentence in the English novel"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "ironic speech — never flatten or print as straight advice"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Jane Austen Pride and Prejudice Ch.1 (opening, 1813) — Narrator in free indirect style, ventriloquising Mrs. Bennet's worldview. ENDORSEMENT=UNDERCUT: meaning close to the OPPOSITE of its literal claim."

@@ -1,0 +1,21 @@
+id: c-0350
+canonical_claim: "Suffering exists, arises from craving, and can cease; a path of practice leads to its cessation — each truth carrying a task: understand, abandon, realise, develop."
+claim_type: metaphysical
+polarity: prescriptive
+conditionality: conditional
+member_units: [u-0193]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress; anchors the desire-vs-non-attachment fork"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "metaphysical (RE-DERIVED from report's 'normative' label) — the claim that suffering can fully cease (nibbana) is the soteriological hinge and must not be lent prudential/empirical authority; the composite also carries observational (suffering exists, arises from craving) and normative (path to be developed) components"}
+  empirical_support: {rating: low, certainty: low, basis: "soteriological thesis, not a measured claim"}
+  contestation: {rating: moderate, certainty: moderate, basis: "claim-type leakage is this report's named subtlest danger — hold the line on metaphysical"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "report label 'verified' re-labelled 'attested' per S1 rules; Bhikkhu Bodhi (Wisdom Publications) in-copyright; Sujato/SuttaCentral CC0 named as a freely-licensable alternative to pursue"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "the Four Noble Truths; PRESERVE the metaphysical framing of cessation"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Buddha (attributed; via the Pali canon), Dhammacakkappavattana Sutta, SN 56.11. Report unit (eastern). RE-DERIVATION: extract labelled claim_type normative; re-derived as metaphysical, following the report's own note ('Cessation/nibbana claims are metaphysical/normative, not empirical') and Details ('Metaphysical/normative framing') — the claim that suffering can fully cease (nibbana) is the soteriological hinge and must not be lent prudential/empirical authority; the composite also carries observational (suffering exists, arises from craving) and normative (path to be developed) components, hence polarity prescriptive. Claim-type leakage is this report's named subtlest danger — hold the line. Anchors the desire-vs-non-attachment fork. Bhikkhu Bodhi (Wisdom Publications) in-copyright; Sujato/SuttaCentral CC0 named as a freely-licensable alternative to pursue."

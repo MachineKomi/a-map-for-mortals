@@ -1,0 +1,21 @@
+id: c-0286
+canonical_claim: "A gentle answer tends to defuse anger; harsh words tend to inflame it."
+claim_type: prudential
+polarity: prescriptive
+conditionality: conditional
+member_units: [u-0075]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "prudential — practical counsel about speech and its tendencies, testable in tendency only; tendency (not destiny) preserved in the canonical wording"}
+  empirical_support: {rating: moderate, certainty: low, basis: "adjacent to conflict-communication evidence; not a direct test of this verse"}
+  contestation: {rating: low, certainty: moderate, basis: "low contestation — broadly attested tendency"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by wave-1 report; KJV 1611 wording pending primary check"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "widely cited counsel; no known refutation"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Proverbs 15:1 (KJV). Report unit HW-02. Claim_type prudential (practical counsel about speech, not a moral command) — the tendency framing ('tends to') is preserved, not stated as law."

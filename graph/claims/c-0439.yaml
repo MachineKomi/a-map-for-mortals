@@ -1,0 +1,21 @@
+id: c-0439
+canonical_claim: "Physical activity reduces depression with a moderate pooled effect comparable to psychotherapy or medication in umbrella reviews, but the effect shrinks substantially or loses significance in low-risk-of-bias trials."
+claim_type: empirical
+polarity: descriptive
+conditionality: conditional
+member_units: [u-0176]
+robustness_profile:
+  recurrence: {rating: low, certainty: high, basis: "empirical finding — recurrence not the relevant axis; see empirical_support"}
+  source_diversity: {rating: moderate, certainty: moderate, basis: "many meta-analyses and umbrella reviews; mixed samples"}
+  temporal_spread: {rating: low, certainty: high, basis: "contemporary research literature only"}
+  claim_type_dim: {rating: high, certainty: high, basis: "empirical — testable; graded on the unit"}
+  empirical_support: {rating: high, certainty: moderate, basis: "evidence grade A (that an effect exists) / B–C (its size); SMD≈−0.61 depression (81 meta-analyses umbrella)"}
+  contestation: {rating: moderate, certainty: moderate, basis: "restricted to low-risk-of-bias RCTs (Cooney 2013 Cochrane; Krogh 2017) the effect shrinks/subtracts; reverse causation and self-report inflate observational estimates"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested; Singh et al. 2023 (British Journal of Sports Medicine)"}
+  survives_scrutiny: {rating: high, certainty: moderate, basis: "supports 'exercise for mental health' / 'a sound mind in a sound body'; effect real, size uncertain under strict controls"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Singh et al. 2023 (British Journal of Sports Medicine) umbrella review; report finding. SMD≈−0.61 depression, −0.47 anxiety; umbrella of 97 systematic reviews (1,039 trials). Key caveat: low-risk-of-bias RCTs shrink the effect to non-significance in some analyses. Supports 'exercise for mental health'."

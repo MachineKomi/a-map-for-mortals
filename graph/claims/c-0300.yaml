@@ -1,0 +1,21 @@
+id: c-0300
+canonical_claim: "Immortality is reserved for the gods; a mortal does well to embrace life's ordinary joys — food, festivity, the child's hand, the spouse's embrace — as the lot of humankind."
+claim_type: prudential
+polarity: prescriptive
+conditionality: contested
+member_units: [u-0089]
+robustness_profile:
+  recurrence: {rating: moderate, certainty: low, basis: "convergence with the Ecclesiastes 2:24 eat-drink-joy motif is lineage-suspect, partly NOT independent (report CONV-1); provisional until corpus-wide pass"}
+  source_diversity: {rating: moderate, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: moderate, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "prudential — counsel to embrace ordinary joys"}
+  empirical_support: {rating: low, certainty: low, basis: "mortality counsel, not a measured claim"}
+  contestation: {rating: moderate, certainty: moderate, basis: "conditionality contested: Gilgamesh rejects the advice in scene, but the epic's failed immortality quest arguably vindicates it (endorsement: complicated)"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by wave-1 report; Sandars is a prose 'version' and in copyright; PD fallback Muss-Arnolt 1901; editorial provenance flag: this speech survives in the Old Babylonian version and is largely absent from the Standard Babylonian recension"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "Siduri's counsel; convergence with Ecclesiastes is lineage-suspect (CONV-1), NOT independent"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Epic of Gilgamesh, Siduri's speech (Old Babylonian version, Sandars). Report unit KH (Gilgamesh). Character speech: Siduri the tavern-keeper counsels Gilgamesh mid-quest; endorsement complicated (Gilgamesh rejects the advice in scene, but the epic's failed immortality quest arguably vindicates it). Editorial provenance flag: this speech survives in the OB version and is largely absent from the Standard Babylonian recension. Convergence with Ecclesiastes 2:24 eat-drink-joy motif is lineage-suspect, partly NOT independent (CONV-1) — a CONVERGES_WITH edge with partial-independence caveat, NOT a merge."

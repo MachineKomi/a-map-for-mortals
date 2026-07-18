@@ -1,0 +1,21 @@
+id: c-0180
+canonical_claim: "We all find strength enough to bear the misfortunes of others — a composure we never manage for our own."
+claim_type: observational
+polarity: cautionary
+conditionality: conditional
+member_units: [u-0110]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "observational — ironic generalisation about empathy"}
+  empirical_support: {rating: low, certainty: moderate, basis: "consistent with empathy-bias/identifiable-victim research; not a direct test"}
+  contestation: {rating: moderate, certainty: moderate, basis: "conditional — some bear others' misfortunes badly"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by report; report's fr.Wikisource check is secondary"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "no known refutation; over-application risk noted"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. La Rochefoucauld Maximes no. 19 (1665/1678). Ironic maxim."

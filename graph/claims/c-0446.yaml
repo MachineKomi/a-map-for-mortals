@@ -1,0 +1,21 @@
+id: c-0446
+canonical_claim: "Spiritual entry requires becoming as a little child — recovering childlike trust to enter the kingdom of heaven."
+claim_type: normative
+polarity: prescriptive
+conditionality: universal-ish
+member_units: [u-0263]
+robustness_profile:
+  recurrence: {rating: moderate, certainty: low, basis: "provisional — corpus-wide S3 in progress; convergence candidate: Wordsworth on 'the child re-teaches the adult' (u-0262) — recurrence is not proof"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress; single Christian source at this scale"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "normative — a command about how to enter; metaphysical frame (kingdom of heaven); religious, never empirical"}
+  empirical_support: {rating: low, certainty: low, basis: "religious claim, not a measured one"}
+  contestation: {rating: moderate, certainty: moderate, basis: "in-text TENSION with 1 Cor 13:11 ('put away childish things') — same tradition, opposite surface counsel; preserve, do not prune"}
+  attribution_integrity: {rating: high, certainty: moderate, basis: "attested; Matthew 18:3 KJV; report label verified; distinguish childlike trust (endorsed) from childish/naive (not)"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "distinct from the maturity counsel of c-0447 (Kipling) and the 1 Cor 13:11 tension"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Jesus, Gospel of Matthew 18:3 (KJV 1611, PD); report (wave-2 childhood-old-age). Convergence candidate with Wordsworth (u-0262) on the child re-teaching the adult. PRESERVE TENSION with 1 Cor 13:11 (put away childish things): distinct claim, NOT merged. Report label verified."

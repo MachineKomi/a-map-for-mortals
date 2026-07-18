@@ -1,0 +1,21 @@
+id: c-0482
+canonical_claim: "A ruler needs both the fox's cunning to recognise traps and the lion's force to frighten wolves; either capacity alone is insufficient."
+claim_type: prudential
+polarity: prescriptive
+conditionality: conditional
+member_units: [u-0324]
+robustness_profile:
+  recurrence: {rating: high, certainty: moderate, basis: "provisional — corpus-wide S3 in progress; convergence: the fox-and-lion (cunning + force) counsel recurs in statecraft"}
+  source_diversity: {rating: moderate, certainty: low, basis: "provisional — S3 in progress; single Italian-Renaissance source at this scale"}
+  temporal_spread: {rating: high, certainty: moderate, basis: "provisional — written 1513, published 1532"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "prudential — DESCRIPTIVE/CAUTIONARY realpolitik counsel, NOT endorsed as morality; domain-bounded to adversarial statecraft"}
+  empirical_support: {rating: low, certainty: low, basis: "statecraft counsel, not a measured claim"}
+  contestation: {rating: moderate, certainty: moderate, basis: "The Prince's ironic/satirical status genuinely contested (Rousseau read it as republican satire) — flagged by report, not resolved. Author field keeps the Prince/Discourses split: Machiavelli is 'two thinkers, not one'"}
+  attribution_integrity: {rating: high, certainty: moderate, basis: "attested; Machiavelli, The Prince Ch. XVIII (Marriott 1908, PD)"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "the fox-and-lion counsel; DESCRIPTIVE/CAUTIONARY realpolitik, NOT endorsed. DISTINCT from c-0482..c-0485"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Niccolò Machiavelli, The Prince Ch. XVIII (Marriott 1908, PD); report (wave-2 practical-strategic). Report label verified — downgraded to attested per S1 rule 1 pending primary check. Report instruction preserved: register as DESCRIPTIVE/CAUTIONARY realpolitik counsel, NOT endorsed as morality — prudential 'if you would hold power' advice, domain-bounded to adversarial statecraft. The Prince's ironic/satirical status genuinely contested (Rousseau read it as republican satire) — flagged, not resolved. Author field keeps the Prince/Discourses split: Machiavelli is 'two thinkers, not one'. DISTINCT proposition, NOT merged."

@@ -1,0 +1,21 @@
+id: c-0355
+canonical_claim: "Enjoy life through non-grasping surrender rather than possession, and do not covet what belongs to another — though what 'tena tyaktena' enjoins is contested."
+claim_type: normative
+polarity: prescriptive
+conditionality: contested
+member_units: [u-0198]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress; convergence candidate (non-attachment <-> ataraxia, with Stoic/wave-1 material) per report Stage 3 — candidate, not conclusion"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "normative — counsel on non-grasping enjoyment"}
+  empirical_support: {rating: low, certainty: low, basis: "normative counsel, not a measured claim"}
+  contestation: {rating: high, certainty: moderate, basis: "TRANSLATION CONTEST (carried as conditionality: contested): tena tyaktena bhuñjīthāḥ is one of the most contested lines in the corpus — 'enjoy through renunciation' vs 'enjoy what is allotted'; paraphrase deliberately keeps the non-grasping core without resolving the dispute"}
+  attribution_integrity: {rating: high, certainty: moderate, basis: "report label 'verified'; Müller, SBE vol. 1, 1879 PD per report; Olivelle (Oxford) in-copyright modern standard"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "the Isha Upanishad v.1; PRESERVE the translation contest unresolved"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Anonymous, Isha Upanishad 1. Report unit (eastern). TRANSLATION CONTEST (carried as conditionality: contested): tena tyaktena bhuñjīthāḥ is one of the most contested lines in the corpus — 'enjoy through renunciation' vs 'enjoy what is allotted'; paraphrase deliberately keeps the non-grasping core without resolving the dispute. In-copyright modern standard: Olivelle (Oxford). Müller, SBE vol. 1, 1879 PD per report. Edge candidate (FOR MERGE with Stoic/wave-1 material): non-attachment <-> ataraxia convergence, per report Stage 3 — candidate, not conclusion (cross-tradition S4 edge, not a merge)."

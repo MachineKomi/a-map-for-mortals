@@ -1,0 +1,21 @@
+id: c-0487
+canonical_claim: "Civic conflict between classes, far from ruining a republic, can be the very source of its liberty — Machiavelli holds that Rome's tumults between nobles and plebs produced the laws that kept Rome free."
+claim_type: observational
+polarity: descriptive
+conditionality: contested
+member_units: [u-0329]
+robustness_profile:
+  recurrence: {rating: moderate, certainty: low, basis: "provisional — corpus-wide S3 in progress; convergence candidate: conflict-as-engine-of-liberty (republican theory)"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress; single Italian-Renaissance source (the Discourses) at this scale"}
+  temporal_spread: {rating: high, certainty: moderate, basis: "provisional — c. 1517"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "observational — a causal-historical generalisation from the single case of republican Rome, not a systematically tested finding. RE-DERIVATION: report tags claim_type empirical; re-derived to observational per S1 rule 2"}
+  empirical_support: {rating: low, certainty: low, basis: "historical generalisation from one case, not a tested finding"}
+  contestation: {rating: moderate, certainty: moderate, basis: "a contested causal-historical reading of Rome; the republican-Machiavelli vs the Prince-Machiavelli split"}
+  attribution_integrity: {rating: high, certainty: moderate, basis: "attested; Machiavelli, Discourses on Livy Book I Ch. IV (Detmold 1882, PD). THE republican Machiavelli (report: 'the essential corrective to the meme'); author field keeps the Prince/Discourses split"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "the conflict-produces-liberty thesis; representing only meme-Machiavelli would falsify the record. Report's ellipses and editorial bracket preserved as held"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Niccolò Machiavelli, Discourses on Livy Book I Ch. IV (Detmold 1882, PD); report (wave-2 practical-strategic). Report label verified — downgraded to attested per S1 rule 1 pending primary check. RE-DERIVATION: report tags claim_type empirical; re-derived to observational — a causal-historical generalisation from the single case of republican Rome, not a systematically tested finding (S1 rule 2). THE republican Machiavelli (report: 'the essential corrective to the meme') — author field keeps the Prince/Discourses split; representing only meme-Machiavelli would falsify the record. Report's ellipses and editorial bracket preserved as held. DISTINCT proposition from the Prince units (c-0482..c-0486), NOT merged."

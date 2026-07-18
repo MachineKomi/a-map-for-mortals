@@ -1,0 +1,21 @@
+id: c-0460
+canonical_claim: "One hospice carer reports the dying most often regret living inauthentically, overworking, leaving feelings unexpressed, losing friendships, and denying themselves happiness."
+claim_type: observational
+polarity: cautionary
+conditionality: contested
+member_units: [u-0277]
+robustness_profile:
+  recurrence: {rating: high, certainty: moderate, basis: "provisional — corpus-wide S3 in progress; strong convergence: Byock (c-0459) and Gawande (c-0461); peer-reviewed literature (Davidai & Gilovich 2018) notes the regrets are 'in line with our hypothesis' — but recurrence is heuristic convergence, not proof"}
+  source_diversity: {rating: moderate, certainty: low, basis: "provisional — S3 in progress; one palliative-care memoir source, widely cited as if research"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "observational — ANECDOTAL, one carer's recollection, NOT a study (report Watchlist item 3). LABEL CLEARLY"}
+  empirical_support: {rating: low, certainty: moderate, basis: "ANECDOTAL — not a study; widely cited as if research. Davidai & Gilovich 2018 (Emotion): 'Although anecdotal, her observations are in line with our hypothesis.' Value is heuristic, not evidential"}
+  contestation: {rating: high, certainty: moderate, basis: "report attribution label 'dubious (as evidence) / communal (as folk wisdom)'; conditionality contested"}
+  attribution_integrity: {rating: high, certainty: high, basis: "attested to Ware's book (blog 'Regrets of the Dying' 2009, ~8M readers by 2012; memoir Hay House 2011, 27 languages). The report's 'dubious' attaches to EVIDENTIAL standing, not attribution"}
+  survives_scrutiny: {rating: low, certainty: moderate, basis: "heuristic, not evidential — never dress as empirical law. IN COPYRIGHT (Hay House). Converges with Byock/Gawande — signal, not proof"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Bronnie Ware, The Top Five Regrets of the Dying (Hay House 2011; blog 2009); report (wave-2 childhood-old-age). Report claim_type label, verbatim: 'observational (ANECDOTAL — not a study)' — LABEL CLEARLY (report Watchlist item 3): one palliative carer's recollection, widely cited as if research; it is not. Value is heuristic, not evidential — never dress as empirical law. Report attribution label 'dubious (as evidence)' re-derived to attested: attribution to Ware's book is solid; 'dubious' attaches to evidential standing, carried here and in conditionality: contested. IN COPYRIGHT (Hay House). DISTINCT from Byock (c-0459, four things practice) and Gawande (c-0461, authorship): NOT merged."

@@ -1,0 +1,21 @@
+id: c-0345
+canonical_claim: "Waking from dreaming he was a butterfly, Zhuangzi could not say which was dreaming which: the boundary between self and world, waking and dream, is less fixed than assumed."
+claim_type: metaphysical
+polarity: descriptive
+conditionality: contested
+member_units: [u-0188]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "metaphysical — a parable on the permeability of self/world and waking/dream; never empirical"}
+  empirical_support: {rating: low, certainty: low, basis: "parable, not a measured claim"}
+  contestation: {rating: moderate, certainty: moderate, basis: "interpretive openness carried as conditionality: contested; the parable resists flat doctrinal reading"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "report label 'verified' re-labelled 'attested' per S1 rules; endorsement 'endorsed' is the minting agent's call (report gives no label) — authorial parable narrated of Zhuang Zhou and capped with 'This is called the Transformation of Things'; report cautions parable speakers are literary devices, do not read endorsement flatly; Watson (Columbia) in-copyright; Ziporyn (Hackett) also a modern standard; Legge PD exists for the underlying text"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "the butterfly parable; PRESERVE the interpretive openness"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Zhuangzi, ch. 2. Report unit (eastern). Claim held as metaphysical, not empirical. Endorsement 'endorsed' is the minting agent's call (report gives no label): an authorial parable, narrated of Zhuang Zhou himself and capped in the text with the doctrinal label 'This is called the Transformation of Things' — but report cautions that Zhuangzi's parable speakers are literary devices; do not read endorsement flatly. Companion motif: the useless tree (ch. 1/4) as counter to Confucian usefulness/duty. Watson (Columbia) in-copyright; Ziporyn (Hackett) also a modern standard; Legge PD exists for the underlying text but is not the quoted wording."

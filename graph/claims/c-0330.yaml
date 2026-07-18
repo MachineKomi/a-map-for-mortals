@@ -1,0 +1,21 @@
+id: c-0330
+canonical_claim: "Unchecked, all-consuming passion can strip a person of society, sanity, and finally life itself — the Majnun archetype."
+claim_type: observational
+polarity: cautionary
+conditionality: conditional
+member_units: [u-0295]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "observational — a narrative observation about passion's destructive arc; PRESERVE both readings (passion as destruction AND passion as divine ideal, within Nizami himself)"}
+  empirical_support: {rating: low, certainty: low, basis: "narrative observation, not a measured claim"}
+  contestation: {rating: high, certainty: moderate, basis: "PRESERVE DISSENT (report contradiction): passion as destruction vs passion as divine ideal, within Nizami himself — the poem is BOTH cautionary AND a mystical ideal; endorsement ambiguous"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "report label 'communal' re-labelled 'attested' (named author's poem, not anonymous oral tradition, though the Layla-Majnun legend pre-dates Nizami); PARAPHRASE of a narrative arc, not a quote — do not present as verbatim; no verbatim quotation held; copyright unknown"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "the Majnun archetype; PRESERVE the dual reading"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Nizami Ganjavi, Layla and Majnun (paraphrase only). Report unit (Nizami-Majnun). PARAPHRASE of a narrative arc, not a quote — do not present as verbatim. Speaker/dramatic context: Majnun's love for Layla drives him to renounce society, wander the desert composing verses, and perish of grief; this is a character's arc, not authorial counsel. Endorsement ambiguous per the report: Nizami adds Sufi allegorical layers reading Majnun's frenzy as divine intoxication, so the poem is BOTH cautionary AND a mystical ideal — PRESERVE BOTH readings (report contradiction: passion as destruction vs passion as divine ideal, within Nizami himself). No verbatim quotation held; copyright unknown."

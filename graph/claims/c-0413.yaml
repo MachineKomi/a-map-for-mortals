@@ -1,0 +1,21 @@
+id: c-0413
+canonical_claim: "Only becoming is real; 'being' is an empty fiction — the Heraclitean thesis affirmed."
+claim_type: metaphysical
+polarity: descriptive
+conditionality: universal-ish
+member_units: [u-0061]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress; convergence candidate: Heraclitus flux (u-0034, u-0062) — corroboration = robustness, not truth"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "metaphysical thesis about being vs becoming"}
+  empirical_support: {rating: low, certainty: low, basis: "metaphysical, not empirical"}
+  contestation: {rating: high, certainty: moderate, basis: "contested by every metaphysics that affirms being, substance, or permanence"}
+  attribution_integrity: {rating: high, certainty: moderate, basis: "report grade: verified; Ludovici (1911) PD per report; line-match at S2"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "durable within Nietzsche; contested as a universal"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Nietzsche, Twilight of the Idols '\"Reason\" in Philosophy' §2 — Nietzsche's affirmation of Heraclitus against being. DISTINCT from u-0062 (the Heraclitus precursor claim): u-0061 is Nietzsche's published endorsement; u-0062 is the precursor attributed to Heraclitus. Same section carries 'With high reverence I except the name of Heraclitus' — approval evidence for the Heraclitus precursor units. Copyright: Ludovici (1911) PD (Gutenberg #52263)."

@@ -1,0 +1,21 @@
+id: c-0429
+canonical_claim: "The finding that spending money on others boosts happiness FAILED preregistered replication on broad well-being measures; the original (N=46) was small and any real effect is much weaker than popularised."
+claim_type: empirical
+polarity: descriptive
+conditionality: contested
+member_units: [u-0166]
+robustness_profile:
+  recurrence: {rating: low, certainty: high, basis: "empirical finding — recurrence not the relevant axis; see empirical_support"}
+  source_diversity: {rating: low, certainty: moderate, basis: "original experiment plus replication reports; Western samples"}
+  temporal_spread: {rating: low, certainty: high, basis: "contemporary research literature only"}
+  claim_type_dim: {rating: high, certainty: high, basis: "empirical — directly testable; graded on the unit"}
+  empirical_support: {rating: low, certainty: moderate, basis: "evidence grade E/D — FAILED REPLICATION (registered report Aknin et al. 2020; close replication 2022 N=133); null on broad measures, original direction on narrower measures"}
+  contestation: {rating: high, certainty: moderate, basis: "conditionality: contested — narrower measures still point in the original direction"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested; Dunn, Aknin & Norton 2008 (Science), venue/year only"}
+  survives_scrutiny: {rating: low, certainty: moderate, basis: "treat prosocial spending as a mild nudge, not a reliable lever"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Dunn, Aknin & Norton 2008 (Science); report finding F7. FAILED REPLICATION — Danger-type cautionary exhibit per P4. Report Tier-2: downgrades 'give to be happy' to a mild nudge, not a reliable lever. NOTE: the replication-failure verdict is the claim; do NOT merge with any finding asserting prosocial-spending boosts happiness."

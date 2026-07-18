@@ -1,0 +1,21 @@
+id: c-0490
+canonical_claim: "In treating disease the physician should hold two aims — to do good, or at least to do no harm."
+claim_type: normative
+polarity: prescriptive
+conditionality: universal-ish
+member_units: [u-0332]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 complete 2026-07-18"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "normative — a rule of clinical conduct; register stays 'principle'"}
+  empirical_support: {rating: low, certainty: low, basis: "no direct empirical test wired"}
+  contestation: {rating: moderate, certainty: moderate, basis: "the opposing pole to the Hippocratic 'do good or do no harm' clash named in c-0486 — the core ends-vs-means clash of the whole map (cruelty-well-used vs restraint-from-harm)"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by report; not yet primary-verified. MISATTRIBUTION WATCHLIST: 'primum non nocere' is NOT in the Oath or anywhere in the Hippocratic corpus — this Epidemics I passage is the genuine source"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "the dual-aim of benefit-and-no-harm; priority is REVERSED (help/do good first, then avoid harm), contra the later Latin axiom"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Hippocratic corpus, Epidemics Book I Sect. XI (Francis Adams 1849, PD); report (wave-2 practical-strategic). Report label verified (Adams 1849, verbatim, PD) — downgraded to attested per S1 rule 1 pending primary check. RE-DERIVATION: report tags type 'Principle', not in schema; re-derived to Practice (a rule of clinical conduct; register stays 'principle'). MISATTRIBUTION WATCHLIST (primum-non-nocere history): 'First, do no harm' / 'primum non nocere' is NOT in the Oath or anywhere in the Hippocratic corpus — this Epidemics I passage is the genuine source, and its priority is REVERSED (help/do good first, then avoid harm). The Latin/English axiom is attributed to Thomas Sydenham (1624–1689) but traced in print only to c. 1860; introduced into Anglo-American medicine by Worthington Hooker, Physician and Patient (1847), crediting the Parisian clinician A. F. Chomel — per Cedric M. Smith, J. Clin. Pharmacol. 45 (2005): 371–377. The opposing pole to the Hippocratic 'do good or do no harm' clash named in c-0486 — the core ends-vs-means clash of the whole map. Report's ellipsis preserved as held. DISTINCT proposition from c-0489 (Oath, benefit-and-abstain), NOT merged."

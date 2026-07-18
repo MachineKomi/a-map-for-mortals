@@ -1,0 +1,21 @@
+id: c-0324
+canonical_claim: "Faced with the finality of death — you will not be here again — the counsel is to take the pleasure at hand rather than chase an elixir of life."
+claim_type: prudential
+polarity: prescriptive
+conditionality: conditional
+member_units: [u-0289]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "convergence candidate with Attar's abandon-dogma valleys (u-0297) and Socratic ignorance; report notes recurrence is not proof; provisional until corpus-wide pass"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "prudential — counsel to take present pleasure in face of death's finality; RE-DERIVATION DIFFERENCE: report gives polarity 'descriptive', but the quatrain's own quoted content is counsel ('Enjoy the wine...') — tagged prescriptive here"}
+  empirical_support: {rating: low, certainty: low, basis: "mortality counsel, not a measured claim"}
+  contestation: {rating: low, certainty: moderate, basis: "low contestation as mortality counsel"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "report label 'probable', normalised to 'attested' — this is the report's one LITERAL Khayyam quatrain (Avery & Heath-Stubbs produced their version expressly to show how far FitzGerald departed); Penguin 1979 translation is IN-COPYRIGHT — print gate applies; no PD literal alternative named in the report; authorship of most quatrains is contested/pseudepigraphic — 'Khayyam' functioned as a frame-author for later libertine/skeptical poets (Juan Cole); do not assert Khayyam wrote this quatrain"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "the report's one literal Khayyam quatrain; convergence candidate with Attar and Socratic ignorance"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Khayyam (attributed), Ruba'iyat quatrain 139 (Avery & Heath-Stubbs 1979). Report unit KH-05. Report label attribution_confidence 'probable', normalised to 'attested' — this is the report's one LITERAL Khayyam quatrain (Avery & Heath-Stubbs produced their version expressly to show how far FitzGerald departed). Penguin 1979 translation is IN-COPYRIGHT — print gate applies; no PD literal alternative named in the report. RE-DERIVATION DIFFERENCE: report gives polarity 'descriptive' (its canonical_claim describes the corpus's skepticism), but the quatrain's own quoted content is counsel ('Enjoy the wine...') — tagged prescriptive here. Authorship of most quatrains is contested/pseudepigraphic — 'Khayyam' functioned as a frame-author for later libertine/skeptical poets (Juan Cole); oldest dated source Bodleian MS Ouseley 140 (Shiraz, 1460 CE, 158 quatrains); do not assert Khayyam wrote this quatrain. Convergence candidate with Attar's abandon-dogma valleys (u-0297) and Socratic ignorance — CONVERGES_WITH edges, NOT merges."

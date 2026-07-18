@@ -1,0 +1,21 @@
+id: c-0301
+canonical_claim: "A person faithful in every duty may still suffer without knowing why; what seems good to a person may offend a god, and divine standards can be inscrutable."
+claim_type: observational
+polarity: descriptive
+conditionality: contested
+member_units: [u-0090]
+robustness_profile:
+  recurrence: {rating: moderate, certainty: low, basis: "the unexplained-righteous-suffering observation recurs across the corpus (Job, Psalm 73, Babylonian Theodicy) — report T-2 / FORK-2 theodicy; provisional until corpus-wide pass"}
+  source_diversity: {rating: moderate, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: moderate, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "observational — the core is the observed fact of unexplained righteous suffering; the inscrutability speculation is the sufferer's inference; report's dual 'observational/metaphysical' narrowed to observational"}
+  empirical_support: {rating: low, certainty: low, basis: "theodicy observation, not a measured claim"}
+  contestation: {rating: high, certainty: moderate, basis: "conditionality contested: the sufferer's speculation stands mid-poem, but the poem ends in deliverance by Marduk — deliverance affirmed here where the Babylonian Theodicy (u-0091) leaves the wound open (report T-2)"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by wave-1 report; NO verbatim wording held — paraphrase only; Lambert/Annus-Lenzi in copyright"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "'Babylonian Job'; FORK-2 theodicy — CONVERGES_WITH edges to Job/u-0081 and Babylonian Theodicy/u-0091, NOT merges"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Ludlul bel nemeqi, Tablets I-II (paraphrase only). Report unit (Ludlul). NO verbatim quotation held: the report supplies a paraphrase embedding the phrase 'what is good to oneself may be an offence to a god' (translator unattributed — Lambert 1960 or Annus & Lenzi 2010, both in copyright). Endorsement complicated (no report label): the sufferer's speculation stands mid-poem, but the poem ends in deliverance by Marduk — deliverance affirmed here where the Babylonian Theodicy (u-0091) leaves the wound open (report T-2). Part of FORK-2 (theodicy) — CONVERGES_WITH edges, NOT merges."

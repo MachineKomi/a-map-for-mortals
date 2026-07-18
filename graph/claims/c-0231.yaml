@@ -1,0 +1,21 @@
+id: c-0231
+canonical_claim: "A self may legitimately hold contradictions, being large enough to contain many truths."
+claim_type: observational
+polarity: descriptive
+conditionality: contested
+member_units: [u-0161]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "observational — generalisation about the self"}
+  empirical_support: {rating: low, certainty: low, basis: "no direct empirical test wired"}
+  contestation: {rating: high, certainty: moderate, basis: "contested by consistency/non-contradiction frames (cf. Emerson c-0209 on foolish consistency — note the productive tension)"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by report; stored wording is the 1891-92 deathbed edition; 1855 form differs"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "no known refutation; over-application risk noted"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Walt Whitman 'Song of Myself' §51 (Leaves of Grass, 1891-92 deathbed edition; first 1855). ENDORSEMENT=ENDORSED. Note IN_TENSION with Emerson's 'foolish consistency' (c-0209) — productive opposition, do not merge."

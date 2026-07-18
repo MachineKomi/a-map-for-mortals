@@ -1,0 +1,21 @@
+id: c-0298
+canonical_claim: "Incline your ear to a teacher's words and take them to heart, so that they lodge within you."
+claim_type: prudential
+polarity: prescriptive
+conditionality: universal-ish
+member_units: [u-0087]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "prudential — didactic counsel to the pupil"}
+  empirical_support: {rating: low, certainty: low, basis: "learning counsel, not a measured claim"}
+  contestation: {rating: low, certainty: moderate, basis: "low contestation as counsel to attend"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by wave-1 report; WORDING/EDITION CAUTION: the report credits Pritchard's ANET but its citation link is Wikipedia, and the archaic diction ('thine', 'apprehend') is uncharacteristic of ANET's modern English — the wording may derive from an older (possibly PD) translation such as Griffith's; establish the real edition at S2"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "didactic counsel; lineage to Proverbs 22:17 is a candidate INFLUENCED edge, not a convergence"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Instruction of Amenemope, ch.1 (ANET, edition unresolved). Report unit ANE-03. LINEAGE: report flags this as the source of Proverbs 22:17 ('Incline thine ear...') — INFLUENCED-edge candidate towards the Proverbs 22:17-24:22 block (u-0077); the related 'thirty sayings' reading of Prov 22:20 rests on Erman's emendation and is scholarly conjecture, not settled text. WORDING/EDITION CAUTION carried; copyright_flag follows the report's in-copyright ANET credit conservatively (downgrade if the wording proves PD)."

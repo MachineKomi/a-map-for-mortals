@@ -1,0 +1,21 @@
+id: c-0428
+canonical_claim: "Easterlin paradox: within a country richer people are happier, yet national-average happiness may not rise with long-run GDP growth — contested, countered by log-linear no-satiation evidence."
+claim_type: empirical
+polarity: descriptive
+conditionality: contested
+member_units: [u-0165]
+robustness_profile:
+  recurrence: {rating: low, certainty: high, basis: "empirical finding — recurrence not the relevant axis; see empirical_support"}
+  source_diversity: {rating: low, certainty: moderate, basis: "single contested macro time-series debate; cross-national data"}
+  temporal_spread: {rating: low, certainty: high, basis: "contemporary research literature only"}
+  claim_type_dim: {rating: high, certainty: high, basis: "empirical — testable; graded on the unit"}
+  empirical_support: {rating: low, certainty: moderate, basis: "evidence grade D/E for any strong claim either way — unresolved dispute (Easterlin vs Stevenson & Wolfers)"}
+  contestation: {rating: high, certainty: moderate, basis: "conditionality: contested — neither side established"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested; report cites Easterlin 1974/2010 PNAS without paper titles held"}
+  survives_scrutiny: {rating: low, certainty: moderate, basis: "unresolved; report marks the debate open"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Easterlin 1974 (updated 2010, PNAS); report finding F6. Countered by Stevenson & Wolfers 2008 (log-linear well-being with GDP, no satiation). DISTINCT from c-0026 (individual experienced well-being rises with log-income, no plateau) and c-0027 (unhappy-minority threshold) — this is the MACRO national-level time-series paradox, the other two are individual-level: distinct claims, NOT merged."

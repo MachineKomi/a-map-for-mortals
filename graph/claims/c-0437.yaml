@@ -1,0 +1,21 @@
+id: c-0437
+canonical_claim: "The claimed critical 2.9:1 positive-to-negative affect ratio separating flourishing from languishing rests on invalid mathematics and was partially retracted."
+claim_type: empirical
+polarity: descriptive
+conditionality: universal-ish
+member_units: [u-0174]
+robustness_profile:
+  recurrence: {rating: low, certainty: high, basis: "empirical finding — recurrence not the relevant axis; see empirical_support"}
+  source_diversity: {rating: low, certainty: moderate, basis: "single critique (Brown, Sokal & Friedman) of one target paper"}
+  temporal_spread: {rating: low, certainty: high, basis: "contemporary research literature only"}
+  claim_type_dim: {rating: high, certainty: high, basis: "empirical/mathematical — testable; graded on the unit"}
+  empirical_support: {rating: low, certainty: high, basis: "evidence grade E for the original ratio claim — debunked/partially retracted"}
+  contestation: {rating: low, certainty: high, basis: "the DEBUNKING is itself uncontested; the original 2.9013:1 ratio is invalid"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested; Brown, Sokal & Friedman 2013 critique of Fredrickson & Losada 2005 (American Psychologist, partially retracted)"}
+  survives_scrutiny: {rating: high, certainty: high, basis: "the debunking stands; superficially precise quantitative claims in positive psychology warrant scrutiny"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Brown, Sokal & Friedman 2013; target Fredrickson & Losada 2005 (American Psychologist, partially retracted). Danger-type cautionary exhibit. The unit's claim is the DEBUNKING itself (uncontested); contradicts 'maintain a 3:1 positive ratio'. Universal-ish because the debunking is uncontested. NOTE: the debunked-ratio claim is never merged with any flourish-threshold finding."

@@ -1,0 +1,21 @@
+id: c-0484
+canonical_claim: "Most people judge rulers by appearances and by results; few perceive what a ruler really is."
+claim_type: observational
+polarity: descriptive
+conditionality: conditional
+member_units: [u-0326]
+robustness_profile:
+  recurrence: {rating: high, certainty: moderate, basis: "provisional — corpus-wide S3 in progress; strong convergence: Gracián Maxim 99 (c-0478) and Sun Tzu deception — three independent traditions on perception vs reality; robustness, not truth"}
+  source_diversity: {rating: moderate, certainty: low, basis: "provisional — S3 in progress; single Italian-Renaissance source at this scale"}
+  temporal_spread: {rating: high, certainty: moderate, basis: "provisional — written 1513, published 1532"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "observational — a descriptive observation of how power is perceived, not an endorsement"}
+  empirical_support: {rating: low, certainty: low, basis: "descriptive observation, not a measured claim"}
+  contestation: {rating: low, certainty: moderate, basis: "low contestation as a descriptive observation"}
+  attribution_integrity: {rating: high, certainty: moderate, basis: "attested; Machiavelli, The Prince Ch. XVIII (Marriott 1908, PD). MISATTRIBUTION WATCHLIST: this Ch. XVIII passage is the actual textual root of the fabricated tag 'the ends justify the means' (never in Machiavelli; Latin cognate is Ovid). Report's ellipses preserved as held"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "descriptive observation of perception-of-power; DISTINCT from c-0478 (Gracián appearance-over-substance): convergent across traditions but distinct propositions, NOT merged"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Niccolò Machiavelli, The Prince Ch. XVIII (Marriott 1908, PD); report (wave-2 practical-strategic). Report label verified — downgraded to attested per S1 rule 1 pending primary check. MISATTRIBUTION WATCHLIST: this Ch. XVIII passage is the actual textual root of the fabricated tag 'the ends justify the means' (never in Machiavelli; Latin cognate is Ovid, Heroides II.85). Report flags cross-tradition convergence with Gracián Maxim 99 (c-0478) and Sun Tzu deception — three independent traditions; robustness, not truth. Descriptive observation of how power is perceived, not an endorsement. Report's ellipses preserved as held. NOTE: c-0477 (Gracián, people judge by appearances) and this claim are convergent across traditions — expressed as an S4 edge, NOT merged, per the cardinal rule and the 'S4 edges not merges' clustering posture."

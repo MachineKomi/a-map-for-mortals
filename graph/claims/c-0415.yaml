@@ -1,0 +1,21 @@
+id: c-0415
+canonical_claim: "Strife is the father of all things: conflict is generative, not merely destructive."
+claim_type: metaphysical
+polarity: descriptive
+conditionality: universal-ish
+member_units: [u-0063]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress; convergence candidate: Nietzsche on strife/becoming as generative — convergence = robustness, not truth"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "metaphysical thesis about strife as generative (observational shading noted)"}
+  empirical_support: {rating: low, certainty: low, basis: "metaphysical, not empirical"}
+  contestation: {rating: high, certainty: moderate, basis: "contested by metaphysics/ethics that deny conflict is generative"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "report grade: probable; approved-precursor unit (Nietzsche's reverence for Heraclitus — see u-0062 approval evidence). No verbatim quotation held — copyright unknown"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "durable as a Heraclitean thesis; no verbatim held"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Heraclitus (strife/polemos as generative; no verbatim held) — an approved-precursor unit via Nietzsche's reverence. DISTINCT from the flux thesis (u-0062) and the river fragment (u-0034). Re-derivation: report claim_type 'metaphysical/observational' → metaphysical (observational shading noted). No verbatim quotation held — copyright unknown."

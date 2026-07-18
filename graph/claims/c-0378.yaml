@@ -1,0 +1,21 @@
+id: c-0378
+canonical_claim: "A fable's story endures, but its stated moral is often a later editorial addition and deserves less trust than the story."
+claim_type: observational
+polarity: cautionary
+conditionality: conditional
+member_units: [u-0261]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "observational — a meta-scholarly unit about editorial practice, not a fable itself"}
+  empirical_support: {rating: moderate, certainty: moderate, basis: "grounded in philological evidence (Perry/Daly editorial practice, L'Estrange's appended morals)"}
+  contestation: {rating: low, certainty: moderate, basis: "low contestation as a philological observation"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "report label 'verified'; quoted wording is the reviewer's (BMCR 98.5.16), evidencing Perry/Daly editorial practice — a meta-scholarly unit, not a fable itself; Perry Index (~584 core entries) is the scholarly standard; Perry 1952 and BMCR in copyright; L'Estrange 1692 and Croxall PD for fable texts"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "the Aesop added-morals caveat; per-fable rule: tag STORY and MORAL with SEPARATE attribution_confidence"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Perry Index scholarship (Ben E. Perry), Aesopica (Univ. of Illinois Press, 1952); quoted wording from Bryn Mawr Classical Review 98.5.16. Report unit (childhood-old-age). THE AESOP ADDED-MORALS CAVEAT (report Key Finding 2): morals attached to Aesop are frequently later editorial epimythia — per-fable rule: tag STORY and MORAL with SEPARATE attribution_confidence whenever an Aesop fable is minted. L'Estrange (1692) appended morals the Greek lacked (e.g. Perry 190, 'The Wolf and the Raven'); the 'grasshopper' of ant-and-grasshopper is a cicada/cricket in the Greek. Scholarly standard is the Perry Index (~584 core entries). Quoted wording is the reviewer's (BMCR 98.5.16), evidencing Perry/Daly editorial practice — a meta-scholarly unit, not a fable itself. Perry 1952 and BMCR in copyright; L'Estrange 1692 and Croxall PD for fable texts."

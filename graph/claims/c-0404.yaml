@@ -1,0 +1,21 @@
+id: c-0404
+canonical_claim: "Because fortune can overturn any life before its end, count no one happy until the whole of their life is complete."
+claim_type: observational
+polarity: cautionary
+conditionality: contested
+member_units: [u-0052]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress; convergence candidate: Aristotle one-swallow (u-0042), Plutarch echo"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "observational/cautionary maxim about fortune and the judgment of a life"}
+  empirical_support: {rating: low, certainty: low, basis: "maxim, not measured"}
+  contestation: {rating: moderate, certainty: moderate, basis: "contested by Aristotle at NE I.10; the closing-line numbering is Stage-5 flagged"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "report label: probable; sentiment securely in OT's final chorus and Herodotus 1.32 (Solon). The exact English aphorism is a compression, not any PD edition's wording. Jebb PD named only for the underlying text"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "sentiment durable; verbatim wording is a compression"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Sophocles, Oedipus Rex closing chorus (~1528-1530); precedent in Solon via Herodotus, Histories 1.32. Endorsement: ambiguous (speaker is the closing chorus — conventionally the play's summation, but Aristotle debates the maxim at NE I.10). WORDING FLAG: the English aphorism is a compression of the chorus — ingest with a visible 'compression' marker. Copyright: the quoted English is a traditional compression, not established as any PD edition's wording."

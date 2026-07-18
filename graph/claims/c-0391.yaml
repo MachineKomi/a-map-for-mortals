@@ -1,0 +1,21 @@
+id: c-0391
+canonical_claim: "Moral virtue is a mean between excess and deficiency — relative to the person and determined by reason, not a mechanical midpoint."
+claim_type: normative
+polarity: prescriptive
+conditionality: conditional
+member_units: [u-0039]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress; convergence candidate: Horace's aurea mediocritas (u-0055) and Hesiod's due measure (u-0053) — convergence is robustness, not truth"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "normative principle of virtue"}
+  empirical_support: {rating: low, certainty: low, basis: "normative, not empirical"}
+  contestation: {rating: moderate, certainty: moderate, basis: "mean-doctrine contested at the margins (which acts have no mean; relativity to agent)"}
+  attribution_integrity: {rating: high, certainty: moderate, basis: "verified; Ross (1908) PD per report"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "durable normative framework; over-extension risks noted"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Aristotle, Nicomachean Ethics II.6 (1106b36-1107a2) — the doctrine of the mean. DISTINCT from u-0040 (habituation), u-0041 (function argument), u-0042 (one swallow/external goods): each is a distinct Aristotelian proposition. Not a mechanical midpoint: some acts (e.g. murder) have no mean; the mean is relative to us and reason-determined. Copyright: Ross (1908) PD."

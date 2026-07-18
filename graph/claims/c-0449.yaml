@@ -1,0 +1,21 @@
+id: c-0449
+canonical_claim: "The core of a real education is learning to choose what to pay attention to and how to construe other people — the most important realities are the hardest to see and talk about."
+claim_type: prudential
+polarity: prescriptive
+conditionality: conditional
+member_units: [u-0266]
+robustness_profile:
+  recurrence: {rating: moderate, certainty: low, basis: "provisional — corpus-wide S3 in progress; convergence candidate: attention-as-freedom (James, Buddhist mindfulness)"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress; single American secular-humanist source"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "prudential — counsel on the conduct of attention and construal"}
+  empirical_support: {rating: low, certainty: low, basis: "counsel on attention, not a measured claim"}
+  contestation: {rating: moderate, certainty: moderate, basis: "rival young-adult ideal: Wallace's conscious empathy over self-sufficiency vs Kipling's Stoic self-mastery (c-0447)"}
+  attribution_integrity: {rating: high, certainty: high, basis: "attested; attribution rock-solid (multiple transcripts, published book). Wallace died by suicide 2008 — hold that irony honestly; do not present counsel as self-certifying biography"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "conscious-empathy counsel; distinct from Kipling's self-mastery (c-0447); IN COPYRIGHT — quote briefly"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. David Foster Wallace, This Is Water (Kenyon commencement, 2005; book 2009); report (wave-2 childhood-old-age). Report label verified. IN COPYRIGHT (Little, Brown) — paraphrase or quote briefly. Author died by suicide 2008 — irony held honestly. Rival young-adult ideal to Kipling (c-0447)."

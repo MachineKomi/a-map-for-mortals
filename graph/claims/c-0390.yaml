@@ -1,0 +1,21 @@
+id: c-0390
+canonical_claim: "Wisdom begins in recognising the limits of one's own knowledge — not thinking one knows what one does not."
+claim_type: observational
+polarity: descriptive
+conditionality: conditional
+member_units: [u-0038]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "observational — a generalisation about the epistemic condition of self and other"}
+  empirical_support: {rating: low, certainty: low, basis: "argued from the elenchus, not systematically evidenced"}
+  contestation: {rating: low, certainty: moderate, basis: "low contestation as a descriptive epistemic contrast"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "passage genuine at Apology 21d. Socratic problem: Socrates via Plato. COPYRIGHT: report credits 'Jowett (PD); cf. Grube paraphrase' but the held English reads more modern than Jowett's 1871 phrasing and may follow Grube (in-copyright) — confirm translator match at S2"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "durable; basis of the popular (apocryphal) 'I know that I know nothing'"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Socrates (via Plato), Apology 21d. SPLIT from u-0037 (unexamined life): distinct Apology propositions. COPYRIGHT CAVEAT (Gate F candidate): translator ambiguous between Jowett (PD) and Grube (in-copyright) — line-match before print. Watchlist #11: the compression 'I know that I know nothing' is apocryphal as a verbatim line; this passage is its genuine basis."

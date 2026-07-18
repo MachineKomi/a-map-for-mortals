@@ -1,0 +1,21 @@
+id: c-0459
+canonical_claim: "Relationships near death are completed by saying four things — please forgive me, I forgive you, thank you, and I love you — a palliative clinician's distillation."
+claim_type: prudential
+polarity: prescriptive
+conditionality: conditional
+member_units: [u-0276]
+robustness_profile:
+  recurrence: {rating: high, certainty: moderate, basis: "provisional — corpus-wide S3 in progress; strong convergence: Ware regrets (c-0460) and Gawande authorship (c-0461) on completing relationships before death — robustness signal, not proof"}
+  source_diversity: {rating: moderate, certainty: low, basis: "provisional — S3 in progress; one palliative-medicine source at this scale, but convergent with hospice/ memoir strands"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "prudential — a practice recommendation; the observational base (what the dying taught him) is provenance"}
+  empirical_support: {rating: low, certainty: moderate, basis: "EPISTEMIC STATUS: clinical wisdom distilled from ~30 years of palliative practice — NOT a controlled study; hold as counsel, not evidence"}
+  contestation: {rating: low, certainty: moderate, basis: "low contestation as counsel"}
+  attribution_integrity: {rating: high, certainty: moderate, basis: "attested; Ira Byock, The Four Things That Matter Most (Free Press 2004). Byock's own caveats: 'I didn't invent them… they've been in our culture'; 'Death ends a life but not a relationship'; forgiveness is not forgetting"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "palliative counsel; IN COPYRIGHT (Free Press 2004) — quote briefly"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Ira Byock, The Four Things That Matter Most (Free Press 2004); report (wave-2 childhood-old-age) finding 5. The four things: 'Please forgive me / I forgive you / Thank you / I love you'. EPISTEMIC STATUS: clinical wisdom distilled from ~30 years of palliative practice — NOT a controlled study; hold as counsel, not evidence. Report claim_type 'observational / prudential' re-derived to prudential (the function is a practice recommendation). IN COPYRIGHT (Free Press 2004). Converges with Ware (c-0460) and Gawande (c-0461) — robustness signal, not proof."

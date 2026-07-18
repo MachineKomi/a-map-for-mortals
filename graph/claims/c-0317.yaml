@@ -1,0 +1,21 @@
+id: c-0317
+canonical_claim: "At the end, the deceitful face the worst existence and the truthful the best thinking — the choice between truth and the lie carries ultimate consequences."
+claim_type: metaphysical
+polarity: cautionary
+conditionality: conditional
+member_units: [u-0282]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "metaphysical — an eschatological claim about cosmic consequences; never empirical; RE-DERIVATION DIFFERENCE: report tags 'normative', but the quoted evidence is an eschatological claim (worst existence / best thinking at the end), so tagged metaphysical here"}
+  empirical_support: {rating: low, certainty: low, basis: "eschatological claim, not empirically testable"}
+  contestation: {rating: moderate, certainty: moderate, basis: "the consequence arm of the truth-vs-lie fork (with u-0280, u-0281)"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by wave-2 report; Insler 1975 in copyright (PD alternative Mills, SBE 1887)"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "functions in the graph as the consequence arm of the truth-vs-lie fork"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Gathas, Yasna 30.4 (Insler 1975). Report unit ZO-03. RE-DERIVATION DIFFERENCE: report tags claim_type 'normative', but its own note says 'Eschatological framing — normative/metaphysical'; the quoted evidence is an eschatological claim about cosmic consequences (worst existence / best thinking at the end), so tagged metaphysical here — never empirical either way. 'The deceitful' = followers of druj (the Lie); 'the truthful' = followers of asa. Functions in the graph as the consequence arm of the truth-vs-lie fork (with u-0280/c-0315, u-0281/c-0316)."

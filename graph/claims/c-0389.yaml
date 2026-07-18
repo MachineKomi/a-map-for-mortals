@@ -1,0 +1,21 @@
+id: c-0389
+canonical_claim: "A life without self-examination is not worth living for a human being."
+claim_type: normative
+polarity: prescriptive
+conditionality: universal-ish
+member_units: [u-0037]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "normative — a claim about what is worth living"}
+  empirical_support: {rating: low, certainty: low, basis: "normative, not empirical"}
+  contestation: {rating: moderate, certainty: moderate, basis: "contested: the strong 'not worth living' is widely disputed as hyperbolic"}
+  attribution_integrity: {rating: high, certainty: moderate, basis: "genuine, securely located at Apology 38a5-6 (Jowett and Fowler Loeb attest; Perseus confirms). Socratic problem: Socrates via Plato"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "durable normative challenge; hyperbole debated"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Socrates (via Plato), Apology 38a. SPLIT from u-0038 (Socratic wisdom/knowledge-limits): distinct Apology propositions. Copyright: Jowett (1871) PD. Watchlist: the popular 'The only true wisdom is in knowing you know nothing' is NOT verbatim Socrates (apocryphal compression)."

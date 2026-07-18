@@ -1,0 +1,21 @@
+id: c-0192
+canonical_claim: "Having a spouse and children binds one's fate to fortune and tends to make a person cautious about great undertakings, good or bad."
+claim_type: observational
+polarity: cautionary
+conditionality: contested
+member_units: [u-0122]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "observational — generalisation about family and ambition"}
+  empirical_support: {rating: low, certainty: moderate, basis: "loosely consistent with risk-aversion research on dependents; not a direct test"}
+  contestation: {rating: high, certainty: moderate, basis: "contested — family can equally spur ambition; heavily period-bound"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by report; earliest printed 'hostages to fortune' per OxDQ"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "no known refutation; over-application risk noted"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Francis Bacon 'Of Marriage and Single Life' (Essays 1625). conditionality contested — counsel, not destiny."

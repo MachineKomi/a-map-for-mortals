@@ -1,0 +1,21 @@
+id: c-0187
+canonical_claim: "Social life demands a daily act of self-suppression — swallow a toad every morning and nothing more disgusting will meet you all day."
+claim_type: prudential
+polarity: cautionary
+conditionality: contested
+member_units: [u-0117]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "prudential — counsel of accommodation"}
+  empirical_support: {rating: low, certainty: low, basis: "no direct empirical test wired"}
+  contestation: {rating: high, certainty: moderate, basis: "contested by authenticity/nonconformist frames (Emerson, Schopenhauer)"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by report; numbering unstable across editions"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "no known refutation; over-application risk (acquiescence) noted"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Chamfort Maximes et pensees (posthumous 1795). Sardonic/ironic counsel — not literal."

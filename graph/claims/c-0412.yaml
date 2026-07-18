@@ -1,0 +1,21 @@
+id: c-0412
+canonical_claim: "There is no view from nowhere: all knowing is perspectival, and admitting more perspectives makes a concept more complete."
+claim_type: metaphysical
+polarity: descriptive
+conditionality: universal-ish
+member_units: [u-0060]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "metaphysical/epistemic hybrid — a thesis about the nature of knowing"}
+  empirical_support: {rating: low, certainty: low, basis: "metaphysical, not empirical"}
+  contestation: {rating: moderate, certainty: moderate, basis: "contested by correspondence-realism; perspectivism's scope is debated"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "report grade: probable. GATE C RERUN MATERIAL FIX 2026-07-07: source.translator:Horace B. Samuel was FALSE — the held wording is a Kaufmann-style rendering, not Samuel's 1913 diction. Field cleared, copyright_flag in-copyright; wording must NOT be printed until Samuel's GM III §12 PD text is line-matched at Gate F"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "durable within Nietzsche's epistemology; scope debated"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Nietzsche, On the Genealogy of Morals, Third Essay §12 — perspectivism (published doctrine). WATCHLIST: 'There are no facts, only interpretations' is genuine but NACHLASS (1886-87 notebook), not published doctrine — do NOT merge with this published unit. TRANSLATION CAVEAT (DEFERRED TO GATE F): held wording resembles the in-copyright Kaufmann rendering, not PD Samuel — copyright_flag in-copyright until Samuel's GM III §12 PD text is line-matched at Gate F. Do NOT upgrade this deferred verification."

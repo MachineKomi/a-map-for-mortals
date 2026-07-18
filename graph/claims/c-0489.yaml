@@ -1,0 +1,21 @@
+id: c-0489
+canonical_claim: "The physician's duty is to act, according to ability and judgement, for the benefit of the patient, and to abstain from whatever is harmful or deleterious."
+claim_type: normative
+polarity: prescriptive
+conditionality: universal-ish
+member_units: [u-0331]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 complete 2026-07-18"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "normative — professional duty binding competence to the patient's benefit and to restraint from harm; genuinely normative (professional duty), not prudential"}
+  empirical_support: {rating: low, certainty: low, basis: "no direct empirical test wired"}
+  contestation: {rating: moderate, certainty: moderate, basis: "the normative anchor of the professional-ethics counter-pole to the strategist stream: where the strategists prize advantage, the Oath binds competence to benefit and restraint"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by report; not yet primary-verified. Authorship is corpus-level, not Hippocrates personally — hence 'Hippocratic corpus' in the author field"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "the benefit-and-abstain duty of the Oath; the professional-ethics counter-pole to advantage-based counsel"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Hippocratic corpus, The Oath (Francis Adams 1849, PD); report (wave-2 practical-strategic). Report label verified — downgraded to attested per S1 rule 1 pending primary check. The normative anchor of the professional-ethics counter-pole to the strategist stream: where the strategists prize advantage, the Oath binds competence to the patient's benefit and to restraint from harm — genuinely normative (professional duty), not prudential. Authorship of the Oath is corpus-level, not Hippocrates personally — hence 'Hippocratic corpus' in the author field. DISTINCT proposition from c-0490 (Epidemics, do good/do no harm) and c-0491 (confidentiality), NOT merged."

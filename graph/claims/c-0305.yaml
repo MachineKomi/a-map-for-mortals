@@ -1,0 +1,21 @@
+id: c-0305
+canonical_claim: "Do not judge others: the standard you apply will be applied back to you."
+claim_type: normative
+polarity: cautionary
+conditionality: conditional
+member_units: [u-0094]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "normative — a measure-for-measure counsel against judging; religious claim, not empirical"}
+  empirical_support: {rating: low, certainty: low, basis: "religious ethic, not empirically testable"}
+  contestation: {rating: moderate, certainty: moderate, basis: "the report places this on the strict-justice pole of FORK-1 (justice vs mercy), alongside Proverbs 22:22-23, against the Beatitudes' mercy pole (u-0092); guarded danger per report section (f): hypocritical judging"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested by wave-1 report; KJV 1611 wording pending primary check"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "measure-for-measure logic; SPLIT from the Beatitude mercy claim — distinct propositions"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Matthew 7:1-2 (Sermon on the Mount, KJV). Report unit (judge-not). Measure-for-measure logic; the report places this on the strict-justice pole of FORK-1 (justice vs mercy), alongside Proverbs 22:22-23 (u-0077), against the Beatitudes' mercy pole (u-0092). Guarded danger per report section (f): hypocritical judging. Religious claim: normative, not empirical."

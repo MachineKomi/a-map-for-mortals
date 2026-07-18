@@ -1,0 +1,21 @@
+id: c-0475
+canonical_claim: "Hope is an extravagant comforter: those with abundant resources may indulge it, but the weak who rely on it invite ruin."
+claim_type: prudential
+polarity: cautionary
+conditionality: conditional
+member_units: [u-0317]
+robustness_profile:
+  recurrence: {rating: moderate, certainty: low, basis: "provisional — corpus-wide S3 in progress; convergence candidate: caution-against-false-hope counsel"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress; single Greek-historiography source at this scale"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — text c. 400 BCE"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "prudential — a cautionary counsel about hope as risk"}
+  empirical_support: {rating: low, certainty: low, basis: "strategic counsel, not a measured claim"}
+  contestation: {rating: moderate, certainty: moderate, basis: "CHARACTER SPEECH (Athenian envoys' warning within a coercive ultimatum); endorsement: complicated — vindicated by narrative (Melos relies on hope of Spartan aid and is destroyed) yet voiced by envoys whose expediency the arc undercuts"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "attested; Thucydides 5.103 (Melian Dialogue) (Crawley 1874, PD). Report flags: verify exact wording against the Crawley edition before publication (lead G4) — wording treated as verification-pending"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "caution against hope for the weak; DISTINCT from the strong/weak justice thesis (c-0474)"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Thucydides, History of the Peloponnesian War 5.103 (Melian Dialogue) (Crawley 1874, PD); report (wave-2 practical-strategic). Report label verified, BUT report flags: verify exact wording against the Crawley edition before final publication (lead G4) — wording treated as verification-pending. CHARACTER SPEECH: the Athenian envoys' warning to the Melians within a coercive ultimatum. endorsement: complicated — the warning is vindicated by the narrative (Melos relies on hope of Spartan aid and is destroyed), yet voiced by the same envoys whose expediency doctrine the arc undercuts; not straightforwardly authorial. DISTINCT from c-0474 (strong/weak justice thesis): that is the power-asymmetry realism, this is the caution against hope — NOT merged."

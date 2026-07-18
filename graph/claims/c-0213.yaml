@@ -1,0 +1,21 @@
+id: c-0213
+canonical_claim: "Philosophy is right that life must be understood backwards — but that makes one forget the other proposition, that it must be lived forwards."
+claim_type: observational
+polarity: descriptive
+conditionality: universal-ish
+member_units: [u-0143]
+robustness_profile:
+  recurrence: {rating: low, certainty: low, basis: "provisional — corpus-wide S3 in progress"}
+  source_diversity: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  temporal_spread: {rating: low, certainty: low, basis: "provisional — S3 in progress"}
+  claim_type_dim: {rating: moderate, certainty: high, basis: "observational — reflective generalisation"}
+  empirical_support: {rating: low, certainty: low, basis: "no direct empirical test wired"}
+  contestation: {rating: moderate, certainty: moderate, basis: "universal-ish; the 'understood backwards' half is contestable"}
+  attribution_integrity: {rating: moderate, certainty: moderate, basis: "Danish journal entry PD; the neat English one-liner is a condensed paraphrase, not verbatim"}
+  survives_scrutiny: {rating: moderate, certainty: low, basis: "no known refutation; over-application risk noted"}
+status: adjudicated
+prov:
+  minted_by: "claude-code:s3-wave12-v1"
+  adversarial_pass: "queued"
+  date: 2026-07-18
+notes: "Singleton. Kierkegaard Journalen JJ:167 (1843). The familiar English 'Life can only be understood backwards; but it must be lived forwards' is a condensed paraphrase; the related 'Life is not a problem to be solved...' is NOT Kierkegaard."
