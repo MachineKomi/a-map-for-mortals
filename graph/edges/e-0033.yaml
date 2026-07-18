@@ -1,0 +1,11 @@
+id: e-0033
+type: IN_TENSION_WITH
+from: c-0160
+to: c-0167
+origin: inferred
+confidence: moderate
+method: "proposed by claude-code:s4-contest-edges-v1 from the S3-wave3 clustering queue (moral-panic skeptic pole) — see claim notes on c-0160/c-0167"
+prov:
+  minted_by: "claude-code:s4-contest-edges-v1"
+  date: 2026-07-18
+notes: "Haidt's causal thesis vs Ferguson's moral-panic framing and null meta-analytic result (2021, 2024): meta-analyses find screen/social-media use plays little role in mental-health outcomes and no evidence of driving suicidal ideation. IN_TENSION_WITH. Moderate confidence because both methods AND conclusions are contested here — Haidt's team (After Babel) published a critique alleging coding errors that, if corrected, would flip significance, making this pole shakier than the effect-size (c-0166) or review (c-0165) skeptics. Present as a live dispute, not a refutation."

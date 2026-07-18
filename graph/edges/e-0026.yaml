@@ -1,0 +1,11 @@
+id: e-0026
+type: SUPPORTED_BY
+from: c-0122
+to: c-0123
+origin: inferred
+confidence: moderate
+method: "proposed by claude-code:s4-contest-edges-v1 from the S3-wave3 clustering queue (thesis vs its flagship evidence) — see claim notes on c-0122/c-0123"
+prov:
+  minted_by: "claude-code:s4-contest-edges-v1"
+  date: 2026-07-18
+notes: "Schwartz's general thesis (c-0122) drew on the Iyengar & Lepper jam study (c-0123) as its flagship popular evidence: 24-jam attracted browsers but 3% bought vs 30% at 6-jam. Moderate (not high) because the jam study is a SINGLE field experiment that became a cultural touchstone beyond its weight, and its generalization is itself contested by the meta-null (see e-0025). The support is real but evidentially thin — a founding illustration, not a robust base."

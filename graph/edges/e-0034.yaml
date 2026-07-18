@@ -1,0 +1,11 @@
+id: e-0034
+type: SUPPORTED_BY
+from: c-0160
+to: c-0169
+origin: inferred
+confidence: moderate
+method: "proposed by claude-code:s4-contest-edges-v1 from the S3-wave3 clustering queue (causal thesis vs its affirmative reply) — see claim notes on c-0160/c-0169"
+prov:
+  minted_by: "claude-code:s4-contest-edges-v1"
+  date: 2026-07-18
+notes: "The Haidt/Twenge multi-method convergence argument (c-0169) is the affirmative side's evidential reply SUPPORTING the great-rewiring causal thesis (c-0160): correlational, longitudinal, experimental and quasi-experimental evidence is said to converge, with dose-response curves for heavy-using girls and ~2012 international synchronicity. Direction: c-0169 is evidence marshalled FOR c-0160, so c-0160 is SUPPORTED_BY c-0169. Moderate (not high) because the reply is itself contested — the dose-response figures are correlational, deactivation-experimental effects are small/mixed, and population-level causation remains unsettled (c-0169 empirical_support=low, survives_scrutiny=low). It is an argument in the debate, not an established grounding."

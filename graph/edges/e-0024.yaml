@@ -1,0 +1,11 @@
+id: e-0024
+type: UNDERMINED_BY
+from: c-0117
+to: c-0121
+origin: inferred
+confidence: moderate
+method: "proposed by claude-code:s4-contest-edges-v1 from the S3-wave3 clustering queue (finding vs its active contest) — see claim notes on c-0117/c-0121"
+prov:
+  minted_by: "claude-code:s4-contest-edges-v1"
+  date: 2026-07-18
+notes: "Levine et al. 2012 artifact-contest undermines the STRONG (intensity) form of the Wilson/Gilbert impact-bias finding: when queried precisely about feelings toward the focal event, predicted intensity is largely accurate. The dispute is UNRESOLVED — Wilson & Gilbert 2013 rebutted (alleging miscoding/omission), Levine et al. replied; the duration-overestimation component is less contested than intensity. Moderate confidence because the contest is live and two-sided, not settled; it does not refute impact bias outright, only its strong intensity reading."

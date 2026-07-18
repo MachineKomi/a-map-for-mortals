@@ -1,0 +1,11 @@
+id: e-0037
+type: QUALIFIES
+from: c-0075
+to: c-0078
+origin: inferred
+confidence: moderate
+method: "proposed by claude-code:s4-contest-edges-v1 from the S3-wave3 clustering queue (Singer rescue maxim vs EA critique cluster) — see claim notes on c-0075/c-0078"
+prov:
+  minted_by: "claude-code:s4-contest-edges-v1"
+  date: 2026-07-18
+notes: "The Srinivasan-led EA critique cluster QUALIFIES Singer's strong rescue maxim: c-0078's canonical claim lists 'demandingness' as its first contest axis, and c-0075's own contestation field names 'the demandingness objection' as the standing critique of the strong/comparable-moral-importance version. QUALIFIES (not UNDERMINED_BY) because c-0078 is a FIVE-axis critique (demandingness, institutional depoliticisation, over-quantification, longtermism, FTX) of EA broadly, of which demandingness is one prong; the demandingness objection contests the maxim's practical reach, not its logical validity. Moderate confidence: c-0078 targets EA writ large (first-class dissent to c-0077), so its bearing on c-0075 specifically is real but indirect."

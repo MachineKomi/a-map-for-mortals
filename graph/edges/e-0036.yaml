@@ -1,0 +1,11 @@
+id: e-0036
+type: QUALIFIES
+from: c-0034
+to: c-0049
+origin: inferred
+confidence: moderate
+method: "proposed by claude-code:s4-contest-edges-v1 from the S3-wave3 clustering queue (longtermism vs the fanaticism critique) — see claim notes on c-0034/c-0049"
+prov:
+  minted_by: "claude-code:s4-contest-edges-v1"
+  date: 2026-07-18
+notes: "The fanaticism / Pascal's-mugging critique QUALIFIES longtermist EV reasoning: tiny probabilities of astronomically large payoffs could dominate every decision. QUALIFIES because the critique is partly INTERNAL (Bostrom himself named Pascal's mugging) and defenders reply the strongest case does not depend on minuscule probabilities — Tarsney's models show robustness on non-tiny probabilities while depending on 'Pascalian' ones under some worldviews. So it constrains the reasoning's domain rather than refuting it. Moderate confidence."

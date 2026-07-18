@@ -1,0 +1,11 @@
+id: e-0027
+type: QUALIFIES
+from: c-0096
+to: c-0098
+origin: inferred
+confidence: moderate
+method: "proposed by claude-code:s4-contest-edges-v1 from the S3-wave3 clustering queue (thesis vs its scholarly critique) — see claim notes on c-0096/c-0098"
+prov:
+  minted_by: "claude-code:s4-contest-edges-v1"
+  date: 2026-07-18
+notes: "Blaut et al.'s environmental-determinism critique qualifies Diamond's GGS thesis without refuting it: the charge is that the framework minimizes human agency, contingency, culture and colonial violence, making conquest look like an accident of latitude. QUALIFIES (not CONTRADICTS/UNDERMINED_BY) because Diamond denies being a determinist and critics reply the two books deliver a 'one-two punch' — the agency-vs-structure debate is live with no clean refutation on either side. The anti-innatist purpose of GGS is respected even by its critics. Moderate confidence: an argued critique, not an empirical refutation."

@@ -1,0 +1,11 @@
+id: e-0032
+type: IN_TENSION_WITH
+from: c-0160
+to: c-0166
+origin: inferred
+confidence: high
+method: "proposed by claude-code:s4-contest-edges-v1 from the S3-wave3 clustering queue (effect-size skeptic pole) — see claim notes on c-0160/c-0166"
+prov:
+  minted_by: "claude-code:s4-contest-edges-v1"
+  date: 2026-07-18
+notes: "Haidt's causal thesis vs the Orben & Przybylski 2019 specification-curve finding that digital-technology use explains ~0.4% of adolescent well-being variance (smaller than/comparable to wearing glasses or eating potatoes). IN_TENSION_WITH because both are empirical and the dispute is methodological and unresolved: Twenge/Haidt reply that six analytic choices shrank a real effect (especially for girls, ~r=0.15-0.20), and Orben/Przybylski rejoin that re-running with those changes leaves effects still tiny. High confidence on the tension relationship (the effect-size anchor is methodologically strong, empirical_support=moderate) while the underlying science remains genuinely contested — the edge records a real clash, not a settled verdict."

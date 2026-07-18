@@ -1,0 +1,11 @@
+id: e-0031
+type: IN_TENSION_WITH
+from: c-0160
+to: c-0165
+origin: inferred
+confidence: high
+method: "proposed by claude-code:s4-contest-edges-v1 from the S3-wave3 clustering queue (the live teen-mental-health debate) — see claim notes on c-0160/c-0165"
+prov:
+  minted_by: "claude-code:s4-contest-edges-v1"
+  date: 2026-07-18
+notes: "THE headline clash of the teen-mental-health debate, named in Nature 2024: Haidt's 'great rewiring' causal thesis (phone-based childhood as the MAJOR cause of the synchronized rise in teen anxiety/depression/self-harm) vs Odgers's verbatim 'not supported by science' (decades of research yield mostly no/small/mixed correlational associations; reverse causation plausible). IN_TENSION_WITH (not CONTRADICTS) because both are empirical claims about the same population-level phenomenon with neither a clean logical refutation of the other — Haidt published a point-by-point rebuttal and the 'correlation-is-not-causation only' framing is itself disputed. High confidence that the tension is real and central; it is the dispute's defining axis."

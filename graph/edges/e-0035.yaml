@@ -1,0 +1,11 @@
+id: e-0035
+type: QUALIFIES
+from: c-0034
+to: c-0048
+origin: inferred
+confidence: moderate
+method: "proposed by claude-code:s4-contest-edges-v1 from the S3-wave3 clustering queue (longtermism vs its ideological critique) — see claim notes on c-0034/c-0048"
+prov:
+  minted_by: "claude-code:s4-contest-edges-v1"
+  date: 2026-07-18
+notes: "Torres's longtermism critique QUALIFIES MacAskill's normative thesis: by valuing vast hypothetical future populations it may license neglect of present suffering/injustice, concentrate power among wealthy elites, and rationalize harmful near-term trade-offs. QUALIFIES (not UNDERMINED_BY) because the critique targets the STRONG/radical form most sharply and is an argued normative-ideological contestation, not a refutation of the core moral-priority claim; the FTX/SBF collapse (Nov 2022) intensified but did not settle these concerns. Torres/Gebru's 'TESCREAL' framing is itself a characterization, not fact. Moderate confidence."

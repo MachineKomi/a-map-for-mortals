@@ -1,0 +1,11 @@
+id: e-0029
+type: UNDERMINED_BY
+from: c-0100
+to: c-0102
+origin: inferred
+confidence: high
+method: "proposed by claude-code:s4-contest-edges-v1 from the S3-wave3 clustering queue (framework vs its showcase-case revision) — see claim notes on c-0100/c-0102"
+prov:
+  minted_by: "claude-code:s4-contest-edges-v1"
+  date: 2026-07-18
+notes: "The Easter Island revision (Hunt & Lipo 2009, reinforced by Moreno-Mayar et al. 2024 Nature ancient-genome study, 15 genomes, DOI 10.1038/s41586-024-07881-4) undermines Diamond's Collapse framework by overturning its showcase parable: deforestation is attributed heavily to introduced rats and the real population collapse to post-contact disease and slave raids, with NO severe pre-1800s bottleneck — a stably growing population to European contact. High confidence (rather than QUALIFIES) because this is the clearest case of a Diamond parable outrunning its evidence, with genetic corroboration; the 'ecocide' story should not be repeated as fact. Diamond has defended his account, keeping it contested rather than refuted."

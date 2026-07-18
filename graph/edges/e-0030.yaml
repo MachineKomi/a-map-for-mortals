@@ -1,0 +1,11 @@
+id: e-0030
+type: QUALIFIES
+from: c-0100
+to: c-0103
+origin: inferred
+confidence: moderate
+method: "proposed by claude-code:s4-contest-edges-v1 from the S3-wave3 clustering queue (framework vs its resilience counter-thesis) — see claim notes on c-0100/c-0103"
+prov:
+  minted_by: "claude-code:s4-contest-edges-v1"
+  date: 2026-07-18
+notes: "McAnany & Yoffee (Questioning Collapse, 2010) resilience counter-thesis qualifies Diamond's collapse framing: the leitmotif of the human record is resilience and reorganization as much as collapse, and 'collapse' narratives can erase the survival and agency of descendant peoples and the role of imperialism. QUALIFIES (not UNDERMINED_BY) because it re-frames rather than refutes — it guards against collapse-fatalism and survivor-erasure; no clean refutation either way. Moderate confidence: an argued multi-author re-reading, not an empirical refutation. (Diamond wrote a sharply critical Nature review without noting the book targeted his own work.)"

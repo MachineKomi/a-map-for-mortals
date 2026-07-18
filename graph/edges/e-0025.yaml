@@ -1,0 +1,11 @@
+id: e-0025
+type: UNDERMINED_BY
+from: c-0122
+to: c-0124
+origin: inferred
+confidence: high
+method: "proposed by claude-code:s4-contest-edges-v1 from the S3-wave3 clustering queue (thesis vs meta-analytic contest) — see claim notes on c-0122/c-0124"
+prov:
+  minted_by: "claude-code:s4-contest-edges-v1"
+  date: 2026-07-18
+notes: "Scheibehenne, Greifeneder & Todd 2010 meta-analysis (50 experiments, N=5036) undermines the STRONG general form of Schwartz's paradox-of-choice thesis: the average effect of assortment size on satisfaction is 'virtually zero', appearing only under specific not-yet-fully-identified conditions (later mapped by Chernev/Bockenholt/Goodman 2015 as moderators). High confidence because the meta-null is itself robust (c-0124 empirical_support=high) and directly targets the general claim; the thesis survives only in a moderated, conditional form. The underlying choice-overload EFFECT (not the meta-null) is what remains contested."

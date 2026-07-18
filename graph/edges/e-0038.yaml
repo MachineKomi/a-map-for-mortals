@@ -1,0 +1,11 @@
+id: e-0038
+type: QUALIFIES
+from: c-0126
+to: c-0127
+origin: inferred
+confidence: moderate
+method: "proposed by claude-code:s4-contest-edges-v1 from the S3-wave3 clustering queue (grit empirical critique vs its normative caution) — see claim notes on c-0126/c-0127"
+prov:
+  minted_by: "claude-code:s4-contest-edges-v1"
+  date: 2026-07-18
+notes: "The grit over-reach normative caution (c-0127) QUALIFIES the empirical meta-critique (c-0126): where c-0126 establishes that grit predicts performance only modestly and nearly duplicates conscientiousness (the jangle-fallacy finding), c-0127 extends that into a normative/prudential warning — that popularly equating grit with guaranteed success oversells a modest effect and can shade into blaming individuals for structural obstacles. QUALIFIES because c-0127 explicitly rests on c-0126 but must NOT borrow its empirical authority (it is an argued position, not a measured finding); the structural-blame concern is itself contested. Moderate confidence."

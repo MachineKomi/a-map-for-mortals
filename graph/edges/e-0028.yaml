@@ -1,0 +1,11 @@
+id: e-0028
+type: QUALIFIES
+from: c-0096
+to: c-0099
+origin: inferred
+confidence: moderate
+method: "proposed by claude-code:s4-contest-edges-v1 from the S3-wave3 clustering queue (thesis vs its empirical test) — see claim notes on c-0096/c-0099"
+prov:
+  minted_by: "claude-code:s4-contest-edges-v1"
+  date: 2026-07-18
+notes: "Chira, Botero & Gray 2024 (Evolutionary Human Sciences) axis-of-orientation test partially undercuts the strong axis mechanism of Diamond's thesis: ecological similarity does weakly aid cultural-trait transmission (supporting Diamond's intuition), BUT Eurasia is not significantly more ecologically homogeneous than other continents — latitude is 'not destiny'. QUALIFIES because the test confirms the weaker intuition while weakening the strong axis-determinism; it does not refute the broader geography thesis. Moderate confidence: a recent single published test (no replication located), operationalization choices debatable."
