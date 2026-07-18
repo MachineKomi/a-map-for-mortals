@@ -1,0 +1,14 @@
+id: e-0045
+type: CONVERGES_WITH
+from: c-0005
+to: c-0117
+origin: inferred-then-curated
+confidence: moderate
+method: "proposed by claude-code:s4-convergence-edge-v1 from COVERAGE-INDEX §4 ('Imagined suffering exceeds real suffering | Seneca via pseudo-Montaigne, Buddhist parallel') + intellectual-history §3 (no known Seneca↔modern-psychology channel) + wave-3/05 §E item 1. The strongest proposition-level convergence candidate among the wave-3 set."
+independence_basis:
+  grade: partial
+  evidence: "Seneca's 'anticipated suffering usually exceeds real suffering; we suffer more in imagination than in reality' (c-0005) and the modern affective-forecasting impact-bias finding (c-0117: people systematically overestimate the intensity and duration of future feelings) assert the SAME proposition at the same grain. intellectual-history §3 records no known transmission channel between Seneca and 20th-c. behavioural psychology — Kahneman/Gilbert did not derive impact-bias from Seneca, and the Senecan line reached modernity via pseudo-Montaigne, not the empirical literature. Graded partial (not strong) per METHODOLOGY §9 honesty default: only two poles (ancient Stoic + modern empirical) and the observation is simple enough to recur from common experience; held at partial even though this is among the corpus's cleaner convergences. Residual watchlist: the pseudo-Montaigne provenance on the Seneca side (COVERAGE-INDEX §4) — verify the Senecan source before any 'strong' upgrade."
+prov:
+  minted_by: "claude-code:s4-convergence-edge-v1"
+  date: 2026-07-17
+notes: "Seneca's imagined-suffering (c-0005) converging with the affective-forecasting impact bias (c-0117). Same proposition rediscovered independently across ~2000 years — one of the cleaner convergence candidates. Graded partial (honesty default), not strong. The Buddhist papañca parallel (COVERAGE-INDEX §4; wave-2/01 §E) extends the same convergence eastward with no known Seneca↔Buddhist channel — a separate edge once the Buddhist unit is wired."

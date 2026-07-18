@@ -1,0 +1,14 @@
+id: e-0042
+type: INFLUENCED
+from: c-0003
+to: c-0148
+origin: inferred-then-curated
+confidence: moderate
+method: "proposed by claude-code:s4-convergence-edge-v1 from wave-3/03 §E item 1 + intellectual-history §1 (Burkeman←Seneca and Heidegger); booked INFLUENCED rather than CONVERGES_WITH because Burkeman cites the ancients."
+independence_basis:
+  grade: none
+  evidence: "intellectual-history §1: Burkeman cites the ancients directly; Four Thousand Weeks draws on Heidegger's being-towards-death (wave-3/03 units U14/U17 note 'invokes Heidegger'). His finitude/cosmic-insignificance material is a secular restatement travelling a known channel (Seneca's On the Shortness of Life c-0003; Horace's carpe diem c-0004; the Stoic/Epicurean memento-mori cluster). wave-3/03 §E item 1: 'note Burkeman himself cites the ancients.' Transmission-weighted; independence grade none."
+prov:
+  minted_by: "claude-code:s4-convergence-edge-v1"
+  date: 2026-07-17
+notes: "Burkeman's 'finitude is the point' (c-0148) is a secular restatement of the ancient carpe-diem/memento-mori cluster, knowingly inheriting Seneca (c-0003) and Heidegger. Booked INFLUENCED from c-0003 as the load-bearing ancient source node; the Horace/Heidegger channels are noted in the evidence. The 'finitude is the condition of meaning, not the obstacle' reframe is a genuine REFINES retained in c-0148, not a parallel rediscovery."

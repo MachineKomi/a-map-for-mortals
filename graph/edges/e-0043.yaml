@@ -1,0 +1,14 @@
+id: e-0043
+type: FUNCTIONAL_ANALOGY
+from: c-0001
+to: c-0139
+origin: inferred-then-curated
+confidence: low
+method: "proposed by claude-code:s4-convergence-edge-v1 from wave-3/03 §E item 3 (Stoic dichotomy ↔ Newport 'choose your tools'); concluded FUNCTIONAL_ANALOGY per the report's own disanalogy note (individual-focused Stoicism vs structurally-rigged digital case)."
+independence_basis:
+  grade: partial
+  evidence: "Not counted as convergence: c-0001 (Stoic dichotomy of control — act on what is yours) and c-0139 (Newport's deliberate-technology minimalism — keep only tools serving something you value) commend a structurally similar agency-exercise (choose, exclude, own your stance) but Newport's warrant is prudential/technological (reclaim attention from engineered tools) while the Stoic warrant is ethical/metaphysical (externals are indifferent). The report (wave-3/03 §E item 3) further flags a meta-fork tension: the digital case is structurally rigged in a way the Stoic frame may under-address."
+prov:
+  minted_by: "claude-code:s4-convergence-edge-v1"
+  date: 2026-07-17
+notes: "FUNCTIONAL_ANALOGY: Newport's digital minimalism is a modern APPLICATION of an ancient frame (agency over one's domain), not a parallel rediscovery of the same proposition. The shared practice (deliberate exclusion of the non-essential) is real; the stated reasons differ. Never counted as 'tested across time'; page copy must not collapse them into one claim."

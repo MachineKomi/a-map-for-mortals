@@ -1,0 +1,14 @@
+id: e-0039
+type: INFLUENCED
+from: c-0002
+to: c-0094
+origin: inferred-then-curated
+confidence: moderate
+method: "proposed by claude-code:s4-convergence-edge-v1 from wave-3/01 §E item 1 + intellectual-history §1 (Harari←Vipassana); booked INFLUENCED rather than CONVERGES_WITH because transmission is documented — see METHODOLOGY §9."
+independence_basis:
+  grade: none
+  evidence: "intellectual-history §1: Harari is a practicing Vipassana meditator and cites Buddhist framings in 21 Lessons; 'hold your story lightly' / 'clarity is power' draws on that practice (wave-3/01 §E item 1). The Stoic/Buddhist non-attachment root is inherited, not rediscovered — independence grade none; transmission via a known practice channel."
+prov:
+  minted_by: "claude-code:s4-convergence-edge-v1"
+  date: 2026-07-17
+notes: "Harari's 'hold the guiding story lightly' (c-0094) sits in explicit continuity with Stoic/Buddhist non-attachment (c-0002) via Harari's Vipassana practice. Booked INFLUENCED, NOT CONVERGES_WITH, per METHODOLOGY §4/§9 (positive transmission evidence -> INFLUENCED); rendering this as independent recurrence would inflate 'tested across time.' The modern framing (observe the story as a story) is a genuine REFINEMENT retained in the claim, not a parallel rediscovery."

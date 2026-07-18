@@ -1,0 +1,14 @@
+id: e-0046
+type: CONVERGES_WITH
+from: c-0001
+to: c-0347
+origin: inferred-then-curated
+confidence: moderate
+method: "proposed by claude-code:s4-convergence-edge-v1 from COVERAGE-INDEX §4 ('Act on what is yours; release the rest') + §7 headline merge candidate ('Gita 2.47 karma-yoga + Buddhist non-attachment ↔ the Stoic control cluster — feeds skeleton claim c-0001 directly') + wave-2/01 §E ('Gita 2.47 karma-yoga ↔ Stoic dichotomy of control ↔ Buddhist non-attachment. Strongest triad.')."
+independence_basis:
+  grade: partial
+  evidence: "The Stoic dichotomy of control (c-0001: act on what lies within your power — judgment, aim, desire; consent to what does not) and the Gita's karma-yoga (c-0347: you are entitled to the action itself, never to its fruits) share the same deep structure: act fully where agency runs, release claim over the outcome. intellectual-history records no documented textual channel between Roman Stoicism (Epictetus/Marcus, 1st–2nd c. CE) and the Bhagavad-Gita (in its received form centuries earlier/contemporary) for this specific doctrine; Greco-Indian contact after Alexander is real in general but not pinned to this saying. wave-2/01 §E calls the Stoic↔Gita↔Buddhist triad the 'strongest.' Graded partial per METHODOLOGY §9: no known channel, but Hellenistic-Indic contact in Bactria/Gandhara keeps a diffuse channel plausible and the doctrine is simple enough to recur."
+prov:
+  minted_by: "claude-code:s4-convergence-edge-v1"
+  date: 2026-07-17
+notes: "PRIME convergence: Stoic dichotomy of control (c-0001) ↔ Gita karma-yoga (c-0347). Same proposition — act, release the fruit — across two traditions with no documented dependence. Already in the same cluster as e-0001 (Stoic↔tawakkul) and e-0002 (Stoic↔Avot); this is the Eastern pole of the triad flagged in COVERAGE-INDEX §7 as feeding c-0001 directly. Graded partial (honesty), one of the corpus's strongest candidates."

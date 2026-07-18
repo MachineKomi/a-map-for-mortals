@@ -1,0 +1,14 @@
+id: e-0041
+type: FUNCTIONAL_ANALOGY
+from: c-0092
+to: c-0004
+origin: inferred-then-curated
+confidence: low
+method: "proposed by claude-code:s4-convergence-edge-v1 from wave-3/01 §E item 4 ('clarity is power'/traveling light ↔ carpe diem / memento mori — TEST whether attention-discipline echoes finitude or is a distinct modern move). Concluded FUNCTIONAL_ANALOGY: similar practice, different stated reason."
+independence_basis:
+  grade: partial
+  evidence: "No documented channel is needed because this is NOT counted as convergence: the two claims recommend a similar prioritising practice (filter, focus, act on the essential now) but for different stated reasons — c-0092 grounds it in information-glut and the scarcity of clarity under data abundance; c-0004 (carpe diem) grounds it in mortality and the unreliability of tomorrow. Functional analogy only; never counted as 'tested across time.'"
+prov:
+  minted_by: "claude-code:s4-convergence-edge-v1"
+  date: 2026-07-17
+notes: "FUNCTIONAL_ANALOGY, not CONVERGES_WITH. Harari's 'clarity is power' (c-0092) and Horace's carpe diem (c-0004) commend overlapping disciplines (attend, choose, don't diffuse) but the warrant differs (information economics vs finitude). Page copy must not present them as one claim; the resonance is the book's, the proposition-level convergence is not."

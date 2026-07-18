@@ -1,0 +1,14 @@
+id: e-0044
+type: INFLUENCED
+from: c-0001
+to: c-0050
+origin: inferred-then-curated
+confidence: moderate
+method: "proposed by claude-code:s4-convergence-edge-v1 from wave-3/04 §E item 1 + intellectual-history §1 (Frankl←Stoic sources and Nietzsche); booked INFLUENCED rather than CONVERGES_WITH because Frankl sits in explicit continuity with the Stoic dichotomy."
+independence_basis:
+  grade: none
+  evidence: "intellectual-history §1: Frankl's 'choose your attitude toward unavoidable suffering' (c-0050) sits in explicit continuity with the Stoic dichotomy of control (c-0001); wave-3/04 §E item 1 flags the convergence-to-test with a noted disanalogy (Stoic detachment/apatheia vs Frankl's positive meaning-engagement). Frankl also adapts Nietzsche ('he who has a why…'). Transmission-weighted; independence grade none."
+prov:
+  minted_by: "claude-code:s4-convergence-edge-v1"
+  date: 2026-07-17
+notes: "Frankl's meaning-in-unavoidable-suffering (c-0050) knowingly inherits the Stoic dichotomy of control (c-0001) — both locate freedom in the stance toward what cannot be changed. Booked INFLUENCED, NOT CONVERGES_WITH. The disanalogy (detachment vs meaning-engagement) is a genuine REFINES and is retained: Frankl does not merely repeat the Stoic move, he redirects it from indifference toward positive meaning. Page copy shows lineage, not parallel rediscovery."

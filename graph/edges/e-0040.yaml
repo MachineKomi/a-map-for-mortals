@@ -1,0 +1,14 @@
+id: e-0040
+type: CONVERGES_WITH
+from: c-0085
+to: c-0013
+origin: inferred-then-curated
+confidence: low
+method: "proposed by claude-code:s4-convergence-edge-v1 from wave-3/01 §E item 3 (luxury trap / hedonic treadmill ↔ ancient warnings on desire) cross-checked against intellectual-history §1/§2."
+independence_basis:
+  grade: weak
+  evidence: "The convergence of Harari's luxury trap (c-0085: conveniences become necessities, adding up to an unchosen life) with the Cynic/Stoic/Epicurean 'happiness from what one is, not what one has' (c-0013) is at the level of a recurring diagnosis of acquisitive desire. No documented textual channel between Harari and the Hellenistic schools for this specific mechanism, BUT the modern desire-critique descends through a long Western genealogy (Christian→Enlightenment→modern) that makes an unattested channel likely rather than unlikely; graded weak per METHODOLOGY §9 (default to partial only where no channel is plausible — here a diffuse cultural channel is plausible). The Epicurean four-part cure (c-0398) and Buddhist four noble truths (c-0350) are the same cluster."
+prov:
+  minted_by: "claude-code:s4-convergence-edge-v1"
+  date: 2026-07-17
+notes: "Luxury trap ↔ happiness-from-within. The two claims diagnose the same error (acquisition/possession does not deliver wellbeing) from very different frames (evolutionary/behavioural mechanism vs ethical character). Downgraded to weak: the recurrence is robust as a human question but the cultural-genealogy channel is diffuse and unattested-in-corpus for this specific pairing. Stronger ancient partner would be Epicurean c-0398 ('what is good is easy to obtain'); held to c-0013 as the skeleton node."

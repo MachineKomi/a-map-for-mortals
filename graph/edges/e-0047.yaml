@@ -1,0 +1,14 @@
+id: e-0047
+type: CONVERGES_WITH
+from: c-0233
+to: c-0310
+origin: inferred-then-curated
+confidence: moderate
+method: "proposed by claude-code:s4-convergence-edge-v1 from COVERAGE-INDEX §4 ('Golden Rule / one-body solidarity | Hillel · Sermon on Mount · Saadi · Zosima') + wave-2/02 §E (Ubuntu solidarity ↔ Golden Rule / one-body cluster) + intellectual-history §3 ('Ubuntu↔Golden-Rule — strongest independence candidate in the corpus')."
+independence_basis:
+  grade: partial
+  evidence: "Ubuntu (c-0233: a person becomes a person through other persons; Nguni, Southern Africa) and Saadi's Bani Adam (c-0310: humankind is of one essence, like limbs of a single body; 13th-c. Persia) assert the same one-body solidarity proposition. intellectual-history §3 records this as 'among the most genuinely independent convergences here … 3 traditions, little direct contact between Saadi (13th-c. Persia) and [Ubuntu] … ~13 centuries apart. Robustness: high.' Graded partial, NOT strong, per METHODOLOGY §9 honesty contract: even Ubuntu↔Golden-Rule is 'strongest independence candidate,' never 'proven'; residual caveat that the Golden Rule / one-body motif may recur from common human psychology rather than independent discovery (wave-2/08: 'plausibly independent (universal experience) but cross-pollination possible'). Never mark 'proven independent' — only 'no known transmission channel.'"
+prov:
+  minted_by: "claude-code:s4-convergence-edge-v1"
+  date: 2026-07-17
+notes: "Ubuntu ↔ Saadi one-body solidarity. No known transmission channel between Nguni oral tradition and 13th-c. Persian Sufism; among the corpus's cleanest independence profiles. Graded partial (honesty) — the strongest the corpus supports, still short of 'strong' because the motif's universality leaves a residual universal-psychology explanation. Companion to e-0048 (Hillel↔Saadi)."

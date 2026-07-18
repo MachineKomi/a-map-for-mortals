@@ -1,0 +1,14 @@
+id: e-0048
+type: CONVERGES_WITH
+from: c-0294
+to: c-0310
+origin: inferred-then-curated
+confidence: moderate
+method: "proposed by claude-code:s4-convergence-edge-v1 from COVERAGE-INDEX §4 (Golden Rule / one-body cluster) + near-eastern report CONV-3 ('Hillel ↔ Sermon on Mount ↔ Saadi — 3 traditions … robustness high — among the most genuinely independent convergences here') + intellectual-history §3."
+independence_basis:
+  grade: partial
+  evidence: "Hillel's triad (c-0294: self-regard and regard for others held together, acted on now; 1st-c. Judea) and Saadi's Bani Adam (c-0310: humankind as limbs of one body; 13th-c. Persia) converge on one-body solidarity / regard-for-others. intellectual-history §3 + near-eastern CONV-3: 'little direct contact between Saadi (13th-c. Persia) and Hillel (1st-c. Judea), ~13 centuries apart. Robustness: high.' Graded partial per METHODOLOGY §9: no documented textual channel between Hillel's mishnah-tradition and Saadi's Sufi Gulistan for this specific maxim, BUT both sit in the Abrahamic one-body/Golden-Rule diffusion field (Sermon on the Mount mediates the wider motif), so a diffuse shared-Abrahamic-milieu channel is plausible and keeps the grade at partial rather than strong. Residual: the Golden Rule is general enough to recur from common psychology."
+prov:
+  minted_by: "claude-code:s4-convergence-edge-v1"
+  date: 2026-07-17
+notes: "Hillel ↔ Saadi one-body solidarity. Downgraded from the report's 'high robustness' to independence partial: though Saadi and Hillel have no direct contact, both draw on a shared Abrahamic wisdom milieu (the Sermon on the Mount, c-0304, is the mediating node) that is a soft transmission channel — a cleaner-independence pair than the Ubuntu pole (e-0047) but not channel-free. Cross-tradition kinship is an S4 edge, NOT a merge (per c-0294/c-0310 survives_scrutiny notes)."

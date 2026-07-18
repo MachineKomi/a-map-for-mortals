@@ -1,0 +1,14 @@
+id: e-0049
+type: FUNCTIONAL_ANALOGY
+from: c-0133
+to: c-0350
+origin: inferred-then-curated
+confidence: low
+method: "proposed by claude-code:s4-convergence-edge-v1 from wave-3/05 §E item 4 ('Buddhist non-attachment / impermanence ↔ hedonic treadmill + impact bias — convergent diagnosis of craving and mis-forecast satisfaction; test whether the mechanisms described actually align or merely rhyme'). Concluded FUNCTIONAL_ANALOGY: overlapping subject, different frameworks/reasons."
+independence_basis:
+  grade: partial
+  evidence: "Not counted as convergence: hedonic adaptation (c-0133: people drift back toward a happiness baseline after windfalls/misfortunes — an empirical, mechanism-graded finding) and the Buddhist four noble truths (c-0350: suffering arises from craving and ceases with its cessation — a soteriological/doctrinal framework) diagnose an overlapping phenomenon (craving/externals do not durably move wellbeing) but from incommensurable frameworks. The empirical claim is descriptive and contested in its strong set-point form; the Buddhist claim is a metaphysical-soteriological diagnosis with a prescribed path. wave-3/05 §E item 4 itself flags 'test whether the mechanisms described actually align or merely rhyme.' Functional analogy; never counted as 'tested across time.'"
+prov:
+  minted_by: "claude-code:s4-convergence-edge-v1"
+  date: 2026-07-17
+notes: "FUNCTIONAL_ANALOGY: hedonic adaptation (c-0133) and the Buddhist diagnosis of craving (c-0350) resonate on the same subject (acquisition/externals don't durably satisfy) but the reasons and frameworks differ (empirical set-point vs soteriological truth). The empirical finding can be read as modern EVIDENCE BEARING ON the Buddhist/ancient desire-critique, but the proposition-level convergence is not asserted. Page copy must not present the modern finding as 'science confirms Buddhism' without the framework-difference caveat."
