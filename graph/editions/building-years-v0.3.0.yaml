@@ -41,11 +41,11 @@ store_counts:
   forks: 2
   dossiers: 2
 render:
-  html: book\renders\building-years-v0.3.0.html
-  html_sha256: null
+  html: book\renders\building-years-v0.2.0.html
+  html_sha256: ec39ce9671aaf7dead178905e4de4426dfcc2e013e08320bff9e2b7c52932cec
   pdf: book\renders\building-years-v0.2.0.pdf
-  pdf_sha256: d73911d34c3cfa3fcbbe2e1935358d32d02a3426a48b8076cc51dabf08b3e70e
-  pdf_bytes: 99530
+  pdf_sha256: 27c4f224aee23bf56fa87f0c66d0123ad03c57c244f8b6a930a5bb39d93a7f7e
+  pdf_bytes: 99529
   note: The HTML is the generator's deterministic output and is the reproducibility
     anchor (re-running build_book.py reproduces it byte-identical). The PDF is a WeasyPrint
     projection that embeds a creation timestamp, so its hash varies across renders
@@ -90,8 +90,8 @@ known_limits:
 - Wave-3 units (u-0347..u-0487) are attested/pending-primary and in-copyright — not
   print-gate candidates; their insights reach a page only as paraphrase, never verbatim.
 note: 'Second hash-closed edition. Same Building Years chapter as v0.2.0 (HTML byte-identical
-  — the S3/S4 work didn''t touch the chapter''s skeleton claims or page-specs), but
-  the manifest records the CORPUS-WIDE GRAPH COMPLETION: 487 units -> 484 claims ->
-  49 edges (S3 + S4 done 2026-07-18, each batch adversarially second-passed). Intellectual-history
-  layer built. Renders against v0.2.0.pdf (same chapter). This is the tag for the
-  next external review.'
+  — S3/S4 didn''t touch the chapter''s skeleton claims or page-specs), but the manifest
+  records the CORPUS-WIDE GRAPH COMPLETION: 487 units -> 484 claims -> 49 edges (S3
+  + S4 done 2026-07-18, each batch adversarially second-passed). Intellectual-history
+  layer built. Renders against v0.2.0.pdf/html (same chapter). Tag for the next external
+  review.'

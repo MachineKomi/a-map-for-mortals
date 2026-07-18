@@ -75,6 +75,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("edition")
     ap.add_argument("--pdf", default=None)
+    ap.add_argument("--html", default=None)
     ap.add_argument("--note", default="")
     args = ap.parse_args()
 
@@ -102,7 +103,7 @@ def main():
     if os.path.isfile(ap_path):
         hashes[f"graph/approvals/{args.edition}.yaml"] = {"sha256": sha256_file(ap_path)}
     pdf_path = args.pdf or os.path.join(ROOT, "book", "renders", f"{args.edition}.pdf")
-    html_path = os.path.join(ROOT, "book", "renders", f"{args.edition}.html")
+    html_path = args.html or os.path.join(ROOT, "book", "renders", f"{args.edition}.html")
     pdf_hash = sha256_file(pdf_path) if os.path.isfile(pdf_path) else None
     pdf_size = os.path.getsize(pdf_path) if os.path.isfile(pdf_path) else None
     # HTML is the generator's deterministic output; the PDF is a WeasyPrint projection that
