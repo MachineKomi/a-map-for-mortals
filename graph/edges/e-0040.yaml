@@ -1,14 +1,14 @@
 id: e-0040
 type: CONVERGES_WITH
-from: c-0085
-to: c-0013
+from: c-0398
+to: c-0085
 origin: inferred-then-curated
 confidence: low
-method: "proposed by claude-code:s4-convergence-edge-v1 from wave-3/01 §E item 3 (luxury trap / hedonic treadmill ↔ ancient warnings on desire) cross-checked against intellectual-history §1/§2."
+method: "proposed by claude-code:s4-convergence-edge-v1 from wave-3/01 §E item 3 (luxury trap / hedonic treadmill ↔ ancient warnings on desire) cross-checked against intellectual-history §1/§2. Re-routed to the Epicurean ancient partner (c-0398) per adversarial pass 2026-07-18 — the original endpoint c-0013 (Schopenhauer) was a modern node, making this a modern↔modern edge dressed as modern↔ancient."
 independence_basis:
   grade: weak
-  evidence: "The convergence of Harari's luxury trap (c-0085: conveniences become necessities, adding up to an unchosen life) with the Cynic/Stoic/Epicurean 'happiness from what one is, not what one has' (c-0013) is at the level of a recurring diagnosis of acquisitive desire. No documented textual channel between Harari and the Hellenistic schools for this specific mechanism, BUT the modern desire-critique descends through a long Western genealogy (Christian→Enlightenment→modern) that makes an unattested channel likely rather than unlikely; graded weak per METHODOLOGY §9 (default to partial only where no channel is plausible — here a diffuse cultural channel is plausible). The Epicurean four-part cure (c-0398) and Buddhist four noble truths (c-0350) are the same cluster."
+  evidence: "The convergence of Harari's luxury trap (c-0085: conveniences become necessities, adding up to an unchosen life) with the Epicurean four-part cure (c-0398, esp. limb 3 'what is good is easy to obtain' — desire-restraint as the route to wellbeing) is at the level of a recurring diagnosis of acquisitive desire. No documented textual channel between Harari and Epicureanism for this specific mechanism, BUT the modern desire-critique descends through a long Western genealogy (Christian→Enlightenment→modern) that makes an unattested channel likely rather than unlikely; graded weak per METHODOLOGY §9 (default to partial only where no channel is plausible — here a diffuse cultural channel is plausible). The Schopenhauer 'happiness from what one is, not what one has' (c-0013) and Buddhist four noble truths (c-0350) are the same wider cluster."
 prov:
   minted_by: "claude-code:s4-convergence-edge-v1"
   date: 2026-07-17
-notes: "Luxury trap ↔ happiness-from-within. The two claims diagnose the same error (acquisition/possession does not deliver wellbeing) from very different frames (evolutionary/behavioural mechanism vs ethical character). Downgraded to weak: the recurrence is robust as a human question but the cultural-genealogy channel is diffuse and unattested-in-corpus for this specific pairing. Stronger ancient partner would be Epicurean c-0398 ('what is good is easy to obtain'); held to c-0013 as the skeleton node."
+notes: "Epicurean desire-cure ↔ luxury trap. Re-routed 2026-07-18 from c-0013 (Schopenhauer, a modern node) to c-0398 (Epicurean Tetrapharmakos, genuinely ancient) per adversarial pass — makes this the modern↔ancient edge it was billed as. The two claims diagnose the same error (acquisition/possession does not deliver wellbeing) from different frames (evolutionary/behavioural mechanism vs philosophical character). Graded weak: the recurrence is robust as a human question but the cultural-genealogy channel is diffuse and unattested-in-corpus for this specific pairing."
